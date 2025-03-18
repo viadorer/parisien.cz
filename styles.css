@@ -617,6 +617,333 @@ footer {
     background-color: transparent;
 }
 
+/* Gastronomie Section */
+.food-highlights {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.food-item {
+    flex-basis: 48%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.food-item h3 {
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.food-item h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.food-item ul {
+    list-style-type: none;
+}
+
+.food-item ul li {
+    padding: 8px 0;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+
+/* Boissons Section */
+.drinks-highlight {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.drinks-item {
+    flex-basis: 48%;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.drinks-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.drinks-item h3 {
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.drinks-item h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+}
+
+.drinks-item ul {
+    list-style-type: none;
+}
+
+.drinks-item ul li {
+    padding: 8px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.drinks-item ul li:before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: #000;
+}
+
+/* Culture Section */
+.culture-highlights {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.culture-item {
+    flex-basis: 48%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.culture-item h3 {
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.culture-item h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.culture-item ul {
+    list-style-type: none;
+}
+
+.culture-item ul li {
+    padding: 8px 0;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+
+/* Museums Section */
+.museums-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.museum-item {
+    flex-basis: calc(33.333% - 20px);
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.museum-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.museum-image {
+    height: 250px;
+    overflow: hidden;
+}
+
+.museum-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.museum-item:hover .museum-image img {
+    transform: scale(1.1);
+}
+
+.museum-info {
+    padding: 20px;
+}
+
+.museum-info h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+/* Recipes Section */
+.recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.recipe-card {
+    flex-basis: calc(50% - 15px);
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.recipe-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+}
+
+.recipe-difficulty {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.recipe-ingredients h4 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.recipe-ingredients ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.recipe-ingredients ul li {
+    padding: 5px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.recipe-ingredients ul li:before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+
+.recipe-instructions {
+    margin-top: 20px;
+    font-style: italic;
+    line-height: 1.8;
+}
+
+/* Blog Section */
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.blog-post {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background-color: #000;
+}
+
+.post-date {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.blog-post h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.post-excerpt {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.read-more {
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.read-more:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.read-more:hover:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     header {
@@ -667,6 +994,23 @@ footer {
         justify-content: center;
         gap: 15px;
     }
+    
+    /* Responzivní styly pro nové sekce */
+    .food-item, .drinks-item, .culture-item {
+        flex-basis: 100%;
+    }
+    
+    .museum-item {
+        flex-basis: calc(50% - 15px);
+    }
+    
+    .recipe-card {
+        flex-basis: 100%;
+    }
+    
+    .blog-post {
+        padding: 20px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -680,5 +1024,22 @@ footer {
     
     .section h2 {
         font-size: 30px;
+    }
+    
+    .museum-item {
+        flex-basis: 100%;
+    }
+    
+    .blog-post h3 {
+        font-size: 20px;
+    }
+    
+    .recipe-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .recipe-difficulty {
+        margin-top: 10px;
     }
 }
