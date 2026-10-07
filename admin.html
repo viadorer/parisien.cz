@@ -65,6 +65,7 @@
     <section id="app" hidden>
       <div class="tabs">
         <button data-tab="posts" aria-pressed="true">Články</button>
+        <button data-tab="gallery" aria-pressed="false">Fotogalerie</button>
         <button data-tab="messages" aria-pressed="false">Zprávy z formuláře</button>
       </div>
 
@@ -113,6 +114,33 @@
             <button class="btn" type="submit">Uložit</button>
             <button class="btn sec" type="button" id="cancel">Zavřít</button>
           </div>
+        </form>
+      </div>
+
+      <div id="tab-gallery" hidden>
+        <div id="g-list" class="box"></div>
+        <form id="g-editor" class="box" hidden>
+          <h2 id="g-title" style="margin-top:0">Nová fotka</h2>
+          <input type="hidden" id="g-id">
+          <label for="g-url">Obrázek (https:// URL)</label>
+          <div class="row">
+            <input class="grow" type="url" id="g-image" placeholder="https://…" required>
+            <input type="file" id="g-file" accept="image/jpeg,image/png,image/webp" hidden>
+            <button type="button" class="btn sec" id="g-upload">Nahrát do R2</button>
+          </div>
+          <img id="g-preview" class="thumb" alt="" hidden style="width:160px;height:107px;margin-top:8px">
+          <div class="cols">
+            <div><label for="g-title-fr">Légende (FR)</label><input type="text" id="g-title-fr" maxlength="200"></div>
+            <div><label for="g-title-cs">Popisek (CS)</label><input type="text" id="g-title-cs" maxlength="200"></div>
+          </div>
+          <div class="row">
+            <div class="grow"><label for="g-author">Autor fotky</label><input type="text" id="g-author" maxlength="100" placeholder="Jméno studenta (jen s jeho souhlasem)"></div>
+            <div class="grow"><label for="g-place">Místo</label><input type="text" id="g-place" maxlength="120" placeholder="Paříž, Versailles, Štrasburk…"></div>
+          </div>
+          <label for="g-credit">Kredit / licence (volitelné)</label><input type="text" id="g-credit" maxlength="200" placeholder="vlastní fotografie / CC BY-SA 4.0 …">
+          <label class="row"><input type="checkbox" id="g-pub" checked> Zveřejněno</label>
+          <p class="hint">Nahrávejte jen fotky, jejichž autor souhlasí se zveřejněním. Bez zřetelně identifikovatelných osob, pokud nemáte souhlas.</p>
+          <div class="row"><button class="btn" type="submit">Uložit</button><button class="btn sec" type="button" id="g-cancel">Zavřít</button></div>
         </form>
       </div>
 

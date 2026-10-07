@@ -1,0 +1,395 @@
+{
+ "museums:louvre": {
+  "lat": 48.86115,
+  "lon": 2.33803,
+  "src": "osm",
+  "found": "Musée du Louvre, Quai François Mitterrand, Saint-Germain-l'Auxerrois, Paris 1er "
+ },
+ "museums:orsay": {
+  "lat": 48.85992,
+  "lon": 2.32658,
+  "src": "osm",
+  "found": "Musée d'Orsay, 1, Rue de la Légion d'Honneur, Quartier Saint-Thomas-d'Aquin, Par"
+ },
+ "museums:orangerie": {
+  "lat": 48.86377,
+  "lon": 2.32266,
+  "src": "osm",
+  "found": "Musée de l'Orangerie, Quai des Tuileries, Saint-Germain-l'Auxerrois, Paris 1er A"
+ },
+ "museums:pompidou": {
+  "lat": 48.8605,
+  "lon": 2.35242,
+  "src": "osm",
+  "found": "Centre Georges Pompidou, 19, Rue Beaubourg, Quartier Saint-Merri, Paris 4e Arron"
+ },
+ "museums:rodin": {
+  "lat": 48.85475,
+  "lon": 2.31587,
+  "src": "osm",
+  "found": "Musée Rodin, 77, Rue de Varenne, Quartier des Invalides, Paris 7e Arrondissement"
+ },
+ "museums:picasso": {
+  "lat": 48.85987,
+  "lon": 2.36212,
+  "src": "osm",
+  "found": "Musée national Picasso-Paris, 5, Rue de Thorigny, Quartier des Archives, Paris 3"
+ },
+ "museums:carnavalet": {
+  "lat": 48.85732,
+  "lon": 2.36247,
+  "src": "osm",
+  "found": "Musée Carnavalet, Rue Madame de Sévigné, Quartier des Archives, Paris 3e Arrondi"
+ },
+ "museums:cluny": {
+  "lat": 48.8506,
+  "lon": 2.3438,
+  "src": "manual"
+ },
+ "museums:branly": {
+  "lat": 48.86099,
+  "lon": 2.29797,
+  "src": "osm",
+  "found": "Musée du quai Branly, 37, Quai Branly, Quartier du Gros-Caillou, Paris 7e Arrond"
+ },
+ "museums:marmottan": {
+  "lat": 48.85941,
+  "lon": 2.26726,
+  "src": "osm",
+  "found": "Musée Marmottan Monet, 2, Rue Louis Boilly, Quartier de la Muette, Paris 16e Arr"
+ },
+ "museums:petitpalais": {
+  "lat": 48.86604,
+  "lon": 2.31535,
+  "src": "osm",
+  "found": "Petit Palais, Musée des beaux-arts de la Ville de Paris, Avenue Winston Churchil"
+ },
+ "museums:artsmetiers": {
+  "lat": 48.8661,
+  "lon": 2.35541,
+  "src": "osm",
+  "found": "Musée des Arts et Métiers, 60, Rue Réaumur, Quartier des Arts-et-Métiers, Paris "
+ },
+ "places:tour-eiffel": {
+  "lat": 48.8584,
+  "lon": 2.2945,
+  "src": "data"
+ },
+ "places:notre-dame": {
+  "lat": 48.853,
+  "lon": 2.3499,
+  "src": "data"
+ },
+ "places:sacre-coeur-montmartre": {
+  "lat": 48.8867,
+  "lon": 2.3431,
+  "src": "data"
+ },
+ "places:arc-de-triomphe": {
+  "lat": 48.8738,
+  "lon": 2.295,
+  "src": "data"
+ },
+ "places:sainte-chapelle": {
+  "lat": 48.8553,
+  "lon": 2.345,
+  "src": "data"
+ },
+ "places:pantheon": {
+  "lat": 48.8462,
+  "lon": 2.3461,
+  "src": "data"
+ },
+ "places:jardin-du-luxembourg": {
+  "lat": 48.8469,
+  "lon": 2.3369,
+  "src": "data"
+ },
+ "places:pont-neuf": {
+  "lat": 48.8567,
+  "lon": 2.3408,
+  "src": "data"
+ },
+ "places:pere-lachaise": {
+  "lat": 48.8611,
+  "lon": 2.3942,
+  "src": "data"
+ },
+ "places:place-des-vosges": {
+  "lat": 48.8556,
+  "lon": 2.3655,
+  "src": "data"
+ },
+ "places:opera-garnier": {
+  "lat": 48.872,
+  "lon": 2.3317,
+  "src": "data"
+ },
+ "places:palais-royal": {
+  "lat": 48.8634,
+  "lon": 2.3369,
+  "src": "data"
+ },
+ "places:canal-saint-martin": {
+  "lat": 48.8722,
+  "lon": 2.3667,
+  "src": "data"
+ },
+ "places:chateau-de-versailles": {
+  "lat": 48.80443,
+  "lon": 2.12029,
+  "src": "osm",
+  "found": "Château de Versailles, Rue de la Chancellerie, Saint-Louis, Versailles, Yvelines"
+ },
+ "quartiers:le-marais": {
+  "lat": 48.86038,
+  "lon": 2.36074,
+  "src": "osm",
+  "found": "Le Marais, Paris, Île-de-France, France métropolitaine, France"
+ },
+ "quartiers:quartier-latin": {
+  "lat": 48.8486,
+  "lon": 2.34252,
+  "src": "osm",
+  "found": "Quartier latin, Paris, Île-de-France, France métropolitaine, 75005, France"
+ },
+ "quartiers:saint-germain-des-pres": {
+  "lat": 48.85443,
+  "lon": 2.33371,
+  "src": "osm",
+  "found": "Quartier de Saint-Germain-des-Prés, Paris 6e Arrondissement, Paris, Île-de-Franc"
+ },
+ "quartiers:montmartre": {
+  "lat": 48.88546,
+  "lon": 2.33915,
+  "src": "osm",
+  "found": "Montmartre, Paris, Île-de-France, France métropolitaine, France"
+ },
+ "quartiers:belleville": {
+  "lat": 48.87173,
+  "lon": 2.38509,
+  "src": "osm",
+  "found": "Quartier de Belleville, Paris 20e Arrondissement, Paris, Île-de-France, France m"
+ },
+ "quartiers:canal-saint-martin-republique": {
+  "lat": 48.87709,
+  "lon": 2.36604,
+  "src": "osm",
+  "found": "Canal Saint-Martin, Rue des Écluses Saint-Martin, Quartier de l'Hôpital Saint-Lo"
+ },
+ "quartiers:montparnasse": {
+  "lat": 48.84348,
+  "lon": 2.3283,
+  "src": "osm",
+  "found": "Montparnasse, Paris, Île-de-France, France métropolitaine, 75006, France"
+ },
+ "quartiers:butte-aux-cailles": {
+  "lat": 48.82771,
+  "lon": 2.34968,
+  "src": "osm",
+  "found": "Butte-aux-Cailles, Paris 13e Arrondissement, Paris, Île-de-France, France métrop"
+ },
+ "cafes:cafe-de-flore": {
+  "lat": 48.85414,
+  "lon": 2.33263,
+  "src": "osm",
+  "found": "Café de Flore, Rue Saint-Benoît, Quartier de Saint-Germain-des-Prés, Paris 6e Ar"
+ },
+ "cafes:les-deux-magots": {
+  "lat": 48.85407,
+  "lon": 2.33306,
+  "src": "osm",
+  "found": "Les Deux Magots, 6, Place Saint-Germain des Prés, Quartier de Saint-Germain-des-"
+ },
+ "cafes:le-procope": {
+  "lat": 48.85306,
+  "lon": 2.33875,
+  "src": "osm",
+  "found": "Le Procope, Rue de l'Ancienne Comédie, Quartier de la Monnaie, Paris 6e Arrondis"
+ },
+ "cafes:closerie-des-lilas": {
+  "lat": 48.84011,
+  "lon": 2.33605,
+  "src": "osm",
+  "found": "La Closerie des Lilas, Rue Notre-Dame-des-Champs, Quartier Notre-Dame-des-Champs"
+ },
+ "cafes:cafe-de-la-paix": {
+  "lat": 48.87077,
+  "lon": 2.3317,
+  "src": "osm",
+  "found": "Café de la Paix, Boulevard des Capucines, Quartier de la Chaussée-d'Antin, Paris"
+ },
+ "cafes:la-rotonde": {
+  "lat": 48.84236,
+  "lon": 2.32921,
+  "src": "osm",
+  "found": "La Rotonde, 105, Boulevard du Montparnasse, Quartier Notre-Dame-des-Champs, Pari"
+ },
+ "cafes:le-select": {
+  "lat": 48.84262,
+  "lon": 2.32839,
+  "src": "osm",
+  "found": "Le Select, 99, Boulevard du Montparnasse, Quartier Notre-Dame-des-Champs, Paris "
+ },
+ "cafes:angelina": {
+  "lat": 48.86508,
+  "lon": 2.32841,
+  "src": "osm",
+  "found": "Angelina, 226, Rue de Rivoli, Quartier Vendôme, Paris 1er Arrondissement, Paris,"
+ },
+ "markets:aligre": {
+  "lat": 48.84887,
+  "lon": 2.37805,
+  "src": "osm",
+  "found": "Marché d'Aligre, Rue de Cotte, Quartier des Quinze-Vingts, Paris 12e Arrondissem"
+ },
+ "markets:enfants-rouges": {
+  "lat": 48.8628,
+  "lon": 2.36197,
+  "src": "osm",
+  "found": "Marché couvert des Enfants Rouges, Rue Charlot, Quartier des Enfants-Rouges, Par"
+ },
+ "markets:bastille": {
+  "lat": 48.85484,
+  "lon": 2.36989,
+  "src": "osm",
+  "found": "Marché Bastille, Esplanade Roger Joseph Boscovich, Quartier de la Roquette, Pari"
+ },
+ "markets:belleville": {
+  "lat": 48.86739,
+  "lon": 2.38406,
+  "src": "osm",
+  "found": "le marché d'à côté, Rue de Ménilmontant, Quartier de Belleville, Paris 20e Arron"
+ },
+ "markets:mouffetard": {
+  "lat": 48.84345,
+  "lon": 2.34949,
+  "src": "osm",
+  "found": "Rue Mouffetard, Quartier du Val-de-Grâce, Paris 5e Arrondissement, Paris, Île-de"
+ },
+ "stage:palais-garnier": {
+  "lat": 48.87203,
+  "lon": 2.33179,
+  "src": "osm",
+  "found": "Opéra Garnier, Rue Gluck, Quartier de la Chaussée-d'Antin, Paris 9e Arrondisseme"
+ },
+ "stage:opera-bastille": {
+  "lat": 48.8515,
+  "lon": 2.37074,
+  "src": "osm",
+  "found": "Opéra Bastille, Rue Biscornet, Quartier des Quinze-Vingts, Paris 12e Arrondissem"
+ },
+ "stage:comedie-francaise": {
+  "lat": 48.8634,
+  "lon": 2.3363,
+  "src": "manual"
+ },
+ "stage:philharmonie": {
+  "lat": 48.89192,
+  "lon": 2.39414,
+  "src": "osm",
+  "found": "Philharmonie de Paris, Boulevard Sérurier, Quartier du Pont-de-Flandre, Paris 19"
+ },
+ "stage:chatelet": {
+  "lat": 48.85779,
+  "lon": 2.34626,
+  "src": "osm",
+  "found": "Théâtre du Châtelet, 1, Place du Châtelet, Saint-Germain-l'Auxerrois, Paris 1er "
+ },
+ "stage:olympia": {
+  "lat": 48.87024,
+  "lon": 2.32836,
+  "src": "osm",
+  "found": "L'Olympia, Square des Capucines, Quartier de la Chaussée-d'Antin, Paris 9e Arron"
+ },
+ "stage:theatre-de-la-ville": {
+  "lat": 48.85728,
+  "lon": 2.34807,
+  "src": "osm",
+  "found": "Théâtre de la Ville, Avenue Victoria, Quartier Saint-Merri, Paris 4e Arrondissem"
+ },
+ "stage:cirque-d-hiver": {
+  "lat": 48.8655,
+  "lon": 2.3667,
+  "src": "manual"
+ },
+ "stage:la-cigale": {
+  "lat": 48.88248,
+  "lon": 2.34013,
+  "src": "osm",
+  "found": "La Cigale, 120, Boulevard de Rochechouart, Quartier de Clignancourt, Paris 18e A"
+ },
+ "literature:shakespeare-and-company": {
+  "lat": 48.85257,
+  "lon": 2.34711,
+  "src": "osm",
+  "found": "Shakespeare and Company, 37, Rue de la Bûcherie, Quartier de la Sorbonne, Paris "
+ },
+ "literature:bouquinistes": {
+  "lat": 48.8571,
+  "lon": 2.3412,
+  "src": "manual"
+ },
+ "literature:maison-victor-hugo": {
+  "lat": 48.8548,
+  "lon": 2.36614,
+  "src": "osm",
+  "found": "Maison de Victor Hugo, 6, Place des Vosges, Quartier de l'Arsenal, Paris 4e Arro"
+ },
+ "literature:bnf-richelieu": {
+  "lat": 48.8681,
+  "lon": 2.3361,
+  "src": "manual"
+ },
+ "literature:flore-deux-magots": {
+  "lat": 48.8541,
+  "lon": 2.3328,
+  "src": "manual"
+ },
+ "literature:musee-vie-romantique": {
+  "lat": 48.88135,
+  "lon": 2.33352,
+  "src": "osm",
+  "found": "Musée de la Vie Romantique, 16, Rue Chaptal, Quartier Saint-Georges, Paris 9e Ar"
+ },
+ "literature:pantheon": {
+  "lat": 48.8462,
+  "lon": 2.3464,
+  "src": "manual"
+ },
+ "literature:pere-lachaise": {
+  "lat": 48.86113,
+  "lon": 2.39401,
+  "src": "osm",
+  "found": "Cimetière du Père-Lachaise, 8, Boulevard de Ménilmontant, Quartier du Père-Lacha"
+ },
+ "cinema:cinematheque-francaise": {
+  "lat": 48.837,
+  "lon": 2.38264,
+  "src": "osm",
+  "found": "Cinémathèque Française, Rue de Bercy, Quartier de Bercy, Paris 12e Arrondissemen"
+ },
+ "cinema:le-champo": {
+  "lat": 48.84997,
+  "lon": 2.34315,
+  "src": "osm",
+  "found": "Le Champo, Rue Champollion, Quartier de la Sorbonne, Paris 5e Arrondissement, Pa"
+ },
+ "cinema:grand-rex": {
+  "lat": 48.87053,
+  "lon": 2.34765,
+  "src": "osm",
+  "found": "Le Grand Rex, Boulevard Poissonnière, Quartier du Mail, Paris 2e Arrondissement,"
+ },
+ "cinema:max-linder-panorama": {
+  "lat": 48.87138,
+  "lon": 2.34481,
+  "src": "osm",
+  "found": "Max Linder Panorama, Boulevard Poissonnière, Quartier du Faubourg-Montmartre, Pa"
+ },
+ "cinema:grand-cafe-lumiere": {
+  "lat": 48.8707,
+  "lon": 2.3301,
+  "src": "manual"
+ }
+}

@@ -12,7 +12,7 @@
     for (const k of kids.flat()) if (k != null && k !== false) n.append(k instanceof Node ? k : document.createTextNode(k));
     return n;
   };
-  const safeUrl = (u) => (/^https:\/\//.test(u || '') ? u : '');
+  const safeUrl = (u) => (/^(https:\/\/|\/images\/)/.test(u || '') ? u : '');
   const pick = (o) => (o && (o[lang] || o[lang === 'cs' ? 'fr' : 'cs'])) || '';
   const fmtDay = (iso, opts) => new Date(iso).toLocaleDateString(loc, { timeZone: 'Europe/Paris', ...opts });
 
@@ -161,8 +161,8 @@
 
   // ---------- galerie + lightbox ----------
   const gal = $('#gallery');
-  if (gal) {
-    $$('.filters .chip[data-filter]').forEach((b) => b.addEventListener('click', () => {
+  if (gal || $('#student-gallery')) {
+    if (gal) $$('.filters .chip[data-filter]').forEach((b) => b.addEventListener('click', () => {
       $$('.filters .chip').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
       $$('.g-item', gal).forEach((f) => { f.hidden = b.dataset.filter !== 'all' && f.dataset.cat !== b.dataset.filter; });
     }));
@@ -172,12 +172,80 @@
     dlg.append(close, img, cap, cred); document.body.append(dlg);
     close.addEventListener('click', () => dlg.close());
     dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
-    gal.addEventListener('click', (e) => {
-      const a = e.target.closest('a[data-full]'); if (!a) return;
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('.gallery-grid a[data-full]'); if (!a) return;
       e.preventDefault();
       img.src = a.dataset.full; img.alt = a.dataset.caption; cap.textContent = a.dataset.caption;
       cred.textContent = a.dataset.credit; cred.href = a.dataset.page; dlg.showModal();
     });
+  }
+
+  // ---------- fotky studentů ----------
+  const sg = $('#student-gallery');
+  if (sg) {
+    fetch('/api/gallery').then((r) => r.json()).then(({ items }) => {
+      if (!items?.length) { sg.closest('section').hidden = true; return; }
+      sg.replaceChildren(...items.filter((g) => safeUrl(g.url)).map((g) => {
+        const cap = pick(g.title) || g.place || '';
+        const credit = [g.author && `© ${g.author}`, g.credit, g.place].filter(Boolean).join(' · ');
+        return el('figure', { class: 'photo g-item' },
+          el('a', { href: g.url, 'data-full': g.url, 'data-caption': cap, 'data-credit': credit, 'data-page': g.url }, el('img', { src: g.url, alt: cap, loading: 'lazy' })),
+          el('figcaption', {}, cap, credit ? el('span', { class: 'credit-inline' }, credit) : null));
+      }));
+    }).catch(() => { sg.closest('section').hidden = true; });
+  }
+
+  // ---------- mapa ----------
+  const mapEl = $('#map');
+  if (mapEl) {
+    const start = () => {
+      if (!window.L || !window.L.map) return setTimeout(start, 100);
+      const LF = window.L;
+      const { types, points } = JSON.parse($('#map-data').textContent);
+      const map = LF.map(mapEl, { scrollWheelZoom: false }).setView([48.8566, 2.3522], 12);
+      LF.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+      map.on('focus', () => map.scrollWheelZoom.enable()); map.on('blur', () => map.scrollWheelZoom.disable());
+      const layers = {}, markers = [];
+      for (const k of Object.keys(types)) layers[k] = LF.layerGroup().addTo(map);
+      layers.events = LF.layerGroup();
+      const popup = (title, text, href, label) => {
+        const box = el('div', { class: 'map-pop' }, el('strong', {}, title));
+        if (label) box.append(el('br'), el('small', {}, label));
+        if (text) box.append(el('p', {}, text));
+        if (href) box.append(el('a', { href, ...(href.startsWith('https://') ? { target: '_blank', rel: 'noopener' } : {}) }, L('Voir la fiche →', 'Zobrazit podrobnosti →')));
+        return box;
+      };
+      for (const p of points) {
+        const m = LF.circleMarker([p.lat, p.lon], { radius: 8, color: '#fff', weight: 2, fillColor: types[p.t].color, fillOpacity: 0.95 }).bindPopup(popup(p.n, p.d, p.h, types[p.t].label));
+        m.addTo(layers[p.t]); markers.push({ m, p });
+      }
+      let evLoaded = false;
+      const loadEv = () => {
+        if (evLoaded) return; evLoaded = true;
+        fetch('/api/events?when=week&limit=48').then((r) => r.json()).then(({ events }) => {
+          for (const e of events) {
+            if (e.lat == null || e.lon == null) continue;
+            LF.circleMarker([e.lat, e.lon], { radius: 6, color: '#fff', weight: 2, fillColor: '#000', fillOpacity: 0.9 })
+              .bindPopup(popup(e.title, `${dateRange(e)}${e.place ? ' · ' + e.place : ''}`, safeUrl(e.url), L('Événement', 'Akce'))).addTo(layers.events);
+          }
+        }).catch(() => {});
+      };
+      $$('#map-filters .map-chip').forEach((b) => b.addEventListener('click', () => {
+        const on = b.getAttribute('aria-pressed') !== 'true';
+        b.setAttribute('aria-pressed', String(on));
+        const g = layers[b.dataset.layer];
+        if (on) { g.addTo(map); if (b.dataset.layer === 'events') loadEv(); } else map.removeLayer(g);
+      }));
+      $('#map-q').addEventListener('input', (e) => {
+        const q = e.target.value.trim().toLowerCase();
+        for (const { m, p } of markers) {
+          const hit = !q || p.n.toLowerCase().includes(q);
+          m.setStyle({ fillOpacity: hit ? 0.95 : 0.12, opacity: hit ? 1 : 0.2 });
+          if (hit && q && markers.filter((x) => x.p.n.toLowerCase().includes(q)).length === 1) { map.setView([p.lat, p.lon], 15); m.openPopup(); }
+        }
+      });
+    };
+    start();
   }
 
   // ---------- kvíz ----------

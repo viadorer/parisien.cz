@@ -37,6 +37,7 @@
     $('#app').hidden = !me.authed;
     $('#logout').hidden = !me.authed;
     $('#f-upload').disabled = !me.r2;
+    $('#g-upload').disabled = !me.r2;
     $('#list').hidden = !me.db;
     if (me.authed && me.db) await loadPosts();
   }
@@ -154,8 +155,61 @@
     document.querySelectorAll('.tabs button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
     $('#tab-posts').hidden = b.dataset.tab !== 'posts';
     $('#tab-messages').hidden = b.dataset.tab !== 'messages';
+    $('#tab-gallery').hidden = b.dataset.tab !== 'gallery';
     if (b.dataset.tab === 'messages') await loadMessages();
+    if (b.dataset.tab === 'gallery') await loadGallery();
   })));
+
+  // ---------- galerie studentů ----------
+  let gItems = [];
+  const gPreview = (u) => { const i = $('#g-preview'); i.hidden = !u; if (u) i.src = u; };
+  async function loadGallery() {
+    if (!me.db) return $('#g-list').replaceChildren('Databáze není připojena.');
+    gItems = (await call('gallery-list', {})).items; renderGallery();
+  }
+  function renderGallery() {
+    $('#g-list').replaceChildren(
+      el('div', { class: 'row' }, el('h2', { style: 'margin:0 auto 0 0' }, `Fotogalerie (${gItems.length})`),
+        Object.assign(el('button', { class: 'btn', type: 'button' }, '+ Nová fotka'), { onclick: () => openGallery() })),
+      ...gItems.map((g) => el('div', { class: 'item' },
+        el('img', { class: 'thumb', src: g.image_url, alt: '' }),
+        el('div', { class: 'grow' }, el('strong', {}, g.title_fr || g.title_cs || '(bez popisku)'), ' ',
+          el('span', { class: g.published ? 'badge' : 'badge draft' }, g.published ? 'zveřejněno' : 'skryto'), el('br'),
+          el('small', {}, [g.author, g.place].filter(Boolean).join(' · '))),
+        Object.assign(el('button', { class: 'btn sec', type: 'button' }, 'Upravit'), { onclick: () => openGallery(g) }),
+        Object.assign(el('button', { class: 'btn danger', type: 'button' }, 'Smazat'), {
+          onclick: guard(async () => { if (!confirm('Smazat fotku?')) return; await call('gallery-delete', { id: g.id }); toast('Smazáno.'); await loadGallery(); }),
+        }))));
+  }
+  function openGallery(g) {
+    $('#g-editor').hidden = false;
+    $('#g-title').textContent = g ? 'Upravit fotku' : 'Nová fotka';
+    $('#g-id').value = g?.id ?? ''; $('#g-image').value = g?.image_url ?? ''; gPreview(g?.image_url);
+    $('#g-title-fr').value = g?.title_fr ?? ''; $('#g-title-cs').value = g?.title_cs ?? '';
+    $('#g-author').value = g?.author ?? ''; $('#g-place').value = g?.place ?? ''; $('#g-credit').value = g?.credit ?? '';
+    $('#g-pub').checked = g ? g.published : true;
+    $('#g-editor').scrollIntoView({ behavior: 'smooth' });
+  }
+  $('#g-editor').addEventListener('submit', guard(async (e) => {
+    e.preventDefault();
+    await call('gallery-save', { id: $('#g-id').value || null, image_url: $('#g-image').value.trim(), title_fr: $('#g-title-fr').value, title_cs: $('#g-title-cs').value,
+      author: $('#g-author').value, place: $('#g-place').value, credit: $('#g-credit').value, published: $('#g-pub').checked });
+    toast('Uloženo.'); $('#g-editor').hidden = true; await loadGallery();
+  }));
+  $('#g-cancel').onclick = () => { $('#g-editor').hidden = true; };
+  $('#g-image').addEventListener('input', (e) => gPreview(e.target.value.trim()));
+  $('#g-upload').onclick = () => $('#g-file').click();
+  $('#g-file').addEventListener('change', guard(async (e) => {
+    const file = e.target.files[0]; e.target.value = ''; if (!file) return;
+    const btn = $('#g-upload'); btn.disabled = true; btn.textContent = 'Nahrávám…';
+    try {
+      const blob = await shrink(file);
+      const { uploadUrl, publicUrl } = await call('upload', { contentType: blob.type, size: blob.size });
+      const r = await fetch(uploadUrl, { method: 'PUT', headers: { 'Content-Type': blob.type }, body: blob });
+      if (!r.ok) throw new Error('Nahrání do R2 selhalo (zkontrolujte CORS bucketu, viz README).');
+      $('#g-image').value = publicUrl; gPreview(publicUrl); toast('Obrázek nahrán.');
+    } finally { btn.disabled = !me.r2; btn.textContent = 'Nahrát do R2'; }
+  }));
 
   $('#login-form').addEventListener('submit', guard(async (e) => {
     e.preventDefault();

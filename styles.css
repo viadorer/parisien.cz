@@ -1262,3 +1262,15 @@ select option { color: #000; }
   .article h1 { font-size: 32px; }
   .vocab td:first-child { width: auto; }
 }
+
+/* ---- mapa ---- */
+.map-tools { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.map-chip i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 7px; vertical-align: -1px; }
+.map-search input { width: 260px; max-width: 100%; padding: 10px 14px; border: 1px solid #000; background: #fff; color: #000; font: 14px 'Montserrat', sans-serif; }
+.map { height: 72vh; min-height: 420px; width: 100%; border: 1px solid #000; z-index: 1; }
+.map-pop { font-family: 'Montserrat', sans-serif; max-width: 240px; }
+.map-pop p { margin: 6px 0; font-size: 13px; line-height: 1.5; }
+.map-pop small { color: #777; text-transform: uppercase; letter-spacing: 1px; }
+.map-pop a { color: #000; font-weight: 600; font-size: 13px; text-decoration: underline; }
+.map-search input::placeholder, .ev-filters input::placeholder { color: #777; }
+.map-search input, .ev-filters input[type=search] { color: #000; }

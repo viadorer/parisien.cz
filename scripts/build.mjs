@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Build: data/*.json → dist/{fr,cs}/*.html (statické, SEO) + lib/articles.generated.js (úvodní články pro DB).
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync, readdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { layout, esc, pick, figure, SITE, stdUrl, std } from '../lib/layout.js';
 
 const ROOT = new URL('..', import.meta.url).pathname;
@@ -16,6 +17,16 @@ const recipes = rd('recipes.json', []);
 const culture = rd('culture.json', {});
 const learn = rd('learn.json', {});
 const gallery = rd('gallery.json', []);
+const coords = rd('coords.json', {});
+
+// ---------- místní kopie fotek (scripts/mirror-photos.mjs) ----------
+const photoId = (file) => createHash('sha1').update(file).digest('hex').slice(0, 10);
+const hasLocal = (file) => existsSync(`${ROOT}images/photos/${photoId(file)}.jpg`) && existsSync(`${ROOT}images/photos/${photoId(file)}-s.jpg`);
+const localByName = new Map();   // název souboru v URL → id
+const registerPhoto = (o) => { if (o.file && o.url && hasLocal(o.file)) localByName.set(o.url.split('/').pop().split('?')[0], photoId(o.file)); };
+const localize = (html) => html.replace(/https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\/([^"'\s<>)]*?(?:\([^"'\s<>)]*\))*[^"'\s<>)]*?)\?width=(\d+)/g, (m, name, w) => {
+  const id = localByName.get(name.replace(/&#39;/g, "'")); return id ? `/images/photos/${id}${Number(w) <= 960 ? '-s' : ''}.jpg` : m;
+});
 
 // ---------- články → úvodní data pro DB ----------
 const articles = existsSync(`${ROOT}data/articles`)
@@ -25,7 +36,7 @@ const seed = articles.map((a) => ({
   slug: a.slug, category: a.category || 'paris', author: a.author || 'Rédaction parisien.cz', published_at: a.published_at,
   title_fr: a.title_fr || '', title_cs: a.title_cs || '', excerpt_fr: a.excerpt_fr || '', excerpt_cs: a.excerpt_cs || '',
   body_fr: a.body_fr || '', body_cs: a.body_cs || '',
-  cover_url: a.photo?.url ? a.photo.url.replace(/width=\d+/, `width=${std(960)}`) : '', cover_credit: a.photo ? `${a.photo.author} · ${a.photo.license}` : '', cover_credit_url: a.photo?.page || '',
+  cover_url: a.photo?.url ? (hasLocal(a.photo.file) ? `/images/photos/${photoId(a.photo.file)}.jpg` : a.photo.url.replace(/width=\d+/, `width=${std(960)}`)) : '', cover_credit: a.photo ? `${a.photo.author} · ${a.photo.license}` : '', cover_credit_url: a.photo?.page || '',
   sources: JSON.stringify(a.sources || []),
 }));
 writeFileSync(`${ROOT}lib/articles.generated.js`, `// GENEROVÁNO scripts/build.mjs z data/articles/*.json – needitovat ručně.\nexport default ${JSON.stringify(seed, null, 1)};\n`);
@@ -37,7 +48,7 @@ const link = (url, label) => (url ? `<a class="read-more" href="${esc(url)}" tar
 const allPhotos = [];
 const collect = (obj) => {
   if (!obj || typeof obj !== 'object') return;
-  if (obj.license && obj.page && obj.url) { allPhotos.push(obj); return; }
+  if (obj.license && obj.page && obj.url) { allPhotos.push(obj); registerPhoto(obj); return; }
   for (const v of Object.values(obj)) collect(v);
 };
 
@@ -109,7 +120,7 @@ ${sec('dark', `<h2>${esc(L('Vous avez voyagé ? Racontez-le !', 'Cestovali jste?
 pages['/paris'] = (lang) => {
   const L = (fr, cs) => (lang === 'cs' ? cs : fr);
   const row = (p, i) => `<article class="place-row${i % 2 ? ' rev' : ''}" id="${esc(p.id)}">
-  ${figure(p.photo, { alt: pick(p.name, lang), width: 900 })}
+  ${figure(p.photo, { alt: pick(p.name, lang), width: 1280 })}
   <div class="place-text"><h3>${esc(pick(p.name, lang))}</h3><span class="museum-tag">${esc(pick(p.area, lang))}</span>
   <p>${esc(pick(p.intro, lang))}</p><p>${esc(pick(p.history, lang))}</p>
   ${p.facts ? li(p.facts[lang]) : ''}
@@ -152,7 +163,8 @@ pages['/galerie'] = (lang) => {
     description: L('Paris en photos libres de droits (Wikimedia Commons) : monuments, Seine, quartiers, musées, gastronomie.', 'Paříž na svobodných fotografiích (Wikimedia Commons): památky, Seina, čtvrti, muzea, gastronomie.'),
     body: head(lang, 'galerie', L('Galerie photo', 'Fotogalerie'), L('De vraies photos, sous licence libre. Cliquez pour agrandir ; l’auteur est indiqué sous chaque image.', 'Skutečné fotografie pod svobodnou licencí. Kliknutím zvětšíte; autor je uveden pod každým obrázkem.'))
       + sec('', `<div class="filters" role="group" aria-label="${esc(L('Catégories', 'Kategorie'))}"><button class="chip" data-filter="all" aria-pressed="true">${esc(L('Tout', 'Vše'))}</button>${present.map((c) => `<button class="chip" data-filter="${c}" aria-pressed="false">${esc(cats[c][lang === 'cs' ? 1 : 0])}</button>`).join('')}</div>
-<div class="gallery-grid" id="gallery">${gallery.map((g) => `<figure class="photo g-item" data-cat="${esc(g.category)}"><a href="${esc(g.photo.url.replace(/width=\d+/, 'width=1600'))}" data-full="${esc(g.photo.url.replace(/width=\d+/, 'width=1600'))}" data-caption="${esc(pick(g.caption, lang))}" data-credit="© ${esc(g.photo.author)} · ${esc(g.photo.license)}" data-page="${esc(g.photo.page)}"><img src="${esc(g.photo.url.replace(/width=\d+/, 'width=600'))}" alt="${esc(pick(g.caption, lang))}" loading="lazy"></a><figcaption>${esc(pick(g.caption, lang))}<a class="credit-inline" href="${esc(g.photo.page)}" target="_blank" rel="noopener">© ${esc(g.photo.author)} · ${esc(g.photo.license)}</a></figcaption></figure>`).join('')}</div>`),
+<div class="gallery-grid" id="gallery">${gallery.map((g) => `<figure class="photo g-item" data-cat="${esc(g.category)}"><a href="${esc(g.photo.url.replace(/width=\d+/, 'width=1600'))}" data-full="${esc(g.photo.url.replace(/width=\d+/, 'width=1600'))}" data-caption="${esc(pick(g.caption, lang))}" data-credit="© ${esc(g.photo.author)} · ${esc(g.photo.license)}" data-page="${esc(g.photo.page)}"><img src="${esc(g.photo.url.replace(/width=\d+/, 'width=600'))}" alt="${esc(pick(g.caption, lang))}" loading="lazy"></a><figcaption>${esc(pick(g.caption, lang))}<a class="credit-inline" href="${esc(g.photo.page)}" target="_blank" rel="noopener">© ${esc(g.photo.author)} · ${esc(g.photo.license)}</a></figcaption></figure>`).join('')}</div>`)
+      + sec('grey', `<h2>${esc(L('Photos des étudiants', 'Fotky studentů'))}</h2><p class="lead">${esc(L('Nos propres photos de Paris et de nos voyages.', 'Naše vlastní fotky z Paříže a z cest.'))}</p><div class="gallery-grid" id="student-gallery"></div>`, 'etudiants'),
   };
 };
 
@@ -301,6 +313,40 @@ pages['/contact'] = (lang) => {
   };
 };
 
+// ======================= CARTE =======================
+const firstSentence = (o, lang) => { const t = pick(o, lang); const m = t.match(/^(.{40,170}?[.!?])(\s|$)/); return m ? m[1] : t.slice(0, 150); };
+pages['/carte'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  const types = {
+    place: [L('Monuments', 'Památky'), '#111111', '/paris'], museum: [L('Musées', 'Muzea'), '#b3262e', '/musees'], quartier: [L('Quartiers', 'Čtvrti'), '#6a5acd', '/paris#quartiers'],
+    cafe: [L('Cafés', 'Kavárny'), '#c27c0e', '/gastronomie#cafes'], market: [L('Marchés', 'Trhy'), '#2e8b57', '/gastronomie#marches'],
+    stage: [L('Scènes', 'Scény'), '#1f6feb', '/culture#scenes'], literature: [L('Littérature', 'Literatura'), '#8e44ad', '/culture#litterature'], cinema: [L('Cinéma', 'Kino'), '#d6336c', '/culture#cinema'],
+  };
+  const groups = [['place', 'places', places], ['museum', 'museums', museums], ['quartier', 'quartiers', quartiers], ['cafe', 'cafes', food.cafes], ['market', 'markets', food.markets],
+    ['stage', 'stage', culture.stage], ['literature', 'literature', culture.literature], ['cinema', 'cinema', culture.cinema]];
+  const points = [];
+  for (const [type, key, arr] of groups) for (const it of arr || []) {
+    const c = coords[`${key}:${it.id}`]; if (!c?.lat || c.check) continue;
+    const base = types[type][2].split('#')[0];
+    const hash = type === 'place' || type === 'museum' ? `#${it.id}` : (types[type][2].includes('#') ? types[type][2].slice(types[type][2].indexOf('#')) : '');
+    points.push({ t: type, n: pick(it.name, lang), lat: c.lat, lon: c.lon, d: firstSentence(it.intro || it.text || it.vibe, lang), h: `/${lang}${base}${hash}` });
+  }
+  const chips = Object.entries(types).map(([k, [label, color]]) => `<button class="chip map-chip" data-layer="${k}" aria-pressed="true"><i style="background:${color}"></i>${esc(label)}</button>`).join('')
+    + `<button class="chip map-chip" data-layer="events" aria-pressed="false"><i style="background:#000;border:2px solid #fff;box-shadow:0 0 0 1px #000"></i>${esc(L('Événements de la semaine', 'Akce tento týden'))}</button>`;
+  return {
+    title: L('Carte interactive de Paris – parisien.cz', 'Interaktivní mapa Paříže – parisien.cz'),
+    description: L('Tous les lieux du site sur une carte : monuments, musées, cafés, marchés, scènes et les événements de la semaine.', 'Všechna místa z webu na jedné mapě: památky, muzea, kavárny, trhy, scény a akce tohoto týdne.'),
+    head: `<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""><script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>`,
+    body: head(lang, 'carte', L('Carte interactive', 'Interaktivní mapa'), L('Tous les lieux du site, plus l’agenda de la semaine. Cliquez sur un point pour lire la fiche.', 'Všechna místa z webu a kalendář tohoto týdne. Kliknutím na bod otevřete podrobnosti.'))
+      + sec('', `<div class="map-tools"><div class="filters" id="map-filters" role="group" aria-label="${esc(L('Couches', 'Vrstvy'))}">${chips}</div>
+<label class="map-search"><span class="sr">${esc(L('Chercher un lieu', 'Hledat místo'))}</span><input type="search" id="map-q" placeholder="${esc(L('Chercher un lieu…', 'Hledat místo…'))}"></label></div>
+<div id="map" class="map" role="application" aria-label="${esc(L('Carte de Paris', 'Mapa Paříže'))}"></div>
+<p class="note">${esc(L('Fond de carte : © contributeurs OpenStreetMap. Événements : Ville de Paris (ODbL).', 'Podkladová mapa: © přispěvatelé OpenStreetMap. Akce: Ville de Paris (ODbL).'))}</p>
+<noscript><p>${esc(L('La carte nécessite JavaScript.', 'Mapa vyžaduje JavaScript.'))}</p></noscript>
+<script type="application/json" id="map-data">${JSON.stringify({ types: Object.fromEntries(Object.entries(types).map(([k, v]) => [k, { label: v[0], color: v[1] }])), points }).replace(/</g, '\\u003c')}</script>`),
+  };
+};
+
 // ======================= CRÉDITS =======================
 pages['/credits'] = (lang) => {
   const L = (fr, cs) => (lang === 'cs' ? cs : fr);
@@ -323,7 +369,7 @@ const urls = [];
 for (const lang of ['fr', 'cs']) {
   for (const [path, fn] of Object.entries(pages)) {
     const p = fn(lang);
-    const html = stdUrl(layout({ lang, path, title: p.title, description: p.description, body: p.body, image: p.image }));
+    const html = localize(stdUrl(layout({ lang, path, title: p.title, description: p.description, body: p.body, image: p.image, head: p.head || '' })));
     const file = path === '/' ? `${OUT}/${lang}/index.html` : `${OUT}/${lang}${path}.html`;
     mkdirSync(file.replace(/\/[^/]+$/, ''), { recursive: true });
     writeFileSync(file, html);

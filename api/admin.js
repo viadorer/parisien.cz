@@ -1,5 +1,5 @@
 // Admin API (jedna funkce, akce přes ?action=).
-//   login | logout | me | list | save | delete | upload | messages | delete-message
+//   login | logout | me | list | save | delete | upload | messages | delete-message | gallery-list | gallery-save | gallery-delete
 import { sql, hasDb, ensureSchema } from '../lib/db.js';
 import { authConfigured, checkPassword, sessionCookie, clearCookie, isAuthed } from '../lib/auth.js';
 import { presignUpload, r2Configured } from '../lib/r2.js';
@@ -84,6 +84,24 @@ export default async function handler(req, res) {
 
     if (action === 'delete') {
       await sql`DELETE FROM posts WHERE id = ${Number(body.id)}`;
+      return send(res, 200, { ok: true }, noStore);
+    }
+    if (action === 'gallery-list') {
+      return send(res, 200, { items: await sql`SELECT * FROM gallery ORDER BY created_at DESC` }, noStore);
+    }
+    if (action === 'gallery-save') {
+      const g = { id: Number(body.id) || null, title_fr: str(body.title_fr, 200), title_cs: str(body.title_cs, 200), author: str(body.author, 100),
+        place: str(body.place, 120), image_url: str(body.image_url, 500), credit: str(body.credit, 200), published: body.published !== false };
+      if (!URLISH.test(g.image_url)) return send(res, 400, { error: 'Obrázek musí být https:// URL (nebo nahraný soubor).' }, noStore);
+      if (g.id) {
+        const rows = await sql`UPDATE gallery SET title_fr=${g.title_fr}, title_cs=${g.title_cs}, author=${g.author}, place=${g.place}, image_url=${g.image_url}, credit=${g.credit}, published=${g.published} WHERE id=${g.id} RETURNING *`;
+        return rows[0] ? send(res, 200, { item: rows[0] }, noStore) : send(res, 404, { error: 'Položka neexistuje.' }, noStore);
+      }
+      const rows = await sql`INSERT INTO gallery (title_fr, title_cs, author, place, image_url, credit, published) VALUES (${g.title_fr}, ${g.title_cs}, ${g.author}, ${g.place}, ${g.image_url}, ${g.credit}, ${g.published}) RETURNING *`;
+      return send(res, 200, { item: rows[0] }, noStore);
+    }
+    if (action === 'gallery-delete') {
+      await sql`DELETE FROM gallery WHERE id = ${Number(body.id)}`;
       return send(res, 200, { ok: true }, noStore);
     }
     if (action === 'messages') {
