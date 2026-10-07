@@ -1,6 +1,9 @@
 // parisien.cz – veřejný frontend (jazyk, vykreslení obsahu, články, formulář)
 (() => {
   const { ui, places, dishes, pastries, cafes, stage, museums, recipes, vocab } = window.PZ;
+  const gallery = [places[0], places[1], places[2], places[3],
+    { img: '/images/toits.jpg', alt: { fr: 'Les toits de Paris', cs: 'Pařížské střechy' } },
+    { img: '/images/hero.jpg', alt: { fr: 'Vue sur Paris depuis Montmartre', cs: 'Pohled na Paříž z Montmartru' } }];
   const $ = (s, r = document) => r.querySelector(s);
 
   // ---------- jazyk ----------
@@ -48,20 +51,21 @@
     document.title = t('meta.title');
     $('meta[name="description"]').setAttribute('content', t('meta.desc'));
 
-    fill('#places', places.map((p) => el('article', { class: 'card' },
-      el('img', { src: p.img, alt: pick(p.alt), loading: 'lazy', width: 1100, height: 733 }),
-      el('div', { class: 'card-body' }, el('h3', {}, pick(p.name)), el('p', {}, pick(p.text))))));
+    fill('#places', places.map((p) => el('div', { class: 'place' },
+      el('div', { class: 'place-image' }, el('img', { src: p.img, alt: pick(p.alt), loading: 'lazy' })),
+      el('div', { class: 'place-info' }, el('h3', {}, pick(p.name)), el('p', {}, pick(p.text))))));
+    fill('#gallery', gallery.map((g) => el('img', { src: g.img, alt: pick(g.alt), loading: 'lazy' })));
     fill('#dishes', dishes[lang].map((x) => el('li', {}, x)));
     fill('#pastries', pastries[lang].map((x) => el('li', {}, x)));
     fill('#cafes', cafes.map((x) => el('li', {}, x)));
     fill('#stage', stage[lang].map((x) => el('li', {}, x)));
-    fill('#museums', museums.map((m) => el('article', { class: 'panel museum' },
-      el('span', { class: 'tag' }, pick(m.tag)), el('h3', {}, pick(m.name)), el('p', {}, pick(m.text)))));
-    fill('#recipes', recipes.map((r) => el('article', { class: 'panel recipe' },
-      el('div', { class: 'recipe-head' }, el('h3', {}, pick(r.name)),
-        el('span', { class: 'tag' }, `${pick(r.level)} · ${r.minutes} ${t('recipes.time')}`)),
-      el('h4', {}, t('recipes.ing')), el('ul', {}, ...r.ing[lang].map((x) => el('li', {}, x))),
-      el('h4', {}, t('recipes.steps')), el('ol', {}, ...r.steps[lang].map((x) => el('li', {}, x))))));
+    fill('#museums', museums.map((m) => el('div', { class: 'museum-item' },
+      el('div', { class: 'museum-info' }, el('span', { class: 'museum-tag' }, pick(m.tag)), el('h3', {}, pick(m.name)), el('p', {}, pick(m.text))))));
+    fill('#recipes', recipes.map((r) => el('div', { class: 'recipe-card' },
+      el('div', { class: 'recipe-header' }, el('h3', {}, pick(r.name)),
+        el('span', { class: 'recipe-difficulty' }, `${pick(r.level)} · ${r.minutes} ${t('recipes.time')}`)),
+      el('div', { class: 'recipe-ingredients' }, el('h4', {}, t('recipes.ing')), el('ul', {}, ...r.ing[lang].map((x) => el('li', {}, x)))),
+      el('div', { class: 'recipe-instructions' }, el('h4', {}, t('recipes.steps')), el('ol', {}, ...r.steps[lang].map((x) => el('li', {}, x)))))));
     fill('#vocab', vocab.map(([fr, cs]) => el('tr', {}, el('td', { lang: 'fr' }, fr), el('td', { lang: 'cs' }, cs))));
   }
 
@@ -81,13 +85,11 @@
     if (postsError) return box.replaceChildren(el('p', { class: 'muted' }, t('blog.error')));
     if (!posts) return;
     if (!posts.length) return box.replaceChildren(el('p', { class: 'muted' }, t('blog.empty')));
-    box.replaceChildren(...posts.map((p) => el('article', { class: 'card' },
-      safeSrc(p.cover) ? el('img', { src: p.cover, alt: '', loading: 'lazy', width: 1100, height: 733 }) : null,
-      el('div', { class: 'card-body' },
-        el('time', { datetime: p.date }, fmtDate(p.date)),
-        el('h3', {}, titleOf(p)),
-        el('p', {}, pick(p.excerpt)),
-        el('a', { class: 'more', href: `/clanek/${encodeURIComponent(p.slug)}` }, t('blog.read'))))));
+    box.replaceChildren(...posts.map((p) => el('article', { class: 'blog-post' },
+      el('div', { class: 'post-date' }, fmtDate(p.date)),
+      el('h3', {}, titleOf(p)),
+      el('div', { class: 'post-excerpt' }, el('p', {}, pick(p.excerpt))),
+      el('a', { class: 'read-more', href: `/clanek/${encodeURIComponent(p.slug)}` }, t('blog.read')))));
   }
 
   let post = null, postState = 'loading';
@@ -96,7 +98,7 @@
     if (!box) return;
     if (postState === 'notfound') {
       document.title = 'parisien.cz';
-      return box.replaceChildren(el('p', {}, t('blog.notfound')), el('a', { href: '/#articles', class: 'more' }, t('blog.back')));
+      return box.replaceChildren(el('p', {}, t('blog.notfound')), el('a', { href: '/#blog', class: 'read-more' }, t('blog.back')));
     }
     if (!post) return;
     const title = titleOf(post);
@@ -104,12 +106,12 @@
     $('meta[name="description"]').setAttribute('content', pick(post.excerpt));
     const missing = !post.body[lang];
     box.replaceChildren(
-      safeSrc(post.cover) ? el('img', { class: 'article-cover', src: post.cover, alt: '', width: 1100, height: 733 }) : null,
-      el('time', { datetime: post.date }, fmtDate(post.date)),
+      safeSrc(post.cover) ? el('img', { class: 'article-cover', src: post.cover, alt: '', }) : null,
+      el('div', { class: 'post-date' }, fmtDate(post.date)),
       el('h1', {}, title),
       missing ? el('p', { class: 'note' }, t('blog.notrans')) : null,
       ...renderBody(post.body[lang] || post.body[lang === 'cs' ? 'fr' : 'cs']),
-      el('p', {}, el('a', { href: '/#articles', class: 'more' }, t('blog.back'))));
+      el('p', {}, el('a', { href: '/#blog', class: 'read-more' }, t('blog.back'))));
   }
 
   // ---------- formulář ----------
@@ -143,14 +145,35 @@
   document.querySelectorAll('.lang button').forEach((b) => b.addEventListener('click', () => {
     lang = b.dataset.lang; store.set(lang); renderAll();
   }));
-  const toggle = $('.menu-toggle'), nav = $('#nav');
-  if (toggle) {
-    toggle.addEventListener('click', () => { const o = nav.classList.toggle('open'); toggle.setAttribute('aria-expanded', String(o)); });
-    nav.addEventListener('click', (e) => { if (e.target.closest('a')) { nav.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); } });
+  const header = $('header');
+  const onScroll = () => {
+    const far = window.scrollY > 100;
+    header.style.padding = far ? '10px 5%' : '20px 5%';
+    header.style.backgroundColor = far ? 'rgba(255, 255, 255, 0.98)' : 'rgba(255, 255, 255, 0.95)';
+    header.style.boxShadow = far ? '0 2px 15px rgba(0, 0, 0, 0.1)' : '0 2px 10px rgba(0, 0, 0, 0.05)';
+  };
+  addEventListener('scroll', onScroll, { passive: true });
+
+  // karusel "À visiter"
+  const strip = $('.places');
+  $('.places-prev')?.addEventListener('click', () => strip.scrollBy({ left: -320, behavior: 'smooth' }));
+  $('.places-next')?.addEventListener('click', () => strip.scrollBy({ left: 320, behavior: 'smooth' }));
+
+  // animace čísel v "À propos"
+  const box = $('.highlight-box');
+  if (box && 'IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    new IntersectionObserver((entries, obs) => entries.forEach((en) => {
+      if (!en.isIntersecting) return;
+      obs.disconnect();
+      box.querySelectorAll('.number').forEach((n) => {
+        const target = n.textContent, m = target.match(/^([\d.]+)(.*)$/); if (!m) return;
+        const num = parseFloat(m[1]); let t0 = null;
+        const step = (ts) => { t0 ??= ts; const k = Math.min((ts - t0) / 1500, 1);
+          n.textContent = k < 1 ? Math.floor(k * num) + m[2] : target; if (k < 1) requestAnimationFrame(step); };
+        requestAnimationFrame(step);
+      });
+    }), { threshold: 0.3 }).observe(box);
   }
-  const header = $('.site-header');
-  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 40);
-  addEventListener('scroll', onScroll, { passive: true }); onScroll();
 
   renderAll(); setupForm();
 

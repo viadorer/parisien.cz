@@ -1,163 +1,216 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>parisien.cz – Paris vu par des étudiants de français</title>
-  <meta name="description" content="Un projet scolaire bilingue (français / tchèque) pour découvrir Paris.">
-  <meta name="theme-color" content="#1b2a49">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="parisien.cz – Paris / Paříž">
-  <meta property="og:description" content="Paris vu par des étudiants de français · Paříž očima studentů francouzštiny">
-  <meta property="og:image" content="https://www.parisien.cz/images/hero.jpg">
-  <link rel="icon" href="/images/logo.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parisien.cz</title>
+    <meta name="description" content="Paris – projet scolaire bilingue FR/CS">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="parisien.cz – Paris / Paříž">
+    <meta property="og:description" content="Paris vu par des étudiants de français · Paříž očima studentů francouzštiny">
+    <meta property="og:image" content="https://www.parisien.cz/images/hero.jpg">
+    <link rel="icon" href="/images/logo.png">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <a class="skip" href="#main" data-i18n="skip">Aller au contenu</a>
-  <header class="site-header" id="top">
-    <a class="brand" href="/"><img src="/images/logo.png" alt="" width="36" height="36"><span>parisien.cz</span></a>
-    <button class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
-    <nav id="nav" aria-label="Navigation">
-      <a href="/#visiter" data-i18n="nav.visit"></a>
-      <a href="/#savourer" data-i18n="nav.taste"></a>
-      <a href="/#culture" data-i18n="nav.culture"></a>
-      <a href="/#musees" data-i18n="nav.museums"></a>
-      <a href="/#recettes" data-i18n="nav.recipes"></a>
-      <a href="/#vocabulaire" data-i18n="nav.vocab"></a>
-      <a href="/#articles" data-i18n="nav.blog"></a>
-      <a href="/#contact" data-i18n="nav.contact"></a>
-    </nav>
-    <div class="lang" role="group" aria-label="Langue / Jazyk">
-      <button data-lang="fr">FR</button><button data-lang="cs">CS</button>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="hero" style="background-image:url('/images/hero.jpg')">
-      <div class="hero-inner">
-        <p class="kicker" data-i18n="hero.kicker"></p>
-        <h1 data-i18n="hero.title"></h1>
-        <p class="hero-sub" data-i18n="hero.sub"></p>
-        <div class="hero-actions">
-          <a class="btn" href="#visiter" data-i18n="hero.cta"></a>
-          <a class="btn btn-ghost" href="#articles" data-i18n="hero.cta2"></a>
+    <a class="skip" href="#main" data-i18n="skip">Aller au contenu</a>
+    <header>
+        <a class="logo-container" href="/">
+            <img src="/images/logo.png" alt="parisien.cz" class="logo">
+            <div class="site-name">parisien.cz</div>
+        </a>
+        <nav aria-label="Navigation">
+            <ul>
+                <li><a href="/#a-propos" data-i18n="nav.about"></a></li>
+                <li><a href="/#visiter" data-i18n="nav.visit"></a></li>
+                <li><a href="/#galerie" data-i18n="nav.gallery"></a></li>
+                <li><a href="/#gastronomie" data-i18n="nav.gastro"></a></li>
+                <li><a href="/#boissons" data-i18n="nav.drinks"></a></li>
+                <li><a href="/#culture" data-i18n="nav.culture"></a></li>
+                <li><a href="/#musees" data-i18n="nav.museums"></a></li>
+                <li><a href="/#recettes" data-i18n="nav.recipes"></a></li>
+                <li><a href="/#vocabulaire" data-i18n="nav.vocab"></a></li>
+                <li><a href="/#blog" data-i18n="nav.blog"></a></li>
+                <li><a href="/#carte" data-i18n="nav.map"></a></li>
+                <li><a href="/#contact" data-i18n="nav.contact"></a></li>
+            </ul>
+        </nav>
+        <div class="lang" role="group" aria-label="Langue / Jazyk">
+            <button data-lang="fr">FR</button><button data-lang="cs">CS</button>
         </div>
-      </div>
-    </section>
+    </header>
 
-    <section class="section" id="projet">
-      <div class="container two-col">
-        <div>
-          <h2 data-i18n="about.title"></h2>
-          <p data-i18n="about.p1"></p>
-          <p data-i18n="about.p2"></p>
-          <p class="note" data-i18n="about.note"></p>
+    <main id="main">
+        <section id="hero">
+            <div class="hero-slideshow">
+                <div class="slide active" style="background-image: url('/images/hero.jpg');"></div>
+            </div>
+            <div class="hero-content">
+                <h1 data-i18n="hero.title"></h1>
+                <p data-i18n="hero.sub"></p>
+                <a href="#a-propos" class="btn-primary" data-i18n="hero.cta"></a>
+            </div>
+        </section>
+
+        <section id="a-propos" class="section">
+            <div class="container">
+                <h2 data-i18n="about.title"></h2>
+                <div class="content-wrapper">
+                    <div class="text-content">
+                        <p data-i18n="about.p1"></p>
+                        <p data-i18n="about.p2"></p>
+                        <p class="note" data-i18n="about.note"></p>
+                    </div>
+                    <div class="highlight-box">
+                        <div class="stat"><span class="number">2.1M</span><span class="label" data-i18n="stat.pop"></span></div>
+                        <div class="stat"><span class="number">105 km²</span><span class="label" data-i18n="stat.area"></span></div>
+                        <div class="stat"><span class="number">1889</span><span class="label" data-i18n="stat.eiffel"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="visiter" class="section dark">
+            <div class="container">
+                <h2 data-i18n="visit.title"></h2>
+                <p class="lead" data-i18n="visit.lead"></p>
+                <div class="places-container">
+                    <button class="places-nav places-prev" aria-label="←">&lt;</button>
+                    <div class="places" id="places"></div>
+                    <button class="places-nav places-next" aria-label="→">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="galerie" class="section">
+            <div class="container">
+                <h2 data-i18n="gallery.title"></h2>
+                <p class="lead" data-i18n="gallery.lead"></p>
+                <div class="gallery-grid" id="gallery"></div>
+            </div>
+        </section>
+
+        <section id="gastronomie" class="section dark">
+            <div class="container">
+                <h2 data-i18n="gastro.title"></h2>
+                <div class="content-wrapper">
+                    <div class="text-content"><p data-i18n="taste.p1"></p></div>
+                    <div class="food-highlights">
+                        <div class="food-item"><h3 data-i18n="taste.dishes"></h3><ul id="dishes"></ul></div>
+                        <div class="food-item"><h3 data-i18n="taste.pastries"></h3><ul id="pastries"></ul></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="boissons" class="section">
+            <div class="container">
+                <h2 data-i18n="drinks.title"></h2>
+                <div class="content-wrapper">
+                    <div class="text-content"><p data-i18n="taste.cafes.p"></p></div>
+                    <div class="drinks-highlight">
+                        <div class="drinks-item"><h3 data-i18n="taste.wine"></h3><p data-i18n="taste.wine.p"></p></div>
+                        <div class="drinks-item"><h3 data-i18n="taste.cafes"></h3><ul id="cafes"></ul></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="culture" class="section dark">
+            <div class="container">
+                <h2 data-i18n="culture.title"></h2>
+                <div class="content-wrapper">
+                    <div class="text-content"><p class="lead" data-i18n="culture.lead"></p><p data-i18n="culture.p1"></p></div>
+                    <div class="culture-highlights">
+                        <div class="culture-item"><h3 data-i18n="culture.stage"></h3><ul id="stage"></ul></div>
+                        <div class="culture-item"><h3 data-i18n="culture.lit"></h3><p data-i18n="culture.lit.p"></p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="musees" class="section">
+            <div class="container">
+                <h2 data-i18n="museums.title"></h2>
+                <div class="museums-container" id="museums"></div>
+            </div>
+        </section>
+
+        <section id="recettes" class="section dark">
+            <div class="container">
+                <h2 data-i18n="recipes.title"></h2>
+                <div class="recipes-container" id="recipes"></div>
+            </div>
+        </section>
+
+        <section id="vocabulaire" class="section grey">
+            <div class="container">
+                <h2 data-i18n="vocab.title"></h2>
+                <p class="lead" data-i18n="vocab.lead"></p>
+                <table class="vocab"><thead><tr><th data-i18n="vocab.fr"></th><th data-i18n="vocab.cs"></th></tr></thead><tbody id="vocab"></tbody></table>
+            </div>
+        </section>
+
+        <section id="blog" class="section">
+            <div class="container">
+                <h2 data-i18n="blog.title"></h2>
+                <div class="blog-posts" id="posts" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section id="carte" class="section-fullwidth">
+            <iframe title="Paris" src="https://www.google.com/maps?q=Paris,+France&z=12&output=embed" width="100%" height="600" style="border:0; display: block;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section id="contact" class="section dark">
+            <div class="container">
+                <h2 data-i18n="contact.title"></h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p data-i18n="contact.lead"></p>
+                        <p class="email">info@parisien.cz</p>
+                        <p class="note" data-i18n="contact.privacy"></p>
+                    </div>
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-group"><label class="sr" for="c-name" data-i18n="contact.name"></label><input type="text" id="c-name" name="name" maxlength="100" autocomplete="name" data-i18n-ph="contact.name"></div>
+                        <div class="form-group"><label class="sr" for="c-email" data-i18n="contact.email"></label><input type="email" id="c-email" name="email" maxlength="200" autocomplete="email" data-i18n-ph="contact.email"></div>
+                        <div class="form-group"><label class="sr" for="c-msg" data-i18n="contact.msg"></label><textarea id="c-msg" name="message" maxlength="4000" data-i18n-ph="contact.msg"></textarea></div>
+                        <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+                        <button type="submit" class="btn-primary" data-i18n="contact.send"></button>
+                        <p id="form-status" role="status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo"><img src="/images/logo.png" alt="parisien.cz" class="footer-logo-img"></div>
+                <div class="footer-links">
+                    <a href="/#a-propos" data-i18n="nav.about"></a>
+                    <a href="/#visiter" data-i18n="nav.visit"></a>
+                    <a href="/#galerie" data-i18n="nav.gallery"></a>
+                    <a href="/#gastronomie" data-i18n="nav.gastro"></a>
+                    <a href="/#boissons" data-i18n="nav.drinks"></a>
+                    <a href="/#culture" data-i18n="nav.culture"></a>
+                    <a href="/#musees" data-i18n="nav.museums"></a>
+                    <a href="/#recettes" data-i18n="nav.recipes"></a>
+                    <a href="/#vocabulaire" data-i18n="nav.vocab"></a>
+                    <a href="/#blog" data-i18n="nav.blog"></a>
+                    <a href="/#carte" data-i18n="nav.map"></a>
+                    <a href="/#contact" data-i18n="nav.contact"></a>
+                </div>
+                <div class="footer-copyright"><p>&copy; <span id="year">2026</span> parisien.cz · <span data-i18n="footer.rights"></span> · <span data-i18n="footer.ai"></span></p></div>
+            </div>
         </div>
-        <div class="stats">
-          <div><b>2,1 M</b><span data-i18n="stat.pop"></span></div>
-          <div><b>105 km²</b><span data-i18n="stat.area"></span></div>
-          <div><b>1889</b><span data-i18n="stat.eiffel"></span></div>
-        </div>
-      </div>
-    </section>
+    </footer>
 
-    <section class="section alt" id="visiter">
-      <div class="container">
-        <h2 data-i18n="visit.title"></h2><p class="lead" data-i18n="visit.lead"></p>
-        <div class="cards" id="places"></div>
-      </div>
-    </section>
-
-    <section class="section" id="savourer">
-      <div class="container">
-        <h2 data-i18n="taste.title"></h2><p class="lead" data-i18n="taste.lead"></p>
-        <p class="narrow" data-i18n="taste.p1"></p>
-        <div class="grid-2">
-          <div class="panel"><h3 data-i18n="taste.dishes"></h3><ul id="dishes"></ul></div>
-          <div class="panel"><h3 data-i18n="taste.pastries"></h3><ul id="pastries"></ul></div>
-          <div class="panel"><h3 data-i18n="taste.cafes"></h3><p data-i18n="taste.cafes.p"></p><ul id="cafes"></ul></div>
-          <div class="panel"><h3 data-i18n="taste.wine"></h3><p data-i18n="taste.wine.p"></p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" id="culture">
-      <div class="container">
-        <h2 data-i18n="culture.title"></h2><p class="lead" data-i18n="culture.lead"></p>
-        <p class="narrow" data-i18n="culture.p1"></p>
-        <div class="grid-2">
-          <div class="panel"><h3 data-i18n="culture.stage"></h3><ul id="stage"></ul></div>
-          <div class="panel"><h3 data-i18n="culture.lit"></h3><p data-i18n="culture.lit.p"></p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="musees">
-      <div class="container">
-        <h2 data-i18n="museums.title"></h2><p class="lead" data-i18n="museums.lead"></p>
-        <div class="grid-3" id="museums"></div>
-      </div>
-    </section>
-
-    <section class="section alt" id="recettes">
-      <div class="container">
-        <h2 data-i18n="recipes.title"></h2><p class="lead" data-i18n="recipes.lead"></p>
-        <div class="grid-3" id="recipes"></div>
-      </div>
-    </section>
-
-    <section class="section" id="vocabulaire">
-      <div class="container">
-        <h2 data-i18n="vocab.title"></h2><p class="lead" data-i18n="vocab.lead"></p>
-        <table class="vocab"><thead><tr><th data-i18n="vocab.fr"></th><th data-i18n="vocab.cs"></th></tr></thead><tbody id="vocab"></tbody></table>
-      </div>
-    </section>
-
-    <section class="section alt" id="articles">
-      <div class="container">
-        <h2 data-i18n="blog.title"></h2><p class="lead" data-i18n="blog.lead"></p>
-        <div class="cards" id="posts" aria-live="polite"></div>
-      </div>
-    </section>
-
-    <section class="map" aria-label="Carte">
-      <iframe title="Paris" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
-        src="https://www.google.com/maps?q=Paris,+France&z=12&output=embed"></iframe>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="container two-col">
-        <div>
-          <h2 data-i18n="contact.title"></h2>
-          <p data-i18n="contact.lead"></p>
-          <p><a href="mailto:info@parisien.cz">info@parisien.cz</a></p>
-          <p class="note" data-i18n="contact.privacy"></p>
-        </div>
-        <form id="contact-form" novalidate>
-          <label class="sr" for="c-name" data-i18n="contact.name"></label>
-          <input id="c-name" name="name" maxlength="100" autocomplete="name" required data-i18n-ph="contact.name">
-          <label class="sr" for="c-email" data-i18n="contact.email"></label>
-          <input id="c-email" name="email" type="email" maxlength="200" autocomplete="email" required data-i18n-ph="contact.email">
-          <label class="sr" for="c-msg" data-i18n="contact.msg"></label>
-          <textarea id="c-msg" name="message" rows="5" maxlength="4000" required data-i18n-ph="contact.msg"></textarea>
-          <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <button class="btn" type="submit" data-i18n="contact.send"></button>
-          <p id="form-status" role="status"></p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <img src="/images/logo.png" alt="" width="40" height="40">
-    <p>© <span id="year">2026</span> parisien.cz · <span data-i18n="footer.rights"></span> · <span data-i18n="footer.ai"></span></p>
-  </footer>
-
-  <script src="/i18n.js"></script>
-  <script src="/app.js"></script>
+    <script src="/i18n.js"></script>
+    <script src="/app.js"></script>
 </body>
 </html>
