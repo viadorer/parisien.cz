@@ -331,8 +331,10 @@ pages['/carte'] = (lang) => {
     const hash = type === 'place' || type === 'museum' ? `#${it.id}` : (types[type][2].includes('#') ? types[type][2].slice(types[type][2].indexOf('#')) : '');
     points.push({ t: type, n: pick(it.name, lang), lat: c.lat, lon: c.lon, d: firstSentence(it.intro || it.text || it.vibe, lang), h: `/${lang}${base}${hash}` });
   }
+  const liveTypes = [['velib', L('Vélib’ (en direct)', 'Vélib’ (živě)'), '#1c7a3d'], ['fountains', L('Fontaines à boire', 'Pítné fontány'), '#1e90ff'], ['cool', L('Fraîcheur (brumisateurs, piscines…)', 'Osvěžení (mlžítka, bazény…)'), '#17a2b8'], ['swim', L('Baignade en Seine', 'Koupání v Seině'), '#0057b8']];
+  const liveChips = liveTypes.map(([k, label, color]) => `<button class="chip map-chip" data-layer="${k}" data-live="1" aria-pressed="false"><i style="background:${color}"></i>${esc(label)}</button>`).join('');
   const chips = Object.entries(types).map(([k, [label, color]]) => `<button class="chip map-chip" data-layer="${k}" aria-pressed="true"><i style="background:${color}"></i>${esc(label)}</button>`).join('')
-    + `<button class="chip map-chip" data-layer="events" aria-pressed="false"><i style="background:#000;border:2px solid #fff;box-shadow:0 0 0 1px #000"></i>${esc(L('Événements de la semaine', 'Akce tento týden'))}</button>`;
+    + liveChips + `<button class="chip map-chip" data-layer="events" aria-pressed="false"><i style="background:#000;border:2px solid #fff;box-shadow:0 0 0 1px #000"></i>${esc(L('Événements de la semaine', 'Akce tento týden'))}</button>`;
   return {
     title: L('Carte interactive de Paris – parisien.cz', 'Interaktivní mapa Paříže – parisien.cz'),
     description: L('Tous les lieux du site sur une carte : monuments, musées, cafés, marchés, scènes et les événements de la semaine.', 'Všechna místa z webu na jedné mapě: památky, muzea, kavárny, trhy, scény a akce tohoto týdne.'),
@@ -341,9 +343,28 @@ pages['/carte'] = (lang) => {
       + sec('', `<div class="map-tools"><div class="filters" id="map-filters" role="group" aria-label="${esc(L('Couches', 'Vrstvy'))}">${chips}</div>
 <label class="map-search"><span class="sr">${esc(L('Chercher un lieu', 'Hledat místo'))}</span><input type="search" id="map-q" placeholder="${esc(L('Chercher un lieu…', 'Hledat místo…'))}"></label></div>
 <div id="map" class="map" role="application" aria-label="${esc(L('Carte de Paris', 'Mapa Paříže'))}"></div>
-<p class="note">${esc(L('Fond de carte : © contributeurs OpenStreetMap. Événements : Ville de Paris (ODbL).', 'Podkladová mapa: © přispěvatelé OpenStreetMap. Akce: Ville de Paris (ODbL).'))}</p>
+<p class="note">${esc(L('Fond de carte : © contributeurs OpenStreetMap. Événements, Vélib’, fontaines, brumisateurs, piscines et sites de baignade : Ville de Paris (opendata.paris.fr, ODbL). Disponibilité Vélib’ mise à jour chaque minute.', 'Podkladová mapa: © přispěvatelé OpenStreetMap. Akce, Vélib’, fontány, mlžítka, bazény a místa ke koupání: Ville de Paris (opendata.paris.fr, ODbL). Dostupnost Vélib’ se aktualizuje každou minutu.'))}</p>
 <noscript><p>${esc(L('La carte nécessite JavaScript.', 'Mapa vyžaduje JavaScript.'))}</p></noscript>
 <script type="application/json" id="map-data">${JSON.stringify({ types: Object.fromEntries(Object.entries(types).map(([k, v]) => [k, { label: v[0], color: v[1] }])), points }).replace(/</g, '\\u003c')}</script>`),
+  };
+};
+
+// ======================= WEBCAMS =======================
+pages['/webcams'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  const cams = [
+    ['https://www.skylinewebcams.com/en/webcam/france/ile-de-france/paris/tour-eiffel.html', L('Tour Eiffel (HD)', 'Eiffelova věž (HD)'), L('La tour Eiffel en direct, avec accéléré et météo.', 'Eiffelova věž živě, s časosběrem a počasím.')],
+    ['https://www.skylinewebcams.com/en/webcam/france/ile-de-france/paris/paris-tour-eiffel.html', L('Paris – Tour Eiffel', 'Paříž – Eiffelova věž'), L('Une autre vue de la tour, avec la météo parisienne.', 'Jiný pohled na věž, s pařížským počasím.')],
+    ['https://www.skylinewebcams.com/en/webcam/france/ile-de-france/paris/panorama.html', L('Panorama de Paris', 'Panorama Paříže'), L('Tour Eiffel, Sacré-Cœur et La Défense dans le même cadre.', 'Eiffelova věž, Sacré-Cœur a La Défense v jednom záběru.')],
+    ['https://www.skylinewebcams.com/en/webcam/france/ile-de-france/paris/trocadero.html', L('Trocadéro', 'Trocadéro'), L('Le palais de Chaillot et la tour Eiffel derrière.', 'Palais de Chaillot a za ním Eiffelova věž.')],
+    ['https://www.skylinewebcams.com/en/webcam/france/ile-de-france/paris.html', L('Toutes les caméras de Paris', 'Všechny kamery z Paříže'), L('Liste complète : Notre-Dame, la Seine, le Sacré-Cœur…', 'Úplný seznam: Notre-Dame, Seina, Sacré-Cœur…')],
+  ];
+  return {
+    title: L('Webcams de Paris – parisien.cz', 'Webkamery z Paříže – parisien.cz'),
+    description: L('Les meilleures webcams en direct de Paris : tour Eiffel, Trocadéro, panorama.', 'Nejlepší živé webkamery z Paříže: Eiffelova věž, Trocadéro, panorama.'),
+    body: head(lang, 'webcams', L('Webcams de Paris', 'Webkamery z Paříže'), L('Paris en direct, sur les sites de leurs opérateurs.', 'Paříž živě, na webech jejich provozovatelů.'))
+      + sec('', `<div class="cards-grid small">${cams.map(([u, t, d]) => `<article class="card"><div class="card-body"><h3>${esc(t)}</h3><p>${esc(d)}</p><a class="read-more" href="${esc(u)}" target="_blank" rel="noopener">${esc(L('Voir la caméra →', 'Zobrazit kameru →'))}</a></div></article>`).join('')}</div>
+<p class="note">${esc(L('Ces flux appartiennent à leurs opérateurs (ici SkylineWebcams). Leurs conditions interdisent de reproduire ou d’intégrer le flux ailleurs sans autorisation écrite : c’est pourquoi nous renvoyons vers leurs pages au lieu de les intégrer. Le site est un projet scolaire sans lien commercial avec eux.', 'Tyto přenosy patří jejich provozovatelům (zde SkylineWebcams). Jejich podmínky zakazují přenos kopírovat nebo vkládat jinam bez písemného souhlasu, proto na ně odkazujeme místo vkládání. Web je školní projekt bez obchodního vztahu k nim.'))}</p>`),
   };
 };
 

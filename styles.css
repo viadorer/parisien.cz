@@ -1274,3 +1274,7 @@ select option { color: #000; }
 .map-pop a { color: #000; font-weight: 600; font-size: 13px; text-decoration: underline; }
 .map-search input::placeholder, .ev-filters input::placeholder { color: #777; }
 .map-search input, .ev-filters input[type=search] { color: #000; }
+
+.now-strip .container { align-items: center; }
+.weather { display: flex; flex-wrap: wrap; gap: 6px 26px; }
+.now-item { white-space: nowrap; }

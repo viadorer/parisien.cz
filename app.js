@@ -58,13 +58,25 @@
     const now = $('#now-date');
     const tick = () => { if (now) now.textContent = new Date().toLocaleString(loc, { timeZone: 'Europe/Paris', weekday: 'long', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' }); };
     tick(); setInterval(tick, 30000);
+    const sW = el('span', { class: 'now-item' }), sA = el('span', { class: 'now-item' }), sS = el('span', { class: 'now-item' });
+    weather.replaceChildren(sW, sA, sS);
+    const num = (n, d = 2) => n.toLocaleString(loc, { minimumFractionDigits: d, maximumFractionDigits: d });
     fetch('https://api.open-meteo.com/v1/forecast?latitude=48.8566&longitude=2.3522&current=temperature_2m,weather_code&daily=temperature_2m_max,temperature_2m_min&timezone=Europe%2FParis&forecast_days=1')
       .then((r) => r.json()).then((d) => {
         const [icon, label] = WMO(d.current.weather_code);
-        weather.replaceChildren(el('span', { class: 'w-icon', 'aria-hidden': 'true' }, icon),
-          el('strong', {}, `${Math.round(d.current.temperature_2m)} °C`),
-          el('span', {}, ` ${L('à Paris', 'v Paříži')} · ${label} · ${Math.round(d.daily.temperature_2m_min[0])}°/${Math.round(d.daily.temperature_2m_max[0])}°`));
-      }).catch(() => weather.remove());
+        sW.replaceChildren(el('span', { class: 'w-icon', 'aria-hidden': 'true' }, icon), el('strong', {}, `${Math.round(d.current.temperature_2m)} °C`),
+          ` ${L('à Paris', 'v Paříži')} · ${label} · ${Math.round(d.daily.temperature_2m_min[0])}°/${Math.round(d.daily.temperature_2m_max[0])}°`);
+      }).catch(() => sW.remove());
+    fetch('https://air-quality-api.open-meteo.com/v1/air-quality?latitude=48.8566&longitude=2.3522&current=european_aqi')
+      .then((r) => r.json()).then((d) => {
+        const v = d.current?.european_aqi; if (v == null) throw 0;
+        const bands = [[20, L('très bon', 'výborná')], [40, L('bon', 'dobrá')], [60, L('moyen', 'přijatelná')], [80, L('médiocre', 'špatná')], [100, L('mauvais', 'velmi špatná')], [Infinity, L('très mauvais', 'extrémně špatná')]];
+        sA.replaceChildren(el('span', { class: 'w-icon', 'aria-hidden': 'true' }, '🍃'), L('Air : ', 'Ovzduší: '), el('strong', {}, bands.find(([m]) => v <= m)[1]), ` (EAQI ${Math.round(v)})`);
+      }).catch(() => sA.remove());
+    fetch('/api/live?what=seine').then((r) => r.json()).then(({ data }) => {
+      sS.replaceChildren(el('span', { class: 'w-icon', 'aria-hidden': 'true' }, '🌊'), L('Seine, Austerlitz : ', 'Seina, Austerlitz: '), el('strong', {}, `${num(data.levelM)} m`),
+        data.deltaM != null ? ` (${data.deltaM >= 0 ? '+' : '−'}${num(Math.abs(data.deltaM))} m / 24 h)` : '');
+    }).catch(() => sS.remove());
   }
 
   // ---------- kalendář akcí ----------
@@ -202,7 +214,7 @@
       if (!window.L || !window.L.map) return setTimeout(start, 100);
       const LF = window.L;
       const { types, points } = JSON.parse($('#map-data').textContent);
-      const map = LF.map(mapEl, { scrollWheelZoom: false }).setView([48.8566, 2.3522], 12);
+      const map = LF.map(mapEl, { scrollWheelZoom: false, preferCanvas: true }).setView([48.8566, 2.3522], 12);
       LF.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
       map.on('focus', () => map.scrollWheelZoom.enable()); map.on('blur', () => map.scrollWheelZoom.disable());
       const layers = {}, markers = [];
@@ -230,7 +242,35 @@
           }
         }).catch(() => {});
       };
+      // živá a otevřená data (Vélib', fontány, osvěžení, koupání)
+      const COOL = { 'Brumisateur': L('Brumisateur', 'Mlžítko'), 'Piscine': L('Piscine', 'Bazén'), 'Baignade extérieure': L('Baignade extérieure', 'Venkovní koupání'), 'Ombrière pérenne': L('Ombrière (zone d’ombre)', 'Stínící konstrukce') };
+      const liveCfg = {
+        velib: { color: (r) => (!r[7] || r[3] === 0 ? '#b3262e' : r[3] <= 3 ? '#e08a00' : '#1c7a3d'), radius: 6, refresh: 60000,
+          pop: (r) => popup(r[2], r[7] ? `${r[3]} ${L('vélos', 'kol')} (${r[4]} ${L('méca.', 'mech.')}, ${r[5]} ${L('élec.', 'elektro')}) · ${r[6]} ${L('places libres', 'volných stání')}` : L('Station hors service', 'Stanice mimo provoz'), '', L('Vélib’ · en direct', 'Vélib’ · živě')) },
+        fountains: { color: () => '#1e90ff', radius: 4, pop: (r) => popup(L('Fontaine à boire', 'Pítná fontána'), r[3], '', L('Eau potable gratuite', 'Pitná voda zdarma')) },
+        cool: { color: () => '#17a2b8', radius: 5, pop: (r) => popup(r[3] || COOL[r[2]] || r[2], r[4], '', `${COOL[r[2]] || r[2]}${r[5] ? ' · ' + L('payant', 'placené') : ''}`) },
+        swim: { color: () => '#0057b8', radius: 10, pop: (r) => popup(r[2], L('Site de baignade aménagé dans la Seine pendant l’été. Vérifiez l’ouverture et la qualité de l’eau sur paris.fr avant d’y aller.', 'Vybavené místo ke koupání v Seině v létě. Před cestou si na paris.fr ověřte otevření a kvalitu vody.'), 'https://www.paris.fr/pages/la-baignade-dans-la-seine', L('Baignade en Seine', 'Koupání v Seině')) },
+      };
+      const loaded = {};
+      const loadLive = async (k) => {
+        const cfg = liveCfg[k], fill = async () => {
+          const { data } = await (await fetch(`/api/live?what=${k}`)).json();
+          layers[k].clearLayers();
+          for (const r of data) LF.circleMarker([r[0], r[1]], { radius: cfg.radius, color: '#fff', weight: 1.5, fillColor: cfg.color(r), fillOpacity: 0.92 }).bindPopup(() => cfg.pop(r)).addTo(layers[k]);
+        };
+        if (loaded[k]) return; loaded[k] = true;
+        layers[k] = LF.layerGroup().addTo(map);
+        try { await fill(); } catch { loaded[k] = false; map.removeLayer(layers[k]); return; }
+        if (cfg.refresh) setInterval(() => { if (map.hasLayer(layers[k])) fill().catch(() => {}); }, cfg.refresh);
+      };
       $$('#map-filters .map-chip').forEach((b) => b.addEventListener('click', () => {
+        if (b.dataset.live) {
+          const on = b.getAttribute('aria-pressed') !== 'true';
+          b.setAttribute('aria-pressed', String(on));
+          if (on) loadLive(b.dataset.layer).then(() => { if (layers[b.dataset.layer] && !map.hasLayer(layers[b.dataset.layer])) layers[b.dataset.layer].addTo(map); });
+          else if (layers[b.dataset.layer]) map.removeLayer(layers[b.dataset.layer]);
+          return;
+        }
         const on = b.getAttribute('aria-pressed') !== 'true';
         b.setAttribute('aria-pressed', String(on));
         const g = layers[b.dataset.layer];
