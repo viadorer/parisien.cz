@@ -1,0 +1,68 @@
+{
+ "hero": {
+  "file": "File:Eiffel Tower sunset skyline (Unsplash).jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiffel_Tower_sunset_skyline_(Unsplash).jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_sunset_skyline_(Unsplash).jpg",
+  "author": "Pedro Kümmel pedrokummel",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "desc": "Pedro Kümmel 2015",
+  "width": 6000,
+  "height": 4000
+ },
+ "eiffel": {
+  "file": "File:Paris - The Eiffel Tower in spring - 2307.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_The_Eiffel_Tower_in_spring_-_2307.jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:Paris_-_The_Eiffel_Tower_in_spring_-_2307.jpg",
+  "author": "Jorge Royan",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "desc": "The Eiffel Tower in spring, Paris, France.",
+  "width": 4368,
+  "height": 2912
+ },
+ "louvre": {
+  "file": "File:Louvre Palace w. Louvre Pyramid by cocoparisienne.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Louvre_Palace_w._Louvre_Pyramid_by_cocoparisienne.jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:Louvre_Palace_w._Louvre_Pyramid_by_cocoparisienne.jpg",
+  "author": "cocoparisienne",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "desc": "The Louvre Palace with the Louvre Pyramid",
+  "width": 2706,
+  "height": 1491
+ },
+ "notredame": {
+  "file": "File:Notre-Dame de Paris and Île de la Cité at dusk 140516 1.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Notre-Dame_de_Paris_and_%C3%8Ele_de_la_Cit%C3%A9_at_dusk_140516_1.jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_and_%C3%8Ele_de_la_Cit%C3%A9_at_dusk_140516_1.jpg",
+  "author": "DXR",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "desc": "NOTE: This image is a panorama consisting of 4 frames that were merged or stitched in Hugin 2013. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and color and perspective adjustments. As a result of these ",
+  "width": 8188,
+  "height": 4094
+ },
+ "montmartre": {
+  "file": "File:Paris, Sacré-Cœur de Montmartre -- 2014 -- 1193.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%2C_Sacr%C3%A9-C%C5%93ur_de_Montmartre_--_2014_--_1193.jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:Paris,_Sacr%C3%A9-C%C5%93ur_de_Montmartre_--_2014_--_1193.jpg",
+  "author": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "desc": "Sacré-Cœur de Montmartre, Paris, France",
+  "width": 5471,
+  "height": 3321
+ },
+ "toits": {
+  "file": "File:Paris - Rooftops in Paris - 3052.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_Rooftops_in_Paris_-_3052.jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Rooftops_in_Paris_-_3052.jpg",
+  "author": "Jorge Royan",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "desc": "Rooftops in Paris",
+  "width": 4368,
+  "height": 2602
+ }
+}

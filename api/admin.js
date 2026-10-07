@@ -58,6 +58,10 @@ export default async function handler(req, res) {
         excerpt_cs: str(body.excerpt_cs, 500), excerpt_fr: str(body.excerpt_fr, 500),
         body_cs: str(body.body_cs, 30000), body_fr: str(body.body_fr, 30000),
         cover_url: str(body.cover_url, 500),
+        cover_credit: str(body.cover_credit, 200), cover_credit_url: str(body.cover_credit_url, 500),
+        category: ['paris', 'voyage', 'langue'].includes(body.category) ? body.category : 'paris',
+        author: str(body.author, 100),
+        sources: JSON.stringify(String(body.sources || '').split('\n').map((x) => x.trim()).filter((x) => /^https:\/\//.test(x)).slice(0, 20)),
         published: body.published !== false,
         published_at: body.published_at && !isNaN(Date.parse(body.published_at)) ? new Date(body.published_at).toISOString() : new Date().toISOString(),
       };
@@ -68,12 +72,12 @@ export default async function handler(req, res) {
       if (p.id) {
         const rows = await sql`UPDATE posts SET slug=${slug}, title_cs=${p.title_cs}, title_fr=${p.title_fr},
           excerpt_cs=${p.excerpt_cs}, excerpt_fr=${p.excerpt_fr}, body_cs=${p.body_cs}, body_fr=${p.body_fr},
-          cover_url=${p.cover_url}, published=${p.published}, published_at=${p.published_at}, updated_at=now()
+          cover_url=${p.cover_url}, cover_credit=${p.cover_credit}, cover_credit_url=${p.cover_credit_url}, category=${p.category}, author=${p.author}, sources=${p.sources}, published=${p.published}, published_at=${p.published_at}, updated_at=now()
           WHERE id=${p.id} RETURNING *`;
         return rows[0] ? send(res, 200, { post: rows[0] }, noStore) : send(res, 404, { error: 'Článek neexistuje.' }, noStore);
       }
-      const rows = await sql`INSERT INTO posts (slug, title_cs, title_fr, excerpt_cs, excerpt_fr, body_cs, body_fr, cover_url, published, published_at)
-        VALUES (${slug}, ${p.title_cs}, ${p.title_fr}, ${p.excerpt_cs}, ${p.excerpt_fr}, ${p.body_cs}, ${p.body_fr}, ${p.cover_url}, ${p.published}, ${p.published_at})
+      const rows = await sql`INSERT INTO posts (slug, title_cs, title_fr, excerpt_cs, excerpt_fr, body_cs, body_fr, cover_url, cover_credit, cover_credit_url, category, author, sources, published, published_at)
+        VALUES (${slug}, ${p.title_cs}, ${p.title_fr}, ${p.excerpt_cs}, ${p.excerpt_fr}, ${p.body_cs}, ${p.body_fr}, ${p.cover_url}, ${p.cover_credit}, ${p.cover_credit_url}, ${p.category}, ${p.author}, ${p.sources}, ${p.published}, ${p.published_at})
         RETURNING *`;
       return send(res, 200, { post: rows[0] }, noStore);
     }
@@ -83,7 +87,7 @@ export default async function handler(req, res) {
       return send(res, 200, { ok: true }, noStore);
     }
     if (action === 'messages') {
-      return send(res, 200, { messages: await sql`SELECT id, name, email, message, lang, created_at FROM messages ORDER BY created_at DESC LIMIT 200` }, noStore);
+      return send(res, 200, { messages: await sql`SELECT id, name, email, message, kind, lang, created_at FROM messages ORDER BY created_at DESC LIMIT 200` }, noStore);
     }
     if (action === 'delete-message') {
       await sql`DELETE FROM messages WHERE id = ${Number(body.id)}`;

@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import { sql, hasDb, ensureSchema } from '../lib/db.js';
 import { send, readJson, clientIp, str } from '../lib/http.js';
 
+const kindMax = (b) => (b.kind === 'story' ? 20000 : 4000);
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
 export default async function handler(req, res) {
@@ -13,8 +14,9 @@ export default async function handler(req, res) {
 
     const name = str(b.name, 100);
     const email = str(b.email, 200);
-    const message = str(b.message, 4000);
+    const message = str(b.message, kindMax(b));
     const lang = b.lang === 'cs' ? 'cs' : 'fr';
+    const kind = b.kind === 'story' ? 'story' : 'message';
     if (!name || !EMAIL.test(email) || message.length < 3) return send(res, 400, { error: 'invalid' });
     if (!hasDb) return send(res, 503, { error: 'unavailable' });
 
@@ -23,7 +25,7 @@ export default async function handler(req, res) {
     const [{ n }] = await sql`SELECT count(*)::int AS n FROM messages WHERE ip_hash = ${ipHash} AND created_at > now() - interval '1 hour'`;
     if (n >= 5) return send(res, 429, { error: 'rate' });
 
-    await sql`INSERT INTO messages (name, email, message, lang, ip_hash) VALUES (${name}, ${email}, ${message}, ${lang}, ${ipHash})`;
+    await sql`INSERT INTO messages (name, email, message, kind, lang, ip_hash) VALUES (${name}, ${email}, ${message}, ${kind}, ${lang}, ${ipHash})`;
     return send(res, 200, { ok: true });
   } catch (e) {
     console.error('contact', e);

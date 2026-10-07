@@ -17,7 +17,7 @@
     .box { background:#fff; border:1px solid var(--line); border-radius:12px; padding:18px; margin-bottom:16px; }
     .warn { background:#fff4d6; border-color:#e8c766; }
     label { display:block; font-weight:600; margin:12px 0 4px; font-size:.85rem; }
-    input[type=text], input[type=password], input[type=datetime-local], input[type=url], textarea { width:100%; padding:9px 11px; border:1px solid var(--line); border-radius:8px; font:inherit; background:#fff; }
+    input[type=text], input[type=password], input[type=datetime-local], input[type=url], select, textarea { width:100%; padding:9px 11px; border:1px solid var(--line); border-radius:8px; font:inherit; background:#fff; }
     textarea { min-height:230px; resize:vertical; font-family:ui-monospace,Menlo,monospace; font-size:.9rem; }
     textarea.short { min-height:70px; }
     button { font:inherit; cursor:pointer; }
@@ -78,11 +78,19 @@
             <div class="grow"><label for="f-date">Datum publikace</label><input type="datetime-local" id="f-date"></div>
             <label class="row" style="margin-top:26px"><input type="checkbox" id="f-pub" checked> Publikováno</label>
           </div>
+          <div class="row">
+            <div><label for="f-cat">Kategorie</label><select id="f-cat"><option value="paris">Paříž</option><option value="voyage">Cestování</option><option value="langue">Jazyk</option></select></div>
+            <div class="grow"><label for="f-author">Autor</label><input type="text" id="f-author" placeholder="Rédaction parisien.cz / jméno studenta"></div>
+          </div>
           <label for="f-cover">Titulní obrázek (https:// URL)</label>
           <div class="row">
             <input class="grow" type="url" id="f-cover" placeholder="https://…">
             <input type="file" id="f-file" accept="image/jpeg,image/png,image/webp" hidden>
             <button type="button" class="btn sec" id="f-upload">Nahrát do R2</button>
+          </div>
+          <div class="row">
+            <div class="grow"><label for="f-credit">Kredit fotky (autor · licence)</label><input type="text" id="f-credit" placeholder="Jméno autora · CC BY-SA 4.0"></div>
+            <div class="grow"><label for="f-credit-url">Odkaz na zdroj fotky</label><input type="url" id="f-credit-url" placeholder="https://commons.wikimedia.org/…"></div>
           </div>
           <img id="f-preview" class="thumb" alt="" hidden style="width:160px;height:107px;margin-top:8px">
           <div class="cols">
@@ -99,7 +107,8 @@
               <label for="f-body-cs">Text</label><textarea id="f-body-cs"></textarea>
             </div>
           </div>
-          <p class="hint">Formát textu: odstavce oddělte prázdným řádkem, nadpis sekce <code>## Nadpis</code>, tučně <code>**text**</code>. HTML se nepodporuje. Stačí vyplnit jeden jazyk, druhý se zobrazí jako záloha.</p>
+          <label for="f-sources">Zdroje (jedna https:// URL na řádek)</label><textarea class="short" id="f-sources"></textarea>
+          <p class="hint">Formát textu: odstavce oddělte prázdným řádkem, nadpis sekce <code>## Nadpis</code>, tučně <code>**text**</code>, odrážky <code>- položka</code>, odkaz <code>[text](https://…)</code>. HTML se nepodporuje. Stačí vyplnit jeden jazyk, druhý se zobrazí jako záloha.</p>
           <div class="row">
             <button class="btn" type="submit">Uložit</button>
             <button class="btn sec" type="button" id="cancel">Zavřít</button>

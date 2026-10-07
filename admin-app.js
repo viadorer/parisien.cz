@@ -57,8 +57,8 @@
           el('strong', {}, p.title_fr || p.title_cs || p.slug), ' ',
           el('span', { class: p.published ? 'badge' : 'badge draft' }, p.published ? 'publikováno' : 'koncept'),
           el('br'),
-          el('small', {}, `${new Date(p.published_at).toLocaleDateString('cs-CZ')} · /clanek/${p.slug} · ${p.title_fr ? 'FR' : '–'} ${p.title_cs ? 'CS' : '–'}`)),
-        el('a', { href: `/clanek/${p.slug}`, target: '_blank', rel: 'noopener' }, 'Zobrazit'),
+          el('small', {}, `${new Date(p.published_at).toLocaleDateString('cs-CZ')} · ${p.category} · /fr/article/${p.slug} · ${p.title_fr ? 'FR' : '–'} ${p.title_cs ? 'CS' : '–'}`)),
+        el('a', { href: `/fr/article/${p.slug}`, target: '_blank', rel: 'noopener' }, 'Zobrazit'),
         Object.assign(el('button', { class: 'btn sec', type: 'button' }, 'Upravit'), { onclick: () => openEditor(p) }),
         Object.assign(el('button', { class: 'btn danger', type: 'button' }, 'Smazat'), {
           onclick: guard(async () => {
@@ -81,6 +81,11 @@
     $('#f-date').value = toLocalInput(p?.published_at ?? new Date().toISOString());
     $('#f-pub').checked = p ? p.published : true;
     $('#f-cover').value = p?.cover_url ?? '';
+    $('#f-cat').value = p?.category ?? 'paris';
+    $('#f-author').value = p?.author ?? '';
+    $('#f-credit').value = p?.cover_credit ?? '';
+    $('#f-credit-url').value = p?.cover_credit_url ?? '';
+    $('#f-sources').value = (() => { try { return JSON.parse(p?.sources || '[]').join('\n'); } catch { return ''; } })();
     setPreview(p?.cover_url);
     for (const k of ['title', 'ex', 'body']) {
       const src = { title: 'title', ex: 'excerpt', body: 'body' }[k];
@@ -96,7 +101,8 @@
       const { post } = await call('save', {
         id: $('#f-id').value || null, slug: $('#f-slug').value,
         published: $('#f-pub').checked, published_at: new Date($('#f-date').value).toISOString(),
-        cover_url: $('#f-cover').value.trim(),
+        cover_url: $('#f-cover').value.trim(), category: $('#f-cat').value, author: $('#f-author').value,
+        cover_credit: $('#f-credit').value, cover_credit_url: $('#f-credit-url').value, sources: $('#f-sources').value,
         title_fr: $('#f-title-fr').value, title_cs: $('#f-title-cs').value,
         excerpt_fr: $('#f-ex-fr').value, excerpt_cs: $('#f-ex-cs').value,
         body_fr: $('#f-body-fr').value, body_cs: $('#f-body-cs').value,
@@ -139,7 +145,7 @@
     box.replaceChildren(el('h2', { style: 'margin-top:0' }, `Zprávy (${messages.length})`),
       ...messages.map((m) => el('div', { class: 'msg' },
         el('strong', {}, m.name), ' ', el('a', { href: `mailto:${m.email}` }, m.email), ' ',
-        el('small', {}, `${new Date(m.created_at).toLocaleString('cs-CZ')} · ${m.lang.toUpperCase()}`), el('br'), m.message, el('br'),
+        el('small', {}, `${new Date(m.created_at).toLocaleString('cs-CZ')} · ${m.lang.toUpperCase()} · ${m.kind === 'story' ? 'NÁVRH ČLÁNKU' : 'zpráva'}`), el('br'), m.message, el('br'),
         Object.assign(el('button', { class: 'btn danger', type: 'button', style: 'margin-top:6px;padding:3px 10px' }, 'Smazat'), {
           onclick: guard(async () => { if (confirm('Smazat zprávu?')) { await call('delete-message', { id: m.id }); await loadMessages(); } }),
         }))));

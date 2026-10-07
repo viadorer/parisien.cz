@@ -1,0 +1,638 @@
+[
+ {
+  "id": "louvre",
+  "name": {
+   "fr": "Musée du Louvre",
+   "cs": "Louvre"
+  },
+  "district": "1er",
+  "kind": {
+   "fr": "Beaux-arts et antiquités",
+   "cs": "Výtvarné umění a starověk"
+  },
+  "founded": 1793,
+  "intro": {
+   "fr": "Le Louvre a commencé comme forteresse : vers 1190, Philippe Auguste y fait élever une enceinte défensive. Des siècles plus tard, le palais des rois devient, en août 1793, un musée ouvert au public en pleine Révolution. Aujourd'hui, on y traverse cinq mille ans d'histoire, de l'Égypte ancienne à la peinture du XIXe siècle. Impossible de tout voir en une visite : mieux vaut choisir un parcours. La pyramide de verre de Pei, inaugurée en 1989, n'est que l'entrée moderne d'un édifice vieux de huit siècles.",
+   "cs": "Louvre začínal jako pevnost: kolem roku 1190 tu Filip II. August nechal postavit obranné opevnění. Z královského paláce se pak v srpnu 1793, uprostřed revoluce, stalo muzeum otevřené veřejnosti. Dnes se tu dá projít pět tisíc let dějin, od starověkého Egypta po malbu 19. století. Stihnout všechno za jednu návštěvu nejde, a vlastně dobře – lepší je vybrat si trasu, než hnát se za slavnými díly. Skleněná Peiova pyramida z roku 1989 je jen moderním vstupem do budovy, která je stará osm století."
+  },
+  "highlights": {
+   "fr": [
+    "La Joconde de Léonard de Vinci",
+    "La Victoire de Samothrace, au sommet de l'escalier Daru",
+    "La Vénus de Milo",
+    "Le Code de Hammurabi, stèle de basalte de l'ancienne Babylone",
+    "Les fossés du Louvre médiéval, vestiges de la forteresse de Philippe Auguste"
+   ],
+   "cs": [
+    "Leonardova Mona Lisa",
+    "Nikê Samothráckská na vrcholu schodiště Daru",
+    "Venuše Mélská",
+    "Chammurapiho zákoník, bazaltová stéla ze starověké Babylonie",
+    "Příkopy a základy středověkého Louvru, zbytky pevnosti Filipa II. Augusta"
+   ]
+  },
+  "tip": {
+   "fr": "Choisissez deux ou trois départements avant d'entrer et laissez le reste. Pour souffler, la cour Carrée et le jardin des Tuileries sont à deux pas.",
+   "cs": "Před vstupem si vyberte dvě tři oddělení a zbytek oželte. K odpočinku poslouží nádvoří Cour Carrée a hned vedle Tuilerijské zahrady."
+  },
+  "url": "https://www.louvre.fr",
+  "photo": {
+   "file": "File:Cour Carrée, Louvre Museum, 2 April 2009.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cour_Carr%C3%A9e%2C_Louvre_Museum%2C_2_April_2009.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:Cour_Carr%C3%A9e,_Louvre_Museum,_2_April_2009.jpg",
+   "author": "Benh LIEU SONG",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "desc": "Cour Carrée (Square courtyard) and Pavillon de l’Horloge (Clock Pavilion) of the Louvre Museum, at dusk.",
+   "width": 8000,
+   "height": 3551
+  },
+  "sources": [
+   "https://www.louvre.fr",
+   "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Louvre"
+  ]
+ },
+ {
+  "id": "orsay",
+  "name": {
+   "fr": "Musée d'Orsay",
+   "cs": "Musée d'Orsay"
+  },
+  "district": "7e",
+  "kind": {
+   "fr": "Art du XIXe siècle",
+   "cs": "Umění 19. století"
+  },
+  "founded": 1986,
+  "intro": {
+   "fr": "Avant d'être un musée, c'était une gare. Victor Laloux la construit de 1898 à 1900, au bord de la Seine, pour accueillir les visiteurs de l'Exposition universelle. Quand le musée ouvre le 9 décembre 1986, la grande nef de fer et de verre sert d'écrin à la peinture et à la sculpture de 1848 à 1914. C'est ici qu'on suit, salle après salle, le passage du réalisme à l'impressionnisme. Le bâtiment compte autant que les œuvres : levez les yeux vers la verrière avant de regarder les tableaux.",
+   "cs": "Než se stalo muzeem, bylo to nádraží. Victor Laloux ho postavil v letech 1898–1900 na břehu Seiny pro návštěvníky světové výstavy. Když muzeum 9. prosince 1986 otevřelo, stala se z velké železné a skleněné haly vitrína pro malířství a sochařství let 1848–1914. Tady krok za krokem sledujete cestu od realismu k impresionismu. Budova je stejně důležitá jako obrazy: než se pustíte do pláten, podívejte se vzhůru na prosklenou střechu."
+  },
+  "highlights": {
+   "fr": [
+    "« Olympia » et « Le Déjeuner sur l'herbe » de Manet",
+    "« Un enterrement à Ornans » de Courbet",
+    "« Bal du moulin de la Galette » de Renoir",
+    "« Les Joueurs de cartes » de Cézanne",
+    "La nef de l'ancienne gare, avec sa verrière et ses grandes horloges"
+   ],
+   "cs": [
+    "Manetova „Olympia“ a „Snídaně v trávě“",
+    "Courbetův „Pohřeb v Ornans“",
+    "Renoirův „Bál v Moulin de la Galette“",
+    "Cézannovi „Karetní hráči“",
+    "Hala bývalého nádraží s prosklenou střechou a velkými hodinami"
+   ]
+  },
+  "tip": {
+   "fr": "Gardez du temps pour la nef et les horloges, pas seulement pour les salles impressionnistes. Une promenade le long de la Seine mène ensuite jusqu'à l'Orangerie.",
+   "cs": "Nechte si čas na hlavní halu a hodiny, nejen na impresionistické sály. Pak se můžete projít po nábřeží Seiny až k Orangerie."
+  },
+  "url": "https://www.musee-orsay.fr",
+  "photo": {
+   "file": "File:Pont Royal and Musée d'Orsay, Paris 10 July 2020.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pont_Royal_and_Mus%C3%A9e_d'Orsay%2C_Paris_10_July_2020.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:Pont_Royal_and_Mus%C3%A9e_d%27Orsay,_Paris_10_July_2020.jpg",
+   "author": "Pierre Blaché from Paris, France",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "desc": "Pont Royal and Musée d'Orsay at dusk, Paris, France.",
+   "width": 5626,
+   "height": 3175
+  },
+  "sources": [
+   "https://www.musee-orsay.fr",
+   "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay"
+  ]
+ },
+ {
+  "id": "orangerie",
+  "name": {
+   "fr": "Musée de l'Orangerie",
+   "cs": "Musée de l'Orangerie"
+  },
+  "district": "1er",
+  "kind": {
+   "fr": "Monet et peinture moderne",
+   "cs": "Monet a moderní malířství"
+  },
+  "founded": 1927,
+  "intro": {
+   "fr": "En 1852, on construit ce bâtiment au bord du jardin des Tuileries pour abriter l'hiver les orangers. Il devient musée en 1927, quelques mois après la mort de Claude Monet, afin d'accueillir ses « Nymphéas ». Huit grands panneaux occupent deux salles ovales et entourent le visiteur de lumière, d'eau et de reflets. En dessous, la collection Walter-Guillaume réunit 146 tableaux de Renoir, Cézanne, Soutine, Picasso ou Matisse. Un petit musée, facile à visiter en une matinée, mais qui laisse un souvenir durable.",
+   "cs": "Budova u Tuilerijské zahrady vznikla roku 1852 jako zimní úkryt pro pomerančovníky. Muzeem se stala v roce 1927, několik měsíců po smrti Clauda Moneta, aby přijala jeho „Lekníny“. Osm velkých panelů vyplňuje dva oválné sály a obklopuje návštěvníka světlem, vodou a odrazy. Níže je sbírka Walter-Guillaume, 146 obrazů od Renoira, Cézanna, Soutina, Picassa nebo Matisse. Malé muzeum, které snadno projdete za dopoledne, ale které se vám vryje do paměti."
+  },
+  "highlights": {
+   "fr": [
+    "Les huit panneaux des « Nymphéas » de Monet dans deux salles ovales",
+    "La lumière naturelle des salles, rétablie par la rénovation de 2000–2006",
+    "Les Renoir et les Cézanne de la collection Walter-Guillaume",
+    "Les portraits de Soutine, peintre souvent oublié du grand public",
+    "La terrasse et le jardin des Tuileries juste à côté"
+   ],
+   "cs": [
+    "Osm panelů Monetových „Leknínů“ ve dvou oválných sálech",
+    "Přirozené světlo v sálech, obnovené rekonstrukcí v letech 2000–2006",
+    "Renoirovy a Cézannovy obrazy ze sbírky Walter-Guillaume",
+    "Portréty Chaïma Soutina, malíře, kterého široká veřejnost často nezná",
+    "Tuilerijská zahrada hned za dveřmi"
+   ]
+  },
+  "tip": {
+   "fr": "Asseyez-vous au centre de chaque salle : les panneaux se découvrent mieux avec du recul. Couplez la visite avec Orsay, de l'autre côté de la Seine.",
+   "cs": "Posaďte se doprostřed každého sálu, panely se lépe vnímají z odstupu. Návštěvu snadno spojíte s Orsay na druhém břehu Seiny."
+  },
+  "url": "https://www.musee-orangerie.fr",
+  "photo": {
+   "file": "File:Orangerie Tuileries.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Orangerie_Tuileries.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:Orangerie_Tuileries.jpg",
+   "author": "Jebulon",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "desc": "The Musée de l'Orangerie in the Tuileries Garden in Paris, as seen from the left bank of the Seine River, evening light.",
+   "width": 3209,
+   "height": 2009
+  },
+  "sources": [
+   "https://www.musee-orangerie.fr",
+   "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l%27Orangerie"
+  ]
+ },
+ {
+  "id": "pompidou",
+  "name": {
+   "fr": "Centre Pompidou",
+   "cs": "Centre Pompidou"
+  },
+  "district": "4e",
+  "kind": {
+   "fr": "Art moderne et contemporain",
+   "cs": "Moderní a současné umění"
+  },
+  "founded": 1977,
+  "intro": {
+   "fr": "Inauguré le 31 janvier 1977, le Centre Pompidou a surpris Paris : ses architectes, Renzo Piano, Richard Rogers et Gianfranco Franchini, ont placé la structure et les conduits à l'extérieur, en couleurs vives. Il abrite l'une des plus vastes collections d'art moderne et contemporain d'Europe, ainsi qu'une bibliothèque. Attention : le bâtiment de Beaubourg est actuellement fermé pour de grands travaux, avec une réouverture annoncée pour 2030. Pendant ce temps, le Centre poursuit sa programmation dans d'autres lieux, à Paris, en Île-de-France et ailleurs.",
+   "cs": "Centre Pompidou, slavnostně otevřené 31. ledna 1977, Paříž překvapilo: architekti Renzo Piano, Richard Rogers a Gianfranco Franchini vynesli konstrukci a potrubí ven a nabarvili je jasnými barvami. Skrývá jednu z největších sbírek moderního a současného umění v Evropě i knihovnu. Pozor: budova v Beaubourgu je teď kvůli rozsáhlé rekonstrukci zavřená a znovuotevření je oznámeno na rok 2030. Mezitím Centrum pořádá výstavy na jiných místech v Paříži, v okolí a jinde."
+  },
+  "highlights": {
+   "fr": [
+    "La façade « à l'envers », avec ses tuyaux colorés",
+    "La place Georges-Pompidou, l'esplanade en pente devant l'entrée",
+    "La bibliothèque publique d'information, installée dans le bâtiment",
+    "La fontaine Stravinsky, toute proche, avec ses sculptures mobiles",
+    "Les expositions « hors les murs » organisées par le Centre dans d'autres lieux pendant les travaux"
+   ],
+   "cs": [
+    "Fasáda „naruby“ s barevnými trubkami",
+    "Náměstí Place Georges-Pompidou, svažitá plocha před vchodem",
+    "Veřejná informační knihovna v budově",
+    "Nedaleká Stravinského fontána s pohyblivými sochami",
+    "Výstavy „mimo zdi“, které Centrum během rekonstrukce pořádá na jiných místech"
+   ]
+  },
+  "tip": {
+   "fr": "Avant de venir, consultez le site officiel pour savoir où voir les collections pendant les travaux. Le quartier de Beaubourg, avec la fontaine Stravinsky, se visite très bien sans entrer.",
+   "cs": "Před cestou si na oficiálním webu ověřte, kde se sbírky během rekonstrukce vystavují. Čtvrť kolem Beaubourgu s fontánou se dá prozkoumat i bez vstupu do budovy."
+  },
+  "url": "https://www.centrepompidou.fr",
+  "photo": {
+   "file": "File:The Centre Pompidou behind Buildings.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Centre_Pompidou_behind_Buildings.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Centre_Pompidou_behind_Buildings.jpg",
+   "author": "DiscoA340",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "desc": "The Centre Pompidou behind Buildings near the Hôtel de Ville in Paris, France.",
+   "width": 4000,
+   "height": 3000
+  },
+  "sources": [
+   "https://www.centrepompidou.fr",
+   "https://fr.wikipedia.org/wiki/Centre_Pompidou"
+  ]
+ },
+ {
+  "id": "rodin",
+  "name": {
+   "fr": "Musée Rodin",
+   "cs": "Musée Rodin"
+  },
+  "district": "7e",
+  "kind": {
+   "fr": "Sculpture",
+   "cs": "Sochařství"
+  },
+  "founded": 1919,
+  "intro": {
+   "fr": "L'hôtel Biron, élégante demeure achevée en 1730, a connu un destin inattendu. Après 1905, des artistes y obtiennent des ateliers, dont Rodin, Cocteau et Matisse. En 1911, l'État achète le lieu, et Rodin offre ses œuvres à condition qu'on y crée un musée. Il ne verra pas l'ouverture : il meurt en 1917, et le musée ouvre en 1919. Le jardin de trois hectares, où les sculptures se détachent sur les arbres, est aussi beau que les salles. C'est un lieu calme au cœur de la ville.",
+   "cs": "Hôtel Biron, elegantní palác dokončený roku 1730, má nečekaný osud. Po roce 1905 tu dostali ateliéry umělci, mezi nimi Rodin, Cocteau a Matisse. V roce 1911 stát objekt koupil a Rodin daroval svá díla pod podmínkou, že tu vznikne muzeum. Jeho otevření se nedožil: zemřel roku 1917 a muzeum bylo otevřeno 1919. Zahrada o rozloze tří hektarů, kde sochy září mezi stromy, je stejně krásná jako sály. Klidné místo v srdci města."
+  },
+  "highlights": {
+   "fr": [
+    "« Le Penseur » dans le jardin",
+    "« La Porte de l'Enfer », immense ensemble qui a nourri des années de travail",
+    "« Les Bourgeois de Calais »",
+    "« Le Baiser » et le « Monument à Balzac »",
+    "La salle consacrée à Camille Claudel, avec 45 de ses œuvres"
+   ],
+   "cs": [
+    "„Myslitel“ v zahradě",
+    "„Brány pekel“, obří dílo, které Rodina zaměstnávalo řadu let",
+    "„Měšťané z Calais“",
+    "„Polibek“ a „Pomník Balzaca“",
+    "Sál věnovaný Camille Claudelové se 45 jejími díly"
+   ]
+  },
+  "tip": {
+   "fr": "Prévoyez du temps pour le jardin autant que pour les salles. Les Invalides sont à quelques minutes à pied.",
+   "cs": "Na zahradu si vyhraďte stejně času jako na sály. Invalidovna je jen pár minut pěšky."
+  },
+  "url": "https://www.musee-rodin.fr",
+  "photo": {
+   "file": "File:L'hôtel Biron (musée Rodin) à Paris, 13 juin 2021 01.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L'h%C3%B4tel_Biron_(mus%C3%A9e_Rodin)_%C3%A0_Paris%2C_13_juin_2021_01.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:L%27h%C3%B4tel_Biron_(mus%C3%A9e_Rodin)_%C3%A0_Paris,_13_juin_2021_01.jpg",
+   "author": "Jean-Pierre Dalbéra",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "desc": "L'hôtel Biron est un hôtel particulier situé rue de Varenne dans le 7e arrondissement de Paris, construit en 1727 par l'architecte Jean Aubert dans un parc de trois hectares, acheté en 1753 par le maréchal de Biron. Depuis 1919, il abrite le musée Rodin. Extrait de Wikipedia L'Hôtel Biron sur Wikipe",
+   "width": 7754,
+   "height": 5169
+  },
+  "sources": [
+   "https://www.musee-rodin.fr",
+   "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Rodin"
+  ]
+ },
+ {
+  "id": "picasso",
+  "name": {
+   "fr": "Musée national Picasso-Paris",
+   "cs": "Musée national Picasso-Paris"
+  },
+  "district": "3e",
+  "kind": {
+   "fr": "Art du XXe siècle",
+   "cs": "Umění 20. století"
+  },
+  "founded": 1985,
+  "intro": {
+   "fr": "Le musée occupe l'hôtel Salé, construit entre 1656 et 1659 pour Pierre Aubert, fermier de l'impôt sur le sel, d'où son nom. Après la mort de Picasso en 1973, l'État reçoit une grande partie de ses œuvres en paiement des droits de succession, par le système de la dation. Le musée ouvre en 1985 et propose un parcours dans toute la carrière de l'artiste : peintures, sculptures, céramiques, gravures et archives. On y voit aussi sa collection personnelle, avec des œuvres d'autres artistes qu'il admirait.",
+   "cs": "Muzeum sídlí v paláci Hôtel Salé, postaveném v letech 1656–1659 pro Pierra Auberta, výběrčího solní daně, odtud jeho jméno („solný“). Po Picassově smrti v roce 1973 získal stát velkou část jeho děl jako náhradu dědické daně, tzv. dation. Muzeum bylo otevřeno 1985 a provádí celou kariérou umělce: obrazy, sochami, keramikou, grafikou i archivem. Najdete tu i jeho osobní sbírku s díly jiných umělců, které obdivoval."
+  },
+  "highlights": {
+   "fr": [
+    "Des œuvres de toutes les périodes de Picasso, de la peinture à la céramique",
+    "Les sculptures et les gravures, souvent moins connues que les tableaux",
+    "La collection personnelle de Picasso, avec des œuvres de Cézanne et de Matisse",
+    "L'escalier d'honneur et le mobilier de Diego Giacometti",
+    "Les archives de l'artiste, conservées par le musée"
+   ],
+   "cs": [
+    "Díla ze všech období Picassovy tvorby, od malby po keramiku",
+    "Sochy a grafiky, často méně známé než obrazy",
+    "Picassova osobní sbírka s díly Cézanna a Matisse",
+    "Čestné schodiště a nábytek Diega Giacomettiho",
+    "Umělcův archiv uložený v muzeu"
+   ]
+  },
+  "tip": {
+   "fr": "Associez la visite à une promenade dans le Marais : la place des Vosges et le musée Carnavalet sont tout proches.",
+   "cs": "Návštěvu spojte s procházkou po Marais: Place des Vosges i muzeum Carnavalet jsou nedaleko."
+  },
+  "url": "https://www.museepicassoparis.fr",
+  "photo": {
+   "file": "File:Paris 3e Hôtel Salé Musée Picasso 110.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_3e_H%C3%B4tel_Sal%C3%A9_Mus%C3%A9e_Picasso_110.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:Paris_3e_H%C3%B4tel_Sal%C3%A9_Mus%C3%A9e_Picasso_110.jpg",
+   "author": "GFreihalter",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "desc": "Hôtel Salé (Picasso-Museum) im 3. Arrondissement in Paris (Région Île-de-France/Frankreich)",
+   "width": 7728,
+   "height": 5152
+  },
+  "sources": [
+   "https://www.museepicassoparis.fr/en/museum-history",
+   "https://en.wikipedia.org/wiki/Mus%C3%A9e_Picasso_Paris"
+  ]
+ },
+ {
+  "id": "carnavalet",
+  "name": {
+   "fr": "Musée Carnavalet – Histoire de Paris",
+   "cs": "Musée Carnavalet – Dějiny Paříže"
+  },
+  "district": "3e",
+  "kind": {
+   "fr": "Histoire de la ville",
+   "cs": "Dějiny města"
+  },
+  "founded": 1880,
+  "intro": {
+   "fr": "Le musée de l'histoire de Paris réunit deux hôtels particuliers du Marais : l'hôtel Carnavalet, construit entre 1548 et 1560, où vécut Madame de Sévigné, et l'hôtel Le Peletier de Saint-Fargeau, du XVIIe siècle. Ouvert en 1880, il a fermé en octobre 2016 pour une rénovation complète et rouvert le 26 mai 2021. Le parcours suit la ville de la préhistoire à nos jours, à travers des enseignes de boutiques, des salons entiers, des souvenirs de la Révolution. Le jardin est un bon endroit pour faire une pause.",
+   "cs": "Muzeum dějin Paříže spojuje dva městské paláce v Marais: Hôtel Carnavalet z let 1548–1560, kde žila Madame de Sévigné, a Hôtel Le Peletier de Saint-Fargeau ze 17. století. Otevřeno bylo roku 1880, v říjnu 2016 se zavřelo kvůli kompletní rekonstrukci a 26. května 2021 se znovu otevřelo. Prohlídka vede městem od pravěku po současnost: přes obchodní štíty, celé salony a památky na revoluci. Zahrada je dobré místo na odpočinek."
+  },
+  "highlights": {
+   "fr": [
+    "La chambre de Marcel Proust, reconstituée",
+    "La bijouterie Fouquet, décorée par Alfons Mucha en 1901",
+    "Le salon de bal de l'hôtel de Wendel, peint par José Maria Sert",
+    "Les enseignes de boutiques anciennes",
+    "Les collections sur la Révolution française"
+   ],
+   "cs": [
+    "Rekonstruovaný pokoj Marcela Prousta",
+    "Klenotnictví Fouquet s výzdobou Alfonse Muchy z roku 1901",
+    "Taneční sál paláce Wendel s malbami José Marii Serta",
+    "Staré obchodní štíty a vývěsní tabule",
+    "Sbírky o Velké francouzské revoluci"
+   ]
+  },
+  "tip": {
+   "fr": "Commencez par les premières salles pour suivre l'ordre chronologique, mais ne manquez pas la bijouterie Fouquet. Le musée Picasso est à dix minutes à pied environ.",
+   "cs": "Začněte prvními sály a jděte chronologicky, ale nevynechejte klenotnictví Fouquet. Muzeum Picasso je asi deset minut pěšky."
+  },
+  "url": "https://www.carnavalet.paris.fr",
+  "photo": {
+   "file": "File:Courtyard of the Musée Carnavalet.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Courtyard_of_the_Mus%C3%A9e_Carnavalet.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:Courtyard_of_the_Mus%C3%A9e_Carnavalet.jpg",
+   "author": "DiscoA340",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "desc": "Courtyard of the Musée Carnavalet in Paris, France.",
+   "width": 4000,
+   "height": 3000
+  },
+  "sources": [
+   "https://www.carnavalet.paris.fr",
+   "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Carnavalet"
+  ]
+ },
+ {
+  "id": "cluny",
+  "name": {
+   "fr": "Musée de Cluny – Musée national du Moyen Âge",
+   "cs": "Musée de Cluny – Národní muzeum středověku"
+  },
+  "district": "5e",
+  "kind": {
+   "fr": "Moyen Âge",
+   "cs": "Středověk"
+  },
+  "founded": 1844,
+  "intro": {
+   "fr": "Ce musée s'est installé dans l'hôtel des abbés de Cluny, un bâtiment de la fin du XVe siècle, bâti contre les thermes gallo-romains de Lutèce. Alexandre Du Sommerard s'y installe en 1833 avec sa collection, que l'État achète : le musée ouvre en 1844. Après plusieurs années de rénovation, ses nouveaux parcours sont achevés en 2022. On y voit environ 2 300 objets du Moyen Âge, dont des tapisseries, des vitraux et des sculptures venues de Notre-Dame.",
+   "cs": "Muzeum sídlí v paláci opatů z Cluny z konce 15. století, který stojí přímo u galsko-římských lázní starověké Lutécie. Alexandre Du Sommerard se tu v roce 1833 usadil se svou sbírkou, kterou koupil stát: muzeum bylo otevřeno 1844. Po několikaleté rekonstrukci byly nové prohlídkové trasy dokončeny roku 2022. Uvidíte asi 2 300 předmětů ze středověku, mimo jiné tapiserie, vitráže a sochy z Notre-Dame."
+  },
+  "highlights": {
+   "fr": [
+    "La tenture de « La Dame à la licorne », six tapisseries dans une salle dédiée",
+    "Les têtes de la galerie des rois de Notre-Dame",
+    "Le pilier des Nautes, le plus ancien monument daté de Paris",
+    "Les couronnes de Guarrazar et la rose d'or du pape Jean XXII",
+    "La plus riche collection de vitraux de France"
+   ],
+   "cs": [
+    "Tapiserie „Dáma s jednorožcem“, šest kusů ve vlastním sále",
+    "Hlavy ze síně králů katedrály Notre-Dame",
+    "Pilíř lodníků (Pilier des Nautes), nejstarší datovaný památník Paříže",
+    "Korunky z Guarrazaru a zlatá růže papeže Jana XXII.",
+    "Největší sbírka vitráží ve Francii"
+   ]
+  },
+  "tip": {
+   "fr": "Réservez du temps pour la salle de La Dame à la licorne, qui demande une visite lente. Le Quartier latin et le jardin du Luxembourg sont tout près.",
+   "cs": "Na sál s Dámou s jednorožcem si vyhraďte klid, chce to pomalou prohlídku. Latinská čtvrť a Lucemburské zahrady jsou hned vedle."
+  },
+  "url": "https://www.musee-moyenage.fr",
+  "photo": {
+   "file": "File:Paris -Musée national du Moyen-âge - Vue extérieur de l'hôtel de Cluny - 003.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-Mus%C3%A9e_national_du_Moyen-%C3%A2ge_-_Vue_ext%C3%A9rieur_de_l'h%C3%B4tel_de_Cluny_-_003.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:Paris_-Mus%C3%A9e_national_du_Moyen-%C3%A2ge_-_Vue_ext%C3%A9rieur_de_l%27h%C3%B4tel_de_Cluny_-_003.jpg",
+   "author": "Thesupermat",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "desc": "Vue extérieur de l'hôtel de Cluny",
+   "width": 4752,
+   "height": 3168
+  },
+  "sources": [
+   "https://www.musee-moyenage.fr",
+   "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Cluny"
+  ]
+ },
+ {
+  "id": "branly",
+  "name": {
+   "fr": "Musée du quai Branly – Jacques Chirac",
+   "cs": "Musée du quai Branly – Jacques Chirac"
+  },
+  "district": "7e",
+  "kind": {
+   "fr": "Arts et cultures du monde",
+   "cs": "Umění a kultury světa"
+  },
+  "founded": 2006,
+  "intro": {
+   "fr": "Ouvert en juin 2006, le musée est né de la volonté du président Jacques Chirac, conseillé par le collectionneur Jacques Kerchache. Il est consacré aux arts et aux civilisations d'Afrique, d'Asie, d'Océanie et des Amériques, avec des collections venues du musée de l'Homme et de l'ancien musée des Arts d'Afrique et d'Océanie. L'architecte Jean Nouvel a imaginé un bâtiment ouvert sur un jardin de Gilles Clément. Sur un côté, le mur végétal de Patrick Blanc a fait connaître le lieu.",
+   "cs": "Muzeum otevřené v červnu 2006 vzniklo z vůle prezidenta Jacquesa Chiraca, kterého radil sběratel Jacques Kerchache. Věnuje se umění a civilizacím Afriky, Asie, Oceánie a Ameriky a čerpá ze sbírek Musée de l'Homme a bývalého Musée des Arts d'Afrique et d'Océanie. Architekt Jean Nouvel navrhl budovu otevřenou do zahrady, kterou navrhl Gilles Clément. Na jedné straně stojí zelená stěna Patricka Blanca, která místo proslavila."
+  },
+  "highlights": {
+   "fr": [
+    "Le mur végétal de Patrick Blanc sur la façade",
+    "Le jardin de Gilles Clément, à l'ambiance de « brousse »",
+    "Le plateau des collections, organisé par grandes régions du monde",
+    "Les instruments de musique et les textiles des collections",
+    "Les expositions temporaires, souvent consacrées à une culture précise"
+   ],
+   "cs": [
+    "Zelená stěna Patricka Blanca na fasádě",
+    "Zahrada od Gillese Cléments v duchu „buše“",
+    "Sbírkové patro uspořádané podle velkých světových regionů",
+    "Hudební nástroje a textilie ve sbírkách",
+    "Dočasné výstavy, často věnované jedné konkrétní kultuře"
+   ]
+  },
+  "tip": {
+   "fr": "Le musée se trouve près de la tour Eiffel : une bonne option pour une journée dans ce quartier. Le jardin se visite aussi en dehors des salles.",
+   "cs": "Muzeum leží kousek od Eiffelovy věže, takže se hodí na den v této čtvrti. Zahradu lze navštívit i mimo samotné sály."
+  },
+  "url": "https://www.quaibranly.fr",
+  "photo": {
+   "file": "File:Musée du quai Branly - 20150801 16h07 (10629).jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e_du_quai_Branly_-_20150801_16h07_(10629).jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_quai_Branly_-_20150801_16h07_(10629).jpg",
+   "author": "Another one of my pictures:[[File:|150x150px]] This photograph was taken by Medium69 (William Crochot) and released under the license stated below. You are free to use it for any purpose as long as you credit the author (William Crochot), the Source (Wikimedia Commons) and the license (CC-BY-SA 4.0) in close relation to the image. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source RAW. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "desc": "Southwest view of the musée du quai Branly in Paris.",
+   "width": 3447,
+   "height": 5170
+  },
+  "sources": [
+   "https://www.quaibranly.fr",
+   "https://www.universalis.fr/encyclopedie/musee-du-quai-branly-jacques-chirac-en-bref/"
+  ]
+ },
+ {
+  "id": "marmottan",
+  "name": {
+   "fr": "Musée Marmottan Monet",
+   "cs": "Musée Marmottan Monet"
+  },
+  "district": "16e",
+  "kind": {
+   "fr": "Impressionnisme",
+   "cs": "Impresionismus"
+  },
+  "founded": 1934,
+  "intro": {
+   "fr": "Un ancien pavillon de chasse près du bois de Boulogne, acheté en 1882 par Jules Marmottan, puis transformé par son fils Paul en hôtel particulier. En 1932, Paul le lègue à l'Académie des beaux-arts, qui en fait un musée en 1934. Le legs de Michel Monet, fils de Claude, en 1966 change tout : 89 toiles de l'artiste y entrent. Le musée garde aussi la plus grande collection au monde d'œuvres de Berthe Morisot, ainsi que des meubles de l'époque Empire.",
+   "cs": "Bývalý lovecký pavilon u Boulogneského lesíka koupil roku 1882 Jules Marmottan a jeho syn Paul ho proměnil v městský palác. V roce 1932 ho Paul odkázal Akademii výtvarných umění, která z něj roku 1934 udělala muzeum. Odkaz Michela Moneta, syna Clauda, z roku 1966 vše změnil: do muzea přibylo 89 obrazů malíře. Chová také největší sbírku děl Berthe Morisotové na světě a nábytek z doby císařství."
+  },
+  "highlights": {
+   "fr": [
+    "« Impression, soleil levant » de Monet, volé en 1985 et retrouvé en 1990",
+    "La collection de 89 toiles de Monet léguées par son fils Michel",
+    "Les œuvres de Berthe Morisot, au nombre de 81",
+    "Le mobilier et les objets de l'époque du Premier Empire",
+    "L'hôtel particulier lui-même, avec ses salons"
+   ],
+   "cs": [
+    "Monetův „Dojem, východ slunce“, ukradený v roce 1985 a nalezený roku 1990",
+    "Sbírka 89 Monetových pláten odkázaných synem Michelem",
+    "Díla Berthe Morisotové, celkem 81",
+    "Nábytek a předměty z doby Prvního císařství",
+    "Samotný městský palác s jeho salony"
+   ]
+  },
+  "tip": {
+   "fr": "Le musée est dans le 16e, loin des grands circuits : prévoyez le trajet. Il se combine bien avec une promenade vers le bois de Boulogne.",
+   "cs": "Muzeum je v 16. obvodu, daleko od hlavních tras, počítejte s cestou. Dobře se spojí s procházkou k Boulogneskému lesíku."
+  },
+  "url": "https://www.marmottan.fr",
+  "photo": {
+   "file": "File:Musée Marmottan Monet Paris.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e_Marmottan_Monet_Paris.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Marmottan_Monet_Paris.jpg",
+   "author": "CVB",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "desc": "Musée Marmottan Monet, Paris.",
+   "width": 3024,
+   "height": 4032
+  },
+  "sources": [
+   "https://www.marmottan.fr",
+   "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Marmottan-Monet"
+  ]
+ },
+ {
+  "id": "petitpalais",
+  "name": {
+   "fr": "Petit Palais – Musée des Beaux-Arts de la Ville de Paris",
+   "cs": "Petit Palais – Muzeum výtvarných umění města Paříže"
+  },
+  "district": "8e",
+  "kind": {
+   "fr": "Beaux-arts de la Ville de Paris",
+   "cs": "Městské muzeum výtvarných umění"
+  },
+  "founded": 1902,
+  "intro": {
+   "fr": "Construit par Charles Girault pour l'Exposition universelle de 1900, le Petit Palais est devenu en 1902 le musée des beaux-arts de la Ville de Paris. Son architecture est un plaisir en soi : colonnade, coupole, jardin intérieur en demi-cercle. Les collections vont de l'Antiquité au début du XXe siècle, avec des peintures, des objets d'art et des sculptures. Le don des frères Dutuit, en 1902, compte presque 20 000 œuvres. On peut y passer une heure ou une demi-journée sans se sentir perdu.",
+   "cs": "Petit Palais postavil Charles Girault pro světovou výstavu 1900 a roku 1902 se stal muzeem výtvarných umění města Paříže. Architektura je zážitek sama o sobě: kolonáda, kupole, půlkruhová vnitřní zahrada. Sbírky sahají od starověku do počátku 20. století a zahrnují malby, umělecké předměty a sochy. Dar bratří Dutuitů z roku 1902 čítá téměř 20 000 děl. Dá se tu strávit hodina i půl dne a člověk se nepřestane orientovat."
+  },
+  "highlights": {
+   "fr": [
+    "Le jardin semi-circulaire au cœur du bâtiment",
+    "La collection Dutuit, avec un autoportrait de Rembrandt",
+    "Des tableaux de Courbet et de Monet",
+    "L'« Ascension » de Gustave Doré",
+    "Les objets d'art nouveau, dont des pièces de Hector Guimard"
+   ],
+   "cs": [
+    "Půlkruhová zahrada uprostřed budovy",
+    "Sbírka Dutuit s Rembrandtovým autoportrétem",
+    "Obrazy Courbeta a Moneta",
+    "Gustave Doré: „Nanebevstoupení“",
+    "Předměty secese včetně děl Hectora Guimarda"
+   ]
+  },
+  "tip": {
+   "fr": "Le Petit Palais fait face au Grand Palais, près du pont Alexandre-III : une bonne étape avant les Champs-Élysées. Pensez à passer par le jardin.",
+   "cs": "Petit Palais stojí naproti Grand Palais, u mostu Alexandra III., což je dobrá zastávka před Champs-Élysées. Stojí za to projít zahradou."
+  },
+  "url": "https://www.petitpalais.paris.fr",
+  "photo": {
+   "file": "File:Petit Palais Paris 8e.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Petit_Palais_Paris_8e.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:Petit_Palais_Paris_8e.jpg",
+   "author": "Moonik",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "desc": "Petit Palais in the 8th arrondissement of Paris, France",
+   "width": 2560,
+   "height": 4130
+  },
+  "sources": [
+   "https://www.petitpalais.paris.fr",
+   "https://fr.wikipedia.org/wiki/Petit_Palais"
+  ]
+ },
+ {
+  "id": "artsmetiers",
+  "name": {
+   "fr": "Musée des Arts et Métiers",
+   "cs": "Musée des Arts et Métiers"
+  },
+  "district": "3e",
+  "kind": {
+   "fr": "Sciences et techniques",
+   "cs": "Věda a technika"
+  },
+  "founded": 1794,
+  "intro": {
+   "fr": "Le Conservatoire des arts et métiers est créé en 1794, sur la proposition de l'abbé Grégoire, pour montrer aux Français des machines et des instruments. Ses galeries ouvrent au public en mai 1802. Il s'installe dans l'ancien prieuré de Saint-Martin-des-Champs, dont l'église sert aujourd'hui d'écrin à des avions et au pendule de Foucault. Le musée raconte l'histoire des sciences et des techniques à travers les objets, du calcul aux transports. Ici, la technique se découvre dans un décor ancien.",
+   "cs": "Conservatoire des arts et métiers vzniklo roku 1794 na návrh opata Grégoira, aby ukazovalo Francouzům stroje a přístroje. Jeho sbírky se veřejnosti otevřely v květnu 1802. Sídlí v bývalém převorství Saint-Martin-des-Champs, jehož kostel dnes hostí letadla a Foucaultovo kyvadlo. Muzeum vypráví dějiny vědy a techniky na předmětech, od počítání po dopravu. Technika se tu objevuje ve starobylé kulise."
+  },
+  "highlights": {
+   "fr": [
+    "Le pendule de Foucault dans l'ancienne église du prieuré",
+    "Le Blériot XI, l'avion de la traversée de la Manche en 1909",
+    "L'« Avion III » de Clément Ader",
+    "Le laboratoire de Lavoisier",
+    "Les machines à calculer de Blaise Pascal"
+   ],
+   "cs": [
+    "Foucaultovo kyvadlo v bývalém převorském kostele",
+    "Blériot XI, letadlo, v němž Louis Blériot roku 1909 přeletěl kanál La Manche",
+    "„Avion III“ Clémenta Adera",
+    "Lavoisierova laboratoř",
+    "Počítací stroje Blaise Pascala"
+   ]
+  },
+  "tip": {
+   "fr": "Arrivez par la station de métro Arts et Métiers (ligne 11), décorée en 1994 par François Schuiten : elle donne déjà le ton de la visite.",
+   "cs": "Přijeďte metrem na stanici Arts et Métiers (linka 11), kterou v roce 1994 vyzdobil François Schuiten: dává návštěvě tón už před vstupem."
+  },
+  "url": "https://www.arts-et-metiers.net",
+  "photo": {
+   "file": "File:La chapelle du Musée des Arts et Métiers.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La_chapelle_du_Mus%C3%A9e_des_Arts_et_M%C3%A9tiers.jpg?width=1200",
+   "page": "https://commons.wikimedia.org/wiki/File:La_chapelle_du_Mus%C3%A9e_des_Arts_et_M%C3%A9tiers.jpg",
+   "author": "Roi Boshi",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "desc": "Nave of the chapel of the Musée des Arts et Métiers, Paris, France",
+   "width": 2000,
+   "height": 3000
+  },
+  "sources": [
+   "https://www.arts-et-metiers.net",
+   "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Arts_et_M%C3%A9tiers"
+  ]
+ }
+]

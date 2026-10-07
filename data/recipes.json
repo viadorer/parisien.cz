@@ -1,0 +1,603 @@
+[
+  {
+    "id": "croque-monsieur",
+    "name": {
+      "fr": "Croque-monsieur",
+      "cs": "Croque-monsieur"
+    },
+    "level": {
+      "fr": "Facile",
+      "cs": "Snadné"
+    },
+    "minutes": 30,
+    "servings": 4,
+    "ingredients": {
+      "fr": [
+        "8 tranches de pain de mie",
+        "4 tranches de jambon blanc",
+        "150 g de gruyère râpé",
+        "25 g de beurre + un peu de beurre mou pour les tranches",
+        "25 g de farine",
+        "30 cl de lait",
+        "1 pincée de noix de muscade, sel, poivre"
+      ],
+      "cs": [
+        "8 plátků toastového chleba (pain de mie)",
+        "4 plátky bílé šunky",
+        "150 g strouhaného gruyèru",
+        "25 g másla + trochu měkkého másla na chléb",
+        "25 g hladké mouky",
+        "300 ml mléka",
+        "špetka muškátového oříšku, sůl, pepř"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Préparez la béchamel : faites fondre 25 g de beurre, ajoutez la farine et remuez 1 à 2 minutes. Versez le lait peu à peu en fouettant, puis laissez épaissir à feu doux 5 minutes. Salez, poivrez, ajoutez la muscade.",
+        "Préchauffez le four à 200 °C. Beurrez légèrement les tranches de pain sur une face.",
+        "Étalez un peu de béchamel sur 4 tranches, posez une tranche de jambon et 2 cuillères de gruyère, puis fermez avec une seconde tranche.",
+        "Nappez le dessus de béchamel et parsemez du reste de gruyère.",
+        "Enfournez 10 à 12 minutes, puis passez 2 à 3 minutes sous le gril jusqu'à ce que le dessus soit doré. Servez chaud, avec une salade verte."
+      ],
+      "cs": [
+        "Připravte bešamel: rozpusťte 25 g másla, vmíchejte mouku a za stálého míchání 1 až 2 minuty restujte. Postupně přilévejte mléko a za šlehání nechte na mírném ohni asi 5 minut zhoustnout. Osolte, opepřete a dochuťte muškátem.",
+        "Předehřejte troubu na 200 °C. Plátky chleba z jedné strany lehce potřete máslem.",
+        "Na 4 plátky natřete trochu bešamelu, přidejte plátek šunky a 2 lžíce gruyèru a přiklopte druhým plátkem.",
+        "Vršek potřete bešamelem a posypte zbylým sýrem.",
+        "Pečte 10 až 12 minut, pak 2 až 3 minuty zapékejte pod grilem do zlatova. Podávejte horké se salátem."
+      ]
+    },
+    "tip": {
+      "fr": "Pour un croque-madame, posez un œuf au plat sur le croque cuit. Le « croque » vient du verbe croquer : le dessus doit être croustillant.",
+      "cs": "Na croque-madame položte na hotový sendvič volské oko. Název vychází ze slovesa „croquer“ (křupat): vršek má být křupavý."
+    },
+    "vocab": [
+      {
+        "fr": "faire fondre",
+        "cs": "rozpustit"
+      },
+      {
+        "fr": "fouetter",
+        "cs": "šlehat"
+      },
+      {
+        "fr": "étaler",
+        "cs": "rozetřít, natřít"
+      },
+      {
+        "fr": "râper",
+        "cs": "strouhat"
+      },
+      {
+        "fr": "napper",
+        "cs": "přelít, pokrýt"
+      },
+      {
+        "fr": "parsemer",
+        "cs": "posypat"
+      },
+      {
+        "fr": "enfourner",
+        "cs": "dát do trouby"
+      }
+    ],
+    "photo": {
+      "file": "File:Bonjour, Croque Monsieur - Lunch in Paris, 27 June 2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonjour%2C_Croque_Monsieur_-_Lunch_in_Paris%2C_27_June_2023.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Bonjour,_Croque_Monsieur_-_Lunch_in_Paris,_27_June_2023.jpg",
+      "author": "Sharon Hahn Darlin",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "desc": "Lunch, Paris, France",
+      "width": 2700,
+      "height": 3693
+    },
+    "sources": [
+      "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Croque-monsieur",
+      "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Béchamel",
+      "https://fr.wikipedia.org/wiki/Croque-monsieur"
+    ]
+  },
+  {
+    "id": "soupe-oignon",
+    "name": {
+      "fr": "Soupe à l'oignon gratinée",
+      "cs": "Gratinovaná cibulová polévka"
+    },
+    "level": {
+      "fr": "Facile",
+      "cs": "Snadné"
+    },
+    "minutes": 75,
+    "servings": 4,
+    "ingredients": {
+      "fr": [
+        "800 g d'oignons jaunes",
+        "40 g de beurre",
+        "1 cuillère à soupe de farine",
+        "10 cl de vin blanc sec",
+        "1,2 l de bouillon de bœuf",
+        "1 bouquet garni",
+        "8 tranches de baguette",
+        "120 g de gruyère râpé",
+        "sel, poivre"
+      ],
+      "cs": [
+        "800 g žluté cibule",
+        "40 g másla",
+        "1 polévková lžíce hladké mouky",
+        "100 ml suchého bílého vína",
+        "1,2 l hovězího vývaru",
+        "1 svazek bylinek (bouquet garni)",
+        "8 plátků bagety",
+        "120 g strouhaného gruyèru",
+        "sůl, pepř"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Épluchez les oignons et émincez-les finement.",
+        "Faites fondre le beurre dans une grande casserole et ajoutez les oignons. Faites-les dorer 25 à 30 minutes à feu moyen-doux, en remuant souvent : ils doivent devenir bien dorés, sans brûler.",
+        "Saupoudrez de farine, remuez 2 minutes, puis versez le vin blanc et laissez réduire un instant.",
+        "Ajoutez le bouillon chaud et le bouquet garni. Laissez frémir 20 minutes, salez et poivrez avec modération.",
+        "Pendant ce temps, faites sécher les tranches de baguette 10 minutes au four à 150 °C.",
+        "Répartissez la soupe dans 4 bols qui vont au four, posez 2 tranches de pain dans chaque bol et couvrez de gruyère. Passez sous le gril du four 5 à 8 minutes, jusqu'à ce que le fromage soit gratiné. Servez aussitôt."
+      ],
+      "cs": [
+        "Cibuli oloupejte a nakrájejte na tenká půlkolečka.",
+        "Ve velkém hrnci rozpusťte máslo a přidejte cibuli. Za častého míchání ji 25 až 30 minut zlatavě smažte na středně mírném ohni; má být pěkně zlatá, ale nesmí se připálit.",
+        "Posypte moukou, 2 minuty míchejte, zalijte bílým vínem a chvíli nechte odvařit.",
+        "Přidejte horký vývar a bylinky. Nechte 20 minut jemně probublávat, osolte a opepřete s mírou.",
+        "Mezitím sušte plátky bagety 10 minut v troubě na 150 °C.",
+        "Polévku rozdělte do 4 misek vhodných do trouby, do každé vložte 2 plátky chleba a zasypte gruyèrem. Zapékejte pod grilem 5 až 8 minut, až se sýr zlatavě zapeče. Ihned podávejte."
+      ]
+    },
+    "tip": {
+      "fr": "Plus les oignons dorent lentement, plus la soupe est douce. Pour un goût plus rond, remplacez le vin blanc par un peu de porto ajouté en fin de cuisson.",
+      "cs": "Čím pomaleji se cibule opéká, tím je polévka sladší. Pro plnější chuť můžete víno nahradit trochou portského, které přidáte na konci vaření."
+    },
+    "vocab": [
+      {
+        "fr": "émincer",
+        "cs": "nakrájet na tenké plátky"
+      },
+      {
+        "fr": "dorer",
+        "cs": "opéct do zlatova"
+      },
+      {
+        "fr": "saupoudrer",
+        "cs": "posypat"
+      },
+      {
+        "fr": "réduire",
+        "cs": "zredukovat, odvařit"
+      },
+      {
+        "fr": "frémir",
+        "cs": "jemně vařit (probublávat)"
+      },
+      {
+        "fr": "gratiner",
+        "cs": "zapéct"
+      },
+      {
+        "fr": "un bouquet garni",
+        "cs": "svazek bylinek do vývaru"
+      }
+    ],
+    "photo": {
+      "file": "File:French Onion Soup..JPG",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/French_Onion_Soup..JPG?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:French_Onion_Soup..JPG",
+      "author": "Miansari66",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "desc": "Soupe à l'oignon française",
+      "width": 4896,
+      "height": 3672
+    },
+    "sources": [
+      "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Soupe_à_l'oignon",
+      "https://fr.wikipedia.org/wiki/Soupe_à_l'oignon"
+    ]
+  },
+  {
+    "id": "quiche-lorraine",
+    "name": {
+      "fr": "Quiche lorraine",
+      "cs": "Quiche lorraine"
+    },
+    "level": {
+      "fr": "Moyen",
+      "cs": "Středně náročné"
+    },
+    "minutes": 80,
+    "servings": 4,
+    "ingredients": {
+      "fr": [
+        "200 g de farine",
+        "100 g de beurre froid",
+        "5 cl d'eau froide",
+        "1 pincée de sel",
+        "200 g de lardons fumés",
+        "3 œufs",
+        "25 cl de crème fraîche",
+        "15 cl de lait",
+        "noix de muscade, poivre"
+      ],
+      "cs": [
+        "200 g hladké mouky",
+        "100 g studeného másla",
+        "50 ml studené vody",
+        "špetka soli",
+        "200 g uzené slaniny nakrájené na kostičky (lardons)",
+        "3 vejce",
+        "250 ml zakysané smetany (crème fraîche) nebo hustší smetany",
+        "150 ml mléka",
+        "muškátový oříšek, pepř"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Préparez la pâte : du bout des doigts, mélangez farine, sel et beurre coupé en morceaux jusqu'à obtenir un sable. Ajoutez l'eau, formez une boule, puis laissez reposer 30 minutes au frais.",
+        "Préchauffez le four à 180 °C. Étalez la pâte et garnissez-en un moule de 26 cm. Piquez le fond à la fourchette.",
+        "Faites cuire la pâte à blanc 15 minutes avec des légumes secs ou des haricots sur du papier sulfurisé.",
+        "Faites dorer les lardons à la poêle, sans matière grasse, puis égouttez-les sur du papier absorbant. Répartissez-les sur le fond de tarte.",
+        "Battez les œufs avec la crème et le lait. Poivrez et ajoutez de la muscade ; salez très peu, car les lardons sont déjà salés. Versez sur les lardons.",
+        "Enfournez 30 à 35 minutes, jusqu'à ce que la garniture soit dorée et prise. Laissez tiédir 10 minutes avant de servir."
+      ],
+      "cs": [
+        "Připravte těsto: konečky prstů rozetřete mouku, sůl a máslo nakrájené na kousky, až vznikne drobenka. Přidejte vodu, vypracujte kouli a nechte 30 minut odpočinout v chladu.",
+        "Předehřejte troubu na 180 °C. Těsto vyválejte a vyložte jím formu o průměru 26 cm. Dno propíchejte vidličkou.",
+        "Těsto 15 minut předpečte na prázdno, na pečicím papíru zatížené luštěninami nebo fazolemi.",
+        "Slaninu na pánvi opečte bez tuku do zlatova a nechte okapat na kuchyňské utěrce. Rozprostřete ji na dno koláče.",
+        "Vejce prošlehejte se smetanou a mlékem. Opepřete a přidejte muškát; solte jen velmi málo, protože slanina je už slaná. Nalijte na slaninu.",
+        "Pečte 30 až 35 minut, až je náplň zlatavá a pevná. Před krájením nechte 10 minut zchladnout."
+      ]
+    },
+    "tip": {
+      "fr": "La recette traditionnelle de Lorraine ne contient pas de fromage : essayez-la d'abord ainsi. Le fromage râpé est un ajout plus récent.",
+      "cs": "Tradiční lotrinský recept sýr neobsahuje: zkuste ho nejdřív takto. Strouhaný sýr je novější přídavek."
+    },
+    "vocab": [
+      {
+        "fr": "piquer",
+        "cs": "propíchnout"
+      },
+      {
+        "fr": "étaler",
+        "cs": "vyválet, rozetřít"
+      },
+      {
+        "fr": "cuire à blanc",
+        "cs": "předpéct na prázdno"
+      },
+      {
+        "fr": "égoutter",
+        "cs": "nechat okapat, scedit"
+      },
+      {
+        "fr": "battre",
+        "cs": "prošlehat"
+      },
+      {
+        "fr": "verser",
+        "cs": "nalít"
+      },
+      {
+        "fr": "laisser tiédir",
+        "cs": "nechat vlažně zchladnout"
+      }
+    ],
+    "photo": {
+      "file": "File:Quiche lorraine 01.JPG",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Quiche_lorraine_01.JPG?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Quiche_lorraine_01.JPG",
+      "author": "Arnaud 25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "desc": "Quiche lorraine",
+      "width": 2048,
+      "height": 1536
+    },
+    "sources": [
+      "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Quiche_lorraine",
+      "https://fr.wikipedia.org/wiki/Quiche_lorraine"
+    ]
+  },
+  {
+    "id": "crepes",
+    "name": {
+      "fr": "Crêpes sucrées",
+      "cs": "Sladké crêpes"
+    },
+    "level": {
+      "fr": "Facile",
+      "cs": "Snadné"
+    },
+    "minutes": 90,
+    "servings": 4,
+    "ingredients": {
+      "fr": [
+        "250 g de farine",
+        "4 œufs",
+        "50 cl de lait",
+        "40 g de beurre fondu + un peu pour la poêle",
+        "2 cuillères à soupe de sucre",
+        "1 pincée de sel",
+        "1 cuillère à soupe de rhum ou d'extrait de vanille (facultatif)",
+        "sucre, citron ou confiture pour servir"
+      ],
+      "cs": [
+        "250 g hladké mouky",
+        "4 vejce",
+        "500 ml mléka",
+        "40 g rozpuštěného másla + trochu na pánev",
+        "2 polévkové lžíce cukru",
+        "špetka soli",
+        "1 polévková lžíce rumu nebo vanilkového extraktu (nepovinné)",
+        "cukr, citron nebo džem k podávání"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Dans un saladier, mélangez la farine, le sucre et le sel. Creusez un puits au centre et cassez-y les œufs.",
+        "Mélangez au fouet en incorporant peu à peu le lait, pour éviter les grumeaux. Ajoutez le beurre fondu et le rhum ou la vanille.",
+        "Couvrez et laissez reposer la pâte 1 heure : elle sera plus souple.",
+        "Chauffez une poêle ou une crêpière et huilez-la légèrement avec un peu de beurre. Versez une petite louche de pâte et inclinez la poêle pour la répartir.",
+        "Faites cuire 1 à 2 minutes, jusqu'à ce que les bords se détachent, retournez la crêpe et cuisez encore 1 minute.",
+        "Empilez les crêpes sur une assiette et servez-les avec du sucre, du citron ou de la confiture. Vous en obtiendrez environ 12."
+      ],
+      "cs": [
+        "V míse smíchejte mouku, cukr a sůl. Udělejte uprostřed důlek a rozklepněte do něj vejce.",
+        "Šlehejte metlou a postupně přilévejte mléko, aby nevznikly hrudky. Přidejte rozpuštěné máslo a rum nebo vanilku.",
+        "Přikryjte a nechte těsto 1 hodinu odpočinout: bude poddajnější.",
+        "Rozehřejte pánev na crêpes a lehce ji potřete máslem. Nalijte malou naběračku těsta a pánví nakloňte, aby se rozlilo.",
+        "Pečte 1 až 2 minuty, až se okraje oddělují, crêpe obraťte a pečte ještě 1 minutu.",
+        "Crêpes skládejte na talíř a podávejte s cukrem, citronem nebo džemem. Vyjde jich asi 12."
+      ]
+    },
+    "tip": {
+      "fr": "Les crêpes se mangent traditionnellement à la Chandeleur, le 2 février. La première crêpe est souvent ratée : c'est normal, la poêle doit d'abord bien chauffer.",
+      "cs": "Crêpes se tradičně jedí na Hromnice (la Chandeleur) 2. února. První crêpe se často nepovede: to je normální, pánev se musí nejdřív pořádně rozehřát."
+    },
+    "vocab": [
+      {
+        "fr": "casser (un œuf)",
+        "cs": "rozklepnout (vejce)"
+      },
+      {
+        "fr": "creuser un puits",
+        "cs": "udělat důlek"
+      },
+      {
+        "fr": "incorporer",
+        "cs": "vmíchat"
+      },
+      {
+        "fr": "les grumeaux",
+        "cs": "hrudky"
+      },
+      {
+        "fr": "une louche",
+        "cs": "naběračka"
+      },
+      {
+        "fr": "retourner",
+        "cs": "obrátit"
+      },
+      {
+        "fr": "laisser reposer",
+        "cs": "nechat odpočinout"
+      }
+    ],
+    "photo": {
+      "file": "File:Crêpes faites maison, à Guingamp.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cr%C3%AApes_faites_maison%2C_%C3%A0_Guingamp.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Cr%C3%AApes_faites_maison,_%C3%A0_Guingamp.jpg",
+      "author": "Syced",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "desc": "Crêpes faites maison, à Guingamp",
+      "width": 3072,
+      "height": 2304
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Cr%C3%AApe",
+      "https://fr.wikipedia.org/wiki/Chandeleur"
+    ]
+  },
+  {
+    "id": "tarte-tatin",
+    "name": {
+      "fr": "Tarte Tatin",
+      "cs": "Tarte Tatin"
+    },
+    "level": {
+      "fr": "Moyen",
+      "cs": "Středně náročné"
+    },
+    "minutes": 80,
+    "servings": 4,
+    "ingredients": {
+      "fr": [
+        "1 kg de pommes fermes (golden, boskoop, reinette)",
+        "100 g de sucre",
+        "70 g de beurre",
+        "1 pâte feuilletée (environ 230 g) ou 1 pâte brisée",
+        "1 cuillère à soupe de jus de citron",
+        "crème fraîche pour servir"
+      ],
+      "cs": [
+        "1 kg pevných jablek (golden, boskoop, reneta)",
+        "100 g cukru",
+        "70 g másla",
+        "1 listové těsto (asi 230 g) nebo křehké těsto",
+        "1 polévková lžíce citronové šťávy",
+        "zakysaná smetana (crème fraîche) k podávání"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Préchauffez le four à 200 °C. Épluchez les pommes, retirez le cœur et coupez-les en quartiers. Arrosez-les de jus de citron.",
+        "Dans une poêle allant au four (ou un moule à manqué de 24 cm), faites fondre le sucre à feu moyen jusqu'à obtenir un caramel blond. Hors du feu, ajoutez le beurre en morceaux.",
+        "Rangez les quartiers de pommes serrés, côté arrondi vers le fond, en les faisant se chevaucher.",
+        "Faites cuire 10 minutes sur le feu pour que les pommes rendent leur jus et se mêlent au caramel.",
+        "Posez la pâte sur les pommes, rentrez les bords à l'intérieur, piquez-la à la fourchette et percez une petite cheminée au centre.",
+        "Enfournez 30 minutes. Laissez reposer 10 minutes, puis retournez la tarte sur un plat en la tenant fermement. Servez tiède avec de la crème fraîche."
+      ],
+      "cs": [
+        "Předehřejte troubu na 200 °C. Jablka oloupejte, vykrojte jádřince a nakrájejte na čtvrtky. Pokapejte citronovou šťávou.",
+        "Na pánvi vhodné do trouby (nebo ve formě o průměru 24 cm) na středním ohni rozpusťte cukr do světle zlatého karamelu. Mimo oheň vmíchejte máslo nakrájené na kousky.",
+        "Čtvrtky jablek těsně naskládejte zaoblenou stranou ke dnu a mírně se překrývejte.",
+        "10 minut vařte na plotně, aby jablka pustila šťávu a spojila se s karamelem.",
+        "Jablka přikryjte těstem, okraje zastrčte dovnitř, těsto propíchejte vidličkou a uprostřed udělejte malý otvor pro páru.",
+        "Pečte 30 minut. Nechte 10 minut odpočinout a pak koláč pevně přidržte a obraťte na talíř. Podávejte vlažný se zakysanou smetanou."
+      ]
+    },
+    "tip": {
+      "fr": "Attention au caramel : il passe très vite du doré au brûlé. Sortez la poêle du feu dès qu'il est blond, il continuera à foncer. Le nom vient des sœurs Tatin, qui tenaient un hôtel à Lamotte-Beuvron.",
+      "cs": "Pozor na karamel: z jantarového se velmi rychle změní v připálený. Sundejte pánev z ohně, jakmile je světlý, dál ztmavne sám. Název pochází od sester Tatinových, které vedly hotel v Lamotte-Beuvron."
+    },
+    "vocab": [
+      {
+        "fr": "éplucher",
+        "cs": "oloupat"
+      },
+      {
+        "fr": "retirer le cœur",
+        "cs": "vykrojit jádřinec"
+      },
+      {
+        "fr": "caraméliser",
+        "cs": "karamelizovat"
+      },
+      {
+        "fr": "chevaucher",
+        "cs": "překrývat se"
+      },
+      {
+        "fr": "rentrer les bords",
+        "cs": "zastrčit okraje"
+      },
+      {
+        "fr": "retourner",
+        "cs": "obrátit"
+      },
+      {
+        "fr": "tiède",
+        "cs": "vlažný"
+      }
+    ],
+    "photo": {
+      "file": "File:Tarte tatin appletart.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tarte_tatin_appletart.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Tarte_tatin_appletart.jpg",
+      "author": "Loslazos",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "desc": "A Tarte Tatin (upside-down caramelized apple pie)",
+      "width": 2105,
+      "height": 1593
+    },
+    "sources": [
+      "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Tarte_Tatin",
+      "https://fr.wikipedia.org/wiki/Tarte_Tatin"
+    ]
+  },
+  {
+    "id": "mousse-chocolat",
+    "name": {
+      "fr": "Mousse au chocolat",
+      "cs": "Čokoládová pěna (mousse au chocolat)"
+    },
+    "level": {
+      "fr": "Facile",
+      "cs": "Snadné"
+    },
+    "minutes": 210,
+    "servings": 4,
+    "ingredients": {
+      "fr": [
+        "200 g de chocolat noir à pâtisser",
+        "30 g de beurre",
+        "6 œufs très frais",
+        "30 g de sucre",
+        "1 pincée de sel"
+      ],
+      "cs": [
+        "200 g hořké čokolády na vaření",
+        "30 g másla",
+        "6 velmi čerstvých vajec",
+        "30 g cukru",
+        "špetka soli"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Cassez le chocolat en morceaux et faites-le fondre avec le beurre au bain-marie, en remuant. Laissez tiédir 5 minutes.",
+        "Séparez les blancs des jaunes. Incorporez les jaunes un à un au chocolat tiède, en mélangeant bien.",
+        "Montez les blancs en neige ferme avec la pincée de sel. Quand ils commencent à tenir, ajoutez le sucre et fouettez encore 1 minute.",
+        "Incorporez d'abord un tiers des blancs au chocolat pour l'assouplir, puis ajoutez le reste en soulevant délicatement la masse avec une spatule.",
+        "Répartissez dans 4 verrines ou un grand bol. Réservez au moins 3 heures au réfrigérateur avant de servir."
+      ],
+      "cs": [
+        "Čokoládu rozlámejte na kousky a rozpusťte ji s máslem ve vodní lázni za míchání. Nechte 5 minut zchladnout.",
+        "Oddělte bílky od žloutků. Žloutky po jednom zamíchejte do vlažné čokolády.",
+        "Bílky ušlehejte se špetkou soli do pevného sněhu. Když začnou držet tvar, přidejte cukr a šlehejte ještě minutu.",
+        "Nejdřív vmíchejte třetinu sněhu do čokolády, aby se uvolnila, pak přidejte zbytek a opatrně jej vkládejte stěrkou zdola nahoru.",
+        "Rozdělte do 4 sklenic nebo do velké mísy. Před podáváním nechte nejméně 3 hodiny v lednici."
+      ]
+    },
+    "tip": {
+      "fr": "Utilisez des œufs très frais, car ils restent crus : cette mousse n'est pas conseillée aux jeunes enfants, aux femmes enceintes ni aux personnes fragiles. Mélangez les blancs en soulevant : si vous les écrasez, la mousse sera dense.",
+      "cs": "Použijte velmi čerstvá vejce, protože zůstávají syrová: pěna se nehodí pro malé děti, těhotné ani oslabené osoby. Sníh zapracovávejte zdola nahoru; když ho rozmačkáte, bude pěna hutná."
+    },
+    "vocab": [
+      {
+        "fr": "faire fondre",
+        "cs": "rozpustit"
+      },
+      {
+        "fr": "le bain-marie",
+        "cs": "vodní lázeň"
+      },
+      {
+        "fr": "séparer",
+        "cs": "oddělit"
+      },
+      {
+        "fr": "monter en neige",
+        "cs": "ušlehat na sníh"
+      },
+      {
+        "fr": "incorporer",
+        "cs": "vmíchat, zapracovat"
+      },
+      {
+        "fr": "une spatule",
+        "cs": "stěrka"
+      },
+      {
+        "fr": "réserver au frais",
+        "cs": "dát do chladu"
+      }
+    ],
+    "photo": {
+      "file": "File:Mousse au chocolat (31884001425).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mousse_au_chocolat_(31884001425).jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Mousse_au_chocolat_(31884001425).jpg",
+      "author": "Theo Crazzolara",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "desc": "with raspberry",
+      "width": 4928,
+      "height": 3264
+    },
+    "sources": [
+      "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Mousse_au_chocolat",
+      "https://fr.wikipedia.org/wiki/Mousse_au_chocolat"
+    ]
+  }
+]

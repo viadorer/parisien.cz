@@ -1,0 +1,1200 @@
+{
+ "intro": {
+  "fr": "Paris n'est pas seulement un décor de cinéma : plusieurs formes de culture y sont nées ou y ont trouvé leur public. Le 28 décembre 1895, les frères Lumière y organisent la première projection publique payante. En 1909, les Ballets russes éblouissent le Châtelet. Après 1939, les existentialistes écrivent dans les cafés de Saint-Germain-des-Prés. La Fête de la musique naît ici en 1982, et le Festival d'Automne apporte l'avant-garde depuis 1972. Voici une carte pour sortir : scènes, livres, salles obscures, concerts et grands rendez-vous de l'année.",
+  "cs": "Paříž není jen kulisa pro filmy: řada kulturních forem tu vznikla nebo našla své publikum. Dne 28. prosince 1895 tu bratři Lumièrové uspořádali první veřejné placené promítání. V roce 1909 oslnil Ruský balet divadlo Châtelet. Po roce 1939 psali existencialisté v kavárnách Saint-Germain-des-Prés. Fête de la musique se zrodila právě tady v roce 1982 a Festival d'Automne přináší avantgardu od roku 1972. Následuje přehled míst i akcí, které stojí za to znát: průvodce, kam za kulturou vyrazit: scény, knihy, kina, koncerty a velké akce roku."
+ },
+ "stage": [
+  {
+   "id": "palais-garnier",
+   "name": {
+    "fr": "Opéra Garnier (Palais Garnier)",
+    "cs": "Opéra Garnier (Palais Garnier)"
+   },
+   "kind": {
+    "fr": "Opéra et ballet",
+    "cs": "Opera a balet"
+   },
+   "area": {
+    "fr": "9e arrondissement",
+    "cs": "9. obvod"
+   },
+   "text": {
+    "fr": "Charles Garnier a conçu ce palais, inauguré le 5 janvier 1875 par le président Mac-Mahon. La salle compte environ 1 979 places. En 1964, à la demande d'André Malraux, Marc Chagall a peint le nouveau plafond de la coupole. Le décor a aussi nourri la légende du lac souterrain, que Gaston Leroux a utilisée dans Le Fantôme de l'Opéra. Aujourd'hui, le Palais accueille surtout le ballet de l'Opéra de Paris.",
+    "cs": "Palác navrhl Charles Garnier a 5. ledna 1875 ho slavnostně otevřel prezident Mac-Mahon. Hlediště má zhruba 1 979 míst. V roce 1964 namaloval Marc Chagall z podnětu André Malrauxe nový strop kupole. Budova také inspirovala legendu o podzemním jezeře, kterou použil Gaston Leroux v Fantomovi opery. Dnes tu hraje hlavně balet Pařížské opery."
+   },
+   "url": "https://www.operadeparis.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Palais_Garnier",
+    "https://www.operadeparis.fr"
+   ],
+   "photo": {
+    "file": "File:Opera Garnier Grand Escalier.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Opera_Garnier_Grand_Escalier.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Opera_Garnier_Grand_Escalier.jpg",
+    "author": "Benh LIEU SONG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "desc": "The Large Staircase of The Garnier Opera, in Paris. This image consists of 12 photographs, stitched together with Hugin. Each photo was taken by hand, hence the lack of details.",
+    "width": 2000,
+    "height": 1596
+   }
+  },
+  {
+   "id": "opera-bastille",
+   "name": {
+    "fr": "Opéra Bastille",
+    "cs": "Opéra Bastille"
+   },
+   "kind": {
+    "fr": "Opéra moderne",
+    "cs": "Moderní opera"
+   },
+   "area": {
+    "fr": "12e arrondissement, place de la Bastille",
+    "cs": "12. obvod, náměstí Bastilly"
+   },
+   "text": {
+    "fr": "En 1982, François Mitterrand décide de bâtir un opéra « moderne et populaire », car le Palais Garnier lui paraît trop petit. L'architecte Carlos Ott gagne le concours en 1983. La salle principale compte 2 745 places. L'inauguration a lieu le 13 juillet 1989, pour le bicentenaire de la Révolution. Les représentations régulières commencent le 17 mars 1990 avec Les Troyens de Berlioz.",
+    "cs": "V roce 1982 se François Mitterrand rozhodl postavit „moderní a lidovou“ operu, protože Palais Garnier mu připadal příliš malý. Soutěž vyhrál architekt Carlos Ott v roce 1983. Hlavní sál má 2 745 míst. Slavnostní otevření proběhlo 13. července 1989 u příležitosti dvoustého výročí revoluce, pravidelný provoz začal 17. března 1990 Berliozovými Trójany."
+   },
+   "url": "https://www.operadeparis.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Op%C3%A9ra_Bastille",
+    "https://www.operadeparis.fr"
+   ],
+   "photo": {
+    "file": "File:Side View of the Opéra Bastille.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Side_View_of_the_Op%C3%A9ra_Bastille.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Side_View_of_the_Op%C3%A9ra_Bastille.jpg",
+    "author": "DiscoA340",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Side View of the Opéra Bastille in Paris, France.",
+    "width": 4000,
+    "height": 3000
+   }
+  },
+  {
+   "id": "comedie-francaise",
+   "name": {
+    "fr": "Comédie-Française – Salle Richelieu",
+    "cs": "Comédie-Française – Salle Richelieu"
+   },
+   "kind": {
+    "fr": "Théâtre national",
+    "cs": "Národní divadlo"
+   },
+   "area": {
+    "fr": "1er arrondissement, Palais-Royal",
+    "cs": "1. obvod, Palais-Royal"
+   },
+   "text": {
+    "fr": "Louis XIV fonde la Comédie-Française en 1680 en réunissant la troupe de Molière et celle de l'Hôtel de Bourgogne. C'est pourquoi on l'appelle « la Maison de Molière », même si Molière était mort sept ans plus tôt. Depuis 1799, la troupe joue à la Salle Richelieu (862 places). C'est le seul théâtre national français qui a une troupe permanente. Son emblème est une ruche.",
+    "cs": "Ludvík XIV. založil Comédie-Française roku 1680 sloučením Molièrova souboru se souborem z Hôtel de Bourgogne. Proto se jí říká „Molièrův dům“, i když Molière zemřel o sedm let dříve. Od roku 1799 hraje soubor v sále Salle Richelieu (862 míst). Je to jediné francouzské národní divadlo se stálým hereckým souborem a jeho symbolem je úl."
+   },
+   "url": "https://www.comedie-francaise.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Com%C3%A9die-Fran%C3%A7aise",
+    "https://www.comedie-francaise.fr"
+   ],
+   "photo": {
+    "file": "File:Comédie-Française - west facade.JPG",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Com%C3%A9die-Fran%C3%A7aise_-_west_facade.JPG?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Com%C3%A9die-Fran%C3%A7aise_-_west_facade.JPG",
+    "author": "Daderot",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "desc": "Comédie-Française, Paris, France - west facade.",
+    "width": 3264,
+    "height": 2448
+   }
+  },
+  {
+   "id": "philharmonie",
+   "name": {
+    "fr": "Philharmonie de Paris",
+    "cs": "Philharmonie de Paris"
+   },
+   "kind": {
+    "fr": "Salle de concert",
+    "cs": "Koncertní sál"
+   },
+   "area": {
+    "fr": "19e arrondissement, parc de la Villette",
+    "cs": "19. obvod, park La Villette"
+   },
+   "text": {
+    "fr": "Inaugurée le 14 janvier 2015 dans le parc de la Villette, la Philharmonie est l'œuvre de Jean Nouvel. Sa grande salle, la salle Pierre-Boulez, accueille 2 400 spectateurs répartis autour de l'orchestre, comme à la Philharmonie de Berlin. L'Orchestre de Paris et l'Ensemble intercontemporain y sont en résidence. Le projet Démos, lancé en 2010, y initie des enfants à la musique classique.",
+    "cs": "Philharmonie byla slavnostně otevřena 14. ledna 2015 v parku La Villette podle návrhu Jeana Nouvela. Hlavní sál, salle Pierre-Boulez, pojme 2 400 posluchačů usazených kolem orchestru, podobně jako v Berlínské filharmonii. Sídlí tu Orchestre de Paris a Ensemble intercontemporain. Projekt Démos, spuštěný v roce 2010, seznamuje děti s klasickou hudbou."
+   },
+   "url": "https://philharmoniedeparis.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Philharmonie_de_Paris",
+    "https://philharmoniedeparis.fr"
+   ],
+   "photo": {
+    "file": "File:La Philharmonie de Paris (20192922398).jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Philharmonie_de_Paris_(20192922398).jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Philharmonie_de_Paris_(20192922398).jpg",
+    "author": "Mustang Joe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "desc": "La Philharmonie de Paris is a state-of-the-art concert hall designed by Jean Nouvel. It is located in the Parc de la Villette.",
+    "width": 5313,
+    "height": 3547
+   }
+  },
+  {
+   "id": "chatelet",
+   "name": {
+    "fr": "Théâtre du Châtelet",
+    "cs": "Théâtre du Châtelet"
+   },
+   "kind": {
+    "fr": "Théâtre musical",
+    "cs": "Hudební divadlo"
+   },
+   "area": {
+    "fr": "1er arrondissement, place du Châtelet",
+    "cs": "1. obvod, náměstí Châtelet"
+   },
+   "text": {
+    "fr": "Gabriel Davioud a construit le théâtre de 1856 à 1862, à l'époque de Napoléon III et du baron Haussmann ; il a ouvert le 19 avril 1862. En 1909, les Ballets russes de Serge de Diaghilev s'y produisent, avec Nijinski et Anna Pavlova. Après des travaux de 2017 à 2021, la salle d'environ 2 000 places propose comédies musicales, opéra, concerts et danse.",
+    "cs": "Gabriel Davioud divadlo stavěl v letech 1856–1862 za Napoleona III. a barona Haussmanna, otevřeno bylo 19. dubna 1862. V roce 1909 tu vystoupil Ruský balet Sergeje Ďagileva s Nižinským a Annou Pavlovovou. Po rekonstrukci v letech 2017–2021 nabízí sál s přibližně 2 000 místy muzikály, operu, koncerty a tanec."
+   },
+   "url": "https://www.chatelet.com",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_du_Ch%C3%A2telet",
+    "https://www.chatelet.com"
+   ],
+   "photo": {
+    "file": "File:Théâtre du Châtelet Façade (cropped).jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Th%C3%A9%C3%A2tre_du_Ch%C3%A2telet_Fa%C3%A7ade_(cropped).jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_du_Ch%C3%A2telet_Fa%C3%A7ade_(cropped).jpg",
+    "author": "Arthur Weidmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Le théâtre du Châtelet à Paris.",
+    "width": 4361,
+    "height": 2665
+   }
+  },
+  {
+   "id": "olympia",
+   "name": {
+    "fr": "L'Olympia",
+    "cs": "L'Olympia"
+   },
+   "kind": {
+    "fr": "Music-hall",
+    "cs": "Music hall"
+   },
+   "area": {
+    "fr": "9e arrondissement, boulevard des Capucines",
+    "cs": "9. obvod, bulvár Capucines"
+   },
+   "text": {
+    "fr": "Le music-hall ouvre le 11 avril 1893 sur le boulevard des Capucines. Bruno Coquatrix le dirige à partir de 1954 et le ramène vers la chanson. En 1961, la salle est au bord de la faillite ; Édith Piaf, très malade, y chante pendant trois mois et contribue à la sauver. Du 16 janvier au 4 février 1964, les Beatles y jouent à l'affiche de Sylvie Vartan.",
+    "cs": "Music hall se otevřel 11. dubna 1893 na bulváru Capucines. Od roku 1954 ho vedl Bruno Coquatrix a vrátil ho k šansonu. V roce 1961 byl sál na pokraji bankrotu; těžce nemocná Édith Piaf tu tři měsíce zpívala a pomohla ho zachránit. Od 16. ledna do 4. února 1964 tu hráli Beatles na programu Sylvie Vartan."
+   },
+   "url": "https://www.olympiahall.com",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Olympia_(Paris)",
+    "https://www.olympiahall.com"
+   ],
+   "photo": {
+    "file": "File:Olympia facade 2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Olympia_facade_2.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Olympia_facade_2.jpg",
+    "author": "KoS",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "desc": "L'Olympia, Paris 9em, France",
+    "width": 1496,
+    "height": 2256
+   }
+  },
+  {
+   "id": "theatre-de-la-ville",
+   "name": {
+    "fr": "Théâtre de la Ville – Sarah-Bernhardt",
+    "cs": "Théâtre de la Ville – Sarah-Bernhardt"
+   },
+   "kind": {
+    "fr": "Danse et théâtre contemporains",
+    "cs": "Současný tanec a divadlo"
+   },
+   "area": {
+    "fr": "4e arrondissement, place du Châtelet",
+    "cs": "4. obvod, náměstí Châtelet"
+   },
+   "text": {
+    "fr": "Face au Châtelet, le théâtre ouvre en 1862 comme Théâtre-Lyrique. Sarah Bernhardt le dirige à partir de 1898 ; il prend le nom de « Théâtre de la Ville » en 1968. Sous Gérard Violette, il se tourne vers la danse contemporaine et fait connaître Pina Bausch au public parisien. Une seconde salle, les Abbesses, ouvre à Montmartre en 1996.",
+    "cs": "Divadlo naproti Châtelet vzniklo roku 1862 jako Théâtre-Lyrique. Od roku 1898 ho vedla Sarah Bernhardtová, od roku 1968 nese název Théâtre de la Ville. Za Gérarda Violette se zaměřilo na současný tanec a pařížskému publiku představilo Pinu Bausch. Druhý sál, Les Abbesses, se otevřel na Montmartru v roce 1996."
+   },
+   "url": "https://www.theatredelaville-paris.com",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_de_la_Ville",
+    "https://www.theatredelaville-paris.com"
+   ],
+   "photo": {
+    "file": "File:Théâtre de la Ville, Paris 4e.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Th%C3%A9%C3%A2tre_de_la_Ville%2C_Paris_4e.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_de_la_Ville,_Paris_4e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Théâtre de la Ville (Paris, 4e).",
+    "width": 5391,
+    "height": 3564
+   }
+  },
+  {
+   "id": "cirque-d-hiver",
+   "name": {
+    "fr": "Cirque d'Hiver Bouglione",
+    "cs": "Cirque d'Hiver Bouglione"
+   },
+   "kind": {
+    "fr": "Cirque",
+    "cs": "Cirkus"
+   },
+   "area": {
+    "fr": "11e arrondissement, rue Amelot",
+    "cs": "11. obvod, rue Amelot"
+   },
+   "text": {
+    "fr": "Le bâtiment circulaire de l'architecte Hittorff est inauguré en 1852 et protégé comme monument historique. Depuis 1934, la famille Bouglione y présente son cirque. La salle accueille aussi des concerts, des spectacles de danse ou d'humour tout au long de l'année. Piste ronde, gradins serrés autour de l'artiste : on y voit le cirque de très près.",
+    "cs": "Kruhovou budovu architekta Hittorffa otevřeli roku 1852 a je chráněnou historickou památkou. Od roku 1934 tu rodina Bouglione uvádí svůj cirkus. Sál během roku hostí také koncerty, taneční a humoristická představení. Kulatá manéž a těsně obklopující hlediště znamenají, že cirkus tu vidíte zblízka."
+   },
+   "url": "https://www.cirquedhiver.com",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Cirque_d%27Hiver",
+    "https://www.cirquedhiver.com"
+   ],
+   "photo": {
+    "file": "File:Cirque d'hiver, Paris 10 April 2011.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cirque_d'hiver%2C_Paris_10_April_2011.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Cirque_d%27hiver,_Paris_10_April_2011.jpg",
+    "author": "Coyau",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "desc": "Cirque d'hiver.",
+    "width": 6875,
+    "height": 4590
+   }
+  },
+  {
+   "id": "la-cigale",
+   "name": {
+    "fr": "La Cigale",
+    "cs": "La Cigale"
+   },
+   "kind": {
+    "fr": "Salle de concert",
+    "cs": "Koncertní sál"
+   },
+   "area": {
+    "fr": "18e arrondissement, Pigalle",
+    "cs": "18. obvod, Pigalle"
+   },
+   "text": {
+    "fr": "La Cigale naît en 1887 comme café-concert et revue, avant de devenir cinéma dans les années 1940. En 1987, Philippe Starck redessine l'intérieur et le groupe Les Rita Mitsouko rouvre la salle. Le vestibule et l'ancienne salle sont classés monuments historiques depuis 1981. Aujourd'hui, les rockeurs et les chanteurs s'y relaient devant 890 spectateurs assis ou jusqu'à 1 472 debout.",
+    "cs": "La Cigale vznikla roku 1887 jako café-concert a revue, ve 40. letech se z ní stalo kino. V roce 1987 interiér přepracoval Philippe Starck a sál znovu otevřeli Rita Mitsouko. Vestibul a bývalý sál jsou od roku 1981 chráněnou památkou. Dnes se tu střídají rockové kapely a zpěváci před 890 sedícími nebo až 1 472 stojícími diváky."
+   },
+   "url": "https://www.lacigale.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/La_Cigale",
+    "https://www.lacigale.fr"
+   ],
+   "photo": {
+    "file": "File:La Cigale Paris.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Cigale_Paris.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Cigale_Paris.jpg",
+    "author": "Andreas Praefcke",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "desc": "La Cigale, boulevard de Rochechouart, Paris XVIIIe, France",
+    "width": 2961,
+    "height": 2393
+   }
+  }
+ ],
+ "literature": [
+  {
+   "id": "shakespeare-and-company",
+   "name": {
+    "fr": "Librairie Shakespeare and Company",
+    "cs": "Knihkupectví Shakespeare and Company"
+   },
+   "kind": {
+    "fr": "Librairie",
+    "cs": "Knihkupectví"
+   },
+   "area": {
+    "fr": "5e arrondissement, rue de la Bûcherie",
+    "cs": "5. obvod, rue de la Bûcherie"
+   },
+   "text": {
+    "fr": "Sylvia Beach ouvre sa première librairie anglophone en 1919 ; elle ferme en 1941. Le lieu actuel, 37 rue de la Bûcherie, est fondé en 1951 par George Whitman sous le nom de « Le Mistral » ; il prend le nom de Shakespeare and Company en 1964. Plus de 30 000 jeunes écrivains, les « Tumbleweeds », y ont dormi entre les rayonnages en échange d'un coup de main.",
+    "cs": "Sylvia Beachová otevřela první anglofonní knihkupectví roku 1919 a v roce 1941 zavřelo. Dnešní prodejna na adrese 37 rue de la Bûcherie vznikla roku 1951 z iniciativy George Whitmana pod názvem Le Mistral a od roku 1964 nese jméno Shakespeare and Company. Více než 30 000 mladých pisatelů, takzvaných Tumbleweeds, tu přespalo mezi regály výměnou za pomoc v obchodě."
+   },
+   "url": "https://www.shakespeareandcompany.com",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)",
+    "https://www.shakespeareandcompany.com"
+   ],
+   "photo": {
+    "file": "File:Shakespeare and Company Bookshop - Paris 2012-04-07 n2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakespeare_and_Company_Bookshop_-_Paris_2012-04-07_n2.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Shakespeare_and_Company_Bookshop_-_Paris_2012-04-07_n2.jpg",
+    "author": "Jim Linwood from London",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "desc": "Bookshop situated at 37 rue de la Bûcherie, in the 5th arrondissement. Opened in 1951 by George Whitman, it was originally named \"Le Mistral\" but renamed to \"Shakespeare and Company\" in 1964 in tribute to Sylvia Beach's bookstore.Today, it serves both as a regular bookstore and as a reading library,",
+    "width": 4000,
+    "height": 3000
+   }
+  },
+  {
+   "id": "bouquinistes",
+   "name": {
+    "fr": "Les bouquinistes des quais de Seine",
+    "cs": "Bukinisté na nábřežích Seiny"
+   },
+   "kind": {
+    "fr": "Libraires de plein air",
+    "cs": "Antikváři pod širým nebem"
+   },
+   "area": {
+    "fr": "Quais de Seine, 4e–7e arrondissements",
+    "cs": "Nábřeží Seiny, 4.–7. obvod"
+   },
+   "text": {
+    "fr": "Dès le XVIIe siècle, des colporteurs vendent des livres sur le Pont-Neuf. En 1756, on interdit ce commerce pour fluidifier la circulation et les libraires s'installent sur les quais ; le mot « bouquiniste » entre dans le dictionnaire de l'Académie française en 1762. Leurs boîtes vertes bordent la Seine, dont les berges sont inscrites au patrimoine mondial de l'UNESCO depuis 1991.",
+    "cs": "Už v 17. století prodávali na Pont-Neuf kramáři knihy. V roce 1756 byl tento obchod kvůli dopravě zakázán a prodejci se přesunuli na nábřeží; slovo bouquiniste vstoupilo do slovníku Francouzské akademie roku 1762. Jejich zelené bedny lemují Seinu, jejíž nábřeží jsou od roku 1991 zapsána na seznam světového dědictví UNESCO."
+   },
+   "url": "https://whc.unesco.org/en/list/600/",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bouquinistes",
+    "https://whc.unesco.org/en/list/600/"
+   ],
+   "photo": {
+    "file": "File:Paris 75006 Quai de Conti Bouquinistes 20150902 (2).jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_75006_Quai_de_Conti_Bouquinistes_20150902_(2).jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_75006_Quai_de_Conti_Bouquinistes_20150902_(2).jpg",
+    "author": "Ninara from Helsinki, Finland",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "desc": "Les bouquinistes des Quais de Seine, face à l'Institut de France, Quai de Conti, VIe arrondissement, Paris, France.",
+    "width": 2573,
+    "height": 1748
+   }
+  },
+  {
+   "id": "maison-victor-hugo",
+   "name": {
+    "fr": "Maison de Victor Hugo",
+    "cs": "Dům Victora Huga"
+   },
+   "kind": {
+    "fr": "Maison d'écrivain",
+    "cs": "Dům spisovatele"
+   },
+   "area": {
+    "fr": "4e arrondissement, place des Vosges",
+    "cs": "4. obvod, Place des Vosges"
+   },
+   "text": {
+    "fr": "Au 6 place des Vosges, Victor Hugo loue de 1832 à 1848 un appartement de 280 m² au deuxième étage de l'hôtel de Rohan-Guéménée. Il y écrit une grande partie des Misérables. Le musée, inauguré en 1903, raconte sa vie, de la jeunesse à l'exil. On y voit le salon chinois, meublé pour Juliette Drouet à Guernesey, et la chambre où il est mort en 1885.",
+    "cs": "V domě č. 6 na Place des Vosges si Victor Hugo v letech 1832–1848 pronajal byt o ploše 280 m² ve druhém patře paláce Rohan-Guéménée. Napsal tu velkou část Bídníků. Muzeum otevřené v roce 1903 vypráví jeho život od mládí po exil. Uvidíte čínský salon zařízený pro Juliette Drouetovou na Guernsey a rekonstrukci pokoje, kde v roce 1885 zemřel."
+   },
+   "url": "https://maisonsvictorhugo.paris.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Maison_de_Victor_Hugo",
+    "https://maisonsvictorhugo.paris.fr"
+   ],
+   "photo": {
+    "file": "File:Maison de Victor Hugo Salon chinois 271220120 02.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maison_de_Victor_Hugo_Salon_chinois_271220120_02.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Maison_de_Victor_Hugo_Salon_chinois_271220120_02.jpg",
+    "author": "Vassil",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "desc": "Juliette Drouet's chinese room, from Hauteville Fairy, her house in Guernesey. All the decoration was conceived by Victor Hugo. Now displayed in Victor Hugo's House, 6 Place des Vosges, Paris.",
+    "width": 3132,
+    "height": 4850
+   }
+  },
+  {
+   "id": "bnf-richelieu",
+   "name": {
+    "fr": "BnF – site Richelieu",
+    "cs": "BnF – areál Richelieu"
+   },
+   "kind": {
+    "fr": "Bibliothèque et musée",
+    "cs": "Knihovna a muzeum"
+   },
+   "area": {
+    "fr": "2e arrondissement, rue de Richelieu",
+    "cs": "2. obvod, rue de Richelieu"
+   },
+   "text": {
+    "fr": "Après douze ans de rénovation, le site Richelieu de la Bibliothèque nationale de France rouvre en septembre 2022, pendant les Journées européennes du patrimoine. Le musée y montre des trésors comme le Grand Camée de France, le trône de Dagobert et l'échiquier de Charlemagne. La Salle ovale est en accès libre : plus de 20 000 volumes y attendent les visiteurs, sans carte de lecteur.",
+    "cs": "Po dvanácti letech rekonstrukce se areál Richelieu Francouzské národní knihovny znovu otevřel v září 2022, během Evropských dnů dědictví. Muzeum ukazuje poklady, jako je Grand Camée de France, Dagobertův trůn nebo Karlova šachovnice. Oválný sál je volně přístupný: stojí v něm více než 20 000 svazků, které si může prohlédnout kdokoli, bez čtenářské průkazky."
+   },
+   "url": "https://www.bnf.fr/fr/richelieu",
+   "sources": [
+    "https://www.bnf.fr/fr/agenda/richelieu-le-reveil-reouverture",
+    "https://www.bnf.fr/sites/default/files/2022-08/CP_richelieu_reveil.pdf"
+   ],
+   "photo": {
+    "file": "File:BnF Richelieu - salle Labrouste 02.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BnF_Richelieu_-_salle_Labrouste_02.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:BnF_Richelieu_-_salle_Labrouste_02.jpg",
+    "author": "Remi Mathis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "BnF Richelieu - salle Labrouste",
+    "width": 4160,
+    "height": 3120
+   }
+  },
+  {
+   "id": "flore-deux-magots",
+   "name": {
+    "fr": "Café de Flore et Les Deux Magots",
+    "cs": "Café de Flore a Les Deux Magots"
+   },
+   "kind": {
+    "fr": "Cafés littéraires",
+    "cs": "Literární kavárny"
+   },
+   "area": {
+    "fr": "6e arrondissement, Saint-Germain-des-Prés",
+    "cs": "6. obvod, Saint-Germain-des-Prés"
+   },
+   "text": {
+    "fr": "Après le rachat du Flore par Paul Boubal en 1939, Sartre et Beauvoir en font leur « siège social » : ils y écrivent, déjeunent et reçoivent. En 1933, des amis surréalistes de la terrasse des Deux Magots créent leur propre prix, après le Goncourt de Malraux ; Raymond Queneau en est le premier lauréat, pour Le Chiendent. Le nom du café vient de deux figurines chinoises.",
+    "cs": "Poté, co kavárnu Flore koupil Paul Boubal (1939), si z ní Sartre a Beauvoirová udělali své „ředitelství“: psali tu, obědvali a scházeli se s přáteli. V roce 1933 založili surrealističtí přátelé na terase Les Deux Magots vlastní cenu poté, co Goncourtovu cenu dostal Malraux; prvním laureátem se stal Raymond Queneau za román Le Chiendent. Název kavárny odkazuje na dvě čínské figurky."
+   },
+   "url": "https://www.cafedeflore.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Caf%C3%A9_de_Flore",
+    "https://fr.wikipedia.org/wiki/Les_Deux_Magots",
+    "https://www.lesdeuxmagots.fr"
+   ],
+   "photo": {
+    "file": "File:Café de Flore, 172 boulevard Saint-Germain, Paris 6e.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_Flore,_172_boulevard_Saint-Germain,_Paris_6e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Café de Flore, 172 boulevard Saint-Germain (Paris, 6e).",
+    "width": 5030,
+    "height": 3205
+   }
+  },
+  {
+   "id": "musee-vie-romantique",
+   "name": {
+    "fr": "Musée de la Vie romantique",
+    "cs": "Muzeum romantického života"
+   },
+   "kind": {
+    "fr": "Musée",
+    "cs": "Muzeum"
+   },
+   "area": {
+    "fr": "9e arrondissement, rue Chaptal",
+    "cs": "9. obvod, rue Chaptal"
+   },
+   "text": {
+    "fr": "Le peintre Ary Scheffer a vécu ici de 1830 à 1858 ; Liszt, Chopin et George Sand fréquentaient son salon. Le rez-de-chaussée présente des objets de George Sand, légués à la Ville de Paris en 1928. Le musée, ouvert sous ce nom en 1987, possède un jardin avec un salon de thé dans la serre. Fermé de septembre 2024 à février 2026, il a rouvert avec un nouveau parcours.",
+    "cs": "Malíř Ary Scheffer tu žil v letech 1830–1858 a v jeho salonu se scházeli Liszt, Chopin a George Sandová. V přízemí jsou předměty George Sandové, odkázané městu Paříži v roce 1928. Muzeum, které nese tento název od roku 1987, má zahradu s čajovnou ve skleníku. Od září 2024 do února 2026 bylo zavřené a znovu se otevřelo s novou expozicí."
+   },
+   "url": "https://www.museevieromantique.paris.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Vie_romantique",
+    "https://www.museevieromantique.paris.fr"
+   ],
+   "photo": {
+    "file": "File:Main Building in the Musée de la Vie romantique.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main_Building_in_the_Mus%C3%A9e_de_la_Vie_romantique.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_Building_in_the_Mus%C3%A9e_de_la_Vie_romantique.jpg",
+    "author": "DiscoA340",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Main Building in the Musée de la Vie romantique in Paris, France.",
+    "width": 4000,
+    "height": 3000
+   }
+  },
+  {
+   "id": "pantheon",
+   "name": {
+    "fr": "Panthéon – les écrivains",
+    "cs": "Panthéon – spisovatelé"
+   },
+   "kind": {
+    "fr": "Nécropole nationale",
+    "cs": "Národní pantheon"
+   },
+   "area": {
+    "fr": "5e arrondissement, montagne Sainte-Geneviève",
+    "cs": "5. obvod, vrch Sainte-Geneviève"
+   },
+   "text": {
+    "fr": "Soufflot a conçu l'édifice comme église Sainte-Geneviève, selon le vœu de Louis XV en 1744. En 1791, l'Assemblée en fait une nécropole nationale, et Voltaire y entre le 11 juillet. Rousseau, Victor Hugo, Émile Zola et André Malraux y reposent aussi ; Alexandre Dumas les a rejoints en 2002. Au fronton : « Aux grands hommes la patrie reconnaissante ».",
+    "cs": "Soufflot budovu navrhl jako kostel svaté Genovefy na základě slibu Ludvíka XV. z roku 1744. V roce 1791 z ní Národní shromáždění udělalo národní pantheon a 11. července do ní přenesli Voltaira. Odpočívají tu také Rousseau, Victor Hugo, Émile Zola a André Malraux; v roce 2002 k nim přibyl Alexandre Dumas. Na štítu stojí: „Velikým mužům vděčná vlast“."
+   },
+   "url": "https://www.paris-pantheon.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Panth%C3%A9on_(Paris)",
+    "https://www.paris-pantheon.fr"
+   ],
+   "photo": {
+    "file": "File:Paris, Panthéon -- 2014 -- 1667.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%2C_Panth%C3%A9on_--_2014_--_1667.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris,_Panth%C3%A9on_--_2014_--_1667.jpg",
+    "author": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Panthéon, Paris, France",
+    "width": 2838,
+    "height": 4339
+   }
+  },
+  {
+   "id": "pere-lachaise",
+   "name": {
+    "fr": "Cimetière du Père-Lachaise",
+    "cs": "Hřbitov Père-Lachaise"
+   },
+   "kind": {
+    "fr": "Cimetière-jardin",
+    "cs": "Hřbitov-park"
+   },
+   "area": {
+    "fr": "20e arrondissement",
+    "cs": "20. obvod"
+   },
+   "text": {
+    "fr": "Ouvert en 1804, le Père-Lachaise s'étend sur 44 hectares et ressemble à un jardin vallonné. On y trouve les tombes d'Oscar Wilde, de Marcel Proust, de Colette, d'Honoré de Balzac et de Molière, ainsi que de Gertrude Stein et de Georges Perec. Prenez un plan à l'entrée : les allées sont nombreuses, et les noms sont parfois discrets.",
+    "cs": "Hřbitov otevřený roku 1804 se rozkládá na 44 hektarech a připomíná kopcovitou zahradu. Najdete tu hroby Oscara Wilda, Marcela Prousta, Colette, Honoré de Balzaca a Molièra, ale i Gertrudy Steinové či Georgese Pereca. Plán si vezměte u vchodu: aleje je mnoho a jména jsou někdy nenápadná."
+   },
+   "url": "https://www.paris.fr",
+   "sources": [
+    "https://en.wikipedia.org/wiki/P%C3%A8re_Lachaise_Cemetery"
+   ],
+   "photo": {
+    "file": "File:Oscar Wilde tombe.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oscar_Wilde_tombe.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Oscar_Wilde_tombe.jpg",
+    "author": "ManoSolo13241324",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "desc": "Tombe d'Oscar Wilde au cimetière du Père-Lachaise.",
+    "width": 4080,
+    "height": 3072
+   }
+  }
+ ],
+ "cinema": [
+  {
+   "id": "cinematheque-francaise",
+   "name": {
+    "fr": "Cinémathèque française",
+    "cs": "Cinémathèque française"
+   },
+   "kind": {
+    "fr": "Archive et musée du cinéma",
+    "cs": "Filmový archiv a muzeum"
+   },
+   "area": {
+    "fr": "12e arrondissement, Bercy",
+    "cs": "12. obvod, Bercy"
+   },
+   "text": {
+    "fr": "Henri Langlois, Georges Franju, Jean Mitry et Paul-Auguste Harlé la fondent en 1936. Elle conserve plus de 40 000 films, ainsi que costumes, appareils et archives. En 1968, le renvoi de Langlois par André Malraux provoque la protestation des cinéastes, et il est réintégré en avril. Depuis 2005, elle occupe un bâtiment de Frank Gehry à Bercy.",
+    "cs": "Založili ji v roce 1936 Henri Langlois, Georges Franju, Jean Mitry a Paul-Auguste Harlé. Uchovává více než 40 000 filmů, kostýmy, přístroje a archivy. V roce 1968 vyvolalo odvolání Langloise ministrem Malrauxem protesty filmařů a v dubnu se vrátil do funkce. Od roku 2005 sídlí v budově Franka Gehryho v Bercy."
+   },
+   "url": "https://www.cinematheque.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Cin%C3%A9math%C3%A8que_fran%C3%A7aise",
+    "https://www.cinematheque.fr"
+   ],
+   "photo": {
+    "file": "File:Gehrys American Center 2011.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gehrys_American_Center_2011.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Gehrys_American_Center_2011.jpg",
+    "author": "La Citta Vita",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "desc": "Parc de Bercy",
+    "width": 4320,
+    "height": 2432
+   }
+  },
+  {
+   "id": "le-champo",
+   "name": {
+    "fr": "Le Champo",
+    "cs": "Le Champo"
+   },
+   "kind": {
+    "fr": "Cinéma d'art et essai",
+    "cs": "Artové kino"
+   },
+   "area": {
+    "fr": "5e arrondissement, rue des Écoles",
+    "cs": "5. obvod, rue des Écoles"
+   },
+   "text": {
+    "fr": "Le cinéma ouvre le 22 juin 1938 sous le nom de Champollion. Depuis la fin des années 1990, il programme surtout des classiques, en grands cycles consacrés aux réalisateurs. Il compte deux salles de 130 et 120 places. François Truffaut l'appelait son « quartier général » et Claude Chabrol sa « seconde université ».",
+    "cs": "Kino se otevřelo 22. června 1938 pod názvem Champollion. Od konce 90. let uvádí hlavně klasiku ve velkých cyklech věnovaných režisérům. Má dva sály o 130 a 120 místech. François Truffaut mu říkal své „hlavní stanové“ a Claude Chabrol svou „druhou univerzitou“."
+   },
+   "url": "https://www.lechampo.com",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Le_Champo"
+   ],
+   "photo": {
+    "file": "File:Paris arthouse cinema Le Champo.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_arthouse_cinema_Le_Champo.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_arthouse_cinema_Le_Champo.jpg",
+    "author": "Kotivalo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Quartier Latin, July 2006.",
+    "width": 2448,
+    "height": 3264
+   }
+  },
+  {
+   "id": "grand-rex",
+   "name": {
+    "fr": "Le Grand Rex",
+    "cs": "Le Grand Rex"
+   },
+   "kind": {
+    "fr": "Cinéma Art déco",
+    "cs": "Art deco kino"
+   },
+   "area": {
+    "fr": "2e arrondissement, boulevard Poissonnière",
+    "cs": "2. obvod, bulvár Poissonnière"
+   },
+   "text": {
+    "fr": "Jacques Haïk ouvre le Rex le 8 décembre 1932. La grande salle, d'environ 2 700 places, imite une ville méditerranéenne sous un ciel étoilé. Le cinéma est classé monument historique depuis 1981. Depuis 1954, il présente chaque hiver la « Féerie des eaux » ; la façade a retrouvé ses couleurs de 1932 pour les 90 ans du lieu.",
+    "cs": "Jacques Haïk otevřel Rex 8. prosince 1932. Hlavní sál s přibližně 2 700 místy napodobuje středomořské městečko pod hvězdnou oblohou. Kino je od roku 1981 chráněnou památkou. Od roku 1954 tu každou zimu probíhá vodní show „Féerie des eaux“; k devadesátinám dostala fasáda zpět barvy z roku 1932."
+   },
+   "url": "https://www.legrandrex.com",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Le_Grand_Rex",
+    "https://www.legrandrex.com"
+   ],
+   "photo": {
+    "file": "File:GrandRexFacade90ans.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GrandRexFacade90ans.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:GrandRexFacade90ans.jpg",
+    "author": "Thomas Laconis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Façade restaurée à l’identique de 1932. Cette nouvelle façade restaurée a été inaugurée le 8 décembre 2022.",
+    "width": 1616,
+    "height": 1080
+   }
+  },
+  {
+   "id": "max-linder-panorama",
+   "name": {
+    "fr": "Max Linder Panorama",
+    "cs": "Max Linder Panorama"
+   },
+   "kind": {
+    "fr": "Cinéma à écran panoramique",
+    "cs": "Kino s panoramatickým plátnem"
+   },
+   "area": {
+    "fr": "9e arrondissement, boulevard Poissonnière",
+    "cs": "9. obvod, bulvár Poissonnière"
+   },
+   "text": {
+    "fr": "L'acteur Max Linder achète la salle en 1914 et l'ouvre sous son nom le 21 mars 1919. La salle actuelle, inaugurée en 1987 avec Le Dernier Empereur en 70 mm, compte 557 places. Son écran mesure 16 m sur 6,70 m. C'est l'une des dernières grandes salles à écran unique des Grands Boulevards.",
+    "cs": "Herec Max Linder koupil sál v roce 1914 a 21. března 1919 ji otevřel pod svým jménem. Dnešní sál, otevřený roku 1987 filmem Poslední císař v 70mm formátu, má 557 míst. Plátno měří 16 × 6,70 m. Je to jeden z posledních velkých jednosálových kin na Grands Boulevards."
+   },
+   "url": "https://www.maxlinder.com",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Max_Linder_Panorama",
+    "https://www.maxlinder.com"
+   ],
+   "photo": {
+    "file": "File:Max Linder Panorama et Théâtre des Nouveautés façades.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Max_Linder_Panorama_et_Th%C3%A9%C3%A2tre_des_Nouveaut%C3%A9s_fa%C3%A7ades.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Max_Linder_Panorama_et_Th%C3%A9%C3%A2tre_des_Nouveaut%C3%A9s_fa%C3%A7ades.jpg",
+    "author": "ManoSolo13241324",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Façades du Max Linder Panorama et du Théâtre des Nouveautés, boulevard Poissonnière (Paris 9e).",
+    "width": 4160,
+    "height": 3120
+   }
+  },
+  {
+   "id": "grand-cafe-lumiere",
+   "name": {
+    "fr": "1895 – le cinéma naît au Grand Café",
+    "cs": "1895 – kino se rodí v Grand Café"
+   },
+   "kind": {
+    "fr": "Histoire du cinéma",
+    "cs": "Dějiny filmu"
+   },
+   "area": {
+    "fr": "9e arrondissement, boulevard des Capucines",
+    "cs": "9. obvod, bulvár Capucines"
+   },
+   "text": {
+    "fr": "Le 28 décembre 1895, les frères Lumière organisent la première projection publique payante dans le Salon indien du Grand Café, 14 boulevard des Capucines. Le programme réunit dix courts films, dont La Sortie de l'usine Lumière à Lyon. Le lieu fait aujourd'hui partie de l'Hôtel Scribe : le Café Lumière rappelle l'événement, et une plaque est posée sur le mur extérieur.",
+    "cs": "Dne 28. prosince 1895 uspořádali bratři Lumièrové první veřejné placené promítání v Salon indien kavárny Grand Café na adrese 14 boulevard des Capucines. Program tvořilo deset krátkých filmů, mezi nimi Odchod z továrny Lumière v Lyonu. Místo je dnes součástí hotelu Scribe: událost připomíná Café Lumière a pamětní deska na vnější zdi."
+   },
+   "url": "https://en.wikipedia.org/wiki/Salon_Indien_du_Grand_Caf%C3%A9",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lumi%C3%A8re_brothers",
+    "https://en.wikipedia.org/wiki/Salon_Indien_du_Grand_Caf%C3%A9",
+    "https://www.herodote.net/28_decembre_1895-evenement-18951228.php"
+   ]
+  }
+ ],
+ "music": [
+  {
+   "id": "chanson-paris",
+   "name": {
+    "fr": "La chanson : de l'Olympia à La Cigale",
+    "cs": "Šanson: od Olympie po La Cigale"
+   },
+   "kind": {
+    "fr": "Chanson française",
+    "cs": "Francouzský šanson"
+   },
+   "area": {
+    "fr": "Paris, scènes de music-hall",
+    "cs": "Paříž, hudební scény"
+   },
+   "text": {
+    "fr": "Pour entendre la chanson française, regardez les salles : à l'Olympia, Bruno Coquatrix en fait un haut lieu de la chanson à partir de 1954, et Piaf y chante en 1961. À La Cigale, café-concert dès 1887, ont joué Mistinguett et Maurice Chevalier avant les rockeurs. Les affiches changent chaque semaine ; consultez les sites des salles.",
+    "cs": "Francouzský šanson nejlépe poznáte podle sálů: Bruno Coquatrix z Olympie od roku 1954 udělal šansonovou baštu a v roce 1961 tu zpívala Piaf. V La Cigale, kavárně s kabaretem už od roku 1887, vystupovali Mistinguett a Maurice Chevalier a po nich rockové kapely. Program se mění každý týden, sledujte weby sálů."
+   },
+   "url": "https://www.olympiahall.com",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Olympia_(Paris)",
+    "https://fr.wikipedia.org/wiki/La_Cigale"
+   ]
+  },
+  {
+   "id": "caveau-de-la-huchette",
+   "name": {
+    "fr": "Le Caveau de la Huchette",
+    "cs": "Caveau de la Huchette"
+   },
+   "kind": {
+    "fr": "Club de jazz",
+    "cs": "Jazzový klub"
+   },
+   "area": {
+    "fr": "5e arrondissement, rue de la Huchette",
+    "cs": "5. obvod, rue de la Huchette"
+   },
+   "text": {
+    "fr": "Cette cave du Quartier latin devient club en 1948 et salle de jazz en 1949. Y ont joué Lionel Hampton, Count Basie et Art Blakey ; Boris Vian le fréquentait. Le vibraphoniste Dany Doriz le dirige depuis 1970. Damien Chazelle y a tourné une scène de La La Land, et le club apparaît dans Les Tricheurs de Marcel Carné (1958).",
+    "cs": "Tento sklípek v Latinské čtvrti se stal klubem v roce 1948 a jazzovým sálem v roce 1949. Hráli tu Lionel Hampton, Count Basie či Art Blakey a chodil sem Boris Vian. Od roku 1970 ho vlastní vibrafonista Dany Doriz. Damien Chazelle tu natočil scénu z filmu La La Land a klub se objevuje také ve filmu Marcela Carného Les Tricheurs (1958)."
+   },
+   "url": "https://www.caveaudelahuchette.fr",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Caveau_de_la_Huchette",
+    "https://www.caveaudelahuchette.fr"
+   ],
+   "photo": {
+    "file": "File:Le Caveau de la Huchette.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Caveau_de_la_Huchette.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Caveau_de_la_Huchette.jpg",
+    "author": "Richardprins",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "desc": "Le Caveau de la Huchette is a well known jazz club in the Latin Quarter of Paris.",
+    "width": 3603,
+    "height": 2038
+   }
+  },
+  {
+   "id": "fete-de-la-musique-origine",
+   "name": {
+    "fr": "Fête de la musique : une invention parisienne de 1982",
+    "cs": "Fête de la musique: pařížský nápad z roku 1982"
+   },
+   "kind": {
+    "fr": "Origine d'une fête mondiale",
+    "cs": "Původ světového svátku"
+   },
+   "area": {
+    "fr": "Toute la ville, 21 juin",
+    "cs": "Celé město, 21. června"
+   },
+   "text": {
+    "fr": "La Fête de la musique naît à Paris en 1982, à l'initiative du ministre de la Culture Jack Lang et de Maurice Fleuret, directeur de la Musique et de la Danse. L'idée de Fleuret : « la musique partout, le concert nulle part ». La fête a lieu chaque année le 21 juin, près du solstice d'été, et elle s'est répandue dans de nombreux pays.",
+    "cs": "Fête de la musique vznikla v Paříži roku 1982 z iniciativy ministra kultury Jacka Langa a Maurice Fleureta, ředitele odboru hudby a tance. Fleuretovo heslo znělo: „hudba všude, koncert nikde“. Svátek se koná každý rok kolem letního slunovratu a rozšířil se do desítek zemí."
+   },
+   "url": "https://fetedelamusique.culture.gouv.fr",
+   "sources": [
+    "https://en.wikipedia.org/wiki/F%C3%AAte_de_la_Musique",
+    "https://fetedelamusique.culture.gouv.fr"
+   ]
+  }
+ ],
+ "annual": [
+  {
+   "id": "nuit-des-musees",
+   "name": {
+    "fr": "Nuit européenne des musées",
+    "cs": "Evropská noc muzeí"
+   },
+   "when": {
+    "fr": "Chaque année, le samedi le plus proche du 18 mai",
+    "cs": "Každý rok, v sobotu nejblíže 18. květnu"
+   },
+   "text": {
+    "fr": "Les musées ouvrent en soirée, le plus souvent gratuitement, avec des visites et des animations. Le nom français date de 2005 ; l'idée vient de la Lange Nacht der Museen de Berlin (1997). La date a varié certaines années, par exemple en 2020 et 2021. Vérifiez le programme de chaque musée.",
+    "cs": "Muzea večer otvírají, většinou zdarma, s prohlídkami a doprovodným programem. Francouzský název se používá od roku 2005; nápad pochází z berlínské Lange Nacht der Museen (1997). V některých letech se termín posunul, třeba v letech 2020 a 2021. Program si ověřte u konkrétního muzea."
+   },
+   "url": "https://nuitdesmusees.culture.gouv.fr",
+   "tag": "nuit",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Nuit_europ%C3%A9enne_des_mus%C3%A9es",
+    "https://nuitdesmusees.culture.gouv.fr"
+   ]
+  },
+  {
+   "id": "fete-de-la-musique",
+   "name": {
+    "fr": "Fête de la musique",
+    "cs": "Fête de la musique"
+   },
+   "when": {
+    "fr": "Chaque année, le 21 juin",
+    "cs": "Každý rok, 21. června"
+   },
+   "text": {
+    "fr": "Depuis 1982, des musiciens amateurs et professionnels jouent gratuitement dans les rues, les cours et les places. L'idée, née à Paris, est devenue une fête mondiale. Il n'y a pas de billet ni de scène centrale : on se promène et on écoute ce qui vient.",
+    "cs": "Od roku 1982 hrají amatérští i profesionální hudebníci zdarma na ulicích, ve dvorech a na náměstích. Nápad vznikl v Paříži a stal se světovým svátkem. Nejsou tu vstupenky ani hlavní pódium: člověk se prochází a poslouchá, co zrovna zní."
+   },
+   "url": "https://fetedelamusique.culture.gouv.fr",
+   "tag": "musique",
+   "sources": [
+    "https://en.wikipedia.org/wiki/F%C3%AAte_de_la_Musique",
+    "https://fetedelamusique.culture.gouv.fr"
+   ]
+  },
+  {
+   "id": "paris-plages",
+   "name": {
+    "fr": "Paris Plages",
+    "cs": "Paris Plages"
+   },
+   "when": {
+    "fr": "Chaque été, de juillet à la fin août ou au début de septembre",
+    "cs": "Každé léto, od července do konce srpna nebo začátku září"
+   },
+   "text": {
+    "fr": "Depuis 2002, la Ville de Paris transforme chaque été des berges de la Seine en espaces de détente avec sable, transats et jeux. Des sites comme le bassin de la Villette proposent aussi des activités nautiques. Le format et les lieux changent d'une année à l'autre ; consultez paris.fr.",
+    "cs": "Od roku 2002 město Paříž každé léto mění břehy Seiny v odpočinkové zóny s pískem, lehátky a hrami. Na místech, jako je bassin de la Villette, nabízí i vodní aktivity. Podoba a místa se každý rok mění, sledujte paris.fr."
+   },
+   "url": "https://www.paris.fr",
+   "tag": "saison",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Paris_Plages",
+    "https://www.paris.fr/evenements/paris-plages-2025-aux-couleurs-du-bresil-85945"
+   ]
+  },
+  {
+   "id": "roland-garros",
+   "name": {
+    "fr": "Roland-Garros",
+    "cs": "Roland-Garros"
+   },
+   "when": {
+    "fr": "Chaque année, de la fin mai au début juin",
+    "cs": "Každý rok, od konce května do začátku června"
+   },
+   "text": {
+    "fr": "Ce tournoi du Grand Chelem se joue sur terre battue au stade Roland-Garros, dans le 16e arrondissement. Le Championnat de France existe depuis 1891 et les Internationaux de France depuis 1925. Le stade porte le nom de l'aviateur Roland Garros, mort en octobre 1918.",
+    "cs": "Tento turnaj Grand Slamu se hraje na antuce na stadionu Roland-Garros v 16. obvodu. Francouzský šampionát existuje od roku 1891, mezinárodní podoba (Internationaux de France) od roku 1925. Stadion nese jméno letce Rolanda Garrose, který zahynul v říjnu 1918."
+   },
+   "url": "https://www.rolandgarros.com",
+   "tag": "sport",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Internationaux_de_France_de_tennis",
+    "https://www.rolandgarros.com"
+   ]
+  },
+  {
+   "id": "fete-nationale",
+   "name": {
+    "fr": "Fête nationale du 14 juillet",
+    "cs": "Státní svátek 14. července"
+   },
+   "when": {
+    "fr": "Chaque année, le 14 juillet",
+    "cs": "Každý rok, 14. července"
+   },
+   "text": {
+    "fr": "Le matin, un défilé militaire descend les Champs-Élysées ; le soir, un feu d'artifice éclaire la tour Eiffel, souvent le soir du 13 ou du 14. Dans les casernes de pompiers, on danse au bal. C'est la loi du 6 juillet 1880 qui a institué cette fête nationale.",
+    "cs": "Ráno sestupuje po Champs-Élysées vojenská přehlídka; večer osvětluje Eiffelovu věž ohňostroj. V hasičských zbrojnicích se tančí na bálech. Státním svátkem se tento den stal zákonem ze 6. července 1880, který přijala Třetí republika."
+   },
+   "url": "https://www.paris.fr",
+   "tag": "saison",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/F%C3%AAte_nationale_fran%C3%A7aise"
+   ]
+  },
+  {
+   "id": "journees-du-patrimoine",
+   "name": {
+    "fr": "Journées européennes du patrimoine",
+    "cs": "Evropské dny dědictví"
+   },
+   "when": {
+    "fr": "Chaque année, le troisième week-end de septembre",
+    "cs": "Každý rok, o třetím zářijovém víkendu"
+   },
+   "text": {
+    "fr": "Pendant deux jours, on visite des lieux souvent fermés au public : ministères, hôtels particuliers, théâtres. L'événement est lancé en 1984 par Jack Lang, puis européen depuis 1991. L'entrée est le plus souvent gratuite dans les monuments de l'État, mais pas partout.",
+    "cs": "Dva dny se dají navštívit místa, která bývají jindy zavřená: ministerstva, městské paláce, divadla. Akci spustil roku 1984 Jack Lang, od roku 1991 je evropská. Vstup bývá zdarma ve státních památkách, ne však všude."
+   },
+   "url": "https://journeesdupatrimoine.culture.gouv.fr",
+   "tag": "patrimoine",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Journ%C3%A9es_europ%C3%A9ennes_du_patrimoine",
+    "https://journeesdupatrimoine.culture.gouv.fr"
+   ]
+  },
+  {
+   "id": "nuit-blanche",
+   "name": {
+    "fr": "Nuit Blanche",
+    "cs": "Nuit Blanche (Bílá noc)"
+   },
+   "when": {
+    "fr": "Chaque année depuis 2002 ; en 2026 (25e édition), les 6 et 7 juin",
+    "cs": "Každý rok od roku 2002; v roce 2026 (25. ročník) 6.–7. června"
+   },
+   "text": {
+    "fr": "Pendant une nuit, l'art contemporain investit les rues, les églises et les jardins de Paris, gratuitement. Traditionnellement début octobre, la Nuit blanche a eu lieu début juin en 2026, avec pour thème l'amour. Les dates peuvent changer : regardez toujours le site officiel.",
+    "cs": "Jednu noc obsazuje současné umění pařížské ulice, kostely a zahrady, vstup je zdarma. Tradičně se konala na začátku října, v roce 2026 se však uskutečnila začátkem června s tématem lásky. Termín se může měnit, vždy se podívejte na oficiální web."
+   },
+   "url": "https://www.paris.fr/nuit-blanche",
+   "tag": "nuit",
+   "sources": [
+    "https://www.france.fr/fr/evenement/nuit-blanche-paris-ile-france-0/",
+    "https://en.wikipedia.org/wiki/Nuit_Blanche"
+   ]
+  },
+  {
+   "id": "festival-d-automne",
+   "name": {
+    "fr": "Festival d'Automne à Paris",
+    "cs": "Festival d'Automne à Paris"
+   },
+   "when": {
+    "fr": "Chaque année, de septembre à décembre",
+    "cs": "Každý rok, od září do prosince"
+   },
+   "text": {
+    "fr": "Créé en 1972 par Michel Guy, ce festival présente théâtre, danse, musique, arts plastiques et cinéma contemporains. Il n'a pas de lieu fixe : théâtres, musées et lieux inattendus de la capitale l'accueillent. Il compte environ cinquante événements par édition.",
+    "cs": "Festival založil roku 1972 Michel Guy a uvádí současné divadlo, tanec, hudbu, výtvarné umění a film. Nemá stálé místo: hostí ho divadla, muzea i nečekané prostory po celém městě. Každý ročník nabízí zhruba padesát akcí."
+   },
+   "url": "https://www.festival-automne.com",
+   "tag": "musique",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Festival_d%27automne_%C3%A0_Paris",
+    "https://www.festival-automne.com"
+   ]
+  },
+  {
+   "id": "fete-des-vendanges-montmartre",
+   "name": {
+    "fr": "Fête des vendanges de Montmartre",
+    "cs": "Slavnost vinobraní na Montmartru"
+   },
+   "when": {
+    "fr": "Chaque année, le deuxième week-end d'octobre",
+    "cs": "Každý rok, o druhém říjnovém víkendu"
+   },
+   "text": {
+    "fr": "Depuis 1934, la fête célèbre la cuvée du Clos Montmartre, une vigne replantée en 1933 pour éviter un projet immobilier. La mairie du 18e et des associations organisent défilés et animations, et le vin est vendu au profit d'œuvres sociales locales. Chaque édition a un thème.",
+    "cs": "Od roku 1934 slavnost oslavuje cuvée z vinice Clos Montmartre, znovu osázené roku 1933, aby se zabránilo developerskému projektu. Radnice 18. obvodu a spolky pořádají průvody a program a víno se prodává ve prospěch místních sociálních projektů. Každý ročník má své téma."
+   },
+   "url": "https://www.fetedesvendangesdemontmartre.com",
+   "tag": "gastronomie",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/F%C3%AAte_des_vendanges_de_Montmartre",
+    "https://www.fetedesvendangesdemontmartre.com"
+   ]
+  },
+  {
+   "id": "salon-du-chocolat",
+   "name": {
+    "fr": "Salon du Chocolat",
+    "cs": "Salon du Chocolat"
+   },
+   "when": {
+    "fr": "Chaque année, de la fin octobre au début novembre",
+    "cs": "Každý rok, od konce října do začátku listopadu"
+   },
+   "text": {
+    "fr": "Le salon se tient à Paris depuis 1995, aujourd'hui à la porte de Versailles. Il réunit chocolatiers, pâtissiers et producteurs de cacao, avec dégustations et démonstrations. Les premières éditions ont attiré environ 57 000 visiteurs. L'édition de 2020 a été annulée.",
+    "cs": "Veletrh se v Paříži koná od roku 1995, dnes na Porte de Versailles. Sdružuje čokolatiéry, cukráře a producenty kakaa, s ochutnávkami a ukázkami. První ročník přilákal asi 57 000 návštěvníků. Ročník 2020 byl zrušen."
+   },
+   "url": "https://www.salonduchocolat.com",
+   "tag": "gastronomie",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Salon_du_chocolat",
+    "https://www.salonduchocolat.com"
+   ]
+  },
+  {
+   "id": "fashion-week",
+   "name": {
+    "fr": "Paris Fashion Week",
+    "cs": "Pařížský týden módy"
+   },
+   "when": {
+    "fr": "Deux fois par an : prêt-à-porter à la fin de l'hiver et à l'automne",
+    "cs": "Dvakrát ročně: pret-à-porter koncem zimy a na podzim"
+   },
+   "text": {
+    "fr": "La Fédération de la haute couture et de la mode organise la Semaine de la mode depuis 1973. Paris est la seule des quatre grandes capitales de la mode où se tiennent des défilés de haute couture. Les défilés sont réservés aux professionnels, mais la ville s'anime autour.",
+    "cs": "Fédération de la haute couture et de la mode pořádá Týden módy od roku 1973. Paříž je jediným ze čtyř velkých světových center módy, kde se konají přehlídky haute couture. Přehlídky jsou určené profesionálům, ale město kolem nich ožívá."
+   },
+   "url": "https://www.fhcm.paris/fr",
+   "tag": "saison",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Semaine_de_la_mode_de_Paris",
+    "https://www.fhcm.paris/fr"
+   ]
+  },
+  {
+   "id": "marches-de-noel",
+   "name": {
+    "fr": "Marchés de Noël",
+    "cs": "Vánoční trhy"
+   },
+   "when": {
+    "fr": "Chaque année, de la fin novembre à la fin décembre (jusqu'en janvier aux Tuileries)",
+    "cs": "Každý rok, od konce listopadu do konce prosince (v Tuileries až do ledna)"
+   },
+   "text": {
+    "fr": "Plusieurs marchés s'installent en ville. Le plus grand, aux Tuileries, a remplacé en 2018 celui des Champs-Élysées ; il s'étend du Louvre à la place de la Concorde. Un autre marché se tient square René-Viviani, près de Notre-Dame. Dates et lieux changent chaque année.",
+    "cs": "V různých částech města vyrůstá několik trhů. Největší, v zahradách Tuileries, od roku 2018 nahradil trh na Champs-Élysées; táhne se od Louvru k náměstí Concorde. Další trh bývá v square René-Viviani u Notre-Dame. Termíny a místa se každý rok mění."
+   },
+   "url": "https://www.paris.fr",
+   "tag": "saison",
+   "sources": [
+    "https://www.sortiraparis.com/en/what-to-visit-in-paris/walks/articles/46357-tuileries-christmas-market-the-final-days-of-the-sweet-fair-in-paris"
+   ]
+  },
+  {
+   "id": "foire-du-trone",
+   "name": {
+    "fr": "Foire du Trône",
+    "cs": "Foire du Trône"
+   },
+   "when": {
+    "fr": "Chaque année, au printemps, pendant environ deux mois",
+    "cs": "Každý rok na jaře, zhruba dva měsíce"
+   },
+   "text": {
+    "fr": "C'est la plus grande fête foraine itinérante de France, installée depuis 1964 sur la pelouse de Reuilly, dans le bois de Vincennes. Ses origines remontent à 957 : des moines avaient alors le droit de vendre du pain d'épices près de la place de la Nation. Elle a été annulée en 2020 et 2021.",
+    "cs": "Je to největší pojízdná pouť ve Francii, od roku 1964 stojí na pelouse de Reuilly v lese Vincennes. Její počátky sahají do roku 957, kdy mniši dostali právo prodávat perník poblíž dnešního náměstí Nation. V letech 2020 a 2021 byla zrušena."
+   },
+   "url": "https://www.foiredutrone.com",
+   "tag": "saison",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Foire_du_Tr%C3%B4ne",
+    "https://www.foiredutrone.com"
+   ]
+  }
+ ],
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Palais_Garnier",
+  "https://www.operadeparis.fr",
+  "https://fr.wikipedia.org/wiki/Op%C3%A9ra_Bastille",
+  "https://fr.wikipedia.org/wiki/Com%C3%A9die-Fran%C3%A7aise",
+  "https://www.comedie-francaise.fr",
+  "https://fr.wikipedia.org/wiki/Philharmonie_de_Paris",
+  "https://philharmoniedeparis.fr",
+  "https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_du_Ch%C3%A2telet",
+  "https://www.chatelet.com",
+  "https://fr.wikipedia.org/wiki/Olympia_(Paris)",
+  "https://www.olympiahall.com",
+  "https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_de_la_Ville",
+  "https://www.theatredelaville-paris.com",
+  "https://fr.wikipedia.org/wiki/Cirque_d%27Hiver",
+  "https://www.cirquedhiver.com",
+  "https://fr.wikipedia.org/wiki/La_Cigale",
+  "https://www.lacigale.fr",
+  "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)",
+  "https://www.shakespeareandcompany.com",
+  "https://en.wikipedia.org/wiki/Bouquinistes",
+  "https://whc.unesco.org/en/list/600/",
+  "https://fr.wikipedia.org/wiki/Maison_de_Victor_Hugo",
+  "https://maisonsvictorhugo.paris.fr",
+  "https://www.bnf.fr/fr/agenda/richelieu-le-reveil-reouverture",
+  "https://www.bnf.fr/sites/default/files/2022-08/CP_richelieu_reveil.pdf",
+  "https://fr.wikipedia.org/wiki/Caf%C3%A9_de_Flore",
+  "https://fr.wikipedia.org/wiki/Les_Deux_Magots",
+  "https://www.lesdeuxmagots.fr",
+  "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Vie_romantique",
+  "https://www.museevieromantique.paris.fr",
+  "https://fr.wikipedia.org/wiki/Panth%C3%A9on_(Paris)",
+  "https://www.paris-pantheon.fr",
+  "https://en.wikipedia.org/wiki/P%C3%A8re_Lachaise_Cemetery",
+  "https://fr.wikipedia.org/wiki/Cin%C3%A9math%C3%A8que_fran%C3%A7aise",
+  "https://www.cinematheque.fr",
+  "https://fr.wikipedia.org/wiki/Le_Champo",
+  "https://fr.wikipedia.org/wiki/Le_Grand_Rex",
+  "https://www.legrandrex.com",
+  "https://fr.wikipedia.org/wiki/Max_Linder_Panorama",
+  "https://www.maxlinder.com",
+  "https://en.wikipedia.org/wiki/Lumi%C3%A8re_brothers",
+  "https://en.wikipedia.org/wiki/Salon_Indien_du_Grand_Caf%C3%A9",
+  "https://www.herodote.net/28_decembre_1895-evenement-18951228.php",
+  "https://fr.wikipedia.org/wiki/Caveau_de_la_Huchette",
+  "https://www.caveaudelahuchette.fr",
+  "https://en.wikipedia.org/wiki/F%C3%AAte_de_la_Musique",
+  "https://fetedelamusique.culture.gouv.fr",
+  "https://fr.wikipedia.org/wiki/Nuit_europ%C3%A9enne_des_mus%C3%A9es",
+  "https://nuitdesmusees.culture.gouv.fr",
+  "https://fr.wikipedia.org/wiki/Paris_Plages",
+  "https://www.paris.fr/evenements/paris-plages-2025-aux-couleurs-du-bresil-85945",
+  "https://fr.wikipedia.org/wiki/Internationaux_de_France_de_tennis",
+  "https://www.rolandgarros.com",
+  "https://fr.wikipedia.org/wiki/F%C3%AAte_nationale_fran%C3%A7aise",
+  "https://fr.wikipedia.org/wiki/Journ%C3%A9es_europ%C3%A9ennes_du_patrimoine",
+  "https://journeesdupatrimoine.culture.gouv.fr",
+  "https://www.france.fr/fr/evenement/nuit-blanche-paris-ile-france-0/",
+  "https://en.wikipedia.org/wiki/Nuit_Blanche",
+  "https://fr.wikipedia.org/wiki/Festival_d%27automne_%C3%A0_Paris",
+  "https://www.festival-automne.com",
+  "https://fr.wikipedia.org/wiki/F%C3%AAte_des_vendanges_de_Montmartre",
+  "https://www.fetedesvendangesdemontmartre.com",
+  "https://fr.wikipedia.org/wiki/Salon_du_chocolat",
+  "https://www.salonduchocolat.com",
+  "https://fr.wikipedia.org/wiki/Semaine_de_la_mode_de_Paris",
+  "https://www.fhcm.paris/fr",
+  "https://www.sortiraparis.com/en/what-to-visit-in-paris/walks/articles/46357-tuileries-christmas-market-the-final-days-of-the-sweet-fair-in-paris",
+  "https://fr.wikipedia.org/wiki/Foire_du_Tr%C3%B4ne",
+  "https://www.foiredutrone.com"
+ ]
+}

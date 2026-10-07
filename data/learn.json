@@ -1,0 +1,1001 @@
+{
+ "themes": [
+  {
+   "id": "cafe",
+   "title": {
+    "fr": "Au café",
+    "cs": "V kavárně"
+   },
+   "items": [
+    {
+     "fr": "Un café, s'il vous plaît.",
+     "cs": "Jedno kafe, prosím.",
+     "note": {
+      "fr": "À Paris, « un café » est un espresso court. Pour un café plus long : « un café allongé ».",
+      "cs": "V Paříži je „un café“ krátké espresso. Delší káva se jmenuje „un café allongé“."
+     }
+    },
+    {
+     "fr": "Un café crème et un croissant, s'il vous plaît.",
+     "cs": "Kávu s mlékem a croissant, prosím.",
+     "note": {
+      "fr": "« Un crème » est un café avec du lait chaud, proche du cappuccino.",
+      "cs": "„Un crème“ je káva s horkým mlékem, podobná cappuccinu."
+     }
+    },
+    {
+     "fr": "Je voudrais un thé au citron.",
+     "cs": "Dal(a) bych si čaj s citronem.",
+     "note": {
+      "fr": "« Je voudrais » est plus poli que « je veux ».",
+      "cs": "„Je voudrais“ je zdvořilejší než „je veux“ (chci)."
+     }
+    },
+    {
+     "fr": "Vous avez une carafe d'eau ?",
+     "cs": "Máte džbán s vodou?",
+     "note": {
+      "fr": "Dans un restaurant, on peut demander « une carafe d'eau » : elle est gratuite.",
+      "cs": "V restauraci lze požádat o „une carafe d'eau“, tedy džbán vodovodní vody zdarma."
+     }
+    },
+    {
+     "fr": "Est-ce qu'on peut s'asseoir en terrasse ?",
+     "cs": "Můžeme si sednout na terase?"
+    },
+    {
+     "fr": "Je peux m'asseoir ici ?",
+     "cs": "Můžu si tady sednout?"
+    },
+    {
+     "fr": "Pouvez-vous me rendre la monnaie ?",
+     "cs": "Můžete mi vrátit drobné?",
+     "note": {
+      "fr": "« La monnaie » désigne les pièces ou le reste d'un paiement.",
+      "cs": "„La monnaie“ jsou mince nebo zpětné drobné po zaplacení."
+     }
+    },
+    {
+     "fr": "L'addition, s'il vous plaît.",
+     "cs": "Účet, prosím.",
+     "note": {
+      "fr": "On appelle le serveur en levant la main et en disant « Monsieur » ou « Madame ».",
+      "cs": "Číšníka voláme zvednutou rukou a oslovením „Monsieur“ nebo „Madame“."
+     }
+    },
+    {
+     "fr": "On peut payer par carte ?",
+     "cs": "Můžeme platit kartou?"
+    },
+    {
+     "fr": "C'était très bon, merci !",
+     "cs": "Bylo to výborné, děkujeme!"
+    }
+   ]
+  },
+  {
+   "id": "restaurant",
+   "title": {
+    "fr": "Au restaurant",
+    "cs": "V restauraci"
+   },
+   "items": [
+    {
+     "fr": "Une table pour deux, s'il vous plaît.",
+     "cs": "Stůl pro dva, prosím.",
+     "note": {
+      "fr": "Dites aussi « Bonjour » en entrant.",
+      "cs": "Při vstupu pozdravte „Bonjour“."
+     }
+    },
+    {
+     "fr": "J'ai réservé au nom de Novák.",
+     "cs": "Mám rezervaci na jméno Novák."
+    },
+    {
+     "fr": "Pourrais-je voir la carte, s'il vous plaît ?",
+     "cs": "Mohl(a) bych vidět jídelní lístek?",
+     "note": {
+      "fr": "« La carte » est le menu à la carte. « Le menu » est une formule à prix fixe.",
+      "cs": "„La carte“ je běžný jídelní lístek. „Le menu“ je nabídka za pevnou cenu (např. předkrm, hlavní chod, dezert)."
+     }
+    },
+    {
+     "fr": "Qu'est-ce que vous recommandez ?",
+     "cs": "Co byste doporučil?"
+    },
+    {
+     "fr": "Je suis végétarien(ne). Y a-t-il un plat sans viande ?",
+     "cs": "Jsem vegetarián(ka). Máte nějaké jídlo bez masa?"
+    },
+    {
+     "fr": "Je suis allergique aux noix.",
+     "cs": "Mám alergii na ořechy."
+    },
+    {
+     "fr": "Je prendrai le plat du jour.",
+     "cs": "Dám si menu dne.",
+     "note": {
+      "fr": "« Le plat du jour » change tous les jours et il est souvent écrit sur une ardoise.",
+      "cs": "„Le plat du jour“ se mění každý den a často bývá napsané na tabuli."
+     }
+    },
+    {
+     "fr": "Je voudrais mon steak bien cuit, s'il vous plaît.",
+     "cs": "Chtěl bych steak dobře propečený.",
+     "note": {
+      "fr": "Les degrés de cuisson : bleu, saignant, à point, bien cuit.",
+      "cs": "Stupně propečení: bleu, saignant, à point, bien cuit."
+     }
+    },
+    {
+     "fr": "Nous voudrions partager un dessert.",
+     "cs": "Rádi bychom si dali jeden dezert napůl."
+    },
+    {
+     "fr": "Nous pourrions avoir l'addition ?",
+     "cs": "Mohli bychom dostat účet?"
+    }
+   ]
+  },
+  {
+   "id": "boulangerie",
+   "title": {
+    "fr": "À la boulangerie",
+    "cs": "V pekárně"
+   },
+   "items": [
+    {
+     "fr": "Bonjour, une baguette tradition, s'il vous plaît.",
+     "cs": "Dobrý den, jednu bagetu „tradition“, prosím.",
+     "note": {
+      "fr": "La « baguette tradition » suit des règles de fabrication plus strictes que la baguette ordinaire.",
+      "cs": "„Baguette tradition“ se vyrábí podle přísnějších pravidel než obyčejná bageta."
+     }
+    },
+    {
+     "fr": "Je voudrais deux croissants et un pain au chocolat.",
+     "cs": "Prosím dva croissanty a jeden pain au chocolat.",
+     "note": {
+      "fr": "Dans le sud-ouest de la France, on dit souvent « chocolatine ».",
+      "cs": "Na jihozápadě Francie se často říká „chocolatine“."
+     }
+    },
+    {
+     "fr": "Elle est bien cuite, cette baguette ?",
+     "cs": "Je ta bageta dobře upečená?"
+    },
+    {
+     "fr": "Vous pouvez la couper, s'il vous plaît ?",
+     "cs": "Můžete ji prosím nakrájet?"
+    },
+    {
+     "fr": "Une tarte aux pommes, s'il vous plaît.",
+     "cs": "Jednu jablečnou tartu, prosím."
+    },
+    {
+     "fr": "C'est quoi, ça ?",
+     "cs": "Co je tohle?",
+     "note": {
+      "fr": "Phrase simple pour montrer un produit en vitrine. Plus poli : « Qu'est-ce que c'est ? »",
+      "cs": "Jednoduchá věta, když ukazujete na produkt ve vitríně. Zdvořileji: „Qu'est-ce que c'est ?“"
+     }
+    },
+    {
+     "fr": "Je voudrais quelque chose de sucré, qu'est-ce que vous conseillez ?",
+     "cs": "Chtěl bych něco sladkého, co doporučujete?"
+    },
+    {
+     "fr": "Je prends ça, s'il vous plaît.",
+     "cs": "Vezmu si tohle, prosím."
+    },
+    {
+     "fr": "C'est pour emporter.",
+     "cs": "Je to s sebou.",
+     "note": {
+      "fr": "Sur place se dit « sur place ».",
+      "cs": "K jídlu na místě se řekne „sur place“."
+     }
+    },
+    {
+     "fr": "Bonne journée, au revoir !",
+     "cs": "Hezký den, na shledanou!"
+    }
+   ]
+  },
+  {
+   "id": "metro",
+   "title": {
+    "fr": "Dans le métro",
+    "cs": "V metru"
+   },
+   "items": [
+    {
+     "fr": "Où est la station de métro la plus proche ?",
+     "cs": "Kde je nejbližší stanice metra?"
+    },
+    {
+     "fr": "Je voudrais une carte Navigo Easy, s'il vous plaît.",
+     "cs": "Chtěl bych kartu Navigo Easy, prosím.",
+     "note": {
+      "fr": "La carte Navigo Easy est rechargeable et sert au métro, au RER, au bus et au tramway. Les anciens tickets en carton disparaissent. Infos officielles : iledefrance-mobilites.fr.",
+      "cs": "Karta Navigo Easy je dobíjecí a platí v metru, RER, autobusech i tramvajích. Papírové jízdenky zanikají. Aktuální informace: iledefrance-mobilites.fr."
+     }
+    },
+    {
+     "fr": "Je voudrais charger dix tickets t+ sur ma carte.",
+     "cs": "Chtěl bych si nahrát na kartu deset jízdenek t+.",
+     "note": {
+      "fr": "Le ticket t+ est le titre de transport à l'unité ; on en charge plusieurs sur la carte. L'ancien carnet en carton est remplacé par la carte.",
+      "cs": "Ticket t+ je jednotlivá jízdenka, na kartu jich můžete nahrát víc. Dřívější papírový „carnet“ nahrazuje karta."
+     }
+    },
+    {
+     "fr": "Comment je vais à la gare du Nord ?",
+     "cs": "Jak se dostanu na Gare du Nord?"
+    },
+    {
+     "fr": "Il faut changer ?",
+     "cs": "Musí se přestupovat?",
+     "note": {
+      "fr": "En métro, un changement s'appelle « une correspondance ».",
+      "cs": "Přestup se ve francouzštině říká „une correspondance“."
+     }
+    },
+    {
+     "fr": "C'est quelle direction ?",
+     "cs": "Jaký je to směr?",
+     "note": {
+      "fr": "Sur les quais, le nom de la dernière station indique la direction, par exemple « direction La Défense ».",
+      "cs": "Na nástupišti je směr označen názvem konečné stanice, např. „direction La Défense“."
+     }
+    },
+    {
+     "fr": "Il faut valider le titre à l'entrée.",
+     "cs": "Jízdenku je třeba označit při vstupu.",
+     "note": {
+      "fr": "On pose la carte sur le lecteur avant de passer le portillon.",
+      "cs": "Kartu přiložíte ke čtečce, než projdete turniketem."
+     }
+    },
+    {
+     "fr": "Ce train va à Versailles ?",
+     "cs": "Jede tenhle vlak do Versailles?",
+     "note": {
+      "fr": "Le RER relie Paris et sa banlieue ; vérifiez la ligne et le terminus.",
+      "cs": "RER spojuje Paříž s předměstími; zkontrolujte linku a konečnou."
+     }
+    },
+    {
+     "fr": "Excusez-moi, vous descendez à la prochaine ?",
+     "cs": "Promiňte, vystupujete na příští?"
+    },
+    {
+     "fr": "Prochaine station : Châtelet.",
+     "cs": "Příští stanice: Châtelet."
+    }
+   ]
+  },
+  {
+   "id": "musee",
+   "title": {
+    "fr": "Au musée",
+    "cs": "V muzeu"
+   },
+   "items": [
+    {
+     "fr": "Un billet pour la collection permanente, s'il vous plaît.",
+     "cs": "Jednu vstupenku na stálou expozici, prosím."
+    },
+    {
+     "fr": "Je voudrais réserver un créneau horaire.",
+     "cs": "Chtěl(a) bych si rezervovat časový slot.",
+     "note": {
+      "fr": "Beaucoup de musées conseillent de réserver en ligne sur leur site officiel.",
+      "cs": "Mnoho muzeí doporučuje rezervaci online na oficiálním webu."
+     }
+    },
+    {
+     "fr": "Où est la consigne ?",
+     "cs": "Kde je úschovna?"
+    },
+    {
+     "fr": "Est-ce qu'il y a un audioguide en tchèque ?",
+     "cs": "Je k dispozici audioprůvodce v češtině?"
+    },
+    {
+     "fr": "Est-ce qu'on peut prendre des photos ?",
+     "cs": "Můžeme fotografovat?",
+     "note": {
+      "fr": "Souvent oui sans flash, mais pas partout.",
+      "cs": "Často ano bez blesku, ale ne všude."
+     }
+    },
+    {
+     "fr": "Où se trouve la Joconde ?",
+     "cs": "Kde najdu Mona Lisu?",
+     "note": {
+      "fr": "En français, le tableau s'appelle « la Joconde ».",
+      "cs": "Francouzsky se obraz jmenuje „la Joconde“."
+     }
+    },
+    {
+     "fr": "À quelle heure ferme le musée ?",
+     "cs": "V kolik zavírá muzeum?"
+    },
+    {
+     "fr": "Où sont les toilettes, s'il vous plaît ?",
+     "cs": "Kde jsou toalety, prosím?"
+    },
+    {
+     "fr": "Ce tableau est de quel artiste ?",
+     "cs": "Od jakého umělce je tenhle obraz?"
+    },
+    {
+     "fr": "Il y a une exposition temporaire en ce moment ?",
+     "cs": "Je teď nějaká dočasná výstava?"
+    }
+   ]
+  },
+  {
+   "id": "hotel",
+   "title": {
+    "fr": "À l'hôtel",
+    "cs": "V hotelu"
+   },
+   "items": [
+    {
+     "fr": "J'ai une réservation au nom de Novák.",
+     "cs": "Mám rezervaci na jméno Novák."
+    },
+    {
+     "fr": "Je voudrais une chambre pour deux personnes, pour trois nuits.",
+     "cs": "Chtěl(a) bych pokoj pro dva na tři noci."
+    },
+    {
+     "fr": "Le petit-déjeuner est compris ?",
+     "cs": "Je snídaně v ceně?"
+    },
+    {
+     "fr": "À quelle heure est le petit-déjeuner ?",
+     "cs": "V kolik je snídaně?"
+    },
+    {
+     "fr": "Quel est le mot de passe du wifi ?",
+     "cs": "Jaké je heslo k wifi?"
+    },
+    {
+     "fr": "Pourriez-vous garder nos valises ?",
+     "cs": "Mohli byste nám pohlídat zavazadla?"
+    },
+    {
+     "fr": "Je n'ai pas d'eau chaude dans la salle de bains.",
+     "cs": "V koupelně mi neteče teplá voda."
+    },
+    {
+     "fr": "Pourriez-vous nous appeler un taxi ?",
+     "cs": "Mohli byste nám zavolat taxi?"
+    },
+    {
+     "fr": "Où se trouve la station de métro la plus proche ?",
+     "cs": "Kde je nejbližší stanice metra?"
+    },
+    {
+     "fr": "Je voudrais régler la note, s'il vous plaît.",
+     "cs": "Chtěl(a) bych zaplatit účet, prosím.",
+     "note": {
+      "fr": "« La note » est l'addition à l'hôtel. Au café, on dit « l'addition ».",
+      "cs": "V hotelu se účtu říká „la note“. V kavárně se říká „l'addition“."
+     }
+    }
+   ]
+  },
+  {
+   "id": "probleme",
+   "title": {
+    "fr": "En cas de problème",
+    "cs": "V případě problému"
+   },
+   "items": [
+    {
+     "fr": "Au secours !",
+     "cs": "Pomoc!"
+    },
+    {
+     "fr": "Appelez une ambulance, s'il vous plaît !",
+     "cs": "Zavolejte sanitku, prosím!",
+     "note": {
+      "fr": "Numéros gratuits : 15 (SAMU), 17 (police), 18 (pompiers), 112 (numéro européen).",
+      "cs": "Bezplatná čísla: 15 (SAMU, zdravotní záchranka), 17 (policie), 18 (hasiči), 112 (evropské tísňové číslo)."
+     }
+    },
+    {
+     "fr": "Appelez le 112 !",
+     "cs": "Volejte 112!",
+     "note": {
+      "fr": "Le 112 fonctionne dans toute l'Union européenne ; on peut l'appeler sans parler français.",
+      "cs": "Číslo 112 funguje v celé EU a není třeba umět francouzsky."
+     }
+    },
+    {
+     "fr": "Je me suis fait voler mon portefeuille.",
+     "cs": "Ukradli mi peněženku.",
+     "note": {
+      "fr": "Pour déclarer un vol, allez au commissariat.",
+      "cs": "Krádež nahlásíte na policejní stanici („commissariat“)."
+     }
+    },
+    {
+     "fr": "J'ai perdu mon passeport.",
+     "cs": "Ztratil(a) jsem pas."
+    },
+    {
+     "fr": "Où est la pharmacie la plus proche ?",
+     "cs": "Kde je nejbližší lékárna?",
+     "note": {
+      "fr": "Les pharmacies ont une croix verte lumineuse.",
+      "cs": "Lékárny poznáte podle svítícího zeleného kříže."
+     }
+    },
+    {
+     "fr": "Je ne me sens pas bien. J'ai besoin d'un médecin.",
+     "cs": "Necítím se dobře. Potřebuji lékaře."
+    },
+    {
+     "fr": "J'ai mal à la tête.",
+     "cs": "Bolí mě hlava.",
+     "note": {
+      "fr": "On dit « avoir mal à + partie du corps ».",
+      "cs": "Říká se „avoir mal à“ + část těla."
+     }
+    },
+    {
+     "fr": "Je suis allergique à la pénicilline.",
+     "cs": "Mám alergii na penicilin."
+    },
+    {
+     "fr": "Pouvez-vous m'aider ? Je suis perdu(e).",
+     "cs": "Můžete mi pomoci? Ztratil(a) jsem se."
+    }
+   ]
+  },
+  {
+   "id": "politesse",
+   "title": {
+    "fr": "Politesse et rencontres",
+    "cs": "Zdvořilost a seznamování"
+   },
+   "items": [
+    {
+     "fr": "Bonjour, madame. Bonsoir, monsieur.",
+     "cs": "Dobrý den, paní. Dobrý večer, pane.",
+     "note": {
+      "fr": "On dit « bonjour » le jour et « bonsoir » à partir de la soirée.",
+      "cs": "Ve dne se říká „bonjour“, od večera „bonsoir“."
+     }
+    },
+    {
+     "fr": "Enchanté(e).",
+     "cs": "Těší mě."
+    },
+    {
+     "fr": "Je m'appelle Jana. Et vous ?",
+     "cs": "Jmenuji se Jana. A vy?"
+    },
+    {
+     "fr": "Je suis tchèque. J'apprends le français.",
+     "cs": "Jsem Čech(ka). Učím se francouzsky."
+    },
+    {
+     "fr": "Vous parlez anglais ?",
+     "cs": "Mluvíte anglicky?",
+     "note": {
+      "fr": "Mieux : commencer par « Bonjour, excusez-moi, vous parlez anglais ? »",
+      "cs": "Lepší je začít: „Bonjour, excusez-moi, vous parlez anglais ?“"
+     }
+    },
+    {
+     "fr": "Pouvez-vous répéter, s'il vous plaît ?",
+     "cs": "Můžete to zopakovat, prosím?"
+    },
+    {
+     "fr": "Pouvez-vous parler plus lentement ?",
+     "cs": "Můžete mluvit pomaleji?"
+    },
+    {
+     "fr": "Excusez-moi / Pardon.",
+     "cs": "Promiňte / Pardon.",
+     "note": {
+      "fr": "« Pardon » sert surtout à s'excuser en passant ou à attirer l'attention.",
+      "cs": "„Pardon“ se hodí hlavně při omluvě za průchod nebo na upoutání pozornosti."
+     }
+    },
+    {
+     "fr": "Merci beaucoup. — De rien.",
+     "cs": "Moc děkuji. — Není zač."
+    },
+    {
+     "fr": "Je vous en prie.",
+     "cs": "Rádo se stalo / prosím."
+    }
+   ]
+  }
+ ],
+ "fauxAmis": [
+  {
+   "fr": "cabinet",
+   "frMeaning": {
+    "fr": "Local professionnel d'un médecin, d'un avocat ou d'un dentiste ; au pluriel, « les cabinets » désigne familièrement les toilettes.",
+    "cs": "Ordinace nebo kancelář lékaře, právníka či zubaře; v množném čísle „les cabinets“ hovorově záchod."
+   },
+   "csLooks": "kabinet",
+   "csMeaning": {
+    "cs": "Malá místnost (např. učitelský kabinet ve škole) nebo vláda (kabinet ministrů)."
+   },
+   "example": {
+    "fr": "J'ai rendez-vous au cabinet du dentiste à dix heures.",
+    "cs": "V deset mám schůzku v zubní ordinaci."
+   }
+  },
+  {
+   "fr": "collège",
+   "frMeaning": {
+    "fr": "Établissement scolaire pour les élèves de 11 à 15 ans environ, avant le lycée.",
+    "cs": "Škola pro žáky přibližně od 11 do 15 let, před lyceem; odpovídá zhruba druhému stupni základní školy."
+   },
+   "csLooks": "kolej",
+   "csMeaning": {
+    "cs": "Studentská ubytovna při vysoké škole."
+   },
+   "example": {
+    "fr": "Ma sœur est en troisième au collège.",
+    "cs": "Moje sestra chodí do třetího ročníku collège (poslední rok před lyceem)."
+   }
+  },
+  {
+   "fr": "gymnase",
+   "frMeaning": {
+    "fr": "Grande salle ou bâtiment pour les sports en salle, par exemple le basket ou le volley.",
+    "cs": "Velká tělocvična nebo hala pro halové sporty, např. basketbal nebo volejbal."
+   },
+   "csLooks": "gymnázium",
+   "csMeaning": {
+    "cs": "Střední škola s všeobecným zaměřením, která vede k maturitě."
+   },
+   "example": {
+    "fr": "Le match de volley a lieu au gymnase du quartier.",
+    "cs": "Zápas ve volejbale se hraje v tělocvičně v naší čtvrti."
+   }
+  },
+  {
+   "fr": "magasin",
+   "frMeaning": {
+    "fr": "Lieu où l'on achète des produits ; boutique.",
+    "cs": "Místo, kde se nakupuje zboží; obchod."
+   },
+   "csLooks": "magazín",
+   "csMeaning": {
+    "cs": "Časopis, nebo televizní či rozhlasový pořad."
+   },
+   "example": {
+    "fr": "Ce magasin vend des livres anciens.",
+    "cs": "Tenhle obchod prodává staré knihy."
+   }
+  },
+  {
+   "fr": "veste",
+   "frMeaning": {
+    "fr": "Vêtement à manches qui se porte par-dessus une chemise ou un pull : une veste de costume, une veste en jean.",
+    "cs": "Oděv s rukávy na košili nebo svetr: sako nebo džínová bunda."
+   },
+   "csLooks": "vesta",
+   "csMeaning": {
+    "cs": "Oděv bez rukávů (francouzsky « gilet »)."
+   },
+   "example": {
+    "fr": "Il fait frais, prends ta veste.",
+    "cs": "Je chladno, vezmi si sako (nebo bundu)."
+   }
+  },
+  {
+   "fr": "conférence",
+   "frMeaning": {
+    "fr": "Exposé fait devant un public par un spécialiste ; on dit aussi « conférence de presse ».",
+    "cs": "Přednáška odborníka před publikem; také „conférence de presse“ (tisková konference)."
+   },
+   "csLooks": "konference",
+   "csMeaning": {
+    "cs": "Odborné setkání s více příspěvky, často několikadenní; francouzsky spíše « colloque » nebo « congrès »."
+   },
+   "example": {
+    "fr": "Hier soir, j'ai assisté à une conférence sur l'histoire de Paris.",
+    "cs": "Včera večer jsem byl na přednášce o historii Paříže."
+   }
+  },
+  {
+   "fr": "assister à",
+   "frMeaning": {
+    "fr": "Être présent à un événement : un concert, un cours, une réunion.",
+    "cs": "Být přítomen nějaké události: koncertu, hodině, schůzi."
+   },
+   "csLooks": "asistovat",
+   "csMeaning": {
+    "cs": "Pomáhat někomu, být někomu k ruce (francouzsky « aider », « assister quelqu'un »)."
+   },
+   "example": {
+    "fr": "Nous avons assisté à un concert à la Philharmonie.",
+    "cs": "Byli jsme na koncertě ve Philharmonii."
+   }
+  },
+  {
+   "fr": "humeur",
+   "frMeaning": {
+    "fr": "État d'esprit du moment : être de bonne ou de mauvaise humeur.",
+    "cs": "Aktuální nálada: mít dobrou nebo špatnou náladu."
+   },
+   "csLooks": "humor",
+   "csMeaning": {
+    "cs": "Smysl pro legraci, vtip (francouzsky « humour »)."
+   },
+   "example": {
+    "fr": "Il est de mauvaise humeur parce qu'il a raté son métro.",
+    "cs": "Má špatnou náladu, protože mu ujelo metro."
+   }
+  },
+  {
+   "fr": "maturité",
+   "frMeaning": {
+    "fr": "État de ce qui est mûr (un fruit, une personne). En Suisse, « la maturité » est aussi un diplôme de fin d'études.",
+    "cs": "Stav zralosti (ovoce, člověka). Ve Švýcarsku je „la maturité“ také závěrečný školní diplom."
+   },
+   "csLooks": "maturita",
+   "csMeaning": {
+    "cs": "Závěrečná zkouška na střední škole (ve Francii « le baccalauréat », zkráceně « le bac »)."
+   },
+   "example": {
+    "fr": "En France, on passe le bac à la fin du lycée.",
+    "cs": "Ve Francii se skládá maturita (bac) na konci lycea."
+   }
+  },
+  {
+   "fr": "location",
+   "frMeaning": {
+    "fr": "Fait de louer un logement, une voiture ou un vélo.",
+    "cs": "Pronájem bytu, auta nebo kola."
+   },
+   "csLooks": "lokace",
+   "csMeaning": {
+    "cs": "Místo, poloha (francouzsky « emplacement » nebo « lieu »)."
+   },
+   "example": {
+    "fr": "Nous avons fait une location de vélos pour la journée.",
+    "cs": "Půjčili jsme si na den kola."
+   }
+  },
+  {
+   "fr": "chance",
+   "frMeaning": {
+    "fr": "Bonne fortune : « avoir de la chance » signifie que les choses se passent bien par hasard.",
+    "cs": "Štěstí: „avoir de la chance“ znamená mít štěstí."
+   },
+   "csLooks": "šance",
+   "csMeaning": {
+    "cs": "Příležitost, možnost, že se něco povede (francouzsky « occasion » nebo « possibilité »)."
+   },
+   "example": {
+    "fr": "Tu as de la chance : il reste une table en terrasse !",
+    "cs": "Máš štěstí, ještě je volný stůl na terase!"
+   }
+  }
+ ],
+ "tips": {
+  "fr": [
+   "Dites toujours « Bonjour » (ou « Bonsoir ») en entrant dans un commerce, un café ou un cabinet, avant de demander quoi que ce soit. Ne pas saluer passe pour impoli.",
+   "Avec un inconnu, un adulte plus âgé ou un employé, on utilise « vous » (le vouvoiement). On passe au « tu » entre amis, camarades, enfants ou quand l'autre personne le propose.",
+   "La liaison relie un mot qui finit par une consonne muette au mot suivant qui commence par une voyelle : « les amis » se prononce [lezami]. Elle est obligatoire dans certains groupes (déterminant + nom) et interdite dans d'autres.",
+   "Le « e muet » est souvent non prononcé dans le français parlé. Dans « je ne sais pas », beaucoup de gens disent presque « j'sais pas ». Écoutez la phrase entière plutôt que chaque mot.",
+   "Le « r » français est produit au fond de la gorge, pas avec la pointe de la langue comme en tchèque. Entraînez-vous avec des mots simples : « rue », « Paris », « merci ».",
+   "Quelques formules utiles : « s'il vous plaît », « merci », « excusez-moi », « pardon ». Terminez toujours une conversation par « Au revoir » et un souhait : « Bonne journée » ou « Bonne soirée ».",
+   "Au restaurant, le service est compris dans le prix, selon la loi. Un pourboire est donc facultatif : on laisse parfois quelques pièces ou un petit arrondi si l'on est satisfait.",
+   "Pour téléphoner ou commander, commencez par « Bonjour, je voudrais… » ou « Bonjour, je souhaiterais réserver… », donnez votre nom, répétez les chiffres lentement et demandez « Pouvez-vous répéter, s'il vous plaît ? » si nécessaire."
+  ],
+  "cs": [
+   "Při vstupu do obchodu, kavárny nebo ordinace vždy řekněte „Bonjour“ (večer „Bonsoir“), než o cokoli požádáte. Nepozdravit se považuje za neslušné.",
+   "Neznámým lidem, starším dospělým a zaměstnancům se vyká: „vous“. Tykání („tu“) je mezi přáteli, spolužáky, dětmi nebo když to nabídne druhá strana.",
+   "Vázání (liaison) spojuje slovo končící němou souhláskou s dalším slovem začínajícím samohláskou: „les amis“ se čte [lezami]. V některých spojeních je povinné, v jiných zakázané.",
+   "Němé „e“ na konci slov, tzv. „e muet“, se v mluvené francouzštině často nevyslovuje. Z „je ne sais pas“ lidé často řeknou téměř „j'sais pas“. Poslouchejte celou větu, ne jednotlivá slova.",
+   "Francouzské „r“ se tvoří vzadu v hrdle, ne špičkou jazyka jako v češtině. Cvičte na jednoduchých slovech: „rue“, „Paris“, „merci“.",
+   "Užitečné fráze: „s'il vous plaît“, „merci“, „excusez-moi“, „pardon“. Rozhovor ukončete vždy „Au revoir“ a přáním: „Bonne journée“ nebo „Bonne soirée“.",
+   "V restauraci je obsluha podle zákona zahrnuta v ceně, takže spropitné je dobrovolné: při spokojenosti se někdy nechají drobné mince nebo malé zaokrouhlení.",
+   "Při telefonování nebo objednávání začněte „Bonjour, je voudrais…“ nebo „Bonjour, je souhaiterais réserver…“, řekněte jméno, čísla zopakujte pomalu a podle potřeby požádejte: „Pouvez-vous répéter, s'il vous plaît ?“"
+  ]
+ },
+ "quiz": [
+  {
+   "q": {
+    "fr": "Combien d'arrondissements compte Paris intra-muros ?",
+    "cs": "Kolik obvodů (arrondissements) má Paříž v rámci města?"
+   },
+   "options": {
+    "fr": [
+     "10",
+     "20",
+     "24"
+    ],
+    "cs": [
+     "10",
+     "20",
+     "24"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Paris est divisée en 20 arrondissements, numérotés en spirale à partir du centre.",
+    "cs": "Paříž se dělí na 20 obvodů, které se číslují spirálovitě od centra."
+   }
+  },
+  {
+   "q": {
+    "fr": "En quelle année la tour Eiffel a-t-elle été inaugurée pour l'Exposition universelle ?",
+    "cs": "Ve kterém roce byla pro Světovou výstavu otevřena Eiffelova věž?"
+   },
+   "options": {
+    "fr": [
+     "1789",
+     "1889",
+     "1937"
+    ],
+    "cs": [
+     "1789",
+     "1889",
+     "1937"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "La tour Eiffel a été construite pour l'Exposition universelle de 1889.",
+    "cs": "Eiffelova věž byla postavena pro Světovou výstavu v roce 1889."
+   }
+  },
+  {
+   "q": {
+    "fr": "Quel était le bâtiment du musée d'Orsay avant d'être un musée ?",
+    "cs": "Čím byla budova Musée d'Orsay, než se stala muzeem?"
+   },
+   "options": {
+    "fr": [
+     "Une gare",
+     "Un palais royal",
+     "Une usine"
+    ],
+    "cs": [
+     "Nádražím",
+     "Královským palácem",
+     "Továrnou"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Le musée d'Orsay occupe l'ancienne gare d'Orsay, construite pour l'Exposition universelle de 1900.",
+    "cs": "Musée d'Orsay sídlí v bývalém nádraží Gare d'Orsay, které vzniklo pro Světovou výstavu 1900."
+   }
+  },
+  {
+   "q": {
+    "fr": "Qui est l'architecte de la pyramide de verre du Louvre ?",
+    "cs": "Kdo je architektem skleněné pyramidy před Louvrem?"
+   },
+   "options": {
+    "fr": [
+     "Gustave Eiffel",
+     "I. M. Pei",
+     "Frank Gehry"
+    ],
+    "cs": [
+     "Gustave Eiffel",
+     "I. M. Pei",
+     "Frank Gehry"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "La pyramide a été conçue par l'architecte américain d'origine chinoise Ieoh Ming Pei et inaugurée en 1989.",
+    "cs": "Pyramidu navrhl americký architekt čínského původu Ieoh Ming Pei; byla otevřena v roce 1989."
+   }
+  },
+  {
+   "q": {
+    "fr": "En quelle année la première ligne du métro de Paris a-t-elle été ouverte ?",
+    "cs": "Ve kterém roce byla otevřena první linka pařížského metra?"
+   },
+   "options": {
+    "fr": [
+     "1870",
+     "1900",
+     "1925"
+    ],
+    "cs": [
+     "1870",
+     "1900",
+     "1925"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "La ligne 1 a ouvert en 1900, entre Porte de Vincennes et Porte Maillot.",
+    "cs": "Linka 1 byla otevřena v roce 1900 mezi stanicemi Porte de Vincennes a Porte Maillot."
+   }
+  },
+  {
+   "q": {
+    "fr": "Le Louvre se trouve sur quelle rive de la Seine ?",
+    "cs": "Na kterém břehu Seiny leží Louvre?"
+   },
+   "options": {
+    "fr": [
+     "La rive droite",
+     "La rive gauche",
+     "Sur une île"
+    ],
+    "cs": [
+     "Na pravém břehu",
+     "Na levém břehu",
+     "Na ostrově"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Le Louvre est sur la rive droite ; le musée d'Orsay et la tour Eiffel sont sur la rive gauche.",
+    "cs": "Louvre leží na pravém břehu; Musée d'Orsay a Eiffelova věž stojí na levém."
+   }
+  },
+  {
+   "q": {
+    "fr": "En quelle année a eu lieu l'incendie de Notre-Dame de Paris ?",
+    "cs": "Ve kterém roce vypukl požár katedrály Notre-Dame?"
+   },
+   "options": {
+    "fr": [
+     "2009",
+     "2019",
+     "2023"
+    ],
+    "cs": [
+     "2009",
+     "2019",
+     "2023"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "L'incendie a eu lieu le 15 avril 2019.",
+    "cs": "Požár vypukl 15. dubna 2019."
+   }
+  },
+  {
+   "q": {
+    "fr": "Comment s'adresse-t-on à une personne inconnue et plus âgée dans la rue ?",
+    "cs": "Jak oslovíte neznámou starší osobu na ulici?"
+   },
+   "options": {
+    "fr": [
+     "« Tu peux m'aider ? »",
+     "« Vous pouvez m'aider ? »",
+     "« Aide-moi ! »"
+    ],
+    "cs": [
+     "„Tu peux m'aider ?“",
+     "„Vous pouvez m'aider ?“",
+     "„Aide-moi !“"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "On vouvoie les inconnus et les personnes plus âgées : « Vous pouvez m'aider ? »",
+    "cs": "Neznámým a starším lidem se vyká: „Vous pouvez m'aider ?“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Que dit-on en premier quand on entre dans une boulangerie ?",
+    "cs": "Co řeknete jako první, když vstoupíte do pekárny?"
+   },
+   "options": {
+    "fr": [
+     "« Une baguette ! »",
+     "« Bonjour »",
+     "« Au revoir »"
+    ],
+    "cs": [
+     "„Une baguette !“",
+     "„Bonjour“",
+     "„Au revoir“"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "On salue toujours d'abord, puis on passe la commande.",
+    "cs": "Nejdřív se vždy pozdravíte a teprve potom objednáte."
+   }
+  },
+  {
+   "q": {
+    "fr": "Comment demander poliment de payer au restaurant ?",
+    "cs": "Jak zdvořile požádáte v restauraci o účet?"
+   },
+   "options": {
+    "fr": [
+     "« L'addition, s'il vous plaît. »",
+     "« Donnez-moi l'argent. »",
+     "« Je pars. »"
+    ],
+    "cs": [
+     "„L'addition, s'il vous plaît.“",
+     "„Donnez-moi l'argent.“",
+     "„Je pars.“"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "« L'addition, s'il vous plaît » est la formule habituelle.",
+    "cs": "„L'addition, s'il vous plaît“ je obvyklá zdvořilá formule."
+   }
+  },
+  {
+   "q": {
+    "fr": "Quel numéro d'urgence est valable dans toute l'Union européenne ?",
+    "cs": "Které tísňové číslo platí v celé Evropské unii?"
+   },
+   "options": {
+    "fr": [
+     "112",
+     "15",
+     "18"
+    ],
+    "cs": [
+     "112",
+     "15",
+     "18"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Le 112 est le numéro d'urgence européen. En France, le 15 est le SAMU, le 17 la police et le 18 les pompiers.",
+    "cs": "112 je evropské tísňové číslo. Ve Francii je 15 zdravotní záchranka (SAMU), 17 policie a 18 hasiči."
+   }
+  },
+  {
+   "q": {
+    "fr": "« Déjeuner » en français signifie surtout...",
+    "cs": "„Déjeuner“ ve francouzštině znamená především…"
+   },
+   "options": {
+    "fr": [
+     "prendre le repas de midi",
+     "prendre le petit-déjeuner",
+     "prendre le repas du soir"
+    ],
+    "cs": [
+     "dát si oběd",
+     "dát si snídani",
+     "dát si večeři"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "« Déjeuner » est le repas du midi ; le matin on prend « le petit-déjeuner » et le soir « le dîner ».",
+    "cs": "„Déjeuner“ je polední jídlo; ráno se jí „le petit-déjeuner“ a večer „le dîner“."
+   }
+  }
+ ],
+ "sources": [
+  "https://www.iledefrance-mobilites.fr/",
+  "https://www.service-public.gouv.fr/particuliers/actualites/A17758",
+  "https://www.larousse.fr/dictionnaires/francais",
+  "https://dictionnaire.lerobert.com/",
+  "https://slovnikcs.cz/",
+  "https://www.paris.fr/",
+  "https://fr.wikipedia.org/wiki/Tour_Eiffel",
+  "https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Paris"
+ ]
+}

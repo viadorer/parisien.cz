@@ -1,23 +1,26 @@
 # parisien.cz
 
-Dvojjazyčný (FR/CS) školní projekt o Paříži. Statický web + Vercel Functions + Neon Postgres + Cloudflare R2.
+Dvojjazyčný (FR/CS) školní projekt o Paříži a cestování. Statické stránky generované buildem + Vercel Functions + Neon Postgres + Cloudflare R2.
 
-## Struktura
-- `index.html`, `post.html`, `styles.css`, `app.js`, `i18n.js` – veřejný web (obsah v `i18n.js`, články z DB)
-- `admin.html`, `admin-app.js` – správa článků (`/admin`)
-- `api/posts.js` (veřejné čtení), `api/contact.js` (formulář), `api/admin.js` (přihlášení, CRUD, upload)
-- `lib/` – DB (schéma se vytvoří samo a naplní se 3 úvodními články), auth, R2
+## Jak to funguje
+- `data/*.json` – obsah (muzea, místa, čtvrti, gastronomie, recepty, kultura, výuka, galerie) a `data/articles/*.json` (články). Každá položka je ve FR i CS, fotky mají autora a licenci (Wikimedia Commons).
+- `npm run build` (`scripts/build.mjs`) vygeneruje `dist/fr/*` a `dist/cs/*`, sitemap, robots a `lib/articles.generated.js` (úvodní články pro databázi).
+- `api/posts.js` články, `api/article.js` server-side vykreslený článek (SEO), `api/events.js` živý kalendář (open data Ville de Paris, ODbL), `api/contact.js` formulář, `api/admin.js` správa.
+- `/admin` – články (FR+CS, kategorie, autor, kredit fotky, zdroje), zprávy a návrhy článků od studentů, nahrávání obrázků do R2.
+- `scripts/commons.mjs` – hledání fotek na Commons s ověřenou licencí (CC0 / PD / CC BY / CC BY-SA).
 
 ## Nastavení na Vercelu
-1. **Neon:** Project → Storage → Create → Neon (Marketplace). Nastaví `DATABASE_URL`.
+1. **Neon:** Project → Storage → Create → Neon (Marketplace). Nastaví `DATABASE_URL`; tabulky se vytvoří samy a naplní se 16 články.
 2. **Environment Variables:** `ADMIN_PASSWORD` (min. 8 znaků), `SESSION_SECRET` (náhodný řetězec), `R2_*` podle `.env.example`.
 3. **R2 CORS** (bucket → Settings → CORS), aby šlo nahrávat z `/admin`:
    ```json
    [{"AllowedOrigins":["https://www.parisien.cz","https://parisien.cz"],"AllowedMethods":["PUT"],"AllowedHeaders":["content-type"],"MaxAgeSeconds":3600}]
    ```
-4. Redeploy. Pak `/admin` → přihlášení → články (FR + CS) a obrázky.
-5. Volitelně nahrajte obrázky webu do R2: `npm run migrate-images`.
+4. Redeploy. `/admin` → přihlášení.
 
-Bez DB/R2 web funguje (zobrazí úvodní články), jen formulář a administrace hlásí, co chybí.
+Bez DB/R2 web funguje (články se berou ze seed dat), jen formulář a administrace hlásí, co chybí.
 
-Formát článků: odstavce oddělené prázdným řádkem, `## Nadpis`, `**tučně**`. HTML se nepodporuje.
+## Fotky
+Fotky se zatím načítají přímo z Wikimedia Commons (standardní šířky miniatur). Pro stabilitu je lepší je zrcadlit do R2/Vercelu. Všechny autory a licence najdete na `/fr/credits` a `/cs/credits`.
+
+Formát textu článků: odstavce oddělené prázdným řádkem, `## Nadpis`, `**tučně**`, `- odrážky`, `[text](https://…)`. HTML se nepodporuje.

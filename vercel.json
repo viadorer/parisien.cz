@@ -1,7 +1,14 @@
 {
+  "buildCommand": "node scripts/build.mjs",
+  "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [{ "source": "/clanek/:slug", "destination": "/post" }],
+  "rewrites": [
+    { "source": "/:lang(fr|cs)/article/:slug", "destination": "/api/article?lang=:lang&slug=:slug" }
+  ],
+  "redirects": [
+    { "source": "/clanek/:slug", "destination": "/fr/article/:slug", "permanent": false }
+  ],
   "headers": [
     {
       "source": "/(.*)",

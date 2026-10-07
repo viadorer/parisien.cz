@@ -1,0 +1,407 @@
+[
+  {
+    "id": "le-marais",
+    "name": {
+      "fr": "Le Marais",
+      "cs": "Le Marais"
+    },
+    "arr": "3e–4e",
+    "vibe": {
+      "fr": "Hôtels particuliers du XVIIe siècle, boutiques de créateurs et ruelles où l'on déambule sans but.",
+      "cs": "Městské paláce ze 17. století, designérské butiky a uličky, kterými se dá bloumat bez cíle."
+    },
+    "intro": {
+      "fr": "Le nom rappelle les terres marécageuses que l'on a asséchées au Moyen Âge. Aujourd'hui, le Marais est l'un des rares quartiers du centre à avoir gardé ses hôtels particuliers du XVIIe siècle, que l'on découvre derrière de lourdes portes cochères. Henri IV y a fait tracer la place Royale, devenue place des Vosges. Le quartier a aussi une longue histoire juive, autour de la rue des Rosiers. Aujourd'hui, musées, galeries et boutiques se mêlent aux cafés, et les rues étroites sont souvent très fréquentées.",
+      "cs": "Jméno připomíná bažinatou půdu, kterou ve středověku vysušili. Dnes je Marais jednou z mála čtvrtí v centru, která si zachovala městské paláce ze 17. století, ukryté za těžkými průjezdními vraty. Jindřich IV. tu založil Place Royale, dnešní Place des Vosges. Čtvrť má také dlouhou židovskou historii kolem ulice rue des Rosiers. Dnes se tu muzea, galerie a obchody mísí s kavárnami a úzké ulice bývají hodně rušné, proto se vyplatí přijít brzy dopoledne."
+    },
+    "doAndSee": {
+      "fr": [
+        "Place des Vosges, la plus ancienne place planifiée de Paris, et la Maison de Victor Hugo au numéro 6.",
+        "Musée Carnavalet - Histoire de Paris, rouvert en mai 2021 après cinq ans de travaux, dans deux hôtels particuliers.",
+        "Musée Picasso, installé dans l'hôtel Salé, un hôtel baroque du XVIIe siècle.",
+        "Hôtel de Soubise, qui abrite les Archives nationales : un palais du XVIIIe siècle à découvrir dans le Marais.",
+        "Rue des Rosiers et ses environs : une promenade dans l'ancien quartier juif, entre boulangeries, librairies et petits commerces."
+      ],
+      "cs": [
+        "Place des Vosges, nejstarší plánované náměstí Paříže, a Dům Victora Huga na čísle 6.",
+        "Musée Carnavalet – Histoire de Paris, znovuotevřené v květnu 2021 po pěti letech rekonstrukce, ve dvou městských palácích.",
+        "Musée Picasso v paláci Hôtel Salé, barokním městském paláci ze 17. století.",
+        "Hôtel de Soubise, v němž sídlí Archives nationales: palác z 18. století k objevování v Marais.",
+        "Rue des Rosiers a okolí: procházka bývalou židovskou čtvrtí mezi pekárnami, knihkupectvími a malými obchody."
+      ]
+    },
+    "foodTip": {
+      "fr": "Le marché des Enfants-Rouges (rue de Bretagne) est le plus vieux marché couvert de Paris encore en activité, créé en 1615 : on y mange des plats du monde sur de grandes tables partagées.",
+      "cs": "Marché des Enfants-Rouges (rue de Bretagne) je nejstarší dosud fungující krytá tržnice v Paříži, založená roku 1615: u dlouhých společných stolů se tu jedí jídla z celého světa."
+    },
+    "photo": {
+      "file": "File:Rue des Francs-Bourgeois (38524086715).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rue_des_Francs-Bourgeois_(38524086715).jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Rue_des_Francs-Bourgeois_(38524086715).jpg",
+      "author": "Guillaume Baviere from Uppsala, Sweden",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Place_des_Vosges",
+      "https://fr.wikipedia.org/wiki/Musée_Carnavalet",
+      "https://fr.wikipedia.org/wiki/Musée_Picasso_(Paris)",
+      "https://fr.wikipedia.org/wiki/Marché_des_Enfants-Rouges",
+      "https://www.parisjetaime.com"
+    ]
+  },
+  {
+    "id": "quartier-latin",
+    "name": {
+      "fr": "Quartier latin",
+      "cs": "Latinská čtvrť"
+    },
+    "arr": "5e–6e",
+    "vibe": {
+      "fr": "Étudiants, librairies et rues médiévales : on y apprend et on y flâne depuis huit siècles.",
+      "cs": "Studenti, knihkupectví a středověké ulice: už osm set let se tu studuje i bloumá."
+    },
+    "intro": {
+      "fr": "Le quartier doit son nom au latin, la langue dans laquelle on enseignait à l'université médiévale. Il se déploie autour de la Sorbonne, du Panthéon et du jardin du Luxembourg, sur la montagne Sainte-Geneviève. Il garde des traces de toutes les époques : arènes gallo-romaines, thermes de Cluny, églises gothiques, grandes écoles. Les librairies y sont encore nombreuses, et les terrasses se remplissent d'étudiants à l'heure du déjeuner. Si vous apprenez le français, c'est le quartier idéal pour lire une affiche, une vitrine ou un menu à voix haute.",
+      "cs": "Čtvrť vděčí za jméno latině, jazyku, ve kterém se na středověké univerzitě učilo. Rozkládá se kolem Sorbonny, Panthéonu a Lucemburských zahrad na pahorku Sainte-Geneviève. Najdete tu stopy ze všech období: galořímský amfiteátr, lázně v Cluny, gotické kostely i prestižní vysoké školy. Knihkupectví je tu pořád hodně a v poledne se terasy plní studenty. Pokud se učíte francouzsky, je to ideální čtvrť pro hlasité čtení plakátů, výloh, nápisů na zdech a jídelních lístků."
+    },
+    "doAndSee": {
+      "fr": [
+        "Panthéon : crypte, pendule de Foucault et colonnade avec vue sur Paris.",
+        "Musée de Cluny - musée national du Moyen Âge, installé sur d'anciens thermes gallo-romains.",
+        "Arènes de Lutèce : un amphithéâtre construit au IIe siècle, aujourd'hui un lieu de détente (jeux de boules, football).",
+        "Shakespeare and Company, librairie anglophone fondée en 1951 par George Whitman, rue de la Bûcherie, face à Notre-Dame.",
+        "Rue Mouffetard : l'une des plus anciennes voies de Paris, longue d'environ 650 m, descend de la montagne Sainte-Geneviève."
+      ],
+      "cs": [
+        "Panthéon: krypta, Foucaultovo kyvadlo a kolonáda s výhledem na Paříž.",
+        "Musée de Cluny – národní muzeum středověku, které stojí na zbytcích galořímských lázní.",
+        "Arènes de Lutèce: amfiteátr ze 2. století, dnes místo odpočinku (hraje se tu pétanque a fotbal).",
+        "Shakespeare and Company, anglické knihkupectví, které roku 1951 založil George Whitman, v ulici rue de la Bûcherie naproti Notre-Dame.",
+        "Rue Mouffetard: jedna z nejstarších ulic Paříže, dlouhá asi 650 m, sbíhá z pahorku Sainte-Geneviève."
+      ]
+    },
+    "foodTip": {
+      "fr": "Dans la rue Mouffetard, achetez du fromage, des fruits ou du pain dans les petites boutiques, puis mangez dans le jardin des Plantes ou au Luxembourg. Pour des crêpes salées, plusieurs crêperies bordent la rue.",
+      "cs": "V ulici rue Mouffetard nakupte sýr, ovoce nebo pečivo v malých obchodech a pak se naobědvejte v Jardin des Plantes nebo v Lucemburských zahradách. Na slané palačinky tu je několik crêperií."
+    },
+    "photo": {
+      "file": "File:Place de la Sorbonne, August 2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Place_de_la_Sorbonne%2C_August_2024.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Place_de_la_Sorbonne,_August_2024.jpg",
+      "author": "Astacoid",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Quartier_latin",
+      "https://fr.wikipedia.org/wiki/Sorbonne",
+      "https://fr.wikipedia.org/wiki/Musée_de_Cluny",
+      "https://fr.wikipedia.org/wiki/Arènes_de_Lutèce",
+      "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)",
+      "https://fr.wikipedia.org/wiki/Rue_Mouffetard"
+    ]
+  },
+  {
+    "id": "saint-germain-des-pres",
+    "name": {
+      "fr": "Saint-Germain-des-Prés",
+      "cs": "Saint-Germain-des-Prés"
+    },
+    "arr": "6e",
+    "vibe": {
+      "fr": "Cafés littéraires, galeries d'art et petites places cachées : le quartier des idées sur la rive gauche.",
+      "cs": "Literární kavárny, umělecké galerie a skrytá náměstíčka: čtvrť myšlenek na levém břehu."
+    },
+    "intro": {
+      "fr": "Tout commence avec une abbaye bénédictine fondée au milieu du VIe siècle par le roi Childebert Ier. Il en reste l'église, l'une des plus anciennes de Paris. Au XXe siècle, le quartier devient un lieu de rencontre des écrivains et des penseurs : Sartre et Simone de Beauvoir fréquentent le Café de Flore et les Deux Magots. Aujourd'hui, les galeries d'art, les maisons d'édition et les boutiques de luxe se côtoient. Quittez le boulevard et partez dans les ruelles : la place de Furstemberg, par exemple, est un petit secret.",
+      "cs": "Všechno začalo benediktinským opatstvím, které v polovině 6. století založil král Childebert I. Zůstal z něj kostel, jeden z nejstarších v Paříži. Ve 20. století se čtvrť stala místem setkávání spisovatelů a myslitelů: Sartre a Simone de Beauvoir chodili do Café de Flore a Les Deux Magots. Dnes tu vedle sebe stojí umělecké galerie, nakladatelství a luxusní butiky. Opusťte bulvár a vydejte se do uliček: například náměstíčko Place de Furstemberg je malé tajemství."
+    },
+    "doAndSee": {
+      "fr": [
+        "Église Saint-Germain-des-Prés, ancienne abbatiale, avec un clocher roman.",
+        "Café de Flore et Les Deux Magots, deux cafés historiques de la vie intellectuelle d'après-guerre (Sartre, Beauvoir et d'autres y ont écrit).",
+        "Café Procope, fondé en 1686, l'un des plus anciens cafés-restaurants de Paris.",
+        "Place de Furstemberg et Musée national Eugène-Delacroix, dans l'ancien atelier du peintre.",
+        "Les rues autour de la rue de Buci : marché, librairies et galeries d'art à explorer à pied."
+      ],
+      "cs": [
+        "Kostel Saint-Germain-des-Prés, bývalý opatský chrám s románskou věží.",
+        "Café de Flore a Les Deux Magots, dvě historické kavárny intelektuálního života po válce (psali tu Sartre, Beauvoir a další).",
+        "Café Procope, založená roku 1686, jedna z nejstarších kaváren-restaurací v Paříži.",
+        "Place de Furstemberg a Národní muzeum Eugèna Delacroixe v bývalém malířově ateliéru.",
+        "Ulice kolem rue de Buci: trh, knihkupectví a umělecké galerie k procházení pěšky."
+      ]
+    },
+    "foodTip": {
+      "fr": "Un café ou un chocolat chaud dans un café historique, c'est aussi payer pour l'histoire. Pour un repas plus simple, cherchez les boulangeries et les petits bistrots des rues latérales, vers la rue de Buci.",
+      "cs": "Káva nebo horká čokoláda v historické kavárně znamená platit i za historii. Na jednodušší jídlo vyhledejte pekárny a malé bistra v bočních ulicích, směrem k rue de Buci."
+    },
+    "photo": {
+      "file": "File:Abbaye de Saint-Germain-des-Prés 140131 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbaye_de_Saint-Germain-des-Pr%C3%A9s_140131_1.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Abbaye_de_Saint-Germain-des-Pr%C3%A9s_140131_1.jpg",
+      "author": "DXR",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Église_Saint-Germain-des-Prés",
+      "https://fr.wikipedia.org/wiki/Café_de_Flore",
+      "https://fr.wikipedia.org/wiki/Café_Procope",
+      "https://en.wikipedia.org/wiki/Les_Deux_Magots",
+      "https://www.parisjetaime.com"
+    ]
+  },
+  {
+    "id": "montmartre",
+    "name": {
+      "fr": "Montmartre",
+      "cs": "Montmartre"
+    },
+    "arr": "18e",
+    "vibe": {
+      "fr": "Un village perché au-dessus de la ville, avec ses escaliers, ses vignes et ses ateliers d'artistes.",
+      "cs": "Vesnice posazená nad městem, se schody, vinicí a ateliéry umělců."
+    },
+    "intro": {
+      "fr": "Jusqu'en 1860, Montmartre était une commune distincte, et cela se voit encore : rues en pente, escaliers, jardins cachés, un petit vignoble. Depuis le XIXe siècle, la butte attire des artistes, dont Picasso et Modigliani. Elle est aussi très touristique, surtout autour du Sacré-Cœur et de la place du Tertre. Le meilleur plan : monter tôt, puis s'éloigner de ces deux points pour découvrir les ruelles tranquilles du versant nord, où l'on entend parfois plus les oiseaux que les voitures.",
+      "cs": "Do roku 1860 byl Montmartre samostatnou obcí a je to stále znát: svažité ulice, schodiště, skryté zahrady a malá vinice. Od 19. století láká pahorek umělce, mezi nimi Picassa a Modiglianiho. Je také velmi turistický, hlavně kolem Sacré-Cœur a náměstí Place du Tertre. Nejlepší plán: vystoupat brzy a pak se od těch dvou míst vzdálit a objevit klidné uličky na severním svahu, kde někdy slyšíte víc ptáků než aut a kde se člověk nemusí s nikým tlačit."
+    },
+    "doAndSee": {
+      "fr": [
+        "Basilique du Sacré-Cœur et escalier de la rue Foyatier (222 marches) ; funiculaire en alternative.",
+        "Place du Tertre, où des peintres exposent leurs toiles.",
+        "Musée de Montmartre, dans une maison où Renoir a travaillé, avec vue sur le vignoble.",
+        "Le Clos-Montmartre, vigne de la rue des Saules ; la présence de vignes à Montmartre est attestée dès 944.",
+        "Cabaret Au Lapin Agile, rue des Saules, une institution de la chanson depuis le XIXe siècle."
+      ],
+      "cs": [
+        "Bazilika Sacré-Cœur a schodiště v ulici rue Foyatier (222 schodů); alternativou je lanovka.",
+        "Place du Tertre, kde malíři vystavují svá plátna.",
+        "Musée de Montmartre v domě, kde pracoval Renoir, s výhledem na vinici.",
+        "Clos-Montmartre, vinice v ulici rue des Saules; vinná réva se na Montmartru doložitelně pěstuje už od roku 944.",
+        "Kabaret Au Lapin Agile v ulici rue des Saules, od 19. století instituce francouzské písně."
+      ]
+    },
+    "foodTip": {
+      "fr": "Évitez de dîner sur la place du Tertre, souvent chère et pensée pour les groupes. Descendez plutôt vers la rue des Abbesses et ses rues voisines, où les boulangeries et les petits restaurants s'adressent aux habitants.",
+      "cs": "Nevečeřte na Place du Tertre, bývá drahé a míří na skupiny. Sejděte raději k rue des Abbesses a přilehlým uličkám, kde pekárny a malé restaurace slouží místním."
+    },
+    "photo": {
+      "file": "File:Butte Montmartre, Place du Tertre, Paris.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Butte_Montmartre%2C_Place_du_Tertre%2C_Paris.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Butte_Montmartre,_Place_du_Tertre,_Paris.jpg",
+      "author": "Britchi Mirela",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Montmartre",
+      "https://fr.wikipedia.org/wiki/Clos_Montmartre",
+      "https://fr.wikipedia.org/wiki/Musée_de_Montmartre",
+      "https://www.sacre-coeur-montmartre.com",
+      "https://www.parisjetaime.com"
+    ]
+  },
+  {
+    "id": "belleville",
+    "name": {
+      "fr": "Belleville",
+      "cs": "Belleville"
+    },
+    "arr": "19e–20e",
+    "vibe": {
+      "fr": "Un quartier populaire et métissé, construit sur une colline, avec l'une des plus belles vues de Paris.",
+      "cs": "Lidová a pestrá čtvrť na kopci s jedním z nejkrásnějších výhledů na Paříž."
+    },
+    "intro": {
+      "fr": "Belleville s'étend sur une colline de 108 mètres, bien plus haute que les rives de la Seine, et c'est de là que viennent ses escaliers et ses panoramas. L'ancien village a été annexé à Paris en 1860 ; il est resté un quartier populaire et très mélangé, où l'on trouve des commerçants et des restaurants de nombreuses origines, notamment chinoise. Les murs sont couverts de street art. Ce n'est pas un quartier de cartes postales, mais un quartier où l'on voit Paris vivre au quotidien.",
+      "cs": "Belleville se rozkládá na kopci vysokém 108 metrů, mnohem výš než břehy Seiny, a odtud pocházejí jeho schody a panoramata. Bývalá vesnice byla k Paříži připojena v roce 1860; zůstala lidovou a velmi pestrou čtvrtí, kde najdete obchodníky a restaurace z mnoha zemí, zvláště čínské. Zdi jsou plné street artu. Není to čtvrť pohlednic, ale místo, kde uvidíte Paříž žít všedním dnem, s trhy, dětmi na hřištích a lidmi, kteří spěchají domů."
+    },
+    "doAndSee": {
+      "fr": [
+        "Parc de Belleville (4,5 ha) : une terrasse au sommet offre un panorama sur Paris.",
+        "Parc des Buttes-Chaumont, inauguré le 1er avril 1867, avec rochers, cascades et belvédères.",
+        "Rue Dénoyez : un lieu connu pour son street art qui change régulièrement.",
+        "Cimetière du Père-Lachaise, tout proche, pour finir la journée.",
+        "Rue de Belleville et ses restaurants asiatiques : une bonne adresse pour déjeuner."
+      ],
+      "cs": [
+        "Parc de Belleville (4,5 ha): terasa na vrcholu nabízí panorama Paříže.",
+        "Parc des Buttes-Chaumont, otevřený 1. dubna 1867, se skalami, vodopády a vyhlídkami.",
+        "Rue Dénoyez: místo známé street artem, který se pravidelně mění.",
+        "Hřbitov Père-Lachaise hned vedle, aby den dobře skončil.",
+        "Rue de Belleville a její asijské restaurace: dobré místo na oběd."
+      ]
+    },
+    "foodTip": {
+      "fr": "Pour manger, suivez les habitants : restaurants chinois, vietnamiens ou tunisiens autour de la rue de Belleville et du boulevard de Belleville. Un déjeuner simple y est un très bon moyen de découvrir d'autres cuisines.",
+      "cs": "Co se jídla týče, řiďte se místními: čínské, vietnamské nebo tuniské restaurace kolem rue de Belleville a bulváru Boulevard de Belleville. Jednoduchý oběd je tu skvělý způsob, jak poznat jiné kuchyně."
+    },
+    "photo": {
+      "file": "File:My Paris (35545163561).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/My_Paris_(35545163561).jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:My_Paris_(35545163561).jpg",
+      "author": "Jeanne Menjoulet from Paris, France",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Belleville_(Paris)",
+      "https://fr.wikipedia.org/wiki/Parc_de_Belleville",
+      "https://fr.wikipedia.org/wiki/Parc_des_Buttes-Chaumont",
+      "https://fr.wikipedia.org/wiki/Cimetière_du_Père-Lachaise"
+    ]
+  },
+  {
+    "id": "canal-saint-martin-republique",
+    "name": {
+      "fr": "Canal Saint-Martin / République",
+      "cs": "Canal Saint-Martin / République"
+    },
+    "arr": "10e–11e",
+    "vibe": {
+      "fr": "Passerelles de fer, quais animés et bars de quartier : le Paris des habitants, au bord de l'eau.",
+      "cs": "Železné lávky, rušná nábřeží a čtvrťové bary: Paříž místních, u vody."
+    },
+    "intro": {
+      "fr": "Entre la place de la République et le bassin de la Villette, le canal est le fil conducteur du quartier. Les quais de Valmy et de Jemmapes sont bordés de platanes ; on y voit des joggeurs, des pique-niqueurs et, de temps en temps, un bateau qui franchit une écluse. La place de la République, avec son grand monument de 1883, sert de point de départ. Le quartier est jeune et vivant, avec des librairies, des restaurants, des boutiques vintage. C'est un bon contrepoint aux grands monuments du centre.",
+      "cs": "Mezi náměstím Place de la République a pánví Bassin de la Villette je kanál vodítkem celé čtvrti. Nábřeží Quai de Valmy a Quai de Jemmapes lemují platany; potkáte tu běžce, lidi na pikniku a občas loď, která proplouvá zdymadlem. Náměstí Place de la République s velkým pomníkem z roku 1883 slouží jako výchozí bod. Čtvrť je mladá a živá, s knihkupectvími, restauracemi a vintage obchůdky. Je to dobrá protiváha velkých památek v centru."
+    },
+    "doAndSee": {
+      "fr": [
+        "Place de la République et son Monument à la République, dû aux frères Morice et inauguré en 1883.",
+        "Les écluses des Récollets et la passerelle Michèle-Morgan (ex-passerelle Bichat).",
+        "Une promenade le long des quais de Valmy et de Jemmapes ; regardez les ponts tournants s'ouvrir.",
+        "Le quai de Jemmapes et l'Hôtel du Nord, immortalisé par le film de Marcel Carné (1938).",
+        "La voûte Richard-Lenoir, où le canal passe sous le boulevard : de petits oculi laissent entrer la lumière."
+      ],
+      "cs": [
+        "Place de la République a její Monument à la République, dílo bratří Moriceových z roku 1883.",
+        "Zdymadla Récollets a lávka Michèle-Morgan (dříve Bichat).",
+        "Procházka po nábřežích Quai de Valmy a Quai de Jemmapes; sledujte, jak se otáčejí mosty.",
+        "Quai de Jemmapes a Hôtel du Nord, zvěčněný filmem Marcela Carné (1938).",
+        "Klenba Richard-Lenoir, kde kanál vede pod bulvárem: malé otvory (oculi) propouštějí světlo."
+      ]
+    },
+    "foodTip": {
+      "fr": "Prenez un sandwich ou une salade dans une boulangerie du quartier et mangez sur les quais, comme les habitants. Le soir, la terrasse d'un bar ou d'un café au bord de l'eau fait partie du rituel.",
+      "cs": "Vezměte si sendvič nebo salát z místní pekárny a najezte se na nábřeží jako místní. Večer patří k rituálu terasa baru nebo kavárny u vody."
+    },
+    "photo": {
+      "file": "File:Paris Canal St-Martin écluses Récollets 2013.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_Canal_St-Martin_%C3%A9cluses_R%C3%A9collets_2013.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris_Canal_St-Martin_%C3%A9cluses_R%C3%A9collets_2013.jpg",
+      "author": "JLPC",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Canal_Saint-Martin",
+      "https://fr.wikipedia.org/wiki/Place_de_la_République_(Paris)",
+      "https://www.parisjetaime.com"
+    ]
+  },
+  {
+    "id": "montparnasse",
+    "name": {
+      "fr": "Montparnasse",
+      "cs": "Montparnasse"
+    },
+    "arr": "14e–15e",
+    "vibe": {
+      "fr": "Brasseries Art déco, crêperies bretonnes et souvenirs des artistes des années folles.",
+      "cs": "Brasserie ve stylu art deco, bretaňské crêperie a vzpomínky na umělce z let dvacátých."
+    },
+    "intro": {
+      "fr": "Le nom vient d'une plaisanterie d'étudiants du Quartier latin : un tas de gravats baptisé « mont Parnasse », comme la montagne des Muses. Au début du XXe siècle, le quartier est devenu la capitale de la bohème internationale, avec des peintres, écrivains et musiciens. La tour Montparnasse, de 209 mètres, inaugurée en 1973, domine aujourd'hui le paysage et offre l'un des meilleurs panoramas sur la tour Eiffel. À ses pieds, les brasseries comme La Coupole (ouverte en 1927) rappellent cette époque.",
+      "cs": "Jméno vzniklo ze studentského žertu z Latinské čtvrti: hromada sutě dostala jméno „mont Parnasse“, jako hora múz. Na počátku 20. století se čtvrť stala hlavním městem mezinárodní bohémy s malíři, spisovateli a hudebníky. Věž Tour Montparnasse, vysoká 209 metrů a otevřená v roce 1973, dnes dominuje krajině a nabízí jeden z nejlepších výhledů na Eiffelovu věž. U jejího úpatí připomínají tuto dobu velké brasserie jako La Coupole (otevřená 1927), kam kdysi chodili umělci."
+    },
+    "doAndSee": {
+      "fr": [
+        "Tour Montparnasse : l'observatoire panoramique, d'où l'on voit la tour Eiffel.",
+        "Cimetière du Montparnasse, créé en 1824 sous le nom de cimetière du Sud.",
+        "Brasserie La Coupole, ouverte le 20 décembre 1927, avec son décor Art déco.",
+        "Catacombes de Paris, place Denfert-Rochereau : environ 1,7 km de galeries visitables, à 20 m sous terre (réservation conseillée).",
+        "Rue du Montparnasse et rue d'Odessa : les crêperies, héritage des liaisons ferroviaires avec la Bretagne."
+      ],
+      "cs": [
+        "Tour Montparnasse: panoramatická vyhlídka, odkud je vidět Eiffelova věž.",
+        "Hřbitov Montparnasse, založený roku 1824 pod jménem Cimetière du Sud (Jižní hřbitov).",
+        "Brasserie La Coupole, otevřená 20. prosince 1927, s výzdobou ve stylu art deco.",
+        "Pařížské katakomby na náměstí Place Denfert-Rochereau: asi 1,7 km zpřístupněných chodeb ve 20 m pod zemí (rezervace se doporučuje).",
+        "Rue du Montparnasse a rue d'Odessa: crêperie, dědictví železničního spojení s Bretaní."
+      ]
+    },
+    "foodTip": {
+      "fr": "Une galette de sarrasin et un cidre dans l'une des crêperies de la rue du Montparnasse : c'est le repas le plus typique du quartier. Pour l'ambiance des années folles, une brasserie comme La Coupole, mais plutôt pour un plat que pour un dîner de groupe.",
+      "cs": "Pohanková galette a cidre v jedné z crêperií v ulici rue du Montparnasse: to je nejtypičtější jídlo čtvrti. Pro atmosféru let dvacátých zajděte do brasserie jako La Coupole, spíš na jedno jídlo než na večeři ve velké skupině."
+    },
+    "photo": {
+      "file": "File:Tour Montparnasse 20250513.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tour_Montparnasse_20250513.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Tour_Montparnasse_20250513.jpg",
+      "author": "Holomanga",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Montparnasse",
+      "https://fr.wikipedia.org/wiki/Tour_Montparnasse",
+      "https://fr.wikipedia.org/wiki/Cimetière_du_Montparnasse",
+      "https://en.wikipedia.org/wiki/La_Coupole_(Paris)",
+      "https://fr.wikipedia.org/wiki/Catacombes_de_Paris"
+    ]
+  },
+  {
+    "id": "butte-aux-cailles",
+    "name": {
+      "fr": "Butte-aux-Cailles",
+      "cs": "Butte-aux-Cailles"
+    },
+    "arr": "13e",
+    "vibe": {
+      "fr": "Un village de poche perché sur une colline, avec une piscine en briques rouges et des bistrots de quartier.",
+      "cs": "Kapesní vesnice na kopci s cihlovým bazénem a čtvrťovými bistry."
+    },
+    "intro": {
+      "fr": "Presque personne ne la connaît en dehors de Paris, et c'est son charme. La Butte-aux-Cailles est une petite colline du 13e arrondissement dont les rues sinueuses, les maisons basses et la place Paul-Verlaine ressemblent à un village. Sur cette place se trouvent la piscine de la Butte-aux-Cailles, bâtie entre 1922 et 1924 en briques rouges, et une fontaine alimentée par un puits artésien. Le soir, les bistrots et les bars de la rue de la Butte-aux-Cailles se remplissent d'habitants plutôt que de touristes.",
+      "cs": "Mimo Paříž ji skoro nikdo nezná, a právě to je její kouzlo. Butte-aux-Cailles je malý kopec v 13. obvodu, jehož klikaté ulice, nízké domy a náměstí Place Paul-Verlaine připomínají vesnici. Na tomto náměstí stojí bazén Piscine de la Butte-aux-Cailles, postavený v letech 1922–1924 z červených cihel, a fontána napájená artéskou studnou. Večer se bistra a bary v ulici rue de la Butte-aux-Cailles plní spíš místními než turisty, a to je dobrý důvod sem zajít na večer."
+    },
+    "doAndSee": {
+      "fr": [
+        "Piscine de la Butte-aux-Cailles (architecte Louis Bonnier), monument historique depuis 1990, avec bassins intérieur et extérieurs.",
+        "Fontaine du puits artésien de la place Paul-Verlaine : l'eau est potable, mais légèrement sulfureuse.",
+        "Rue de la Butte-aux-Cailles et rue des Cinq-Diamants : cafés, librairies et petits restaurants.",
+        "Église Sainte-Anne de la Butte-aux-Cailles, au cœur du quartier, et les petites rues alentour : un autre visage de Paris.",
+        "Du street art à découvrir en marchant dans les rues du 13e arrondissement."
+      ],
+      "cs": [
+        "Piscine de la Butte-aux-Cailles (architekt Louis Bonnier), od roku 1990 kulturní památka, s vnitřním a vnějšími bazény.",
+        "Fontána u artéské studny na náměstí Place Paul-Verlaine: voda je pitná, ale lehce sirnatá.",
+        "Rue de la Butte-aux-Cailles a rue des Cinq-Diamants: kavárny, knihkupectví a malé restaurace.",
+        "Kostel Sainte-Anne de la Butte-aux-Cailles uprostřed čtvrti a okolní uličky: jiná tvář Paříže.",
+        "Street art k objevování cestou ulicemi 13. obvodu."
+      ]
+    },
+    "foodTip": {
+      "fr": "Remplissez votre gourde à la fontaine de la place Paul-Verlaine, puis choisissez l'un des bistrots de la rue de la Butte-aux-Cailles : la carte y est souvent simple et le public local.",
+      "cs": "Naplňte si láhev u fontány na Place Paul-Verlaine a pak vyberte některé z bister v ulici rue de la Butte-aux-Cailles: nabídka bývá jednoduchá a hosté jsou místní."
+    },
+    "photo": {
+      "file": "File:Paris Rue Butte-aux-Cailles depuis R Bobillot 2014b.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_Rue_Butte-aux-Cailles_depuis_R_Bobillot_2014b.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris_Rue_Butte-aux-Cailles_depuis_R_Bobillot_2014b.jpg",
+      "author": "JLPC",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Piscine_de_la_Butte-aux-Cailles",
+      "https://fr.wikipedia.org/wiki/Puits_artésien_de_la_Butte-aux-Cailles",
+      "https://fr.wikipedia.org/wiki/Butte-aux-Cailles",
+      "https://www.parisjetaime.com"
+    ]
+  }
+]

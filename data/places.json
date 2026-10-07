@@ -1,0 +1,717 @@
+[
+  {
+    "id": "tour-eiffel",
+    "name": {
+      "fr": "Tour Eiffel",
+      "cs": "Eiffelova věž"
+    },
+    "area": {
+      "fr": "7e arrondissement",
+      "cs": "7. obvod"
+    },
+    "intro": {
+      "fr": "Construite comme monument provisoire, elle devait être démontée en 1909 ; elle est devenue le symbole le plus reconnaissable de la France. La tour Eiffel se dresse au bout du Champ-de-Mars et change d'allure selon l'heure : fer brun-rouge le matin, silhouette découpée au coucher du soleil. Ne vous contentez pas de la photo depuis le Trocadéro : marchez dessous et levez la tête vers les poutrelles rivetées, une dentelle de métal dessinée il y a plus de cent trente ans.",
+      "cs": "Vznikla jako dočasná stavba a měla se rozebrat už roku 1909, a přitom se z ní stal nejznámější symbol Francie. Eiffelova věž stojí na konci Champ-de-Mars u Seiny a podle denní doby vypadá pokaždé jinak: ráno hnědočervená, při západu slunce jako vystřižená silueta. Nespokojte se s fotkou z Trocadéra. Projděte se pod ní, zvedněte hlavu k nýtovaným nosníkům a prohlédněte si železnou krajku, kterou inženýři nakreslili před více než sto třiceti lety."
+    },
+    "history": {
+      "fr": "La tour a été conçue par les ingénieurs Maurice Koechlin et Émile Nouguier, de l'entreprise de Gustave Eiffel, puis embellie par l'architecte Stephen Sauvestre. Elle a été construite de 1887 à 1889 comme porte d'entrée de l'Exposition universelle, qui célébrait le centenaire de la Révolution, et son démontage était prévu pour 1909. Critiquée au départ par plusieurs artistes et intellectuels, elle a conservé pendant 41 ans le titre de plus haute construction du monde, jusqu'à l'achèvement du Chrysler Building en 1930.",
+      "cs": "Věž navrhli inženýři Maurice Koechlin a Émile Nouguier z firmy Gustava Eiffela a později ji výtvarně doladil architekt Stephen Sauvestre. Stavělo se v letech 1887 až 1889 jako brána světové výstavy, která připomínala sté výročí Velké francouzské revoluce, a rozebrat se měla v roce 1909. Zpočátku ji kritizovala řada umělců a intelektuálů, a přesto 41 let držela titul nejvyšší stavby světa, dokud v roce 1930 nedostavěli newyorský Chrysler Building."
+    },
+    "facts": {
+      "fr": [
+        "Hauteur : 330 m antennes comprises (la plate-forme publique la plus haute est à 276 m).",
+        "Construction : de 1887 à 1889, pour l'Exposition universelle de 1889.",
+        "Pendant 41 ans (jusqu'en 1930), elle a été la plus haute structure du monde."
+      ],
+      "cs": [
+        "Výška: 330 m včetně antén (nejvyšší veřejná vyhlídková plošina je ve 276 m).",
+        "Stavba: 1887–1889, pro světovou výstavu v roce 1889.",
+        "Celých 41 let (do roku 1930) byla nejvyšší stavbou světa."
+      ]
+    },
+    "tip": {
+      "fr": "Pour la photo, allez sur le parvis du Trocadéro ; pour la vue d'ensemble, installez-vous sur la pelouse du Champ-de-Mars. Réservez vos billets d'ascension uniquement sur le site officiel, pour éviter les revendeurs.",
+      "cs": "Na fotku se hodí terasa na Trocadéru, na celkový pohled trávník na Champ-de-Mars. Vstupenky na výstup kupujte jen na oficiálním webu, vyhnete se překupníkům."
+    },
+    "url": "https://www.toureiffel.paris/fr",
+    "lat": 48.8584,
+    "lon": 2.2945,
+    "photo": {
+      "file": "File:Paris - The Eiffel Tower in spring - 2307.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_The_Eiffel_Tower_in_spring_-_2307.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris_-_The_Eiffel_Tower_in_spring_-_2307.jpg",
+      "author": "Jorge Royan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sources": [
+      "https://www.toureiffel.paris/fr",
+      "https://fr.wikipedia.org/wiki/Tour_Eiffel",
+      "https://en.wikipedia.org/wiki/Eiffel_Tower"
+    ]
+  },
+  {
+    "id": "notre-dame",
+    "name": {
+      "fr": "Notre-Dame de Paris",
+      "cs": "Notre-Dame de Paris"
+    },
+    "area": {
+      "fr": "4e arrondissement (île de la Cité)",
+      "cs": "4. obvod (ostrov Cité)"
+    },
+    "intro": {
+      "fr": "Le 15 avril 2019, le monde entier a regardé brûler la toiture et la flèche de Notre-Dame. Cinq ans plus tard, la cathédrale a rouvert ses portes : la cérémonie de réouverture a eu lieu le 7 décembre 2024. Charpentiers, tailleurs de pierre et verriers ont travaillé sur un chantier gigantesque. Aujourd'hui, la pierre nettoyée est plus claire. Sur l'île de la Cité, entre les quais et le parvis, on peut de nouveau lire sur la façade un récit de pierre vieux de huit siècles.",
+      "cs": "Patnáctého dubna 2019 sledoval celý svět, jak hoří střecha a věžička Notre-Dame. O pět let později se katedrála znovu otevřela: slavnostní obnovení proběhlo 7. prosince 2024. Tesaři, kameníci a sklenáři pracovali na obří stavbě, která trvala pět let. Vyčištěný kámen je dnes světlejší. Na ostrově Cité mezi nábřežími a nádvořím si tak můžete na průčelí znovu číst osm set let starý kamenný příběh."
+    },
+    "history": {
+      "fr": "La construction a commencé en 1163 sous l'évêque Maurice de Sully et s'est achevée pour l'essentiel vers 1260. Au XIXe siècle, le succès du roman de Victor Hugo (1831) a relancé l'intérêt pour l'édifice : Viollet-le-Duc l'a restauré entre 1844 et 1864 et a dessiné la flèche que l'incendie de 2019 a détruite. La cathédrale a rouvert au culte en décembre 2024, après cinq ans de travaux.",
+      "cs": "Stavba začala roku 1163 za biskupa Maurice de Sully a zhruba kolem roku 1260 byla v podstatě hotová. V 19. století obrátil pozornost k chrámu román Victora Huga (1831): Viollet-le-Duc ho v letech 1844–1864 restauroval a nakreslil i věžičku, kterou požár v roce 2019 zničil. Katedrála byla po pěti letech prací znovu otevřena v prosinci 2024."
+    },
+    "facts": {
+      "fr": [
+        "Début de la construction : 1163 ; l'essentiel est terminé vers 1260.",
+        "Incendie : 15 avril 2019 ; réouverture : 7–8 décembre 2024.",
+        "Pour reconstruire la charpente et la flèche, environ un millier de chênes ont été sélectionnés."
+      ],
+      "cs": [
+        "Začátek stavby: 1163, hlavní část hotová kolem roku 1260.",
+        "Požár: 15. dubna 2019, znovuotevření: 7.–8. prosince 2024.",
+        "Na obnovu krovu a věžičky bylo vybráno asi tisíc dubů."
+      ]
+    },
+    "tip": {
+      "fr": "Les conditions de visite (réservation, horaires, accès à l'intérieur) ont évolué depuis la réouverture : consultez le site officiel avant de venir. Depuis le square Jean-XXIII, derrière la cathédrale, on admire les arcs-boutants.",
+      "cs": "Podmínky návštěvy (rezervace, otevírací doba, vstup dovnitř) se od znovuotevření měnily, proto si je před cestou ověřte na oficiálním webu. Opěrné oblouky jsou nejlépe vidět ze skvéru Jean-XXIII za katedrálou."
+    },
+    "url": "https://www.notredamedeparis.fr",
+    "lat": 48.853,
+    "lon": 2.3499,
+    "photo": {
+      "file": "File:Notre-Dame de Paris 2013-07-24.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Notre-Dame_de_Paris_2013-07-24.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg",
+      "author": "P e z i",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sources": [
+      "https://www.notredamedeparis.fr",
+      "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+      "https://fr.wikipedia.org/wiki/Cathédrale_Notre-Dame_de_Paris"
+    ]
+  },
+  {
+    "id": "sacre-coeur-montmartre",
+    "name": {
+      "fr": "Sacré-Cœur et Montmartre",
+      "cs": "Sacré-Cœur a Montmartre"
+    },
+    "area": {
+      "fr": "18e arrondissement",
+      "cs": "18. obvod"
+    },
+    "intro": {
+      "fr": "Sa silhouette blanche domine Paris depuis le sommet de la butte Montmartre, le point le plus haut de la ville. La basilique du Sacré-Cœur plaît ou agace, mais elle ne laisse personne indifférent avec ses coupoles inspirées de l'architecture romano-byzantine. Pour la rejoindre, prenez l'escalier de la rue Foyatier ou le funiculaire, puis oubliez la foule un instant : retournez-vous sur les marches et regardez la ville s'étendre jusqu'à l'horizon. Le vrai charme de Montmartre se trouve ensuite, dans les ruelles et les escaliers autour de la basilique.",
+      "cs": "Bílá silueta baziliky vévodí Paříži z vrcholu pahorku Montmartre, nejvyššího bodu města. Sacré-Cœur se líbí i dráždí, ale chladným nenechá nikoho, hlavně svými kupolemi v duchu románsko-byzantské architektury. Vystoupejte po schodech v ulici rue Foyatier nebo vyjeďte lanovkou, a pak na chvíli zapomeňte na davy: na schodech se otočte a podívejte se, jak se město rozlévá až k obzoru. Skutečné kouzlo Montmartru se ale skrývá v uličkách a schodištích kolem baziliky."
+    },
+    "history": {
+      "fr": "L'idée d'une église dédiée au Sacré-Cœur naît en 1870, après la défaite contre la Prusse. L'architecte Paul Abadie l'emporte sur soixante-seize autres projets ; le chantier commence en 1875 et se termine en 1914. La basilique est consacrée en 1919, et son emplacement, au-dessus du quartier où la Commune a éclaté en 1871, en fait depuis l'origine un monument débattu.",
+      "cs": "Myšlenka kostela zasvěceného Nejsvětějšímu Srdci vznikla v roce 1870 po porážce s Pruskem. Architekt Paul Abadie porazil dalších šestasedmdesát návrhů; stavba začala roku 1875 a skončila roku 1914. Bazilika byla vysvěcena až v roce 1919 a stojí nad čtvrtí, kde v roce 1871 vypukla Pařížská komuna, proto o ní od počátku vedou lidé spory."
+    },
+    "facts": {
+      "fr": [
+        "Construction : de 1875 à 1914 ; consécration en 1919.",
+        "Abadie a été choisi parmi 77 projets.",
+        "Adoration eucharistique perpétuelle depuis 1885 ; l'escalier de la rue Foyatier compte 222 marches."
+      ],
+      "cs": [
+        "Stavba: 1875–1914, vysvěcení v roce 1919.",
+        "Abadie byl vybrán ze 77 návrhů.",
+        "Nepřetržitá eucharistická adorace probíhá od roku 1885; schodiště v rue Foyatier má 222 schodů."
+      ]
+    },
+    "tip": {
+      "fr": "Venez tôt le matin ou en fin de journée pour la lumière et moins de monde. Descendez ensuite par les petites rues vers la place des Abbesses plutôt que par l'axe touristique principal.",
+      "cs": "Přijďte brzy ráno nebo k večeru, kdy je lepší světlo a méně lidí. Dolů pak sejděte uličkami k náměstí Place des Abbesses, ne hlavní turistickou trasou."
+    },
+    "url": "https://www.sacre-coeur-montmartre.com",
+    "lat": 48.8867,
+    "lon": 2.3431,
+    "photo": {
+      "file": "File:Paris, Sacré-Cœur de Montmartre -- 2014 -- 1193.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%2C_Sacr%C3%A9-C%C5%93ur_de_Montmartre_--_2014_--_1193.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris,_Sacr%C3%A9-C%C5%93ur_de_Montmartre_--_2014_--_1193.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sources": [
+      "https://www.sacre-coeur-montmartre.com",
+      "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris",
+      "https://fr.wikipedia.org/wiki/Basilique_du_Sacré-Cœur_de_Montmartre",
+      "https://fr.wikipedia.org/wiki/Montmartre"
+    ]
+  },
+  {
+    "id": "arc-de-triomphe",
+    "name": {
+      "fr": "Arc de Triomphe",
+      "cs": "Vítězný oblouk (Arc de Triomphe)"
+    },
+    "area": {
+      "fr": "8e, 16e et 17e arrondissements",
+      "cs": "8., 16. a 17. obvod"
+    },
+    "intro": {
+      "fr": "Douze avenues partent en étoile de la place Charles-de-Gaulle, et au milieu s'élève l'Arc de Triomphe. Napoléon l'a voulu pour honorer ses armées ; aujourd'hui il garde surtout la mémoire de tous les soldats français. Sous la voûte brûle une flamme au-dessus de la tombe du Soldat inconnu de la Première Guerre mondiale. Sur les piliers, les sculptures racontent des batailles, et le groupe de Rude, « La Marseillaise », est le plus célèbre. Montez sur la terrasse : de là, l'ensemble des avenues devient enfin lisible.",
+      "cs": "Z náměstí Place Charles-de-Gaulle vybíhá hvězdicovitě dvanáct avenue a uprostřed stojí Vítězný oblouk. Napoleon ho nechal postavit na počest svých armád, dnes ale připomíná hlavně všechny francouzské vojáky. Pod klenbou hoří plamen nad hrobem Neznámého vojína z první světové války. Na pilířích vyprávějí sochy o bitvách a nejslavnější je skupina Françoise Rudea nazvaná „Marseillaisa“. Vystoupejte na terasu: teprve odtud se všechny ty avenue dají přehlédnout."
+    },
+    "history": {
+      "fr": "Napoléon Ier décide la construction de l'arc en 1806, après la victoire d'Austerlitz, et Jean-François Chalgrin en dessine les plans. Les travaux, interrompus puis repris, s'achèvent en 1836 sous Louis-Philippe. L'arc s'inscrit dans l'Axe historique, qui relie le Louvre à la Grande Arche de la Défense.",
+      "cs": "Napoleon I. rozhodl o stavbě v roce 1806 po vítězství u Slavkova a plány nakreslil Jean-François Chalgrin. Práce se přerušily, pak pokračovaly a dokončeny byly roku 1836 za Ludvíka Filipa. Oblouk je součástí takzvané Historické osy, která spojuje Louvre s Grande Arche v La Défense."
+    },
+    "facts": {
+      "fr": [
+        "Construction : de 1806 à 1836.",
+        "Dimensions : environ 49,5 m de haut et 44,8 m de large.",
+        "Douze avenues convergent sur la place de l'Étoile (aujourd'hui place Charles-de-Gaulle)."
+      ],
+      "cs": [
+        "Stavba: 1806–1836.",
+        "Rozměry: zhruba 49,5 m na výšku a 44,8 m na šířku.",
+        "Na náměstí Place de l'Étoile (dnes Place Charles-de-Gaulle) se sbíhá dvanáct avenue."
+      ]
+    },
+    "tip": {
+      "fr": "N'essayez jamais de traverser le rond-point : des passages souterrains mènent au monument. Les informations pratiques sont sur le site officiel.",
+      "cs": "Nikdy se nepokoušejte přejít kruhový objezd: k památce vedou podchody. Praktické informace najdete na oficiálním webu."
+    },
+    "url": "https://www.paris-arc-de-triomphe.fr",
+    "lat": 48.8738,
+    "lon": 2.295,
+    "photo": {
+      "file": "File:Arc Triomphe.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arc_Triomphe.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Arc_Triomphe.jpg",
+      "author": "Benh LIEU SONG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sources": [
+      "https://www.paris-arc-de-triomphe.fr",
+      "https://en.wikipedia.org/wiki/Arc_de_Triomphe",
+      "https://fr.wikipedia.org/wiki/Arc_de_triomphe_de_l'Étoile"
+    ]
+  },
+  {
+    "id": "sainte-chapelle",
+    "name": {
+      "fr": "Sainte-Chapelle",
+      "cs": "Sainte-Chapelle"
+    },
+    "area": {
+      "fr": "1er arrondissement (île de la Cité)",
+      "cs": "1. obvod (ostrov Cité)"
+    },
+    "intro": {
+      "fr": "On entre par une chapelle basse, sombre et peinte, puis on monte un escalier en colimaçon, et soudain la lumière explose. À l'étage supérieur, quinze immenses verrières racontent l'histoire de la Bible en vitraux du XIIIe siècle, et les murs de pierre semblent presque disparaître. La Sainte-Chapelle, cachée dans la cour du Palais de justice, est l'un des chefs-d'œuvre du gothique rayonnant. Venez par temps clair, de préférence le matin : les rouges et les bleus donnent alors tout leur éclat.",
+      "cs": "Vstupujete do nízké, tmavé a vymalované dolní kaple, pak vystoupáte točitým schodištěm a najednou světlo vybuchne. V horním patře vyprávějí patnáct obrovských oken dějiny Bible ve vitrážích ze 13. století a kamenné zdi jako by mizely. Sainte-Chapelle, ukrytá na nádvoří Justičního paláce, patří k mistrovským dílům zářivé gotiky. Přijďte za jasného počasí, nejlépe dopoledne: červená a modrá pak září nejvíc a kamenné zdi jako by se rozpustily ve světle."
+    },
+    "history": {
+      "fr": "Louis IX (saint Louis) fait construire la chapelle pour abriter les reliques de la Passion, dont la couronne d'épines, achetées à l'empereur latin de Constantinople. Consacrée le 26 avril 1248, elle a coûté environ 40 000 livres avec ses vitraux, alors que les reliques en avaient coûté 135 000 ; la couronne d'épines est aujourd'hui conservée à Notre-Dame.",
+      "cs": "Ludvík IX. (svatý Ludvík) nechal kapli postavit pro relikvie Kristova umučení, mezi nimi trnovou korunu, které koupil od latinského císaře v Konstantinopoli. Vysvěcena byla 26. dubna 1248 a s vitrážemi přišla asi na 40 000 liber, zatímco relikvie stály 135 000; trnová koruna je dnes uložena v Notre-Dame."
+    },
+    "facts": {
+      "fr": [
+        "Consécration : 26 avril 1248.",
+        "Dimensions : environ 36 m de long, 17 m de large et 42,5 m de haut.",
+        "Les reliques ont coûté 135 000 livres, la chapelle seulement environ 40 000."
+      ],
+      "cs": [
+        "Vysvěcení: 26. dubna 1248.",
+        "Rozměry: zhruba 36 m na délku, 17 m na šířku a 42,5 m na výšku.",
+        "Relikvie stály 135 000 liber, kaple jen asi 40 000."
+      ]
+    },
+    "tip": {
+      "fr": "Le contrôle de sécurité crée souvent une file : réservez un créneau sur le site officiel. La chapelle est gérée avec la Conciergerie voisine, qui se visite aussi ; renseignez-vous en ligne.",
+      "cs": "U bezpečnostní kontroly bývá fronta, proto si rezervujte čas na oficiálním webu. Kaple se spravuje společně se sousední Conciergerie, kterou lze také navštívit; podrobnosti najdete online."
+    },
+    "url": "https://www.sainte-chapelle.fr",
+    "lat": 48.8553,
+    "lon": 2.345,
+    "photo": {
+      "file": "File:Sainte Chapelle Interior Stained Glass.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sainte_Chapelle_Interior_Stained_Glass.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Sainte_Chapelle_Interior_Stained_Glass.jpg",
+      "author": "Oldmanisold",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sources": [
+      "https://www.sainte-chapelle.fr",
+      "https://en.wikipedia.org/wiki/Sainte-Chapelle",
+      "https://fr.wikipedia.org/wiki/Sainte-Chapelle"
+    ]
+  },
+  {
+    "id": "pantheon",
+    "name": {
+      "fr": "Panthéon",
+      "cs": "Panthéon"
+    },
+    "area": {
+      "fr": "5e arrondissement (Quartier latin)",
+      "cs": "5. obvod (Latinská čtvrť)"
+    },
+    "intro": {
+      "fr": "Sur la montagne Sainte-Geneviève, un temple néoclassique veille sur le Quartier latin. Le Panthéon devait être une église ; il est devenu la nécropole où la République honore ses grands hommes et ses grandes femmes. Sous la coupole, le pendule de Foucault montre que la Terre tourne. Dans la crypte reposent Voltaire, Rousseau, Victor Hugo ou Marie Curie. Au-dessus de la porte, on lit une dédicace aux grands hommes de la part de la patrie reconnaissante. Montez à la colonnade : la vue sur Paris est superbe.",
+      "cs": "Na pahorku Sainte-Geneviève bdí nad Latinskou čtvrtí novoklasicistní chrám. Panthéon měl být původně kostelem, nakonec z něj ale vznikla nekropole, kde Republika uctívá své velké muže a ženy. Pod kupolí ukazuje Foucaultovo kyvadlo, že se Země otáčí. V kryptě odpočívají Voltaire, Rousseau, Victor Hugo nebo Marie Curie-Skłodowská. Nad vchodem se čte věnování velkým mužům od vděčné vlasti. Vystupte ke kolonádě pod kupolí: výhled na Paříž je skvělý."
+    },
+    "history": {
+      "fr": "Louis XV promet en 1744 de reconstruire l'église de l'abbaye Sainte-Geneviève s'il guérit ; les fondations sont posées en 1758 d'après les plans de Soufflot, et l'édifice est achevé en 1790. En 1791, l'Assemblée constituante en fait un mausolée pour les grands hommes. Après plusieurs retours au culte, la IIIe République lui rend définitivement cette fonction en 1881, et Victor Hugo y entre en 1885.",
+      "cs": "Ludvík XV. slíbil v roce 1744, že když se uzdraví, přestaví kostel opatství Sainte-Geneviève. Základy se položily roku 1758 podle plánů Jacquese-Germaina Soufflota a budova byla dokončena v roce 1790. V roce 1791 z ní Ústavodárné shromáždění udělalo mauzoleum velkých mužů. Po několika návratech k bohoslužbám jí Třetí republika funkci mauzolea definitivně vrátila roku 1881 a v roce 1885 sem byl uložen Victor Hugo."
+    },
+    "facts": {
+      "fr": [
+        "Construction : 1758–1790, architecte Jacques-Germain Soufflot ; hauteur : environ 83 m.",
+        "Expérience du pendule de Foucault au Panthéon : 1851.",
+        "Plus de 80 personnalités y sont inhumées ; Victor Hugo y est entré en 1885."
+      ],
+      "cs": [
+        "Stavba: 1758–1790, architekt Jacques-Germain Soufflot; výška přibližně 83 m.",
+        "Pokus s Foucaultovým kyvadlem v Panthéonu: 1851.",
+        "Je zde pohřbeno přes 80 osobností; Victor Hugo sem byl uložen v roce 1885."
+      ]
+    },
+    "tip": {
+      "fr": "Prévoyez du temps pour la crypte et pour la montée à la colonnade (conditions d'accès sur le site officiel). Derrière le Panthéon, l'église Saint-Étienne-du-Mont et la bibliothèque Sainte-Geneviève méritent le détour.",
+      "cs": "Počítejte s časem na kryptu a výstup ke kolonádě (podmínky přístupu najdete na oficiálním webu). Za Panthéonem stojí za zastávku také kostel Saint-Étienne-du-Mont a knihovna Sainte-Geneviève."
+    },
+    "url": "https://www.paris-pantheon.fr",
+    "lat": 48.8462,
+    "lon": 2.3461,
+    "photo": {
+      "file": "File:Paris - Panthéon (27378584206).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_Panth%C3%A9on_(27378584206).jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Panth%C3%A9on_(27378584206).jpg",
+      "author": "Fred Romero from Paris, France",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "sources": [
+      "https://www.paris-pantheon.fr",
+      "https://en.wikipedia.org/wiki/Panth%C3%A9on,_Paris",
+      "https://fr.wikipedia.org/wiki/Panthéon_de_Paris"
+    ]
+  },
+  {
+    "id": "jardin-du-luxembourg",
+    "name": {
+      "fr": "Jardin du Luxembourg",
+      "cs": "Lucemburské zahrady"
+    },
+    "area": {
+      "fr": "6e arrondissement",
+      "cs": "6. obvod"
+    },
+    "intro": {
+      "fr": "Des enfants font naviguer des petits voiliers sur le grand bassin, des étudiants révisent sur les chaises métalliques, des joueurs d'échecs et de pétanque occupent les allées : le Luxembourg est le salon vert de la rive gauche. Marie de Médicis l'a fait créer en 1612 autour de son palais, aujourd'hui siège du Sénat. Les parterres à la française alternent avec des coins plus sauvages, et partout des statues rappellent des reines de France, des écrivains, des artistes. C'est l'endroit idéal pour une pause après la Sorbonne ou le Panthéon.",
+      "cs": "Děti pouštějí na velké nádrži malé plachetnice, studenti se učí na kovových židlích, v alejích hrají lidé šachy a pétanque: Lucemburské zahrady jsou zelený salon levého břehu. Zahradu nechala v roce 1612 založit Marie Medicejská kolem svého paláce, v němž dnes sídlí Senát. Francouzské záhony se střídají s divočejšími zákoutími a všude stojí sochy francouzských královen, spisovatelů a umělců. Je to ideální místo na přestávku po Sorbonně nebo Panthéonu."
+    },
+    "history": {
+      "fr": "En 1611, Marie de Médicis, veuve d'Henri IV, achète l'hôtel du Luxembourg et fait construire un palais inspiré du palais Pitti de Florence, sa ville natale. Le jardin est créé à partir de 1612 et agrandi en 1630. Il est aujourd'hui propriété du Sénat et couvre 23 hectares, avec une restauration importante sous le Premier Empire (Chalgrin) puis des aménagements sous le Second Empire.",
+      "cs": "V roce 1611 koupila Marie Medicejská, vdova po Jindřichu IV., hôtel du Luxembourg a nechala postavit palác inspirovaný florentským palácem Pitti, v rodné Florencii. Zahrada vznikla od roku 1612 a v roce 1630 se rozšířila. Dnes patří Senátu a má 23 hektarů. Za Prvního císařství prošla velkou obnovou (Chalgrin) a za Druhého císařství dostala další úpravy."
+    },
+    "facts": {
+      "fr": [
+        "Création : 1612, à la demande de Marie de Médicis.",
+        "Superficie : 23 hectares.",
+        "Le palais s'inspire du palais Pitti de Florence ; il abrite aujourd'hui le Sénat."
+      ],
+      "cs": [
+        "Založení: 1612 na přání Marie Medicejské.",
+        "Rozloha: 23 hektarů.",
+        "Palác se inspiroval florentským palácem Pitti; dnes v něm sídlí Senát."
+      ]
+    },
+    "tip": {
+      "fr": "Prenez une chaise près du grand bassin, ou longez la Fontaine Médicis, au calme sous les platanes. Les horaires d'ouverture changent selon la saison : voir le site du Sénat.",
+      "cs": "Posaďte se na židli u velké nádrže nebo se projděte kolem Medicejské fontány, kde je klid pod platany. Otevírací doba se mění podle sezony, najdete ji na webu Senátu."
+    },
+    "url": "https://www.senat.fr/visite/jardin/",
+    "lat": 48.8469,
+    "lon": 2.3369,
+    "photo": {
+      "file": "File:Paris 75006 Jardin du Luxembourg Bassin 20160502.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_75006_Jardin_du_Luxembourg_Bassin_20160502.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris_75006_Jardin_du_Luxembourg_Bassin_20160502.jpg",
+      "author": "Wulf Alex",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "sources": [
+      "https://www.senat.fr/visite/jardin/",
+      "https://en.wikipedia.org/wiki/Luxembourg_Garden",
+      "https://fr.wikipedia.org/wiki/Jardin_du_Luxembourg"
+    ]
+  },
+  {
+    "id": "pont-neuf",
+    "name": {
+      "fr": "Pont Neuf",
+      "cs": "Pont Neuf"
+    },
+    "area": {
+      "fr": "1er et 6e arrondissements",
+      "cs": "1. a 6. obvod"
+    },
+    "intro": {
+      "fr": "Malgré son nom, le « pont neuf » est le plus vieux pont de Paris encore debout. Il traverse la Seine à la pointe ouest de l'île de la Cité en deux bras, l'un de cinq arches, l'autre de sept. À l'époque, la grande nouveauté était qu'il n'avait pas de maisons sur les côtés : on pouvait donc enfin voir le fleuve en traversant. Au milieu, la statue d'Henri IV regarde la place Dauphine. Descendez ensuite au square du Vert-Galant, au bout de l'île, pour regarder passer les bateaux.",
+      "cs": "Přes své jméno je „nový most“ nejstarším dochovaným mostem v Paříži. Překlenuje Seinu u západního cípu ostrova Cité ve dvou ramenech, jedno má pět oblouků, druhé sedm. Tehdy bylo velkou novinkou, že po stranách nestály domy, takže se při přecházení konečně dalo vidět na řeku. Uprostřed hledí socha Jindřicha IV. k náměstí Place Dauphine. Sejděte pak do skvéru Vert-Galant na konci ostrova a dívejte se na proplouvající lodě."
+    },
+    "history": {
+      "fr": "Henri III pose la première pierre le 31 mai 1578, mais les guerres de Religion interrompent le chantier à partir de 1588. Les travaux reprennent en 1599 sous Henri IV ; le pont est ouvert à la circulation en 1604, achevé en 1606 et inauguré en 1607. Il est classé monument historique depuis 1889, et sa dernière grande restauration s'est terminée en 2007, pour ses 400 ans.",
+      "cs": "Jindřich III. položil základní kámen 31. května 1578, ale náboženské války stavbu od roku 1588 přerušily. Za Jindřicha IV. se práce obnovily roku 1599; most se pro dopravu otevřel v roce 1604, dokončen byl v roce 1606 a slavnostně ho otevřeli roku 1607. Od roku 1889 je kulturní památkou a poslední velká rekonstrukce skončila v roce 2007, při jeho 400. výročí."
+    },
+    "facts": {
+      "fr": [
+        "Première pierre : 31 mai 1578 ; inauguration : 1607.",
+        "Deux bras : cinq arches côté rive gauche, sept côté rive droite.",
+        "Monument historique depuis 1889 ; restauration de 1994 à 2007."
+      ],
+      "cs": [
+        "Základní kámen: 31. května 1578; slavnostní otevření: 1607.",
+        "Dvě ramena: pět oblouků od levého břehu, sedm od pravého.",
+        "Památka od roku 1889; rekonstrukce v letech 1994–2007."
+      ]
+    },
+    "tip": {
+      "fr": "Faites le tour : d'abord les « mascarons » sculptés sous la corniche, puis la descente vers le square du Vert-Galant. En fin d'après-midi, la lumière sur la pierre est très belle.",
+      "cs": "Obejděte most dokola: nejdřív si prohlédněte vytesané masky (mascarons) pod římsou, potom sejděte do skvéru Vert-Galant. K večeru je světlo na kameni krásné."
+    },
+    "url": "https://parisjetaime.com",
+    "lat": 48.8567,
+    "lon": 2.3408,
+    "photo": {
+      "file": "File:Pont Neuf - Paris - France.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pont_Neuf_-_Paris_-_France.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Pont_Neuf_-_Paris_-_France.jpg",
+      "author": "Sumit Surai",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pont_Neuf",
+      "https://fr.wikipedia.org/wiki/Pont_Neuf",
+      "https://parisjetaime.com"
+    ]
+  },
+  {
+    "id": "pere-lachaise",
+    "name": {
+      "fr": "Cimetière du Père-Lachaise",
+      "cs": "Hřbitov Père-Lachaise"
+    },
+    "area": {
+      "fr": "20e arrondissement",
+      "cs": "20. obvod"
+    },
+    "intro": {
+      "fr": "Un cimetière peut être un parc, un musée en plein air et un manuel d'histoire. Sur la colline de Ménilmontant, le Père-Lachaise étire ses allées pavées et ses tombes ornées, entre arbres et chapelles. On y vient chercher Oscar Wilde, Édith Piaf, Marcel Proust, Frédéric Chopin ou Jim Morrison, mais aussi pour le Mur des Fédérés, lieu de mémoire de la Commune. Prenez un plan, choisissez trois ou quatre tombes, puis laissez-vous perdre : les plus belles découvertes sont souvent des sculptures qu'on n'attendait pas.",
+      "cs": "Hřbitov může být park, muzeum pod širým nebem i učebnice dějepisu. Na kopci v Ménilmontantu rozkládá Père-Lachaise své dlážděné cesty a zdobené hrobky mezi stromy a kaplemi. Přicházejí sem lidé za Oscarem Wildem, Édith Piaf, Marcelem Proustem, Fryderykem Chopinem nebo Jimem Morrisonem, ale také k Zdi komunardů, místu paměti Pařížské komuny. Vezměte si plánek, vyberte tři čtyři hrobky a pak se nechte zabloudit: nejhezčí objevy bývají sochy, které jste nečekali."
+    },
+    "history": {
+      "fr": "Le cimetière ouvre en 1804 sur l'ancien domaine des jésuites, dont le confesseur de Louis XIV, le père François de la Chaise, lui a laissé son nom. L'architecte Alexandre-Théodore Brongniart le conçoit comme un jardin à l'anglaise ; c'est le premier cimetière municipal de Paris. En mai 1871, 147 Communards y sont fusillés contre le mur qui porte aujourd'hui le nom de Mur des Fédérés.",
+      "cs": "Hřbitov se otevřel roku 1804 na místě bývalého jezuitského pozemku, jehož jméno nese po zpovědníkovi Ludvíka XIV., otci Françoisi de la Chaise. Architekt Alexandre-Théodore Brongniart ho navrhl jako anglický park; je to první městský hřbitov v Paříži. V květnu 1871 tu před zdí zastřelili 147 komunardů a zeď dnes nese jméno Mur des Fédérés."
+    },
+    "facts": {
+      "fr": [
+        "Ouverture : 1804 ; superficie : 44 hectares, c'est le plus grand cimetière de Paris intra-muros.",
+        "Environ 70 000 sépultures.",
+        "Mur des Fédérés : 147 Communards fusillés en mai 1871."
+      ],
+      "cs": [
+        "Otevření: 1804; rozloha 44 hektarů, největší hřbitov v centru Paříže.",
+        "Přibližně 70 000 hrobů.",
+        "Zeď komunardů: v květnu 1871 tu zastřelili 147 komunardů."
+      ]
+    },
+    "tip": {
+      "fr": "Entrez par la porte du boulevard de Ménilmontant et descendez la colline : c'est plus facile pour les jambes. Respectez le lieu, restez discret et ne laissez rien sur les tombes ; le plan officiel est consultable en ligne.",
+      "cs": "Vstupte bránou od bulváru Ménilmontant a procházejte svahem dolů, je to pohodlnější pro nohy. Chovejte se uctivě, nebuďte hluční a na hrobech nic nenechávejte; oficiální plán najdete online."
+    },
+    "url": "https://parisjetaime.com",
+    "lat": 48.8611,
+    "lon": 2.3942,
+    "photo": {
+      "file": "File:Paris, Père Lachaise -- 2014 -- 1377.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%2C_P%C3%A8re_Lachaise_--_2014_--_1377.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris,_P%C3%A8re_Lachaise_--_2014_--_1377.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/P%C3%A8re_Lachaise_Cemetery",
+      "https://fr.wikipedia.org/wiki/Cimetière_du_Père-Lachaise",
+      "https://parisjetaime.com"
+    ]
+  },
+  {
+    "id": "place-des-vosges",
+    "name": {
+      "fr": "Place des Vosges",
+      "cs": "Place des Vosges"
+    },
+    "area": {
+      "fr": "3e et 4e arrondissements (Marais)",
+      "cs": "3. a 4. obvod (Marais)"
+    },
+    "intro": {
+      "fr": "C'est la plus ancienne place planifiée de Paris, et l'une des plus harmonieuses. Les façades de brique rouge, les chaînages de pierre blanche et les toits d'ardoise bleue se répètent tout autour d'un jardin carré, au-dessus d'arcades où l'on flâne à l'abri de la pluie. Des étudiants lisent sous les tilleuls, des enfants courent sur les pelouses. Cherchez le numéro 6 : Victor Hugo y a habité, et la maison est devenue un musée.",
+      "cs": "Je to nejstarší plánované náměstí v Paříži a jedno z nejharmoničtějších. Fasády z červených cihel, bílé kamenné rohy a modré břidlicové střechy se opakují kolem čtvercové zahrady nad arkádami, kde se dá procházet i v dešti. Studenti čtou pod lipami a děti běhají po trávnících. Najděte číslo 6: bydlel tu Victor Hugo a jeho byt je dnes muzeum. Přijďte si sem sednout na lavičku a jen se dívat, jak se světlo mění na cihlových fasádách."
+    },
+    "history": {
+      "fr": "Henri IV fait construire la Place Royale de 1605 à 1612 sur l'emplacement de l'hôtel des Tournelles. La place mesure 140 m de côté, et toutes les façades suivent le même dessin, ce qui était une nouveauté. Inaugurée en 1612 par un grand carrousel pour les fiançailles de Louis XIII, elle devient la place des Vosges en 1800, en l'honneur du premier département à avoir payé ses impôts.",
+      "cs": "Jindřich IV. nechal Place Royale stavět v letech 1605–1612 na místě paláce Tournelles. Náměstí má strany dlouhé 140 m a všechny fasády sledují stejný plán, což byla tehdy novinka. Slavnostně se otevřelo roku 1612 velkým turnajem na oslavu zásnub Ludvíka XIII. a jméno Place des Vosges dostalo v roce 1800 na počest departementu, který jako první zaplatil daně."
+    },
+    "facts": {
+      "fr": [
+        "Construction : 1605–1612, sous Henri IV (la Place Royale).",
+        "Un carré de 140 m × 140 m.",
+        "Inauguration en 1612 par un carrousel pour les fiançailles de Louis XIII et d'Anne d'Autriche."
+      ],
+      "cs": [
+        "Stavba: 1605–1612 za Jindřicha IV. (Place Royale).",
+        "Čtverec 140 × 140 m.",
+        "Slavnostní otevření roku 1612 turnajem na oslavu zásnub Ludvíka XIII. s Annou Rakouskou."
+      ]
+    },
+    "tip": {
+      "fr": "Sous les arcades, il y a des galeries d'art et des salons de thé ; la Maison de Victor Hugo, au numéro 6, se visite. Les informations officielles sont sur le site des musées de la Ville de Paris.",
+      "cs": "Pod arkádami najdete galerie a čajovny; Dům Victora Huga na čísle 6 se dá navštívit. Oficiální informace jsou na webu pařížských městských muzeí."
+    },
+    "url": "https://www.maisonsvictorhugo.paris.fr",
+    "lat": 48.8556,
+    "lon": 2.3655,
+    "photo": {
+      "file": "File:Paris - Place des Vosges (31187973930).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_Place_des_Vosges_(31187973930).jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Place_des_Vosges_(31187973930).jpg",
+      "author": "Fred Romero from Paris, France",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Place_des_Vosges",
+      "https://fr.wikipedia.org/wiki/Place_des_Vosges",
+      "https://www.maisonsvictorhugo.paris.fr"
+    ]
+  },
+  {
+    "id": "opera-garnier",
+    "name": {
+      "fr": "Opéra Garnier",
+      "cs": "Opéra Garnier (Palais Garnier)"
+    },
+    "area": {
+      "fr": "9e arrondissement",
+      "cs": "9. obvod"
+    },
+    "intro": {
+      "fr": "Avant d'entendre la moindre note, il faut lever les yeux : dorures, marbres de toutes les couleurs, grand escalier, foyer éclairé de lustres. Le palais Garnier a été pensé comme un théâtre où l'on vient voir et être vu, et le public compte autant que la scène. Dans la salle à l'italienne, un lustre de sept tonnes pend sous un plafond peint ; Gaston Leroux en a fait le décor du « Fantôme de l'Opéra ». Aujourd'hui, le lieu accueille surtout le ballet de l'Opéra de Paris.",
+      "cs": "Než uslyšíte jedinou notu, musíte zvednout oči: pozlátko, mramor všech barev, velké schodiště a foyer osvětlené lustry. Palais Garnier byl navržen jako divadlo, kam se chodí vidět a být viděn, takže diváci jsou stejně důležití jako jeviště. V sále v italském stylu visí pod malovaným stropem sedmitunový lustr; Gaston Leroux z něj udělal kulisu Fantoma opery. Dnes tu hraje hlavně balet Pařížské opery."
+    },
+    "history": {
+      "fr": "Napoléon III décide de construire un nouvel opéra ; en 1861, le projet de Charles Garnier, alors peu connu, est choisi à l'issue d'un concours. Le chantier dure de 1861 à 1875, et l'édifice est classé monument historique en 1923 ; depuis l'ouverture de l'Opéra Bastille en 1989, il sert surtout à la danse.",
+      "cs": "Napoleon III. rozhodl o stavbě nové opery; v roce 1861 vybrali v soutěži návrh tehdy málo známého Charlese Garniera. Stavělo se v letech 1861–1875 a budova je památkově chráněná od roku 1923; od otevření Opéra Bastille v roce 1989 slouží hlavně tanci."
+    },
+    "facts": {
+      "fr": [
+        "Construction : 1861–1875, architecte Charles Garnier.",
+        "La salle compte 1 979 places ; le lustre pèse environ sept tonnes.",
+        "En 1896, la chute d'un contrepoids du lustre a inspiré une scène du « Fantôme de l'Opéra » (1910)."
+      ],
+      "cs": [
+        "Stavba: 1861–1875, architekt Charles Garnier.",
+        "Sál má 1 979 míst; lustr váží zhruba sedm tun.",
+        "Pád protizávaží lustru v roce 1896 inspiroval scénu z románu Fantom opery (1910)."
+      ]
+    },
+    "tip": {
+      "fr": "On peut visiter le bâtiment en dehors des représentations ; le site de l'Opéra de Paris indique les conditions et le calendrier. Regardez aussi la façade depuis la place de l'Opéra, surtout le soir.",
+      "cs": "Budovu lze navštívit i mimo představení; podmínky a kalendář najdete na webu Pařížské opery. Podívejte se na průčelí také z náměstí Place de l'Opéra, hlavně večer."
+    },
+    "url": "https://www.operadeparis.fr",
+    "lat": 48.872,
+    "lon": 2.3317,
+    "photo": {
+      "file": "File:Principal facade of the Opéra Garnier 20150803.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Principal_facade_of_the_Op%C3%A9ra_Garnier_20150803.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Principal_facade_of_the_Op%C3%A9ra_Garnier_20150803.jpg",
+      "author": "Suicasmo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sources": [
+      "https://www.operadeparis.fr",
+      "https://en.wikipedia.org/wiki/Palais_Garnier",
+      "https://fr.wikipedia.org/wiki/Opéra_Garnier"
+    ]
+  },
+  {
+    "id": "palais-royal",
+    "name": {
+      "fr": "Palais-Royal",
+      "cs": "Palais-Royal"
+    },
+    "area": {
+      "fr": "1er arrondissement",
+      "cs": "1. obvod"
+    },
+    "intro": {
+      "fr": "À deux pas du Louvre, une cour moderne et un jardin entouré de galeries offrent un calme étonnant. Ici, Richelieu a fait bâtir son palais, des ducs d'Orléans ont ouvert des boutiques sous les arcades et, à la veille de la Révolution, les cafés des galeries étaient un lieu de débat politique. Aujourd'hui, les colonnes rayées noir et blanc de Daniel Buren, dans la cour d'honneur, font encore discuter. Entrez dans le jardin, asseyez-vous et regardez les galeries.",
+      "cs": "Kousek od Louvru nabízí moderní nádvoří a zahrada obklopená arkádami překvapivý klid. Richelieu tu postavil svůj palác, orleánští vévodé otevřeli obchody pod arkádami a před revolucí byly kavárny v galeriích místem politických debat. Dnes černobíle pruhované sloupky Daniela Burena na hlavním nádvoří stále vyvolávají diskusi. Vejděte do zahrady, posaďte se mezi stromy a prohlédněte si galerie s obchody, kde se dnes prodává vše od starých knih po šperky."
+    },
+    "history": {
+      "fr": "Le cardinal de Richelieu fait construire le Palais-Cardinal de 1633 à 1639 par Jacques Lemercier ; à sa mort en 1642, il devient Palais-Royal. Au XVIIIe siècle, les ducs d'Orléans le transforment, et le duc Louis-Philippe II d'Orléans y fait construire entre 1781 et 1784 les galeries marchandes autour du jardin. Le Palais-Royal abrite aujourd'hui le ministère de la Culture, le Conseil d'État et le Conseil constitutionnel.",
+      "cs": "Kardinál Richelieu nechal Palais-Cardinal postavit v letech 1633–1639 Jacquesem Lemercierem; po jeho smrti v roce 1642 se z něj stal Palais-Royal. V 18. století ho přestavěli orleánští vévodové a Ludvík Filip Orleánský nechal v letech 1781–1784 kolem zahrady postavit obchodní galerie. Dnes tu sídlí ministerstvo kultury, Státní rada a Ústavní rada."
+    },
+    "facts": {
+      "fr": [
+        "Palais-Cardinal construit de 1633 à 1639, rebaptisé Palais-Royal en 1642.",
+        "Galeries marchandes de Victor Louis : 1781–1784 ; le restaurant Le Grand Véfour existe depuis 1784.",
+        "Colonnes de Daniel Buren dans la cour : 1985–1986."
+      ],
+      "cs": [
+        "Palais-Cardinal postaven v letech 1633–1639, od roku 1642 se jmenuje Palais-Royal.",
+        "Obchodní galerie architekta Victora Louise: 1781–1784; restaurace Le Grand Véfour existuje od roku 1784.",
+        "Burenovy sloupky na nádvoří: 1985–1986."
+      ]
+    },
+    "tip": {
+      "fr": "Les jardins sont en libre accès ; le palais lui-même n'est pas ouvert à la visite (ministères). Les informations officielles se trouvent sur le site du ministère de la Culture.",
+      "cs": "Zahrady jsou volně přístupné; samotný palác (sídlo ministerstev) ale pro veřejnost otevřený není. Oficiální informace najdete na webu ministerstva kultury."
+    },
+    "url": "https://www.culture.gouv.fr",
+    "lat": 48.8634,
+    "lon": 2.3369,
+    "photo": {
+      "file": "File:Palais-Royal, Paris, from garden.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palais-Royal%2C_Paris%2C_from_garden.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Palais-Royal,_Paris,_from_garden.jpg",
+      "author": "Gerda Arendt",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Palais-Royal",
+      "https://fr.wikipedia.org/wiki/Palais-Royal",
+      "https://www.culture.gouv.fr"
+    ]
+  },
+  {
+    "id": "canal-saint-martin",
+    "name": {
+      "fr": "Canal Saint-Martin",
+      "cs": "Canal Saint-Martin"
+    },
+    "area": {
+      "fr": "10e et 11e arrondissements",
+      "cs": "10. a 11. obvod"
+    },
+    "intro": {
+      "fr": "Des passerelles de fer en dos d'âne, des platanes, des écluses et, l'été, des Parisiens assis au bord de l'eau avec un livre ou une bière : le canal Saint-Martin est l'un des paysages les plus agréables de la ville. Il a été creusé pour apporter de l'eau potable à Paris, pas pour la promenade. Longez-le du bassin de la Villette jusqu'au port de l'Arsenal, regardez les ponts tournants s'ouvrir pour les bateaux, puis disparaissez avec lui sous les voûtes jusqu'à la Bastille.",
+      "cs": "Železné lávky ve tvaru oslího hřbetu, platany, zdymadla a v létě Pařížané sedící u vody s knihou nebo pivem: Canal Saint-Martin patří k nejpříjemnějším krajinám ve městě. Prokopali ho, aby do Paříže přivedl pitnou vodu, ne pro procházky. Projděte se podél něj od pánve Bassin de la Villette k přístavu Port de l'Arsenal, sledujte, jak se otáčejí mosty, aby propustily lodě, a pak s kanálem zmizte pod klenbami až k Bastille."
+    },
+    "history": {
+      "fr": "Inauguré en 1825, le canal mesure 4,55 km et compte neuf écluses et deux ponts tournants, pour un dénivelé de 25 m. À partir de 1860, sous Haussmann, une grande partie a été recouverte : la voûte Richard-Lenoir date de 1860–1862 et la voûte du Temple de 1907. Au total, environ 1,8 km de canal passe sous terre.",
+      "cs": "Kanál byl otevřen roku 1825, měří 4,55 km, má devět zdymadel a dva otočné mosty a překonává výškový rozdíl 25 m. Od roku 1860 byla za Haussmanna velká část zakryta: klenba Richard-Lenoir vznikla v letech 1860–1862 a klenba du Temple v roce 1907. Celkem asi 1,8 km kanálu vede pod zemí."
+    },
+    "facts": {
+      "fr": [
+        "Inauguration : 1825 ; longueur : 4,55 km.",
+        "Neuf écluses, deux ponts tournants, 25 m de dénivelé.",
+        "Environ 1 800 m de canal sont couverts par des voûtes."
+      ],
+      "cs": [
+        "Slavnostní otevření: 1825; délka 4,55 km.",
+        "Devět zdymadel, dva otočné mosty, výškový rozdíl 25 m.",
+        "Asi 1 800 m kanálu je zakryto klenbami."
+      ]
+    },
+    "tip": {
+      "fr": "Marchez du sud au nord, de la Bastille à la Villette ; la passerelle de la rue Bichat (aujourd'hui Michèle-Morgan) offre une belle vue sur les écluses des Récollets. Les croisières sur le canal sont proposées par plusieurs compagnies : comparez sur le site officiel du tourisme parisien.",
+      "cs": "Jděte od Bastille k Villette, tedy od jihu na sever; lávka u ulice Bichat (dnes Michèle-Morgan) nabízí hezký výhled na zdymadla Récollets. Plavby po kanálu nabízí několik společností, srovnejte je na oficiálním turistickém portálu Paříže."
+    },
+    "url": "https://parisjetaime.com",
+    "lat": 48.8722,
+    "lon": 2.3667,
+    "photo": {
+      "file": "File:Canal Saint-Martin from Quay de Valmy, Paris, 2016.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_Saint-Martin_from_Quay_de_Valmy%2C_Paris%2C_2016.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Canal_Saint-Martin_from_Quay_de_Valmy,_Paris,_2016.jpg",
+      "author": "DimiTalen",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Canal_Saint-Martin",
+      "https://parisjetaime.com"
+    ]
+  },
+  {
+    "id": "chateau-de-versailles",
+    "name": {
+      "fr": "Château de Versailles",
+      "cs": "Zámek ve Versailles"
+    },
+    "area": {
+      "fr": "Versailles (Yvelines), excursion depuis Paris",
+      "cs": "Versailles (Yvelines), výlet z Paříže"
+    },
+    "intro": {
+      "fr": "Pour comprendre la monarchie absolue, il faut voir Versailles. Louis XIV y a installé la cour et le gouvernement ; la vie de la cour s'organisait tout entière sous le regard du roi. La galerie des Glaces fait 73 m de long et ses dix-sept fenêtres se reflètent dans dix-sept miroirs. Mais le château, ce sont aussi les jardins de Le Nôtre, les fontaines, le Grand Canal, le Trianon. Prévoyez une journée complète : le domaine est immense, et on s'y perd avec plaisir.",
+      "cs": "Kdo chce pochopit absolutní monarchii, musí vidět Versailles. Ludvík XIV. sem přenesl dvůr i vládu a celý život dvora se odehrával pod královým dohledem. Zrcadlová galerie je dlouhá 73 m a jejích sedmnáct oken se odráží v sedmnácti zrcadlech. Zámek ale tvoří i Le Nôtrovy zahrady, fontány, Velký kanál a Trianon. Počítejte s celým dnem: panství je obrovské a ztratit se v něm je radost."
+    },
+    "history": {
+      "fr": "La cour, le roi et le gouvernement s'y installent durablement le 6 mai 1682 et y restent jusqu'au 6 octobre 1789, sauf pendant la Régence (1715–1723). La galerie des Glaces est construite entre 1678 et 1684 par Jules Hardouin-Mansart, avec un décor peint de Charles Le Brun. C'est dans cette galerie que fut signé, le 28 juin 1919, le traité de Versailles qui a mis fin à la Première Guerre mondiale.",
+      "cs": "Dvůr, král i vláda se tu natrvalo usadili 6. května 1682 a zůstali až do 6. října 1789, kromě let Regentství (1715–1723). Zrcadlovou galerii postavil v letech 1678–1684 Jules Hardouin-Mansart a výzdobu maloval Charles Le Brun. V této galerii byla 28. června 1919 podepsána Versailleská smlouva, která ukončila první světovou válku."
+    },
+    "facts": {
+      "fr": [
+        "La cour s'y installe en 1682 ; elle part le 6 octobre 1789.",
+        "Galerie des Glaces : 73 m de long, 17 fenêtres, 17 miroirs (plus de 350 glaces au total).",
+        "Le parc couvre aujourd'hui 815 hectares, dont 93 de jardins à la française."
+      ],
+      "cs": [
+        "Dvůr se sem přestěhoval roku 1682 a odešel 6. října 1789.",
+        "Zrcadlová galerie: délka 73 m, 17 oken, 17 zrcadel (dohromady přes 350 zrcadlových tabulí).",
+        "Park dnes zabírá 815 hektarů, z toho 93 hektarů tvoří francouzské zahrady."
+      ]
+    },
+    "tip": {
+      "fr": "Depuis Paris, le RER C mène à la gare de Versailles-Château-Rive-Gauche, à quelques minutes à pied du château. Réservez à l'avance sur le site officiel et consultez les jours de fermeture ainsi que le calendrier des grandes eaux.",
+      "cs": "Z Paříže se dostanete linkou RER C do stanice Versailles-Château-Rive-Gauche, odtud je to k zámku pár minut pěšky. Rezervujte si vstup předem na oficiálním webu a zkontrolujte si dny, kdy je zavřeno, i kalendář fontánových představení (grandes eaux)."
+    },
+    "url": "https://www.chateauversailles.fr",
+    "lat": 48.8048,
+    "lon": 2.1204,
+    "photo": {
+      "file": "File:Main Façade, Palace of Versailles, Cour Royale.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main_Fa%C3%A7ade%2C_Palace_of_Versailles%2C_Cour_Royale.jpg?width=1200",
+      "page": "https://commons.wikimedia.org/wiki/File:Main_Fa%C3%A7ade,_Palace_of_Versailles,_Cour_Royale.jpg",
+      "author": "Julian Lupyan",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "sources": [
+      "https://www.chateauversailles.fr",
+      "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+      "https://en.wikipedia.org/wiki/Hall_of_Mirrors",
+      "https://fr.wikipedia.org/wiki/Château_de_Versailles"
+    ]
+  }
+]

@@ -1,0 +1,877 @@
+{
+  "dishes": [
+    {
+      "id": "boeuf-bourguignon",
+      "name": {
+        "fr": "Bœuf bourguignon",
+        "cs": "Boeuf bourguignon (hovězí po burgundsku)"
+      },
+      "text": {
+        "fr": "Du bœuf mijoté longtemps dans du vin rouge, avec des lardons, des petits oignons et des champignons. Le nom renvoie au vin de Bourgogne ; Escoffier fixe la recette en 1903. Ce n'est donc pas un plat purement parisien : il figurait pourtant à Paris dès 1878 chez Duval.",
+        "cs": "Hovězí dlouho dušené v červeném víně se slaninou, cibulkami a houbami. Název odkazuje na burgundské víno a recept zapsal Escoffier v roce 1903. Ryze pařížské jídlo to tedy není, ale v Paříži se podávalo už roku 1878 v řetězci bouillonů Duval a stalo se hospodským klasikem."
+      },
+      "photo": {
+        "file": "File:Bœuf bourguignon 06.JPG",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/B%C5%93uf_bourguignon_06.JPG?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:B%C5%93uf_bourguignon_06.JPG",
+        "author": "Arnaud 25",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Bœuf bourguignon",
+        "width": 2048,
+        "height": 1536
+      }
+    },
+    {
+      "id": "coq-au-vin",
+      "name": {
+        "fr": "Coq au vin",
+        "cs": "Coq au vin (kohout na víně)"
+      },
+      "text": {
+        "fr": "Un coq (ou un poulet) mariné puis braisé dans du vin rouge, avec lardons, oignons et champignons de Paris. Plusieurs régions le revendiquent : Auvergne, Bourgogne, Alsace, Champagne, Bresse. L'histoire de Vercingétorix et de César est une légende. C'est un plat de terroir, pas une spécialité de la capitale.",
+        "cs": "Kohout (nebo kuře) marinovaný a pak dušený v červeném víně se slaninou, cibulkami a žampiony, které se francouzsky jmenují „champignons de Paris“. O původ se hlásí Auvergne, Burgundsko, Alsasko, Champagne i Bresse. Legenda o Vercingetorixovi a Caesarovi je mýtus. Je to jídlo z venkova, ne pařížská specialita."
+      },
+      "photo": {
+        "file": "File:Coq au vin, Linden.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coq_au_vin%2C_Linden.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Coq_au_vin,_Linden.jpg",
+        "author": "Gerda Arendt",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "desc": "Coq au vin, served with vegetables and mushrooms at restaurant 11A in Linden",
+        "width": 4000,
+        "height": 3000
+      }
+    },
+    {
+      "id": "soupe-oignon",
+      "name": {
+        "fr": "Soupe à l'oignon",
+        "cs": "Cibulová polévka (soupe à l'oignon)"
+      },
+      "text": {
+        "fr": "Des oignons dorés, un bouillon, du pain et du fromage gratiné au four. Les soupes à l'oignon sont très anciennes ; la version moderne date du XVIIe siècle et Nicolas Appert en publie une recette en 1831. Elle est devenue un classique des brasseries parisiennes, mais son origine exacte reste incertaine.",
+        "cs": "Zlatavá cibule, vývar, chleba a zapečený sýr. Cibulové polévky jsou velmi staré, dnešní podoba pochází ze 17. století a Nicolas Appert zveřejnil recept v roce 1831. V Paříži patří k brasserie klasice, přesný původ ale zůstává nejasný, takže ji za čistě pařížskou nevydáváme."
+      },
+      "photo": {
+        "file": "File:French Onion Soup..JPG",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/French_Onion_Soup..JPG?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:French_Onion_Soup..JPG",
+        "author": "Miansari66",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "desc": "Soupe à l'oignon française",
+        "width": 4896,
+        "height": 3672
+      }
+    },
+    {
+      "id": "steak-frites",
+      "name": {
+        "fr": "Steak-frites",
+        "cs": "Steak s hranolky (steak-frites)"
+      },
+      "text": {
+        "fr": "Une pièce de bœuf grillée, souvent une entrecôte, avec des frites chaudes. On choisit la cuisson : bleu, saignant, à point ou bien cuit. C'est le plat emblématique des brasseries françaises, mais la Belgique le revendique aussi : il ne faut pas en faire une invention parisienne.",
+        "cs": "Grilovaný kus hovězího, často entrecôte, s horkými hranolky. Hosté volí propečení: bleu, saignant, à point nebo bien cuit. Je to symbol francouzských brasserií, hlásí se k němu ale i Belgie, takže ho nelze vydávat za vynález Paříže."
+      },
+      "photo": {
+        "file": "File:Steak-frites (steak-and-chips).jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steak-frites_(steak-and-chips).jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Steak-frites_(steak-and-chips).jpg",
+        "author": "Dcollard",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "desc": "Photograph of steak-frites (steak-and-chips) dish as served at the restaurant Le Relais de l'Entrecote in Geneva",
+        "width": 1947,
+        "height": 1458
+      }
+    },
+    {
+      "id": "escargots-bourgogne",
+      "name": {
+        "fr": "Escargots de Bourgogne",
+        "cs": "Šneci po burgundsku (escargots de Bourgogne)"
+      },
+      "text": {
+        "fr": "Des escargots, souvent de l'espèce Helix pomatia (le « gros blanc »), servis dans leur coquille avec du beurre à l'ail et au persil. La recette est bourguignonne, pas parisienne, mais c'est un classique des cartes françaises traditionnelles, que les curieux goûtent au moins une fois.",
+        "cs": "Šneci, nejčastěji druhu Helix pomatia (zvaný „gros blanc“), servírovaní ve skořápce s máslem s česnekem a petrželkou. Recept pochází z Burgundska, ne z Paříže, ale na tradičních francouzských jídelních lístcích je klasikou, kterou stojí za to aspoň jednou ochutnat."
+      },
+      "photo": {
+        "file": "File:Escargots de Bourgogne 3.JPG",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Escargots_de_Bourgogne_3.JPG?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Escargots_de_Bourgogne_3.JPG",
+        "author": "Arnaud 25",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Escargots de Bourgogne",
+        "width": 2048,
+        "height": 1536
+      }
+    },
+    {
+      "id": "confit-canard",
+      "name": {
+        "fr": "Confit de canard",
+        "cs": "Konfitovaná kachna (confit de canard)"
+      },
+      "text": {
+        "fr": "Une cuisse de canard cuite au moins deux heures dans sa propre graisse, puis conservée dans cette graisse. Avant de servir, on la dore pour rendre la peau croustillante. C'est une spécialité de Gascogne et du Sud-Ouest, que l'on trouve aussi dans les bistrots parisiens, souvent avec des pommes de terre sautées.",
+        "cs": "Kachní stehno pomalu vařené nejméně dvě hodiny ve vlastním tuku a v něm uchované. Před podáváním se opeče, aby kůže byla křupavá. Je to specialita z Gaskoňska a jihozápadu Francie, v Paříži ji ale najdete v mnoha bistrech, nejčastěji s restovanými bramborami."
+      },
+      "photo": {
+        "file": "File:Confit de canard Licq-Atherey.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Confit_de_canard_Licq-Atherey.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Confit_de_canard_Licq-Atherey.jpg",
+        "author": "Tangopaso",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "desc": "Duck confit served in the restaurant Hotel des Touristes in Licq-Athérey (Pyrénées-Atlantiques, France).",
+        "width": 4416,
+        "height": 3312
+      }
+    },
+    {
+      "id": "quiche-lorraine",
+      "name": {
+        "fr": "Quiche lorraine",
+        "cs": "Quiche lorraine (lotrinský koláč)"
+      },
+      "text": {
+        "fr": "Une tarte salée venue de Lorraine. Son nom viendrait du mot franconien Kuchen. À l'origine : des œufs battus avec de la crème, sans fromage ; les lardons n'apparaissent qu'au XIXe siècle. On la mange partout en France, mais elle n'a rien de parisien.",
+        "cs": "Slaný koláč z Lotrinska. Jméno pravděpodobně pochází z franckého slova Kuchen. Původní náplň tvořila jen vejce se smetanou, bez sýra, slanina přibyla až v 19. století. Jí se po celé Francii, s Paříží ale nemá nic společného."
+      },
+      "photo": {
+        "file": "File:Quiche lorraine 01.JPG",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Quiche_lorraine_01.JPG?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Quiche_lorraine_01.JPG",
+        "author": "Arnaud 25",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Quiche lorraine",
+        "width": 2048,
+        "height": 1536
+      }
+    },
+    {
+      "id": "croque-monsieur",
+      "name": {
+        "fr": "Croque-monsieur",
+        "cs": "Croque-monsieur"
+      },
+      "text": {
+        "fr": "Un sandwich chaud : pain de mie, jambon blanc et fromage, grillé au four ou à la poêle. Les premières mentions écrites datent de 1891 et 1893, et Proust le cite dans « À l'ombre des jeunes filles en fleurs ». C'est un grand classique des brasseries et des cafés parisiens ; avec un œuf au plat, il devient croque-madame.",
+        "cs": "Teplý sendvič: toastový chléb, bílá šunka a sýr, zapečený v troubě nebo opečený na pánvi. První písemné zmínky pocházejí z let 1891 a 1893 a zmiňuje ho i Proust. Patří ke klasice pařížských brasserií a kaváren; s volským okem se z něj stane croque-madame."
+      },
+      "photo": {
+        "file": "File:Bonjour, Croque Monsieur - Lunch in Paris, 27 June 2023.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonjour%2C_Croque_Monsieur_-_Lunch_in_Paris%2C_27_June_2023.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Bonjour,_Croque_Monsieur_-_Lunch_in_Paris,_27_June_2023.jpg",
+        "author": "Sharon Hahn Darlin",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "desc": "Lunch, Paris, France",
+        "width": 2700,
+        "height": 3693
+      }
+    },
+    {
+      "id": "ratatouille",
+      "name": {
+        "fr": "Ratatouille",
+        "cs": "Ratatouille"
+      },
+      "text": {
+        "fr": "Un mijoté de légumes du Sud cuits à l'huile d'olive : aubergines, courgettes, poivrons, tomates, oignons. C'est un plat de Provence et de l'ancien comté de Nice, pas de Paris. Le mot vient de l'occitan ratatolha. On le sert chaud ou froid, en accompagnement ou en plat principal.",
+        "cs": "Duslená jižní zelenina na olivovém oleji: lilek, cuketa, papriky, rajčata a cibule. Je to jídlo z Provence a bývalého nicejského hrabství, ne z Paříže. Slovo pochází z okcitánského ratatolha. Podává se teplé i studené, jako příloha i hlavní chod."
+      },
+      "photo": {
+        "file": "File:Ratatouille 001.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ratatouille_001.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Ratatouille_001.jpg",
+        "author": "Arnaud 25",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Ratatouille",
+        "width": 2048,
+        "height": 1536
+      }
+    },
+    {
+      "id": "blanquette-veau",
+      "name": {
+        "fr": "Blanquette de veau",
+        "cs": "Blanquette de veau (telecí v bílé omáčce)"
+      },
+      "text": {
+        "fr": "Du veau poché dans un fond blanc, puis nappé d'une sauce à la crème avec des champignons. La blancheur de la sauce donne son nom au plat. Il date du XIXe siècle et serait né dans les cuisines bourgeoises, notamment parisiennes ; on le sert avec du riz, des pâtes ou des pommes de terre.",
+        "cs": "Telecí maso povařené v bílém vývaru a přelité smetanovou omáčkou s žampiony. Podle bílé barvy omáčky se jídlo jmenuje. Vzniklo v 19. století v měšťanských kuchyních, mimo jiné pařížských; podává se s rýží, těstovinami nebo bramborami."
+      },
+      "photo": {
+        "file": "File:Blanquette de veau, Paris.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Blanquette_de_veau%2C_Paris.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Blanquette_de_veau,_Paris.jpg",
+        "author": "Gerda Arendt",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "desc": "Blanquette de veau served at Bouillon Chartier Gare de l'Est, Paris",
+        "width": 4000,
+        "height": 3000
+      }
+    },
+    {
+      "id": "jambon-beurre",
+      "name": {
+        "fr": "Jambon-beurre",
+        "cs": "Jambon-beurre (bageta s máslem a šunkou)"
+      },
+      "text": {
+        "fr": "Une demi-baguette beurrée, garnie de jambon blanc et souvent de cornichons : le sandwich parisien par excellence, aussi appelé « parisien ». Sa naissance exacte est inconnue, mais il s'est répandu autour des Halles après la Seconde Guerre mondiale. En 2009, les Français en achetaient environ 830 millions par an.",
+        "cs": "Půlka bagety namazaná máslem, s bílou šunkou a často s kyselými okurkami: pařížský sendvič, kterému se také říká „parisien“. Kdy přesně vznikl, není známo, rozšířil se kolem Les Halles po druhé světové válce. V roce 2009 se ve Francii prodalo asi 830 milionů kusů ročně."
+      },
+      "photo": {
+        "file": "File:Sandwich jambon-beurre.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandwich_jambon-beurre.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Sandwich_jambon-beurre.jpg",
+        "author": "Boulanger: Nat / Photographer: Nat",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "A classic Jambon-beurre (French ham sandwich) in the foreground and other classics -- Jambon-emmental (French ham and swiss cheese sandwich) and Rosette-cornichons (French salami and gherkin sandwich) -- in the background.",
+        "width": 4061,
+        "height": 2707
+      }
+    },
+    {
+      "id": "steak-tartare",
+      "name": {
+        "fr": "Steak tartare",
+        "cs": "Tatarský biftek (steak tartare)"
+      },
+      "text": {
+        "fr": "De la viande de bœuf (ou de cheval) crue, hachée ou coupée au couteau, avec jaune d'œuf, moutarde, câpres, cornichons et herbes. Escoffier décrit un « beefsteak à l'américaine » en 1903 ; le plat apparaît en France à la fin du XIXe siècle. Le nom vient des légendes sur les Tatars, pas de Paris.",
+        "cs": "Syrové hovězí (nebo koňské) maso, nasekané nebo nakrájené nožem, s žloutkem, hořčicí, kapary, okurkami a bylinkami. Escoffier popisuje „beefsteak à l'américaine“ roku 1903, ve Francii se pokrm objevuje na konci 19. století. Jméno pochází z legend o Tatarech, ne z Paříže."
+      }
+    }
+  ],
+  "pastries": [
+    {
+      "id": "croissant",
+      "name": {
+        "fr": "Croissant",
+        "cs": "Croissant"
+      },
+      "text": {
+        "fr": "Le croissant d'aujourd'hui descend du kipferl viennois. August Zang et Ernest Schwarzer ouvrent une boulangerie viennoise à Paris vers 1837-1839 ; la version feuilletée, au beurre, s'impose au début du XXe siècle. Un bon croissant se reconnaît à ses couches fines et à son goût de beurre.",
+        "cs": "Dnešní croissant pochází z vídeňského kipferlu. August Zang a Ernest Schwarzer otevřeli v Paříži vídeňskou pekárnu kolem let 1837–1839, listová verze s máslem se prosadila na začátku 20. století. Dobrý croissant poznáte podle tenkých vrstev a chuti másla."
+      },
+      "photo": {
+        "file": "File:Croissant 3.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Croissant_3.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Croissant_3.jpg",
+        "author": "Maffeth.opiana",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Croissant",
+        "width": 3000,
+        "height": 4000
+      }
+    },
+    {
+      "id": "pain-au-chocolat",
+      "name": {
+        "fr": "Pain au chocolat",
+        "cs": "Pain au chocolat"
+      },
+      "text": {
+        "fr": "La même pâte feuilletée que le croissant, roulée autour de barres de chocolat. Sous le nom de pain au chocolat, on le trouve dans la plus grande partie de la France, y compris à Paris ; dans le Sud-Ouest, on dit « chocolatine ». Un sondage de 2019 donnait 84 % de Français pour « pain au chocolat ».",
+        "cs": "Stejné listové těsto jako na croissant, stočené kolem tyčinek čokolády. Pod názvem pain au chocolat ho znají ve většině Francie včetně Paříže, na jihozápadě se říká „chocolatine“. Podle průzkumu z roku 2019 používá výraz pain au chocolat 84 % Francouzů."
+      },
+      "photo": {
+        "file": "File:Pain au Chocolat.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pain_au_Chocolat.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Pain_au_Chocolat.jpg",
+        "author": "Andre lleo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Pain au chocolat pastry in a local Parisian bakery.",
+        "width": 3024,
+        "height": 4032
+      }
+    },
+    {
+      "id": "macaron",
+      "name": {
+        "fr": "Macaron",
+        "cs": "Macaron"
+      },
+      "text": {
+        "fr": "Deux coques d'amandes, de sucre glace et de blancs d'œufs, fourrées de ganache, de crème ou de confiture. Son origine est obscure ; le macaron « parisien », fourré, apparaît au XIXe siècle. Ne le confondez pas avec le macaron plus rustique d'autres villes françaises.",
+        "cs": "Dvě skořápky z mandlí, moučkového cukru a bílků, spojené ganache, krémem nebo marmeládou. Původ je nejasný; „pařížský“ macaron s náplní vzniká v 19. století. Nezaměňujte ho s rustikálnějšími macarony z jiných francouzských měst, které žádnou krémovou náplň nemají a vypadají úplně jinak."
+      },
+      "photo": {
+        "file": "File:Macarons in Paris.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Macarons_in_Paris.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Macarons_in_Paris.jpg",
+        "author": "Thomas Oboe Lee",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Macarons in Paris",
+        "width": 3550,
+        "height": 2662
+      }
+    },
+    {
+      "id": "eclair",
+      "name": {
+        "fr": "Éclair",
+        "cs": "Éclair (větrník)"
+      },
+      "text": {
+        "fr": "Un long chou garni de crème pâtissière (chocolat, café, vanille) et glacé au fondant. Il descend vers 1850 de la « duchesse », un petit chou glacé que décrit déjà Carême en 1815. Pour le nom, une explication fréquente : on le mange si vite qu'il passe comme un éclair.",
+        "cs": "Podlouhatý odpalovaný šáteček plněný pudinkovým krémem (čokoláda, káva, vanilka) a politý fondánem. Kolem roku 1850 se vyvinul z „duchesse“, kterou popsal už Carême v roce 1815. K názvu se uvádí vysvětlení, že se sní tak rychle, jako když blýskne."
+      },
+      "photo": {
+        "file": "File:Eclair with dark chocolate glaze - closeup 2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eclair_with_dark_chocolate_glaze_-_closeup_2.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Eclair_with_dark_chocolate_glaze_-_closeup_2.jpg",
+        "author": "Nihonjoe",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "desc": "Closeup of an eclair with dark chocolate glaze.",
+        "width": 3264,
+        "height": 2448
+      }
+    },
+    {
+      "id": "mille-feuille",
+      "name": {
+        "fr": "Mille-feuille",
+        "cs": "Mille-feuille (tisíc lístků)"
+      },
+      "text": {
+        "fr": "Trois couches de pâte feuilletée caramélisée, deux couches de crème pâtissière, un glaçage au fondant souvent marbré de chocolat. Les origines sont discutées : La Varenne décrit le feuilletage en 1651, Carême le perfectionne, et la recette moderne est attribuée à Seugnot, rue du Bac, en 1867.",
+        "cs": "Tři vrstvy karamelizovaného listového těsta, dvě vrstvy pudinkového krému a fondánová poleva, často zdobená čokoládovým mramorováním. O původu se diskutuje: La Varenne popsal listové těsto roku 1651, Carême ho zdokonalil a dnešní recept se připisuje cukráři Seugnotovi z ulice rue du Bac (1867)."
+      },
+      "photo": {
+        "file": "File:Mille-feuille 20100916.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mille-feuille_20100916.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Mille-feuille_20100916.jpg",
+        "author": "Georges Seguin (Okki)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "desc": "Mille-feuille",
+        "width": 4482,
+        "height": 2988
+      }
+    },
+    {
+      "id": "paris-brest",
+      "name": {
+        "fr": "Paris-Brest",
+        "cs": "Paris-Brest"
+      },
+      "text": {
+        "fr": "Une couronne de pâte à choux garnie d'amandes effilées et d'une crème mousseline pralinée. Sa forme de roue rappelle la course cycliste Paris-Brest-Paris. Louis Durand, pâtissier à Maisons-Laffitte, est souvent crédité de l'invention en 1909, mais d'autres sources la contestent.",
+        "cs": "Věnec z odpalovaného těsta s plátky mandlí a pralinkovým krémem mousseline. Tvar kola připomíná cyklistický závod Paříž–Brest–Paříž. Vynález se často připisuje cukráři Louisi Durandovi z Maisons-Laffitte (1909), jiné prameny to ale zpochybňují a skutečný původ zůstává nejistý. Dobře se hodí ke kávě."
+      },
+      "photo": {
+        "file": "File:Paris-brest 1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris-brest_1.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Paris-brest_1.jpg",
+        "author": "lazy fri13th",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "desc": "Paris-Brest",
+        "width": 4032,
+        "height": 3024
+      }
+    },
+    {
+      "id": "tarte-tatin",
+      "name": {
+        "fr": "Tarte Tatin",
+        "cs": "Tarte Tatin"
+      },
+      "text": {
+        "fr": "Une tarte de pommes caramélisées au beurre et au sucre, recouvertes de pâte, cuites puis retournées. Elle vient de Sologne : les sœurs Stéphanie et Caroline Tatin tenaient un hôtel à Lamotte-Beuvron. L'histoire de la tarte renversée par accident est une légende ; une description paraît dans la presse en 1899.",
+        "cs": "Koláč z jablek karamelizovaných na másle a cukru, přikrytých těstem, upečených a otočených. Pochází ze Sologne: sestry Stéphanie a Caroline Tatinovy vedly hotel v Lamotte-Beuvron. Příběh o omylem převráceném koláči je legenda; popis vyšel v tisku roku 1899."
+      },
+      "photo": {
+        "file": "File:Tarte tatin appletart.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tarte_tatin_appletart.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Tarte_tatin_appletart.jpg",
+        "author": "Loslazos",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "A Tarte Tatin (upside-down caramelized apple pie)",
+        "width": 2105,
+        "height": 1593
+      }
+    },
+    {
+      "id": "religieuse",
+      "name": {
+        "fr": "Religieuse",
+        "cs": "Religieuse (jeptiška)"
+      },
+      "text": {
+        "fr": "Deux choux superposés, le petit posé sur le gros comme une tête, garnis de crème pâtissière et glacés au fondant, avec une touche de crème au beurre. Elle semble créée entre 1873 et 1890 ; la pâte est celle de l'éclair. Café et chocolat sont les parfums classiques.",
+        "cs": "Dva odpalované větrníky na sobě, menší jako hlavička na větším, plněné pudinkovým krémem a polité fondánem, s máslovým krémem na spojení. Vznikla zřejmě mezi lety 1873 a 1890; těsto je stejné jako na éclair. Klasické příchutě jsou káva a čokoláda."
+      },
+      "photo": {
+        "file": "File:Religieuses au chocolat.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Religieuses_au_chocolat.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Religieuses_au_chocolat.jpg",
+        "author": "Sonia Geffrier",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "desc": "Religieuses au chocolat",
+        "width": 1530,
+        "height": 1277
+      }
+    },
+    {
+      "id": "madeleine",
+      "name": {
+        "fr": "Madeleine",
+        "cs": "Madeleine"
+      },
+      "text": {
+        "fr": "Un petit gâteau en forme de coquille, au beurre, aux œufs et au citron. On la lie à Commercy, en Lorraine, et à la légende du roi Stanislas en 1755 ; un historien l'attribue plutôt à un cuisinier du XVIIe siècle. Chez Proust, une madeleine trempée dans le thé réveille les souvenirs d'enfance.",
+        "cs": "Malý dortík ve tvaru mušle s máslem, vejci a citronem. Spojuje se s městem Commercy v Lotrinsku a s legendou o králi Stanislavovi z roku 1755; podle jednoho historika ji ale vymyslel kuchař už v 17. století. U Prousta namočená madeleine v čaji probouzí dětské vzpomínky."
+      }
+    },
+    {
+      "id": "opera",
+      "name": {
+        "fr": "Opéra",
+        "cs": "Opéra"
+      },
+      "text": {
+        "fr": "Un gâteau rectangulaire : trois biscuits Joconde imbibés de café, crème au beurre au café, ganache et glaçage au chocolat noir. Le nom « gâteau opéra » est attesté dès 1899, mais Cyriaque Gavillon (maison Dalloyau) est généralement crédité du gâteau actuel en 1955 ; cette paternité a fait l'objet de procès.",
+        "cs": "Obdélníkový dort: tři piškoty Joconde nasáklé kávou, kávový máslový krém, ganache a poleva z hořké čokolády. Název „gâteau opéra“ je doložen už roku 1899, dnešní dort se ale obvykle připisuje Cyriaquovi Gavillonovi z cukrárny Dalloyau (1955); o autorství se vedly soudní spory."
+      },
+      "photo": {
+        "file": "File:Gâteau opéra 20171005 143324.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A2teau_op%C3%A9ra_20171005_143324.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:G%C3%A2teau_op%C3%A9ra_20171005_143324.jpg",
+        "author": "Wowo2008",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Opéra-cake (gâteau opéra).",
+        "width": 1548,
+        "height": 938
+      }
+    },
+    {
+      "id": "financier",
+      "name": {
+        "fr": "Financier",
+        "cs": "Financier"
+      },
+      "text": {
+        "fr": "Un petit gâteau moelleux aux amandes, au beurre noisette et aux blancs d'œufs, souvent rectangulaire comme un lingot. Il est né à Paris : la plus ancienne mention connue date de 1865. La légende du pâtissier Lasne, rue Saint-Denis, n'est pas confirmée par les sources.",
+        "cs": "Měkký mandlový dortík s přepuštěným máslem a bílky, často obdélníkový jako zlatá cihla. Vznikl v Paříži, nejstarší známá zmínka je z roku 1865. Příběh o cukráři Lasnovi z ulice rue Saint-Denis prameny nepotvrzují. Základem těsta jsou mleté mandle a bílky, díky nim je uvnitř vláčný."
+      },
+      "photo": {
+        "file": "File:Two rectangular financiers.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two_rectangular_financiers.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Two_rectangular_financiers.jpg",
+        "author": "Kikaineko",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "desc": "Two rectangular financiers",
+        "width": 2000,
+        "height": 1414
+      }
+    },
+    {
+      "id": "baba-au-rhum",
+      "name": {
+        "fr": "Baba au rhum",
+        "cs": "Baba au rhum (rumový baba)"
+      },
+      "text": {
+        "fr": "Une pâte levée au beurre, cuite en moule puis imbibée de sirop au rhum. Elle vient de Lorraine : la légende parle du roi Stanislas, qui trouvait un kouglof trop sec. À Paris, la pâtisserie Stohrer, fondée en 1730 rue Montorgueil, la rend célèbre.",
+        "cs": "Kynuté máslové těsto upečené ve formě a pak nasáklé rumovým sirupem. Pochází z Lotrinska: legenda mluví o králi Stanislavovi, kterému připadal kuglhupf příliš suchý. V Paříži ho proslavila cukrárna Stohrer, založená roku 1730 v ulici rue Montorgueil."
+      },
+      "photo": {
+        "file": "File:Baba au rhum at Le comptoir du Relais.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baba_au_rhum_at_Le_comptoir_du_Relais.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Baba_au_rhum_at_Le_comptoir_du_Relais.jpg",
+        "author": "Zheng Zhou",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Baba au rhum at Le comptoir du Relais",
+        "width": 4032,
+        "height": 3024
+      }
+    }
+  ],
+  "markets": [
+    {
+      "id": "aligre",
+      "name": "Marché d'Aligre",
+      "area": {
+        "fr": "Paris 12e, place et rue d'Aligre",
+        "cs": "Paříž 12. obvod, place a rue d'Aligre"
+      },
+      "text": {
+        "fr": "Deux marchés en un : le marché couvert Beauvau, bâti en 1779 par Samson-Nicolas Lenoir, et le marché en plein air de la rue d'Aligre, ouvert tous les matins sauf le lundi. Les brocanteurs s'installent sur la demi-lune de la place. C'est l'un des plus anciens marchés de Paris.",
+        "cs": "Dva trhy v jednom: krytá hala Beauvau, kterou v roce 1779 postavil Samson-Nicolas Lenoir, a venkovní trh v ulici rue d'Aligre, otevřený každé ráno kromě pondělí. Na půlkruhu náměstí se scházejí handlíři se starožitnostmi. Patří k nejstarším pařížským trhům."
+      },
+      "url": "https://fr.wikipedia.org/wiki/Marché_d%27Aligre",
+      "photo": {
+        "file": "File:Marché d'Aligre 2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/March%C3%A9_d'Aligre_2.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:March%C3%A9_d%27Aligre_2.jpg",
+        "author": "Jesús Gorriti",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "desc": "Le marché d'Aligre est un marché \"public\" situé sur la rue d'Aligre et la place d'Aligre, Paris",
+        "width": 4288,
+        "height": 2848
+      }
+    },
+    {
+      "id": "enfants-rouges",
+      "name": "Marché des Enfants Rouges",
+      "area": {
+        "fr": "Paris 3e, 39 rue de Bretagne",
+        "cs": "Paříž 3. obvod, 39 rue de Bretagne"
+      },
+      "text": {
+        "fr": "On le présente comme le plus vieux marché couvert de Paris. Selon les sources, il date de 1615 ou de 1628. Son nom vient de l'hospice des Enfants-Rouges, fondé par Marguerite de Navarre pour des orphelins. Il a trois entrées : rue de Bretagne, rue Charlot et rue des Oiseaux.",
+        "cs": "Označuje se za nejstarší krytý trh v Paříži. Podle pramenů vznikl v roce 1615 nebo 1628. Jméno dostal podle útulku Enfants-Rouges, který pro sirotky založila Marguerite de Navarre. Má tři vchody: z ulic rue de Bretagne, rue Charlot a rue des Oiseaux."
+      },
+      "url": "https://fr.wikipedia.org/wiki/Marché_des_Enfants-Rouges",
+      "photo": {
+        "file": "File:Paris III-Marché des Enfants-Rouges, Allée Ouest.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_III-March%C3%A9_des_Enfants-Rouges%2C_All%C3%A9e_Ouest.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Paris_III-March%C3%A9_des_Enfants-Rouges,_All%C3%A9e_Ouest.jpg",
+        "author": "Popolon",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "desc": "Marché des Enfants-Rouges, Paris IIIe arrondissement, France.",
+        "width": 4940,
+        "height": 3272
+      }
+    },
+    {
+      "id": "bastille",
+      "name": "Marché Bastille",
+      "area": {
+        "fr": "Paris 11e, boulevard Richard-Lenoir",
+        "cs": "Paříž 11. obvod, boulevard Richard-Lenoir"
+      },
+      "text": {
+        "fr": "Un grand marché alimentaire installé sur le terre-plein central du boulevard Richard-Lenoir, entre les rues Amelot et Saint-Sabin, le jeudi et le dimanche. On y trouve fromage, viande, poisson (surtout des huîtres), fruits et légumes. Le dimanche, une partie des étals est bio. Vérifiez les horaires sur paris.fr.",
+        "cs": "Velký potravinový trh na střední části bulváru Richard-Lenoir mezi ulicemi Amelot a Saint-Sabin, ve čtvrtek a v neděli. Najdete tu sýry, maso, ryby (zejména ústřice), ovoce a zeleninu. V neděli je část stánků bio. Aktuální otevírací dobu zjistěte na paris.fr."
+      },
+      "url": "https://www.paris.fr/lieux/marche-bastille-5477",
+      "photo": {
+        "file": "File:Marché Bastille, Paris December 2006 007.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/March%C3%A9_Bastille%2C_Paris_December_2006_007.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:March%C3%A9_Bastille,_Paris_December_2006_007.jpg",
+        "author": "ayustety from Tokyo, Japan",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "desc": "Marché Bastille, Paris.",
+        "width": 3888,
+        "height": 2592
+      }
+    },
+    {
+      "id": "belleville",
+      "name": "Marché de Belleville",
+      "area": {
+        "fr": "Paris 11e / 20e, boulevard de Belleville",
+        "cs": "Paříž 11. a 20. obvod, boulevard de Belleville"
+      },
+      "text": {
+        "fr": "Le marché se tient sur le boulevard de Belleville le mardi et le vendredi matin. Il passe pour l'un des plus grands et des moins chers de Paris ; on y croise des produits français, nord-africains, chinois et ouest-africains, reflet du quartier. Vérifiez les jours sur la fiche officielle de la Ville.",
+        "cs": "Trh se koná na bulváru de Belleville v úterý a v pátek dopoledne. Patří k největším a nejlevnějším v Paříži; vedle francouzských produktů tu uvidíte severoafrické, čínské i západoafrické zboží, což odráží složení čtvrti. Dny konání si ověřte na oficiální stránce města."
+      },
+      "url": "https://www.paris.fr/lieux/marche-belleville-5475",
+      "photo": {
+        "file": "File:Marée du 93, Paris, marché Belleville (19602673251).jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mar%C3%A9e_du_93%2C_Paris%2C_march%C3%A9_Belleville_(19602673251).jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Mar%C3%A9e_du_93,_Paris,_march%C3%A9_Belleville_(19602673251).jpg",
+        "author": "Jeanne Menjoulet from Paris, France",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "desc": "Marée du 93, Paris, marché Belleville",
+        "width": 3216,
+        "height": 2578
+      }
+    },
+    {
+      "id": "mouffetard",
+      "name": "Rue Mouffetard",
+      "area": {
+        "fr": "Paris 5e, Quartier latin",
+        "cs": "Paříž 5. obvod, Latinská čtvrť"
+      },
+      "text": {
+        "fr": "« La Mouffe » mesure environ 650 m et suit le tracé d'une voie romaine. En bas, vers l'église Saint-Médard, se tient un marché quotidien avec bouchers, boulangers et fromagers ; le haut, vers la place de la Contrescarpe, est plutôt tourné vers les cafés et les restaurants.",
+        "cs": "„La Mouffe“ měří asi 650 m a sleduje trasu římské cesty. Dole u kostela Saint-Médard je každodenní trh s řezníky, pekaři a sýraři; horní část u náměstí place de la Contrescarpe patří spíš kavárnám a restauracím."
+      },
+      "url": "https://fr.wikipedia.org/wiki/Rue_Mouffetard",
+      "photo": {
+        "file": "File:Street market rue Mouffetard St Medard dsc00727.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Street_market_rue_Mouffetard_St_Medard_dsc00727.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Street_market_rue_Mouffetard_St_Medard_dsc00727.jpg",
+        "author": "David Monniaux",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "desc": "street market at the bottom of rue Mouffetard, Paris",
+        "width": 2592,
+        "height": 1944
+      }
+    }
+  ],
+  "boulangerie": {
+    "fr": "La boulangerie est le cœur du quotidien parisien : on y passe chaque jour chercher son pain. La baguette mesure environ 65 cm et pèse autour de 250 g. Un pain « de tradition française » est encadré par le décret de 1993 : seulement de la farine de blé, de l'eau, de la levure ou du levain et du sel, avec quelques adjuvants limités. Pour goûter la différence, demandez « une baguette tradition ». Chaque année, la Ville de Paris organise le Grand Prix de la meilleure baguette de Paris ; le lauréat devient fournisseur de l'Élysée pendant un an. Le 30 novembre 2022, l'UNESCO a inscrit « les savoir-faire artisanaux et la culture de la baguette de pain » sur la liste du patrimoine culturel immatériel de l'humanité. Ce n'est donc pas la baguette industrielle qui est célébrée, mais le métier de l'artisan boulanger. Le bon réflexe : entrer, dire « Bonjour », choisir, et sortir avec un pain encore tiède.",
+    "cs": "Pekárna je srdcem pařížského všedního dne: pro chleba se chodí každý den. Bageta měří zhruba 65 cm a váží kolem 250 g. Chléb „de tradition française“ upravuje vyhláška z roku 1993: smí se péct jen z pšeničné mouky, vody, droždí nebo kvásku a soli, s několika omezenými přídatnými látkami. Rozdíl poznáte, když si řeknete o „une baguette tradition“. Město Paříž každý rok vyhlašuje soutěž Grand Prix de la meilleure baguette de Paris; vítěz se na rok stává dodavatelem Elysejského paláce. Dne 30. listopadu 2022 zapsala UNESCO „řemeslné know-how a kulturu bagety“ na seznam nehmotného kulturního dědictví lidstva. Neoslavuje se tedy průmyslová bageta, ale řemeslo pekaře. Správný zvyk: vejít, pozdravit „Bonjour“, v klidu si vybrat, poděkovat a odejít s ještě teplým chlebem pod paží, jak to dělají Pařížané každé odpoledne."
+  },
+  "cafes": [
+    {
+      "id": "cafe-de-flore",
+      "name": "Café de Flore",
+      "area": "Saint-Germain-des-Prés, 6e",
+      "since": 1887,
+      "text": {
+        "fr": "Le café doit son nom à une statue de Flore, déesse du printemps, située en face. Apollinaire, André Salmon et d'autres y travaillent vers 1913. À partir de 1939, avec Paul Boubal, Sartre et Simone de Beauvoir en font leur base. Les sources donnent 1885 ou 1887 pour l'ouverture.",
+        "cs": "Kavárna má jméno podle sochy Flory, bohyně jara, která stojí naproti. Kolem roku 1913 zde pracovali Apollinaire či André Salmon. Od roku 1939, za majitele Paula Boubala, z ní udělali své zázemí Sartre a Simone de Beauvoir. Zdroje uvádějí otevření v roce 1885 nebo 1887."
+      },
+      "url": "https://cafedeflore.fr",
+      "photo": {
+        "file": "File:Café de Flore, 172 boulevard Saint-Germain, Paris 6e.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_Flore,_172_boulevard_Saint-Germain,_Paris_6e.jpg",
+        "author": "Celette",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Café de Flore, 172 boulevard Saint-Germain (Paris, 6e).",
+        "width": 5030,
+        "height": 3205
+      }
+    },
+    {
+      "id": "les-deux-magots",
+      "name": "Les Deux Magots",
+      "area": "Saint-Germain-des-Prés, 6e",
+      "since": 1884,
+      "text": {
+        "fr": "Le café ouvre en 1884 à la place d'un magasin de soieries. Son nom vient des deux figurines chinoises, toujours visibles sur un pilier. En 1933, un groupe d'amis y crée le prix des Deux Magots, pour protester contre le Goncourt ; Raymond Queneau remporte la première édition.",
+        "cs": "Kavárna se otevřela roku 1884 na místě obchodu s hedvábím. Jméno nese podle dvou čínských figurek, které dodnes stojí na pilíři uvnitř. V roce 1933 tu skupina přátel založila cenu Prix des Deux Magots jako protest proti Goncourtově ceně; první ji získal Raymond Queneau."
+      },
+      "url": "https://lesdeuxmagots.fr",
+      "photo": {
+        "file": "File:Les Deux Magots, 25 September 2019.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Les_Deux_Magots%2C_25_September_2019.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Les_Deux_Magots,_25_September_2019.jpg",
+        "author": "Cheng-en Cheng from Taichung City, Taiwan",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "desc": "Les Deux Magots, Paris, France.",
+        "width": 4000,
+        "height": 2667
+      }
+    },
+    {
+      "id": "le-procope",
+      "name": "Le Procope",
+      "area": "Odéon, 6e",
+      "since": 1686,
+      "text": {
+        "fr": "Fondé vers 1686 par le Sicilien Francesco Procopio dei Coltelli, rue de l'Ancienne-Comédie, il devient au XVIIIe siècle un café littéraire (Voltaire, Diderot). Attention : le café ferme en 1890 ; le restaurant actuel rouvre en 1957 sous le même nom et n'a pas de lien direct avec l'original.",
+        "cs": "Založil ho kolem roku 1686 Sicilan Francesco Procopio dei Coltelli v ulici rue de l'Ancienne-Comédie a v 18. století se stal literární kavárnou (Voltaire, Diderot). Pozor: kavárna zanikla v roce 1890, dnešní restaurace se stejným jménem vznikla 1957 a s původním podnikem přímo nesouvisí."
+      },
+      "url": "https://www.procope.com",
+      "photo": {
+        "file": "File:Le Procope 1, Paris 2010.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Procope_1%2C_Paris_2010.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Le_Procope_1,_Paris_2010.jpg",
+        "author": "Jean-Marie Hullot from France",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "desc": "Café Procope, Paris.",
+        "width": 5054,
+        "height": 3369
+      }
+    },
+    {
+      "id": "closerie-des-lilas",
+      "name": "La Closerie des Lilas",
+      "area": "Montparnasse, 6e",
+      "since": 1883,
+      "text": {
+        "fr": "Ancien relais de poste près du bal Bullier, il prend le nom de Closerie des Lilas en 1883. Dans les années 1860, des peintres de l'atelier Gleyre, futurs impressionnistes, s'y retrouvent. Plus tard, Verlaine, Picasso, Breton et Hemingway font sa réputation ; Fitzgerald y aurait fait lire « Gatsby » à Hemingway.",
+        "cs": "Bývalá poštovní stanice u bálového sálu Bullier dostala jméno Closerie des Lilas v roce 1883. V 60. letech 19. století se tu scházeli malíři z ateliéru Gleyre, pozdější impresionisté. Později její pověst budovali Verlaine, Picasso, Breton či Hemingway; Fitzgerald prý Hemingwayovi nechal číst rukopis Gatsbyho."
+      },
+      "url": "https://www.closeriedeslilas.fr",
+      "photo": {
+        "file": "File:La Closerie des Lilas, 171 boulevard du Montparnasse, Paris 6e 1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Closerie_des_Lilas%2C_171_boulevard_du_Montparnasse%2C_Paris_6e_1.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:La_Closerie_des_Lilas,_171_boulevard_du_Montparnasse,_Paris_6e_1.jpg",
+        "author": "Celette",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "La Closerie des Lilas, 171 boulevard du Montparnasse (Paris, 6e).",
+        "width": 4832,
+        "height": 3279
+      }
+    },
+    {
+      "id": "cafe-de-la-paix",
+      "name": "Café de la Paix",
+      "area": "Opéra, 9e",
+      "since": 1862,
+      "text": {
+        "fr": "Ouvert en 1862 comme café du Grand Hôtel de la Paix, il se trouve place de l'Opéra, à l'angle du boulevard des Capucines. Tchaïkovski, Massenet, Zola et Maupassant y auraient été clients. La salle et son décor sont classés monuments historiques depuis le 22 août 1975.",
+        "cs": "Otevřela se roku 1862 jako kavárna Grand Hôtelu de la Paix na náměstí place de l'Opéra, na rohu bulváru des Capucines. Hosty měli podle pramenů Čajkovskij, Massenet, Zola či Maupassant. Sál s výzdobou je od 22. srpna 1975 chráněnou památkou."
+      },
+      "url": "https://www.cafedelapaix.fr/fr/",
+      "photo": {
+        "file": "File:Café de la Paix 1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caf%C3%A9_de_la_Paix_1.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_la_Paix_1.jpg",
+        "author": "Arthur Weidmann",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Le café de la Paix à Paris.",
+        "width": 4815,
+        "height": 2708
+      }
+    },
+    {
+      "id": "la-rotonde",
+      "name": "La Rotonde",
+      "area": "Montparnasse, 6e",
+      "since": 1903,
+      "text": {
+        "fr": "À l'origine un bistro populaire, ouvert en 1903. Victor Libion le reprend en 1911 et en fait une grande brasserie. Picasso, Modigliani, Kisling et André Salmon y sont photographiés entre 1916 et 1918. Blaise Cendrars aimait ses machines à sous.",
+        "cs": "Původně lidový bistro otevřené roku 1903. Victor Libion ho převzal v roce 1911 a udělal z něj velkou brasserii. Picasso, Modigliani, Kisling a André Salmon tu byli fotografováni v letech 1916–1918. Blaise Cendrars měl rád její herní automaty."
+      },
+      "url": "https://fr.wikipedia.org/wiki/La_Rotonde_(brasserie)",
+      "photo": {
+        "file": "File:La Rotonde, 105 Boulevard du Montparnasse, 75006 Paris 2013.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Rotonde%2C_105_Boulevard_du_Montparnasse%2C_75006_Paris_2013.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:La_Rotonde,_105_Boulevard_du_Montparnasse,_75006_Paris_2013.jpg",
+        "author": "flightlog",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "desc": "La Rotonde, 105 Boulevard du Montparnasse, 75006 Paris, France.",
+        "width": 3872,
+        "height": 2592
+      }
+    },
+    {
+      "id": "le-select",
+      "name": "Le Select",
+      "area": "Montparnasse, 6e",
+      "since": 1923,
+      "text": {
+        "fr": "Fondé en 1923 au 99, boulevard du Montparnasse, il fait partie des cafés qui ont construit la légende de Montparnasse entre les deux guerres, avec le Dôme, La Rotonde et La Coupole. Scott Fitzgerald, Hemingway et Picasso comptaient parmi ses habitués.",
+        "cs": "Založen roku 1923 na adrese 99, boulevard du Montparnasse, patří mezi kavárny, které mezi světovými válkami vytvořily legendu Montparnassu, spolu s Le Dôme, La Rotonde a La Coupole. K jeho štamgastům patřili Scott Fitzgerald, Hemingway i Picasso."
+      },
+      "url": "https://fr.wikipedia.org/wiki/Le_Select",
+      "photo": {
+        "file": "File:Le Select Paris.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Select_Paris.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Le_Select_Paris.jpg",
+        "author": "Celette",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Le Select, 99 boulevard du Montparnasse (Paris, 6e).",
+        "width": 5472,
+        "height": 3648
+      }
+    },
+    {
+      "id": "angelina",
+      "name": "Angelina",
+      "area": "Tuileries, 1er",
+      "since": 1903,
+      "text": {
+        "fr": "Salon de thé fondé en 1903 rue de Rivoli par le confiseur autrichien Antoine Rumpelmayer, qui le nomme d'après sa belle-fille. Le décor Belle Époque est signé Édouard-Jean Niermans. On y vient pour le chocolat chaud « l'Africain » et pour le Mont-Blanc.",
+        "cs": "Čajový salon založil roku 1903 v ulici rue de Rivoli rakouský cukrář Antoine Rumpelmayer a pojmenoval ho po své snaše. Secesní výzdobu navrhl Édouard-Jean Niermans. Chodí se sem na horkou čokoládu „l'Africain“ a na dezert Mont-Blanc."
+      },
+      "url": "https://www.angelina-paris.fr",
+      "photo": {
+        "file": "File:Angelina rue de Rivoli.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Angelina_rue_de_Rivoli.jpg?width=1200",
+        "page": "https://commons.wikimedia.org/wiki/File:Angelina_rue_de_Rivoli.jpg",
+        "author": "Thomon",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "desc": "Angelina rue de Rivoli.",
+        "width": 5152,
+        "height": 3864
+      }
+    }
+  ],
+  "drinks": {
+    "wine": {
+      "fr": "En France, on commande souvent au verre (« un verre de rouge »), au pichet ou à la bouteille. Le ballon désigne la forme du verre, pas une mesure précise. Les appellations (AOC) indiquent l'origine : Bourgogne, Bordeaux, Loire… Au restaurant, demandez conseil au serveur : dites ce que vous aimez (léger, fruité, sec) et fixez un budget. La carte des vins se dit « la carte des vins ».",
+      "cs": "Ve Francii se víno často objednává po skleničce („un verre de rouge“), v karafě (pichet) nebo po lahvi. „Ballon“ označuje tvar sklenice, ne přesnou míru. Označení AOC udává původ: Burgundsko, Bordeaux, Loira… V restauraci se klidně zeptejte obsluhy na radu: řekněte, co máte rádi (lehké, ovocné, suché), a určete si rozpočet. Vinný lístek se říká „la carte des vins“."
+    },
+    "beer": {
+      "fr": "Au bar, « un demi » est une petite bière pression, en général de 25 cl, et « une pression » désigne la bière à la pression, le plus souvent une blonde. Si vous préférez une bière en bouteille ou une bière artisanale, demandez simplement ce qui est disponible : « Qu'est-ce que vous avez comme bières ? ». À table, le vin reste plus fréquent que la bière.",
+      "cs": "V baru je „un demi“ malé točené pivo, obvykle 25 cl, a „une pression“ znamená točené pivo, nejčastěji světlý ležák. Chcete-li lahvové nebo řemeslné pivo, zeptejte se, co mají: „Qu'est-ce que vous avez comme bières ?“. K jídlu se ve Francii pije častěji víno než pivo, takže pivo si objednávejte spíš v baru nebo na terase kavárny, než k hlavnímu chodu v restauraci."
+    },
+    "coffee": {
+      "fr": "Si vous dites « un café », vous recevez un espresso, petit et serré. « Un allongé » est dilué avec de l'eau chaude, « un noisette » est un espresso avec une goutte de lait, « un crème » est plus grand, avec plus de lait. « Un café au lait » se boit surtout à la maison, au petit déjeuner. Au comptoir, le café est généralement moins cher qu'en salle.",
+      "cs": "Řeknete-li „un café“, dostanete espresso, malé a silné. „Un allongé“ je prodloužené horkou vodou, „un noisette“ je espresso s kapkou mléka, „un crème“ je větší, s více mléka. „Café au lait“ se pije hlavně doma k snídani. U pultu (au comptoir) bývá káva obvykle levnější než u stolu. Slovo „macchiato“ se tu běžně nepoužívá, raději řekněte „un noisette“. Voda se k ní podává jen někdy, žádný nárok na ni nemáte."
+    },
+    "aperitif": {
+      "fr": "L'apéritif, ou « l'apéro », est un moment social avant le dîner : un verre, quelque chose à grignoter, et on discute. Les classiques sont un verre de vin, un kir (vin blanc et crème de cassis), son cousin le kir royal (avec du champagne) ou un pastis. On l'accompagne de cacahuètes, d'olives, de charcuterie ou de fromage. Un apéro dure rarement plus d'une heure.",
+      "cs": "Aperitiv, „l'apéro“, je společenská chvíle před večeří: sklenka, něco k zakousnutí a povídání. Klasikou je sklenka vína, kir (bílé víno s černorybízovým likérem), jeho příbuzný kir royal (se šampaňským) nebo pastis. Podávají se k tomu burské oříšky, olivy, uzeniny nebo sýr. Apéro málokdy trvá déle než hodinu a není to večeře: slouží k tomu, aby se lidé potkali, uvolnili a pak teprve zasedli ke stolu."
+    }
+  },
+  "etiquette": {
+    "fr": [
+      "Dites « Bonjour » en entrant (et « Merci, au revoir » en sortant) : c'est la base de la politesse, même dans un grand restaurant.",
+      "Attendez d'être placé par le serveur, surtout dans les restaurants qui font le service à table.",
+      "Demandez « une carafe d'eau » : l'eau du robinet servie avec un repas est gratuite en France, d'après un arrêté de 1967.",
+      "Regardez le menu du jour ou la formule (entrée + plat ou plat + dessert) : c'est souvent la façon la plus simple et la plus avantageuse de déjeuner.",
+      "Le service est compris : la mention « prix service compris » figure à la carte. Le pourboire est facultatif ; on laisse parfois quelques pièces. Pour l'addition, dites « L'addition, s'il vous plaît » : on ne vous l'apporte pas sans que vous la demandiez."
+    ],
+    "cs": [
+      "Při vstupu pozdravte „Bonjour“ (a při odchodu „Merci, au revoir“): je to základ slušnosti i ve velké restauraci.",
+      "Počkejte, až vás obsluha usadí, zvlášť v restauracích, kde se obsluhuje u stolu.",
+      "Požádejte o „une carafe d'eau“: voda z kohoutku servírovaná k jídlu je ve Francii zdarma, vyplývá to z vyhlášky z roku 1967.",
+      "Všimněte si menu du jour nebo formule (předkrm + hlavní chod, nebo hlavní chod + dezert): bývá to nejjednodušší a nejvýhodnější způsob, jak poobědvat.",
+      "Obsluha je v ceně: na jídelním lístku stojí „prix service compris“. Spropitné je dobrovolné, někdy se nechá pár drobných. O účet si řeknete „L'addition, s'il vous plaît“: bez vyzvání ho nepřinesou."
+    ]
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Bœuf_bourguignon",
+    "https://fr.wikipedia.org/wiki/Coq_au_vin",
+    "https://fr.wikipedia.org/wiki/Soupe_à_l'oignon",
+    "https://fr.wikipedia.org/wiki/Steak_frites",
+    "https://fr.wikipedia.org/wiki/Confit_de_canard",
+    "https://fr.wikipedia.org/wiki/Quiche_lorraine",
+    "https://fr.wikipedia.org/wiki/Croque-monsieur",
+    "https://fr.wikipedia.org/wiki/Ratatouille",
+    "https://fr.wikipedia.org/wiki/Blanquette_de_veau",
+    "https://fr.wikipedia.org/wiki/Steak_tartare",
+    "https://fr.wikipedia.org/wiki/Croissant_(viennoiserie)",
+    "https://fr.wikipedia.org/wiki/Pain_au_chocolat",
+    "https://fr.wikipedia.org/wiki/Macaron",
+    "https://fr.wikipedia.org/wiki/Mille-feuille",
+    "https://fr.wikipedia.org/wiki/Paris-brest",
+    "https://fr.wikipedia.org/wiki/Tarte_Tatin",
+    "https://fr.wikipedia.org/wiki/Madeleine_(pâtisserie)",
+    "https://fr.wikipedia.org/wiki/Baba_au_rhum",
+    "https://fr.wikipedia.org/wiki/Financier_(pâtisserie)",
+    "https://fr.wikipedia.org/wiki/Opéra_(pâtisserie)",
+    "https://fr.wikipedia.org/wiki/Religieuse_(pâtisserie)",
+    "https://fr.wikipedia.org/wiki/Éclair_(pâtisserie)",
+    "https://fr.wikipedia.org/wiki/Baguette_(pain)",
+    "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/pourboire",
+    "https://www.paris.fr/pages/la-meilleure-baguette-de-paris-2024-se-deguste-dans-le-11e-arrondissement-26941"
+  ]
+}
