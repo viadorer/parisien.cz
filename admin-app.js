@@ -56,9 +56,13 @@
         p.cover_url ? el('img', { class: 'thumb', src: p.cover_url, alt: '' }) : el('div', { class: 'thumb' }),
         el('div', { class: 'grow' },
           el('strong', {}, p.title_fr || p.title_cs || p.slug), ' ',
-          el('span', { class: p.published ? 'badge' : 'badge draft' }, p.published ? 'publikováno' : 'koncept'),
+          el('span', { class: p.published ? 'badge' : 'badge draft' }, p.published ? 'publikováno' : ({ submitted: 'ke schválení', rejected: 'zamítnuto', draft: 'koncept' }[p.status] || 'koncept')), p.author_user_id ? el('span', { class: 'badge' }, 'student: ' + (p.author || '')) : null,
           el('br'),
           el('small', {}, `${new Date(p.published_at).toLocaleDateString('cs-CZ')} · ${p.category} · /fr/article/${p.slug} · ${p.title_fr ? 'FR' : '–'} ${p.title_cs ? 'CS' : '–'}`)),
+        ...(p.status === 'submitted' ? [
+          Object.assign(el('button', { class: 'btn', type: 'button' }, 'Schválit'), { onclick: guard(async () => { if (!confirm('Zveřejnit tento článek?')) return; await call('review', { id: p.id, decision: 'publish' }); toast('Zveřejněno.'); await loadPosts(); }) }),
+          Object.assign(el('button', { class: 'btn danger', type: 'button' }, 'Zamítnout'), { onclick: guard(async () => { const note = prompt('Důvod / co opravit (uvidí student):', ''); if (note === null) return; await call('review', { id: p.id, decision: 'reject', note }); toast('Zamítnuto.'); await loadPosts(); }) }),
+        ] : []),
         el('a', { href: `/fr/article/${p.slug}`, target: '_blank', rel: 'noopener' }, 'Zobrazit'),
         Object.assign(el('button', { class: 'btn sec', type: 'button' }, 'Upravit'), { onclick: () => openEditor(p) }),
         Object.assign(el('button', { class: 'btn danger', type: 'button' }, 'Smazat'), {
@@ -156,9 +160,35 @@
     $('#tab-posts').hidden = b.dataset.tab !== 'posts';
     $('#tab-messages').hidden = b.dataset.tab !== 'messages';
     $('#tab-gallery').hidden = b.dataset.tab !== 'gallery';
+    $('#tab-students').hidden = b.dataset.tab !== 'students';
+    if (b.dataset.tab === 'students') await loadStudents();
     if (b.dataset.tab === 'messages') await loadMessages();
     if (b.dataset.tab === 'gallery') await loadGallery();
   })));
+
+  // ---------- studenti: pozvánky a účty ----------
+  const fmt = (d) => (d ? new Date(d).toLocaleDateString('cs-CZ') : '–');
+  async function loadStudents() {
+    if (!me.db) return $('#user-list').replaceChildren('Databáze není připojena.');
+    const [{ invites }, { users }] = await Promise.all([call('invites-list', {}), call('users-list', {})]);
+    const open = invites.filter((i) => !i.used_at);
+    $('#inv-list').replaceChildren(el('h3', {}, `Nepoužité pozvánky (${open.length})`),
+      ...open.map((i) => el('div', { class: 'item' }, el('code', {}, i.code), el('span', { class: 'grow' }, ` ${i.note || ''} · platí do ${fmt(i.expires_at)}`),
+        Object.assign(el('button', { class: 'btn danger', type: 'button', style: 'padding:3px 10px' }, 'Zrušit'), { onclick: guard(async () => { await call('invites-delete', { code: i.code }); await loadStudents(); }) }))));
+    $('#user-list').replaceChildren(el('h2', { style: 'margin-top:0' }, `Studenti (${users.length})`),
+      ...users.map((u) => el('div', { class: 'item' },
+        el('div', { class: 'grow' }, el('strong', {}, u.display_name), ' ', el('span', { class: u.status === 'active' ? 'badge' : 'badge draft' }, u.status === 'active' ? 'aktivní' : 'zablokován'), el('br'),
+          el('small', {}, `${u.email} · registrace ${fmt(u.created_at)} · poslední přihlášení ${fmt(u.last_login)} · články: ${u.posts}${u.note ? ' · kód ' + u.note : ''}`)),
+        Object.assign(el('button', { class: 'btn sec', type: 'button' }, u.status === 'active' ? 'Zablokovat' : 'Odblokovat'), { onclick: guard(async () => { await call('user-status', { id: u.id, status: u.status === 'active' ? 'disabled' : 'active' }); await loadStudents(); }) }),
+        Object.assign(el('button', { class: 'btn sec', type: 'button' }, 'Nové heslo'), { onclick: guard(async () => { if (!confirm(`Vygenerovat nové heslo pro ${u.display_name}?`)) return; const { password } = await call('user-reset', { id: u.id }); prompt('Dočasné heslo (zobrazí se jen teď, předejte ho studentovi):', password); }) }),
+        Object.assign(el('button', { class: 'btn danger', type: 'button' }, 'Smazat'), { onclick: guard(async () => { if (!confirm(`Smazat účet ${u.display_name}? Nezveřejněné články se smažou, zveřejněné zůstanou pod přezdívkou.`)) return; await call('user-delete', { id: u.id }); await loadStudents(); }) }))));
+  }
+  $('#inv-form').addEventListener('submit', guard(async (e) => {
+    e.preventDefault();
+    const { codes } = await call('invites-create', { count: $('#inv-count').value, note: $('#inv-note').value, days: $('#inv-days').value });
+    const box = $('#inv-new'); box.hidden = false; box.textContent = codes.join('\n');
+    toast(`Vytvořeno ${codes.length} kódů.`); await loadStudents();
+  }));
 
   // ---------- galerie studentů ----------
   let gItems = [];

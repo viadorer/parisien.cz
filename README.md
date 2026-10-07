@@ -9,6 +9,12 @@ Dvojjazyčný (FR/CS) školní projekt o Paříži a cestování. Statické str�
 - `/admin` – články (FR+CS, kategorie, autor, kredit fotky, zdroje), zprávy a návrhy článků od studentů, nahrávání obrázků do R2.
 - `scripts/commons.mjs` – hledání fotek na Commons s ověřenou licencí (CC0 / PD / CC BY / CC BY-SA).
 
+## Studentské účty
+- Registrace jen s **kódem pozvánky** (admin → karta Studenti → Vytvořit; kód platí jednou). Bez e-mailové služby: reset hesla dělá admin („Nové heslo“).
+- Student píše články ve FR/CS (`/fr/compte`, `/cs/compte`), ukládá koncepty a odesílá je ke schválení. Zveřejnit je může jen admin (karta Články → Schválit / Zamítnout s poznámkou).
+- Pod článkem je jen přezdívka, ne e-mail. Hesla jsou hashovaná (scrypt), po 8 chybách se účet na 15 min zamkne, účet lze smazat.
+- Testy lokálně: PGlite (viz `globalThis.__PZ_SQL` v `lib/db.js`).
+
 ## Nastavení na Vercelu
 1. **Neon:** Project → Storage → Create → Neon (Marketplace). Nastaví `DATABASE_URL`; tabulky se vytvoří samy a naplní se 16 články.
 2. **Environment Variables:** `ADMIN_PASSWORD` (min. 8 znaků), `SESSION_SECRET` (náhodný řetězec), `R2_*` podle `.env.example`.

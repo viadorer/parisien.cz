@@ -1278,3 +1278,30 @@ select option { color: #000; }
 .now-strip .container { align-items: center; }
 .weather { display: flex; flex-wrap: wrap; gap: 6px 26px; }
 .now-item { white-space: nowrap; }
+
+/* ---- studentský prostor ---- */
+.acct-box { max-width: 520px; }
+.acct-box form .form-group { margin-bottom: 16px; }
+.acct-label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; color: #444; }
+.page-compte input, .page-compte textarea, #acct input, #acct textarea, #acct select { background: #fff; color: #000; border: 1px solid #bbb; border-bottom: 1px solid #000; padding: 12px; width: 100%; font: 15px 'Montserrat', sans-serif; }
+#acct .btn-primary { background: #000; color: #fff; border-color: #000; }
+#acct .btn-primary:hover { background: #333; }
+#acct .btn-primary.light-on-dark { background: #b3262e; border-color: #b3262e; }
+#acct input[type=file] { border: 1px dashed #999; background: #fafafa; }
+.acct-status { margin-top: 14px; min-height: 22px; font-weight: 500; }
+.acct-status.ok { color: #1c7a3d; } .acct-status.err { color: #b3262e; }
+.acct-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 6px; }
+.acct-head h2 { margin: 0; }
+.acct-list { margin: 20px 0; }
+.acct-post { display: flex; gap: 14px; align-items: center; padding: 14px 0; border-bottom: 1px solid #ddd; flex-wrap: wrap; }
+.acct-note { color: #b3262e; font-size: 14px; margin-top: 6px; }
+.acct-editor { margin-top: 30px; padding: 24px; background: #f8f8f8; border-left: 4px solid #000; }
+.acct-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.acct-actions { margin-top: 18px; }
+.acct-more { margin-top: 36px; border-top: 1px solid #ddd; padding-top: 16px; }
+.acct-more summary { cursor: pointer; font-weight: 600; }
+.acct-more form { margin: 16px 0; max-width: 420px; }
+.privacy { margin-top: 56px; padding: 22px 26px; background: #f8f8f8; border-left: 4px solid #000; font-size: 14px; }
+.privacy h3 { font-size: 18px; margin-bottom: 10px; }
+.privacy ul { padding-left: 20px; } .privacy li { margin-bottom: 8px; }
+@media (max-width: 768px) { .acct-cols { grid-template-columns: 1fr; } }

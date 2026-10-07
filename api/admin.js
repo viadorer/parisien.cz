@@ -1,9 +1,11 @@
 // Admin API (jedna funkce, akce přes ?action=).
-//   login | logout | me | list | save | delete | upload | messages | delete-message | gallery-list | gallery-save | gallery-delete
+//   login | logout | me | list | save | delete | upload | messages | delete-message | gallery-* | review | invites-create/list/delete | users-list | user-status | user-reset | user-delete
 import { sql, hasDb, ensureSchema } from '../lib/db.js';
 import { authConfigured, checkPassword, sessionCookie, clearCookie, isAuthed } from '../lib/auth.js';
 import { presignUpload, r2Configured } from '../lib/r2.js';
 import { send, readJson, str, slugify } from '../lib/http.js';
+import { hashPassword, newCode } from '../lib/users.js';
+import { randomBytes } from 'node:crypto';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const URLISH = /^(https:\/\/|\/images\/)[^\s"'<>]*$/;
@@ -72,7 +74,7 @@ export default async function handler(req, res) {
       if (p.id) {
         const rows = await sql`UPDATE posts SET slug=${slug}, title_cs=${p.title_cs}, title_fr=${p.title_fr},
           excerpt_cs=${p.excerpt_cs}, excerpt_fr=${p.excerpt_fr}, body_cs=${p.body_cs}, body_fr=${p.body_fr},
-          cover_url=${p.cover_url}, cover_credit=${p.cover_credit}, cover_credit_url=${p.cover_credit_url}, category=${p.category}, author=${p.author}, sources=${p.sources}, published=${p.published}, published_at=${p.published_at}, updated_at=now()
+          cover_url=${p.cover_url}, cover_credit=${p.cover_credit}, cover_credit_url=${p.cover_credit_url}, category=${p.category}, author=${p.author}, sources=${p.sources}, status=CASE WHEN ${p.published} THEN 'published' ELSE status END, published=${p.published}, published_at=${p.published_at}, updated_at=now()
           WHERE id=${p.id} RETURNING *`;
         return rows[0] ? send(res, 200, { post: rows[0] }, noStore) : send(res, 404, { error: 'Článek neexistuje.' }, noStore);
       }
@@ -82,6 +84,50 @@ export default async function handler(req, res) {
       return send(res, 200, { post: rows[0] }, noStore);
     }
 
+    if (action === 'review') {
+      const id = Number(body.id);
+      const rows = body.decision === 'publish'
+        ? await sql`UPDATE posts SET status='published', published=true, published_at=now(), review_note='' WHERE id=${id} RETURNING id`
+        : await sql`UPDATE posts SET status='rejected', published=false, review_note=${str(body.note, 500)} WHERE id=${id} RETURNING id`;
+      return rows[0] ? send(res, 200, { ok: true }, noStore) : send(res, 404, { error: 'Článek neexistuje.' }, noStore);
+    }
+    if (action === 'invites-create') {
+      const count = Math.min(Math.max(Number(body.count) || 1, 1), 60), days = Math.min(Math.max(Number(body.days) || 30, 1), 180), note = str(body.note, 100);
+      const codes = [];
+      for (let i = 0; i < count; i++) {
+        const code = newCode();
+        await sql`INSERT INTO invites (code, note, expires_at) VALUES (${code}, ${note}, now() + ${days + ' days'}::interval)`;
+        codes.push(code);
+      }
+      return send(res, 200, { codes }, noStore);
+    }
+    if (action === 'invites-list') {
+      return send(res, 200, { invites: await sql`SELECT code, note, created_at, expires_at, used_at, used_by FROM invites ORDER BY created_at DESC LIMIT 300` }, noStore);
+    }
+    if (action === 'invites-delete') {
+      await sql`DELETE FROM invites WHERE code = ${str(body.code, 20)} AND used_by IS NULL`;
+      return send(res, 200, { ok: true }, noStore);
+    }
+    if (action === 'users-list') {
+      return send(res, 200, { users: await sql`SELECT u.id, u.email, u.display_name, u.status, u.note, u.created_at, u.last_login,
+        (SELECT count(*)::int FROM posts p WHERE p.author_user_id = u.id) AS posts FROM users u ORDER BY u.created_at DESC` }, noStore);
+    }
+    if (action === 'user-status') {
+      await sql`UPDATE users SET status = ${body.status === 'disabled' ? 'disabled' : 'active'} WHERE id = ${Number(body.id)}`;
+      return send(res, 200, { ok: true }, noStore);
+    }
+    if (action === 'user-reset') {
+      const temp = randomBytes(9).toString('base64url');   // 12 znaků, zobrazí se jen jednou
+      const r = await sql`UPDATE users SET pass_hash = ${await hashPassword(temp)}, failed_count = 0, locked_until = NULL WHERE id = ${Number(body.id)} RETURNING id`;
+      return r[0] ? send(res, 200, { password: temp }, noStore) : send(res, 404, { error: 'Uživatel neexistuje.' }, noStore);
+    }
+    if (action === 'user-delete') {
+      const id = Number(body.id);
+      await sql`DELETE FROM posts WHERE author_user_id = ${id} AND status <> 'published'`;
+      await sql`UPDATE posts SET author_user_id = NULL WHERE author_user_id = ${id}`;
+      await sql`DELETE FROM users WHERE id = ${id}`;
+      return send(res, 200, { ok: true }, noStore);
+    }
     if (action === 'delete') {
       await sql`DELETE FROM posts WHERE id = ${Number(body.id)}`;
       return send(res, 200, { ok: true }, noStore);

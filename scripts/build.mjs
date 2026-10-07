@@ -349,6 +349,26 @@ pages['/carte'] = (lang) => {
   };
 };
 
+// ======================= COMPTE =======================
+pages['/compte'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  return {
+    title: L('Mon espace – parisien.cz', 'Můj účet – parisien.cz'),
+    description: L('Espace des étudiants : écrire et proposer un article de voyage.', 'Prostor pro studenty: napište a navrhněte cestopisný článek.'),
+    head: '<script defer src="/account.js"></script>',
+    body: head(lang, 'compte', L('Mon espace', 'Můj účet'), L('Pour les étudiants du cours : écrivez vos articles, nous les relisons ensemble avant publication.', 'Pro studenty kurzu: pište své články, před zveřejněním je společně projdeme.'))
+      + sec('', `<div id="acct" data-lang="${lang}"><noscript>${esc(L('Cet espace nécessite JavaScript.', 'Tento prostor vyžaduje JavaScript.'))}</noscript></div>
+<aside class="privacy"><h3>${esc(L('Vos données', 'Vaše údaje'))}</h3>
+<ul>
+<li>${esc(L('Nous enregistrons : votre adresse e-mail, le prénom ou pseudonyme que vous choisissez, un mot de passe chiffré (que nous ne pouvons pas lire) et vos articles.', 'Ukládáme: váš e-mail, jméno nebo přezdívku, kterou si zvolíte, zašifrované heslo (nemůžeme ho přečíst) a vaše články.'))}</li>
+<li>${esc(L('Finalité : vous permettre d’écrire et publier des articles sur ce site scolaire. Aucune publicité, aucune revente, aucun pistage.', 'Účel: umožnit vám psát a publikovat články na tomto školním webu. Žádná reklama, žádný prodej, žádné sledování.'))}</li>
+<li>${esc(L('Sous vos articles publiés, seul le prénom ou pseudonyme apparaît, jamais l’e-mail. Utilisez un pseudonyme si vous préférez.', 'Pod zveřejněnými články se objeví jen jméno nebo přezdívka, nikdy e-mail. Raději použijte přezdívku.'))}</li>
+<li>${esc(L('Vous pouvez supprimer votre compte à tout moment depuis cette page : vos brouillons sont effacés, vos articles publiés restent sous votre pseudonyme (demandez-nous leur retrait si vous le souhaitez).', 'Účet můžete kdykoli smazat na této stránce: koncepty se smažou, zveřejněné články zůstanou pod přezdívkou (o jejich stažení nás můžete požádat).'))}</li>
+<li>${esc(L('Mineurs : l’inscription se fait par l’école, avec l’accord des responsables légaux. N’indiquez jamais de données personnelles d’autres personnes (noms complets, adresses, numéros de téléphone) dans vos textes et n’utilisez que vos propres photos.', 'Nezletilí: registraci zajišťuje škola se souhlasem zákonných zástupců. V textech nikdy neuvádějte osobní údaje jiných osob (celá jména, adresy, telefony) a používejte jen vlastní fotografie.'))}</li>
+</ul></aside>`),
+  };
+};
+
 // ======================= WEBCAMS =======================
 pages['/webcams'] = (lang) => {
   const L = (fr, cs) => (lang === 'cs' ? cs : fr);
@@ -408,6 +428,6 @@ const all = [...urls, ...['fr', 'cs'].flatMap((l) => slugs.map((s) => `/${l}/art
 writeFileSync(`${OUT}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${all.map((u) => `<url><loc>${SITE}${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 writeFileSync(`${OUT}/robots.txt`, `User-agent: *\nDisallow: /admin\nDisallow: /api/\nSitemap: ${SITE}/sitemap.xml\n`);
 // statika
-for (const f of ['styles.css', 'app.js', 'admin.html', 'admin-app.js']) cpSync(`${ROOT}${f}`, `${OUT}/${f}`);
+for (const f of ['styles.css', 'app.js', 'account.js', 'admin.html', 'admin-app.js']) cpSync(`${ROOT}${f}`, `${OUT}/${f}`);
 cpSync(`${ROOT}images`, `${OUT}/images`, { recursive: true });
 console.log(`build ok: ${urls.length} stránek, ${articles.length} článků, ${new Set(allPhotos.map((p) => p.page)).size} fotek`);
