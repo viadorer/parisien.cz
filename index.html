@@ -1,391 +1,163 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>parisien.cz - Découvrez la magie de Paris</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>parisien.cz – Paris vu par des étudiants de français</title>
+  <meta name="description" content="Un projet scolaire bilingue (français / tchèque) pour découvrir Paris.">
+  <meta name="theme-color" content="#1b2a49">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="parisien.cz – Paris / Paříž">
+  <meta property="og:description" content="Paris vu par des étudiants de français · Paříž očima studentů francouzštiny">
+  <meta property="og:image" content="https://www.parisien.cz/images/hero.jpg">
+  <link rel="icon" href="/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo-container">
-            <img src="logoparisien.png" alt="parisien.cz Logo" class="logo">
-            <div class="site-name">parisien.cz</div>
+  <a class="skip" href="#main" data-i18n="skip">Aller au contenu</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="/"><img src="/images/logo.png" alt="" width="36" height="36"><span>parisien.cz</span></a>
+    <button class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    <nav id="nav" aria-label="Navigation">
+      <a href="/#visiter" data-i18n="nav.visit"></a>
+      <a href="/#savourer" data-i18n="nav.taste"></a>
+      <a href="/#culture" data-i18n="nav.culture"></a>
+      <a href="/#musees" data-i18n="nav.museums"></a>
+      <a href="/#recettes" data-i18n="nav.recipes"></a>
+      <a href="/#vocabulaire" data-i18n="nav.vocab"></a>
+      <a href="/#articles" data-i18n="nav.blog"></a>
+      <a href="/#contact" data-i18n="nav.contact"></a>
+    </nav>
+    <div class="lang" role="group" aria-label="Langue / Jazyk">
+      <button data-lang="fr">FR</button><button data-lang="cs">CS</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" style="background-image:url('/images/hero.jpg')">
+      <div class="hero-inner">
+        <p class="kicker" data-i18n="hero.kicker"></p>
+        <h1 data-i18n="hero.title"></h1>
+        <p class="hero-sub" data-i18n="hero.sub"></p>
+        <div class="hero-actions">
+          <a class="btn" href="#visiter" data-i18n="hero.cta"></a>
+          <a class="btn btn-ghost" href="#articles" data-i18n="hero.cta2"></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#a-propos">À Propos</a></li>
-                <li><a href="#visiter">Visiter</a></li>
-                <li><a href="#galerie">Galerie</a></li>
-                <li><a href="#gastronomie">Gastronomie</a></li>
-                <li><a href="#boissons">Boissons</a></li>
-                <li><a href="#culture">Culture</a></li>
-                <li><a href="#musees">Musées</a></li>
-                <li><a href="#recettes">Recettes</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#carte">Carte</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+      </div>
+    </section>
 
-    <main>
-        <section id="hero">
-            <div class="hero-slideshow">
-                <div class="slide active" style="background-image: url('u9534644866_httpss.mj.runF3LxPljPp6g_Create_a_hyper-realistic_0c64df4a-135c-491e-8496-88acfa3b0ac4_3.png');"></div>
-            </div>
-            <div class="hero-content">
-                <h1>Découvrez la magie de Paris</h1>
-                <p>La ville de la lumière, de l'amour et de l'inspiration infinie</p>
-                <a href="#a-propos" class="btn-primary">Explorer</a>
-            </div>
-        </section>
-
-        <section id="a-propos" class="section">
-            <div class="container">
-                <h2>À Propos de Paris</h2>
-                <div class="content-wrapper">
-                    <div class="text-content">
-                        <p>Paris, capitale de la France, est l'une des plus belles villes du monde. Avec sa riche histoire, son architecture magnifique et son atmosphère unique, elle attire des millions de visiteurs chaque année.</p>
-                        <p>La ville s'étend sur les rives de la Seine et offre une multitude de monuments culturels, de musées, de galeries et de lieux d'inspiration.</p>
-                    </div>
-                    <div class="highlight-box">
-                        <div class="stat">
-                            <span class="number">2.1M</span>
-                            <span class="label">habitants</span>
-                        </div>
-                        <div class="stat">
-                            <span class="number">105 km²</span>
-                            <span class="label">superficie</span>
-                        </div>
-                        <div class="stat">
-                            <span class="number">1889</span>
-                            <span class="label">année de construction de la Tour Eiffel</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="visiter" class="section dark">
-            <div class="container">
-                <h2>À Visiter</h2>
-                <div class="places-container">
-                    <button class="places-nav places-prev">&lt;</button>
-                    <div class="places">
-                    <div class="place">
-                        <div class="place-image">
-                            <img src="u9534644866_Tour_Eiffel_Construction_iconique_et_symbole_de_P_7db15dc8-dc66-4fcf-82a9-154082b2c023_0.png" alt="Tour Eiffel">
-                        </div>
-                        <div class="place-info">
-                            <h3>Tour Eiffel</h3>
-                            <p>Construction iconique et symbole de Paris s'élevant à 324 mètres au-dessus de la ville.</p>
-                        </div>
-                    </div>
-                    <div class="place">
-                        <div class="place-image">
-                            <img src="u9534644866_Le_Louvre_Lun_des_plus_grands_et_des_plus_visits__07032623-f3ad-4b50-9a4b-3071e956ac0a_3.png" alt="Le Louvre">
-                        </div>
-                        <div class="place-info">
-                            <h3>Le Louvre</h3>
-                            <p>L'un des plus grands et des plus visités musées du monde avec plus de 38 000 pièces exposées.</p>
-                        </div>
-                    </div>
-                    <div class="place">
-                        <div class="place-image">
-                            <img src="u9534644866_Notre-Dame_Cathdrale_gothique_sur_lle_de_la_Cit_c_741f6ff9-c886-4782-8853-d6df7d2829c6_0.png" alt="Notre-Dame">
-                        </div>
-                        <div class="place-info">
-                            <h3>Notre-Dame</h3>
-                            <p>Cathédrale gothique sur l'île de la Cité, chef-d'œuvre de l'architecture gothique française.</p>
-                        </div>
-                    </div>
-                    <div class="place">
-                        <div class="place-image">
-                            <img src="u9534644866_montmartre_je_na_kopci_--ar_21_--v_6.1_64cdcc52-d4cb-4839-bce8-67493bd22683_1.png" alt="Montmartre">
-                        </div>
-                        <div class="place-info">
-                            <h3>Montmartre</h3>
-                            <p>Quartier historique sur une colline avec la basilique du Sacré-Cœur et une vue impressionnante sur la ville.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="places-nav places-next">&gt;</button>
-            </div>
-        </section>
-
-        <section id="galerie" class="section">
-            <div class="container">
-                <h2>Galerie</h2>
-                <div class="gallery-placeholder">
-                    <p>La galerie de photos sera ajoutée prochainement</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="gastronomie" class="section dark">
-            <div class="container">
-                <h2>Gastronomie Parisienne</h2>
-                <div class="content-wrapper">
-                    <div class="text-content">
-                        <p>Paris est une destination de choix pour les gourmets. La cuisine française est réputée dans le monde entier pour sa finesse et sa diversité.</p>
-                        <p>Des brasseries traditionnelles aux restaurants étoilés, en passant par les innombrables pâtisseries, Paris offre une expérience culinaire inoubliable.</p>
-                    </div>
-                    <div class="food-highlights">
-                        <div class="food-item">
-                            <h3>Plats Emblématiques</h3>
-                            <ul>
-                                <li>Boeuf Bourguignon</li>
-                                <li>Coq au Vin</li>
-                                <li>Confit de Canard</li>
-                                <li>Ratatouille</li>
-                                <li>Soufflé au Fromage</li>
-                            </ul>
-                        </div>
-                        <div class="food-item">
-                            <h3>Pâtisseries</h3>
-                            <ul>
-                                <li>Croissants</li>
-                                <li>Macarons</li>
-                                <li>Éclairs</li>
-                                <li>Paris-Brest</li>
-                                <li>Tarte Tatin</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="boissons" class="section">
-            <div class="container">
-                <h2>Boissons & Cafés</h2>
-                <div class="content-wrapper">
-                    <div class="text-content">
-                        <p>Les cafés parisiens sont des institutions culturelles où l'on peut observer la vie locale tout en savourant un café ou un verre de vin.</p>
-                        <p>La France est également réputée pour ses vins, et Paris offre d'excellentes opportunités de dégustation et d'apprentissage œnologique.</p>
-                    </div>
-                    <div class="drinks-highlight">
-                        <div class="drinks-item">
-                            <h3>Vins Français</h3>
-                            <p>Découvrez les grands vins de Bourgogne, Bordeaux, Loire, Champagne et d'autres régions viticoles françaises dans les bars à vins parisiens.</p>
-                        </div>
-                        <div class="drinks-item">
-                            <h3>Cafés Célèbres</h3>
-                            <ul>
-                                <li>Café de Flore</li>
-                                <li>Les Deux Magots</li>
-                                <li>La Rotonde</li>
-                                <li>Le Select</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="culture" class="section dark">
-            <div class="container">
-                <h2>Culture Parisienne</h2>
-                <div class="content-wrapper">
-                    <div class="text-content">
-                        <p>Paris est souvent appelée la capitale culturelle du monde. Son histoire riche et sa scène artistique vibrante en font un lieu unique pour tous les amoureux de culture.</p>
-                        <p>Des mouvements artistiques comme l'impressionnisme et le surréalisme sont nés à Paris, et la ville continue d'être à l'avant-garde de l'art contemporain.</p>
-                    </div>
-                    <div class="culture-highlights">
-                        <div class="culture-item">
-                            <h3>Arts du Spectacle</h3>
-                            <ul>
-                                <li>Opéra Garnier</li>
-                                <li>Théâtre de la Ville</li>
-                                <li>Comédie-Française</li>
-                                <li>Philharmonie de Paris</li>
-                            </ul>
-                        </div>
-                        <div class="culture-item">
-                            <h3>Littérature</h3>
-                            <p>Paris a inspiré d'innombrables écrivains, de Victor Hugo à Ernest Hemingway. Explorez les cafés littéraires et les librairies historiques comme Shakespeare and Company.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="musees" class="section">
-            <div class="container">
-                <h2>Musées Parisiens</h2>
-                <div class="museums-container">
-                    <div class="museum-item">
-                        <div class="museum-image">
-                            <img src="u9534644866_Le_Centre_Pompidou_Btiment_emblmatique_abritant_u_6b23bb5c-a4f6-4752-87ab-b1f4bf1a1e8d_2.png" alt="Centre Pompidou">
-                        </div>
-                        <div class="museum-info">
-                            <h3>Centre Pompidou</h3>
-                            <p>Bâtiment emblématique abritant une immense collection d'art moderne et contemporain, avec une architecture unique.</p>
-                        </div>
-                    </div>
-                    <div class="museum-item">
-                        <div class="museum-image">
-                            <img src="u9534644866_Muse_dOrsay_Ancienne_gare_transforme_en_muse_ddi_24a62d03-5b1a-4e38-aa20-dbf0b5aaa0de_2.png" alt="Musée d'Orsay">
-                        </div>
-                        <div class="museum-info">
-                            <h3>Musée d'Orsay</h3>
-                            <p>Ancienne gare transformée en musée dédié principalement à l'art français du XIXe siècle, notamment l'impressionnisme.</p>
-                        </div>
-                    </div>
-                    <div class="museum-item">
-                        <div class="museum-image">
-                            <img src="u9534644866_Muse_de_lOrangerie_Abrite_les_Nymphas_de_Claude_Mo_0889af83-78ac-4ab9-95bc-18dd7ed76c5c_3.png" alt="Musée de l'Orangerie">
-                        </div>
-                        <div class="museum-info">
-                            <h3>Musée de l'Orangerie</h3>
-                            <p>Abrite les Nymphéas de Claude Monet ainsi qu'une collection importante d'art impressionniste et post-impressionniste.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="recettes" class="section dark">
-            <div class="container">
-                <h2>Recettes Parisiennes</h2>
-                <div class="recipes-container">
-                    <div class="recipe-card">
-                        <div class="recipe-header">
-                            <h3>Croque-Monsieur</h3>
-                            <span class="recipe-difficulty">Facile</span>
-                        </div>
-                        <div class="recipe-ingredients">
-                            <h4>Ingrédients</h4>
-                            <ul>
-                                <li>8 tranches de pain de mie</li>
-                                <li>4 tranches de jambon</li>
-                                <li>200g de gruyère râpé</li>
-                                <li>50g de beurre</li>
-                                <li>25cl de lait</li>
-                                <li>25g de farine</li>
-                                <li>Noix de muscade</li>
-                                <li>Sel et poivre</li>
-                            </ul>
-                        </div>
-                        <div class="recipe-instructions">
-                            <p>Préparez une béchamel, beurrez les tranches de pain, ajoutez le jambon et le fromage, puis gratinez au four. Un classique des brasseries parisiennes!</p>
-                        </div>
-                    </div>
-                    <div class="recipe-card">
-                        <div class="recipe-header">
-                            <h3>Tarte aux Fruits</h3>
-                            <span class="recipe-difficulty">Moyen</span>
-                        </div>
-                        <div class="recipe-ingredients">
-                            <h4>Ingrédients</h4>
-                            <ul>
-                                <li>Pâte sablée</li>
-                                <li>Crème pâtissière</li>
-                                <li>Fruits de saison</li>
-                                <li>Nappage</li>
-                            </ul>
-                        </div>
-                        <div class="recipe-instructions">
-                            <p>Cuisez la pâte à blanc, garnissez de crème pâtissière et décorez avec des fruits frais avant de napper. Une pâtisserie classique à la française!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="blog" class="section">
-            <div class="container">
-                <h2>Blog Parisien</h2>
-                <div class="blog-posts">
-                    <article class="blog-post">
-                        <div class="post-date">18 Mars 2025</div>
-                        <h3>Les Secrets des Passages Couverts Parisiens</h3>
-                        <div class="post-excerpt">
-                            <p>Découvrez l'histoire fascinante des passages couverts, ces galeries commerciales du XIXe siècle qui offrent un voyage dans le temps au cœur de Paris...</p>
-                        </div>
-                        <a href="#" class="read-more">Lire la suite</a>
-                    </article>
-                    <article class="blog-post">
-                        <div class="post-date">12 Mars 2025</div>
-                        <h3>Comment Vivre Comme un Parisien le Temps d'un Weekend</h3>
-                        <div class="post-excerpt">
-                            <p>Adresses confidentielles, habitudes locales et conseils pour une expérience authentique loin des sentiers touristiques classiques...</p>
-                        </div>
-                        <a href="#" class="read-more">Lire la suite</a>
-                    </article>
-                    <article class="blog-post">
-                        <div class="post-date">5 Mars 2025</div>
-                        <h3>Paris à Vélo: Itinéraires et Conseils</h3>
-                        <div class="post-excerpt">
-                            <p>Explorer Paris à vélo est une expérience unique. Voici nos itinéraires préférés et quelques astuces pour profiter pleinement de la ville sur deux roues...</p>
-                        </div>
-                        <a href="#" class="read-more">Lire la suite</a>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="carte" class="section-fullwidth">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.94722636177!2d2.2770202!3d48.8588377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sfr!2sfr!4v1710681879806!5m2!1sfr!2sfr" width="100%" height="600" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-
-        <section id="contact" class="section dark">
-            <div class="container">
-                <h2>Contactez-nous</h2>
-                <div class="contact-wrapper">
-                    <div class="contact-info">
-                        <p>Pour plus d'informations sur Paris ou de l'aide pour planifier votre voyage, n'hésitez pas à nous contacter.</p>
-                        <p class="email">info@parisien.cz</p>
-                    </div>
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" placeholder="Votre nom">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" placeholder="Votre e-mail">
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" placeholder="Votre message"></textarea>
-                        </div>
-                        <button type="submit" class="btn-primary">Envoyer le message</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="logoparisien.png" alt="parisien.cz Logo" class="footer-logo-img">
-                </div>
-                <div class="footer-links">
-                    <a href="#accueil">Accueil</a>
-                    <a href="#a-propos">À Propos</a>
-                    <a href="#visiter">Visiter</a>
-                    <a href="#galerie">Galerie</a>
-                    <a href="#gastronomie">Gastronomie</a>
-                    <a href="#boissons">Boissons</a>
-                    <a href="#culture">Culture</a>
-                    <a href="#musees">Musées</a>
-                    <a href="#recettes">Recettes</a>
-                    <a href="#blog">Blog</a>
-                    <a href="#carte">Carte</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                <div class="footer-copyright">
-                    <p>&copy; 2025 parisien.cz. Tous droits réservés.</p>
-                </div>
-            </div>
+    <section class="section" id="projet">
+      <div class="container two-col">
+        <div>
+          <h2 data-i18n="about.title"></h2>
+          <p data-i18n="about.p1"></p>
+          <p data-i18n="about.p2"></p>
+          <p class="note" data-i18n="about.note"></p>
         </div>
-    </footer>
+        <div class="stats">
+          <div><b>2,1 M</b><span data-i18n="stat.pop"></span></div>
+          <div><b>105 km²</b><span data-i18n="stat.area"></span></div>
+          <div><b>1889</b><span data-i18n="stat.eiffel"></span></div>
+        </div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="section alt" id="visiter">
+      <div class="container">
+        <h2 data-i18n="visit.title"></h2><p class="lead" data-i18n="visit.lead"></p>
+        <div class="cards" id="places"></div>
+      </div>
+    </section>
+
+    <section class="section" id="savourer">
+      <div class="container">
+        <h2 data-i18n="taste.title"></h2><p class="lead" data-i18n="taste.lead"></p>
+        <p class="narrow" data-i18n="taste.p1"></p>
+        <div class="grid-2">
+          <div class="panel"><h3 data-i18n="taste.dishes"></h3><ul id="dishes"></ul></div>
+          <div class="panel"><h3 data-i18n="taste.pastries"></h3><ul id="pastries"></ul></div>
+          <div class="panel"><h3 data-i18n="taste.cafes"></h3><p data-i18n="taste.cafes.p"></p><ul id="cafes"></ul></div>
+          <div class="panel"><h3 data-i18n="taste.wine"></h3><p data-i18n="taste.wine.p"></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="culture">
+      <div class="container">
+        <h2 data-i18n="culture.title"></h2><p class="lead" data-i18n="culture.lead"></p>
+        <p class="narrow" data-i18n="culture.p1"></p>
+        <div class="grid-2">
+          <div class="panel"><h3 data-i18n="culture.stage"></h3><ul id="stage"></ul></div>
+          <div class="panel"><h3 data-i18n="culture.lit"></h3><p data-i18n="culture.lit.p"></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="musees">
+      <div class="container">
+        <h2 data-i18n="museums.title"></h2><p class="lead" data-i18n="museums.lead"></p>
+        <div class="grid-3" id="museums"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="recettes">
+      <div class="container">
+        <h2 data-i18n="recipes.title"></h2><p class="lead" data-i18n="recipes.lead"></p>
+        <div class="grid-3" id="recipes"></div>
+      </div>
+    </section>
+
+    <section class="section" id="vocabulaire">
+      <div class="container">
+        <h2 data-i18n="vocab.title"></h2><p class="lead" data-i18n="vocab.lead"></p>
+        <table class="vocab"><thead><tr><th data-i18n="vocab.fr"></th><th data-i18n="vocab.cs"></th></tr></thead><tbody id="vocab"></tbody></table>
+      </div>
+    </section>
+
+    <section class="section alt" id="articles">
+      <div class="container">
+        <h2 data-i18n="blog.title"></h2><p class="lead" data-i18n="blog.lead"></p>
+        <div class="cards" id="posts" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="map" aria-label="Carte">
+      <iframe title="Paris" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+        src="https://www.google.com/maps?q=Paris,+France&z=12&output=embed"></iframe>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container two-col">
+        <div>
+          <h2 data-i18n="contact.title"></h2>
+          <p data-i18n="contact.lead"></p>
+          <p><a href="mailto:info@parisien.cz">info@parisien.cz</a></p>
+          <p class="note" data-i18n="contact.privacy"></p>
+        </div>
+        <form id="contact-form" novalidate>
+          <label class="sr" for="c-name" data-i18n="contact.name"></label>
+          <input id="c-name" name="name" maxlength="100" autocomplete="name" required data-i18n-ph="contact.name">
+          <label class="sr" for="c-email" data-i18n="contact.email"></label>
+          <input id="c-email" name="email" type="email" maxlength="200" autocomplete="email" required data-i18n-ph="contact.email">
+          <label class="sr" for="c-msg" data-i18n="contact.msg"></label>
+          <textarea id="c-msg" name="message" rows="5" maxlength="4000" required data-i18n-ph="contact.msg"></textarea>
+          <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn" type="submit" data-i18n="contact.send"></button>
+          <p id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="/images/logo.png" alt="" width="40" height="40">
+    <p>© <span id="year">2026</span> parisien.cz · <span data-i18n="footer.rights"></span> · <span data-i18n="footer.ai"></span></p>
+  </footer>
+
+  <script src="/i18n.js"></script>
+  <script src="/app.js"></script>
 </body>
 </html>
