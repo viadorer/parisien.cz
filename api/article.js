@@ -3,6 +3,7 @@ import { layout, esc, pick, figure, SITE } from '../lib/layout.js';
 import { toHtml, plain } from '../lib/markup.js';
 import { ico } from '../lib/icons.js';
 import { getPost, getPosts, getVersions } from '../lib/posts.js';
+import { sql, hasDb } from '../lib/db.js';
 import { topicUrl, articleTopic, QUAK_TOPICS, TOPICS_LIVE } from '../lib/quak.js';
 
 const CAT = {
@@ -10,8 +11,8 @@ const CAT = {
   cs: { paris: 'Paříž', voyage: 'Cestování', langue: 'Jazyk' },
 };
 const T = {
-  fr: { listen: 'Écouter l’article', stopL: 'Arrêter', speed: 'Vitesse', comp: 'Compréhension', quak: 'réviser dans Quak', level: 'Niveau de lecture', levelNote: 'Même article, écrit pour chaque niveau CECR.', glossary: 'Vocabulaire', back: '← Tous les articles', sources: 'Sources', by: 'Par', notrans: 'Cet article n’est pas encore traduit en français ; voici la version tchèque.', more: 'À lire aussi', nf: 'Article introuvable', nfp: 'Cet article n’existe pas ou n’est plus publié.' },
-  cs: { listen: 'Poslechnout francouzsky', stopL: 'Zastavit', speed: 'Rychlost', comp: 'Porozumění textu', quak: 'procvičit v Quaku', level: 'Úroveň čtení', levelNote: 'Stejný článek napsaný pro každou úroveň CEFR.', glossary: 'Slovíčka', back: '← Všechny články', sources: 'Zdroje', by: 'Autor', notrans: 'Tento článek zatím nemá český překlad, zobrazuje se francouzská verze.', more: 'Přečtěte si také', nf: 'Článek nenalezen', nfp: 'Tento článek neexistuje nebo už není zveřejněný.' },
+  fr: { by2: 'Par', profile: 'Voir le profil', save: 'Garder', saved: 'Gardé', react: 'Cet article vous a plu ?', rUtile: 'Utile', rMerci: 'Merci', rInsp: 'Inspirant', signin: 'Connectez-vous (Mon espace) pour réagir.', corrT: 'Proposer une correction', corrHint: 'Sélectionnez une phrase du texte, puis proposez une version corrigée. L’auteur décide s’il l’accepte.', corrOrig: 'Texte à corriger', corrNew: 'Votre proposition', corrNote: 'Explication (facultatif)', corrSend: 'Envoyer la proposition', corrOk: 'Merci ! L’auteur verra votre proposition.', corrLogin: 'Connectez-vous pour proposer une correction.', listen: 'Écouter l’article', stopL: 'Arrêter', speed: 'Vitesse', comp: 'Compréhension', quak: 'réviser dans Quak', level: 'Niveau de lecture', levelNote: 'Même article, écrit pour chaque niveau CECR.', glossary: 'Vocabulaire', back: '← Tous les articles', sources: 'Sources', by: 'Par', notrans: 'Cet article n’est pas encore traduit en français ; voici la version tchèque.', more: 'À lire aussi', nf: 'Article introuvable', nfp: 'Cet article n’existe pas ou n’est plus publié.' },
+  cs: { by2: 'Autor', profile: 'Zobrazit profil', save: 'Uložit', saved: 'Uloženo', react: 'Líbil se vám článek?', rUtile: 'Užitečné', rMerci: 'Díky', rInsp: 'Inspirativní', signin: 'Pro reakci se přihlaste (Můj účet).', corrT: 'Navrhnout opravu', corrHint: 'Označte v textu větu a navrhněte opravenou verzi. Autor rozhodne, jestli ji přijme.', corrOrig: 'Text k opravě', corrNew: 'Váš návrh', corrNote: 'Vysvětlení (nepovinné)', corrSend: 'Odeslat návrh', corrOk: 'Děkujeme! Autor váš návrh uvidí.', corrLogin: 'Pro návrh opravy se přihlaste.', listen: 'Poslechnout francouzsky', stopL: 'Zastavit', speed: 'Rychlost', comp: 'Porozumění textu', quak: 'procvičit v Quaku', level: 'Úroveň čtení', levelNote: 'Stejný článek napsaný pro každou úroveň CEFR.', glossary: 'Slovíčka', back: '← Všechny články', sources: 'Zdroje', by: 'Autor', notrans: 'Tento článek zatím nemá český překlad, zobrazuje se francouzská verze.', more: 'Přečtěte si také', nf: 'Článek nenalezen', nfp: 'Tento článek neexistuje nebo už není zveřejněný.' },
 };
 const fmt = (iso, lang) => new Date(iso).toLocaleDateString(lang === 'cs' ? 'cs-CZ' : 'fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
 
@@ -35,6 +36,15 @@ export default async function handler(req, res) {
     const related = (await getPosts({ cat: post.category, limit: 24 })).filter((p) => p.slug === p.base && p.base !== post.base).slice(0, 3);
     const versions = await getVersions(post.base);
     const switcher = versions.length > 1 ? `<nav class="level-switch" aria-label="${esc(t.level)}"><span>${esc(t.level)} :</span>${versions.map((v) => `<a href="/${lang}/article/${esc(v.slug)}" data-level="${esc(v.level)}"${v.slug === slug ? ' aria-current="page"' : ''}>${esc(v.level || '?')}</a>`).join('')}<small>${esc(t.levelNote)}</small></nav>` : '';
+    let counts = { utile: 0, merci: 0, inspirant: 0 };
+    if (hasDb) { try { for (const r of await sql`SELECT kind, count(*)::int AS n FROM reactions WHERE post_slug = ${slug} GROUP BY kind`) counts[r.kind] = r.n; } catch {} }
+    const bylineName = post.authorSlug ? `<a href="/${lang}/auteur/${esc(post.authorSlug)}" title="${esc(t.profile)}">${esc(post.author)}</a>` : esc(post.author);
+    const sigName = post.sig || post.author || 'parisien.cz';
+    const sigMeta = [post.authorClass, post.place, new Date(post.date).toLocaleDateString(lang === 'cs' ? 'cs-CZ' : 'fr-FR', { month: 'long', year: 'numeric' })].filter(Boolean).join(' · ');
+    const signature = `<div class="signature"><div class="sig-name">${post.authorSlug ? `<a href="/${lang}/auteur/${esc(post.authorSlug)}">${esc(sigName)}</a>` : esc(sigName)}</div><div class="sig-meta">${esc(sigMeta)}</div></div>`;
+    const reactions = `<section class="reactions" data-reactions data-slug="${esc(slug)}" data-lang="${lang}"><span>${esc(t.react)}</span>${[['utile', t.rUtile], ['merci', t.rMerci], ['inspirant', t.rInsp]].map(([k, l]) => `<button type="button" class="chip react-btn" data-kind="${k}" aria-pressed="false">${esc(l)} <b>${counts[k]}</b></button>`).join('')}<small class="react-hint" hidden>${esc(t.signin)}</small></section>`;
+    const tools = `<div class="article-tools"><button type="button" class="chip" data-save data-slug="${esc(slug)}" data-title="${esc(title)}" data-level="${esc(post.level)}" aria-pressed="false">${ico('plus')} <span>${esc(t.save)}</span></button></div>`;
+    const corr = post.authorId ? `<section class="corr" data-corr data-slug="${esc(slug)}" data-lang="${lang}"><details><summary>${esc(t.corrT)}</summary><p class="note">${esc(t.corrHint)}</p><form novalidate><label>${esc(t.corrOrig)}<textarea name="original" rows="2" maxlength="300" required></textarea></label><label>${esc(t.corrNew)}<textarea name="suggestion" rows="2" maxlength="300" required></textarea></label><label>${esc(t.corrNote)}<input name="note" maxlength="200"></label><button type="submit" class="chip">${esc(t.corrSend)}</button><p class="corr-status" role="status"></p></form></details></section>` : '';
     const frText = plain(post.body.fr).slice(0, 14000);
     const listen = frText ? `<div class="listen-bar" data-listen hidden><button type="button" data-act="play">${ico('play')} ${esc(t.listen)}</button><button type="button" data-act="stop" aria-label="${esc(t.stopL)}">${ico('stop')}</button><label>${esc(t.speed)} <select data-speed><option value="0.75">0,75×</option><option value="0.9" selected>0,9×</option><option value="1">1×</option></select></label><script type="application/json" id="fr-text">${JSON.stringify(frText).replace(/</g, '\\u003c')}</script></div>` : '';
     const comp = post.questions?.length ? `<section class="comprehension"><h2>${esc(t.comp)}</h2><div id="cq" data-lang="${lang}"></div><script type="application/json" id="cq-data">${JSON.stringify(post.questions).replace(/</g, '\\u003c')}</script></section>` : '';
@@ -47,13 +57,18 @@ export default async function handler(req, res) {
       head: `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Article', headline: title, datePublished: post.date, inLanguage: lang, author: { '@type': 'Organization', name: post.author || 'parisien.cz' }, image: post.cover || undefined, mainEntityOfPage: `${SITE}/${lang}/article/${slug}` }).replace(/</g, '\\u003c')}</script>`,
       body: `<article class="article" data-base="${esc(post.base)}" data-level="${esc(post.level)}">
   <a class="read-more" href="/${lang}/blog">${esc(t.back)}</a>
-  <div class="post-meta"><span class="tag">${esc(CAT[lang][post.category] || post.category)}</span>${post.level ? ` <span class="tag lvl lvl-${esc(post.level)}">${esc(post.level)}</span>` : ''} <time datetime="${esc(post.date)}">${esc(fmt(post.date, lang))}</time>${post.author ? ` · ${esc(t.by)} ${esc(post.author)}` : ''}</div>
+  <div class="post-meta"><span class="tag">${esc(CAT[lang][post.category] || post.category)}</span>${post.level ? ` <span class="tag lvl lvl-${esc(post.level)}">${esc(post.level)}</span>` : ''} <time datetime="${esc(post.date)}">${esc(fmt(post.date, lang))}</time></div>
   <h1>${esc(title)}</h1>
+  ${post.author ? `<p class="byline">${esc(t.by2)} ${bylineName}${post.place ? ` · ${esc(post.place)}` : ''}</p>` : ''}
+  ${tools}
   ${switcher}
   ${listen}
   ${post.cover ? `<figure class="photo article-cover"><img src="${esc(post.cover)}" alt=""><figcaption class="credit">${post.coverCredit ? `<a href="${esc(post.coverCredit.url || '#')}" target="_blank" rel="noopener">© ${esc(post.coverCredit.text)}</a>` : ''}</figcaption></figure>` : ''}
   ${missing ? `<p class="note">${esc(t.notrans)}</p>` : ''}
   <div class="article-body">${toHtml(body)}</div>
+  ${signature}
+  ${reactions}
+  ${corr}
   ${glossary}
   ${comp}
   ${post.sources.length ? `<aside class="sources"><h2>${esc(t.sources)}</h2><ul>${post.sources.map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s.replace(/^https:\/\/(www\.)?/, '').slice(0, 80))}</a></li>`).join('')}</ul></aside>` : ''}

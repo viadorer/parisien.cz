@@ -6,6 +6,7 @@ import { presignUpload, r2Configured } from '../lib/r2.js';
 import { send, readJson, str, slugify } from '../lib/http.js';
 import { hashPassword, newCode } from '../lib/users.js';
 import { randomBytes } from 'node:crypto';
+import { geocodePlace } from '../lib/geocode.js';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -90,9 +91,21 @@ export default async function handler(req, res) {
     if (action === 'review') {
       const id = Number(body.id);
       const rows = body.decision === 'publish'
-        ? await sql`UPDATE posts SET status='published', published=true, published_at=now(), review_note='' WHERE id=${id} RETURNING id`
+        ? await sql`UPDATE posts SET status='published', published=true, published_at=now(), review_note='' WHERE id=${id} RETURNING id, place, lat`
         : await sql`UPDATE posts SET status='rejected', published=false, review_note=${str(body.note, 500)} WHERE id=${id} RETURNING id`;
+      if (rows[0] && body.decision === 'publish' && rows[0].place && rows[0].lat == null) {
+        const g = await geocodePlace(rows[0].place);
+        if (g) await sql`UPDATE posts SET lat = ${g.lat}, lon = ${g.lon} WHERE id = ${id}`;
+      }
       return rows[0] ? send(res, 200, { ok: true }, noStore) : send(res, 404, { error: 'Článek neexistuje.' }, noStore);
+    }
+    if (action === 'postcards-list') {
+      return send(res, 200, { postcards: await sql`SELECT c.id, c.photo_id, c.message, c.lang, c.status, c.created_at, u.display_name AS who FROM postcards c JOIN users u ON u.id = c.user_id ORDER BY (c.status = 'submitted') DESC, c.created_at DESC LIMIT 100` }, noStore);
+    }
+    if (action === 'postcard-review') {
+      const st = body.decision === 'publish' ? 'published' : 'rejected';
+      await sql`UPDATE postcards SET status = ${st} WHERE id = ${Number(body.id)}`;
+      return send(res, 200, { ok: true }, noStore);
     }
     if (action === 'invites-create') {
       const count = Math.min(Math.max(Number(body.count) || 1, 1), 60), days = Math.min(Math.max(Number(body.days) || 30, 1), 180), note = str(body.note, 100);
@@ -128,6 +141,9 @@ export default async function handler(req, res) {
       const id = Number(body.id);
       await sql`DELETE FROM posts WHERE author_user_id = ${id} AND status <> 'published'`;
       await sql`UPDATE posts SET author_user_id = NULL WHERE author_user_id = ${id}`;
+      await sql`DELETE FROM reactions WHERE user_id = ${id}`;
+      await sql`DELETE FROM postcards WHERE user_id = ${id}`;
+      await sql`DELETE FROM corrections WHERE user_id = ${id}`;
       await sql`DELETE FROM users WHERE id = ${id}`;
       return send(res, 200, { ok: true }, noStore);
     }

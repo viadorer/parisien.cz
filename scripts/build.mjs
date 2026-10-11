@@ -28,6 +28,7 @@ const byLevel = (a, b) => LVL.indexOf(a.level) - LVL.indexOf(b.level) || String(
 const dialogues = readDir('data/dialogues').sort(byLevel);
 const expressions = (() => { const seen = new Set(); return readDir('data/expressions').sort(byLevel).filter((e) => { const k = e.fr.toLowerCase(); if (seen.has(e.id) || seen.has(k)) return false; seen.add(e.id); seen.add(k); return true; }); })();
 const itineraries = readDir('data/itineraries');
+const challenges = rd('challenges.json', []);
 
 // ---------- místní kopie fotek (scripts/mirror-photos.mjs) ----------
 const photoId = (file) => createHash('sha1').update(file).digest('hex').slice(0, 10);
@@ -363,7 +364,7 @@ pages['/carte'] = (lang) => {
     const hash = type === 'place' || type === 'museum' ? `#${it.id}` : (types[type][2].includes('#') ? types[type][2].slice(types[type][2].indexOf('#')) : '');
     points.push({ t: type, n: pick(it.name, lang), lat: c.lat, lon: c.lon, d: firstSentence(it.intro || it.text || it.vibe, lang), h: `/${lang}${base}${hash}` });
   }
-  const liveTypes = [['velib', L('Vélib’ (en direct)', 'Vélib’ (živě)'), '#1c7a3d'], ['fountains', L('Fontaines à boire', 'Pítné fontány'), '#1e90ff'], ['cool', L('Fraîcheur (brumisateurs, piscines…)', 'Osvěžení (mlžítka, bazény…)'), '#17a2b8'], ['swim', L('Baignade en Seine', 'Koupání v Seině'), '#0057b8']];
+  const liveTypes = [['velib', L('Vélib’ (en direct)', 'Vélib’ (živě)'), '#1c7a3d'], ['fountains', L('Fontaines à boire', 'Pítné fontány'), '#1e90ff'], ['cool', L('Fraîcheur (brumisateurs, piscines…)', 'Osvěžení (mlžítka, bazény…)'), '#17a2b8'], ['swim', L('Baignade en Seine', 'Koupání v Seině'), '#0057b8'], ['trips', L('Nos voyages (étudiants)', 'Naše cesty (studenti)'), '#6a5acd']];
   const liveChips = liveTypes.map(([k, label, color]) => `<button class="chip map-chip" data-layer="${k}" data-live="1" aria-pressed="false"><i style="background:${color}"></i>${esc(label)}</button>`).join('');
   const routes = itineraries.map((r) => ({
     id: r.id, title: pick(r.title, lang),
@@ -499,6 +500,46 @@ pages['/carnet'] = (lang) => {
   };
 };
 
+// ======================= KOMUNITA =======================
+pages['/komunita'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  return {
+    title: L('Communauté – parisien.cz', 'Komunita – parisien.cz'),
+    description: L('Les textes, cartes postales et voyages des étudiants : écrivez, signez, lisez les autres.', 'Texty, pohlednice a cesty studentů: pište, podepisujte se, čtěte ostatní.'),
+    body: head(lang, 'komunita', L('Communauté', 'Komunita'), L('Ici, ce sont les étudiants qui écrivent. Lisez, réagissez, signez vos textes.', 'Tady píšou studenti. Čtěte, reagujte a podepisujte své texty.'))
+      + sec('', `<div class="challenge" id="challenge" data-lang="${lang}"></div>
+<p class="center-left"><a class="btn-primary dark-btn" href="/${lang}/compte">${esc(L('Écrire mon texte', 'Napsat vlastní text'))}</a> <a class="read-more" href="/${lang}/article/carnet-de-voyage-guide">${esc(L('Guide d’écriture', 'Návod, jak psát'))}</a></p>`, 'defi')
+      + sec('grey', `<h2>${esc(L('Nouveau dans la communauté', 'Nově v komunitě'))}</h2><div id="comm-recent" class="cards-grid" data-lang="${lang}" aria-live="polite"></div>`, 'nouveautes')
+      + sec('', `<h2>${esc(L('Les auteurs', 'Autoři'))}</h2><div id="comm-authors" class="authors" data-lang="${lang}" aria-live="polite"></div>`, 'auteurs')
+      + sec('grey', `<h2>${esc(L('Cartes postales', 'Pohlednice'))}</h2><div id="comm-postcards" class="postcards" data-lang="${lang}" data-limit="3" aria-live="polite"></div><p class="center-left"><a class="btn-primary dark-btn" href="/${lang}/pohlednice">${esc(L('Toutes les cartes postales', 'Všechny pohlednice'))}</a></p>`, 'cartes')
+      + sec('', `<h2>${esc(L('Nos voyages sur la carte', 'Naše cesty na mapě'))}</h2><p class="narrow">${esc(L('Chaque récit de voyage d’étudiant reçoit une épingle sur la carte (seulement la ville).', 'Každý cestopis studenta dostane na mapě špendlík (jen město).'))}</p><a class="btn-primary dark-btn" href="/${lang}/carte?layer=trips">${esc(L('Voir la carte', 'Zobrazit mapu'))}</a>`, 'voyages-carte'),
+  };
+};
+
+// ======================= POHLEDNICE =======================
+pages['/pohlednice'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  const opts = gallery.filter((g) => hasLocal(g.photo.file)).map((g) => ({ id: photoId(g.photo.file), caption: pick(g.caption, lang), credit: `${g.photo.author} · ${g.photo.license}`, page: g.photo.page }));
+  return {
+    title: L('Cartes postales – parisien.cz', 'Pohlednice – parisien.cz'),
+    description: L('Écrivez une carte postale de Paris et partagez-la : photo, message, signature.', 'Napište pohlednici z Paříže a sdílejte ji: fotka, zpráva, podpis.'),
+    body: head(lang, 'cartes', L('Cartes postales', 'Pohlednice'), L('Choisissez une photo, écrivez quelques lignes et signez. Votre enseignant relit avant publication.', 'Vyberte fotku, napište pár řádků a podepište se. Učitel text před zveřejněním zkontroluje.'))
+      + sec('', `<div id="pc-create" data-lang="${lang}"></div><script type="application/json" id="pc-photos">${JSON.stringify(opts).replace(/</g, '\\u003c')}</script>`, 'ecrire')
+      + sec('grey', `<h2>${esc(L('Les cartes de la communauté', 'Pohlednice komunity'))}</h2><div id="comm-postcards" class="postcards" data-lang="${lang}" aria-live="polite"></div>`, 'galerie'),
+  };
+};
+
+// ======================= MŮJ KOUTEK =======================
+pages['/koutek'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  return {
+    title: L('Mon coin lecture – parisien.cz', 'Můj koutek – parisien.cz'),
+    description: L('Vos articles gardés, votre progression de lecture et votre carnet de mots.', 'Vaše uložené články, postup ve čtení a sešit slovíček.'),
+    body: head(lang, 'koutek', L('Mon coin lecture', 'Můj koutek'), L('Tout reste dans votre navigateur : aucune donnée n’est envoyée.', 'Vše zůstává ve vašem prohlížeči: nic se neodesílá.'))
+      + sec('', `<div id="corner" data-lang="${lang}"></div>`),
+  };
+};
+
 // ======================= WEBCAMS =======================
 pages['/webcams'] = (lang) => {
   const L = (fr, cs) => (lang === 'cs' ? cs : fr);
@@ -566,6 +607,8 @@ for (const lang of ['fr', 'cs']) {
   writeFileSync(`${OUT}/search-index-${lang}.json`, JSON.stringify(sidx[lang]));
 }
 mkdirSync(`${OUT}/data`, { recursive: true });
+writeFileSync(`${OUT}/data/challenges.json`, JSON.stringify(challenges));
+writeFileSync(`${OUT}/data/photo-credits.json`, JSON.stringify(Object.fromEntries(allPhotos.filter((ph) => ph.file && hasLocal(ph.file)).map((ph) => [photoId(ph.file), { c: `${ph.author} · ${ph.license}`, p: ph.page }]))));
 writeFileSync(`${OUT}/data/expressions.json`, JSON.stringify(expressions.map((e) => ({ id: e.id, fr: e.fr, level: e.level, meaning: e.meaning, example: e.example }))));
 // kořen: výběr jazyka
 writeFileSync(`${OUT}/index.html`, `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>parisien.cz</title><meta name="viewport" content="width=device-width,initial-scale=1">

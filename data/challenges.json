@@ -1,0 +1,146 @@
+[
+ {
+  "id": "w1",
+  "level": "A1",
+  "fr": "Présentez-vous en cinq phrases : nom, ville, âge, passions.",
+  "cs": "Představte se v pěti větách: jméno, město, věk, záliby."
+ },
+ {
+  "id": "w2",
+  "level": "A1",
+  "fr": "Décrivez votre petit-déjeuner idéal.",
+  "cs": "Popište svou vysněnou snídani."
+ },
+ {
+  "id": "w3",
+  "level": "A1",
+  "fr": "Quel temps fait-il aujourd'hui chez vous ?",
+  "cs": "Jaké je dnes u vás počasí?"
+ },
+ {
+  "id": "w4",
+  "level": "A1",
+  "fr": "Présentez votre famille ou vos amis.",
+  "cs": "Představte svou rodinu nebo přátele."
+ },
+ {
+  "id": "w5",
+  "level": "A2",
+  "fr": "Racontez votre dernier week-end.",
+  "cs": "Vyprávějte o svém posledním víkendu."
+ },
+ {
+  "id": "w6",
+  "level": "A2",
+  "fr": "Décrivez votre quartier préféré : où, pourquoi, qu'est-ce qu'on y fait ?",
+  "cs": "Popište svou oblíbenou čtvrť: kde je, proč a co se tam dělá."
+ },
+ {
+  "id": "w7",
+  "level": "A2",
+  "fr": "Écrivez une carte postale à un ami depuis Paris (imaginaire ou réelle).",
+  "cs": "Napište pohlednici příteli z Paříže (smyšlenou nebo skutečnou)."
+ },
+ {
+  "id": "w8",
+  "level": "A2",
+  "fr": "Quel est votre plat préféré ? Expliquez comment on le prépare.",
+  "cs": "Jaké je vaše oblíbené jídlo? Vysvětlete, jak se připravuje."
+ },
+ {
+  "id": "w9",
+  "level": "A2",
+  "fr": "Présentez un objet que vous aimez et dites pourquoi.",
+  "cs": "Představte předmět, který máte rádi, a řekněte proč."
+ },
+ {
+  "id": "w10",
+  "level": "A2",
+  "fr": "Quel moyen de transport préférez-vous ? Pourquoi ?",
+  "cs": "Jaký dopravní prostředek máte nejraději? Proč?"
+ },
+ {
+  "id": "w11",
+  "level": "B1",
+  "fr": "Racontez un voyage ou une sortie scolaire inoubliable.",
+  "cs": "Vyprávějte o nezapomenutelném výletu nebo školní exkurzi."
+ },
+ {
+  "id": "w12",
+  "level": "B1",
+  "fr": "Décrivez un lieu de votre ville que les touristes ne connaissent pas.",
+  "cs": "Popište místo ve vašem městě, které turisté neznají."
+ },
+ {
+  "id": "w13",
+  "level": "B1",
+  "fr": "Quel monument ou musée aimeriez-vous visiter à Paris ? Que voudriez-vous y voir ?",
+  "cs": "Který pomník nebo muzeum byste chtěli navštívit v Paříži? Co byste tam rádi viděli?"
+ },
+ {
+  "id": "w14",
+  "level": "B1",
+  "fr": "Écrivez à un ami pour lui donner trois conseils pour apprendre le français.",
+  "cs": "Napište příteli tři rady, jak se učit francouzsky."
+ },
+ {
+  "id": "w15",
+  "level": "B1",
+  "fr": "Comparez la vie dans une grande ville et à la campagne.",
+  "cs": "Porovnejte život ve velkém městě a na venkově."
+ },
+ {
+  "id": "w16",
+  "level": "B1",
+  "fr": "Racontez une rencontre amusante ou surprenante avec la langue française.",
+  "cs": "Vyprávějte o veselém nebo překvapivém setkání s francouzštinou."
+ },
+ {
+  "id": "w17",
+  "level": "B1",
+  "fr": "Décrivez une tradition de votre pays à un ami français.",
+  "cs": "Popište tradici své země francouzskému kamarádovi."
+ },
+ {
+  "id": "w18",
+  "level": "B2",
+  "fr": "Les vacances parfaites : mer, montagne ou ville ? Défendez votre choix.",
+  "cs": "Dokonalá dovolená: moře, hory, nebo město? Obhajte svou volbu."
+ },
+ {
+  "id": "w19",
+  "level": "B2",
+  "fr": "Faut-il visiter les monuments célèbres malgré la foule ? Donnez votre avis.",
+  "cs": "Má smysl navštěvovat slavné památky navzdory davům? Napište svůj názor."
+ },
+ {
+  "id": "w20",
+  "level": "B2",
+  "fr": "Racontez un moment où vous avez dû vous débrouiller dans une langue étrangère.",
+  "cs": "Vyprávějte o chvíli, kdy jste se museli domluvit v cizím jazyce."
+ },
+ {
+  "id": "w21",
+  "level": "B2",
+  "fr": "Quel rôle les réseaux sociaux jouent-ils dans la façon de voyager ?",
+  "cs": "Jakou roli hrají sociální sítě v tom, jak cestujeme?"
+ },
+ {
+  "id": "w22",
+  "level": "C1",
+  "fr": "Le tourisme de masse menace-t-il les villes historiques ? Argumentez.",
+  "cs": "Ohrožuje masová turistika historická města? Argumentujte."
+ },
+ {
+  "id": "w23",
+  "level": "C1",
+  "fr": "Écrivez un court texte littéraire sur une rue, un pont ou un café que vous connaissez bien.",
+  "cs": "Napište krátký literární text o ulici, mostě nebo kavárně, které dobře znáte."
+ },
+ {
+  "id": "w24",
+  "level": "C2",
+  "fr": "Un lieu change-t-il ceux qui y vivent ou est-ce l'inverse ? Réflexion personnelle.",
+  "cs": "Mění místo ty, kdo v něm žijí, nebo naopak? Osobní úvaha."
+ }
+]

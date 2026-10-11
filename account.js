@@ -98,6 +98,8 @@
         el('p', { class: 'note' }, L('Écrivez dans la langue que vous maîtrisez le mieux ; l’autre version est facultative (nous pouvons la préparer ensemble). Format : paragraphes séparés par une ligne vide, « ## Titre » pour un intertitre, **gras**, « - » pour une liste. Pas de HTML.', 'Pište v jazyce, který ovládáte nejlépe; druhá verze je volitelná (můžeme ji připravit společně). Formát: odstavce oddělené prázdným řádkem, „## Nadpis“ pro mezititulek, **tučně**, „- “ pro seznam. Bez HTML.')),
         el('div', { class: 'form-group' }, el('label', { class: 'acct-label', for: 'e-cat' }, L('Rubrique', 'Rubrika')),
           el('select', { id: 'e-cat' }, ...[['voyage', L('Voyages', 'Cestování')], ['paris', L('Paris', 'Paříž')], ['langue', L('Langue', 'Jazyk')]].map(([k, t]) => el('option', { value: k, ...(v('category') === k ? { selected: '' } : {}) }, t)))),
+        el('div', { class: 'form-group' }, el('label', { class: 'acct-label', for: 'e-place' }, L('Ville visitée (facultatif, apparaît sur la carte des voyages – seulement la ville)', 'Navštívené město (nepovinné, zobrazí se na mapě cest – jen město)')),
+          el('input', { id: 'e-place', maxlength: 80, value: v('place'), placeholder: 'Strasbourg' })),
         el('div', { class: 'form-group' }, el('label', { class: 'acct-label', for: 'e-level' }, L('Niveau de français de votre texte (CEFR) – à choisir avant l’envoi', 'Úroveň francouzštiny vašeho textu (CEFR) – zvolte před odesláním')),
           el('select', { id: 'e-level' }, el('option', { value: '' }, '—'), ...['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map((k) => el('option', { value: k, ...(v('level') === k ? { selected: '' } : {}) }, k)))),
         el('div', { class: 'acct-cols' },
@@ -134,7 +136,7 @@
         const g = (id) => f.querySelector('#' + id).value;
         b.disabled = true;
         try {
-          await api('save', { id: p?.id, submit: b.dataset.submit === '1', category: g('e-cat'), level: g('e-level'), title_fr: g('e-tfr'), title_cs: g('e-tcs'), excerpt_fr: g('e-xfr'), excerpt_cs: g('e-xcs'),
+          await api('save', { id: p?.id, submit: b.dataset.submit === '1', category: g('e-cat'), level: g('e-level'), place: g('e-place').trim(), title_fr: g('e-tfr'), title_cs: g('e-tcs'), excerpt_fr: g('e-xfr'), excerpt_cs: g('e-xcs'),
             body_fr: g('e-bfr'), body_cs: g('e-bcs'), cover_url: g('e-cover').trim(), cover_credit: g('e-credit') });
           flash(b.dataset.submit === '1' ? L('Envoyé ! Votre enseignant va le relire.', 'Odesláno! Učitel článek projde.') : L('Brouillon enregistré.', 'Koncept uložen.'), true);
           await start(true);
@@ -142,6 +144,44 @@
       }));
       editorBox.replaceChildren(f); f.scrollIntoView({ behavior: 'smooth' });
     }
+
+
+    const profile = el('details', { class: 'acct-more', open: '' }, el('summary', {}, L('Mon profil et ma signature', 'Můj profil a podpis')),
+      (() => {
+        const f = el('form', { novalidate: '' },
+          field('pf-sig', L('Signature (affichée sous vos textes)', 'Podpis (zobrazí se pod vašimi texty)'), { a: { maxlength: 30, value: user.sig || user.name, placeholder: user.name } }),
+          el('div', { class: 'sig-preview' }, el('span', { class: 'sig-name' }, user.sig || user.name)),
+          field('pf-bio', L('À propos de moi (300 caractères max.)', 'O mně (max. 300 znaků)'), { tag: 'textarea', a: { maxlength: 300, rows: 3 } }),
+          el('label', { class: 'acct-check' }, el('input', { type: 'checkbox', id: 'pf-show', ...(user.showProfile ? { checked: '' } : {}) }), ' ', L('Afficher mon profil public (nom ou pseudonyme et mes articles)', 'Zobrazit můj veřejný profil (jméno nebo přezdívka a moje články)')),
+          user.className ? el('label', { class: 'acct-check' }, el('input', { type: 'checkbox', id: 'pf-class', ...(user.showClass ? { checked: '' } : {}) }), ' ', L(`Afficher ma classe (${user.className})`, `Zobrazit mou třídu (${user.className})`)) : null,
+          el('button', { class: 'chip', type: 'submit' }, L('Enregistrer', 'Uložit')),
+          user.slug ? el('a', { class: 'read-more', style: 'margin-left:16px', href: `/${lang}/auteur/${user.slug}`, target: '_blank', rel: 'noopener' }, L('Voir mon profil', 'Zobrazit můj profil')) : null);
+        f.querySelector('#pf-bio').value = user.bio || '';
+        f.querySelector('#pf-sig').addEventListener('input', (e) => { f.querySelector('.sig-name').textContent = e.target.value || user.name; });
+        f.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          try { await api('profile-save', { sig: f.querySelector('#pf-sig').value, bio: f.querySelector('#pf-bio').value, showProfile: f.querySelector('#pf-show').checked, showClass: Boolean(f.querySelector('#pf-class')?.checked) }); flash(L('Profil enregistré.', 'Profil uložen.'), true); }
+          catch (er) { flash(er.message, false); }
+        });
+        return f;
+      })());
+
+    const inbox = el('div'), pcs = el('div');
+    api('corrections-inbox', {}).then(({ corrections }) => {
+      if (!corrections.length) return;
+      inbox.replaceChildren(el('h3', {}, L('Propositions de correction', 'Návrhy oprav od ostatních')),
+        ...corrections.map((c) => el('div', { class: 'acct-post corr-item' },
+          el('div', { class: 'grow' }, el('small', {}, `${c.who} · ${c.lang === 'cs' ? c.title_cs : c.title_fr}`),
+            el('p', {}, el('del', {}, c.original), ' → ', el('ins', {}, c.suggestion)), c.note ? el('p', { class: 'note' }, c.note) : null),
+          el('span', {},
+            Object.assign(el('button', { class: 'chip', type: 'button' }, L('Accepter', 'Přijmout')), { onclick: async () => { try { await api('correction-decide', { id: c.id, decision: 'accept' }); await start(true); flash(L('Correction appliquée.', 'Oprava použita.'), true); } catch (er) { flash(er.message, false); } } }), ' ',
+            Object.assign(el('button', { class: 'chip', type: 'button' }, L('Refuser', 'Odmítnout')), { onclick: async () => { await api('correction-decide', { id: c.id, decision: 'decline' }); await start(true); } })))));
+    }).catch(() => {});
+    api('my-postcards', {}).then(({ postcards }) => {
+      if (!postcards.length) return;
+      const ST = { submitted: L('En relecture', 'Ke schválení'), published: L('Publiée', 'Zveřejněno'), rejected: L('Refusée', 'Zamítnuto') };
+      pcs.replaceChildren(el('h3', {}, L('Mes cartes postales', 'Moje pohlednice')), ...postcards.map((c) => el('div', { class: 'acct-post' }, el('div', { class: 'grow' }, c.message.slice(0, 80) + (c.message.length > 80 ? '…' : '')), el('span', { class: `tag ${c.status === 'published' ? 'free' : ''}` }, ST[c.status] || c.status))));
+    }).catch(() => {});
 
     const pw = el('details', { class: 'acct-more' }, el('summary', {}, L('Mon compte', 'Můj účet')),
       el('form', { novalidate: '' }, el('h4', {}, L('Changer le mot de passe', 'Změnit heslo')),
@@ -155,7 +195,7 @@
     fChange.addEventListener('submit', async (e) => { e.preventDefault(); try { await api('change-password', { current: fChange.querySelector('#p-cur').value, next: fChange.querySelector('#p-new').value }); fChange.reset(); flash(L('Mot de passe modifié.', 'Heslo změněno.'), true); } catch (er) { flash(er.message, false); } });
     fDelete.addEventListener('submit', async (e) => { e.preventDefault(); if (!confirm(L('Supprimer définitivement votre compte et vos brouillons ?', 'Opravdu natrvalo smazat účet a koncepty?'))) return; try { await api('delete-account', { password: fDelete.querySelector('#d-pw').value }); await start(); } catch (er) { flash(er.message, false); } });
 
-    root.replaceChildren(head, status, list, editorBox, pw);
+    root.replaceChildren(head, status, inbox, list, editorBox, profile, pcs, el('p', {}, el('a', { class: 'read-more', href: `/${lang}/pohlednice` }, L('Écrire une carte postale →', 'Napsat pohlednici →'))), pw);
   }
 
   async function start(keep) {

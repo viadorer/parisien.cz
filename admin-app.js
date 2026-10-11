@@ -164,10 +164,26 @@
     $('#tab-messages').hidden = b.dataset.tab !== 'messages';
     $('#tab-gallery').hidden = b.dataset.tab !== 'gallery';
     $('#tab-students').hidden = b.dataset.tab !== 'students';
+    $('#tab-postcards').hidden = b.dataset.tab !== 'postcards';
+    if (b.dataset.tab === 'postcards') await loadPostcards();
     if (b.dataset.tab === 'students') await loadStudents();
     if (b.dataset.tab === 'messages') await loadMessages();
     if (b.dataset.tab === 'gallery') await loadGallery();
   })));
+
+  // ---------- pohlednice: schvalování ----------
+  async function loadPostcards() {
+    const box = $('#tab-postcards');
+    if (!me.db) return box.replaceChildren('Databáze není připojena.');
+    const { postcards } = await call('postcards-list', {});
+    const ST = { submitted: 'ke schválení', published: 'zveřejněno', rejected: 'zamítnuto' };
+    box.replaceChildren(el('h2', { style: 'margin-top:0' }, `Pohlednice (${postcards.length})`),
+      ...postcards.map((c) => el('div', { class: 'item' },
+        el('img', { class: 'thumb', src: `/images/photos/${c.photo_id}-s.jpg`, alt: '' }),
+        el('div', { class: 'grow' }, el('strong', {}, c.who), ' ', el('span', { class: c.status === 'published' ? 'badge' : 'badge draft' }, ST[c.status] || c.status), el('br'), el('small', {}, `[${c.lang}] ${c.message}`)),
+        ...(c.status !== 'published' ? [Object.assign(el('button', { class: 'btn', type: 'button' }, 'Zveřejnit'), { onclick: guard(async () => { await call('postcard-review', { id: c.id, decision: 'publish' }); await loadPostcards(); }) })] : []),
+        ...(c.status !== 'rejected' ? [Object.assign(el('button', { class: 'btn danger', type: 'button' }, 'Zamítnout'), { onclick: guard(async () => { await call('postcard-review', { id: c.id, decision: 'reject' }); await loadPostcards(); }) })] : []))));
+  }
 
   // ---------- studenti: pozvánky a účty ----------
   const fmt = (d) => (d ? new Date(d).toLocaleDateString('cs-CZ') : '–');

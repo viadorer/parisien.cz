@@ -177,6 +177,7 @@
       el('div', { class: 'card-body' },
         el('div', { class: 'post-meta' }, el('span', { class: 'tag' }, CAT[p.category] || p.category), ' ', lvTag(p.level, multi), ' ', el('time', { datetime: p.date }, fmtDay(p.date, { day: 'numeric', month: 'long', year: 'numeric' }))),
         el('h3', {}, pick(p.title)),
+        p.author && p.authorSlug !== undefined ? el('p', { class: 'card-author' }, L('par ', 'autor: '), p.authorSlug ? el('a', { href: `/${lang}/auteur/${p.authorSlug}` }, p.author) : p.author) : null,
         el('p', {}, pick(p.excerpt)),
         multi ? el('div', { class: 'level-chips', 'aria-label': L('Niveaux disponibles', 'Dostupné úrovně') }, ...group.map((v) => el('a', { href: `/${lang}/article/${encodeURIComponent(v.slug)}`, class: v.slug === p.slug ? 'on' : '', 'data-level': v.level }, v.level))) : null,
         el('a', { class: 'read-more', href: `/${lang}/article/${encodeURIComponent(p.slug)}` }, L('Lire l’article', 'Číst článek'))));
@@ -319,12 +320,15 @@
           pop: (r) => popup(r[2], r[7] ? `${r[3]} ${L('vélos', 'kol')} (${r[4]} ${L('méca.', 'mech.')}, ${r[5]} ${L('élec.', 'elektro')}) · ${r[6]} ${L('places libres', 'volných stání')}` : L('Station hors service', 'Stanice mimo provoz'), '', L('Vélib’ · en direct', 'Vélib’ · živě')) },
         fountains: { color: () => '#1e90ff', radius: 4, pop: (r) => popup(L('Fontaine à boire', 'Pítná fontána'), r[3], '', L('Eau potable gratuite', 'Pitná voda zdarma')) },
         cool: { color: () => '#17a2b8', radius: 5, pop: (r) => popup(r[3] || COOL[r[2]] || r[2], r[4], '', `${COOL[r[2]] || r[2]}${r[5] ? ' · ' + L('payant', 'placené') : ''}`) },
+        trips: { api: '/api/community?action=trips', pick: (j) => j.trips.map((t) => [t.lat, t.lon, (t.title && (t.title[lang] || t.title.fr)) || t.place, t.place, t.slug, t.author]), color: () => '#6a5acd', radius: 9,
+          pop: (r) => popup(r[2], `${r[3]}${r[5] ? ' · ' + r[5] : ''}`, `/${lang}/article/${r[4]}`, L('Nos voyages', 'Naše cesty')) },
         swim: { color: () => '#0057b8', radius: 10, pop: (r) => popup(r[2], L('Site de baignade aménagé dans la Seine pendant l’été. Vérifiez l’ouverture et la qualité de l’eau sur paris.fr avant d’y aller.', 'Vybavené místo ke koupání v Seině v létě. Před cestou si na paris.fr ověřte otevření a kvalitu vody.'), 'https://www.paris.fr/pages/la-baignade-dans-la-seine', L('Baignade en Seine', 'Koupání v Seině')) },
       };
       const loaded = {};
       const loadLive = async (k) => {
         const cfg = liveCfg[k], fill = async () => {
-          const { data } = await (await fetch(`/api/live?what=${k}`)).json();
+          const j = await (await fetch(cfg.api || `/api/live?what=${k}`)).json();
+          const data = cfg.pick ? cfg.pick(j) : j.data;
           layers[k].clearLayers();
           for (const r of data) LF.circleMarker([r[0], r[1]], { radius: cfg.radius, color: '#fff', weight: 1.5, fillColor: cfg.color(r), fillOpacity: 0.92 }).bindPopup(() => cfg.pop(r)).addTo(layers[k]);
         };
@@ -364,6 +368,7 @@
         const pre = new URLSearchParams(location.search).get('route');
         if (pre && routes.some((x) => x.id === pre)) { routeSel.value = pre; drawRoute(pre); }
       }
+      if (new URLSearchParams(location.search).get('layer') === 'trips') $('[data-layer="trips"]')?.click();
       $('#map-q').addEventListener('input', (e) => {
         const q = e.target.value.trim().toLowerCase();
         for (const { m, p } of markers) {
@@ -569,6 +574,166 @@
         el('a', { class: 'read-more', href: `/${lang}/expressions` }, L('Toutes les expressions →', 'Všechny výrazy →'))));
       showAudio();
     }).catch(() => {});
+  }
+
+  // ---------- komunita ----------
+  const cApi = async (action, body) => {
+    const r = await fetch(`/api/community?action=${action}`, body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : {});
+    const d = await r.json().catch(() => ({}));
+    if (!r.ok) throw Object.assign(new Error(d.error || 'err'), { status: r.status });
+    return d;
+  };
+  const jget = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } };
+  const jset = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+  const SK = 'pz-saved', RK = 'pz-read';
+
+  // pochvaly
+  $$('[data-reactions]').forEach((box) => {
+    const slug = box.dataset.slug; let authed = false;
+    const paint = (counts, mine) => $$('.react-btn', box).forEach((b) => { b.querySelector('b').textContent = counts[b.dataset.kind] ?? 0; b.setAttribute('aria-pressed', String(mine.includes(b.dataset.kind))); });
+    cApi(`reactions&slug=${encodeURIComponent(slug)}`).then((d) => { authed = d.authed; paint(d.counts, d.mine); }).catch(() => {});
+    box.addEventListener('click', async (e) => {
+      const b = e.target.closest('.react-btn'); if (!b) return;
+      if (!authed) { $('.react-hint', box).hidden = false; return; }
+      try { const d = await cApi('react', { slug, kind: b.dataset.kind }); paint(d.counts, d.mine); } catch {}
+    });
+  });
+
+  // uložit článek + označit jako přečtený
+  $$('[data-save]').forEach((btn) => {
+    const slug = btn.dataset.slug;
+    const sync = () => {
+      const on = jget(SK, []).some((x) => x.slug === slug);
+      btn.setAttribute('aria-pressed', String(on));
+      btn.querySelector('span').textContent = on ? L('Gardé', 'Uloženo') : L('Garder', 'Uložit');
+      btn.querySelector('use')?.setAttribute('href', on ? '#i-check' : '#i-plus');
+    };
+    sync();
+    btn.addEventListener('click', () => {
+      let l = jget(SK, []);
+      if (l.some((x) => x.slug === slug)) l = l.filter((x) => x.slug !== slug); else l.unshift({ slug, title: btn.dataset.title, level: btn.dataset.level, lang, ts: Date.now() });
+      jset(SK, l.slice(0, 200)); sync();
+    });
+    const sig = $('.signature');
+    if (sig && 'IntersectionObserver' in window) new IntersectionObserver((en, o) => {
+      if (!en[0].isIntersecting) return; o.disconnect();
+      const r = jget(RK, {}); if (!r[slug]) { r[slug] = { ts: Date.now(), level: btn.dataset.level, title: btn.dataset.title, lang }; jset(RK, r); }
+    }, { threshold: 0.6 }).observe(sig);
+  });
+
+  // návrh přátelské opravy
+  $$('[data-corr]').forEach((box) => {
+    const form = $('form', box), st = $('.corr-status', box), det = $('details', box);
+    document.addEventListener('selectionchange', () => {
+      const sel = getSelection(), t = String(sel).trim();
+      if (t.length > 2 && t.length <= 300 && sel.anchorNode && $('.article-body')?.contains(sel.anchorNode)) box.dataset.sel = t;
+    });
+    det.addEventListener('toggle', () => { if (det.open && box.dataset.sel && !form.original.value) { form.original.value = box.dataset.sel; form.suggestion.value = box.dataset.sel; } });
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault(); st.textContent = '';
+      try {
+        await cApi('correction-create', { slug: box.dataset.slug, lang: box.dataset.lang, original: form.original.value.trim(), suggestion: form.suggestion.value.trim(), note: form.note.value });
+        st.textContent = L('Merci ! L’auteur verra votre proposition.', 'Děkujeme! Autor váš návrh uvidí.'); form.reset();
+      } catch (er) {
+        st.textContent = er.status === 401 ? L('Connectez-vous (Mon espace) pour proposer une correction.', 'Pro návrh opravy se přihlaste (Můj účet).')
+          : er.message === 'notintext' ? L('Ce texte n’est pas dans l’article : copiez la phrase telle quelle.', 'Tento text v článku není: zkopírujte větu přesně tak, jak je napsaná.')
+          : er.message === 'own' ? L('Vous ne pouvez pas corriger votre propre texte ici.', 'Vlastní text tady opravovat nelze.') : L('Envoi impossible.', 'Odeslání se nepovedlo.');
+      }
+    });
+  });
+
+  // pohlednice (vykreslení)
+  let pcCredits = null;
+  const photoCredit = async (id) => { pcCredits ??= await fetch('/data/photo-credits.json').then((r) => r.json()).catch(() => ({})); return pcCredits[id]; };
+  const postcardEl = (pc, credit) => {
+    const d = new Date(pc.date || Date.now());
+    const mark = `${String(d.getDate()).padStart(2, '0')}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getFullYear()).slice(2)}`;
+    return el('article', { class: 'postcard' },
+      el('div', { class: 'pc-photo' }, el('img', { src: `/images/photos/${pc.photo}.jpg`, alt: '', loading: 'lazy' })),
+      el('div', { class: 'pc-side' },
+        el('div', { class: 'stamp' }, ico('mail'), el('span', {}, 'FR')),
+        el('div', { class: 'postmark' }, 'PARIS', el('br'), mark),
+        el('p', { class: 'pc-msg', lang: pc.lang || 'fr' }, pc.message),
+        el('p', { class: 'pc-sig' }, pc.slug ? el('a', { href: `/${lang}/auteur/${pc.slug}` }, pc.sig || pc.name) : (pc.sig || pc.name || ''))),
+      credit ? el('p', { class: 'pc-credit' }, el('a', { href: credit.p, target: '_blank', rel: 'noopener' }, `© ${credit.c}`)) : null);
+  };
+  $$('#comm-postcards').forEach(async (box) => {
+    try {
+      const { postcards } = await cApi('postcards');
+      const lim = Number(box.dataset.limit) || 60, list = postcards.slice(0, lim);
+      if (!list.length) { box.replaceChildren(el('p', { class: 'muted' }, L('Pas encore de carte postale. La première peut être la vôtre.', 'Zatím žádná pohlednice. První může být ta vaše.'))); return; }
+      const els = [];
+      for (const pc of list) els.push(postcardEl(pc, await photoCredit(pc.photo)));
+      box.replaceChildren(...els);
+    } catch { box.replaceChildren(el('p', { class: 'muted' }, L('Impossible de charger les cartes.', 'Pohlednice se nepodařilo načíst.'))); }
+  });
+
+  // vytvoření pohlednice
+  const pcc = $('#pc-create');
+  if (pcc) (async () => {
+    let me = null; try { me = await (await fetch('/api/account?action=me')).json(); } catch {}
+    if (!me?.user) { pcc.replaceChildren(el('p', {}, L('Connectez-vous pour écrire une carte postale. ', 'Pro napsání pohlednice se přihlaste. '), el('a', { class: 'read-more', href: `/${lang}/compte` }, L('Mon espace', 'Můj účet')))); return; }
+    let photos = []; try { photos = JSON.parse($('#pc-photos').textContent); } catch {}
+    let chosen = photos[0]?.id; const preview = el('div', { class: 'pc-preview' });
+    const msg = el('textarea', { maxlength: 280, rows: 4, placeholder: L('Chère Tereza, Paris est magnifique…', 'Milá Terezo, Paříž je nádherná…') });
+    const sel = el('select', {}, el('option', { value: 'fr' }, 'Français'), el('option', { value: 'cs' }, 'Čeština')); sel.value = lang;
+    const status = el('p', { class: 'acct-status', role: 'status' });
+    const draw = () => preview.replaceChildren(postcardEl({ photo: chosen, message: msg.value || L('Votre message apparaîtra ici.', 'Zde se objeví vaše zpráva.'), lang: sel.value, sig: me.user.sig || me.user.name, name: me.user.name, date: Date.now() }, null));
+    const grid = el('div', { class: 'pc-grid', role: 'radiogroup', 'aria-label': L('Photo', 'Fotka') }, ...photos.map((p) => {
+      const b = el('button', { type: 'button', class: 'pc-opt', 'aria-pressed': String(p.id === chosen), title: p.caption }, el('img', { src: `/images/photos/${p.id}-s.jpg`, alt: p.caption, loading: 'lazy' }));
+      b.addEventListener('click', () => { chosen = p.id; $$('.pc-opt', grid).forEach((x) => x.setAttribute('aria-pressed', String(x === b))); draw(); }); return b;
+    }));
+    msg.addEventListener('input', draw); sel.addEventListener('change', draw);
+    const send = el('button', { type: 'button', class: 'btn-primary dark-btn' }, L('Envoyer pour relecture', 'Odeslat ke schválení'));
+    send.addEventListener('click', async () => {
+      status.className = 'acct-status'; status.textContent = '';
+      try { await cApi('postcard-create', { photo: chosen, message: msg.value, lang: sel.value }); status.textContent = L('Merci ! Votre enseignant la relira avant publication.', 'Děkujeme! Učitel ji před zveřejněním zkontroluje.'); status.className = 'acct-status ok'; msg.value = ''; draw(); }
+      catch (er) { status.textContent = er.status === 429 ? L('Trop de cartes aujourd’hui. Réessayez demain.', 'Dnes příliš mnoho pohlednic. Zkuste to zítra.') : L('Vérifiez le message (3 caractères minimum).', 'Zkontrolujte zprávu (minimálně 3 znaky).'); status.className = 'acct-status err'; }
+    });
+    pcc.replaceChildren(el('h2', {}, L('Écrire une carte postale', 'Napsat pohlednici')), grid, el('label', { class: 'acct-label' }, L('Votre message (280 caractères max.)', 'Vaše zpráva (max. 280 znaků)')), msg,
+      el('label', { class: 'acct-label' }, L('Langue du message', 'Jazyk zprávy')), sel, el('h3', {}, L('Aperçu', 'Náhled')), preview, el('p', {}, send), status);
+    draw();
+  })();
+
+  // stránka Komunita
+  const chal = $('#challenge');
+  if (chal) fetch('/data/challenges.json').then((r) => r.json()).then((list) => {
+    if (!list.length) return;
+    const week = Math.floor((Date.now() / 864e5 + 4) / 7), c = list[week % list.length];
+    chal.replaceChildren(el('div', { class: 'challenge-card' }, el('span', { class: 'kicker-small' }, L('Défi de la semaine', 'Výzva týdne')), ' ', el('span', { class: `tag lvl lvl-${c.level}` }, c.level),
+      el('p', { class: 'challenge-fr', lang: 'fr' }, c.fr), el('p', { class: 'challenge-cs' }, c.cs)));
+  }).catch(() => {});
+  const crecent = $('#comm-recent');
+  if (crecent) cApi('recent').then(({ posts }) => {
+    crecent.replaceChildren(...(posts.length ? posts.map((p) => postCard([{ ...p, base: p.slug }])) : [el('p', { class: 'muted' }, L('Les premiers textes arrivent bientôt.', 'První texty brzy přibudou.'))]));
+  }).catch(() => crecent.replaceChildren(el('p', { class: 'muted' }, L('Impossible de charger.', 'Nepodařilo se načíst.'))));
+  const cauth = $('#comm-authors');
+  if (cauth) cApi('authors').then(({ authors }) => {
+    cauth.replaceChildren(...(authors.length ? authors.map((a) => el('a', { class: 'author-chip', href: `/${lang}/auteur/${a.slug}` }, el('span', { class: 'sig-name sm' }, a.sig || a.name), el('small', {}, `${a.name}${a.className ? ' · ' + a.className : ''} · ${a.posts}`))) : [el('p', { class: 'muted' }, L('Les premiers auteurs arrivent bientôt.', 'První autoři brzy přibudou.'))]));
+  }).catch(() => {});
+
+  // Můj koutek
+  const corner = $('#corner');
+  if (corner) {
+    const render = () => {
+      const saved = jget(SK, []), read = jget(RK, {}), deck = jget('pz-deck', []);
+      const byLevel = {}; Object.values(read).forEach((r) => { byLevel[r.level || '?'] = (byLevel[r.level || '?'] || 0) + 1; });
+      const total = Object.keys(read).length;
+      const link = (x) => el('a', { href: `/${lang}/article/${encodeURIComponent(x.slug)}` }, x.title);
+      corner.replaceChildren(
+        el('div', { class: 'stats-row' }, el('div', {}, el('b', {}, String(total)), el('span', {}, L('articles lus', 'přečtených článků'))), el('div', {}, el('b', {}, String(saved.length)), el('span', {}, L('articles gardés', 'uložených článků'))), el('div', {}, el('b', {}, String(deck.length)), el('span', {}, L('mots dans le carnet', 'slov v sešitu')))),
+        total ? el('p', { class: 'level-chips' }, ...LV.filter((l) => byLevel[l]).map((l) => el('span', { class: `tag lvl lvl-${l}` }, `${l} · ${byLevel[l]}`))) : null,
+        el('h2', {}, L('Gardés pour plus tard', 'Uloženo na později')),
+        saved.length ? el('ul', { class: 'corner-list' }, ...saved.map((x) => el('li', {}, link(x), ' ', x.level ? el('span', { class: `tag lvl lvl-${x.level}` }, x.level) : null, ' ',
+          Object.assign(el('button', { class: 'chip', type: 'button' }, L('Retirer', 'Odebrat')), { onclick: () => { jset(SK, jget(SK, []).filter((y) => y.slug !== x.slug)); render(); } }))))
+          : el('p', { class: 'muted' }, L('Rien pour l’instant. Utilisez le bouton « Garder » sur un article.', 'Zatím nic. Použijte tlačítko „Uložit“ u článku.')),
+        el('h2', {}, L('Lus récemment', 'Nedávno přečtené')),
+        total ? el('ul', { class: 'corner-list' }, ...Object.entries(read).sort((a, b) => b[1].ts - a[1].ts).slice(0, 20).map(([slug, r]) => el('li', {}, link({ slug, title: r.title }), ' ', r.level ? el('span', { class: `tag lvl lvl-${r.level}` }, r.level) : null)))
+          : el('p', { class: 'muted' }, L('Les articles que vous lisez jusqu’au bout apparaissent ici.', 'Články, které dočtete až do konce, se zobrazí tady.')),
+        el('p', {}, el('a', { class: 'read-more', href: `/${lang}/carnet` }, L('Ouvrir mon carnet de mots →', 'Otevřít sešit slovíček →')), ' ',
+          Object.assign(el('button', { class: 'show-all', type: 'button' }, L('Effacer ces données', 'Smazat tato data')), { onclick: () => { if (confirm(L('Effacer les articles gardés et l’historique de lecture ?', 'Smazat uložené články a historii čtení?'))) { jset(SK, []); jset(RK, {}); render(); } } })));
+    };
+    render();
   }
 
   // ---------- formulář ----------
