@@ -1405,3 +1405,11 @@ body[data-tier="easy"] .lvl-full { display: none; }
   .article-body a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 11px; }
 }
 @media (max-width: 768px) { .dlg-line { grid-template-columns: 1fr; } .dlg-line b { grid-row: auto; } .expr-search { margin-left: 0; } }
+
+.quak-box { margin: 20px 0; padding: 18px 22px; background: #f8f8f8; border-left: 4px solid #b3262e; }
+.dark .quak-box { background: rgba(255,255,255,.07); border-left-color: #fff; }
+.quak-box p { margin: 8px 0; font-size: 14px; }
+.quak-box .chip { display: inline-block; margin: 3px 4px 3px 0; text-decoration: none; }
+.dark .quak-box .chip { color: #fff; background: transparent; border-color: rgba(255,255,255,.6); }
+.quak-tools { margin-top: 18px; display: flex; gap: 10px; flex-wrap: wrap; }
+.quak-link { margin-top: 12px; font-size: 14px; }

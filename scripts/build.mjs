@@ -3,6 +3,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { layout, esc, pick, figure, SITE, stdUrl, std } from '../lib/layout.js';
+import { quakUrl, topicUrl, QUAK_TOPICS, dialogTopic, TOPICS_LIVE } from '../lib/quak.js';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const OUT = `${ROOT}dist`;
@@ -66,6 +67,9 @@ const levelNote = (lang, extra = '') => `<p class="level-note lvl-easy">${lang =
 const spk = (fr) => `<button type="button" class="speak-btn" data-speak="${esc(fr)}" aria-label="Écouter / Poslechnout" title="Écouter / Poslechnout" hidden>🔊</button>`;
 const addBtn = (fr, cs) => `<button type="button" class="add-card" data-fr="${esc(fr)}" data-cs="${esc(cs)}" aria-label="Carnet / Sešit" title="Mon carnet / Můj sešit">＋</button>`;
 const lvlTag = (l) => (l ? `<span class="tag lvl lvl-${esc(l)}">${esc(l)}</span>` : '');
+const quakNote = (lang, ids = Object.keys(QUAK_TOPICS), title) => `<aside class="quak-box"><strong>${esc(title || (lang === 'cs' ? 'Procvičte si to v Quaku' : 'À pratiquer dans Quak'))}</strong>
+<p>${esc(lang === 'cs' ? 'Quak je aplikace na slovíčka a fráze s chytrým opakováním (FSRS), výslovností a kurzy. Vyžaduje přihlášení.' : 'Quak est une application de vocabulaire et de phrases avec répétition espacée (FSRS), prononciation et cours. Connexion requise.')}</p>
+<p>${TOPICS_LIVE ? ids.map((id) => `<a class="chip" href="${esc(topicUrl(id))}" target="_blank" rel="noopener">${esc(pick(QUAK_TOPICS[id], lang))} ↗</a>`).join(' ') : `<a class="chip" href="${esc(quakUrl('/topics'))}" target="_blank" rel="noopener">${lang === 'cs' ? 'Otevřít Quak' : 'Ouvrir Quak'} ↗</a>`}</p></aside>`;
 const allPhotos = [];
 const collect = (obj) => {
   if (!obj || typeof obj !== 'object') return;
@@ -125,6 +129,8 @@ ${sec('dark', `<h2>${esc(L('À l’affiche cette semaine', 'Tento týden v Pař�
 
 ${sec('', `<h2>${esc(L('Explorer', 'Prozkoumat'))}</h2>
 <div class="tiles">${tiles.map(([href, t, d, p]) => `<a class="tile" href="/${lang}${href}">${p ? `<img src="${esc(p.url.replace(/width=\d+/, 'width=700'))}" alt="" loading="lazy">` : ''}<span class="tile-text"><strong>${esc(t)}</strong><small>${esc(d)}</small></span></a>`).join('')}</div>`, 'explorer')}
+
+${sec('dark', `<h2>Quak</h2><p class="narrow">${esc(L('Notre projet frère pour apprendre les langues : vocabulaire avec répétition espacée (FSRS), niveaux A1–B2, prononciation, cours et classes pour les enseignants. Nous y avons ajouté des listes de mots « Paris » tirées de ce site.', 'Náš sesterský projekt na učení jazyků: slovíčka s chytrým opakováním (FSRS), úrovně A1–B2, výslovnost, kurzy a třídy pro učitele. Přidali jsme do něj seznamy slovíček „Paříž“ z tohoto webu.'))}</p>${quakNote(lang, undefined, L('Listes de mots « Paris » dans Quak', 'Slovíčka „Paříž“ v Quaku'))}<a class="btn-primary light" href="${esc(quakUrl('/'))}" target="_blank" rel="noopener">${esc(L('Ouvrir Quak ↗', 'Otevřít Quak ↗'))}</a><a class="btn-primary light" href="${esc(quakUrl('/kurz/vstupni-test'))}" target="_blank" rel="noopener">${esc(L('Test de niveau ↗', 'Vstupní test úrovně ↗'))}</a>`, 'quak')}
 
 ${sec('', `<div id="expr-day" aria-live="polite"></div>`, 'expression-du-jour')}
 
@@ -279,6 +285,7 @@ pages['/apprendre'] = (lang) => {
     description: L('Vocabulaire par thème, faux amis français–tchèque, conseils de prononciation et quiz sur Paris.', 'Slovíčka podle témat, falešní přátelé francouzština–čeština, rady k výslovnosti a kvíz o Paříži.'),
     body: head(lang, 'learn', L('Apprendre le français', 'Učíme se francouzsky'), L('Vocabulaire utile, pièges à éviter et un petit quiz.', 'Užitečná slovíčka, pasti, kterým se vyhnout, a malý kvíz.'))
       + sec('', `<h2>${esc(L('Vocabulaire par thème', 'Slovíčka podle témat'))}</h2><p id="learn-level-note" class="level-note" aria-live="polite"></p><div class="accordion">${themes.map((t, i) => `<details${i === 0 ? ' open' : ''}><summary>${esc(pick(t.title, lang))}</summary><table class="vocab"><thead><tr><th>${esc(L('Français', 'Francouzsky'))}</th><th>${esc(L('Tchèque', 'Česky'))}</th></tr></thead><tbody>${(t.items || []).map((it) => `<tr data-lvl="${esc(it.level || 'B1')}"><td lang="fr">${esc(it.fr)} ${spk(it.fr)}${addBtn(it.fr, it.cs)}${it.level ? `<span class="item-lvl">${esc(it.level)}</span>` : ''}${it.note ? `<small>${esc(pick(it.note, lang))}</small>` : ''}</td><td lang="cs">${esc(it.cs)}</td></tr>`).join('')}</tbody></table></details>`).join('')}</div>`, 'vocabulaire')
+      + sec('', `<h2>Quak</h2><p class="lead">${esc(L('Pour retenir durablement : cartes de vocabulaire à répétition espacée, test de niveau, prononciation et préparation au DELF.', 'Pro trvalé zapamatování: kartičky se slovíčky a chytrým opakováním, test úrovně, výslovnost a příprava na DELF.'))}</p>${quakNote(lang)}<p class="quak-tools"><a class="btn-primary dark-btn" href="${esc(quakUrl('/kurz/vstupni-test'))}" target="_blank" rel="noopener">${esc(L('Test de niveau ↗', 'Vstupní test úrovně ↗'))}</a> <a class="btn-primary dark-btn" href="${esc(quakUrl('/kurz/delf'))}" target="_blank" rel="noopener">${esc(L('Préparation au DELF ↗', 'Příprava na DELF ↗'))}</a> <a class="btn-primary dark-btn" href="${esc(quakUrl('/kurz/vyslovnost'))}" target="_blank" rel="noopener">${esc(L('Prononciation ↗', 'Výslovnost ↗'))}</a></p>`, 'quak')
       + sec('grey', `<h2>${esc(L('Faux amis français–tchèque', 'Falešní přátelé francouzština–čeština'))}</h2><p class="lead">${esc(L('Des mots qui se ressemblent… mais qui ne veulent pas dire la même chose.', 'Slova, která se podobají… ale neznamenají totéž.'))}</p>
 <div class="cards-grid small">${(learn.fauxAmis || []).map((f) => `<article class="card" data-lvl="${esc(f.level || 'B1')}"><div class="card-body"><h3 lang="fr">${esc(f.fr)}</h3><p><strong>FR :</strong> ${esc(pick(f.frMeaning, lang))}</p><p><strong>CS :</strong> „${esc(f.csLooks)}“ = ${esc(pick(f.csMeaning, lang) || f.csMeaning?.cs || '')}</p>${f.example ? `<p class="tip"><em>${esc(f.example.fr)}</em><br>${esc(f.example.cs)}</p>` : ''}</div></article>`).join('')}</div>`, 'faux-amis')
       + sec('', `<h2>${esc(L('Conseils', 'Rady'))}</h2>${learn.tips ? li(learn.tips[lang]) : ''}`, 'conseils')
@@ -412,6 +419,7 @@ pages['/dialogues'] = (lang) => {
 <div class="dlg-lines">${(d.lines || []).map((ln) => `<p class="dlg-line who-${esc(ln.who || 'A')}"><b>${esc(pick(ln.role, lang))}</b> <span class="fr" lang="fr">${esc(ln.fr)}</span> ${spk(ln.fr)}<span class="tr">${esc(ln.cs)}</span></p>`).join('')}</div>
 ${d.vocab?.length ? `<h4>${esc(L('Vocabulaire', 'Slovíčka'))}</h4><p class="chips">${d.vocab.map((v) => `<span class="chip static"><b lang="fr">${esc(v.fr)}</b> · ${esc(v.cs)} ${spk(v.fr)}${addBtn(v.fr, v.cs)}</span>`).join('')}</p>` : ''}
 ${d.tip ? `<p class="tip"><strong>${esc(L('À savoir', 'Dobré vědět'))} :</strong> ${esc(pick(d.tip, lang))}</p>` : ''}
+<p class="quak-link"><a class="read-more" href="${esc(topicUrl(dialogTopic(d.id)))}" target="_blank" rel="noopener">${esc(L('Réviser ce vocabulaire dans Quak ↗', 'Procvičit tato slovíčka v Quaku ↗'))}</a></p>
 ${d.quiz?.length ? `<div class="mini-quiz" data-lang="${lang}"></div><script type="application/json" class="quiz-json">${JSON.stringify(d.quiz).replace(/</g, '\\u003c')}</script>` : ''}
 </div></details>`;
   return {
@@ -440,6 +448,7 @@ ${e.note ? `<p class="note">${esc(pick(e.note, lang))}</p>` : ''}</div></article
       + sec('', `<p id="learn-level-note" class="level-note" aria-live="polite"></p>
 <div class="filters" id="expr-filters"><button class="chip" data-type="" aria-pressed="true">${esc(L('Tout', 'Vše'))}</button>${present.map((t) => `<button class="chip" data-type="${t}" aria-pressed="false">${esc(types[t])}</button>`).join('')}<label class="expr-search"><span class="sr">${esc(L('Chercher', 'Hledat'))}</span><input type="search" id="expr-q" placeholder="${esc(L('Chercher une expression…', 'Hledat výraz…'))}"></label></div>
 <div class="cards-grid small" id="expr-list">${expressions.map(card).join('')}</div>
+${quakNote(lang, ['pariz-vyrazy'], L('Apprendre ces expressions avec Quak', 'Naučte se tyto výrazy v Quaku'))}
 <p class="note">${esc(L('Le registre est indiqué : « familier » = entre amis, à éviter dans un contexte formel.', 'Je uveden rejstřík: „familier“ = mezi přáteli, ve formálním kontextu se vyhněte.'))}</p>`),
   };
 };

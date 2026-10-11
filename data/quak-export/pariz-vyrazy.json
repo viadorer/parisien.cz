@@ -1,0 +1,812 @@
+[
+[
+"p",
+"žádný problém",
+"pas de souci",
+"no worries",
+"A1",
+{
+"ex": [
+"Přijdu s pětiminutovým zpožděním. – Žádný problém!",
+"Je vais arriver avec cinq minutes de retard. – Pas de souci !",
+"I'll be five minutes late. – No worries!"
+],
+"note": "Familier, mezi známými i v obchodech; v oficiálním dopise raději „Il n'y a pas de problème“."
+}
+],
+[
+"p",
+"espresso",
+"un petit noir",
+"espresso",
+"A2",
+{
+"ex": [
+"Espresso a sklenici vody, prosím.",
+"Un petit noir et un verre d'eau, s'il vous plaît.",
+"One espresso and a glass of water, please."
+],
+"note": "Familier; v kavárně běžné označení espressa. Pozor: noir = černý, ne „černá káva“ obecně (to je café noir)."
+}
+],
+[
+"p",
+"káva s mlékem",
+"un crème",
+"coffee with milk",
+"A2",
+{
+"ex": [
+"Pro mě bude káva s mlékem a croissant.",
+"Pour moi, ce sera un crème et un croissant.",
+"I'll have a coffee with milk and a croissant."
+],
+"note": "Courant; zkráceně z „un café crème“. Vyslovuje se jen „un crème“."
+}
+],
+[
+"p",
+"malé pivo (0,25 l)",
+"un demi",
+"a half-pint of beer",
+"A2",
+{
+"ex": [
+"Dáme si dvě malá piva na terase?",
+"On prend deux demis en terrasse ?",
+"Shall we have two half-pints on the terrace?"
+],
+"note": "Courant; běžná objednávka na terase. Ve Francii je to menší sklenice než britská půlpinta, proto jen přibližný ekvivalent."
+}
+],
+[
+"p",
+"nechat spropitné",
+"laisser un pourboire",
+"to leave a tip",
+"A2",
+{
+"ex": [
+"Obsluha je v ceně, ale nechám malé spropitné.",
+"Le service est compris, mais je laisse un petit pourboire.",
+"Service is included, but I leave a small tip."
+],
+"note": "Courant; v restauraci je obsluha v ceně, spropitné je jen drobné gesto navíc."
+}
+],
+[
+"p",
+"označit jízdenku",
+"valider son ticket",
+"to validate your ticket",
+"A2",
+{
+"ex": [
+"Nezapomeň si před nástupem označit jízdenku.",
+"N'oublie pas de valider ton ticket avant de monter.",
+"Don't forget to validate your ticket before boarding."
+],
+"note": "Courant; v metru jízdenku přikládáte ke čtečce u turniketu. Pozor: valider neznamená „validovat“ ve smyslu ověřit pravost."
+}
+],
+[
+"p",
+"být pozdě / spěchat",
+"être à la bourre",
+"to be running late",
+"A2",
+{
+"ex": [
+"Rychle, spěchám, vlak mi jede za deset minut!",
+"Vite, je suis à la bourre, mon train part dans dix minutes !",
+"Quick, I'm running late, my train leaves in ten minutes!"
+],
+"note": "Familier; nepoužívejte v oficiálním dopise ani při pohovoru. Podle Wiktionnaire pochází z okcitánského rčení „být pozdě“ a původně označovalo skóre v karetních hrách."
+}
+],
+[
+"p",
+"je chladno",
+"il fait frisquet",
+"it's a bit chilly",
+"A2",
+{
+"ex": [
+"Dnes ráno je chladno, vezmi si kabát.",
+"Ce matin, il fait frisquet : mets ton manteau.",
+"It's a bit chilly this morning, so put your coat on."
+],
+"note": "Familier; chladno, ale ne mráz. Neutrálněji: il fait frais."
+}
+],
+[
+"p",
+"psí počasí",
+"un temps de chien",
+"dreadful weather",
+"A2",
+{
+"ex": [
+"Dnes je psí počasí, zůstaňme doma.",
+"Aujourd'hui, il fait un temps de chien : restons à la maison.",
+"The weather is dreadful today, so let's stay at home."
+],
+"note": "Familier; doslova „psí počasí“, shoduje se s češtinou. V angličtině se spíš řekne „dreadful weather“."
+}
+],
+[
+"p",
+"máš chuť? / co říkáš?",
+"ça te dit ?",
+"do you fancy it?",
+"A2",
+{
+"ex": [
+"Poblíž je dobrá kavárna. Máš chuť zajít?",
+"Il y a un bon café près d'ici. Ça te dit ?",
+"There's a good café nearby. Do you fancy it?"
+],
+"note": "Familier; tykání. Zdvořile: Ça vous dit ?"
+}
+],
+[
+"p",
+"je to fajn / hezké",
+"c'est sympa",
+"it's nice",
+"A2",
+{
+"ex": [
+"Ta malá restaurace je opravdu fajn.",
+"Ce petit restaurant est vraiment sympa.",
+"This little restaurant is really nice."
+],
+"note": "Familier; sympa je neměnné ve rodě, ale v množném čísle sympas. Neplést s českým „sympatický“ (o člověku se řekne i il est sympa)."
+}
+],
+[
+"p",
+"není to zrovna levné",
+"c'est pas donné",
+"it's not exactly cheap",
+"A2",
+{
+"ex": [
+"Ta restaurace u Eiffelovy věže není zrovna levná.",
+"Ce restaurant près de la tour Eiffel, c'est pas donné.",
+"That restaurant by the Eiffel Tower is not exactly cheap."
+],
+"note": "Familier, s vynecháním „ne“ (c'est pas místo ce n'est pas). Eufemismus: ve skutečnosti je to dost drahé."
+}
+],
+[
+"w",
+"holka / ženská",
+"meuf",
+"girl, woman",
+"B1",
+{
+"ex": [
+"Jedna holka z mé třídy mi řekla, že přijde pozdě.",
+"Une meuf de ma classe m'a dit qu'elle arrivait en retard.",
+"A girl from my class told me she'd be late."
+],
+"note": "Familier, verlan ze slova femme (femme → meuf). Mezi mladými běžné, v neformální řeči; nevhodné ve formálním kontextu, může působit hrubě."
+}
+],
+[
+"w",
+"protivný / otravný",
+"relou",
+"annoying",
+"B1",
+{
+"ex": [
+"V metru je plno, je to otravné.",
+"Il y a du monde dans le métro, c'est relou.",
+"The metro is packed, it's so annoying."
+],
+"note": "Familier, verlan ze slova lourd. Jen v neformální řeči mezi přáteli."
+}
+],
+[
+"w",
+"šílený / neuvěřitelný",
+"ouf",
+"wild",
+"B1",
+{
+"ex": [
+"Výhled z Montmartru je neuvěřitelný!",
+"La vue depuis Montmartre, elle est ouf !",
+"The view from Montmartre is wild!"
+],
+"note": "Familier, verlan ze slova fou. Podle kontextu pochvala nebo údiv; nepoužívat ve formálním prostředí."
+}
+],
+[
+"w",
+"divný / zvláštní",
+"chelou",
+"weird",
+"B1",
+{
+"ex": [
+"Ten chlap na chodbě byl trochu divný.",
+"Ce mec dans le couloir était un peu chelou.",
+"That guy in the corridor was a bit weird."
+],
+"note": "Familier, verlan ze slova louche. Neformální mladá řeč."
+}
+],
+[
+"p",
+"zachovat klid",
+"rester zen",
+"to stay calm",
+"B1",
+{
+"ex": [
+"Metro stojí, ale já zůstávám v klidu.",
+"Le métro est en panne, mais je reste zen.",
+"The metro has broken down, but I'm staying calm."
+],
+"note": "Familier; zen je neměnné. Vyskytuje se i samostatně: Reste zen !"
+}
+],
+[
+"p",
+"nepřijít na schůzku",
+"poser un lapin",
+"to stand someone up",
+"B1",
+{
+"ex": [
+"Čekal jsem hodinu a ona na schůzku nepřišla.",
+"J'ai attendu une heure : elle m'a posé un lapin.",
+"I waited an hour and she stood me up."
+],
+"note": "Familier; o dohodnuté schůzce (třeba rande), kdy druhý nepřijde a nic neřekne."
+}
+],
+[
+"p",
+"nechtít se mi (z lenosti)",
+"avoir la flemme",
+"can't be bothered",
+"B1",
+{
+"ex": [
+"Nechce se mi vycházet v dešti.",
+"J'ai la flemme de sortir sous la pluie.",
+"I can't be bothered to go out in the rain."
+],
+"note": "Familier; flemme je ženského rodu. Často s de + infinitiv: avoir la flemme de sortir."
+}
+],
+[
+"p",
+"práce, doprava, spánek (stereotypní kolotoč)",
+"métro, boulot, dodo",
+"the daily grind",
+"B1",
+{
+"ex": [
+"Celý týden je to jen doprava, práce a spánek.",
+"Toute la semaine, c'est métro, boulot, dodo.",
+"All week it's just the daily grind."
+],
+"note": "Familier; ironická zkratka všedního života ve velkém městě. Podle Wiktionnaire ji v roce 1968 vymyslel Pierre Béarn podle verše z roku 1951."
+}
+],
+[
+"p",
+"být švorc",
+"être fauché comme les blés",
+"to be skint",
+"B1",
+{
+"ex": [
+"Jsem švorc, tenhle víkend nemůžu nikam jít.",
+"Je suis fauché comme les blés : je ne peux pas sortir ce week-end.",
+"I'm skint, so I can't go out this weekend."
+],
+"note": "Familier; fauché = bez peněz, doslova „posekaný jako obilí“. Britská angličtina: skint, broke."
+}
+],
+[
+"p",
+"vykládat pohádky",
+"raconter des salades",
+"to spin a yarn",
+"B1",
+{
+"ex": [
+"Neposlouchej ho, vypráví pohádky.",
+"Ne l'écoute pas, il raconte des salades.",
+"Don't listen to him, he's spinning a yarn."
+],
+"note": "Familier; doslova „vyprávět saláty“. Znamená vymýšlet si, ne sdělit nepravdu zlým úmyslem."
+}
+],
+[
+"p",
+"přilepšit si (k příjmu)",
+"mettre du beurre dans les épinards",
+"to top up your income",
+"B1",
+{
+"ex": [
+"Večer dává hodiny francouzštiny, aby si přilepšila.",
+"Elle donne des cours de français le soir pour mettre du beurre dans les épinards.",
+"She gives French lessons in the evening to top up her income."
+],
+"note": "Courant; doslova „dát máslo do špenátu“. Hovorové, ale možné i v neutrální řeči."
+}
+],
+[
+"p",
+"to není žádná věda",
+"ce n'est pas la mer à boire",
+"it's not rocket science",
+"B1",
+{
+"ex": [
+"Vyplnit tenhle formulář není žádná věda.",
+"Remplir ce formulaire, ce n'est pas la mer à boire.",
+"Filling in this form is not rocket science."
+],
+"note": "Courant; doslova „to není moře k vypití“. Používá se, když něco vypadá těžší, než to je."
+}
+],
+[
+"p",
+"být v loji",
+"être dans les choux",
+"to be in a pickle",
+"B1",
+{
+"ex": [
+"Jestli poslední metro odjelo, jsme v loji.",
+"Si le dernier métro est parti, on est dans les choux.",
+"If the last metro has gone, we're in a pickle."
+],
+"note": "Familier; doslova „být v zelí“. Mírný, nevulgární výraz."
+}
+],
+[
+"p",
+"je s námi amen",
+"c'est la fin des haricots",
+"that's the end of that",
+"B1",
+{
+"ex": [
+"Zapomněl jsem pas, je s námi amen!",
+"J'ai oublié mon passeport : c'est la fin des haricots !",
+"I've forgotten my passport: that's the end of that!"
+],
+"note": "Familier; doslova „je konec fazolí“. Často s nadsázkou."
+}
+],
+[
+"p",
+"mít dobrou náladu",
+"avoir la banane",
+"to be beaming",
+"B1",
+{
+"ex": [
+"Od té doby, co udělal zkoušku, má dobrou náladu.",
+"Il a la banane depuis qu'il a réussi son examen.",
+"He has been beaming ever since he passed his exam."
+],
+"note": "Familier; doslova „mít banán“ (široký úsměv)."
+}
+],
+[
+"p",
+"Paříž (hovorově)",
+"Paname",
+"Paris (familiar name)",
+"B2",
+{
+"ex": [
+"Narodil se v Paříži a nikdy město neopustil.",
+"Il est né à Paname et n'a jamais quitté la ville.",
+"He was born in Paris and has never left the city."
+],
+"note": "Familier, hovorové jméno Paříže, používané Pařížany s náklonností. Podle Wiktionnaire doloženo v argotu od roku 1903 (tvar Panam'); etymologie je nejistá."
+}
+],
+[
+"p",
+"pařížský okruh",
+"le périph'",
+"the Paris ring road",
+"B2",
+{
+"ex": [
+"Okruh je ve špičce ucpaný.",
+"Le périph' est bloqué à l'heure de pointe.",
+"The ring road is jammed at rush hour."
+],
+"note": "Familier; zkrácené z le boulevard périphérique. Britsky: ring road."
+}
+],
+[
+"p",
+"Řím nebyl postaven za den",
+"Rome ne s'est pas faite en un jour",
+"Rome wasn't built in a day",
+"B2",
+{
+"ex": [
+"Chceš mluvit plynule? Řím taky nepostavili za den.",
+"Tu veux parler couramment ? Rome ne s'est pas faite en un jour.",
+"Want to speak fluently? Rome wasn't built in a day."
+],
+"note": "Courant; příslovce, v češtině i angličtině má stejný obraz. Pozor na tvar „s'est pas faite“ (ženský rod: Rome)."
+}
+],
+[
+"p",
+"mít chrapot",
+"avoir un chat dans la gorge",
+"to have a frog in your throat",
+"B2",
+{
+"ex": [
+"Promiňte, mám chrapot.",
+"Excusez-moi, j'ai un chat dans la gorge.",
+"Excuse me, I have a frog in my throat."
+],
+"note": "Courant; doslova „mít v krku kočku“. Angličtina používá žábu, francouzština kočku."
+}
+],
+[
+"p",
+"chtít mít všechno najednou",
+"avoir le beurre et l'argent du beurre",
+"to have your cake and eat it",
+"B2",
+{
+"ex": [
+"Nejde málo pracovat a hodně vydělávat, všechno najednou mít nelze.",
+"On ne peut pas travailler peu et gagner beaucoup : on n'a pas le beurre et l'argent du beurre.",
+"You can't work less and earn more: you can't have your cake and eat it."
+],
+"note": "Courant; doslova „mít máslo i peníze za máslo“. Většinou záporně: on ne peut pas avoir…"
+}
+],
+[
+"w",
+"městský bohém z lepších poměrů",
+"bobo",
+"bourgeois bohemian",
+"B2",
+{
+"ex": [
+"Okolí kanálu Saint-Martin se stalo čtvrtí „bobo\" lidí.",
+"Le canal Saint-Martin est devenu un quartier de bobos.",
+"Canal Saint-Martin has become a bourgeois bohemian neighbourhood."
+],
+"note": "Familier, často lehce ironické; zkratka z bourgeois-bohème. Pozor, může znít posměšně. Rod podle osoby (un/une bobo)."
+}
+],
+[
+"p",
+"zajít na skleničku",
+"prendre un pot",
+"to go for a drink",
+"B2",
+{
+"ex": [
+"Zajdeme po práci na skleničku na terasu?",
+"On prend un pot en terrasse après le travail ?",
+"Shall we go for a drink on the terrace after work?"
+],
+"note": "Familier; doslova „vzít hrnek“. Neformální pozvání po práci mezi kolegy."
+}
+],
+[
+"p",
+"být vyšňořený",
+"être sur son trente et un",
+"to be dressed to the nines",
+"B2",
+{
+"ex": [
+"Na svatbu byli všichni vyšňoření.",
+"Pour le mariage, tout le monde était sur son trente et un.",
+"Everyone was dressed to the nines for the wedding."
+],
+"note": "Courant; číslo 31 je ustálené a nemění se. Pochvalně nebo žertovně."
+}
+],
+[
+"p",
+"nebýt ve své kůži",
+"ne pas être dans son assiette",
+"to be under the weather",
+"B2",
+{
+"ex": [
+"Dnes ráno není ve své kůži, špatně spal.",
+"Il n'est pas dans son assiette ce matin : il a mal dormi.",
+"He's under the weather this morning: he slept badly."
+],
+"note": "Courant; assiette tu znamená „rovnováha, stav“, ne talíř."
+}
+],
+[
+"p",
+"žádná zpráva, dobrá zpráva",
+"pas de nouvelles, bonnes nouvelles",
+"no news is good news",
+"B2",
+{
+"ex": [
+"Sestra nenapsala, ale žádná zpráva, dobrá zpráva.",
+"Ma sœur n'a pas écrit, mais pas de nouvelles, bonnes nouvelles.",
+"My sister hasn't written, but no news is good news."
+],
+"note": "Courant; přísloví. Pozor: ve francouzštině je v množném čísle (nouvelles)."
+}
+],
+[
+"p",
+"vykrucovat se",
+"noyer le poisson",
+"to dodge the question",
+"B2",
+{
+"ex": [
+"Ředitel se vykrucoval, aby nemusel mluvit o rozpočtu.",
+"Le directeur a noyé le poisson pour ne pas parler du budget.",
+"The director dodged the question to avoid talking about the budget."
+],
+"note": "Courant; doslova „utopit rybu“. Záměrné zamlžování odpovědi."
+}
+],
+[
+"p",
+"z malých potůčků jsou velké řeky",
+"les petits ruisseaux font les grandes rivières",
+"every little helps",
+"B2",
+{
+"ex": [
+"Každý měsíc ušetřím trochu, kapka po kapce se sčítá.",
+"J'économise un peu chaque mois : les petits ruisseaux font les grandes rivières.",
+"I save a little each month: every little helps."
+],
+"note": "Courant; přísloví, česky „kapka po kapce“. Ekvivalent „mighty oaks from little acorns grow“ je trochu jiný."
+}
+],
+[
+"p",
+"kosa na kámen",
+"à bon chat, bon rat",
+"tit for tat",
+"B2",
+{
+"ex": [
+"Jsou oba stejně vychytralí: kosa narazila na kámen.",
+"Ils sont aussi rusés l'un que l'autre : à bon chat, bon rat.",
+"They are equally cunning: it's tit for tat."
+],
+"note": "Courant; přísloví, doslova „dobré kočce dobrá krysa“. Rovnocenný, stejně zdatný soupeř."
+}
+],
+[
+"p",
+"dělat z komára velblouda",
+"chercher midi à quatorze heures",
+"to make a mountain out of a molehill",
+"B2",
+{
+"ex": [
+"Není to tak složité, nehledej v tom nic navíc.",
+"Ce n'est pas si compliqué : ne cherche pas midi à quatorze heures.",
+"It's not that complicated, so don't make a mountain out of a molehill."
+],
+"note": "Courant; doslova „hledat poledne ve čtrnáct hodin“. Znamená komplikovat jednoduché."
+}
+],
+[
+"p",
+"mít s někým na kordy",
+"avoir maille à partir avec",
+"to have a run-in with someone",
+"B2",
+{
+"ex": [
+"Starosta se dostal do sporu s obyvateli okolí.",
+"Le maire a eu maille à partir avec les riverains.",
+"The mayor had a run-in with the local residents."
+],
+"note": "Soutenu; kniha nebo psaný projev. V běžné řeči řídké."
+}
+],
+[
+"p",
+"Paříž stojí za mši",
+"Paris vaut bien une messe",
+"Paris is well worth a mass",
+"B2",
+{
+"ex": [
+"Změnil postoj, za takovou odměnu to stálo.",
+"Il a changé de position : Paris vaut bien une messe.",
+"He changed his stance: Paris is well worth a mass."
+],
+"note": "Soutenu; historická citace. Věta se tradičně připisuje Jindřichu IV. (1593), ale autorství je sporné."
+}
+],
+[
+"p",
+"po mně potopa",
+"après moi, le déluge",
+"after me, the deluge",
+"B2",
+{
+"ex": [
+"Vyprázdnil pokladnu bez myšlenky na budoucnost: po mně potopa.",
+"Il a vidé les caisses sans penser à l'avenir : après moi, le déluge.",
+"He emptied the till without a thought for the future: after me, the deluge."
+],
+"note": "Soutenu; výrok se připisuje Ludvíku XV. nebo madame de Pompadour, ale není to jisté (písemně nedoloženo před rokem 1789)."
+}
+],
+[
+"p",
+"je to naprostá katastrofa",
+"c'est la Bérézina",
+"it's a complete disaster",
+"B2",
+{
+"ex": [
+"Pro náš tým byl ten zápas pravá Berezina.",
+"Pour notre équipe, ce match a été une vraie Bérézina.",
+"For our team, that match was a complete disaster."
+],
+"note": "Courant; odkaz na přechod Berezíny při ústupu Napoleonovy armády z Ruska (1812)."
+}
+],
+[
+"p",
+"udávat tón",
+"tenir le haut du pavé",
+"to rule the roost",
+"B2",
+{
+"ex": [
+"Tyto módní domy udávají tón už desítky let.",
+"Ces maisons de couture tiennent le haut du pavé depuis des décennies.",
+"These fashion houses have ruled the roost for decades."
+],
+"note": "Courant; doslova „držet vrchol dlažby“. Platí o prestižních institucích."
+}
+],
+[
+"p",
+"slavit úspěch",
+"faire florès",
+"to be all the rage",
+"B2",
+{
+"ex": [
+"Aplikace pro rozvoz zažily za pandemie obrovský boom.",
+"Les applis de livraison ont fait florès pendant la pandémie.",
+"Delivery apps were all the rage during the pandemic."
+],
+"note": "Soutenu; vhodné spíš pro psaný projev. Pozor na tvar faire florès."
+}
+],
+[
+"p",
+"každý den má dost svých starostí",
+"à chaque jour suffit sa peine",
+"sufficient unto the day is the evil thereof",
+"B2",
+{
+"ex": [
+"Nemysli už na příští měsíc, každý den má dost svých starostí.",
+"Ne pense pas déjà au mois prochain : à chaque jour suffit sa peine.",
+"Don't think about next month yet: each day has enough troubles of its own."
+],
+"note": "Soutenu; přísloví z Matoušova evangelia (6, 34). Anglický ekvivalent je archaický; běžněji: take one day at a time."
+}
+],
+[
+"p",
+"hnízdo intrik",
+"un panier de crabes",
+"a nest of vipers",
+"B2",
+{
+"ex": [
+"Na tom oddělení je to pravé hnízdo intrik.",
+"Dans ce service, c'est un vrai panier de crabes.",
+"In that department, it's a real nest of vipers."
+],
+"note": "Familier; doslova „koš krabů“. O prostředí, kde si lidé škodí."
+}
+],
+[
+"p",
+"způsobit rozruch",
+"jeter un pavé dans la mare",
+"to cause a stir",
+"B2",
+{
+"ex": [
+"Jeho kniha vyvolala v nakladatelském světě pořádný rozruch.",
+"Son livre a jeté un pavé dans la mare du monde de l'édition.",
+"His book caused a stir in the publishing world."
+],
+"note": "Courant; doslova „hodit dlažební kámen do rybníka“."
+}
+],
+[
+"p",
+"vyjít naprázdno",
+"faire pschitt",
+"to fizzle out",
+"B2",
+{
+"ex": [
+"Plán oznámený s velkou pompou vyšel naprázdno.",
+"Le plan annoncé en grande pompe a fait pschitt.",
+"The plan announced with great fanfare fizzled out."
+],
+"note": "Familier; onomatopoje syčení. Pro plány, které slibovaly víc, než dopadly."
+}
+],
+[
+"p",
+"vysílat protichůdné signály",
+"souffler le chaud et le froid",
+"to blow hot and cold",
+"B2",
+{
+"ex": [
+"Vláda o důchodové reformě vysílá protichůdné signály.",
+"Le gouvernement souffle le chaud et le froid sur la réforme des retraites.",
+"The government is blowing hot and cold over pension reform."
+],
+"note": "Courant; doslova „foukat horké i studené“. Znamená střídat sliby a hrozby."
+}
+],
+[
+"p",
+"ostře kritizovat",
+"tirer à boulets rouges sur",
+"to slam",
+"B2",
+{
+"ex": [
+"Opozice ostře zkritizovala návrh zákona.",
+"L'opposition a tiré à boulets rouges sur le projet de loi.",
+"The opposition slammed the bill."
+],
+"note": "Courant; doslova „pálit rozžhavenými koulemi“. Vhodné i v novinách."
+}
+],
+[
+"p",
+"zvonit umíráčkem",
+"sonner le glas de",
+"to sound the death knell for",
+"B2",
+{
+"ex": [
+"Toto rozhodnutí zvoní umíráčkem malým knihkupectvím ve čtvrti.",
+"Cette décision sonne le glas des petites librairies du quartier.",
+"This decision sounds the death knell for the neighbourhood's small bookshops."
+],
+"note": "Soutenu; obrazné, o konci něčeho. V psané češtině i francouzštině."
+}
+]
+]

@@ -2,14 +2,15 @@
 import { layout, esc, pick, figure, SITE } from '../lib/layout.js';
 import { toHtml, plain } from '../lib/markup.js';
 import { getPost, getPosts, getVersions } from '../lib/posts.js';
+import { topicUrl, articleTopic, QUAK_TOPICS, TOPICS_LIVE } from '../lib/quak.js';
 
 const CAT = {
   fr: { paris: 'Paris', voyage: 'Voyages', langue: 'Langue' },
   cs: { paris: 'Paříž', voyage: 'Cestování', langue: 'Jazyk' },
 };
 const T = {
-  fr: { listen: 'Écouter l’article', stopL: 'Arrêter', speed: 'Vitesse', comp: 'Compréhension', level: 'Niveau de lecture', levelNote: 'Même article, écrit pour chaque niveau CECR.', glossary: 'Vocabulaire', back: '← Tous les articles', sources: 'Sources', by: 'Par', notrans: 'Cet article n’est pas encore traduit en français ; voici la version tchèque.', more: 'À lire aussi', nf: 'Article introuvable', nfp: 'Cet article n’existe pas ou n’est plus publié.' },
-  cs: { listen: 'Poslechnout francouzsky', stopL: 'Zastavit', speed: 'Rychlost', comp: 'Porozumění textu', level: 'Úroveň čtení', levelNote: 'Stejný článek napsaný pro každou úroveň CEFR.', glossary: 'Slovíčka', back: '← Všechny články', sources: 'Zdroje', by: 'Autor', notrans: 'Tento článek zatím nemá český překlad, zobrazuje se francouzská verze.', more: 'Přečtěte si také', nf: 'Článek nenalezen', nfp: 'Tento článek neexistuje nebo už není zveřejněný.' },
+  fr: { listen: 'Écouter l’article', stopL: 'Arrêter', speed: 'Vitesse', comp: 'Compréhension', quak: 'réviser dans Quak', level: 'Niveau de lecture', levelNote: 'Même article, écrit pour chaque niveau CECR.', glossary: 'Vocabulaire', back: '← Tous les articles', sources: 'Sources', by: 'Par', notrans: 'Cet article n’est pas encore traduit en français ; voici la version tchèque.', more: 'À lire aussi', nf: 'Article introuvable', nfp: 'Cet article n’existe pas ou n’est plus publié.' },
+  cs: { listen: 'Poslechnout francouzsky', stopL: 'Zastavit', speed: 'Rychlost', comp: 'Porozumění textu', quak: 'procvičit v Quaku', level: 'Úroveň čtení', levelNote: 'Stejný článek napsaný pro každou úroveň CEFR.', glossary: 'Slovíčka', back: '← Všechny články', sources: 'Zdroje', by: 'Autor', notrans: 'Tento článek zatím nemá český překlad, zobrazuje se francouzská verze.', more: 'Přečtěte si také', nf: 'Článek nenalezen', nfp: 'Tento článek neexistuje nebo už není zveřejněný.' },
 };
 const fmt = (iso, lang) => new Date(iso).toLocaleDateString(lang === 'cs' ? 'cs-CZ' : 'fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
 
