@@ -1,0 +1,74 @@
+{
+  "base": "parler-francais-a-paris",
+  "level": "A2",
+  "slug": "parler-francais-a-paris-a2",
+  "category": "langue",
+  "published_at": "2026-09-30T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Parler français à Paris : politesse et café",
+  "title_cs": "Francouzsky v Paříži: zdvořilost a káva",
+  "excerpt_fr": "Bonjour, vous, commander un café : les réflexes simples pour bien parler à Paris.",
+  "excerpt_cs": "Bonjour, vykání, objednání kávy: jednoduché návyky pro první rozhovory v Paříži.",
+  "body_fr": "Vous poussez la porte d'une boulangerie à Paris. Vous dites tout de suite : « Une baguette, s'il vous plaît ». La vendeuse ne répond pas. Pourquoi ? Vous avez oublié un petit mot : « Bonjour ». À Paris, la politesse fait partie de la langue.\n\n## Le « Bonjour » dans les magasins\n\nQuand vous entrez dans un magasin ou dans un café, vous dites **Bonjour** au commerçant. En sortant, vous dites **Merci, au revoir**. Le soir, vous dites **Bonsoir**. Vous pouvez ajouter « Madame » ou « Monsieur ».\n\nDans la rue, on ne salue pas les inconnus. Mais pour demander votre chemin, commencez par **Excusez-moi** ou **Pardon**.\n\nOn dit **vous** aux inconnus, aux serveurs et aux personnes plus âgées. On dit **tu** aux amis, à la famille et aux enfants. Quand vous hésitez, dites « vous ».\n\n## Au café et au restaurant\n\nPour commander, vous pouvez dire : **« Je voudrais un café, s'il vous plaît »**. Attention : « un café » est un petit café noir. Un **crème** est un café avec du lait.\n\nLe service est compris. Les prix affichés sont les prix à payer. Le pourboire n'est pas obligatoire. Au restaurant, vous pouvez demander **une carafe d'eau**. L'eau du robinet ne coûte rien. À midi, beaucoup de restaurants proposent une **formule** : une entrée et un plat, ou un plat et un dessert.\n\nÀ la fin, vous dites : **« L'addition, s'il vous plaît »**. Le serveur n'apporte pas toujours la note tout seul. Ce n'est pas impoli. Il ne veut pas presser les clients.\n\nParfois, vous parlez français et le serveur répond en anglais. Ce n'est presque jamais une moquerie. Parlez lentement, commencez par « Bonjour » et continuez en français.\n\n## Pour continuer\n\nVoici trois phrases utiles : « Pardon ? », « Je ne comprends pas », « Pouvez-vous répéter, plus lentement ? ». Pour apprendre avant le départ, il y a des sites gratuits : [TV5MONDE](https://apprendre.tv5monde.com/fr), [Français facile de RFI](https://francaisfacile.rfi.fr/fr/) et l'[Institut français de Prague](https://www.ifp.cz/).",
+  "body_cs": "Otevřete dveře pekárny v Paříži. Hned řeknete: „Une baguette, s'il vous plaît“ (Bagetu, prosím). Prodavačka neodpoví. Proč? Zapomněli jste jedno malé slovo: „Bonjour“. V Paříži patří zdvořilost k jazyku.\n\n## „Bonjour“ v obchodech\n\nKdyž vstoupíte do obchodu nebo do kavárny, řeknete obchodníkovi **Bonjour**. Při odchodu řeknete **Merci, au revoir**. Večer říkáte **Bonsoir**. Můžete přidat „Madame“ nebo „Monsieur“.\n\nNa ulici cizí lidi nezdravíte. Ale když se chcete zeptat na cestu, začněte slovy **Excusez-moi** nebo **Pardon**.\n\nCizím lidem, číšníkům a starším lidem se říká **vous** (vy). Přátelům, rodině a dětem se říká **tu** (ty). Když si nejste jistí, říkejte „vous“.\n\n## V kavárně a v restauraci\n\nPři objednávání můžete říct: **„Je voudrais un café, s'il vous plaît“** (Dal bych si kávu, prosím). Pozor: „un café“ je malá černá káva. **Crème** je káva s mlékem.\n\nObsluha je v ceně. Ceny na lístku jsou ceny, které zaplatíte. Spropitné není povinné. V restauraci si můžete říct o **karafu vody**. Voda z kohoutku nestojí nic. V poledne nabízí hodně restaurací **formuli**: předkrm a hlavní jídlo, nebo hlavní jídlo a dezert.\n\nNa konci řeknete: **„L'addition, s'il vous plaît“** (Účet, prosím). Číšník často nepřinese účet sám od sebe. Není to nezdvořilé. Nechce své hosty popohánět.\n\nNěkdy mluvíte francouzsky a číšník odpoví anglicky. Skoro nikdy to není posměch. Mluvte pomalu, začněte slovem „Bonjour“ a pokračujte francouzsky.\n\n## Jak pokračovat\n\nTady jsou tři užitečné věty: „Pardon ?“ (Prosím?), „Je ne comprends pas“ (Nerozumím), „Pouvez-vous répéter, plus lentement ?“ (Můžete to zopakovat, pomaleji?). Před cestou se můžete učit na bezplatných stránkách: [TV5MONDE](https://apprendre.tv5monde.com/fr), [Français facile de RFI](https://francaisfacile.rfi.fr/fr/) a [Institut français de Prague](https://www.ifp.cz/).",
+  "glossary": [
+    {
+      "fr": "le commerçant",
+      "cs": "obchodník"
+    },
+    {
+      "fr": "le serveur",
+      "cs": "číšník"
+    },
+    {
+      "fr": "le pourboire",
+      "cs": "spropitné"
+    },
+    {
+      "fr": "la carafe d'eau",
+      "cs": "karafa vody"
+    },
+    {
+      "fr": "l'eau du robinet",
+      "cs": "voda z kohoutku"
+    },
+    {
+      "fr": "la formule",
+      "cs": "menu (předkrm + hlavní jídlo nebo hlavní jídlo + dezert)"
+    },
+    {
+      "fr": "l'entrée",
+      "cs": "předkrm"
+    },
+    {
+      "fr": "presser",
+      "cs": "popohánět"
+    },
+    {
+      "fr": "une moquerie",
+      "cs": "posměch"
+    },
+    {
+      "fr": "gratuit",
+      "cs": "bezplatný"
+    }
+  ],
+  "photo": {
+    "file": "File:Terrace cafe, Rue de Buci, Paris July 2010.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Terrace_cafe%2C_Rue_de_Buci%2C_Paris_July_2010.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Terrace_cafe,_Rue_de_Buci,_Paris_July_2010.jpg",
+    "author": "zoetnet",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "desc": "Terrace cafe, Rue de Buci, Paris, France.",
+    "width": 2302,
+    "height": 1573
+  },
+  "sources": [
+    "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/pourboire",
+    "https://www.lhotellerie-restauration.fr/actualite/la-carafe-d-eau-doit-etre-gratuite-au-restaurant-55070",
+    "https://apprendre.tv5monde.com/fr",
+    "https://francaisfacile.rfi.fr/fr/",
+    "https://www.ifp.cz/"
+  ]
+}

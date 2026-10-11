@@ -1,0 +1,66 @@
+{
+  "base": "parler-francais-a-paris",
+  "level": "A1",
+  "slug": "parler-francais-a-paris-a1",
+  "category": "langue",
+  "published_at": "2026-09-30T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Parler français à Paris : les mots de base",
+  "title_cs": "Francouzsky v Paříži: základní slova",
+  "excerpt_fr": "Quelques mots simples pour la boulangerie, le café et la rue à Paris.",
+  "excerpt_cs": "Pár jednoduchých slov pro pekárnu, kavárnu a ulici v Paříži.",
+  "body_fr": "Vous entrez dans une boulangerie à Paris. Vous dites d'abord : « Bonjour ». Ce mot est très important. Après, vous demandez votre pain.\n\n## Les mots de base\n\n- **Bonjour** : le matin et l'après-midi.\n- **Bonsoir** : le soir.\n- **S'il vous plaît** : pour demander.\n- **Merci** et **au revoir** : pour partir.\n- **Excusez-moi** : pour demander le chemin.\n\nOn dit « vous » aux inconnus. Le « tu » est pour les amis et la famille.\n\n## Au café\n\nVous dites : « Je voudrais un café, s'il vous plaît ». Pour payer, vous dites : « L'addition, s'il vous plaît ». Le service est compris. Le pourboire n'est pas obligatoire.\n\nVous ne comprenez pas ? Dites : « Pardon ? » ou « Je ne comprends pas ». Pour apprendre, allez sur [TV5MONDE](https://apprendre.tv5monde.com/fr). C'est gratuit.",
+  "body_cs": "Vstoupíte do pekárny v Paříži. Nejdřív řeknete: „Bonjour“. To slovo je velmi důležité. Potom si řeknete o pečivo.\n\n## Základní slova\n\n- **Bonjour**: ráno a odpoledne.\n- **Bonsoir**: večer.\n- **S'il vous plaît**: když o něco žádáte.\n- **Merci** a **au revoir**: když odcházíte.\n- **Excusez-moi**: když se ptáte na cestu.\n\nNeznámým lidem se říká „vous“ (vy). „Tu“ (ty) je pro přátele a rodinu.\n\n## V kavárně\n\nŘeknete: „Je voudrais un café, s'il vous plaît“ (Dal bych si kávu, prosím). Když chcete platit, řeknete: „L'addition, s'il vous plaît“ (Účet, prosím). Obsluha je v ceně. Spropitné není povinné.\n\nNerozumíte? Řekněte: „Pardon ?“ nebo „Je ne comprends pas“ (Nerozumím). K učení můžete použít [TV5MONDE](https://apprendre.tv5monde.com/fr). Je to zdarma.",
+  "glossary": [
+    {
+      "fr": "le pain",
+      "cs": "chleba, pečivo"
+    },
+    {
+      "fr": "le chemin",
+      "cs": "cesta"
+    },
+    {
+      "fr": "l'addition",
+      "cs": "účet"
+    },
+    {
+      "fr": "le service",
+      "cs": "obsluha (v ceně)"
+    },
+    {
+      "fr": "le pourboire",
+      "cs": "spropitné"
+    },
+    {
+      "fr": "obligatoire",
+      "cs": "povinný"
+    },
+    {
+      "fr": "un inconnu",
+      "cs": "neznámý člověk"
+    },
+    {
+      "fr": "gratuit",
+      "cs": "zdarma"
+    }
+  ],
+  "photo": {
+    "file": "File:Terrace cafe, Rue de Buci, Paris July 2010.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Terrace_cafe%2C_Rue_de_Buci%2C_Paris_July_2010.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Terrace_cafe,_Rue_de_Buci,_Paris_July_2010.jpg",
+    "author": "zoetnet",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "desc": "Terrace cafe, Rue de Buci, Paris, France.",
+    "width": 2302,
+    "height": 1573
+  },
+  "sources": [
+    "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/pourboire",
+    "https://www.lhotellerie-restauration.fr/actualite/la-carafe-d-eau-doit-etre-gratuite-au-restaurant-55070",
+    "https://apprendre.tv5monde.com/fr",
+    "https://francaisfacile.rfi.fr/fr/",
+    "https://www.ifp.cz/"
+  ]
+}

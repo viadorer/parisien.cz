@@ -1,0 +1,73 @@
+{
+  "base": "cafes-litteraires",
+  "level": "A2",
+  "slug": "cafes-litteraires-a2",
+  "category": "paris",
+  "published_at": "2026-09-16T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Les cafés littéraires de Paris : où l'on écrit, discute et prend son temps",
+  "title_cs": "Pařížské literární kavárny: kde se psalo, diskutovalo a nikam nespěchalo",
+  "excerpt_fr": "Le Procope, le Flore, les Deux Magots et la Closerie des Lilas : histoire et conseils.",
+  "excerpt_cs": "Le Procope, Flore, Deux Magots a Closerie des Lilas: historie a rady.",
+  "body_fr": "Dans les années 1930 et 1940, certains écrivains parisiens travaillent dans un café. Ce n'est ni leur appartement ni une bibliothèque. Au café, il y a de la chaleur en hiver, du monde, et on peut rester des heures avec une seule boisson. Cette habitude existe toujours.\n\n## Le Procope\n\nLe Procope ouvre en 1686, d'après la date la plus souvent donnée. Son créateur est un Sicilien, Francesco Procopio dei Coltelli. Au XVIIIe siècle, on y voit Voltaire et Diderot. Attention aux légendes : on dit que l'idée de l'*Encyclopédie* est née là, mais les historiens n'en sont pas sûrs.\n\n## Saint-Germain-des-Prés\n\nLe Café de Flore et Les Deux Magots sont presque face à face, boulevard Saint-Germain.\n\nLe Flore ouvre à la fin du XIXe siècle. Après 1939, c'est le café de Jean-Paul Sartre et de Simone de Beauvoir. Ils y travaillent le matin et ils discutent avec leurs amis l'après-midi. Chaque année, en novembre, un jury y donne le Prix de Flore.\n\nLes Deux Magots doivent leur nom à un magasin avec deux statuettes chinoises. Le magasin devient un café en 1884. En 1933, des amis créent le Prix des Deux Magots. Le premier gagnant est Raymond Queneau.\n\n## Montparnasse\n\nLa Closerie des Lilas est boulevard du Montparnasse. Des peintres et des poètes y viennent. Ernest Hemingway et F. Scott Fitzgerald sont aussi liés à ce café. Les souvenirs parisiens de Hemingway s'appellent en français *Paris est une fête*.\n\n## Mode d'emploi\n\n- Dites « Bonjour » en entrant et « Merci, au revoir » en partant.\n- « Un café », c'est un espresso. Pour un café plus grand, demandez « un café allongé ».\n- Le prix change selon la place : comptoir, salle ou terrasse.\n- On n'apporte pas l'addition tout seul. Dites : « L'addition, s'il vous plaît ».\n\n## Pour y aller\n\nCes cafés sont très touristiques. Venez tôt le matin ou en semaine. Les horaires et la carte changent : regardez les sites officiels, par exemple [cafedeflore.fr](https://cafedeflore.fr) et [lesdeuxmagots.fr](https://www.lesdeuxmagots.fr).",
+  "body_cs": "Ve 30. a 40. letech 20. století někteří pařížští spisovatelé pracují v kavárně. Není to ani jejich byt, ani knihovna. V kavárně je v zimě teplo, jsou tam lidé a člověk tam může sedět hodiny s jedním nápojem. Tento zvyk existuje dodnes.\n\n## Le Procope\n\nLe Procope se otevírá v roce 1686, podle data, které se uvádí nejčastěji. Jeho zakladatelem je Sicilan Francesco Procopio dei Coltelli. V 18. století tam chodí Voltaire a Diderot. Pozor na legendy: říká se, že tam vznikl nápad na *Encyklopedii*, ale historici si tím nejsou jistí.\n\n## Saint-Germain-des-Prés\n\nCafé de Flore a Les Deux Magots stojí téměř naproti sobě, na bulváru Saint-Germain.\n\nFlore se otevírá na konci 19. století. Po roce 1939 je to kavárna Jeana-Paula Sartra a Simone de Beauvoirové. Ráno tam pracují a odpoledne diskutují s přáteli. Každý rok v listopadu tam porota uděluje Prix de Flore.\n\nLes Deux Magots mají jméno podle obchodu se dvěma čínskými sošky. Obchod se v roce 1884 mění v kavárnu. V roce 1933 přátelé zakládají Prix des Deux Magots. Prvním vítězem je Raymond Queneau.\n\n## Montparnasse\n\nLa Closerie des Lilas je na bulváru du Montparnasse. Chodí tam malíři a básníci. S touto kavárnou jsou spojeni také Ernest Hemingway a F. Scott Fitzgerald. Hemingwayovy vzpomínky na Paříž se francouzsky jmenují *Paris est une fête*.\n\n## Návod k použití\n\n- Při vstupu řekněte „Bonjour“ a při odchodu „Merci, au revoir“.\n- „Un café“ je espresso. Chcete-li větší kávu, řekněte „un café allongé“.\n- Cena se mění podle místa: bar, sál nebo terasa.\n- Účet vám sám nepřinesou. Řekněte: „L'addition, s'il vous plaît“.\n\n## Praktické info\n\nTyto kavárny jsou velmi turistické. Přijďte brzy ráno nebo ve všední den. Otevírací doba a nabídka se mění: podívejte se na oficiální weby, například [cafedeflore.fr](https://cafedeflore.fr) a [lesdeuxmagots.fr](https://www.lesdeuxmagots.fr).",
+  "glossary": [
+    {
+      "fr": "l'écrivain (m.)",
+      "cs": "spisovatel"
+    },
+    {
+      "fr": "l'habitude (f.)",
+      "cs": "zvyk"
+    },
+    {
+      "fr": "la boisson",
+      "cs": "nápoj"
+    },
+    {
+      "fr": "le Sicilien",
+      "cs": "Sicilan"
+    },
+    {
+      "fr": "la légende",
+      "cs": "legenda"
+    },
+    {
+      "fr": "le jury",
+      "cs": "porota"
+    },
+    {
+      "fr": "la statuette",
+      "cs": "soška"
+    },
+    {
+      "fr": "le souvenir",
+      "cs": "vzpomínka"
+    },
+    {
+      "fr": "le comptoir",
+      "cs": "bar, pult"
+    },
+    {
+      "fr": "l'addition (f.)",
+      "cs": "účet"
+    }
+  ],
+  "photo": {
+    "file": "File:Café de Flore, 172 boulevard Saint-Germain, Paris 6e.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_Flore,_172_boulevard_Saint-Germain,_Paris_6e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Le_Procope",
+    "https://fr.wikipedia.org/wiki/Café_de_Flore",
+    "https://fr.wikipedia.org/wiki/Les_Deux_Magots",
+    "https://fr.wikipedia.org/wiki/La_Closerie_des_Lilas",
+    "https://cafedeflore.fr",
+    "https://www.lesdeuxmagots.fr",
+    "https://www.procope.com"
+  ]
+}

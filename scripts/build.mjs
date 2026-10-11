@@ -32,19 +32,29 @@ const localize = (html) => html.replace(/https:\/\/commons\.wikimedia\.org\/wiki
 const articles = existsSync(`${ROOT}data/articles`)
   ? readdirSync(`${ROOT}data/articles`).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(`${ROOT}data/articles/${f}`, 'utf8')))
   : [];
-const seed = articles.map((a) => ({
+const levelArticles = existsSync(`${ROOT}data/articles-levels`)
+  ? readdirSync(`${ROOT}data/articles-levels`).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(`${ROOT}data/articles-levels/${f}`, 'utf8')))
+  : [];
+const allArticles = [...articles, ...levelArticles];
+const seed = allArticles.map((a) => ({
   slug: a.slug, category: a.category || 'paris', author: a.author || 'Rédaction parisien.cz', published_at: a.published_at,
+  level: a.level || '', base_slug: a.base || a.slug, glossary: JSON.stringify(a.glossary || []),
   title_fr: a.title_fr || '', title_cs: a.title_cs || '', excerpt_fr: a.excerpt_fr || '', excerpt_cs: a.excerpt_cs || '',
   body_fr: a.body_fr || '', body_cs: a.body_cs || '',
   cover_url: a.photo?.url ? (hasLocal(a.photo.file) ? `/images/photos/${photoId(a.photo.file)}.jpg` : a.photo.url.replace(/width=\d+/, `width=${std(960)}`)) : '', cover_credit: a.photo ? `${a.photo.author} · ${a.photo.license}` : '', cover_credit_url: a.photo?.page || '',
   sources: JSON.stringify(a.sources || []),
 }));
-writeFileSync(`${ROOT}lib/articles.generated.js`, `// GENEROVÁNO scripts/build.mjs z data/articles/*.json – needitovat ručně.\nexport default ${JSON.stringify(seed, null, 1)};\n`);
+const SEED_VERSION = createHash('sha1').update(JSON.stringify(seed)).digest('hex').slice(0, 12);
+writeFileSync(`${ROOT}lib/articles.generated.js`, `// GENEROVÁNO scripts/build.mjs z data/articles(-levels)/*.json – needitovat ručně.\nexport const SEED_VERSION = '${SEED_VERSION}';\nexport default ${JSON.stringify(seed, null, 1)};\n`);
 
 // ---------- pomocné ----------
 const ph = (o) => o?.photo;
 const li = (arr) => `<ul>${(arr || []).map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`;
 const link = (url, label) => (url ? `<a class="read-more" href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>` : '');
+// Verze textu podle úrovně: plný text (B2+) a jednoduchý (A1–B1). Bez `easy` zůstává jen plný text.
+const dual = (easyHtml, fullHtml) => (easyHtml ? `<div class="lvl-full">${fullHtml}</div><div class="lvl-easy">${easyHtml}</div>` : fullHtml);
+const easyBlock = (x, lang) => (x.easy ? `<p>${esc(pick(x.easy, lang))}</p>${x.easyGlossary?.length ? `<p class="easy-glossary"><b>${lang === 'cs' ? 'Slovíčka' : 'Vocabulaire'} :</b> ${x.easyGlossary.map((g) => `<span lang="fr">${esc(g.fr)}</span> = ${esc(g.cs)}`).join(' · ')}</p>` : ''}` : '');
+const levelNote = (lang, extra = '') => `<p class="level-note lvl-easy">${lang === 'cs' ? 'Zobrazuje se zjednodušený text pro vaši úroveň. Úroveň změníte v nabídce nahoře.' : 'Texte simplifié affiché pour votre niveau. Changez de niveau dans le menu en haut.'}${extra}</p>`;
 const allPhotos = [];
 const collect = (obj) => {
   if (!obj || typeof obj !== 'object') return;
@@ -122,18 +132,17 @@ pages['/paris'] = (lang) => {
   const row = (p, i) => `<article class="place-row${i % 2 ? ' rev' : ''}" id="${esc(p.id)}">
   ${figure(p.photo, { alt: pick(p.name, lang), width: 1280 })}
   <div class="place-text"><h3>${esc(pick(p.name, lang))}</h3><span class="museum-tag">${esc(pick(p.area, lang))}</span>
-  <p>${esc(pick(p.intro, lang))}</p><p>${esc(pick(p.history, lang))}</p>
-  ${p.facts ? li(p.facts[lang]) : ''}
+  ${dual(easyBlock(p, lang), `<p>${esc(pick(p.intro, lang))}</p><p>${esc(pick(p.history, lang))}</p>${p.facts ? li(p.facts[lang]) : ''}`)}
   <p class="tip"><strong>${esc(L('Conseil', 'Tip'))} :</strong> ${esc(pick(p.tip, lang))}</p>
   ${link(p.url, L('Site officiel', 'Oficiální web'))}</div></article>`;
   const q = (x) => `<article class="card">${figure(x.photo, { alt: pick(x.name, lang), width: 700 })}<div class="card-body"><span class="museum-tag">${esc(x.arr || '')}</span><h3>${esc(pick(x.name, lang))}</h3>
-  <p><em>${esc(pick(x.vibe, lang))}</em></p><p>${esc(pick(x.intro, lang))}</p>${x.doAndSee ? li(x.doAndSee[lang]) : ''}
+  <p><em>${esc(pick(x.vibe, lang))}</em></p>${dual(easyBlock(x, lang), `<p>${esc(pick(x.intro, lang))}</p>`)}${x.doAndSee ? li(x.doAndSee[lang]) : ''}
   <p class="tip"><strong>${esc(L('À table', 'K jídlu'))} :</strong> ${esc(pick(x.foodTip, lang))}</p></div></article>`;
   return {
     title: L('Paris : monuments et quartiers – parisien.cz', 'Paříž: památky a čtvrti – parisien.cz'),
     description: L('Tour Eiffel, Notre-Dame, Montmartre, Versailles : les lieux incontournables et les quartiers de Paris, avec histoire et conseils.', 'Eiffelovka, Notre-Dame, Montmartre, Versailles: nejdůležitější místa a pařížské čtvrti s historií a radami.'),
     body: head(lang, 'paris', L('Lieux & monuments', 'Místa a památky'), L('Quatorze lieux pour comprendre Paris.', 'Čtrnáct míst, která pomohou pochopit Paříž.'))
-      + sec('', places.map(row).join(''))
+      + sec('', levelNote(lang) + places.map(row).join(''))
       + sec('grey', `<h2>${esc(L('Quartiers', 'Čtvrti'))}</h2><p class="lead">${esc(L('Paris est une ville de villages : chaque quartier a son caractère.', 'Paříž je město vesnic: každá čtvrť má svůj charakter.'))}</p><div class="cards-grid">${quartiers.map(q).join('')}</div>`, 'quartiers'),
   };
 };
@@ -143,13 +152,13 @@ pages['/musees'] = (lang) => {
   const L = (fr, cs) => (lang === 'cs' ? cs : fr);
   const card = (m) => `<article class="card museum" id="${esc(m.id)}">${figure(m.photo, { alt: pick(m.name, lang), width: 800 })}<div class="card-body">
   <span class="museum-tag">${esc(pick(m.kind, lang))} · ${esc(m.district || '')}${m.founded ? ` · ${esc(m.founded)}` : ''}</span><h3>${esc(pick(m.name, lang))}</h3>
-  <p>${esc(pick(m.intro, lang))}</p>${m.highlights ? li(m.highlights[lang]) : ''}
+  ${dual(easyBlock(m, lang), `<p>${esc(pick(m.intro, lang))}</p>${m.highlights ? li(m.highlights[lang]) : ''}`)}
   <p class="tip"><strong>${esc(L('Conseil', 'Tip'))} :</strong> ${esc(pick(m.tip, lang))}</p>${link(m.url, L('Site officiel (horaires, tarifs)', 'Oficiální web (otevírací doba, vstupné)'))}</div></article>`;
   return {
     title: L('Musées de Paris – parisien.cz', 'Muzea v Paříži – parisien.cz'),
     description: L('Louvre, Orsay, Orangerie, Rodin, Picasso… douze musées parisiens présentés avec leurs collections phares.', 'Louvre, Orsay, Orangerie, Rodin, Picasso… dvanáct pařížských muzeí a jejich nejznámější sbírky.'),
     body: head(lang, 'musees', L('Musées de Paris', 'Pařížská muzea'), L('Douze musées pour commencer. Horaires et tarifs changent : vérifiez toujours sur le site officiel.', 'Dvanáct muzeí na začátek. Otevírací doba a ceny se mění: vždy je ověřte na oficiálním webu.'))
-      + sec('', `<div class="cards-grid">${museums.map(card).join('')}</div>`),
+      + sec('', levelNote(lang) + `<div class="cards-grid">${museums.map(card).join('')}</div>`),
   };
 };
 
@@ -195,14 +204,14 @@ pages['/recettes'] = (lang) => {
   const card = (r) => `<article class="card recipe-full" id="${esc(r.id)}">${figure(r.photo, { alt: pick(r.name, lang), width: 800 })}<div class="card-body">
   <div class="recipe-header"><h3>${esc(pick(r.name, lang))}</h3><span class="recipe-difficulty">${esc(pick(r.level, lang))} · ${esc(r.minutes)} min · ${esc(r.servings || 4)} ${esc(L('pers.', 'os.'))}</span></div>
   <h4>${esc(L('Ingrédients', 'Suroviny'))}</h4>${li(r.ingredients?.[lang])}
-  <h4>${esc(L('Préparation', 'Postup'))}</h4><ol>${(r.steps?.[lang] || []).map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
+  <h4>${esc(L('Préparation', 'Postup'))}</h4>${dual(r.easy?.steps?.[lang]?.length ? `<ol>${r.easy.steps[lang].map((s) => `<li>${esc(s)}</li>`).join('')}</ol>` : '', `<ol>${(r.steps?.[lang] || []).map((s) => `<li>${esc(s)}</li>`).join('')}</ol>`)}
   ${r.tip ? `<p class="tip"><strong>${esc(L('Astuce', 'Tip'))} :</strong> ${esc(pick(r.tip, lang))}</p>` : ''}
   ${r.vocab?.length ? `<h4>${esc(L('Vocabulaire de la recette', 'Slovíčka z receptu'))}</h4><p class="chips">${r.vocab.map((v) => `<span class="chip static"><b>${esc(v.fr)}</b> · ${esc(v.cs)}</span>`).join('')}</p>` : ''}</div></article>`;
   return {
     title: L('Recettes françaises – parisien.cz', 'Francouzské recepty – parisien.cz'),
     description: L('Croque-monsieur, soupe à l’oignon, quiche, crêpes : des recettes classiques avec le vocabulaire de cuisine.', 'Croque-monsieur, cibulačka, quiche, crêpes: klasické recepty se slovíčky z kuchyně.'),
     body: head(lang, 'recettes', L('Recettes', 'Recepty'), L('Cuisiner, c’est aussi apprendre : chaque recette a son vocabulaire.', 'Vaření je i učení: ke každému receptu patří slovíčka.'))
-      + sec('', `<div class="cards-grid wide">${recipes.map(card).join('')}</div>`),
+      + sec('', levelNote(lang) + `<div class="cards-grid wide">${recipes.map(card).join('')}</div>`),
   };
 };
 
@@ -254,9 +263,9 @@ pages['/apprendre'] = (lang) => {
     title: L('Apprendre le français – parisien.cz', 'Učíme se francouzsky – parisien.cz'),
     description: L('Vocabulaire par thème, faux amis français–tchèque, conseils de prononciation et quiz sur Paris.', 'Slovíčka podle témat, falešní přátelé francouzština–čeština, rady k výslovnosti a kvíz o Paříži.'),
     body: head(lang, 'learn', L('Apprendre le français', 'Učíme se francouzsky'), L('Vocabulaire utile, pièges à éviter et un petit quiz.', 'Užitečná slovíčka, pasti, kterým se vyhnout, a malý kvíz.'))
-      + sec('', `<h2>${esc(L('Vocabulaire par thème', 'Slovíčka podle témat'))}</h2><div class="accordion">${themes.map((t, i) => `<details${i === 0 ? ' open' : ''}><summary>${esc(pick(t.title, lang))}</summary><table class="vocab"><thead><tr><th>${esc(L('Français', 'Francouzsky'))}</th><th>${esc(L('Tchèque', 'Česky'))}</th></tr></thead><tbody>${(t.items || []).map((it) => `<tr><td lang="fr">${esc(it.fr)}${it.note ? `<small>${esc(pick(it.note, lang))}</small>` : ''}</td><td lang="cs">${esc(it.cs)}</td></tr>`).join('')}</tbody></table></details>`).join('')}</div>`, 'vocabulaire')
+      + sec('', `<h2>${esc(L('Vocabulaire par thème', 'Slovíčka podle témat'))}</h2><p id="learn-level-note" class="level-note" aria-live="polite"></p><div class="accordion">${themes.map((t, i) => `<details${i === 0 ? ' open' : ''}><summary>${esc(pick(t.title, lang))}</summary><table class="vocab"><thead><tr><th>${esc(L('Français', 'Francouzsky'))}</th><th>${esc(L('Tchèque', 'Česky'))}</th></tr></thead><tbody>${(t.items || []).map((it) => `<tr data-lvl="${esc(it.level || 'B1')}"><td lang="fr">${esc(it.fr)}${it.level ? `<span class="item-lvl">${esc(it.level)}</span>` : ''}${it.note ? `<small>${esc(pick(it.note, lang))}</small>` : ''}</td><td lang="cs">${esc(it.cs)}</td></tr>`).join('')}</tbody></table></details>`).join('')}</div>`, 'vocabulaire')
       + sec('grey', `<h2>${esc(L('Faux amis français–tchèque', 'Falešní přátelé francouzština–čeština'))}</h2><p class="lead">${esc(L('Des mots qui se ressemblent… mais qui ne veulent pas dire la même chose.', 'Slova, která se podobají… ale neznamenají totéž.'))}</p>
-<div class="cards-grid small">${(learn.fauxAmis || []).map((f) => `<article class="card"><div class="card-body"><h3 lang="fr">${esc(f.fr)}</h3><p><strong>FR :</strong> ${esc(pick(f.frMeaning, lang))}</p><p><strong>CS :</strong> „${esc(f.csLooks)}“ = ${esc(pick(f.csMeaning, lang) || f.csMeaning?.cs || '')}</p>${f.example ? `<p class="tip"><em>${esc(f.example.fr)}</em><br>${esc(f.example.cs)}</p>` : ''}</div></article>`).join('')}</div>`, 'faux-amis')
+<div class="cards-grid small">${(learn.fauxAmis || []).map((f) => `<article class="card" data-lvl="${esc(f.level || 'B1')}"><div class="card-body"><h3 lang="fr">${esc(f.fr)}</h3><p><strong>FR :</strong> ${esc(pick(f.frMeaning, lang))}</p><p><strong>CS :</strong> „${esc(f.csLooks)}“ = ${esc(pick(f.csMeaning, lang) || f.csMeaning?.cs || '')}</p>${f.example ? `<p class="tip"><em>${esc(f.example.fr)}</em><br>${esc(f.example.cs)}</p>` : ''}</div></article>`).join('')}</div>`, 'faux-amis')
       + sec('', `<h2>${esc(L('Conseils', 'Rady'))}</h2>${learn.tips ? li(learn.tips[lang]) : ''}`, 'conseils')
       + sec('dark', `<h2>${esc(L('Quiz', 'Kvíz'))}</h2><div id="quiz" data-lang="${lang}"></div><script type="application/json" id="quiz-data">${JSON.stringify(learn.quiz || []).replace(/</g, '\\u003c')}</script>`, 'quiz'),
   };
@@ -289,7 +298,7 @@ pages['/blog'] = (lang) => {
     title: L('Blog – parisien.cz', 'Blog – parisien.cz'),
     description: L('Articles approfondis sur Paris, les voyages et la langue française, en français et en tchèque.', 'Podrobné články o Paříži, cestování a francouzštině ve francouzštině i češtině.'),
     body: head(lang, 'blog', L('Blog', 'Blog'), L('Articles documentés, avec sources.', 'Zdokumentované články se zdroji.'))
-      + sec('', `<div class="filters" id="blog-filters"><button class="chip" data-cat="" aria-pressed="true">${esc(L('Tout', 'Vše'))}</button><button class="chip" data-cat="paris" aria-pressed="false">${esc(L('Paris', 'Paříž'))}</button><button class="chip" data-cat="voyage" aria-pressed="false">${esc(L('Voyages', 'Cestování'))}</button><button class="chip" data-cat="langue" aria-pressed="false">${esc(L('Langue', 'Jazyk'))}</button></div>
+      + sec('', `<p class="level-note">${esc(L('Chaque article existe à plusieurs niveaux (A1–B1 simplifiés). Choisissez votre niveau dans le menu « Niveau » en haut : les articles s’ouvrent dans la version la plus proche. B2+ = texte original, pour B2, C1 et C2.', 'Většina článků existuje ve více úrovních (zjednodušené A1–B1). Zvolte svou úroveň v nabídce „Úroveň“ nahoře: články se otevřou v nejbližší verzi. B2+ = původní text pro B2, C1 a C2.'))}</p><div class="filters" id="blog-filters"><button class="chip" data-cat="" aria-pressed="true">${esc(L('Tout', 'Vše'))}</button><button class="chip" data-cat="paris" aria-pressed="false">${esc(L('Paris', 'Paříž'))}</button><button class="chip" data-cat="voyage" aria-pressed="false">${esc(L('Voyages', 'Cestování'))}</button><button class="chip" data-cat="langue" aria-pressed="false">${esc(L('Langue', 'Jazyk'))}</button></div>
 <div id="blog-posts" class="cards-grid" data-lang="${lang}" aria-live="polite"></div>`),
   };
 };
@@ -403,7 +412,7 @@ pages['/credits'] = (lang) => {
 };
 
 // ---------- zápis ----------
-for (const d of [museums, places, quartiers, food, recipes, culture, gallery, sitePhotos, articles]) collect(d);
+for (const d of [museums, places, quartiers, food, recipes, culture, gallery, sitePhotos, allArticles]) collect(d);
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 const urls = [];
@@ -423,7 +432,7 @@ writeFileSync(`${OUT}/index.html`, `<!DOCTYPE html><html lang="fr"><head><meta c
 <script>try{var l=localStorage.getItem('pz-lang')||(/^(cs|sk)/i.test(navigator.language||'')?'cs':'fr');location.replace('/'+(l==='cs'?'cs':'fr')+location.search+location.hash)}catch(e){location.replace('/fr')}</script>
 <noscript><meta http-equiv="refresh" content="0;url=/fr"></noscript></head><body style="font-family:sans-serif;text-align:center;padding:4rem"><p><a href="/fr">Français</a> · <a href="/cs">Čeština</a></p></body></html>`);
 // sitemap + robots
-const slugs = articles.map((a) => a.slug);
+const slugs = allArticles.map((a) => a.slug);
 const all = [...urls, ...['fr', 'cs'].flatMap((l) => slugs.map((s) => `/${l}/article/${s}`))];
 writeFileSync(`${OUT}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${all.map((u) => `<url><loc>${SITE}${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 writeFileSync(`${OUT}/robots.txt`, `User-agent: *\nDisallow: /admin\nDisallow: /api/\nSitemap: ${SITE}/sitemap.xml\n`);

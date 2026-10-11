@@ -84,6 +84,10 @@
             <div><label for="f-cat">Kategorie</label><select id="f-cat"><option value="paris">Paříž</option><option value="voyage">Cestování</option><option value="langue">Jazyk</option></select></div>
             <div class="grow"><label for="f-author">Autor</label><input type="text" id="f-author" placeholder="Rédaction parisien.cz / jméno studenta"></div>
           </div>
+          <div class="row">
+            <div><label for="f-level">Úroveň (CEFR)</label><select id="f-level"><option value="">–</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option><option>C2</option></select></div>
+            <div class="grow"><label for="f-base">Základní článek (slug originálu – vyplňte u zjednodušených verzí)</label><input type="text" id="f-base" placeholder="u původního článku nechte prázdné"></div>
+          </div>
           <label for="f-cover">Titulní obrázek (https:// URL)</label>
           <div class="row">
             <input class="grow" type="url" id="f-cover" placeholder="https://…">
@@ -109,6 +113,7 @@
               <label for="f-body-cs">Text</label><textarea id="f-body-cs"></textarea>
             </div>
           </div>
+          <label for="f-gloss">Slovníček (jeden řádek: <code>le marché = trh</code>)</label><textarea class="short" id="f-gloss"></textarea>
           <label for="f-sources">Zdroje (jedna https:// URL na řádek)</label><textarea class="short" id="f-sources"></textarea>
           <p class="hint">Formát textu: odstavce oddělte prázdným řádkem, nadpis sekce <code>## Nadpis</code>, tučně <code>**text**</code>, odrážky <code>- položka</code>, odkaz <code>[text](https://…)</code>. HTML se nepodporuje. Stačí vyplnit jeden jazyk, druhý se zobrazí jako záloha.</p>
           <div class="row">

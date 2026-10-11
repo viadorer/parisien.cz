@@ -1,0 +1,79 @@
+{
+  "base": "impressionnistes",
+  "level": "A2",
+  "slug": "impressionnistes-a2",
+  "category": "paris",
+  "published_at": "2026-09-14T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Sur les traces des impressionnistes à Paris",
+  "title_cs": "Po stopách impresionistů v Paříži",
+  "excerpt_fr": "Deux jours à Paris avec Monet et ses amis : l'Orangerie, Orsay, Marmottan et, si possible, Giverny.",
+  "excerpt_cs": "Dva dny v Paříži s Monetem a jeho přáteli: Orangerie, Orsay, Marmottan a podle možností Giverny.",
+  "body_fr": "Le 15 avril 1874, trente artistes montrent 165 œuvres au 35 boulevard des Capucines, à Paris. Il y a Monet, Renoir, Pissarro, Degas et Berthe Morisot. L'exposition n'a pas de nom. C'est le début de l'impressionnisme.\n\n## Un nom pour se moquer\n\nMonet montre un tableau : *Impression, soleil levant*. Un critique, Louis Leroy, écrit un article pour se moquer de l'exposition. Il invente le mot « impressionnistes ». Les artistes n'ont pas choisi ce nom, mais il est resté.\n\n## Jour 1 : Orangerie et Orsay\n\nLe matin, allez au musée de l'Orangerie, dans le jardin des Tuileries. Vous y voyez les *Nymphéas* de Monet dans deux salles ovales. Asseyez-vous et regardez longtemps.\n\nPuis traversez la Seine pour aller au musée d'Orsay. C'était une gare, construite entre 1898 et 1900. Le musée ouvre en décembre 1986. Il a une des plus grandes collections d'impressionnistes au monde. Ne cherchez pas à tout voir : choisissez deux ou trois salles.\n\n## Jour 2 : Marmottan\n\nLe musée Marmottan Monet est près de la station La Muette, dans le 16e arrondissement. C'est le plus grand ensemble de Monet au monde. Le tableau *Impression, soleil levant* est ici. Il a été volé en 1985 et retrouvé en 1990. Il est exposé de nouveau depuis 1991.\n\n## Une sortie hors de Paris\n\nGiverny est à environ 80 kilomètres de Paris. Monet y trouve une maison en 1883 et il achète la propriété en 1890. Vous pouvez visiter la maison et le jardin, mais le jardin est ouvert seulement en saison.\n\nAuvers-sur-Oise est à une trentaine de kilomètres de Paris. Van Gogh y est mort en 1890. Les trains partent de la gare du Nord.\n\n## Pour y aller\n\nLes horaires changent souvent. Regardez les sites officiels : [Orsay](https://www.musee-orsay.fr), [Orangerie](https://www.musee-orangerie.fr), [Marmottan](https://www.marmottan.fr) et [Fondation Monet](https://www.fondation-monet.com). Réservez un créneau à l'avance : vous évitez souvent la file.",
+  "body_cs": "Dne 15. dubna 1874 ukazuje třicet umělců 165 děl na adrese 35 boulevard des Capucines v Paříži. Jsou tam Monet, Renoir, Pissarro, Degas a Berthe Morisotová. Výstava nemá jméno. Je to začátek impresionismu.\n\n## Jméno z posměchu\n\nMonet ukazuje obraz *Dojem, vycházející slunce* (*Impression, soleil levant*). Kritik Louis Leroy napíše článek, ve kterém se výstavě vysmívá. Vymyslí slovo „impresionisté“. Umělci si to jméno nevybrali, ale zůstalo.\n\n## Den 1: Orangerie a Orsay\n\nRáno jděte do Musée de l'Orangerie v Tuilerijských zahradách. Uvidíte tam Monetovy *Lekníny* ve dvou oválných sálech. Posaďte se a dlouho se dívejte.\n\nPotom přejděte Seinu do Musée d'Orsay. Dřív to bylo nádraží, postavené v letech 1898 až 1900. Muzeum se otevřelo v prosinci 1986. Má jednu z největších sbírek impresionistů na světě. Nesnažte se vidět všechno: vyberte si dva nebo tři sály.\n\n## Den 2: Marmottan\n\nMusée Marmottan Monet je u stanice La Muette v 16. obvodu. Je to největší soubor Monetových děl na světě. Je tu obraz *Dojem, vycházející slunce*. Byl ukraden v roce 1985 a nalezen v roce 1990. Od roku 1991 je znovu vystaven.\n\n## Výlet mimo Paříž\n\nGiverny je asi 80 kilometrů od Paříže. Monet tam v roce 1883 našel dům a v roce 1890 koupil celý pozemek. Můžete navštívit dům a zahradu, ale zahrada je otevřená jen v sezoně.\n\nAuvers-sur-Oise je asi třicet kilometrů od Paříže. Van Gogh tam zemřel v roce 1890. Vlaky jezdí z Gare du Nord.\n\n## Praktické info\n\nOtevírací doby se často mění. Podívejte se na oficiální weby: [Orsay](https://www.musee-orsay.fr), [Orangerie](https://www.musee-orangerie.fr), [Marmottan](https://www.marmottan.fr) a [Fondation Monet](https://www.fondation-monet.com). Rezervujte si časové okno předem: často se tak vyhnete frontě.",
+  "glossary": [
+    {
+      "fr": "une exposition",
+      "cs": "výstava"
+    },
+    {
+      "fr": "un tableau",
+      "cs": "obraz"
+    },
+    {
+      "fr": "se moquer de",
+      "cs": "vysmívat se"
+    },
+    {
+      "fr": "un critique",
+      "cs": "kritik"
+    },
+    {
+      "fr": "les nymphéas (m.)",
+      "cs": "lekníny"
+    },
+    {
+      "fr": "une gare",
+      "cs": "nádraží"
+    },
+    {
+      "fr": "une collection",
+      "cs": "sbírka"
+    },
+    {
+      "fr": "volé",
+      "cs": "ukradený"
+    },
+    {
+      "fr": "un créneau",
+      "cs": "časové okno (rezervace)"
+    },
+    {
+      "fr": "la file",
+      "cs": "fronta"
+    }
+  ],
+  "photo": {
+    "file": "File:Detail nympheas musee de lOrangerie Paris.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_nympheas_musee_de_lOrangerie_Paris.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Detail_nympheas_musee_de_lOrangerie_Paris.jpg",
+    "author": "DocDaysleeper",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Detail of Nympheas, Musée de l'Orangerie, Paris",
+    "width": 4288,
+    "height": 2848
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Première_exposition_impressionniste",
+    "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay",
+    "https://fr.wikipedia.org/wiki/Musée_de_l'Orangerie",
+    "https://en.wikipedia.org/wiki/Mus%C3%A9e_Marmottan_Monet",
+    "https://en.wikipedia.org/wiki/Giverny",
+    "https://en.wikipedia.org/wiki/Auvers-sur-Oise",
+    "https://www.musee-orsay.fr",
+    "https://www.musee-orangerie.fr",
+    "https://www.marmottan.fr",
+    "https://www.fondation-monet.com"
+  ]
+}

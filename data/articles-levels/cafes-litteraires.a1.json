@@ -1,0 +1,65 @@
+{
+  "base": "cafes-litteraires",
+  "level": "A1",
+  "slug": "cafes-litteraires-a1",
+  "category": "paris",
+  "published_at": "2026-09-16T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Les cafés littéraires de Paris",
+  "title_cs": "Pařížské literární kavárny",
+  "excerpt_fr": "Des écrivains célèbres écrivent et parlent dans les cafés de Paris.",
+  "excerpt_cs": "Slavní spisovatelé píší a povídají si v pařížských kavárnách.",
+  "body_fr": "À Paris, des écrivains travaillent dans les cafés. Ils y parlent et ils écrivent. Ces cafés sont célèbres.\n\n## Les cafés\n\nLe Procope est très vieux. Il ouvre en 1686. Voltaire et Diderot y vont. Le Café de Flore et Les Deux Magots sont à Saint-Germain-des-Prés. Sartre et Simone de Beauvoir travaillent au Flore.\n\nLa Closerie des Lilas est à Montparnasse. Hemingway et Fitzgerald sont liés à ce café.\n\n## Conseils\n\nDites « Bonjour » dans le café. « Un café », c'est un espresso. Pour l'addition, dites : « L'addition, s'il vous plaît ». Venez tôt le matin. Il y a moins de monde.",
+  "body_cs": "V Paříži pracují spisovatelé v kavárnách. Povídají si tam a píšou. Tyto kavárny jsou slavné.\n\n## Kavárny\n\nLe Procope je velmi starý. Otevřel se v roce 1686. Chodí tam Voltaire a Diderot. Café de Flore a Les Deux Magots jsou v Saint-Germain-des-Prés. Sartre a Simone de Beauvoirová pracují ve Flore.\n\nLa Closerie des Lilas je na Montparnassu. S touto kavárnou jsou spojeni Hemingway a Fitzgerald.\n\n## Rady\n\nV kavárně řekněte „Bonjour“. „Un café“ je espresso. Účet si řeknete takto: „L'addition, s'il vous plaît“. Přijďte brzy ráno. Je tam méně lidí.",
+  "glossary": [
+    {
+      "fr": "l'écrivain (m.)",
+      "cs": "spisovatel"
+    },
+    {
+      "fr": "le café",
+      "cs": "kavárna; káva"
+    },
+    {
+      "fr": "célèbre",
+      "cs": "slavný"
+    },
+    {
+      "fr": "vieux",
+      "cs": "starý"
+    },
+    {
+      "fr": "l'addition (f.)",
+      "cs": "účet"
+    },
+    {
+      "fr": "tôt",
+      "cs": "brzy"
+    },
+    {
+      "fr": "le monde (moins de monde)",
+      "cs": "lidé (méně lidí)"
+    },
+    {
+      "fr": "lié à",
+      "cs": "spojený s"
+    }
+  ],
+  "photo": {
+    "file": "File:Café de Flore, 172 boulevard Saint-Germain, Paris 6e.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_Flore,_172_boulevard_Saint-Germain,_Paris_6e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Le_Procope",
+    "https://fr.wikipedia.org/wiki/Café_de_Flore",
+    "https://fr.wikipedia.org/wiki/Les_Deux_Magots",
+    "https://fr.wikipedia.org/wiki/La_Closerie_des_Lilas",
+    "https://cafedeflore.fr",
+    "https://www.lesdeuxmagots.fr",
+    "https://www.procope.com"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "base": "paris-a-velo",
+  "level": "A2",
+  "slug": "paris-a-velo-a2",
+  "category": "paris",
+  "published_at": "2026-09-22T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Paris à vélo : règles et itinéraires",
+  "title_cs": "Paříž na kole: pravidla a trasy",
+  "excerpt_fr": "Vélib', règles de la route et trois itinéraires faciles pour rouler à Paris.",
+  "excerpt_cs": "Vélib', pravidla provozu a tři snadné trasy pro jízdu na kole po Paříži.",
+  "body_fr": "À Paris, beaucoup de personnes vont au travail à vélo. Selon un recensement de 2022, c'est plus de 10 % des Parisiens qui travaillent. Il y a plus de cyclistes que d'automobilistes. Voici quelques conseils pour rouler quand vous arrivez.\n\n## Vélib' et les règles\n\nLe service de vélos en libre-service s'appelle Vélib'. Il a commencé le 15 juillet 2007. Aujourd'hui, c'est Vélib' Métropole. Pour l'état actuel du service, consultez le site officiel.\n\nVoici les règles à connaître :\n\n- Dans les rues en zone 30, les cyclistes peuvent en général rouler dans les deux sens. Regardez les panneaux.\n- Le feu rouge est aussi pour les cyclistes. Seul un petit panneau spécial permet parfois de passer.\n- Le sas vélo est une zone devant le feu, réservée aux vélos.\n- Le casque est obligatoire pour les enfants de moins de 12 ans.\n- La nuit, il faut une lumière. La sonnette est aussi indispensable.\n\n## Sécurité\n\nGardez la distance d'une portière ouverte avec les voitures garées. Faites attention aux camions : ils ont un angle mort. Les rails de tram et les pavés mouillés glissent. Attachez le cadre et une roue avec un bon antivol. Les vols sont fréquents.\n\n## Trois itinéraires faciles\n\n- **La Seine** : suivez les quais, des Tuileries à la tour Eiffel. Le trajet est plat. Certains quais sont piétonniers.\n- **Le canal Saint-Martin** : il a ouvert en 1825. Il y a beaucoup de promeneurs et de terrasses. Il faut de la patience.\n- **La Coulée verte René-Dumont** : cette promenade part de Bastille. Les règles pour les vélos ne sont pas claires. Vérifiez sur [Paris.fr](https://www.paris.fr/equipements/coulee-verte-rene-dumont-1772) avant de partir.\n\nPour Vélib', voyez [velib-metropole.fr](https://www.velib-metropole.fr). Les règles de la route sont sur [Service-Public](https://www.service-public.gouv.fr/particuliers/vosdroits/F308).",
+  "body_cs": "V Paříži jezdí hodně lidí do práce na kole. Podle sčítání z roku 2022 je to více než 10 % pracujících Pařížanů. Cyklistů je víc než řidičů aut. Tady je pár rad, jak jezdit, když přijedete.\n\n## Vélib' a pravidla\n\nSlužba sdílených kol se jmenuje Vélib'. Začala 15. července 2007. Dnes je to Vélib' Métropole. Aktuální stav služby si ověřte na oficiálním webu.\n\nTato pravidla je dobré znát:\n\n- V ulicích v zóně 30 mohou cyklisté obvykle jet oběma směry. Sledujte značky.\n- Červená platí i pro cyklisty. Jen zvláštní malá značka někdy dovoluje projet.\n- „Sas vélo“ je zóna před semaforem vyhrazená pro kola.\n- Helma je povinná pro děti do 12 let.\n- V noci musíte mít světlo. Zvonek je také nezbytný.\n\n## Bezpečnost\n\nDržte odstup délky otevřených dveří od zaparkovaných aut. Dávejte pozor na kamiony: mají slepý úhel. Tramvajové koleje a mokrá dlažba kloužou. Připevněte rám a jedno kolo dobrým zámkem. Krádeže jsou časté.\n\n## Tři snadné trasy\n\n- **Seina**: jeďte po nábřeží, od Tuileries k Eiffelově věži. Cesta je rovná. Některá nábřeží jsou jen pro chodce.\n- **Kanál Saint-Martin**: byl otevřen v roce 1825. Je tam hodně chodců a teras. Je potřeba trpělivost.\n- **Coulée verte René-Dumont**: tato promenáda začíná na Bastille. Pravidla pro kola nejsou jasná. Před odjezdem to ověřte na [Paris.fr](https://www.paris.fr/equipements/coulee-verte-rene-dumont-1772).\n\nK Vélib' viz [velib-metropole.fr](https://www.velib-metropole.fr). Pravidla provozu jsou na [Service-Public](https://www.service-public.gouv.fr/particuliers/vosdroits/F308).",
+  "glossary": [
+    {
+      "fr": "le recensement",
+      "cs": "sčítání lidu"
+    },
+    {
+      "fr": "le libre-service",
+      "cs": "samoobsluha, sdílení"
+    },
+    {
+      "fr": "le feu rouge",
+      "cs": "červená (na semaforu)"
+    },
+    {
+      "fr": "le sas vélo",
+      "cs": "zóna pro kola před semaforem"
+    },
+    {
+      "fr": "le casque",
+      "cs": "helma"
+    },
+    {
+      "fr": "la sonnette",
+      "cs": "zvonek"
+    },
+    {
+      "fr": "une portière",
+      "cs": "dveře auta"
+    },
+    {
+      "fr": "un angle mort",
+      "cs": "slepý úhel"
+    },
+    {
+      "fr": "un antivol",
+      "cs": "zámek na kolo"
+    },
+    {
+      "fr": "un promeneur",
+      "cs": "chodec na procházce"
+    }
+  ],
+  "photo": {
+    "file": "File:Piste cyclable -- double sens vélo - Paris 75013.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piste_cyclable_--_double_sens_v%C3%A9lo_-_Paris_75013.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Piste_cyclable_--_double_sens_v%C3%A9lo_-_Paris_75013.jpg",
+    "author": "EHFXC",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Bike lane in Paris 75013",
+    "width": 2560,
+    "height": 1920
+  },
+  "sources": [
+    "https://www.paris.fr/pages/le-velo-poursuit-son-ascension-vers-les-sommets-35765",
+    "https://en.wikipedia.org/wiki/Cycling_in_Paris",
+    "https://fr.wikipedia.org/wiki/Vélib'_Métropole",
+    "https://www.service-public.gouv.fr/particuliers/vosdroits/F308",
+    "https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/velo",
+    "https://en.wikipedia.org/wiki/Canal_Saint-Martin",
+    "https://en.wikipedia.org/wiki/Coul%C3%A9e_verte_Ren%C3%A9-Dumont",
+    "https://www.paris.fr/equipements/coulee-verte-rene-dumont-1772",
+    "https://www.velib-metropole.fr"
+  ]
+}

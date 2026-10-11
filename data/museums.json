@@ -50,6 +50,37 @@
   "sources": [
    "https://www.louvre.fr",
    "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Louvre"
+  ],
+  "easy": {
+   "fr": "Le Louvre est d'abord une forteresse, vers 1190. Ensuite, c'est un palais. En 1793, il devient un musée pour tous. On y voit cinq mille ans d'histoire. On ne peut pas tout voir : il faut choisir.",
+   "cs": "Louvre je nejdřív pevnost, kolem roku 1190. Potom je to palác. V roce 1793 se stává muzeem pro všechny. Uvidíte tu pět tisíc let dějin. Všechno nestihnete: musíte si vybrat."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "la forteresse",
+    "cs": "pevnost"
+   },
+   {
+    "fr": "le palais",
+    "cs": "palác"
+   },
+   {
+    "fr": "l'histoire (f.)",
+    "cs": "dějiny"
+   },
+   {
+    "fr": "choisir",
+    "cs": "vybrat si"
+   },
+   {
+    "fr": "l'entrée (f.)",
+    "cs": "vchod"
+   },
+   {
+    "fr": "le verre",
+    "cs": "sklo"
+   }
   ]
  },
  {
@@ -103,6 +134,37 @@
   "sources": [
    "https://www.musee-orsay.fr",
    "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay"
+  ],
+  "easy": {
+   "fr": "Avant d'être un musée, c'était une gare. Victor Laloux la construit de 1898 à 1900. Elle est au bord de la Seine. Le musée ouvre le 9 décembre 1986. On y voit des tableaux de 1848 à 1914.",
+   "cs": "Než se stalo muzeem, bylo to nádraží. Victor Laloux ho postavil v letech 1898 až 1900. Stojí na břehu Seiny. Muzeum se otevřelo 9. prosince 1986. Uvidíte tu obrazy z let 1848 až 1914."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "la gare",
+    "cs": "nádraží"
+   },
+   {
+    "fr": "le bord",
+    "cs": "břeh"
+   },
+   {
+    "fr": "le tableau",
+    "cs": "obraz"
+   },
+   {
+    "fr": "la sculpture",
+    "cs": "socha"
+   },
+   {
+    "fr": "le toit",
+    "cs": "střecha"
+   },
+   {
+    "fr": "le fer",
+    "cs": "železo"
+   }
   ]
  },
  {
@@ -156,6 +218,37 @@
   "sources": [
    "https://www.musee-orangerie.fr",
    "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l%27Orangerie"
+  ],
+  "easy": {
+   "fr": "On construit ce bâtiment en 1852, près des Tuileries. Il protège les orangers en hiver. En 1927, il devient un musée. On y voit les « Nymphéas » de Monet, dans deux salles ovales.",
+   "cs": "Tuto budovu postavili roku 1852 u Tuilerií. V zimě chrání pomerančovníky. V roce 1927 se stala muzeem. Uvidíte tu Monetovy „Lekníny“ ve dvou oválných sálech."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "l'oranger (m.)",
+    "cs": "pomerančovník"
+   },
+   {
+    "fr": "l'hiver (m.)",
+    "cs": "zima"
+   },
+   {
+    "fr": "le panneau",
+    "cs": "panel"
+   },
+   {
+    "fr": "la salle",
+    "cs": "sál"
+   },
+   {
+    "fr": "ovale",
+    "cs": "oválný"
+   },
+   {
+    "fr": "le tableau",
+    "cs": "obraz"
+   }
   ]
  },
  {
@@ -209,6 +302,37 @@
   "sources": [
    "https://www.centrepompidou.fr",
    "https://fr.wikipedia.org/wiki/Centre_Pompidou"
+  ],
+  "easy": {
+   "fr": "Le Centre Pompidou ouvre le 31 janvier 1977. Les architectes mettent les tuyaux à l'extérieur, en couleurs vives. Il a une grande collection d'art moderne et une bibliothèque. Attention : le bâtiment est fermé pour des travaux. Il rouvre en 2030.",
+   "cs": "Centre Pompidou se otevřelo 31. ledna 1977. Architekti dali potrubí ven, v jasných barvách. Má velkou sbírku moderního umění a knihovnu. Pozor: budova je kvůli stavebním pracím zavřená. Znovu se otevře v roce 2030."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "le tuyau",
+    "cs": "trubka"
+   },
+   {
+    "fr": "la structure",
+    "cs": "konstrukce"
+   },
+   {
+    "fr": "l'extérieur (m.)",
+    "cs": "venek"
+   },
+   {
+    "fr": "la collection",
+    "cs": "sbírka"
+   },
+   {
+    "fr": "la bibliothèque",
+    "cs": "knihovna"
+   },
+   {
+    "fr": "les travaux (m. pl.)",
+    "cs": "stavební práce"
+   }
   ]
  },
  {
@@ -262,6 +386,37 @@
   "sources": [
    "https://www.musee-rodin.fr",
    "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Rodin"
+  ],
+  "easy": {
+   "fr": "L'hôtel Biron est une belle maison, finie en 1730. Après 1905, des artistes y ont des ateliers, par exemple Rodin. En 1911, l'État achète le lieu. Le musée ouvre en 1919. Le jardin est grand et calme.",
+   "cs": "Hôtel Biron je krásný dům, dokončený roku 1730. Po roce 1905 tu mají ateliéry umělci, například Rodin. V roce 1911 stát toto místo koupil. Muzeum se otevřelo roku 1919. Zahrada je velká a klidná."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "l'atelier (m.)",
+    "cs": "ateliér"
+   },
+   {
+    "fr": "l'État (m.)",
+    "cs": "stát"
+   },
+   {
+    "fr": "l'œuvre (f.)",
+    "cs": "dílo"
+   },
+   {
+    "fr": "offrir",
+    "cs": "darovat"
+   },
+   {
+    "fr": "le jardin",
+    "cs": "zahrada"
+   },
+   {
+    "fr": "calme",
+    "cs": "klidný"
+   }
   ]
  },
  {
@@ -315,6 +470,37 @@
   "sources": [
    "https://www.museepicassoparis.fr/en/museum-history",
    "https://en.wikipedia.org/wiki/Mus%C3%A9e_Picasso_Paris"
+  ],
+  "easy": {
+   "fr": "Le musée Picasso est dans l'hôtel Salé, construit entre 1656 et 1659. Picasso meurt en 1973. L'État reçoit beaucoup de ses œuvres. Le musée ouvre en 1985. On y voit des peintures, des sculptures et des céramiques.",
+   "cs": "Musée Picasso sídlí v paláci Hôtel Salé, postaveném v letech 1656 až 1659. Picasso zemřel roku 1973. Stát dostal mnoho jeho děl. Muzeum se otevřelo roku 1985. Uvidíte tu obrazy, sochy a keramiku."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "l'impôt (m.)",
+    "cs": "daň"
+   },
+   {
+    "fr": "le sel",
+    "cs": "sůl"
+   },
+   {
+    "fr": "l'œuvre (f.)",
+    "cs": "dílo"
+   },
+   {
+    "fr": "la peinture",
+    "cs": "malba"
+   },
+   {
+    "fr": "la céramique",
+    "cs": "keramika"
+   },
+   {
+    "fr": "les archives (f. pl.)",
+    "cs": "archiv"
+   }
   ]
  },
  {
@@ -368,6 +554,37 @@
   "sources": [
    "https://www.carnavalet.paris.fr",
    "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Carnavalet"
+  ],
+  "easy": {
+   "fr": "Le musée Carnavalet raconte l'histoire de Paris. Il est dans deux belles maisons du Marais. Il ouvre en 1880. Il ferme en octobre 2016 pour des travaux. Il rouvre le 26 mai 2021.",
+   "cs": "Musée Carnavalet vypráví dějiny Paříže. Sídlí ve dvou krásných domech v Marais. Otevřelo se roku 1880. V říjnu 2016 se zavřelo kvůli stavebním pracím. Znovu se otevřelo 26. května 2021."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "raconter",
+    "cs": "vyprávět"
+   },
+   {
+    "fr": "l'hôtel particulier (m.)",
+    "cs": "městský palác"
+   },
+   {
+    "fr": "les travaux (m. pl.)",
+    "cs": "stavební práce"
+   },
+   {
+    "fr": "rouvrir",
+    "cs": "znovu otevřít"
+   },
+   {
+    "fr": "le jardin",
+    "cs": "zahrada"
+   },
+   {
+    "fr": "la pause",
+    "cs": "přestávka"
+   }
   ]
  },
  {
@@ -421,6 +638,37 @@
   "sources": [
    "https://www.musee-moyenage.fr",
    "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Cluny"
+  ],
+  "easy": {
+   "fr": "Ce musée est dans l'ancien hôtel des abbés de Cluny. Le bâtiment date de la fin du XVe siècle. Le musée ouvre en 1844. On y voit environ 2 300 objets du Moyen Âge : des tapisseries, des vitraux et des sculptures.",
+   "cs": "Toto muzeum sídlí v bývalém paláci opatů z Cluny. Budova pochází z konce 15. století. Muzeum se otevřelo roku 1844. Uvidíte tu asi 2 300 předmětů ze středověku: tapiserie, vitráže a sochy."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "l'abbé (m.)",
+    "cs": "opat"
+   },
+   {
+    "fr": "les thermes (m. pl.)",
+    "cs": "římské lázně"
+   },
+   {
+    "fr": "le Moyen Âge",
+    "cs": "středověk"
+   },
+   {
+    "fr": "la tapisserie",
+    "cs": "tapiserie"
+   },
+   {
+    "fr": "le vitrail",
+    "cs": "vitráž"
+   },
+   {
+    "fr": "l'objet (m.)",
+    "cs": "předmět"
+   }
   ]
  },
  {
@@ -474,6 +722,37 @@
   "sources": [
    "https://www.quaibranly.fr",
    "https://www.universalis.fr/encyclopedie/musee-du-quai-branly-jacques-chirac-en-bref/"
+  ],
+  "easy": {
+   "fr": "Le musée du quai Branly ouvre en juin 2006. Le président Jacques Chirac veut ce musée. Il présente les arts d'Afrique, d'Asie, d'Océanie et des Amériques. L'architecte Jean Nouvel imagine le bâtiment.",
+   "cs": "Musée du quai Branly se otevřelo v červnu 2006. Prezident Jacques Chirac toto muzeum chtěl. Představuje umění Afriky, Asie, Oceánie a Ameriky. Budovu navrhl architekt Jean Nouvel."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "le président",
+    "cs": "prezident"
+   },
+   {
+    "fr": "la culture",
+    "cs": "kultura"
+   },
+   {
+    "fr": "l'architecte (m.)",
+    "cs": "architekt"
+   },
+   {
+    "fr": "le jardin",
+    "cs": "zahrada"
+   },
+   {
+    "fr": "le mur",
+    "cs": "zeď"
+   },
+   {
+    "fr": "végétal",
+    "cs": "rostlinný, zelený"
+   }
   ]
  },
  {
@@ -527,6 +806,37 @@
   "sources": [
    "https://www.marmottan.fr",
    "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Marmottan-Monet"
+  ],
+  "easy": {
+   "fr": "Ce musée est dans une ancienne maison de chasse. Elle est près du bois de Boulogne. Jules Marmottan l'achète en 1882. En 1934, c'est un musée. En 1966, Michel Monet donne 89 tableaux de son père Claude.",
+   "cs": "Toto muzeum sídlí v bývalém loveckém domě. Stojí u Boulogneského lesíka. Jules Marmottan ho koupil v roce 1882. V roce 1934 je z něj muzeum. V roce 1966 dal Michel Monet 89 obrazů svého otce Clauda."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "la chasse",
+    "cs": "lov"
+   },
+   {
+    "fr": "le bois",
+    "cs": "lesík"
+   },
+   {
+    "fr": "acheter",
+    "cs": "koupit"
+   },
+   {
+    "fr": "donner",
+    "cs": "darovat"
+   },
+   {
+    "fr": "le tableau",
+    "cs": "obraz"
+   },
+   {
+    "fr": "l'œuvre (f.)",
+    "cs": "dílo"
+   }
   ]
  },
  {
@@ -580,6 +890,37 @@
   "sources": [
    "https://www.petitpalais.paris.fr",
    "https://fr.wikipedia.org/wiki/Petit_Palais"
+  ],
+  "easy": {
+   "fr": "Charles Girault construit le Petit Palais pour l'Exposition universelle de 1900. En 1902, c'est un musée des beaux-arts. Le bâtiment a une colonnade, une coupole et un jardin intérieur. Les collections vont de l'Antiquité au début du XXe siècle.",
+   "cs": "Charles Girault postavil Petit Palais pro světovou výstavu roku 1900. V roce 1902 se stal muzeem výtvarných umění. Budova má kolonádu, kupoli a vnitřní zahradu. Sbírky sahají od starověku do počátku 20. století."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "la colonnade",
+    "cs": "kolonáda"
+   },
+   {
+    "fr": "la coupole",
+    "cs": "kupole"
+   },
+   {
+    "fr": "le jardin intérieur",
+    "cs": "vnitřní zahrada"
+   },
+   {
+    "fr": "les beaux-arts (m. pl.)",
+    "cs": "výtvarná umění"
+   },
+   {
+    "fr": "l'Antiquité (f.)",
+    "cs": "starověk"
+   },
+   {
+    "fr": "la collection",
+    "cs": "sbírka"
+   }
   ]
  },
  {
@@ -633,6 +974,37 @@
   "sources": [
    "https://www.arts-et-metiers.net",
    "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Arts_et_M%C3%A9tiers"
+  ],
+  "easy": {
+   "fr": "Le Conservatoire des arts et métiers naît en 1794. Il veut montrer aux Français des machines. Le public entre en mai 1802. Le musée est dans un ancien prieuré. Dans l'église, il y a des avions et le pendule de Foucault.",
+   "cs": "Conservatoire des arts et métiers vzniklo roku 1794. Chtělo ukázat Francouzům stroje. Veřejnost vstoupila v květnu 1802. Muzeum sídlí v bývalém převorství. V kostele jsou letadla a Foucaultovo kyvadlo."
+  },
+  "level": "B2",
+  "easyGlossary": [
+   {
+    "fr": "la machine",
+    "cs": "stroj"
+   },
+   {
+    "fr": "l'instrument (m.)",
+    "cs": "přístroj"
+   },
+   {
+    "fr": "le prieuré",
+    "cs": "převorství"
+   },
+   {
+    "fr": "l'église (f.)",
+    "cs": "kostel"
+   },
+   {
+    "fr": "le pendule",
+    "cs": "kyvadlo"
+   },
+   {
+    "fr": "l'avion (m.)",
+    "cs": "letadlo"
+   }
   ]
  }
 ]

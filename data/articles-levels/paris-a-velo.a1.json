@@ -1,0 +1,70 @@
+{
+  "base": "paris-a-velo",
+  "level": "A1",
+  "slug": "paris-a-velo-a1",
+  "category": "paris",
+  "published_at": "2026-09-22T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Paris à vélo : les bases",
+  "title_cs": "Paříž na kole: základy",
+  "excerpt_fr": "Vélib', règles simples et deux balades faciles pour découvrir Paris à vélo.",
+  "excerpt_cs": "Vélib', jednoduchá pravidla a dvě snadné trasy pro poznávání Paříže na kole.",
+  "body_fr": "À Paris, beaucoup de gens vont au travail à vélo. En 2022, c'est plus de 10 % des Parisiens qui travaillent. C'est plus qu'en voiture.\n\n## Le vélo en ville\n\nVélib' est un service de vélos en libre-service. Il existe depuis 2007. Vous prenez un vélo à une station et vous le rendez à une autre.\n\nVoici trois règles simples :\n\n- Le casque est obligatoire pour les enfants de moins de 12 ans.\n- La nuit, il faut une lumière.\n- Attachez bien votre vélo avec un antivol.\n\n## Où rouler ?\n\nRoulez le long de la Seine. C'est plat. Roulez aussi au bord du canal Saint-Martin. Il y a beaucoup de promeneurs. Soyez patient.\n\nPour les infos officielles, allez sur [Paris.fr](https://www.paris.fr) et sur [Vélib' Métropole](https://www.velib-metropole.fr).",
+  "body_cs": "V Paříži jezdí hodně lidí do práce na kole. V roce 2022 je to více než 10 % pracujících Pařížanů. Je to víc než autem.\n\n## Kolo ve městě\n\nVélib' je služba sdílených kol. Existuje od roku 2007. Vezmete kolo na jedné stanici a vrátíte ho na jiné.\n\nTady jsou tři jednoduchá pravidla:\n\n- Helma je povinná pro děti do 12 let.\n- V noci musíte mít světlo.\n- Kolo dobře připevněte zámkem.\n\n## Kde jezdit?\n\nJezděte podél Seiny. Je to rovina. Jezděte také u kanálu Saint-Martin. Je tam hodně chodců na procházce. Buďte trpěliví.\n\nOficiální informace najdete na [Paris.fr](https://www.paris.fr) a na [Vélib' Métropole](https://www.velib-metropole.fr).",
+  "glossary": [
+    {
+      "fr": "le vélo",
+      "cs": "kolo"
+    },
+    {
+      "fr": "le service",
+      "cs": "služba"
+    },
+    {
+      "fr": "la station",
+      "cs": "stanice"
+    },
+    {
+      "fr": "le casque",
+      "cs": "helma"
+    },
+    {
+      "fr": "un antivol",
+      "cs": "zámek na kolo"
+    },
+    {
+      "fr": "plat",
+      "cs": "rovný"
+    },
+    {
+      "fr": "un promeneur",
+      "cs": "chodec na procházce"
+    },
+    {
+      "fr": "patient",
+      "cs": "trpělivý"
+    }
+  ],
+  "photo": {
+    "file": "File:Piste cyclable -- double sens vélo - Paris 75013.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piste_cyclable_--_double_sens_v%C3%A9lo_-_Paris_75013.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Piste_cyclable_--_double_sens_v%C3%A9lo_-_Paris_75013.jpg",
+    "author": "EHFXC",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Bike lane in Paris 75013",
+    "width": 2560,
+    "height": 1920
+  },
+  "sources": [
+    "https://www.paris.fr/pages/le-velo-poursuit-son-ascension-vers-les-sommets-35765",
+    "https://en.wikipedia.org/wiki/Cycling_in_Paris",
+    "https://fr.wikipedia.org/wiki/Vélib'_Métropole",
+    "https://www.service-public.gouv.fr/particuliers/vosdroits/F308",
+    "https://www.securite-routiere.gouv.fr/reglementation-liee-aux-modes-de-deplacements/velo",
+    "https://en.wikipedia.org/wiki/Canal_Saint-Martin",
+    "https://en.wikipedia.org/wiki/Coul%C3%A9e_verte_Ren%C3%A9-Dumont",
+    "https://www.paris.fr/equipements/coulee-verte-rene-dumont-1772",
+    "https://www.velib-metropole.fr"
+  ]
+}

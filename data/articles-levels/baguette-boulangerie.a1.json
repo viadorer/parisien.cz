@@ -1,0 +1,66 @@
+{
+  "base": "baguette-boulangerie",
+  "level": "A1",
+  "slug": "baguette-boulangerie-a1",
+  "category": "paris",
+  "published_at": "2026-09-20T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "La baguette : un pain français",
+  "title_cs": "Bageta: francouzský chléb",
+  "excerpt_fr": "Six milliards de baguettes par an. Que veut dire « tradition » ?",
+  "excerpt_cs": "Šest miliard baget ročně. Co znamená „tradition“?",
+  "body_fr": "En France, on mange beaucoup de baguettes. Chaque année, plus de six milliards de baguettes sortent des fours. Chaque jour, environ douze millions de personnes vont à la boulangerie.\n\n## La baguette « tradition »\n\nLa baguette « tradition » est un pain spécial. Le boulanger la fait sur place. Il utilise de la farine, de l'eau, du sel et de la levure ou du levain. Pour l'acheter, vous dites : « Une tradition, s'il vous plaît ».\n\n## Une baguette célèbre\n\nEn 2022, la baguette entre au patrimoine de l'UNESCO. L'UNESCO protège le savoir-faire du boulanger et la culture de la baguette.\n\nUne bonne baguette a une croûte dorée. Elle sent le pain chaud. On la mange le jour même. Dites « Bonjour » avant de commander. Pour en savoir plus, allez sur [Paris.fr](https://www.paris.fr).",
+  "body_cs": "Ve Francii se jí hodně baget. Každý rok vyjde z pecí více než šest miliard baget. Každý den jde do pekárny asi dvanáct milionů lidí.\n\n## Bageta „tradition“\n\nBageta „tradition“ je zvláštní chléb. Pekař ji peče na místě. Používá mouku, vodu, sůl a droždí nebo kvásek. Když ji chcete koupit, řeknete: „Une tradition, s'il vous plaît“ (Tradition, prosím).\n\n## Slavná bageta\n\nV roce 2022 se bageta stala součástí dědictví UNESCO. UNESCO chrání řemeslné know-how pekaře a kulturu bagety.\n\nDobrá bageta má zlatavou kůrku. Voní po teplém chlebu. Jí se v ten samý den. Před objednáním řekněte „Bonjour“. Více se dozvíte na [Paris.fr](https://www.paris.fr).",
+  "glossary": [
+    {
+      "fr": "le four",
+      "cs": "pec"
+    },
+    {
+      "fr": "le boulanger",
+      "cs": "pekař"
+    },
+    {
+      "fr": "la farine",
+      "cs": "mouka"
+    },
+    {
+      "fr": "le sel",
+      "cs": "sůl"
+    },
+    {
+      "fr": "le levain",
+      "cs": "kvásek"
+    },
+    {
+      "fr": "la croûte",
+      "cs": "kůrka"
+    },
+    {
+      "fr": "le savoir-faire",
+      "cs": "řemeslná zručnost"
+    },
+    {
+      "fr": "le patrimoine",
+      "cs": "dědictví"
+    }
+  ],
+  "photo": {
+    "file": "File:Paris 10e Rue Beaurepaire Boulangerie 653.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_10e_Rue_Beaurepaire_Boulangerie_653.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_10e_Rue_Beaurepaire_Boulangerie_653.jpg",
+    "author": "GFreihalter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sources": [
+    "https://www.sortiraparis.com/en/where-to-eat-in-paris/food-events/articles/331496-history-decree-baguette-tradition",
+    "https://www.sortiraparis.com/en/where-to-eat-in-paris/food-events/articles/330833-history-baguette-parisian-tradition-french-national-symbol",
+    "https://www.euronews.com/2022/11/30/unesco-lists-the-french-baguette-as-an-intangible-cultural-heritage-of-humanity",
+    "https://www.lalibre.be/international/europe/2022/11/30/populaire-mais-en-peril-la-baguette-inscrite-au-patrimoine-immateriel-de-lhumanite-CI2VSXBU65BNNPYPPAKEUKE3ME/",
+    "https://en.wikipedia.org/wiki/Baguette",
+    "https://en.wikipedia.org/wiki/August_Zang",
+    "https://cdn.paris.fr/presse/2024/04/18/4598f4f32bf1ca6309938184e159d047.pdf",
+    "https://www.paris.fr"
+  ]
+}

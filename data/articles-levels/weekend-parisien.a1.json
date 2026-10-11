@@ -1,0 +1,68 @@
+{
+  "base": "weekend-parisien",
+  "level": "A1",
+  "slug": "weekend-parisien-a1",
+  "category": "paris",
+  "published_at": "2026-09-26T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Un week-end à Paris : le plan simple",
+  "title_cs": "Víkend v Paříži: jednoduchý plán",
+  "excerpt_fr": "Vendredi au canal, samedi au marché et au parc, dimanche au bord de la Seine.",
+  "excerpt_cs": "Pátek u kanálu, sobota na trhu a v parku, neděle u Seiny.",
+  "body_fr": "Le vendredi soir, on va au canal Saint-Martin. Les gens s'assoient au bord de l'eau. Ils prennent un verre et un peu à manger. C'est l'apéro.\n\n## Samedi\n\nLe matin, on va au marché d'Aligre. Il est dans le 12e. On achète des fruits et du pain. Puis on prend un croissant à la boulangerie. L'après-midi, on va au parc des Buttes-Chaumont. Il est grand. Il y a un lac.\n\n## Dimanche\n\nLe dimanche, on marche au bord de la Seine. Il y a des bouquinistes. Ils vendent de vieux livres dans des boîtes vertes. Attention : le lundi, le marché d'Aligre est fermé.\n\nDans les magasins, on dit « Bonjour ». Pour les jours d'ouverture, regardez [Paris.fr](https://www.paris.fr).",
+  "body_cs": "V pátek večer se jde ke kanálu Saint-Martin. Lidé sedí u vody. Dají si sklenku a něco malého k jídlu. To je „apéro“.\n\n## Sobota\n\nRáno se jde na trh Aligre. Je ve 12. obvodu. Lidé kupují ovoce a pečivo. Potom si dají croissant v pekárně. Odpoledne se jde do parku Buttes-Chaumont. Je velký. Je tam jezero.\n\n## Neděle\n\nV neděli se chodí podél Seiny. Jsou tam bouquinisté (prodavači starých knih). Prodávají staré knihy v zelených bednách. Pozor: v pondělí je trh Aligre zavřený.\n\nV obchodech se říká „Bonjour“. Aktuální otevírací dny najdete na [Paris.fr](https://www.paris.fr).",
+  "glossary": [
+    {
+      "fr": "le canal",
+      "cs": "kanál"
+    },
+    {
+      "fr": "l'apéro",
+      "cs": "aperitiv (sklenka a pohoštění před večeří)"
+    },
+    {
+      "fr": "le marché",
+      "cs": "trh"
+    },
+    {
+      "fr": "la boulangerie",
+      "cs": "pekárna"
+    },
+    {
+      "fr": "le parc",
+      "cs": "park"
+    },
+    {
+      "fr": "le lac",
+      "cs": "jezero"
+    },
+    {
+      "fr": "un bouquiniste",
+      "cs": "prodavač starých knih"
+    },
+    {
+      "fr": "fermé",
+      "cs": "zavřený"
+    }
+  ],
+  "photo": {
+    "file": "File:Marché dAligre 4.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/March%C3%A9_dAligre_4.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:March%C3%A9_dAligre_4.jpg",
+    "author": "Jesús Gorriti from Madrid, Spain",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "desc": "Marché d'Aligre (Paris)",
+    "width": 4288,
+    "height": 2848
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Marché_d'Aligre",
+    "https://en.wikipedia.org/wiki/Marché_des_Enfants_Rouges",
+    "https://en.wikipedia.org/wiki/Parc_des_Buttes-Chaumont",
+    "https://en.wikipedia.org/wiki/Canal_Saint-Martin",
+    "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
+    "https://www.paris.fr",
+    "https://www.parisinfo.com"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "base": "carnet-de-voyage-guide",
+  "level": "A2",
+  "slug": "carnet-de-voyage-guide-a2",
+  "category": "voyage",
+  "published_at": "2026-10-05T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Écrire votre carnet de voyage : le guide",
+  "title_cs": "Jak napsat cestopis: průvodce",
+  "excerpt_fr": "Vous voulez écrire sur un voyage pour parisien.cz ? Voici la structure, les règles pour les photos et des conseils pour raconter.",
+  "excerpt_cs": "Chcete psát o cestě pro parisien.cz? Tady je struktura textu, pravidla pro fotky a rady pro vyprávění.",
+  "body_fr": "Un carnet de voyage raconte une expérience. Sur parisien.cz, nous voulons publier vos textes : un week-end à Paris, un échange en Bretagne, une nuit dans un train. Vous n'avez pas besoin d'être écrivain. Il faut un bon regard et des détails précis. Nous lisons chaque texte avant de le publier.\n\n## Quatre ingrédients\n\n- **Le crochet** : la première phrase donne envie de lire.\n- **La scène** : un moment précis, avec un lieu et une heure.\n- **Le détail** : une odeur, un bruit, un objet.\n- **Le conseil pratique** : à la fin, dites ce que vous allez refaire ou éviter. N'écrivez pas les prix ni les horaires, mais donnez le site officiel.\n\nÉcrivez 700 à 1 000 mots par langue.\n\n## Deux langues\n\nÉcrivez d'abord dans votre langue. Puis écrivez la deuxième version avec d'autres mots. Ne traduisez pas mot à mot. Un texte traduit par une machine, sans relecture, n'est pas publié. Demandez à votre professeur de lire votre texte.\n\n## Photos et droits\n\n- Si quelqu'un est reconnaissable, demandez son accord.\n- Envoyez seulement vos photos ou des images avec une licence libre. Indiquez l'auteur et la licence.\n- Ne copiez pas d'autres textes.\n\nVérifiez les dates et les noms sur un site officiel. Si vous n'êtes pas sûr, écrivez-le.\n\n## Passé composé et imparfait\n\nPour raconter, utilisez deux temps. Le passé composé donne les événements : « Je suis arrivé à midi. » L'imparfait donne le décor : « C'était un matin froid. Il y avait beaucoup de monde à la gare. » Faites des phrases courtes. Utilisez des mots comme d'abord, puis, ensuite, alors.\n\n## Pour y aller\n\nEnvoyez votre texte avec le [formulaire de contact](https://www.parisien.cz/fr/contact?type=story) du site. Commencez votre message par « Proposer un article ». Indiquez vos sources et l'origine des photos. Pour les licences d'images : [Wikimedia Commons, licences](https://commons.wikimedia.org/wiki/Commons:Licensing).",
+  "body_cs": "Cestopis vypráví o nějakém zážitku. Na parisien.cz chceme publikovat vaše texty: víkend v Paříži, výměnný pobyt v Bretani, noc ve vlaku. Nemusíte být spisovatel. Potřebujete dobré oko a přesné detaily. Každý text před zveřejněním přečteme.\n\n## Čtyři ingredience\n\n- **Háček**: první věta má čtenáře nalákat.\n- **Scéna**: konkrétní okamžik s místem a časem.\n- **Detail**: vůně, zvuk, předmět.\n- **Praktická rada**: na konci napište, co uděláte jinak nebo čemu se vyhnete. Nepište ceny ani otevírací doby, ale uveďte oficiální web.\n\nPište 700 až 1 000 slov na jazyk.\n\n## Dva jazyky\n\nPište nejdřív ve svém jazyce. Pak napište druhou verzi jinými slovy. Nepřekládejte slovo za slovem. Text přeložený strojem bez kontroly nezveřejníme. Požádejte učitele, aby váš text přečetl.\n\n## Fotky a práva\n\n- Když je někdo na fotce poznat, zeptejte se na souhlas.\n- Posílejte jen vlastní fotky nebo obrázky se svobodnou licencí. Uveďte autora a licenci.\n- Nekopírujte cizí texty.\n\nData a jména si ověřte na oficiálním webu. Když si nejste jistí, napište to.\n\n## Passé composé a imparfait\n\nPři vyprávění používejte dva časy. Passé composé vyjadřuje události: « Je suis arrivé à midi. » Imparfait vyjadřuje kulisy: « C'était un matin froid. Il y avait beaucoup de monde à la gare. » Pište krátké věty. Používejte slova jako d'abord, puis, ensuite, alors.\n\n## Praktické info\n\nPošlete text přes [kontaktní formulář](https://www.parisien.cz/cs/contact?type=story) na webu. Začněte zprávu slovy „Navrhnout článek“. Uveďte zdroje a původ fotek. K licencím obrázků: [Wikimedia Commons, licence](https://commons.wikimedia.org/wiki/Commons:Licensing).",
+  "glossary": [
+    {
+      "fr": "un carnet de voyage",
+      "cs": "cestopis, cestovní deník"
+    },
+    {
+      "fr": "un crochet",
+      "cs": "háček (nalákání čtenáře)"
+    },
+    {
+      "fr": "une scène",
+      "cs": "scéna"
+    },
+    {
+      "fr": "un détail",
+      "cs": "detail"
+    },
+    {
+      "fr": "un conseil",
+      "cs": "rada"
+    },
+    {
+      "fr": "la relecture",
+      "cs": "kontrola, přečtení"
+    },
+    {
+      "fr": "un accord",
+      "cs": "souhlas"
+    },
+    {
+      "fr": "une licence libre",
+      "cs": "svobodná licence"
+    },
+    {
+      "fr": "le décor",
+      "cs": "kulisy, prostředí"
+    },
+    {
+      "fr": "un événement",
+      "cs": "událost"
+    }
+  ],
+  "photo": {
+    "file": "File:Paris Gare de Lyon hall panorama.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_Gare_de_Lyon_hall_panorama.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_Gare_de_Lyon_hall_panorama.jpg",
+    "author": "Prateek Karandikar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Hall 1 of Gare de Lyon in Paris, France",
+    "width": 7284,
+    "height": 2528
+  },
+  "sources": [
+    "https://creativecommons.org/licenses/by-sa/4.0/deed.cs",
+    "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "https://fr.wikipedia.org/wiki/Imparfait"
+  ]
+}

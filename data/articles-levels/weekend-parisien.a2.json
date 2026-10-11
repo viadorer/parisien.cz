@@ -1,0 +1,76 @@
+{
+  "base": "weekend-parisien",
+  "level": "A2",
+  "slug": "weekend-parisien-a2",
+  "category": "paris",
+  "published_at": "2026-09-26T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Un week-end à Paris comme un Parisien",
+  "title_cs": "Víkend v Paříži jako Pařížan",
+  "excerpt_fr": "Un plan simple du vendredi au dimanche : canal, marchés, parc et bouquinistes.",
+  "excerpt_cs": "Jednoduchý plán od pátku do neděle: kanál, trhy, park a bouquinisté.",
+  "body_fr": "Le vendredi soir, les quais du canal Saint-Martin se remplissent. Les gens s'assoient au bord de l'eau avec un verre et quelque chose à manger. C'est le premier moment du week-end parisien.\n\n## Vendredi soir : l'apéro au canal\n\nLe canal Saint-Martin est dans le 10e arrondissement. Il a ouvert en 1825. L'apéro, c'est un verre et de petites choses à manger avant le dîner. Ce n'est pas un repas.\n\n## Samedi : marché, boulangerie et parc\n\nLe samedi matin, allez au marché d'Aligre, dans le 12e. Il est ouvert tous les matins sauf le lundi. Il y a un marché couvert et un marché en plein air. Allez-y tôt, avec un sac. Autre idée : le marché des Enfants-Rouges, dans le 3e. Il date de 1628. C'est le plus ancien marché couvert de Paris.\n\nEnsuite, passez à la boulangerie. Une baguette « tradition » et un croissant au beurre font un très bon petit déjeuner. Choisissez la boulangerie où il y a la queue.\n\nL'après-midi, allez au parc des Buttes-Chaumont, dans le 19e. Il a ouvert en 1867. Il y a un lac, une grotte avec une cascade et une île avec un petit temple. Montez au belvédère : la vue est belle.\n\n## Dimanche : les bouquinistes\n\nLe dimanche, beaucoup de petites boutiques sont fermées. Vérifiez toujours les horaires. Promenez-vous le long de la Seine. Les bouquinistes vendent de vieux livres dans des boîtes vertes. Ils sont plus de deux cents.\n\nPour éviter les pièges à touristes, évitez les restaurants en face des grands monuments. Choisissez le plat du jour écrit à la main. Et dites « Bonjour » en entrant. Pour les jours d'ouverture et les événements, consultez [Paris.fr](https://www.paris.fr) et [Paris Info](https://www.parisinfo.com).",
+  "body_cs": "V pátek večer se nábřeží kanálu Saint-Martin zaplní. Lidé sedí u vody se sklenkou a něčím k jídlu. To je první chvíle pařížského víkendu.\n\n## Pátek večer: apéro u kanálu\n\nKanál Saint-Martin leží v 10. obvodu. Byl otevřen v roce 1825. „Apéro“ je sklenka a malé pohoštění před večeří. Není to plnohodnotné jídlo.\n\n## Sobota: trh, pekárna a park\n\nV sobotu ráno jděte na trh Aligre ve 12. obvodu. Je otevřený každé ráno kromě pondělí. Je tam krytý trh a trh pod širým nebem. Přijďte brzy a vezměte si tašku. Další nápad: trh Enfants-Rouges ve 3. obvodu. Pochází z roku 1628. Je to nejstarší krytý trh v Paříži.\n\nPotom zajděte do pekárny. Bageta „tradition“ a máslový croissant jsou výborná snídaně. Vyberte si pekárnu, před kterou stojí fronta.\n\nOdpoledne jděte do parku Buttes-Chaumont v 19. obvodu. Byl otevřen v roce 1867. Je tam jezero, jeskyně s vodopádem a ostrov s malým chrámkem. Vystupte na vyhlídku: výhled je krásný.\n\n## Neděle: bouquinisté\n\nV neděli je mnoho malých obchodů zavřených. Vždy si ověřte otevírací dobu. Projděte se podél Seiny. Bouquinisté (prodavači starých knih) prodávají staré knihy v zelených bednách. Je jich přes dvě stě.\n\nAbyste se vyhnuli turistickým pastem, nechoďte do restaurací přímo naproti slavným památkám. Vyberte si „plat du jour“ (jídlo dne) napsané rukou. A při vstupu řekněte „Bonjour“. Aktuální otevírací dny a akce najdete na [Paris.fr](https://www.paris.fr) a [Paris Info](https://www.parisinfo.com).",
+  "glossary": [
+    {
+      "fr": "le quai",
+      "cs": "nábřeží"
+    },
+    {
+      "fr": "l'apéro",
+      "cs": "aperitiv (sklenka a pohoštění před večeří)"
+    },
+    {
+      "fr": "un arrondissement",
+      "cs": "městský obvod"
+    },
+    {
+      "fr": "le marché couvert",
+      "cs": "krytý trh"
+    },
+    {
+      "fr": "en plein air",
+      "cs": "pod širým nebem"
+    },
+    {
+      "fr": "la queue",
+      "cs": "fronta"
+    },
+    {
+      "fr": "la grotte",
+      "cs": "jeskyně"
+    },
+    {
+      "fr": "la cascade",
+      "cs": "vodopád"
+    },
+    {
+      "fr": "le belvédère",
+      "cs": "vyhlídka"
+    },
+    {
+      "fr": "un bouquiniste",
+      "cs": "prodavač starých knih"
+    }
+  ],
+  "photo": {
+    "file": "File:Marché dAligre 4.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/March%C3%A9_dAligre_4.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:March%C3%A9_dAligre_4.jpg",
+    "author": "Jesús Gorriti from Madrid, Spain",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "desc": "Marché d'Aligre (Paris)",
+    "width": 4288,
+    "height": 2848
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Marché_d'Aligre",
+    "https://en.wikipedia.org/wiki/Marché_des_Enfants_Rouges",
+    "https://en.wikipedia.org/wiki/Parc_des_Buttes-Chaumont",
+    "https://en.wikipedia.org/wiki/Canal_Saint-Martin",
+    "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
+    "https://www.paris.fr",
+    "https://www.parisinfo.com"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "base": "passages-couverts",
+  "level": "A1",
+  "slug": "passages-couverts-a1",
+  "category": "paris",
+  "published_at": "2026-09-10T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Les passages couverts de Paris",
+  "title_cs": "Pařížské pasáže",
+  "excerpt_fr": "Des petites rues avec un toit en verre, des magasins et du calme.",
+  "excerpt_cs": "Malé uličky se skleněnou střechou, obchody a klid.",
+  "body_fr": "À Paris, il y a des passages couverts. Ce sont de petites rues avec un toit en verre. Il y a des magasins, des cafés et des librairies.\n\n## Le plus vieux passage\n\nLe passage des Panoramas est le plus vieux. Il ouvre en 1799. Il est dans le 2e arrondissement.\n\n## Aujourd'hui\n\nAu XIXe siècle, il y a jusqu'à 150 passages. Maintenant, il y a une vingtaine de passages. Il y a aussi la galerie Vivienne et la galerie Colbert. Elles sont belles.\n\nLe matin, il y a peu de monde. C'est calme. On entre gratuitement. Prenez le métro Grands Boulevards. Pour les horaires des magasins, regardez le site [Paris.fr](https://www.paris.fr).",
+  "body_cs": "V Paříži jsou kryté pasáže. Jsou to malé uličky se skleněnou střechou. Jsou tam obchody, kavárny a knihkupectví.\n\n## Nejstarší pasáž\n\nPassage des Panoramas je nejstarší. Otevřel se v roce 1799. Leží ve 2. obvodu.\n\n## Dnes\n\nV 19. století je jich až 150. Dnes je jich asi dvacet. Je tam také Galerie Vivienne a Galerie Colbert. Jsou krásné.\n\nRáno je tam málo lidí. Je tam klid. Vstup je zdarma. Jeďte metrem na stanici Grands Boulevards. Otevírací dobu obchodů najdete na webu [Paris.fr](https://www.paris.fr).",
+  "glossary": [
+    {
+      "fr": "le passage",
+      "cs": "pasáž"
+    },
+    {
+      "fr": "le toit",
+      "cs": "střecha"
+    },
+    {
+      "fr": "le verre",
+      "cs": "sklo"
+    },
+    {
+      "fr": "le magasin",
+      "cs": "obchod"
+    },
+    {
+      "fr": "la librairie",
+      "cs": "knihkupectví"
+    },
+    {
+      "fr": "le monde (peu de monde)",
+      "cs": "lidé (málo lidí)"
+    },
+    {
+      "fr": "gratuitement",
+      "cs": "zdarma"
+    },
+    {
+      "fr": "une vingtaine",
+      "cs": "asi dvacet"
+    }
+  ],
+  "photo": {
+    "file": "File:Galerie Vivienne, 12 March 2015.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Galerie_Vivienne%2C_12_March_2015.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Galerie_Vivienne,_12_March_2015.jpg",
+    "author": "Benh LIEU SONG",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "desc": "Vivienne covered passage, in Paris, 2nd arrondissement. Galerie Vivienne is home of several fashion and haute couture stores, including Jean-Paul Gaultier's.",
+    "width": 7706,
+    "height": 3893
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Passage_des_Panoramas",
+    "https://fr.wikipedia.org/wiki/Galerie_Vivienne",
+    "https://fr.wikipedia.org/wiki/Galerie_Colbert",
+    "https://fr.wikipedia.org/wiki/Passage_Jouffroy",
+    "https://fr.wikipedia.org/wiki/Passage_du_Grand-Cerf",
+    "https://en.wikipedia.org/wiki/The_Arcades_Project",
+    "https://www.routard.com/fr/guide/france/ile-de-france/paris/2eme-arrondissement/les-passages",
+    "https://www.paris.fr"
+  ]
+}

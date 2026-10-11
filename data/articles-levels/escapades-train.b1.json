@@ -1,0 +1,93 @@
+{
+  "base": "escapades-train",
+  "level": "B1",
+  "slug": "escapades-train-b1",
+  "category": "voyage",
+  "published_at": "2026-10-01T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Six escapades en train depuis Paris : Versailles, Giverny, Chantilly et plus",
+  "title_cs": "Výlety z Paříže vlakem: Versailles, Giverny, Chantilly a další",
+  "excerpt_fr": "Six sorties d'une journée en train depuis Paris, avec la gare de départ et la durée du trajet.",
+  "excerpt_cs": "Šest jednodenních výletů vlakem z Paříže, s odjezdovým nádražím a dobou jízdy.",
+  "body_fr": "À la gare Versailles Château Rive Gauche, le RER C s'arrête en impasse : impossible d'aller plus loin. Le château est à environ cinq cents mètres, au bout de l'avenue de Sceaux. C'est un bon résumé de l'Île-de-France : en moins d'une heure, sans voiture, on quitte le métro pour un palais, un jardin de peintre ou une ville du Moyen Âge. Voici six sorties d'une journée, avec la gare de départ, la durée du trajet et ce qu'on y voit.\n\n## Versailles et Fontainebleau : deux palais royaux\n\nPour Versailles, prenez le RER C jusqu'au terminus Versailles Château Rive Gauche. Le trajet dure environ 40 minutes, plus quelques minutes de marche. Le château et ses jardins demandent une journée entière. Pour les billets et les jours de fermeture, consultez le [site officiel du château](https://www.chateauversailles.fr).\n\nPour **Fontainebleau**, prenez la ligne R du Transilien à la gare de Lyon, jusqu'à Fontainebleau-Avon : environ 40 minutes. Attention, la gare est à plusieurs kilomètres du château. Un bus local fait la liaison, mais les sources ne sont pas d'accord sur le numéro. Vérifiez-le sur place ou dans l'application d'Île-de-France Mobilités. Voir le [site officiel du château](https://www.chateaudefontainebleau.fr).\n\n## Giverny : le jardin de Monet\n\nClaude Monet s'installe à Giverny en 1883. Il loue une maison, puis il l'achète en 1890. Il y meurt le 5 décembre 1926. La maison et le jardin se visitent en général de la fin mars à la fin octobre. Le [site de la Fondation Claude Monet](https://fondation-monet.com) donne les dates exactes.\n\nLe train part de la gare Saint-Lazare : un TER Normandie va jusqu'à Vernon-Giverny en 45 à 60 minutes. Ensuite, Giverny est à quelques kilomètres. Une navette saisonnière, d'avril à novembre environ, relie la gare au village.\n\n## Chantilly : un château, un musée et des écuries\n\nC'est la sortie la plus rapide : un TER relie la gare du Nord à Chantilly-Gouvieux en une vingtaine de minutes. De la gare au château, comptez 20 à 25 minutes de marche dans la forêt. Attention : cette gare est hors de la zone tarifaire d'Île-de-France, donc un forfait Navigo ne suffit pas toujours. Vérifiez votre titre de transport. Le [Domaine de Chantilly](https://www.domainedechantilly.com) réunit le château, ses collections et les grandes écuries.\n\n## Provins et Auvers-sur-Oise : le Moyen Âge et Van Gogh\n\n**Provins** est inscrit à l'UNESCO depuis 2001 comme ville de foires médiévales. Le train part de la gare de l'Est (ligne P) et le trajet dure environ 1 h 15 à 1 h 25. De la gare au centre médiéval, la marche est courte. Voir le [site de l'office de tourisme](https://provins.net).\n\n**Auvers-sur-Oise** a accueilli Vincent van Gogh pendant les deux derniers mois de sa vie ; il y est mort en 1890. Le train part de la gare du Nord (ligne H). Les week-ends et les jours fériés, d'avril à octobre, il existe un train direct d'une quarantaine de minutes. Les autres jours, il faut changer, en général à Pontoise. Voir la [Maison de Van Gogh](https://maisondevangogh.fr).\n\n## Plus loin : Rouen et Reims\n\nOn peut aussi visiter deux villes plus éloignées en une journée. Rouen est à environ 1 h 15 de Paris Saint-Lazare en train direct. Reims est à environ 45 minutes de la gare de l'Est en TGV INOUI direct. Réservez à l'avance et vérifiez les horaires, car tous les trains ne sont pas directs.\n\n## Infos pratiques\n\n- **Billets et horaires** : les trains Intercités, TER et TGV s'achètent sur [SNCF Connect](https://www.sncf-connect.com).\n- **Transports en Île-de-France** : le RER C et les lignes R, H et P font partie du réseau francilien. Voir [Île-de-France Mobilités](https://www.iledefrance-mobilites.fr) et [Transilien](https://www.transilien.com).\n- **Avant de partir** : regardez l'heure du dernier train de retour, surtout pour Chantilly, Provins et Auvers-sur-Oise.\n- **Prix et horaires d'ouverture** : ils changent, donc ils ne sont pas dans cet article. Consultez toujours les sites officiels.",
+  "body_cs": "Na nádraží Versailles Château Rive Gauche končí linka RER C ve slepé koleji: dál se nedá jet. Zámek je asi pět set metrů odtud, na konci avenue de Sceaux. Je to dobré shrnutí Île-de-France: za méně než hodinu a bez auta opustíte metro a ocitnete se u paláce, malířské zahrady nebo středověkého města. Tady je šest jednodenních výletů s odjezdovým nádražím, dobou jízdy a tím, co tam uvidíte.\n\n## Versailles a Fontainebleau: dva královské paláce\n\nDo Versailles jeďte linkou RER C na konečnou Versailles Château Rive Gauche. Cesta trvá asi 40 minut, k tomu několik minut chůze. Na zámek a zahrady potřebujete celý den. Informace o vstupenkách a dnech zavřeno najdete na [oficiálním webu zámku](https://www.chateauversailles.fr).\n\nDo **Fontainebleau** jeďte linkou R systému Transilien z nádraží Gare de Lyon do stanice Fontainebleau-Avon: asi 40 minut. Pozor, nádraží je několik kilometrů od zámku. Spojení zajišťuje místní autobus, ale zdroje se v čísle linky neshodují. Ověřte si ho na místě nebo v aplikaci Île-de-France Mobilités. Viz [oficiální web zámku](https://www.chateaudefontainebleau.fr).\n\n## Giverny: Monetova zahrada\n\nClaude Monet se usadil v Giverny v roce 1883. Nejdřív si dům pronajal, v roce 1890 ho koupil. Zemřel tam 5. prosince 1926. Dům a zahradu můžete obvykle navštívit od konce března do konce října. Přesná data najdete na [webu Nadace Claude Moneta](https://fondation-monet.com).\n\nVlak odjíždí z nádraží Saint-Lazare: vlak TER Normandie jede do Vernon-Giverny 45 až 60 minut. Odtud je to do Giverny ještě několik kilometrů. Sezónní kyvadlový autobus, přibližně od dubna do listopadu, spojuje nádraží s vesnicí.\n\n## Chantilly: zámek, muzeum a stáje\n\nTo je nejrychlejší výlet: vlak TER spojuje Gare du Nord s Chantilly-Gouvieux asi za dvacet minut. Z nádraží k zámku počítejte 20 až 25 minut chůze lesem. Pozor: tato stanice leží mimo tarifní zónu Île-de-France, takže průkazka Navigo nemusí vždy stačit. Zkontrolujte si jízdní doklad. [Domaine de Chantilly](https://www.domainedechantilly.com) sdružuje zámek, jeho sbírky a velké stáje.\n\n## Provins a Auvers-sur-Oise: středověk a Van Gogh\n\n**Provins** je od roku 2001 zapsaný na seznamu UNESCO jako město středověkých trhů. Vlak odjíždí z Gare de l'Est (linka P) a cesta trvá asi 1 h 15 až 1 h 25. Z nádraží do středověkého centra je to kousek. Viz [web turistického informačního centra](https://provins.net).\n\nV **Auvers-sur-Oise** prožil Vincent van Gogh poslední dva měsíce života; zemřel tam v roce 1890. Vlak odjíždí z Gare du Nord (linka H). O víkendech a ve svátky, od dubna do října, jezdí přímý vlak asi čtyřicet minut. V ostatní dny je třeba přestupovat, obvykle v Pontoise. Viz [Maison de Van Gogh](https://maisondevangogh.fr).\n\n## Dál: Rouen a Remeš\n\nZa jeden den se dají navštívit i dvě vzdálenější města. Rouen je asi 1 h 15 od Paris Saint-Lazare přímým vlakem. Remeš je asi 45 minut od Gare de l'Est přímým vlakem TGV INOUI. Rezervujte si místo s předstihem a ověřte si spoje, protože ne všechny vlaky jsou přímé.\n\n## Praktické informace\n\n- **Jízdenky a jízdní řády**: vlaky Intercités, TER a TGV se kupují na [SNCF Connect](https://www.sncf-connect.com).\n- **Doprava v Île-de-France**: RER C a linky R, H a P patří do pařížské regionální sítě. Viz [Île-de-France Mobilités](https://www.iledefrance-mobilites.fr) a [Transilien](https://www.transilien.com).\n- **Před odjezdem**: podívejte se, kdy jede poslední vlak zpět, zvlášť do Chantilly, Provins a Auvers-sur-Oise.\n- **Ceny a otevírací doba**: mění se, a proto nejsou v tomto článku. Vždy se podívejte na oficiální weby.",
+  "glossary": [
+    {
+      "fr": "un terminus",
+      "cs": "konečná stanice"
+    },
+    {
+      "fr": "un palais",
+      "cs": "palác"
+    },
+    {
+      "fr": "une navette",
+      "cs": "kyvadlová doprava"
+    },
+    {
+      "fr": "une écurie",
+      "cs": "stáj"
+    },
+    {
+      "fr": "le Moyen Âge",
+      "cs": "středověk"
+    },
+    {
+      "fr": "la zone tarifaire",
+      "cs": "tarifní zóna"
+    },
+    {
+      "fr": "une foire",
+      "cs": "trh, veletrh"
+    },
+    {
+      "fr": "une cathédrale",
+      "cs": "katedrála"
+    },
+    {
+      "fr": "un forfait",
+      "cs": "předplatné, průkazka"
+    },
+    {
+      "fr": "un titre de transport",
+      "cs": "jízdní doklad"
+    },
+    {
+      "fr": "un jour férié",
+      "cs": "státní svátek"
+    },
+    {
+      "fr": "direct",
+      "cs": "přímý"
+    }
+  ],
+  "photo": {
+    "file": "File:Main Façade, Palace of Versailles, Cour Royale.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main_Fa%C3%A7ade%2C_Palace_of_Versailles%2C_Cour_Royale.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_Fa%C3%A7ade,_Palace_of_Versailles,_Cour_Royale.jpg",
+    "author": "Julian Lupyan",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "desc": "Main façade, Palace of Versailles, cour royale, Versailles, France This building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00087673 . brezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ",
+    "width": 7009,
+    "height": 4649
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Gare_de_Versailles-Ch%C3%A2teau-Rive-Gauche",
+    "https://fr.wikipedia.org/wiki/Gare_de_Vernon_-_Giverny",
+    "https://fr.wikipedia.org/wiki/Giverny",
+    "https://fr.wikipedia.org/wiki/Gare_de_Fontainebleau_-_Avon",
+    "https://fr.wikipedia.org/wiki/Gare_de_Chantilly_-_Gouvieux",
+    "https://fr.wikipedia.org/wiki/Gare_de_Provins",
+    "https://fr.wikipedia.org/wiki/Gare_d%27Auvers-sur-Oise",
+    "https://www.chateauversailles.fr",
+    "https://fondation-monet.com",
+    "https://www.chateaudefontainebleau.fr",
+    "https://www.domainedechantilly.com",
+    "https://provins.net",
+    "https://maisondevangogh.fr",
+    "https://www.sncf-connect.com",
+    "https://www.iledefrance-mobilites.fr",
+    "https://www.transilien.com"
+  ]
+}

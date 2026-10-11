@@ -1,0 +1,82 @@
+{
+  "base": "jak-se-dostat-z-ceska",
+  "level": "A2",
+  "slug": "jak-se-dostat-z-ceska-a2",
+  "category": "voyage",
+  "published_at": "2026-10-04T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "De la Tchéquie à Paris : avion, train ou autocar ?",
+  "title_cs": "Z Česka do Paříže: letadlem, vlakem, nebo autobusem?",
+  "excerpt_fr": "Avion, train ou autocar : trois façons d'aller de Prague à Paris. Vérifiez toujours les horaires.",
+  "excerpt_cs": "Letadlo, vlak nebo autobus: tři způsoby, jak se dostat z Prahy do Paříže. Jízdní řády si vždy ověřte.",
+  "body_fr": "Vous cherchez un train direct Prague–Paris ? En 2026, je n'en ai trouvé aucun. Mais il y a trois bonnes solutions : l'avion, le train avec changement, ou l'autocar.\n\n## En avion\n\nDes vols directs relient Prague et Paris. D'après les sources consultées, Air France vole vers Paris-Charles-de-Gaulle (CDG), Transavia vers Orly, et Smartwings vers CDG. Le vol dure environ 1 h 50. Les vols changent selon la saison. Vérifiez l'horaire chez les compagnies et sur le [site de l'aéroport de Prague](https://www.prg.aero).\n\nÀ Paris, depuis CDG, le RER B va au centre en 35 à 45 minutes environ. Depuis Orly, la ligne 14 du métro arrive à Châtelet en 25 minutes environ.\n\n## En train\n\nÀ ma connaissance, il n'y a pas de train direct. On passe par l'Allemagne et on change de train. Le voyage complet dure de 10 h 30 à plus de 13 heures. Si vous prenez deux billets séparés, une correspondance ratée n'est pas couverte. Prévoyez donc de la marge.\n\nLes trains de nuit ont changé. Depuis mars 2026, la compagnie European Sleeper propose un train de nuit Paris–Bruxelles–Berlin. Elle relie aussi Bruxelles à Prague. On peut donc, en principe, aller de Prague à Paris par Bruxelles. Mais je n'ai pas pu vérifier un horaire précis. Regardez-le vous-même avant de faire un projet.\n\nPour comparer, utilisez les sites officiels : [Deutsche Bahn](https://www.bahn.de), [SNCF Connect](https://www.sncf-connect.com) et [České dráhy](https://www.cd.cz).\n\n## En autocar\n\nDes autocars directs existent, par exemple avec FlixBus. Le voyage dure environ 13 à 14 heures. Vérifiez l'horaire sur le [site de FlixBus](https://www.flixbus.fr).\n\n## Et pour le climat ?\n\nLe train pollue le moins. L'avion pollue le plus. Pour estimer votre voyage, utilisez le [calculateur Impact CO₂](https://impactco2.fr).\n\n## Conseils pour un groupe\n\n- Réservez tôt.\n- Gardez par écrit les conditions de changement et d'annulation.\n\n## Infos pratiques\n\n- **Papiers** : la République tchèque et la France sont dans l'espace Schengen. Une carte d'identité valide suffit. Les enfants ont aussi besoin de leur propre document.\n- **Santé** : emportez la carte européenne d'assurance maladie. Elle ne remplace pas une assurance voyage.\n- **Horaires et prix** changent : vérifiez-les toujours chez les transporteurs.",
+  "body_cs": "Hledáte přímý vlak Praha–Paříž? V roce 2026 jsem žádný nenašel. Existují ale tři dobrá řešení: letadlo, vlak s přestupem nebo autobus.\n\n## Letadlem\n\nMezi Prahou a Paříží létají přímé lety. Podle použitých zdrojů létá Air France do Paříže-Charlese de Gaulla (CDG), Transavia do Orly a Smartwings do CDG. Let trvá asi 1 h 50. Lety se podle sezóny mění. Ověřte si jízdní řád u aerolinek a na [webu pražského letiště](https://www.prg.aero).\n\nV Paříži jede z CDG vlak RER B do centra asi 35 až 45 minut. Z Orly jede linka metra 14 na Châtelet asi 25 minut.\n\n## Vlakem\n\nPokud vím, přímý vlak neexistuje. Jede se přes Německo a přestupuje se. Celá cesta trvá od 10 h 30 do více než 13 hodin. Když si koupíte dvě samostatné jízdenky, zmeškaný přestup se nehradí. Počítejte tedy s rezervou.\n\nNoční vlaky se změnily. Od března 2026 nabízí společnost European Sleeper noční vlak Paříž–Brusel–Berlín. Spojuje také Brusel a Prahu. V zásadě tedy lze jet z Prahy do Paříže přes Brusel. Konkrétní spoj jsem ale ověřit nemohl. Podívejte se na něj sami, než podle něj začnete plánovat.\n\nPro srovnání použijte oficiální weby: [Deutsche Bahn](https://www.bahn.de), [SNCF Connect](https://www.sncf-connect.com) a [České dráhy](https://www.cd.cz).\n\n## Autobusem\n\nPřímé autobusy existují, například s FlixBusem. Cesta trvá asi 13 až 14 hodin. Spoj si ověřte na [webu FlixBusu](https://www.flixbus.fr).\n\n## A klima?\n\nVlak zatěžuje klima nejméně. Letadlo nejvíc. Pro odhad své cesty použijte [kalkulačku Impact CO₂](https://impactco2.fr).\n\n## Rady pro skupinu\n\n- Rezervujte včas.\n- Uschovejte si písemně podmínky změn a storna.\n\n## Praktické informace\n\n- **Doklady**: Česko i Francie jsou v schengenském prostoru. Stačí platný občanský průkaz. Děti potřebují vlastní doklad.\n- **Zdraví**: vezměte si evropský průkaz zdravotního pojištění. Nenahrazuje cestovní pojištění.\n- **Jízdní řády a ceny** se mění: vždy si je ověřte u dopravců.",
+  "glossary": [
+    {
+      "fr": "un vol",
+      "cs": "let"
+    },
+    {
+      "fr": "une compagnie",
+      "cs": "společnost, aerolinky"
+    },
+    {
+      "fr": "un autocar",
+      "cs": "dálkový autobus"
+    },
+    {
+      "fr": "un changement",
+      "cs": "přestup"
+    },
+    {
+      "fr": "une correspondance",
+      "cs": "přípoj, přestup"
+    },
+    {
+      "fr": "un train de nuit",
+      "cs": "noční vlak"
+    },
+    {
+      "fr": "un terminus",
+      "cs": "konečná"
+    },
+    {
+      "fr": "une auberge de jeunesse",
+      "cs": "mládežnická ubytovna"
+    },
+    {
+      "fr": "une carte d'identité",
+      "cs": "občanský průkaz"
+    },
+    {
+      "fr": "un horaire",
+      "cs": "jízdní řád"
+    }
+  ],
+  "photo": {
+    "file": "File:Gare de l'Est Paris 2007 a2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gare_de_l'Est_Paris_2007_a2.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Gare_de_l%27Est_Paris_2007_a2.jpg",
+    "author": "Gryffindor",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "desc": "The Gare de l'Est in Paris",
+    "width": 4884,
+    "height": 1440
+  },
+  "sources": [
+    "https://www.prg.aero",
+    "https://www.planes.cz/en/article/210646/smartwings-schedule-of-regular-flights-from-prague-for-summer-2026",
+    "https://www.eea.europa.eu/publications/rail-and-waterborne-transport/rail-and-waterborne-best/",
+    "https://impactco2.fr/outils/transport",
+    "https://www.railwaypro.com/wp/obb-to-end-nightjet-services-to-paris-in-2025/",
+    "https://www.railjournal.com/regions/europe/european-sleeper-launches-paris-berlin-night-train/",
+    "https://www.europeansleeper.eu/paris",
+    "https://www.seat61.com/international-trains/trains-from-Prague.htm",
+    "https://www.omio.fr/bus/prague/paris",
+    "https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_en.htm",
+    "https://www.service-public.gouv.fr/particuliers/actualites/A16577?lang=en",
+    "https://mzv.gov.cz/paris/fr/service_consulaire/formalites_d_entree/formalite_d_enree.html",
+    "https://www.iledefrance.fr/toutes-les-actualites/la-ligne-14-prolongee-met-laeroport-dorly-25-minutes-du-centre-de-paris"
+  ]
+}

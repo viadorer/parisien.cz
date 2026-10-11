@@ -1,0 +1,81 @@
+{
+  "base": "tcheques-a-paris",
+  "level": "A2",
+  "slug": "tcheques-a-paris-a2",
+  "category": "voyage",
+  "published_at": "2026-09-28T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Les Tchèques à Paris : Mucha, Kupka et le Centre tchèque",
+  "title_cs": "Češi v Paříži: Mucha, Kupka a České centrum",
+  "excerpt_fr": "Des artistes tchèques ont vécu à Paris. Voici où retrouver leurs traces.",
+  "excerpt_cs": "Čeští umělci žili v Paříži. Kde najdete jejich stopy?",
+  "body_fr": "Le 1er janvier 1895, une grande affiche apparaît sur les murs de Paris. Elle annonce une pièce avec Sarah Bernhardt. Son auteur est un jeune Tchèque, Alfons Mucha. Il devient célèbre très vite.\n\n## Alfons Mucha\n\nMucha arrive à Paris en 1888. Il étudie à l'Académie Julian et il travaille comme illustrateur. Fin 1894, Sarah Bernhardt veut une nouvelle affiche pour sa pièce Gismonda. C'est Mucha qui la fait. L'affiche le rend célèbre.\n\nSon atelier est au 6, rue du Val-de-Grâce, dans le 5e arrondissement. La maison est privée. On ne peut pas la visiter. En 1910, Mucha quitte Paris pour Prague. Les vingt grandes toiles de L'Épopée slave sont peintes entre 1912 et 1926.\n\n## František Kupka\n\nKupka est né en Bohême. En 1894, il est déjà à Paris. Vers 1906, il habite à Puteaux, près de Paris. Il y reste jusqu'à sa mort, en 1957. À Paris, vers 1910, il passe du réalisme à l'art abstrait. Le Centre Pompidou a beaucoup d'œuvres de Kupka. Les salles changent : regardez le site du musée avant de venir.\n\n## Kundera, Martinů, Toyen\n\nMilan Kundera quitte la Tchécoslovaquie en 1975. Il s'installe à Paris. Il devient citoyen français en 1981. Il meurt à Paris en 2023.\n\nLe compositeur Bohuslav Martinů arrive à Paris en 1923. Il y découvre le jazz. En 1931, il épouse une Française. Il part de Paris en 1940.\n\nLa peintre Toyen arrive à Paris en 1947. Elle rejoint le groupe surréaliste d'André Breton. Elle meurt à Paris en 1980.\n\n## Le Centre tchèque\n\nLe Centre tchèque est au 18, rue Bonaparte, dans le 6e arrondissement. Il présente la culture tchèque : expositions, concerts, films. En 1916, le Conseil national tchèque s'installe dans la cour de cet immeuble. Une plaque le rappelle.\n\n## Infos pratiques\n\nLe métro est proche : lignes 4 (Saint-Germain-des-Prés) et 10 (Mabillon). Les horaires et le programme changent. Regardez le [site officiel du Centre tchèque](https://www.czechcentres.cz/paris). Pour les œuvres de Kupka, voyez le [site du Centre Pompidou](https://www.centrepompidou.fr).",
+  "body_cs": "Dne 1. ledna 1895 se na zdech Paříže objevil velký plakát. Oznamoval hru se Sarah Bernhardtovou. Jeho autorem byl mladý Čech Alfons Mucha. Velmi rychle se stal slavným.\n\n## Alfons Mucha\n\nMucha přijel do Paříže v roce 1888. Studoval na Académie Julian a živil se jako ilustrátor. Koncem roku 1894 chtěla Sarah Bernhardtová nový plakát ke hře Gismonda. Zakázku dostal Mucha. Plakát ho proslavil.\n\nJeho ateliér byl na adrese 6, rue du Val-de-Grâce v 5. obvodu. Dům je soukromý. Prohlédnout si ho nelze. V roce 1910 Mucha z Paříže odjel do Prahy. Dvacet velkých pláten Slovanské epopeje vzniklo v letech 1912 až 1926.\n\n## František Kupka\n\nKupka se narodil v Čechách. V roce 1894 už byl v Paříži. Kolem roku 1906 se usadil v Puteaux nedaleko Paříže. Zůstal tam až do své smrti v roce 1957. V Paříži přešel kolem roku 1910 od realismu k abstraktnímu umění. Centre Pompidou má mnoho Kupkových děl. Expozice se mění: před návštěvou se podívejte na web muzea.\n\n## Kundera, Martinů, Toyen\n\nMilan Kundera opustil Československo v roce 1975. Usadil se v Paříži. V roce 1981 se stal francouzským občanem. Zemřel v Paříži v roce 2023.\n\nSkladatel Bohuslav Martinů přijel do Paříže v roce 1923. Objevil tam jazz. V roce 1931 se oženil s Francouzkou. V roce 1940 z Paříže odjel.\n\nMalířka Toyen přijela do Paříže v roce 1947. Připojila se k surrealistické skupině André Bretona. Zemřela v Paříži v roce 1980.\n\n## České centrum\n\nČeské centrum je na adrese 18, rue Bonaparte v 6. obvodu. Představuje českou kulturu: výstavy, koncerty, filmy. V roce 1916 se na dvoře tohoto domu usadila Česká národní rada. Připomíná to pamětní deska.\n\n## Praktické informace\n\nMetro je blízko: linky 4 (Saint-Germain-des-Prés) a 10 (Mabillon). Otevírací doba a program se mění. Podívejte se na [oficiální web Českého centra](https://www.czechcentres.cz/paris). Ke Kupkovým dílům viz [web Centre Pompidou](https://www.centrepompidou.fr).",
+  "glossary": [
+    {
+      "fr": "une affiche",
+      "cs": "plakát"
+    },
+    {
+      "fr": "un illustrateur",
+      "cs": "ilustrátor"
+    },
+    {
+      "fr": "un atelier",
+      "cs": "ateliér"
+    },
+    {
+      "fr": "une toile",
+      "cs": "plátno"
+    },
+    {
+      "fr": "l'art abstrait",
+      "cs": "abstraktní umění"
+    },
+    {
+      "fr": "un compositeur",
+      "cs": "skladatel"
+    },
+    {
+      "fr": "une peintre",
+      "cs": "malířka"
+    },
+    {
+      "fr": "surréaliste",
+      "cs": "surrealistický"
+    },
+    {
+      "fr": "une plaque",
+      "cs": "pamětní deska"
+    },
+    {
+      "fr": "une cour",
+      "cs": "dvůr"
+    }
+  ],
+  "photo": {
+    "file": "File:Alphonse Mucha - Poster for Victorien Sardou's Gismonda starring Sarah Bernhardt - Original.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alphonse_Mucha_-_Poster_for_Victorien_Sardou's_Gismonda_starring_Sarah_Bernhardt_-_Original.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Alphonse_Mucha_-_Poster_for_Victorien_Sardou%27s_Gismonda_starring_Sarah_Bernhardt_-_Original.jpg",
+    "author": "Alphonse Mucha",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "desc": "Poster for the première production of Victorien Sardou's Gismonda, starring Sarah Bernhardt, at the Théâtre de la Renaissance in Paris.[1]",
+    "width": 3488,
+    "height": 4794
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Alphonse_Mucha",
+    "https://en.wikipedia.org/wiki/František_Kupka",
+    "https://en.wikipedia.org/wiki/Milan_Kundera",
+    "https://en.wikipedia.org/wiki/Bohuslav_Martin%C5%AF",
+    "https://en.wikipedia.org/wiki/Toyen",
+    "https://en.wikipedia.org/wiki/Karel_%C4%8Capek",
+    "https://mzv.gov.cz/paris/fr/republique_tcheque_france/culture/index.html",
+    "https://mzv.gov.cz/paris/fr/republique_tch_que/commemorations/inauguration_d_une_plaque_commemorant_le.html",
+    "https://www.czechcentres.cz/paris",
+    "https://www.centrepompidou.fr/fr/recherche/oeuvres?terms=Kupka",
+    "https://monumentum.fr/monument-historique/pa00088439/paris-5e-arrondissement-hotel-au-fond-du-jardin",
+    "https://emuseum.mfah.org/objects/57251/model-posing-in-muchas-studio-rue-du-val-de-grace-paris"
+  ]
+}

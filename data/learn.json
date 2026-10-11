@@ -1,6 +1,159 @@
 {
  "themes": [
   {
+   "id": "premiers-mots",
+   "title": {
+    "fr": "Premiers mots",
+    "cs": "První slova"
+   },
+   "items": [
+    {
+     "fr": "Bonjour !",
+     "cs": "Dobrý den!",
+     "level": "A1",
+     "note": {
+      "fr": "Le « r » français se prononce au fond de la gorge. Le « j » se prononce comme le « ž » tchèque.",
+      "cs": "České „r“ se vyslovuje špičkou jazyka, francouzské „r“ vzadu v krku. „J“ se čte jako české „ž“."
+     }
+    },
+    {
+     "fr": "Bonsoir !",
+     "cs": "Dobrý večer!",
+     "level": "A1"
+    },
+    {
+     "fr": "Salut !",
+     "cs": "Ahoj!",
+     "level": "A1"
+    },
+    {
+     "fr": "Au revoir !",
+     "cs": "Na shledanou!",
+     "level": "A1"
+    },
+    {
+     "fr": "Oui.",
+     "cs": "Ano.",
+     "level": "A1"
+    },
+    {
+     "fr": "Non.",
+     "cs": "Ne.",
+     "level": "A1"
+    },
+    {
+     "fr": "Merci.",
+     "cs": "Děkuji.",
+     "level": "A1",
+     "note": {
+      "fr": "Le « r » final se prononce, mais le « ci » se dit « si » : « mer-si ».",
+      "cs": "Koncové „r“ se vyslovuje a „ci“ se čte jako „si“: „mer-si“."
+     }
+    },
+    {
+     "fr": "S'il vous plaît.",
+     "cs": "Prosím.",
+     "level": "A1",
+     "note": {
+      "fr": "On ne prononce pas le « s » final de « plaît » ; « s'il vous plaît » se dit à peu près « sil vou plé ».",
+      "cs": "Koncové „t“ ve „plaît“ se nečte; řekne se zhruba „sil vu plé“."
+     }
+    },
+    {
+     "fr": "Pardon.",
+     "cs": "Promiňte.",
+     "level": "A1"
+    },
+    {
+     "fr": "Je m'appelle Jana.",
+     "cs": "Jmenuji se Jana.",
+     "level": "A1"
+    },
+    {
+     "fr": "J'habite à Prague.",
+     "cs": "Bydlím v Praze.",
+     "level": "A1"
+    },
+    {
+     "fr": "Je ne comprends pas.",
+     "cs": "Nerozumím.",
+     "level": "A1",
+     "note": {
+      "fr": "Le « ds » final de « comprends » est muet : on dit à peu près « kon-prã ».",
+      "cs": "Koncové „-ds“ ve „comprends“ se nečte, slovo zní zhruba „konprã“ (nosovka)."
+     }
+    },
+    {
+     "fr": "Un, deux, trois, quatre, cinq.",
+     "cs": "Jedna, dva, tři, čtyři, pět.",
+     "level": "A1",
+     "note": {
+      "fr": "« Un » est une voyelle nasale : on ne prononce pas le « n » comme en tchèque.",
+      "cs": "„Un“ je nosovka: „n“ se nevyslovuje jako v češtině, jen zabarví samohlásku."
+     }
+    },
+    {
+     "fr": "Six, sept, huit, neuf, dix.",
+     "cs": "Šest, sedm, osm, devět, deset.",
+     "level": "A1",
+     "note": {
+      "fr": "« Six » et « dix » : le « x » se prononce « s » ; « huit » se dit « uit » (le « h » est muet).",
+      "cs": "U „six“ a „dix“ se „x“ čte jako „s“; „huit“ se čte „uit“ („h“ je němé)."
+     }
+    },
+    {
+     "fr": "Lundi, mardi, mercredi.",
+     "cs": "Pondělí, úterý, středa.",
+     "level": "A1"
+    },
+    {
+     "fr": "Jeudi, vendredi, samedi, dimanche.",
+     "cs": "Čtvrtek, pátek, sobota, neděle.",
+     "level": "A1"
+    },
+    {
+     "fr": "Aujourd'hui, c'est lundi.",
+     "cs": "Dnes je pondělí.",
+     "level": "A1"
+    },
+    {
+     "fr": "Le rouge, le bleu, le vert.",
+     "cs": "Červená, modrá, zelená.",
+     "level": "A1"
+    },
+    {
+     "fr": "Le blanc, le noir, le jaune.",
+     "cs": "Bílá, černá, žlutá.",
+     "level": "A1"
+    },
+    {
+     "fr": "Comment allez-vous ?",
+     "cs": "Jak se máte?",
+     "level": "A1"
+    },
+    {
+     "fr": "Ça va bien, merci. Et vous ?",
+     "cs": "Mám se dobře, děkuji. A vy?",
+     "level": "A1"
+    },
+    {
+     "fr": "Excusez-moi.",
+     "cs": "Promiňte. / Dovolte.",
+     "level": "A1"
+    },
+    {
+     "fr": "De rien.",
+     "cs": "Není zač.",
+     "level": "A1"
+    },
+    {
+     "fr": "Bonne nuit !",
+     "cs": "Dobrou noc!",
+     "level": "A1"
+    }
+   ]
+  },
+  {
    "id": "cafe",
    "title": {
     "fr": "Au café",
@@ -13,7 +166,8 @@
      "note": {
       "fr": "À Paris, « un café » est un espresso court. Pour un café plus long : « un café allongé ».",
       "cs": "V Paříži je „un café“ krátké espresso. Delší káva se jmenuje „un café allongé“."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "Un café crème et un croissant, s'il vous plaît.",
@@ -21,7 +175,8 @@
      "note": {
       "fr": "« Un crème » est un café avec du lait chaud, proche du cappuccino.",
       "cs": "„Un crème“ je káva s horkým mlékem, podobná cappuccinu."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "Je voudrais un thé au citron.",
@@ -29,7 +184,8 @@
      "note": {
       "fr": "« Je voudrais » est plus poli que « je veux ».",
       "cs": "„Je voudrais“ je zdvořilejší než „je veux“ (chci)."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "Vous avez une carafe d'eau ?",
@@ -37,15 +193,18 @@
      "note": {
       "fr": "Dans un restaurant, on peut demander « une carafe d'eau » : elle est gratuite.",
       "cs": "V restauraci lze požádat o „une carafe d'eau“, tedy džbán vodovodní vody zdarma."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "Est-ce qu'on peut s'asseoir en terrasse ?",
-     "cs": "Můžeme si sednout na terase?"
+     "cs": "Můžeme si sednout na terase?",
+     "level": "A2"
     },
     {
      "fr": "Je peux m'asseoir ici ?",
-     "cs": "Můžu si tady sednout?"
+     "cs": "Můžu si tady sednout?",
+     "level": "A2"
     },
     {
      "fr": "Pouvez-vous me rendre la monnaie ?",
@@ -53,7 +212,8 @@
      "note": {
       "fr": "« La monnaie » désigne les pièces ou le reste d'un paiement.",
       "cs": "„La monnaie“ jsou mince nebo zpětné drobné po zaplacení."
-     }
+     },
+     "level": "B1"
     },
     {
      "fr": "L'addition, s'il vous plaît.",
@@ -61,15 +221,18 @@
      "note": {
       "fr": "On appelle le serveur en levant la main et en disant « Monsieur » ou « Madame ».",
       "cs": "Číšníka voláme zvednutou rukou a oslovením „Monsieur“ nebo „Madame“."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "On peut payer par carte ?",
-     "cs": "Můžeme platit kartou?"
+     "cs": "Můžeme platit kartou?",
+     "level": "A2"
     },
     {
      "fr": "C'était très bon, merci !",
-     "cs": "Bylo to výborné, děkujeme!"
+     "cs": "Bylo to výborné, děkujeme!",
+     "level": "A2"
     }
    ]
   },
@@ -86,11 +249,13 @@
      "note": {
       "fr": "Dites aussi « Bonjour » en entrant.",
       "cs": "Při vstupu pozdravte „Bonjour“."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "J'ai réservé au nom de Novák.",
-     "cs": "Mám rezervaci na jméno Novák."
+     "cs": "Mám rezervaci na jméno Novák.",
+     "level": "A2"
     },
     {
      "fr": "Pourrais-je voir la carte, s'il vous plaît ?",
@@ -98,19 +263,23 @@
      "note": {
       "fr": "« La carte » est le menu à la carte. « Le menu » est une formule à prix fixe.",
       "cs": "„La carte“ je běžný jídelní lístek. „Le menu“ je nabídka za pevnou cenu (např. předkrm, hlavní chod, dezert)."
-     }
+     },
+     "level": "B1"
     },
     {
      "fr": "Qu'est-ce que vous recommandez ?",
-     "cs": "Co byste doporučil?"
+     "cs": "Co byste doporučil?",
+     "level": "A2"
     },
     {
      "fr": "Je suis végétarien(ne). Y a-t-il un plat sans viande ?",
-     "cs": "Jsem vegetarián(ka). Máte nějaké jídlo bez masa?"
+     "cs": "Jsem vegetarián(ka). Máte nějaké jídlo bez masa?",
+     "level": "B1"
     },
     {
      "fr": "Je suis allergique aux noix.",
-     "cs": "Mám alergii na ořechy."
+     "cs": "Mám alergii na ořechy.",
+     "level": "A2"
     },
     {
      "fr": "Je prendrai le plat du jour.",
@@ -118,7 +287,8 @@
      "note": {
       "fr": "« Le plat du jour » change tous les jours et il est souvent écrit sur une ardoise.",
       "cs": "„Le plat du jour“ se mění každý den a často bývá napsané na tabuli."
-     }
+     },
+     "level": "B1"
     },
     {
      "fr": "Je voudrais mon steak bien cuit, s'il vous plaît.",
@@ -126,15 +296,18 @@
      "note": {
       "fr": "Les degrés de cuisson : bleu, saignant, à point, bien cuit.",
       "cs": "Stupně propečení: bleu, saignant, à point, bien cuit."
-     }
+     },
+     "level": "B1"
     },
     {
      "fr": "Nous voudrions partager un dessert.",
-     "cs": "Rádi bychom si dali jeden dezert napůl."
+     "cs": "Rádi bychom si dali jeden dezert napůl.",
+     "level": "B1"
     },
     {
      "fr": "Nous pourrions avoir l'addition ?",
-     "cs": "Mohli bychom dostat účet?"
+     "cs": "Mohli bychom dostat účet?",
+     "level": "B1"
     }
    ]
   },
@@ -151,7 +324,8 @@
      "note": {
       "fr": "La « baguette tradition » suit des règles de fabrication plus strictes que la baguette ordinaire.",
       "cs": "„Baguette tradition“ se vyrábí podle přísnějších pravidel než obyčejná bageta."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "Je voudrais deux croissants et un pain au chocolat.",
@@ -159,19 +333,23 @@
      "note": {
       "fr": "Dans le sud-ouest de la France, on dit souvent « chocolatine ».",
       "cs": "Na jihozápadě Francie se často říká „chocolatine“."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "Elle est bien cuite, cette baguette ?",
-     "cs": "Je ta bageta dobře upečená?"
+     "cs": "Je ta bageta dobře upečená?",
+     "level": "A2"
     },
     {
      "fr": "Vous pouvez la couper, s'il vous plaît ?",
-     "cs": "Můžete ji prosím nakrájet?"
+     "cs": "Můžete ji prosím nakrájet?",
+     "level": "A2"
     },
     {
      "fr": "Une tarte aux pommes, s'il vous plaît.",
-     "cs": "Jednu jablečnou tartu, prosím."
+     "cs": "Jednu jablečnou tartu, prosím.",
+     "level": "A1"
     },
     {
      "fr": "C'est quoi, ça ?",
@@ -179,15 +357,18 @@
      "note": {
       "fr": "Phrase simple pour montrer un produit en vitrine. Plus poli : « Qu'est-ce que c'est ? »",
       "cs": "Jednoduchá věta, když ukazujete na produkt ve vitríně. Zdvořileji: „Qu'est-ce que c'est ?“"
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "Je voudrais quelque chose de sucré, qu'est-ce que vous conseillez ?",
-     "cs": "Chtěl bych něco sladkého, co doporučujete?"
+     "cs": "Chtěl bych něco sladkého, co doporučujete?",
+     "level": "B1"
     },
     {
      "fr": "Je prends ça, s'il vous plaît.",
-     "cs": "Vezmu si tohle, prosím."
+     "cs": "Vezmu si tohle, prosím.",
+     "level": "A1"
     },
     {
      "fr": "C'est pour emporter.",
@@ -195,11 +376,13 @@
      "note": {
       "fr": "Sur place se dit « sur place ».",
       "cs": "K jídlu na místě se řekne „sur place“."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "Bonne journée, au revoir !",
-     "cs": "Hezký den, na shledanou!"
+     "cs": "Hezký den, na shledanou!",
+     "level": "A1"
     }
    ]
   },
@@ -212,7 +395,8 @@
    "items": [
     {
      "fr": "Où est la station de métro la plus proche ?",
-     "cs": "Kde je nejbližší stanice metra?"
+     "cs": "Kde je nejbližší stanice metra?",
+     "level": "A1"
     },
     {
      "fr": "Je voudrais une carte Navigo Easy, s'il vous plaît.",
@@ -220,7 +404,8 @@
      "note": {
       "fr": "La carte Navigo Easy est rechargeable et sert au métro, au RER, au bus et au tramway. Les anciens tickets en carton disparaissent. Infos officielles : iledefrance-mobilites.fr.",
       "cs": "Karta Navigo Easy je dobíjecí a platí v metru, RER, autobusech i tramvajích. Papírové jízdenky zanikají. Aktuální informace: iledefrance-mobilites.fr."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "Je voudrais charger dix tickets t+ sur ma carte.",
@@ -228,11 +413,13 @@
      "note": {
       "fr": "Le ticket t+ est le titre de transport à l'unité ; on en charge plusieurs sur la carte. L'ancien carnet en carton est remplacé par la carte.",
       "cs": "Ticket t+ je jednotlivá jízdenka, na kartu jich můžete nahrát víc. Dřívější papírový „carnet“ nahrazuje karta."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "Comment je vais à la gare du Nord ?",
-     "cs": "Jak se dostanu na Gare du Nord?"
+     "cs": "Jak se dostanu na Gare du Nord?",
+     "level": "A2"
     },
     {
      "fr": "Il faut changer ?",
@@ -240,7 +427,8 @@
      "note": {
       "fr": "En métro, un changement s'appelle « une correspondance ».",
       "cs": "Přestup se ve francouzštině říká „une correspondance“."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "C'est quelle direction ?",
@@ -248,7 +436,8 @@
      "note": {
       "fr": "Sur les quais, le nom de la dernière station indique la direction, par exemple « direction La Défense ».",
       "cs": "Na nástupišti je směr označen názvem konečné stanice, např. „direction La Défense“."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "Il faut valider le titre à l'entrée.",
@@ -256,7 +445,8 @@
      "note": {
       "fr": "On pose la carte sur le lecteur avant de passer le portillon.",
       "cs": "Kartu přiložíte ke čtečce, než projdete turniketem."
-     }
+     },
+     "level": "B1"
     },
     {
      "fr": "Ce train va à Versailles ?",
@@ -264,15 +454,18 @@
      "note": {
       "fr": "Le RER relie Paris et sa banlieue ; vérifiez la ligne et le terminus.",
       "cs": "RER spojuje Paříž s předměstími; zkontrolujte linku a konečnou."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "Excusez-moi, vous descendez à la prochaine ?",
-     "cs": "Promiňte, vystupujete na příští?"
+     "cs": "Promiňte, vystupujete na příští?",
+     "level": "B1"
     },
     {
      "fr": "Prochaine station : Châtelet.",
-     "cs": "Příští stanice: Châtelet."
+     "cs": "Příští stanice: Châtelet.",
+     "level": "A2"
     }
    ]
   },
@@ -285,7 +478,8 @@
    "items": [
     {
      "fr": "Un billet pour la collection permanente, s'il vous plaît.",
-     "cs": "Jednu vstupenku na stálou expozici, prosím."
+     "cs": "Jednu vstupenku na stálou expozici, prosím.",
+     "level": "A1"
     },
     {
      "fr": "Je voudrais réserver un créneau horaire.",
@@ -293,15 +487,18 @@
      "note": {
       "fr": "Beaucoup de musées conseillent de réserver en ligne sur leur site officiel.",
       "cs": "Mnoho muzeí doporučuje rezervaci online na oficiálním webu."
-     }
+     },
+     "level": "B1"
     },
     {
      "fr": "Où est la consigne ?",
-     "cs": "Kde je úschovna?"
+     "cs": "Kde je úschovna?",
+     "level": "A2"
     },
     {
      "fr": "Est-ce qu'il y a un audioguide en tchèque ?",
-     "cs": "Je k dispozici audioprůvodce v češtině?"
+     "cs": "Je k dispozici audioprůvodce v češtině?",
+     "level": "A2"
     },
     {
      "fr": "Est-ce qu'on peut prendre des photos ?",
@@ -309,7 +506,8 @@
      "note": {
       "fr": "Souvent oui sans flash, mais pas partout.",
       "cs": "Často ano bez blesku, ale ne všude."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "Où se trouve la Joconde ?",
@@ -317,23 +515,28 @@
      "note": {
       "fr": "En français, le tableau s'appelle « la Joconde ».",
       "cs": "Francouzsky se obraz jmenuje „la Joconde“."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "À quelle heure ferme le musée ?",
-     "cs": "V kolik zavírá muzeum?"
+     "cs": "V kolik zavírá muzeum?",
+     "level": "A2"
     },
     {
      "fr": "Où sont les toilettes, s'il vous plaît ?",
-     "cs": "Kde jsou toalety, prosím?"
+     "cs": "Kde jsou toalety, prosím?",
+     "level": "A1"
     },
     {
      "fr": "Ce tableau est de quel artiste ?",
-     "cs": "Od jakého umělce je tenhle obraz?"
+     "cs": "Od jakého umělce je tenhle obraz?",
+     "level": "A2"
     },
     {
      "fr": "Il y a une exposition temporaire en ce moment ?",
-     "cs": "Je teď nějaká dočasná výstava?"
+     "cs": "Je teď nějaká dočasná výstava?",
+     "level": "B1"
     }
    ]
   },
@@ -346,39 +549,48 @@
    "items": [
     {
      "fr": "J'ai une réservation au nom de Novák.",
-     "cs": "Mám rezervaci na jméno Novák."
+     "cs": "Mám rezervaci na jméno Novák.",
+     "level": "A2"
     },
     {
      "fr": "Je voudrais une chambre pour deux personnes, pour trois nuits.",
-     "cs": "Chtěl(a) bych pokoj pro dva na tři noci."
+     "cs": "Chtěl(a) bych pokoj pro dva na tři noci.",
+     "level": "A2"
     },
     {
      "fr": "Le petit-déjeuner est compris ?",
-     "cs": "Je snídaně v ceně?"
+     "cs": "Je snídaně v ceně?",
+     "level": "A2"
     },
     {
      "fr": "À quelle heure est le petit-déjeuner ?",
-     "cs": "V kolik je snídaně?"
+     "cs": "V kolik je snídaně?",
+     "level": "A2"
     },
     {
      "fr": "Quel est le mot de passe du wifi ?",
-     "cs": "Jaké je heslo k wifi?"
+     "cs": "Jaké je heslo k wifi?",
+     "level": "A2"
     },
     {
      "fr": "Pourriez-vous garder nos valises ?",
-     "cs": "Mohli byste nám pohlídat zavazadla?"
+     "cs": "Mohli byste nám pohlídat zavazadla?",
+     "level": "B1"
     },
     {
      "fr": "Je n'ai pas d'eau chaude dans la salle de bains.",
-     "cs": "V koupelně mi neteče teplá voda."
+     "cs": "V koupelně mi neteče teplá voda.",
+     "level": "B1"
     },
     {
      "fr": "Pourriez-vous nous appeler un taxi ?",
-     "cs": "Mohli byste nám zavolat taxi?"
+     "cs": "Mohli byste nám zavolat taxi?",
+     "level": "B1"
     },
     {
      "fr": "Où se trouve la station de métro la plus proche ?",
-     "cs": "Kde je nejbližší stanice metra?"
+     "cs": "Kde je nejbližší stanice metra?",
+     "level": "A2"
     },
     {
      "fr": "Je voudrais régler la note, s'il vous plaît.",
@@ -386,7 +598,8 @@
      "note": {
       "fr": "« La note » est l'addition à l'hôtel. Au café, on dit « l'addition ».",
       "cs": "V hotelu se účtu říká „la note“. V kavárně se říká „l'addition“."
-     }
+     },
+     "level": "B1"
     }
    ]
   },
@@ -399,7 +612,8 @@
    "items": [
     {
      "fr": "Au secours !",
-     "cs": "Pomoc!"
+     "cs": "Pomoc!",
+     "level": "A1"
     },
     {
      "fr": "Appelez une ambulance, s'il vous plaît !",
@@ -407,7 +621,8 @@
      "note": {
       "fr": "Numéros gratuits : 15 (SAMU), 17 (police), 18 (pompiers), 112 (numéro européen).",
       "cs": "Bezplatná čísla: 15 (SAMU, zdravotní záchranka), 17 (policie), 18 (hasiči), 112 (evropské tísňové číslo)."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "Appelez le 112 !",
@@ -415,7 +630,8 @@
      "note": {
       "fr": "Le 112 fonctionne dans toute l'Union européenne ; on peut l'appeler sans parler français.",
       "cs": "Číslo 112 funguje v celé EU a není třeba umět francouzsky."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "Je me suis fait voler mon portefeuille.",
@@ -423,11 +639,13 @@
      "note": {
       "fr": "Pour déclarer un vol, allez au commissariat.",
       "cs": "Krádež nahlásíte na policejní stanici („commissariat“)."
-     }
+     },
+     "level": "B1"
     },
     {
      "fr": "J'ai perdu mon passeport.",
-     "cs": "Ztratil(a) jsem pas."
+     "cs": "Ztratil(a) jsem pas.",
+     "level": "A2"
     },
     {
      "fr": "Où est la pharmacie la plus proche ?",
@@ -435,11 +653,13 @@
      "note": {
       "fr": "Les pharmacies ont une croix verte lumineuse.",
       "cs": "Lékárny poznáte podle svítícího zeleného kříže."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "Je ne me sens pas bien. J'ai besoin d'un médecin.",
-     "cs": "Necítím se dobře. Potřebuji lékaře."
+     "cs": "Necítím se dobře. Potřebuji lékaře.",
+     "level": "B1"
     },
     {
      "fr": "J'ai mal à la tête.",
@@ -447,15 +667,18 @@
      "note": {
       "fr": "On dit « avoir mal à + partie du corps ».",
       "cs": "Říká se „avoir mal à“ + část těla."
-     }
+     },
+     "level": "A2"
     },
     {
      "fr": "Je suis allergique à la pénicilline.",
-     "cs": "Mám alergii na penicilin."
+     "cs": "Mám alergii na penicilin.",
+     "level": "B1"
     },
     {
      "fr": "Pouvez-vous m'aider ? Je suis perdu(e).",
-     "cs": "Můžete mi pomoci? Ztratil(a) jsem se."
+     "cs": "Můžete mi pomoci? Ztratil(a) jsem se.",
+     "level": "A2"
     }
    ]
   },
@@ -472,19 +695,23 @@
      "note": {
       "fr": "On dit « bonjour » le jour et « bonsoir » à partir de la soirée.",
       "cs": "Ve dne se říká „bonjour“, od večera „bonsoir“."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "Enchanté(e).",
-     "cs": "Těší mě."
+     "cs": "Těší mě.",
+     "level": "A1"
     },
     {
      "fr": "Je m'appelle Jana. Et vous ?",
-     "cs": "Jmenuji se Jana. A vy?"
+     "cs": "Jmenuji se Jana. A vy?",
+     "level": "A1"
     },
     {
      "fr": "Je suis tchèque. J'apprends le français.",
-     "cs": "Jsem Čech(ka). Učím se francouzsky."
+     "cs": "Jsem Čech(ka). Učím se francouzsky.",
+     "level": "A1"
     },
     {
      "fr": "Vous parlez anglais ?",
@@ -492,15 +719,18 @@
      "note": {
       "fr": "Mieux : commencer par « Bonjour, excusez-moi, vous parlez anglais ? »",
       "cs": "Lepší je začít: „Bonjour, excusez-moi, vous parlez anglais ?“"
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "Pouvez-vous répéter, s'il vous plaît ?",
-     "cs": "Můžete to zopakovat, prosím?"
+     "cs": "Můžete to zopakovat, prosím?",
+     "level": "A2"
     },
     {
      "fr": "Pouvez-vous parler plus lentement ?",
-     "cs": "Můžete mluvit pomaleji?"
+     "cs": "Můžete mluvit pomaleji?",
+     "level": "A2"
     },
     {
      "fr": "Excusez-moi / Pardon.",
@@ -508,15 +738,18 @@
      "note": {
       "fr": "« Pardon » sert surtout à s'excuser en passant ou à attirer l'attention.",
       "cs": "„Pardon“ se hodí hlavně při omluvě za průchod nebo na upoutání pozornosti."
-     }
+     },
+     "level": "A1"
     },
     {
      "fr": "Merci beaucoup. — De rien.",
-     "cs": "Moc děkuji. — Není zač."
+     "cs": "Moc děkuji. — Není zač.",
+     "level": "A1"
     },
     {
      "fr": "Je vous en prie.",
-     "cs": "Rádo se stalo / prosím."
+     "cs": "Rádo se stalo / prosím.",
+     "level": "A2"
     }
    ]
   }
@@ -535,7 +768,8 @@
    "example": {
     "fr": "J'ai rendez-vous au cabinet du dentiste à dix heures.",
     "cs": "V deset mám schůzku v zubní ordinaci."
-   }
+   },
+   "level": "B2"
   },
   {
    "fr": "collège",
@@ -550,7 +784,8 @@
    "example": {
     "fr": "Ma sœur est en troisième au collège.",
     "cs": "Moje sestra chodí do třetího ročníku collège (poslední rok před lyceem)."
-   }
+   },
+   "level": "B1"
   },
   {
    "fr": "gymnase",
@@ -565,7 +800,8 @@
    "example": {
     "fr": "Le match de volley a lieu au gymnase du quartier.",
     "cs": "Zápas ve volejbale se hraje v tělocvičně v naší čtvrti."
-   }
+   },
+   "level": "B1"
   },
   {
    "fr": "magasin",
@@ -580,7 +816,8 @@
    "example": {
     "fr": "Ce magasin vend des livres anciens.",
     "cs": "Tenhle obchod prodává staré knihy."
-   }
+   },
+   "level": "B1"
   },
   {
    "fr": "veste",
@@ -595,7 +832,8 @@
    "example": {
     "fr": "Il fait frais, prends ta veste.",
     "cs": "Je chladno, vezmi si sako (nebo bundu)."
-   }
+   },
+   "level": "B1"
   },
   {
    "fr": "conférence",
@@ -610,7 +848,8 @@
    "example": {
     "fr": "Hier soir, j'ai assisté à une conférence sur l'histoire de Paris.",
     "cs": "Včera večer jsem byl na přednášce o historii Paříže."
-   }
+   },
+   "level": "B1"
   },
   {
    "fr": "assister à",
@@ -625,7 +864,8 @@
    "example": {
     "fr": "Nous avons assisté à un concert à la Philharmonie.",
     "cs": "Byli jsme na koncertě ve Philharmonii."
-   }
+   },
+   "level": "B2"
   },
   {
    "fr": "humeur",
@@ -640,7 +880,8 @@
    "example": {
     "fr": "Il est de mauvaise humeur parce qu'il a raté son métro.",
     "cs": "Má špatnou náladu, protože mu ujelo metro."
-   }
+   },
+   "level": "B2"
   },
   {
    "fr": "maturité",
@@ -655,7 +896,8 @@
    "example": {
     "fr": "En France, on passe le bac à la fin du lycée.",
     "cs": "Ve Francii se skládá maturita (bac) na konci lycea."
-   }
+   },
+   "level": "B2"
   },
   {
    "fr": "location",
@@ -670,7 +912,8 @@
    "example": {
     "fr": "Nous avons fait une location de vélos pour la journée.",
     "cs": "Půjčili jsme si na den kola."
-   }
+   },
+   "level": "B2"
   },
   {
    "fr": "chance",
@@ -685,7 +928,8 @@
    "example": {
     "fr": "Tu as de la chance : il reste une table en terrasse !",
     "cs": "Máš štěstí, ještě je volný stůl na terase!"
-   }
+   },
+   "level": "B1"
   }
  ],
  "tips": {
@@ -732,7 +976,8 @@
    "explain": {
     "fr": "Paris est divisée en 20 arrondissements, numérotés en spirale à partir du centre.",
     "cs": "Paříž se dělí na 20 obvodů, které se číslují spirálovitě od centra."
-   }
+   },
+   "level": "A2"
   },
   {
    "q": {
@@ -755,7 +1000,8 @@
    "explain": {
     "fr": "La tour Eiffel a été construite pour l'Exposition universelle de 1889.",
     "cs": "Eiffelova věž byla postavena pro Světovou výstavu v roce 1889."
-   }
+   },
+   "level": "A2"
   },
   {
    "q": {
@@ -778,7 +1024,8 @@
    "explain": {
     "fr": "Le musée d'Orsay occupe l'ancienne gare d'Orsay, construite pour l'Exposition universelle de 1900.",
     "cs": "Musée d'Orsay sídlí v bývalém nádraží Gare d'Orsay, které vzniklo pro Světovou výstavu 1900."
-   }
+   },
+   "level": "B1"
   },
   {
    "q": {
@@ -801,7 +1048,8 @@
    "explain": {
     "fr": "La pyramide a été conçue par l'architecte américain d'origine chinoise Ieoh Ming Pei et inaugurée en 1989.",
     "cs": "Pyramidu navrhl americký architekt čínského původu Ieoh Ming Pei; byla otevřena v roce 1989."
-   }
+   },
+   "level": "B1"
   },
   {
    "q": {
@@ -824,7 +1072,8 @@
    "explain": {
     "fr": "La ligne 1 a ouvert en 1900, entre Porte de Vincennes et Porte Maillot.",
     "cs": "Linka 1 byla otevřena v roce 1900 mezi stanicemi Porte de Vincennes a Porte Maillot."
-   }
+   },
+   "level": "B1"
   },
   {
    "q": {
@@ -847,7 +1096,8 @@
    "explain": {
     "fr": "Le Louvre est sur la rive droite ; le musée d'Orsay et la tour Eiffel sont sur la rive gauche.",
     "cs": "Louvre leží na pravém břehu; Musée d'Orsay a Eiffelova věž stojí na levém."
-   }
+   },
+   "level": "A2"
   },
   {
    "q": {
@@ -870,7 +1120,8 @@
    "explain": {
     "fr": "L'incendie a eu lieu le 15 avril 2019.",
     "cs": "Požár vypukl 15. dubna 2019."
-   }
+   },
+   "level": "A2"
   },
   {
    "q": {
@@ -893,7 +1144,8 @@
    "explain": {
     "fr": "On vouvoie les inconnus et les personnes plus âgées : « Vous pouvez m'aider ? »",
     "cs": "Neznámým a starším lidem se vyká: „Vous pouvez m'aider ?“"
-   }
+   },
+   "level": "A2"
   },
   {
    "q": {
@@ -916,7 +1168,8 @@
    "explain": {
     "fr": "On salue toujours d'abord, puis on passe la commande.",
     "cs": "Nejdřív se vždy pozdravíte a teprve potom objednáte."
-   }
+   },
+   "level": "A1"
   },
   {
    "q": {
@@ -939,7 +1192,8 @@
    "explain": {
     "fr": "« L'addition, s'il vous plaît » est la formule habituelle.",
     "cs": "„L'addition, s'il vous plaît“ je obvyklá zdvořilá formule."
-   }
+   },
+   "level": "A1"
   },
   {
    "q": {
@@ -962,7 +1216,8 @@
    "explain": {
     "fr": "Le 112 est le numéro d'urgence européen. En France, le 15 est le SAMU, le 17 la police et le 18 les pompiers.",
     "cs": "112 je evropské tísňové číslo. Ve Francii je 15 zdravotní záchranka (SAMU), 17 policie a 18 hasiči."
-   }
+   },
+   "level": "A2"
   },
   {
    "q": {
@@ -985,7 +1240,200 @@
    "explain": {
     "fr": "« Déjeuner » est le repas du midi ; le matin on prend « le petit-déjeuner » et le soir « le dîner ».",
     "cs": "„Déjeuner“ je polední jídlo; ráno se jí „le petit-déjeuner“ a večer „le dîner“."
-   }
+   },
+   "level": "B1"
+  },
+  {
+   "q": {
+    "fr": "Que dit-on le matin pour saluer quelqu'un ?",
+    "cs": "Co se říká ráno při pozdravu?"
+   },
+   "options": {
+    "fr": [
+     "Bonjour",
+     "Bonsoir",
+     "Bonne nuit"
+    ],
+    "cs": [
+     "Bonjour",
+     "Bonsoir",
+     "Bonne nuit"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "« Bonjour » se dit le matin et pendant la journée. « Bonsoir » se dit le soir.",
+    "cs": "„Bonjour“ se říká ráno i přes den. „Bonsoir“ se říká večer."
+   },
+   "level": "A1"
+  },
+  {
+   "q": {
+    "fr": "Que veut dire « s'il vous plaît » ?",
+    "cs": "Co znamená „s'il vous plaît“?"
+   },
+   "options": {
+    "fr": [
+     "prosím",
+     "děkuji",
+     "promiňte"
+    ],
+    "cs": [
+     "prosím",
+     "děkuji",
+     "promiňte"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "« S'il vous plaît » est la formule de politesse pour demander quelque chose.",
+    "cs": "„S'il vous plaît“ je zdvořilá formule, když o něco žádáme."
+   },
+   "level": "A1"
+  },
+  {
+   "q": {
+    "fr": "Comment s'appelle le fleuve qui traverse Paris ?",
+    "cs": "Jak se jmenuje řeka, která protéká Paříží?"
+   },
+   "options": {
+    "fr": [
+     "La Seine",
+     "La Loire",
+     "Le Rhône"
+    ],
+    "cs": [
+     "Seina (La Seine)",
+     "Loira (La Loire)",
+     "Rhona (Le Rhône)"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "La Seine traverse Paris. La Loire et le Rhône sont d'autres fleuves de France.",
+    "cs": "Paříží protéká Seina. Loira a Rhona jsou jiné francouzské řeky."
+   },
+   "level": "A1"
+  },
+  {
+   "q": {
+    "fr": "Quel nombre est « sept » ?",
+    "cs": "Které číslo je „sept“?"
+   },
+   "options": {
+    "fr": [
+     "6",
+     "7",
+     "8"
+    ],
+    "cs": [
+     "6",
+     "7",
+     "8"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "« Sept » est le nombre 7. On prononce « sèt ».",
+    "cs": "„Sept“ je číslo 7. Čte se „sét“."
+   },
+   "level": "A1"
+  },
+  {
+   "q": {
+    "fr": "Quel jour est la fête nationale française ?",
+    "cs": "Kdy je francouzský státní svátek?"
+   },
+   "options": {
+    "fr": [
+     "Le 1er mai",
+     "Le 14 juillet",
+     "Le 11 novembre"
+    ],
+    "cs": [
+     "1. května",
+     "14. července",
+     "11. listopadu"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "La fête nationale est le 14 juillet.",
+    "cs": "Státní svátek se slaví 14. července."
+   },
+   "level": "A2"
+  },
+  {
+   "q": {
+    "fr": "Quelle célèbre avenue va de l'Arc de Triomphe à la place de la Concorde ?",
+    "cs": "Která slavná avenue vede od Vítězného oblouku na náměstí Concorde?"
+   },
+   "options": {
+    "fr": [
+     "L'avenue des Champs-Élysées",
+     "Le boulevard Saint-Germain",
+     "La rue de Rivoli"
+    ],
+    "cs": [
+     "Avenue des Champs-Élysées",
+     "Boulevard Saint-Germain",
+     "Rue de Rivoli"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Les Champs-Élysées relient l'Arc de Triomphe et la place de la Concorde.",
+    "cs": "Champs-Élysées spojují Vítězný oblouk s náměstím Concorde."
+   },
+   "level": "A2"
+  },
+  {
+   "q": {
+    "fr": "Dans quel musée de Paris peut-on voir la Joconde ?",
+    "cs": "V kterém pařížském muzeu lze vidět Monu Lisu?"
+   },
+   "options": {
+    "fr": [
+     "Au musée d'Orsay",
+     "Au Louvre",
+     "Au musée Picasso"
+    ],
+    "cs": [
+     "V Musée d'Orsay",
+     "V Louvru",
+     "V Musée Picasso"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "La Joconde de Léonard de Vinci est exposée au musée du Louvre.",
+    "cs": "Mona Lisa Leonarda da Vinciho je vystavena v Louvru."
+   },
+   "level": "A2"
+  },
+  {
+   "q": {
+    "fr": "Sur quelle île se trouve la cathédrale Notre-Dame ?",
+    "cs": "Na kterém ostrově stojí katedrála Notre-Dame?"
+   },
+   "options": {
+    "fr": [
+     "L'île de la Cité",
+     "L'île Saint-Louis",
+     "L'île de Beauté"
+    ],
+    "cs": [
+     "Île de la Cité",
+     "Île Saint-Louis",
+     "Île de Beauté"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Notre-Dame se trouve sur l'île de la Cité, au milieu de la Seine.",
+    "cs": "Notre-Dame stojí na Île de la Cité uprostřed Seiny."
+   },
+   "level": "A2"
   }
  ],
  "sources": [

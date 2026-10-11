@@ -19,6 +19,7 @@
     weak: L('Mot de passe trop court (10 caractères minimum).', 'Heslo je příliš krátké (min. 10 znaků).'),
     title: L('Ajoutez au moins un titre.', 'Přidejte alespoň název.'),
     body: L('Ajoutez un texte avant de l’envoyer.', 'Před odesláním přidejte text.'),
+    level: L('Choisissez le niveau de français de votre texte.', 'Zvolte úroveň francouzštiny svého textu.'),
     credit: L('Indiquez l’auteur de la photo (par ex. « photo personnelle »).', 'Uveďte autora fotografie (např. „vlastní fotografie“).'),
     published: L('Cet article est déjà publié : contactez-nous pour le modifier.', 'Tento článek je už zveřejněný: pro úpravu nás kontaktujte.'),
     r2: L('Le téléversement d’images n’est pas encore activé.', 'Nahrávání obrázků zatím není zapnuto.'),
@@ -83,7 +84,7 @@
         Object.assign(el('button', { class: 'chip', type: 'button' }, L('Déconnexion', 'Odhlásit')), { onclick: async () => { await api('logout', {}); await start(); } })));
 
     posts.forEach((p) => list.append(el('div', { class: 'acct-post' },
-      el('div', { class: 'grow' }, el('strong', {}, p.title_fr || p.title_cs), ' ', el('span', { class: `tag ${p.status === 'published' ? 'free' : ''}` }, STATUS[p.status] || p.status),
+      el('div', { class: 'grow' }, el('strong', {}, p.title_fr || p.title_cs), ' ', p.level ? el('span', { class: 'tag' }, p.level) : null, ' ', el('span', { class: `tag ${p.status === 'published' ? 'free' : ''}` }, STATUS[p.status] || p.status),
         p.status === 'rejected' && p.review_note ? el('p', { class: 'acct-note' }, `${L('Remarque de l’enseignant', 'Poznámka učitele')} : ${p.review_note}`) : null),
       p.status === 'published' ? el('a', { class: 'read-more', href: `/${lang}/article/${p.slug}` }, L('Voir', 'Zobrazit')) : el('span', {},
         Object.assign(el('button', { class: 'chip', type: 'button' }, L('Modifier', 'Upravit')), { onclick: () => openEditor(p) }), ' ',
@@ -97,6 +98,8 @@
         el('p', { class: 'note' }, L('Écrivez dans la langue que vous maîtrisez le mieux ; l’autre version est facultative (nous pouvons la préparer ensemble). Format : paragraphes séparés par une ligne vide, « ## Titre » pour un intertitre, **gras**, « - » pour une liste. Pas de HTML.', 'Pište v jazyce, který ovládáte nejlépe; druhá verze je volitelná (můžeme ji připravit společně). Formát: odstavce oddělené prázdným řádkem, „## Nadpis“ pro mezititulek, **tučně**, „- “ pro seznam. Bez HTML.')),
         el('div', { class: 'form-group' }, el('label', { class: 'acct-label', for: 'e-cat' }, L('Rubrique', 'Rubrika')),
           el('select', { id: 'e-cat' }, ...[['voyage', L('Voyages', 'Cestování')], ['paris', L('Paris', 'Paříž')], ['langue', L('Langue', 'Jazyk')]].map(([k, t]) => el('option', { value: k, ...(v('category') === k ? { selected: '' } : {}) }, t)))),
+        el('div', { class: 'form-group' }, el('label', { class: 'acct-label', for: 'e-level' }, L('Niveau de français de votre texte (CEFR) – à choisir avant l’envoi', 'Úroveň francouzštiny vašeho textu (CEFR) – zvolte před odesláním')),
+          el('select', { id: 'e-level' }, el('option', { value: '' }, '—'), ...['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map((k) => el('option', { value: k, ...(v('level') === k ? { selected: '' } : {}) }, k)))),
         el('div', { class: 'acct-cols' },
           el('div', {}, el('h4', {}, 'Français'), field('e-tfr', 'Titre', { a: { maxlength: 200, value: v('title_fr') } }), field('e-xfr', 'Résumé (1–2 phrases)', { tag: 'textarea', a: { maxlength: 400, rows: 3 } }), field('e-bfr', 'Texte', { tag: 'textarea', a: { rows: 14 } })),
           el('div', {}, el('h4', {}, 'Čeština'), field('e-tcs', 'Název', { a: { maxlength: 200, value: v('title_cs') } }), field('e-xcs', 'Perex (1–2 věty)', { tag: 'textarea', a: { maxlength: 400, rows: 3 } }), field('e-bcs', 'Text', { tag: 'textarea', a: { rows: 14 } }))),
@@ -131,7 +134,7 @@
         const g = (id) => f.querySelector('#' + id).value;
         b.disabled = true;
         try {
-          await api('save', { id: p?.id, submit: b.dataset.submit === '1', category: g('e-cat'), title_fr: g('e-tfr'), title_cs: g('e-tcs'), excerpt_fr: g('e-xfr'), excerpt_cs: g('e-xcs'),
+          await api('save', { id: p?.id, submit: b.dataset.submit === '1', category: g('e-cat'), level: g('e-level'), title_fr: g('e-tfr'), title_cs: g('e-tcs'), excerpt_fr: g('e-xfr'), excerpt_cs: g('e-xcs'),
             body_fr: g('e-bfr'), body_cs: g('e-bcs'), cover_url: g('e-cover').trim(), cover_credit: g('e-credit') });
           flash(b.dataset.submit === '1' ? L('Envoyé ! Votre enseignant va le relire.', 'Odesláno! Učitel článek projde.') : L('Brouillon enregistré.', 'Koncept uložen.'), true);
           await start(true);

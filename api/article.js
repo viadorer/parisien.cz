@@ -1,15 +1,15 @@
 // Server-side vykreslený článek (SEO + náhledy při sdílení).  /fr/article/:slug a /cs/article/:slug  → /api/article?lang=&slug=
 import { layout, esc, pick, figure, SITE } from '../lib/layout.js';
 import { toHtml } from '../lib/markup.js';
-import { getPost, getPosts } from '../lib/posts.js';
+import { getPost, getPosts, getVersions } from '../lib/posts.js';
 
 const CAT = {
   fr: { paris: 'Paris', voyage: 'Voyages', langue: 'Langue' },
   cs: { paris: 'Paříž', voyage: 'Cestování', langue: 'Jazyk' },
 };
 const T = {
-  fr: { back: '← Tous les articles', sources: 'Sources', by: 'Par', notrans: 'Cet article n’est pas encore traduit en français ; voici la version tchèque.', more: 'À lire aussi', nf: 'Article introuvable', nfp: 'Cet article n’existe pas ou n’est plus publié.' },
-  cs: { back: '← Všechny články', sources: 'Zdroje', by: 'Autor', notrans: 'Tento článek zatím nemá český překlad, zobrazuje se francouzská verze.', more: 'Přečtěte si také', nf: 'Článek nenalezen', nfp: 'Tento článek neexistuje nebo už není zveřejněný.' },
+  fr: { level: 'Niveau de lecture', levelNote: 'Pour C1/C2 : lisez le texte original (B2+).', glossary: 'Vocabulaire', back: '← Tous les articles', sources: 'Sources', by: 'Par', notrans: 'Cet article n’est pas encore traduit en français ; voici la version tchèque.', more: 'À lire aussi', nf: 'Article introuvable', nfp: 'Cet article n’existe pas ou n’est plus publié.' },
+  cs: { level: 'Úroveň čtení', levelNote: 'Pro C1/C2: čtěte původní text (B2+).', glossary: 'Slovíčka', back: '← Všechny články', sources: 'Zdroje', by: 'Autor', notrans: 'Tento článek zatím nemá český překlad, zobrazuje se francouzská verze.', more: 'Přečtěte si také', nf: 'Článek nenalezen', nfp: 'Tento článek neexistuje nebo už není zveřejněný.' },
 };
 const fmt = (iso, lang) => new Date(iso).toLocaleDateString(lang === 'cs' ? 'cs-CZ' : 'fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
 
@@ -30,20 +30,25 @@ export default async function handler(req, res) {
     const missing = !post.body[lang];
     const body = post.body[lang] || post.body[lang === 'cs' ? 'fr' : 'cs'];
     const cover = post.cover ? { url: post.cover, author: '', license: '', page: post.coverCredit?.url } : null;
-    const related = (await getPosts({ cat: post.category, limit: 4 })).filter((p) => p.slug !== slug).slice(0, 3);
+    const related = (await getPosts({ cat: post.category, limit: 24 })).filter((p) => p.slug === p.base && p.base !== post.base).slice(0, 3);
+    const versions = await getVersions(post.base);
+    const switcher = versions.length > 1 ? `<nav class="level-switch" aria-label="${esc(t.level)}"><span>${esc(t.level)} :</span>${versions.map((v) => `<a href="/${lang}/article/${esc(v.slug)}" data-level="${esc(v.level)}"${v.slug === slug ? ' aria-current="page"' : ''}>${esc(v.level === 'B2' ? 'B2+' : v.level || '?')}</a>`).join('')}<small>${esc(t.levelNote)}</small></nav>` : '';
+    const glossary = post.glossary?.length ? `<aside class="glossary"><h2>${esc(t.glossary)}</h2><ul>${post.glossary.map((g) => `<li><b lang="fr">${esc(g.fr)}</b> · ${esc(g.cs)}</li>`).join('')}</ul></aside>` : '';
 
     const html = layout({
       lang, path: `/article/${slug}`, title: `${title} – parisien.cz`, description: pick(post.excerpt, lang),
       image: post.cover ? post.cover.replace(/width=\d+/, 'width=1280') : undefined,
       bodyClass: 'page-article',
       head: `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Article', headline: title, datePublished: post.date, inLanguage: lang, author: { '@type': 'Organization', name: post.author || 'parisien.cz' }, image: post.cover || undefined, mainEntityOfPage: `${SITE}/${lang}/article/${slug}` }).replace(/</g, '\\u003c')}</script>`,
-      body: `<article class="article">
+      body: `<article class="article" data-base="${esc(post.base)}" data-level="${esc(post.level)}">
   <a class="read-more" href="/${lang}/blog">${esc(t.back)}</a>
-  <div class="post-meta"><span class="tag">${esc(CAT[lang][post.category] || post.category)}</span> <time datetime="${esc(post.date)}">${esc(fmt(post.date, lang))}</time>${post.author ? ` · ${esc(t.by)} ${esc(post.author)}` : ''}</div>
+  <div class="post-meta"><span class="tag">${esc(CAT[lang][post.category] || post.category)}</span>${post.level ? ` <span class="tag lvl lvl-${esc(post.level)}">${esc(post.level === 'B2' && versions.length > 1 ? 'B2+' : post.level)}</span>` : ''} <time datetime="${esc(post.date)}">${esc(fmt(post.date, lang))}</time>${post.author ? ` · ${esc(t.by)} ${esc(post.author)}` : ''}</div>
   <h1>${esc(title)}</h1>
+  ${switcher}
   ${post.cover ? `<figure class="photo article-cover"><img src="${esc(post.cover)}" alt=""><figcaption class="credit">${post.coverCredit ? `<a href="${esc(post.coverCredit.url || '#')}" target="_blank" rel="noopener">© ${esc(post.coverCredit.text)}</a>` : ''}</figcaption></figure>` : ''}
   ${missing ? `<p class="note">${esc(t.notrans)}</p>` : ''}
   <div class="article-body">${toHtml(body)}</div>
+  ${glossary}
   ${post.sources.length ? `<aside class="sources"><h2>${esc(t.sources)}</h2><ul>${post.sources.map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s.replace(/^https:\/\/(www\.)?/, '').slice(0, 80))}</a></li>`).join('')}</ul></aside>` : ''}
   ${related.length ? `<section class="related"><h2>${esc(t.more)}</h2><div class="blog-posts">${related.map((p) => `<article class="blog-post"><div class="post-date">${esc(fmt(p.date, lang))}</div><h3><a href="/${lang}/article/${esc(p.slug)}">${esc(pick(p.title, lang))}</a></h3></article>`).join('')}</div></section>` : ''}
 </article>`,

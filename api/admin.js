@@ -8,6 +8,8 @@ import { hashPassword, newCode } from '../lib/users.js';
 import { randomBytes } from 'node:crypto';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const parseGloss = (t) => JSON.stringify(String(t || '').split('\n').map((l) => l.split('=')).filter((a) => a.length >= 2).map((a) => ({ fr: str(a[0], 80), cs: str(a.slice(1).join('='), 120) })).filter((g) => g.fr && g.cs).slice(0, 40));
 const URLISH = /^(https:\/\/|\/images\/)[^\s"'<>]*$/;
 
 export default async function handler(req, res) {
@@ -63,6 +65,7 @@ export default async function handler(req, res) {
         cover_credit: str(body.cover_credit, 200), cover_credit_url: str(body.cover_credit_url, 500),
         category: ['paris', 'voyage', 'langue'].includes(body.category) ? body.category : 'paris',
         author: str(body.author, 100),
+        level: LEVELS.includes(body.level) ? body.level : '', base_slug: str(body.base_slug, 80), glossary: parseGloss(body.glossary),
         sources: JSON.stringify(String(body.sources || '').split('\n').map((x) => x.trim()).filter((x) => /^https:\/\//.test(x)).slice(0, 20)),
         published: body.published !== false,
         published_at: body.published_at && !isNaN(Date.parse(body.published_at)) ? new Date(body.published_at).toISOString() : new Date().toISOString(),
@@ -74,12 +77,12 @@ export default async function handler(req, res) {
       if (p.id) {
         const rows = await sql`UPDATE posts SET slug=${slug}, title_cs=${p.title_cs}, title_fr=${p.title_fr},
           excerpt_cs=${p.excerpt_cs}, excerpt_fr=${p.excerpt_fr}, body_cs=${p.body_cs}, body_fr=${p.body_fr},
-          cover_url=${p.cover_url}, cover_credit=${p.cover_credit}, cover_credit_url=${p.cover_credit_url}, category=${p.category}, author=${p.author}, sources=${p.sources}, status=CASE WHEN ${p.published} THEN 'published' ELSE status END, published=${p.published}, published_at=${p.published_at}, updated_at=now()
+          cover_url=${p.cover_url}, cover_credit=${p.cover_credit}, cover_credit_url=${p.cover_credit_url}, category=${p.category}, author=${p.author}, sources=${p.sources}, level=${p.level}, base_slug=${p.base_slug || slug}, glossary=${p.glossary}, status=CASE WHEN ${p.published} THEN 'published' ELSE status END, published=${p.published}, published_at=${p.published_at}, updated_at=now()
           WHERE id=${p.id} RETURNING *`;
         return rows[0] ? send(res, 200, { post: rows[0] }, noStore) : send(res, 404, { error: 'Článek neexistuje.' }, noStore);
       }
-      const rows = await sql`INSERT INTO posts (slug, title_cs, title_fr, excerpt_cs, excerpt_fr, body_cs, body_fr, cover_url, cover_credit, cover_credit_url, category, author, sources, published, published_at)
-        VALUES (${slug}, ${p.title_cs}, ${p.title_fr}, ${p.excerpt_cs}, ${p.excerpt_fr}, ${p.body_cs}, ${p.body_fr}, ${p.cover_url}, ${p.cover_credit}, ${p.cover_credit_url}, ${p.category}, ${p.author}, ${p.sources}, ${p.published}, ${p.published_at})
+      const rows = await sql`INSERT INTO posts (slug, title_cs, title_fr, excerpt_cs, excerpt_fr, body_cs, body_fr, cover_url, cover_credit, cover_credit_url, category, author, sources, level, base_slug, glossary, published, published_at)
+        VALUES (${slug}, ${p.title_cs}, ${p.title_fr}, ${p.excerpt_cs}, ${p.excerpt_fr}, ${p.body_cs}, ${p.body_fr}, ${p.cover_url}, ${p.cover_credit}, ${p.cover_credit_url}, ${p.category}, ${p.author}, ${p.sources}, ${p.level}, ${p.base_slug || slug}, ${p.glossary}, ${p.published}, ${p.published_at})
         RETURNING *`;
       return send(res, 200, { post: rows[0] }, noStore);
     }

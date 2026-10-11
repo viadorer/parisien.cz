@@ -48,6 +48,37 @@
       "https://www.toureiffel.paris/fr",
       "https://fr.wikipedia.org/wiki/Tour_Eiffel",
       "https://en.wikipedia.org/wiki/Eiffel_Tower"
+    ],
+    "easy": {
+      "fr": "La tour Eiffel est construite de 1887 à 1889 pour l'Exposition universelle. On pense la démonter en 1909. Mais elle reste et devient le symbole de la France. Elle est au bout du Champ-de-Mars. Pendant 41 ans, c'est la plus haute structure du monde.",
+      "cs": "Eiffelova věž byla postavena v letech 1887 až 1889 pro světovou výstavu. Mělo se s ní skončit už roku 1909. Ale zůstala a stala se symbolem Francie. Stojí na konci Champ-de-Mars. Po 41 let to byla nejvyšší stavba světa."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la tour",
+        "cs": "věž"
+      },
+      {
+        "fr": "le symbole",
+        "cs": "symbol"
+      },
+      {
+        "fr": "démonter",
+        "cs": "rozebrat"
+      },
+      {
+        "fr": "la structure",
+        "cs": "stavba, konstrukce"
+      },
+      {
+        "fr": "le fer",
+        "cs": "železo"
+      },
+      {
+        "fr": "le coucher du soleil",
+        "cs": "západ slunce"
+      }
     ]
   },
   {
@@ -99,6 +130,37 @@
       "https://www.notredamedeparis.fr",
       "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
       "https://fr.wikipedia.org/wiki/Cathédrale_Notre-Dame_de_Paris"
+    ],
+    "easy": {
+      "fr": "On commence Notre-Dame en 1163. L'essentiel est fini vers 1260. Le 15 avril 2019, un incendie détruit le toit et la flèche. Cinq ans plus tard, elle rouvre. La cérémonie a lieu le 7 décembre 2024.",
+      "cs": "Notre-Dame se začala stavět roku 1163. Hlavní část byla hotová kolem roku 1260. Dne 15. dubna 2019 požár zničil střechu a věž. O pět let později se znovu otevřela. Ceremonie se konala 7. prosince 2024."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la cathédrale",
+        "cs": "katedrála"
+      },
+      {
+        "fr": "l'incendie (m.)",
+        "cs": "požár"
+      },
+      {
+        "fr": "le toit",
+        "cs": "střecha"
+      },
+      {
+        "fr": "la flèche",
+        "cs": "věž (špice)"
+      },
+      {
+        "fr": "la pierre",
+        "cs": "kámen"
+      },
+      {
+        "fr": "rouvrir",
+        "cs": "znovu otevřít"
+      }
     ]
   },
   {
@@ -151,6 +213,37 @@
       "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris",
       "https://fr.wikipedia.org/wiki/Basilique_du_Sacré-Cœur_de_Montmartre",
       "https://fr.wikipedia.org/wiki/Montmartre"
+    ],
+    "easy": {
+      "fr": "Le Sacré-Cœur est au sommet de la butte Montmartre. C'est le point le plus haut de Paris. L'architecte Paul Abadie gagne le concours. Le chantier commence en 1875 et finit en 1914. L'église est consacrée en 1919. Pour monter, prenez l'escalier ou le funiculaire.",
+      "cs": "Sacré-Cœur stojí na vrcholu pahorku Montmartre. Je to nejvyšší bod Paříže. Architekt Paul Abadie vyhrál soutěž. Stavba začala roku 1875 a skončila roku 1914. Bazilika byla vysvěcena roku 1919. Nahoru se dostanete po schodech nebo lanovkou."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la butte",
+        "cs": "pahorek"
+      },
+      {
+        "fr": "le sommet",
+        "cs": "vrchol"
+      },
+      {
+        "fr": "l'architecte (m.)",
+        "cs": "architekt"
+      },
+      {
+        "fr": "le chantier",
+        "cs": "staveniště, stavba"
+      },
+      {
+        "fr": "l'escalier (m.)",
+        "cs": "schodiště"
+      },
+      {
+        "fr": "le funiculaire",
+        "cs": "lanovka"
+      }
     ]
   },
   {
@@ -202,6 +295,37 @@
       "https://www.paris-arc-de-triomphe.fr",
       "https://en.wikipedia.org/wiki/Arc_de_Triomphe",
       "https://fr.wikipedia.org/wiki/Arc_de_triomphe_de_l'Étoile"
+    ],
+    "easy": {
+      "fr": "L'Arc de Triomphe est au milieu de la place Charles-de-Gaulle. Douze avenues partent de cette place. Napoléon décide de le construire en 1806. Les travaux finissent en 1836. Sous l'arc, une flamme brûle sur la tombe du Soldat inconnu.",
+      "cs": "Vítězný oblouk stojí uprostřed náměstí Charlese de Gaulla. Z tohoto náměstí vychází dvanáct avenue. Napoleon se rozhodl oblouk postavit roku 1806. Práce skončily roku 1836. Pod obloukem hoří plamen na hrobě Neznámého vojína."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "l'avenue (f.)",
+        "cs": "avenue, třída"
+      },
+      {
+        "fr": "la place",
+        "cs": "náměstí"
+      },
+      {
+        "fr": "les travaux (m. pl.)",
+        "cs": "stavební práce"
+      },
+      {
+        "fr": "la flamme",
+        "cs": "plamen"
+      },
+      {
+        "fr": "la tombe",
+        "cs": "hrob"
+      },
+      {
+        "fr": "le soldat",
+        "cs": "voják"
+      }
     ]
   },
   {
@@ -253,6 +377,37 @@
       "https://www.sainte-chapelle.fr",
       "https://en.wikipedia.org/wiki/Sainte-Chapelle",
       "https://fr.wikipedia.org/wiki/Sainte-Chapelle"
+    ],
+    "easy": {
+      "fr": "La Sainte-Chapelle est dans la cour du Palais de justice. Le roi Louis IX la fait construire. Elle est consacrée le 26 avril 1248. En bas, la chapelle est sombre. En haut, quinze grandes verrières racontent la Bible. Venez le matin, par beau temps.",
+      "cs": "Sainte-Chapelle stojí na nádvoří Justičního paláce. Nechal ji postavit král Ludvík IX. Byla vysvěcena 26. dubna 1248. Dole je kaple tmavá. Nahoře patnáct velkých oken vypráví příběhy z Bible. Přijďte ráno, za pěkného počasí."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la chapelle",
+        "cs": "kaple"
+      },
+      {
+        "fr": "la cour",
+        "cs": "nádvoří"
+      },
+      {
+        "fr": "la verrière",
+        "cs": "vitrážové okno"
+      },
+      {
+        "fr": "le vitrail",
+        "cs": "vitráž"
+      },
+      {
+        "fr": "la Bible",
+        "cs": "Bible"
+      },
+      {
+        "fr": "le Palais de justice",
+        "cs": "Justiční palác"
+      }
     ]
   },
   {
@@ -304,6 +459,37 @@
       "https://www.paris-pantheon.fr",
       "https://en.wikipedia.org/wiki/Panth%C3%A9on,_Paris",
       "https://fr.wikipedia.org/wiki/Panthéon_de_Paris"
+    ],
+    "easy": {
+      "fr": "Le Panthéon est sur la montagne Sainte-Geneviève, dans le Quartier latin. On le construit de 1758 à 1790. Au début, c'est une église. Depuis 1791, c'est un lieu pour les grands hommes. Voltaire, Victor Hugo et Marie Curie sont ici.",
+      "cs": "Panthéon stojí na kopci Sainte-Geneviève v Latinské čtvrti. Stavělo se v letech 1758 až 1790. Na začátku je to kostel. Od roku 1791 je to místo pro velké osobnosti. Jsou tu Voltaire, Victor Hugo a Marie Curie."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la montagne",
+        "cs": "kopec, vrch"
+      },
+      {
+        "fr": "l'église (f.)",
+        "cs": "kostel"
+      },
+      {
+        "fr": "le grand homme",
+        "cs": "velká osobnost"
+      },
+      {
+        "fr": "la crypte",
+        "cs": "krypta"
+      },
+      {
+        "fr": "le pendule",
+        "cs": "kyvadlo"
+      },
+      {
+        "fr": "la coupole",
+        "cs": "kupole"
+      }
     ]
   },
   {
@@ -355,6 +541,37 @@
       "https://www.senat.fr/visite/jardin/",
       "https://en.wikipedia.org/wiki/Luxembourg_Garden",
       "https://fr.wikipedia.org/wiki/Jardin_du_Luxembourg"
+    ],
+    "easy": {
+      "fr": "Marie de Médicis crée le jardin du Luxembourg en 1612. Elle fait aussi construire un palais. Aujourd'hui, c'est le Sénat. Le jardin fait 23 hectares. Les enfants jouent avec des petits bateaux sur le bassin. Les étudiants lisent sur les chaises.",
+      "cs": "Marie Medicejská založila Lucemburské zahrady roku 1612. Nechala také postavit palác. Dnes v něm sídlí Senát. Zahrada má 23 hektarů. Děti si hrají s lodičkami na jezírku. Studenti čtou na židlích."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "le jardin",
+        "cs": "zahrada"
+      },
+      {
+        "fr": "le palais",
+        "cs": "palác"
+      },
+      {
+        "fr": "le Sénat",
+        "cs": "Senát"
+      },
+      {
+        "fr": "le bassin",
+        "cs": "jezírko, bazén"
+      },
+      {
+        "fr": "la chaise",
+        "cs": "židle"
+      },
+      {
+        "fr": "la pause",
+        "cs": "přestávka"
+      }
     ]
   },
   {
@@ -406,6 +623,37 @@
       "https://en.wikipedia.org/wiki/Pont_Neuf",
       "https://fr.wikipedia.org/wiki/Pont_Neuf",
       "https://parisjetaime.com"
+    ],
+    "easy": {
+      "fr": "Le Pont Neuf est le plus vieux pont de Paris. Il traverse la Seine. Henri III pose la première pierre le 31 mai 1578. Le pont est ouvert en 1604 et inauguré en 1607. Au milieu, on voit la statue d'Henri IV.",
+      "cs": "Pont Neuf je nejstarší most v Paříži. Přechází přes Seinu. Jindřich III. položil základní kámen 31. května 1578. Most byl otevřen roku 1604 a slavnostně uveden roku 1607. Uprostřed vidíte sochu Jindřicha IV."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "le pont",
+        "cs": "most"
+      },
+      {
+        "fr": "le fleuve",
+        "cs": "řeka (velká)"
+      },
+      {
+        "fr": "la pierre",
+        "cs": "kámen"
+      },
+      {
+        "fr": "l'arche (f.)",
+        "cs": "oblouk mostu"
+      },
+      {
+        "fr": "la statue",
+        "cs": "socha"
+      },
+      {
+        "fr": "traverser",
+        "cs": "přecházet"
+      }
     ]
   },
   {
@@ -457,6 +705,37 @@
       "https://en.wikipedia.org/wiki/P%C3%A8re_Lachaise_Cemetery",
       "https://fr.wikipedia.org/wiki/Cimetière_du_Père-Lachaise",
       "https://parisjetaime.com"
+    ],
+    "easy": {
+      "fr": "Le cimetière du Père-Lachaise ouvre en 1804. Il fait 44 hectares. C'est le plus grand cimetière de Paris. Il y a environ 70 000 tombes. On y voit les tombes d'Oscar Wilde, d'Édith Piaf et de Chopin. Prenez un plan.",
+      "cs": "Hřbitov Père-Lachaise se otevřel roku 1804. Má 44 hektarů. Je to největší hřbitov v Paříži. Je tu asi 70 000 hrobů. Uvidíte tu hroby Oscara Wilda, Édith Piaf a Chopina. Vezměte si plán."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "le cimetière",
+        "cs": "hřbitov"
+      },
+      {
+        "fr": "la tombe",
+        "cs": "hrob"
+      },
+      {
+        "fr": "la colline",
+        "cs": "kopec"
+      },
+      {
+        "fr": "l'allée (f.)",
+        "cs": "alej, cesta"
+      },
+      {
+        "fr": "le plan",
+        "cs": "plán, mapa"
+      },
+      {
+        "fr": "environ",
+        "cs": "asi"
+      }
     ]
   },
   {
@@ -508,6 +787,37 @@
       "https://en.wikipedia.org/wiki/Place_des_Vosges",
       "https://fr.wikipedia.org/wiki/Place_des_Vosges",
       "https://www.maisonsvictorhugo.paris.fr"
+    ],
+    "easy": {
+      "fr": "La place des Vosges est la plus vieille place planifiée de Paris. Henri IV la construit de 1605 à 1612. Elle mesure 140 mètres de côté. Toutes les façades sont identiques. Victor Hugo habite au numéro 6.",
+      "cs": "Place des Vosges je nejstarší plánované náměstí v Paříži. Jindřich IV. ho nechal postavit v letech 1605 až 1612. Měří 140 metrů na každé straně. Všechna průčelí jsou stejná. Victor Hugo bydlel v domě číslo 6."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la place",
+        "cs": "náměstí"
+      },
+      {
+        "fr": "la façade",
+        "cs": "průčelí"
+      },
+      {
+        "fr": "le côté",
+        "cs": "strana"
+      },
+      {
+        "fr": "le dessin",
+        "cs": "vzhled, kresba"
+      },
+      {
+        "fr": "l'arcade (f.)",
+        "cs": "podloubí"
+      },
+      {
+        "fr": "la pelouse",
+        "cs": "trávník"
+      }
     ]
   },
   {
@@ -559,6 +869,37 @@
       "https://www.operadeparis.fr",
       "https://en.wikipedia.org/wiki/Palais_Garnier",
       "https://fr.wikipedia.org/wiki/Opéra_Garnier"
+    ],
+    "easy": {
+      "fr": "Napoléon III veut un nouvel opéra. En 1861, on choisit le projet de Charles Garnier. Le chantier dure de 1861 à 1875. La salle a 1 979 places. Un grand lustre de sept tonnes est au plafond. Aujourd'hui, on y voit surtout de la danse.",
+      "cs": "Napoleon III. chtěl novou operu. V roce 1861 vybrali projekt Charlese Garniera. Stavba trvala od roku 1861 do roku 1875. Sál má 1 979 míst. Na stropě visí velký lustr o váze sedm tun. Dnes se tu hraje hlavně balet."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "l'opéra (m.)",
+        "cs": "opera"
+      },
+      {
+        "fr": "le lustre",
+        "cs": "lustr"
+      },
+      {
+        "fr": "la salle",
+        "cs": "sál"
+      },
+      {
+        "fr": "le plafond",
+        "cs": "strop"
+      },
+      {
+        "fr": "la danse",
+        "cs": "tanec"
+      },
+      {
+        "fr": "la place",
+        "cs": "místo (k sezení)"
+      }
     ]
   },
   {
@@ -610,6 +951,37 @@
       "https://en.wikipedia.org/wiki/Palais-Royal",
       "https://fr.wikipedia.org/wiki/Palais-Royal",
       "https://www.culture.gouv.fr"
+    ],
+    "easy": {
+      "fr": "Le cardinal de Richelieu fait construire le Palais-Cardinal de 1633 à 1639. En 1642, il devient le Palais-Royal. De 1781 à 1784, on construit des galeries autour du jardin. C'est un endroit calme près du Louvre.",
+      "cs": "Kardinál Richelieu nechal postavit Palais-Cardinal v letech 1633 až 1639. V roce 1642 se z něj stal Palais-Royal. V letech 1781 až 1784 vznikly kolem zahrady galerie. Je to klidné místo blízko Louvru."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la galerie",
+        "cs": "galerie, pasáž"
+      },
+      {
+        "fr": "la boutique",
+        "cs": "obchod"
+      },
+      {
+        "fr": "la cour",
+        "cs": "nádvoří"
+      },
+      {
+        "fr": "la colonne",
+        "cs": "sloup"
+      },
+      {
+        "fr": "le jardin",
+        "cs": "zahrada"
+      },
+      {
+        "fr": "calme",
+        "cs": "klidný"
+      }
     ]
   },
   {
@@ -660,6 +1032,37 @@
     "sources": [
       "https://fr.wikipedia.org/wiki/Canal_Saint-Martin",
       "https://parisjetaime.com"
+    ],
+    "easy": {
+      "fr": "Le canal Saint-Martin ouvre en 1825. Il mesure 4,55 km. Il a neuf écluses et deux ponts tournants. Une partie du canal passe sous terre : environ 1,8 km. En été, les Parisiens s'assoient au bord de l'eau.",
+      "cs": "Canal Saint-Martin se otevřel roku 1825. Měří 4,55 km. Má devět plavebních komor a dva otočné mosty. Část kanálu vede pod zemí: asi 1,8 km. V létě sedí Pařížané u vody."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "le canal",
+        "cs": "kanál"
+      },
+      {
+        "fr": "l'écluse (f.)",
+        "cs": "plavební komora"
+      },
+      {
+        "fr": "le pont tournant",
+        "cs": "otočný most"
+      },
+      {
+        "fr": "la passerelle",
+        "cs": "lávka"
+      },
+      {
+        "fr": "le bord",
+        "cs": "břeh"
+      },
+      {
+        "fr": "sous terre",
+        "cs": "pod zemí"
+      }
     ]
   },
   {
@@ -712,6 +1115,37 @@
       "https://en.wikipedia.org/wiki/Palace_of_Versailles",
       "https://en.wikipedia.org/wiki/Hall_of_Mirrors",
       "https://fr.wikipedia.org/wiki/Château_de_Versailles"
+    ],
+    "easy": {
+      "fr": "Louis XIV installe la cour à Versailles. Elle arrive le 6 mai 1682. Elle part le 6 octobre 1789. La galerie des Glaces fait 73 mètres de long. Elle a 17 fenêtres et 17 miroirs. Le parc fait 815 hectares.",
+      "cs": "Ludvík XIV. usadil dvůr ve Versailles. Dvůr přišel 6. května 1682. Odešel 6. října 1789. Zrcadlová galerie je dlouhá 73 metrů. Má 17 oken a 17 zrcadel. Park má 815 hektarů."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la cour",
+        "cs": "(královský) dvůr"
+      },
+      {
+        "fr": "l'hectare (m.)",
+        "cs": "hektar"
+      },
+      {
+        "fr": "le miroir",
+        "cs": "zrcadlo"
+      },
+      {
+        "fr": "la galerie",
+        "cs": "galerie, chodba"
+      },
+      {
+        "fr": "le parc",
+        "cs": "park"
+      },
+      {
+        "fr": "prévoir",
+        "cs": "počítat s, naplánovat"
+      }
     ]
   }
 ]

@@ -96,7 +96,28 @@
       "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Croque-monsieur",
       "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Béchamel",
       "https://fr.wikipedia.org/wiki/Croque-monsieur"
-    ]
+    ],
+    "cefr": "B1",
+    "easy": {
+      "steps": {
+        "fr": [
+          "Faites la béchamel : beurre, farine, lait, sel, poivre, muscade.",
+          "Préchauffez le four à 200 °C. Beurrez le pain.",
+          "Mettez béchamel, jambon et gruyère entre deux tranches de pain.",
+          "Mettez de la béchamel et du gruyère dessus.",
+          "Faites cuire 10 à 12 minutes au four.",
+          "Passez 2 à 3 minutes sous le gril."
+        ],
+        "cs": [
+          "Připravte bešamel: máslo, mouka, mléko, sůl, pepř, muškát.",
+          "Předehřejte troubu na 200 °C. Potřete chléb máslem.",
+          "Dejte bešamel, šunku a gruyère mezi dva plátky chleba.",
+          "Navrch dejte bešamel a gruyère.",
+          "Pečte 10 až 12 minut v troubě.",
+          "Zapékejte 2 až 3 minuty pod grilem."
+        ]
+      }
+    }
   },
   {
     "id": "soupe-oignon",
@@ -200,7 +221,28 @@
     "sources": [
       "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Soupe_à_l'oignon",
       "https://fr.wikipedia.org/wiki/Soupe_à_l'oignon"
-    ]
+    ],
+    "cefr": "B1",
+    "easy": {
+      "steps": {
+        "fr": [
+          "Épluchez les oignons et coupez-les en fines tranches.",
+          "Faites dorer les oignons dans le beurre 25 à 30 minutes.",
+          "Ajoutez la farine, remuez 2 minutes, versez le vin blanc.",
+          "Ajoutez le bouillon et le bouquet garni. Cuisez 20 minutes.",
+          "Faites sécher le pain 10 minutes au four à 150 °C.",
+          "Mettez soupe, pain et gruyère en bols. Gratinez 5 à 8 minutes."
+        ],
+        "cs": [
+          "Oloupejte cibuli a nakrájejte ji na tenké plátky.",
+          "Osmahněte cibuli na másle dozlatova 25 až 30 minut.",
+          "Přidejte mouku, míchejte 2 minuty, nalijte bílé víno.",
+          "Přidejte vývar a bouquet garni. Vařte 20 minut.",
+          "Sušte chléb 10 minut v troubě při 150 °C.",
+          "Dejte polévku, chléb a gruyère do misek. Zapékejte 5 až 8 minut."
+        ]
+      }
+    }
   },
   {
     "id": "quiche-lorraine",
@@ -304,7 +346,28 @@
     "sources": [
       "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Quiche_lorraine",
       "https://fr.wikipedia.org/wiki/Quiche_lorraine"
-    ]
+    ],
+    "cefr": "B1",
+    "easy": {
+      "steps": {
+        "fr": [
+          "Mélangez farine, sel, beurre et eau. Faites une boule.",
+          "Laissez la pâte reposer 30 minutes au frais.",
+          "Préchauffez le four à 180 °C. Mettez la pâte dans un moule.",
+          "Faites cuire la pâte 15 minutes. Faites dorer les lardons.",
+          "Battez les œufs, la crème et le lait. Versez sur les lardons.",
+          "Faites cuire 30 à 35 minutes. Laissez tiédir 10 minutes."
+        ],
+        "cs": [
+          "Smíchejte mouku, sůl, máslo a vodu. Udělejte kouli.",
+          "Nechte těsto 30 minut odpočinout v chladu.",
+          "Předehřejte troubu na 180 °C. Dejte těsto do formy.",
+          "Pečte těsto 15 minut. Osmahněte slaninu dozlatova.",
+          "Prošlehejte vejce, smetanu a mléko. Nalijte na slaninu.",
+          "Pečte 30 až 35 minut. Nechte 10 minut vychladnout."
+        ]
+      }
+    }
   },
   {
     "id": "crepes",
@@ -406,7 +469,28 @@
     "sources": [
       "https://fr.wikipedia.org/wiki/Cr%C3%AApe",
       "https://fr.wikipedia.org/wiki/Chandeleur"
-    ]
+    ],
+    "cefr": "B1",
+    "easy": {
+      "steps": {
+        "fr": [
+          "Mélangez farine, sucre et sel. Cassez les œufs au centre.",
+          "Ajoutez le lait peu à peu, puis le beurre fondu.",
+          "Couvrez la pâte et laissez-la reposer 1 heure.",
+          "Chauffez la poêle beurrée. Versez un peu de pâte.",
+          "Faites cuire 1 à 2 minutes. Retournez, puis cuisez 1 minute.",
+          "Servez avec du sucre, du citron ou de la confiture."
+        ],
+        "cs": [
+          "Smíchejte mouku, cukr a sůl. Doprostřed rozklepněte vejce.",
+          "Postupně přilévejte mléko, pak rozpuštěné máslo.",
+          "Přikryjte těsto a nechte ho 1 hodinu odpočinout.",
+          "Rozehřejte pánev s máslem. Nalijte trochu těsta.",
+          "Pečte 1 až 2 minuty. Obraťte, pak pečte 1 minutu.",
+          "Podávejte s cukrem, citronem nebo marmeládou."
+        ]
+      }
+    }
   },
   {
     "id": "tarte-tatin",
@@ -504,7 +588,28 @@
     "sources": [
       "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Tarte_Tatin",
       "https://fr.wikipedia.org/wiki/Tarte_Tatin"
-    ]
+    ],
+    "cefr": "B1",
+    "easy": {
+      "steps": {
+        "fr": [
+          "Préchauffez le four à 200 °C. Coupez les pommes en quartiers.",
+          "Faites fondre le sucre dans une poêle. Ajoutez le beurre.",
+          "Rangez les pommes dans la poêle, côté arrondi vers le fond.",
+          "Faites cuire les pommes 10 minutes sur le feu.",
+          "Posez la pâte sur les pommes. Piquez-la à la fourchette.",
+          "Faites cuire 30 minutes. Laissez reposer 10 minutes, puis retournez."
+        ],
+        "cs": [
+          "Předehřejte troubu na 200 °C. Nakrájejte jablka na měsíčky.",
+          "Rozpusťte cukr na pánvi. Přidejte máslo.",
+          "Naskládejte jablka na pánev, zaoblenou stranou dolů.",
+          "Vařte jablka 10 minut na ohni.",
+          "Položte těsto na jablka. Propíchejte ho vidličkou.",
+          "Pečte 30 minut. Nechte 10 minut odpočinout, pak obraťte."
+        ]
+      }
+    }
   },
   {
     "id": "mousse-chocolat",
@@ -598,6 +703,27 @@
     "sources": [
       "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Mousse_au_chocolat",
       "https://fr.wikipedia.org/wiki/Mousse_au_chocolat"
-    ]
+    ],
+    "cefr": "B1",
+    "easy": {
+      "steps": {
+        "fr": [
+          "Faites fondre le chocolat avec le beurre au bain-marie.",
+          "Laissez tiédir 5 minutes. Séparez les blancs des jaunes.",
+          "Ajoutez les jaunes au chocolat, un par un.",
+          "Montez les blancs en neige avec le sel. Ajoutez le sucre.",
+          "Mélangez doucement les blancs avec le chocolat.",
+          "Versez dans 4 verrines. Laissez 3 heures au réfrigérateur."
+        ],
+        "cs": [
+          "Rozpusťte čokoládu s máslem ve vodní lázni.",
+          "Nechte 5 minut vychladnout. Oddělte bílky od žloutků.",
+          "Přidávejte žloutky do čokolády, jeden po druhém.",
+          "Ušlehejte bílky na sníh se solí. Přidejte cukr.",
+          "Jemně smíchejte bílky s čokoládou.",
+          "Nalijte do 4 skleniček. Nechte 3 hodiny v lednici."
+        ]
+      }
+    }
   }
 ]

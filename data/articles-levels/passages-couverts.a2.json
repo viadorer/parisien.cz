@@ -1,0 +1,77 @@
+{
+  "base": "passages-couverts",
+  "level": "A2",
+  "slug": "passages-couverts-a2",
+  "category": "paris",
+  "published_at": "2026-09-10T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Les passages couverts : Paris sous verrière",
+  "title_cs": "Pařížské pasáže: město pod skleněnou střechou",
+  "excerpt_fr": "Des galeries du XIXe siècle avec un toit en verre, à visiter en une matinée.",
+  "excerpt_cs": "Galerie z 19. století se skleněnou střechou, na jedno dopoledne.",
+  "body_fr": "Imaginez Paris en 1800. Les rues sont étroites et boueuses. Quand il pleut, c'est difficile de marcher. Puis, dans une cour, il y a une galerie avec un toit en verre. On peut s'abriter et regarder les vitrines. C'est le début des passages couverts.\n\n## Le premier passage\n\nLe passage des Panoramas ouvre vers 1799. Son nom vient de deux grandes salles rondes. On y montrait des panoramas, des peintures circulaires très grandes. Ces salles ont disparu en 1831, mais le passage est resté.\n\nEntre 1823 et 1847 environ, c'est l'âge d'or. Sous le Second Empire, il y a jusqu'à 150 passages. Ensuite, les grands boulevards attirent les promeneurs, et on détruit beaucoup de passages.\n\n## Les passages à voir\n\nAujourd'hui, il reste une vingtaine de passages, surtout dans les 2e et 9e arrondissements.\n\n- Le **passage Jouffroy** date de 1845. Le musée Grévin est à côté.\n- La **galerie Vivienne** date de 1823. Elle est classée monument historique depuis 1974.\n- La **galerie Colbert** date de 1827. Elle a une grande rotonde en verre.\n- Le **passage du Grand-Cerf** date de 1825. Il a une belle verrière.\n\n## Une matinée dans les passages\n\nCommencez par le passage des Panoramas (métro Grands Boulevards). Puis visitez Jouffroy et la galerie Vivienne. Terminez au jardin du Palais-Royal. Le parcours dure environ deux heures.\n\nAllez-y le matin, en semaine. Les magasins sont ouverts et il y a peu de monde. Le soir, beaucoup de passages ferment leurs grilles. Pour les horaires, regardez le site [Paris.fr](https://www.paris.fr).",
+  "body_cs": "Představte si Paříž v roce 1800. Ulice jsou úzké a blátivé. Když prší, je těžké se tudy projít. A pak, na dvoře, je galerie se skleněnou střechou. Můžete se tam schovat a prohlížet výlohy. Tak začíná příběh pasáží.\n\n## První pasáž\n\nPassage des Panoramas se otevřela kolem roku 1799. Její jméno pochází ze dvou velkých kulatých sálů. Ukazovaly se v nich panoramata, velké kruhové malby. Sály zmizely v roce 1831, ale pasáž zůstala.\n\nZhruba v letech 1823 až 1847 je zlatý věk. Za Druhého císařství je jich až 150. Potom velké bulváry přitáhnou chodce a mnoho pasáží se zboří.\n\n## Pasáže, které stojí za vidění\n\nDnes jich zbývá asi dvacet, hlavně ve 2. a 9. obvodu.\n\n- **Passage Jouffroy** pochází z roku 1845. Hned vedle je muzeum Grévin.\n- **Galerie Vivienne** pochází z roku 1823. Od roku 1974 je památkově chráněná.\n- **Galerie Colbert** pochází z roku 1827. Má velkou skleněnou rotundu.\n- **Passage du Grand-Cerf** pochází z roku 1825. Má krásnou prosklenou střechu.\n\n## Dopoledne v pasážích\n\nZačněte v Passage des Panoramas (metro Grands Boulevards). Potom navštivte Jouffroy a Galerie Vivienne. Skončete v zahradě Palais-Royal. Trasa trvá asi dvě hodiny.\n\nJděte tam dopoledne, ve všední den. Obchody jsou otevřené a je tam málo lidí. Večer mnoho pasáží zavírá mříže. Otevírací dobu najdete na webu [Paris.fr](https://www.paris.fr).",
+  "glossary": [
+    {
+      "fr": "la verrière",
+      "cs": "prosklená střecha"
+    },
+    {
+      "fr": "boueux",
+      "cs": "blátivý"
+    },
+    {
+      "fr": "la vitrine",
+      "cs": "výloha"
+    },
+    {
+      "fr": "s'abriter",
+      "cs": "schovat se"
+    },
+    {
+      "fr": "la rotonde",
+      "cs": "rotunda"
+    },
+    {
+      "fr": "l'âge d'or (m.)",
+      "cs": "zlatý věk"
+    },
+    {
+      "fr": "le promeneur",
+      "cs": "chodec, kdo se prochází"
+    },
+    {
+      "fr": "détruire",
+      "cs": "zbourat, zničit"
+    },
+    {
+      "fr": "classé monument historique",
+      "cs": "památkově chráněný"
+    },
+    {
+      "fr": "la grille",
+      "cs": "mříž"
+    }
+  ],
+  "photo": {
+    "file": "File:Galerie Vivienne, 12 March 2015.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Galerie_Vivienne%2C_12_March_2015.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Galerie_Vivienne,_12_March_2015.jpg",
+    "author": "Benh LIEU SONG",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "desc": "Vivienne covered passage, in Paris, 2nd arrondissement. Galerie Vivienne is home of several fashion and haute couture stores, including Jean-Paul Gaultier's.",
+    "width": 7706,
+    "height": 3893
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Passage_des_Panoramas",
+    "https://fr.wikipedia.org/wiki/Galerie_Vivienne",
+    "https://fr.wikipedia.org/wiki/Galerie_Colbert",
+    "https://fr.wikipedia.org/wiki/Passage_Jouffroy",
+    "https://fr.wikipedia.org/wiki/Passage_du_Grand-Cerf",
+    "https://en.wikipedia.org/wiki/The_Arcades_Project",
+    "https://www.routard.com/fr/guide/france/ile-de-france/paris/2eme-arrondissement/les-passages",
+    "https://www.paris.fr"
+  ]
+}

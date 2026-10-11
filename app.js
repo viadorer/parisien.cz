@@ -20,6 +20,27 @@
   $$('[data-set-lang]').forEach((a) => a.addEventListener('click', () => { try { localStorage.setItem('pz-lang', a.dataset.setLang); } catch {} }));
   try { localStorage.setItem('pz-lang', lang); } catch {}
 
+  // ---------- úroveň CEFR ----------
+  const LV = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  const lvGet = () => { try { const v = localStorage.getItem('pz-level'); return LV.includes(v) ? v : ''; } catch { return ''; } };
+  const lvSet = (v) => { try { v ? localStorage.setItem('pz-level', v) : localStorage.removeItem('pz-level'); } catch {} };
+  const effLevel = (l) => (l === 'C1' || l === 'C2' ? 'B2' : l);          // pro články: C1/C2 čtou originál (B2+)
+  const tierOf = (l) => (l && LV.indexOf(l) <= LV.indexOf('B1') ? 'easy' : 'full');
+  const applyTier = () => { document.body.dataset.tier = tierOf(lvGet()); };
+  applyTier();
+  const lvSel = $('#level-select');
+  if (lvSel) {
+    lvSel.value = lvGet();
+    lvSel.addEventListener('change', () => { lvSet(lvSel.value); applyTier(); document.dispatchEvent(new CustomEvent('pzlevel')); });
+  }
+  document.addEventListener('pzlevel', () => { if (lvSel) lvSel.value = lvGet(); });
+  // vybere verzi nejblíž dané úrovni
+  const pickVersion = (versions, want) => {
+    const w = LV.indexOf(effLevel(want));
+    if (w < 0) return versions.find((v) => v.level === 'B2') || versions[versions.length - 1];
+    return [...versions].sort((a, b) => Math.abs(LV.indexOf(a.level) - w) - Math.abs(LV.indexOf(b.level) - w) || LV.indexOf(a.level) - LV.indexOf(b.level))[0];
+  };
+
   // ---------- hlavička ----------
   const header = $('header');
   const onScroll = () => {
@@ -144,21 +165,40 @@
 
   // ---------- články ----------
   const CAT = { paris: L('Paris', 'Paříž'), voyage: L('Voyages', 'Cestování'), langue: L('Langue', 'Jazyk') };
-  const postCard = (p) => el('article', { class: 'card' },
-    safeUrl(p.cover) ? el('figure', { class: 'photo' }, el('img', { src: p.cover, alt: '', loading: 'lazy' }), p.coverCredit ? el('figcaption', { class: 'credit' }, `© ${p.coverCredit.text}`) : null) : null,
-    el('div', { class: 'card-body' },
-      el('div', { class: 'post-meta' }, el('span', { class: 'tag' }, CAT[p.category] || p.category), ' ', el('time', { datetime: p.date }, fmtDay(p.date, { day: 'numeric', month: 'long', year: 'numeric' }))),
-      el('h3', {}, pick(p.title)),
-      el('p', {}, pick(p.excerpt)),
-      el('a', { class: 'read-more', href: `/${lang}/article/${encodeURIComponent(p.slug)}` }, L('Lire l’article', 'Číst článek'))));
+  const lvTag = (l, multi) => (l ? el('span', { class: `tag lvl lvl-${l}` }, l === 'B2' && multi ? 'B2+' : l) : null);
+  const postCard = (group) => {
+    const want = lvGet();
+    const p = pickVersion(group, want);
+    const multi = group.length > 1;
+    return el('article', { class: 'card' },
+      safeUrl(p.cover) ? el('figure', { class: 'photo' }, el('img', { src: p.cover, alt: '', loading: 'lazy' }), p.coverCredit ? el('figcaption', { class: 'credit' }, `© ${p.coverCredit.text}`) : null) : null,
+      el('div', { class: 'card-body' },
+        el('div', { class: 'post-meta' }, el('span', { class: 'tag' }, CAT[p.category] || p.category), ' ', lvTag(p.level, multi), ' ', el('time', { datetime: p.date }, fmtDay(p.date, { day: 'numeric', month: 'long', year: 'numeric' }))),
+        el('h3', {}, pick(p.title)),
+        el('p', {}, pick(p.excerpt)),
+        multi ? el('div', { class: 'level-chips', 'aria-label': L('Niveaux disponibles', 'Dostupné úrovně') }, ...group.map((v) => el('a', { href: `/${lang}/article/${encodeURIComponent(v.slug)}`, class: v.slug === p.slug ? 'on' : '', 'data-level': v.level }, v.level === 'B2' ? 'B2+' : v.level))) : null,
+        el('a', { class: 'read-more', href: `/${lang}/article/${encodeURIComponent(p.slug)}` }, L('Lire l’article', 'Číst článek'))));
+  };
+  const groupPosts = (posts) => {
+    const map = new Map();
+    for (const p of posts) { const k = p.base || p.slug; (map.get(k) || map.set(k, []).get(k)).push(p); }
+    return [...map.values()].map((g) => g.sort((a, b) => LV.indexOf(a.level) - LV.indexOf(b.level)));
+  };
+  const postLists = [];   // {box, cat, limit, data}
+  const renderList = (l) => {
+    if (!l.data) return;
+    const groups = groupPosts(l.data).slice(0, l.limit || 100);
+    l.box.replaceChildren(...(groups.length ? groups.map(postCard) : [evMsg(L('Aucun article pour le moment.', 'Zatím tu nejsou žádné články.'))]));
+  };
   const loadPosts = async (box, cat, limit) => {
+    const l = { box, cat, limit: Number(limit) || 0, data: null }; postLists.push(l);
     try {
-      const r = await fetch(`/api/posts?${new URLSearchParams({ ...(cat ? { cat } : {}), ...(limit ? { limit } : {}) })}`);
+      const r = await fetch(`/api/posts?${new URLSearchParams({ ...(cat ? { cat } : {}), limit: '100' })}`);
       if (!r.ok) throw new Error();
-      const { posts } = await r.json();
-      box.replaceChildren(...(posts.length ? posts.map(postCard) : [evMsg(L('Aucun article pour le moment.', 'Zatím tu nejsou žádné články.'))]));
+      l.data = (await r.json()).posts; renderList(l);
     } catch { box.replaceChildren(evMsg(L('Impossible de charger les articles.', 'Články se nepodařilo načíst.'))); }
   };
+  document.addEventListener('pzlevel', () => postLists.forEach(renderList));
   const hp = $('#home-posts'); if (hp) loadPosts(hp, '', hp.dataset.limit || 3);
   const vp = $('#voyage-posts'); if (vp) loadPosts(vp, vp.dataset.cat);
   const bp = $('#blog-posts');
@@ -167,8 +207,20 @@
     loadPosts(bp, initial);
     $$('#blog-filters .chip').forEach((b) => {
       b.setAttribute('aria-pressed', String(b.dataset.cat === initial));
-      b.addEventListener('click', () => { $$('#blog-filters .chip').forEach((x) => x.setAttribute('aria-pressed', String(x === b))); loadPosts(bp, b.dataset.cat); });
+      b.addEventListener('click', () => { $$('#blog-filters .chip').forEach((x) => x.setAttribute('aria-pressed', String(x === b))); const i = postLists.findIndex((l) => l.box === bp); if (i >= 0) postLists.splice(i, 1); loadPosts(bp, b.dataset.cat); });
     });
+  }
+
+  // ---------- stránka článku: verze podle úrovně ----------
+  const sw = $('.level-switch');
+  if (sw) {
+    const links = $$('a[data-level]', sw), cur = links.find((a) => a.getAttribute('aria-current') === 'page');
+    const want = lvGet();
+    if (want && cur) {
+      const best = pickVersion(links.map((a) => ({ level: a.dataset.level, a })), want);
+      if (best && best.a !== cur) location.replace(best.a.href);
+    }
+    links.forEach((a) => a.addEventListener('click', () => { const l = a.dataset.level; if (!(l === 'B2' && (lvGet() === 'C1' || lvGet() === 'C2'))) lvSet(l); applyTier(); }));
   }
 
   // ---------- galerie + lightbox ----------
@@ -190,6 +242,22 @@
       img.src = a.dataset.full; img.alt = a.dataset.caption; cap.textContent = a.dataset.caption;
       cred.textContent = a.dataset.credit; cred.href = a.dataset.page; dlg.showModal();
     });
+  }
+
+  // ---------- výuka: položky podle úrovně ----------
+  const lvItems = $$('[data-lvl]');
+  if (lvItems.length) {
+    const note = $('#learn-level-note');
+    let showAll = false;
+    const apply = () => {
+      const w = lvGet(); let hidden = 0;
+      lvItems.forEach((e) => { const hide = !showAll && w && LV.indexOf(e.dataset.lvl) > LV.indexOf(w); e.classList.toggle('lvl-hidden', Boolean(hide)); if (hide) hidden++; });
+      if (!note) return;
+      if (!w) { note.replaceChildren(); return; }
+      note.replaceChildren(L(`Niveau choisi : ${w}. `, `Zvolená úroveň: ${w}. `), hidden ? L(`${hidden} éléments plus difficiles sont masqués. `, `Skryto ${hidden} těžších položek. `) : '',
+        Object.assign(el('button', { class: 'show-all', type: 'button' }, showAll ? L('Masquer les plus difficiles', 'Skrýt těžší') : L('Tout afficher', 'Zobrazit vše')), { onclick: () => { showAll = !showAll; apply(); } }));
+    };
+    apply(); document.addEventListener('pzlevel', () => { showAll = false; apply(); });
   }
 
   // ---------- fotky studentů ----------
@@ -291,8 +359,10 @@
   // ---------- kvíz ----------
   const quizBox = $('#quiz');
   if (quizBox) {
-    let data = []; try { data = JSON.parse($('#quiz-data').textContent); } catch {}
-    let i = 0, score = 0;
+    let all = []; try { all = JSON.parse($('#quiz-data').textContent); } catch {}
+    let data = all, i = 0, score = 0;
+    const pickQuiz = () => { const w = lvGet(); const f = w ? all.filter((q) => !q.level || LV.indexOf(q.level) <= LV.indexOf(w)) : all; data = f.length >= 5 ? f : all; i = 0; score = 0; };
+    pickQuiz();
     const render = () => {
       if (!data.length) return;
       if (i >= data.length) {
@@ -317,6 +387,7 @@
       quizBox.replaceChildren(el('p', { class: 'quiz-n' }, `${i + 1} / ${data.length}`), el('h3', {}, pick(q.q)), list, fb, next);
     };
     render();
+    document.addEventListener('pzlevel', () => { pickQuiz(); render(); });
   }
 
   // ---------- formulář ----------

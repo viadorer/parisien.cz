@@ -56,7 +56,7 @@
         p.cover_url ? el('img', { class: 'thumb', src: p.cover_url, alt: '' }) : el('div', { class: 'thumb' }),
         el('div', { class: 'grow' },
           el('strong', {}, p.title_fr || p.title_cs || p.slug), ' ',
-          el('span', { class: p.published ? 'badge' : 'badge draft' }, p.published ? 'publikováno' : ({ submitted: 'ke schválení', rejected: 'zamítnuto', draft: 'koncept' }[p.status] || 'koncept')), p.author_user_id ? el('span', { class: 'badge' }, 'student: ' + (p.author || '')) : null,
+          el('span', { class: p.published ? 'badge' : 'badge draft' }, p.published ? 'publikováno' : ({ submitted: 'ke schválení', rejected: 'zamítnuto', draft: 'koncept' }[p.status] || 'koncept')), p.level ? el('span', { class: 'badge' }, p.level + (p.base_slug && p.base_slug !== p.slug ? ' ↳ ' + p.base_slug : '')) : null, p.author_user_id ? el('span', { class: 'badge' }, 'student: ' + (p.author || '')) : null,
           el('br'),
           el('small', {}, `${new Date(p.published_at).toLocaleDateString('cs-CZ')} · ${p.category} · /fr/article/${p.slug} · ${p.title_fr ? 'FR' : '–'} ${p.title_cs ? 'CS' : '–'}`)),
         ...(p.status === 'submitted' ? [
@@ -87,6 +87,9 @@
     $('#f-pub').checked = p ? p.published : true;
     $('#f-cover').value = p?.cover_url ?? '';
     $('#f-cat').value = p?.category ?? 'paris';
+    $('#f-level').value = p?.level ?? '';
+    $('#f-base').value = p && p.base_slug && p.base_slug !== p.slug ? p.base_slug : '';
+    $('#f-gloss').value = (() => { try { return JSON.parse(p?.glossary || '[]').map((g) => `${g.fr} = ${g.cs}`).join('\n'); } catch { return ''; } })();
     $('#f-author').value = p?.author ?? '';
     $('#f-credit').value = p?.cover_credit ?? '';
     $('#f-credit-url').value = p?.cover_credit_url ?? '';
@@ -106,7 +109,7 @@
       const { post } = await call('save', {
         id: $('#f-id').value || null, slug: $('#f-slug').value,
         published: $('#f-pub').checked, published_at: new Date($('#f-date').value).toISOString(),
-        cover_url: $('#f-cover').value.trim(), category: $('#f-cat').value, author: $('#f-author').value,
+        cover_url: $('#f-cover').value.trim(), category: $('#f-cat').value, author: $('#f-author').value, level: $('#f-level').value, base_slug: $('#f-base').value.trim(), glossary: $('#f-gloss').value,
         cover_credit: $('#f-credit').value, cover_credit_url: $('#f-credit-url').value, sources: $('#f-sources').value,
         title_fr: $('#f-title-fr').value, title_cs: $('#f-title-cs').value,
         excerpt_fr: $('#f-ex-fr').value, excerpt_cs: $('#f-ex-cs').value,

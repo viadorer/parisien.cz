@@ -1,0 +1,65 @@
+{
+  "base": "notre-dame-renaissance",
+  "level": "A1",
+  "slug": "notre-dame-renaissance-a1",
+  "category": "paris",
+  "published_at": "2026-09-08T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Notre-Dame de Paris : la cathédrale renaît",
+  "title_cs": "Notre-Dame: katedrála znovu ožívá",
+  "excerpt_fr": "Une très vieille cathédrale, un grand incendie et une réouverture en 2024.",
+  "excerpt_cs": "Prastará katedrála, velký požár a znovuotevření v roce 2024.",
+  "body_fr": "Notre-Dame est une grande cathédrale à Paris. Elle est très vieille. Le chantier commence vers 1163. En 1831, Victor Hugo écrit un roman, *Notre-Dame de Paris*. Ce livre attire l'attention du public sur la cathédrale.\n\n## L'incendie\n\nLe 15 avril 2019, il y a un grand incendie. Le feu détruit la flèche. Des milliers de Parisiens regardent, sur les quais.\n\n## La renaissance\n\nAprès, il y a un grand chantier. Cinq ans et demi après l'incendie, en décembre 2024, la cathédrale ouvre de nouveau. La pierre est propre et claire. L'entrée est gratuite. Pour réserver, regardez le site [notredamedeparis.fr](https://www.notredamedeparis.fr).",
+  "body_cs": "Notre-Dame je velká katedrála v Paříži. Je velmi stará. Stavba začíná kolem roku 1163. V roce 1831 napíše Victor Hugo román *Chrám Matky Boží v Paříži*. Kniha přitáhne pozornost veřejnosti ke katedrále.\n\n## Požár\n\nDne 15. dubna 2019 je velký požár. Oheň zničí věž. Tisíce Pařížanů se dívají z nábřeží.\n\n## Znovuzrození\n\nPotom je tu velká stavba. Pět a půl roku po požáru, v prosinci 2024, se katedrála znovu otevírá. Kámen je čistý a světlý. Vstup je zdarma. Rezervaci najdete na webu [notredamedeparis.fr](https://www.notredamedeparis.fr).",
+  "glossary": [
+    {
+      "fr": "la cathédrale",
+      "cs": "katedrála"
+    },
+    {
+      "fr": "le chantier",
+      "cs": "stavba, staveniště"
+    },
+    {
+      "fr": "l'incendie (m.)",
+      "cs": "požár"
+    },
+    {
+      "fr": "la flèche",
+      "cs": "věž (štíhlá)"
+    },
+    {
+      "fr": "le quai",
+      "cs": "nábřeží"
+    },
+    {
+      "fr": "la pierre",
+      "cs": "kámen"
+    },
+    {
+      "fr": "clair",
+      "cs": "světlý"
+    },
+    {
+      "fr": "réserver",
+      "cs": "rezervovat"
+    }
+  ],
+  "photo": {
+    "file": "File:Cathédrale Notre-Dame de Paris, 20 March 2014.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cath%C3%A9drale_Notre-Dame_de_Paris%2C_20_March_2014.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_de_Paris,_20_March_2014.jpg",
+    "author": "DXR",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Cathédrale_Notre-Dame_de_Paris",
+    "https://www.paris.fr/pages/une-cloche-olympique-des-mimosas-et-7000-pierres-faconnees-les-secrets-de-la-renaissance-de-notre-dame-29197",
+    "https://www.ffbatiment.fr/actualites-batiment/actualite-bam/reconstruction-fleche-notre-dame-paris-defis-techniques-releves",
+    "https://franceboisforet.fr/wp-content/uploads/2021/06/lettre_info_NDP-3_21062021_JUIN-2021_BD.pdf",
+    "https://www.culture.gouv.fr/actualites/special-notre-dame-de-paris-4-6-le-jour-ou-la-cathedrale-a-retrouve-sa-fleche",
+    "https://dioceseparis.fr/guillaume-bardet-artiste-choisi.html",
+    "https://www.notredamedeparis.fr"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "base": "baguette-boulangerie",
+  "level": "A2",
+  "slug": "baguette-boulangerie-a2",
+  "category": "paris",
+  "published_at": "2026-09-20T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "La baguette et la boulangerie parisienne",
+  "title_cs": "Bageta a pařížská pekárna",
+  "excerpt_fr": "Histoire, décret de 1993, UNESCO et concours : tout sur la baguette « tradition ».",
+  "excerpt_cs": "Historie, dekret z roku 1993, UNESCO a soutěž: vše o bagetě „tradition“.",
+  "body_fr": "Chaque année, en France, plus de six milliards de baguettes sortent des fours. Environ douze millions de personnes vont chaque jour à la boulangerie. La baguette est un sujet dont tout le monde parle.\n\n## Une histoire pas très claire\n\nD'où vient la baguette ? Une légende dit que Napoléon l'a inventée pour ses soldats. Mais ce n'est qu'une légende. Une autre histoire parle d'August Zang, un Autrichien. Dans les années 1830, il ouvre une boulangerie viennoise à Paris. Il a rendu populaire le four à vapeur. Mais on ne sait pas s'il a créé la forme de la baguette. Le mot « baguette » devient courant dans les années 1920.\n\n## La baguette « tradition »\n\nEn 1993, un décret définit le « pain de tradition française ». La baguette « tradition » est faite sur place par le boulanger, avec de la farine, de l'eau, du sel et de la levure ou du levain. Elle n'est pas faite avec une pâte surgelée. Une baguette « classique » n'est pas toujours une « tradition ». Pour l'acheter, dites : « Une tradition, s'il vous plaît ».\n\n## L'UNESCO et le concours de la Ville\n\nLe 30 novembre 2022, l'UNESCO met sur sa liste le savoir-faire artisanal et la culture de la baguette. Elle protège donc le geste du boulanger et l'habitude de tous les jours, pas le produit lui-même.\n\nChaque année, la Ville de Paris organise un concours de la meilleure baguette de tradition. Le gagnant reçoit un prix et fournit la baguette à l'Élysée pendant un an. En 2024, c'était la 31e édition.\n\n## Reconnaître une bonne baguette\n\n- une croûte dorée qui craque un peu ;\n- une odeur de pain chaud ;\n- une mie crème, avec des trous irréguliers ;\n- un pain qu'on mange le jour même.\n\nDites « Bonjour » avant de commander. Pour les résultats du concours, consultez [Paris.fr](https://www.paris.fr).",
+  "body_cs": "Každý rok vyjde ve Francii z pecí více než šest miliard baget. Do pekárny jde každý den asi dvanáct milionů lidí. O bagetě se baví každý.\n\n## Ne zcela jasná historie\n\nOdkud bageta pochází? Jedna legenda říká, že ji vymyslel Napoleon pro své vojáky. Je to ale jen legenda. Jiný příběh mluví o Augustu Zangovi, Rakušanovi. V třicátých letech 19. století otevřel v Paříži vídeňskou pekárnu. Zpopularizoval parní pec. Není ale jisté, zda vytvořil tvar bagety. Slovo „baguette“ se stává běžným ve dvacátých letech 20. století.\n\n## Bageta „tradition“\n\nV roce 1993 dekret definoval „pain de tradition française“ (francouzský tradiční chléb). Bageta „tradition“ vzniká na místě u pekaře, z mouky, vody, soli a droždí nebo kvásku. Nedělá se z mraženého těsta. „Klasická“ bageta není vždy „tradition“. Když ji chcete koupit, řekněte: „Une tradition, s'il vous plaît“.\n\n## UNESCO a soutěž města\n\nDne 30. listopadu 2022 zapsala UNESCO na svůj seznam řemeslné know-how a kulturu bagety. Chrání tedy pekařův cenný um a každodenní zvyk, ne samotný výrobek.\n\nMěsto Paříž každý rok pořádá soutěž o nejlepší tradiční bagetu. Vítěz dostane cenu a rok dodává bagetu do Elysejského paláce. V roce 2024 to bylo 31. kolo.\n\n## Jak poznat dobrou bagetu\n\n- zlatavá kůrka, která trochu křupe;\n- vůně teplého chleba;\n- krémová střídka s nepravidelnými dírami;\n- chléb, který se jí v ten samý den.\n\nPřed objednáním řekněte „Bonjour“. Výsledky soutěže najdete na [Paris.fr](https://www.paris.fr).",
+  "glossary": [
+    {
+      "fr": "le four",
+      "cs": "pec"
+    },
+    {
+      "fr": "une légende",
+      "cs": "legenda"
+    },
+    {
+      "fr": "le four à vapeur",
+      "cs": "parní pec"
+    },
+    {
+      "fr": "un décret",
+      "cs": "dekret, nařízení"
+    },
+    {
+      "fr": "le levain",
+      "cs": "kvásek"
+    },
+    {
+      "fr": "la pâte surgelée",
+      "cs": "mražené těsto"
+    },
+    {
+      "fr": "le savoir-faire",
+      "cs": "řemeslná zručnost"
+    },
+    {
+      "fr": "un concours",
+      "cs": "soutěž"
+    },
+    {
+      "fr": "la croûte",
+      "cs": "kůrka"
+    },
+    {
+      "fr": "la mie",
+      "cs": "střídka"
+    }
+  ],
+  "photo": {
+    "file": "File:Paris 10e Rue Beaurepaire Boulangerie 653.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_10e_Rue_Beaurepaire_Boulangerie_653.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_10e_Rue_Beaurepaire_Boulangerie_653.jpg",
+    "author": "GFreihalter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sources": [
+    "https://www.sortiraparis.com/en/where-to-eat-in-paris/food-events/articles/331496-history-decree-baguette-tradition",
+    "https://www.sortiraparis.com/en/where-to-eat-in-paris/food-events/articles/330833-history-baguette-parisian-tradition-french-national-symbol",
+    "https://www.euronews.com/2022/11/30/unesco-lists-the-french-baguette-as-an-intangible-cultural-heritage-of-humanity",
+    "https://www.lalibre.be/international/europe/2022/11/30/populaire-mais-en-peril-la-baguette-inscrite-au-patrimoine-immateriel-de-lhumanite-CI2VSXBU65BNNPYPPAKEUKE3ME/",
+    "https://en.wikipedia.org/wiki/Baguette",
+    "https://en.wikipedia.org/wiki/August_Zang",
+    "https://cdn.paris.fr/presse/2024/04/18/4598f4f32bf1ca6309938184e159d047.pdf",
+    "https://www.paris.fr"
+  ]
+}

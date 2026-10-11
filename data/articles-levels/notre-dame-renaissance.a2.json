@@ -1,0 +1,73 @@
+{
+  "base": "notre-dame-renaissance",
+  "level": "A2",
+  "slug": "notre-dame-renaissance-a2",
+  "category": "paris",
+  "published_at": "2026-09-08T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Notre-Dame de Paris : huit siècles d'histoire et une renaissance",
+  "title_cs": "Notre-Dame: osm staletí příběhu a znovuzrození katedrály",
+  "excerpt_fr": "De 1163 à décembre 2024 : la cathédrale, l'incendie et la reconstruction.",
+  "excerpt_cs": "Od roku 1163 do prosince 2024: katedrála, požár a obnova.",
+  "body_fr": "Le 15 avril 2019, un grand incendie détruit la flèche de Notre-Dame. Des milliers de Parisiens regardent, sur les quais. Cinq ans et demi plus tard, en décembre 2024, la cathédrale ouvre de nouveau.\n\n## Une cathédrale du XIIe siècle\n\nLa tradition place la première pierre en 1163, sous l'évêque Maurice de Sully. Le chantier dure longtemps : on considère que la cathédrale est finie vers 1345. C'est un modèle de l'art gothique. Elle a de grandes fenêtres pour la lumière. Napoléon y est sacré en décembre 1804.\n\n## Hugo et Viollet-le-Duc\n\nAprès la Révolution, la cathédrale est en mauvais état. En 1831, Victor Hugo publie *Notre-Dame de Paris*. Son roman attire l'attention du public. Ensuite, l'architecte Eugène Viollet-le-Duc restaure l'édifice entre 1845 et le milieu des années 1860. Il dessine une nouvelle flèche. C'est cette flèche qui brûle en 2019.\n\n## La reconstruction\n\nAprès l'incendie, on décide de refaire la cathédrale comme avant, avec les mêmes matériaux. Le chantier est énorme :\n\n- environ 1 000 chênes sont choisis pour les charpentes ;\n- une cinquantaine de tailleurs de pierre travaillent ;\n- les dons atteignent 846 millions d'euros, venus de 340 000 donateurs.\n\nLa cérémonie officielle a lieu le 7 décembre 2024, et la cathédrale ouvre au public le 8 décembre. Il y a une nouveauté : l'autel et plusieurs objets de la messe sont en bronze. Ils sont l'œuvre du sculpteur Guillaume Bardet.\n\n## Conseils\n\nL'entrée est gratuite. Vous pouvez aussi réserver un créneau. Regardez le site officiel [notredamedeparis.fr](https://www.notredamedeparis.fr). Faites le tour de la cathédrale à pied. Il y a des messes : restez discret.",
+  "body_cs": "Dne 15. dubna 2019 zničí velký požár věž Notre-Dame. Tisíce Pařížanů se dívají z nábřeží. O pět a půl roku později, v prosinci 2024, se katedrála znovu otevírá.\n\n## Katedrála z 12. století\n\nPodle tradice se základní kámen klade v roce 1163, za biskupa Maurice de Sully. Stavba trvá dlouho: katedrála se považuje za dokončenou kolem roku 1345. Je to vzor gotického umění. Má velká okna pro světlo. V prosinci 1804 je zde korunován Napoleon.\n\n## Hugo a Viollet-le-Duc\n\nPo Revoluci je katedrála ve špatném stavu. V roce 1831 vydává Victor Hugo *Chrám Matky Boží v Paříži*. Jeho román přitáhne pozornost veřejnosti. Potom architekt Eugène Viollet-le-Duc opravuje stavbu mezi lety 1845 a polovinou 60. let 19. století. Nakreslí novou věž. Právě ta věž hoří v roce 2019.\n\n## Obnova\n\nPo požáru se rozhodne, že se katedrála obnoví jako dřív, ze stejných materiálů. Stavba je obrovská:\n\n- na dřevěné konstrukce se vybírá asi 1 000 dubů;\n- pracuje asi padesát kameníků;\n- dary dosáhnou 846 milionů eur od 340 000 dárců.\n\nOficiální obřad se koná 7. prosince 2024 a pro veřejnost se katedrála otevírá 8. prosince. Je tu jedna novinka: oltář a několik dalších předmětů pro mši jsou z bronzu. Jsou dílem sochaře Guillauma Bardeta.\n\n## Rady\n\nVstup je zdarma. Můžete si také rezervovat čas vstupu. Podívejte se na oficiální web [notredamedeparis.fr](https://www.notredamedeparis.fr). Obejděte katedrálu pěšky. Konají se mše: buďte nenápadní.",
+  "glossary": [
+    {
+      "fr": "la flèche",
+      "cs": "věž (štíhlá)"
+    },
+    {
+      "fr": "le quai",
+      "cs": "nábřeží"
+    },
+    {
+      "fr": "l'évêque (m.)",
+      "cs": "biskup"
+    },
+    {
+      "fr": "la première pierre",
+      "cs": "základní kámen"
+    },
+    {
+      "fr": "sacrer",
+      "cs": "korunovat"
+    },
+    {
+      "fr": "restaurer",
+      "cs": "opravit, restaurovat"
+    },
+    {
+      "fr": "la charpente",
+      "cs": "dřevěná konstrukce (krovu)"
+    },
+    {
+      "fr": "le chêne",
+      "cs": "dub"
+    },
+    {
+      "fr": "le tailleur de pierre",
+      "cs": "kameník"
+    },
+    {
+      "fr": "le don",
+      "cs": "dar"
+    }
+  ],
+  "photo": {
+    "file": "File:Cathédrale Notre-Dame de Paris, 20 March 2014.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cath%C3%A9drale_Notre-Dame_de_Paris%2C_20_March_2014.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_de_Paris,_20_March_2014.jpg",
+    "author": "DXR",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Cathédrale_Notre-Dame_de_Paris",
+    "https://www.paris.fr/pages/une-cloche-olympique-des-mimosas-et-7000-pierres-faconnees-les-secrets-de-la-renaissance-de-notre-dame-29197",
+    "https://www.ffbatiment.fr/actualites-batiment/actualite-bam/reconstruction-fleche-notre-dame-paris-defis-techniques-releves",
+    "https://franceboisforet.fr/wp-content/uploads/2021/06/lettre_info_NDP-3_21062021_JUIN-2021_BD.pdf",
+    "https://www.culture.gouv.fr/actualites/special-notre-dame-de-paris-4-6-le-jour-ou-la-cathedrale-a-retrouve-sa-fleche",
+    "https://dioceseparis.fr/guillaume-bardet-artiste-choisi.html",
+    "https://www.notredamedeparis.fr"
+  ]
+}

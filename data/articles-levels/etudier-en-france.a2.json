@@ -1,0 +1,75 @@
+{
+  "base": "etudier-en-france",
+  "level": "A2",
+  "slug": "etudier-en-france-a2",
+  "category": "voyage",
+  "published_at": "2026-10-02T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Étudier ou faire un stage en France",
+  "title_cs": "Studium a stáž ve Francii",
+  "excerpt_fr": "Erasmus+, Campus France, DELF et logement : les étapes pour étudier en France.",
+  "excerpt_cs": "Erasmus+, Campus France, DELF a ubytování: kroky ke studiu ve Francii.",
+  "body_fr": "Au sud de Paris, dans le 14e arrondissement, il y a un grand parc : la Cité internationale universitaire. Il y a 47 maisons qui représentent des pays ou des écoles. Chaque année, environ 12 000 étudiants et chercheurs y habitent. Voici les étapes.\n\n## Erasmus+\n\nVous êtes étudiant dans une université tchèque ? Alors Erasmus+ est le chemin le plus courant. Votre université a un accord avec une université française. Votre faculté vous choisit. Vous partez pour des études ou un stage. Vous restez inscrit dans votre université.\n\nLes règles changent d'une université à l'autre. Allez d'abord au bureau des relations internationales de votre faculté. Vous pouvez aussi voir le [portail Erasmus+](https://erasmus-plus.ec.europa.eu/) et le [Dům zahraniční spolupráce (DZS)](https://www.dzs.cz/), l'agence tchèque pour ces programmes.\n\n## Campus France\n\nCampus France est l'agence française pour les études supérieures. Son site présente des formations. Il donne aussi des conseils sur le logement, l'assurance maladie et le budget. Il existe un site pour la République tchèque : [republiquetcheque.campusfrance.org](https://www.republiquetcheque.campusfrance.org/).\n\nUne bonne nouvelle : pour un citoyen de l'Union européenne, il n'y a pas de visa. Il y a aussi des bourses du gouvernement français, comme le programme Eiffel. Les conditions changent chaque année. Regardez le site de [Campus France](https://www.campusfrance.org/en).\n\n## DELF et DALF\n\nBeaucoup d'universités demandent un diplôme de français. Le DELF va de A1 à B2. Le DALF est pour C1 et C2. Ces diplômes sont valables à vie. En Tchéquie, on les passe à l'[Institut français de Prague](https://www.ifp.cz/cz/kurzy-a-zkousky/zkousky/diplomy-delf-a-dalf/) et dans des Alliances françaises. Les dates et les tarifs changent : vérifiez-les.\n\n## Se loger\n\nL'admission dépend de votre profil. Voyez le [site de la Cité](https://www.ciup.fr/en/).\n\n## Quelques idées fausses\n\n- « Il faut parler parfaitement français. » Non : un niveau B1 ou B2 suffit pour beaucoup de formations.\n- « Les études sont gratuites. » Non : il y a des frais d'inscription.\n\n## Infos pratiques\n\n1) Parlez au bureau des relations internationales. 2) Regardez Campus France. 3) Choisissez le DELF ou le DALF. 4) Préparez le logement et l'assurance maladie.",
+  "body_cs": "Na jihu Paříže, ve 14. obvodu, leží velký park: Cité internationale universitaire. Stojí tam 47 domů, které představují různé země nebo školy. Každý rok tam bydlí asi 12 000 studentů a vědců. Tady jsou jednotlivé kroky.\n\n## Erasmus+\n\nJste studentem české univerzity? Pak je Erasmus+ nejběžnější cesta. Vaše univerzita má dohodu s francouzskou univerzitou. Vaše fakulta vás vybere. Odjedete na studium nebo stáž. Zůstáváte zapsaný na své univerzitě.\n\nPravidla se liší podle univerzity. Nejdřív zajděte na oddělení zahraničních vztahů své fakulty. Můžete se podívat i na [portál Erasmus+](https://erasmus-plus.ec.europa.eu/) a na [Dům zahraniční spolupráce (DZS)](https://www.dzs.cz/), českou agenturu pro tyto programy.\n\n## Campus France\n\nCampus France je francouzská agentura pro vysokoškolské studium. Její web představuje studijní programy. Dává také rady o ubytování, zdravotním pojištění a rozpočtu. Pro Českou republiku existuje samostatný web: [republiquetcheque.campusfrance.org](https://www.republiquetcheque.campusfrance.org/).\n\nDobrá zpráva: občan Evropské unie nepotřebuje vízum. Existují také stipendia francouzské vlády, například program Eiffel. Podmínky se každý rok mění. Podívejte se na web [Campus France](https://www.campusfrance.org/en).\n\n## DELF a DALF\n\nMnoho univerzit žádá diplom z francouzštiny. DELF zahrnuje úrovně A1 až B2. DALF je pro C1 a C2. Tyto diplomy platí doživotně. V Česku se skládají na [Institut français v Praze](https://www.ifp.cz/cz/kurzy-a-zkousky/zkousky/diplomy-delf-a-dalf/) a v některých Alliances françaises. Termíny a ceny se mění: ověřte si je.\n\n## Ubytování\n\nPřijetí závisí na vašem profilu. Viz [web Cité](https://www.ciup.fr/en/).\n\n## Některé mýty\n\n- „Musím mluvit perfektně francouzsky.“ Ne: pro mnohé studijní programy stačí úroveň B1 nebo B2.\n- „Studium je zdarma.“ Ne: existují poplatky za zápis.\n\n## Praktické informace\n\n1) Promluvte si na oddělení zahraničních vztahů. 2) Podívejte se na Campus France. 3) Vyberte si DELF nebo DALF. 4) Připravte ubytování a zdravotní pojištění.",
+  "glossary": [
+    {
+      "fr": "une maison",
+      "cs": "dům (kolejní)"
+    },
+    {
+      "fr": "un chercheur",
+      "cs": "vědec, výzkumník"
+    },
+    {
+      "fr": "une faculté",
+      "cs": "fakulta"
+    },
+    {
+      "fr": "un accord",
+      "cs": "dohoda"
+    },
+    {
+      "fr": "un stage",
+      "cs": "stáž"
+    },
+    {
+      "fr": "une bourse",
+      "cs": "stipendium"
+    },
+    {
+      "fr": "une formation",
+      "cs": "studijní program"
+    },
+    {
+      "fr": "un diplôme",
+      "cs": "diplom"
+    },
+    {
+      "fr": "un logement",
+      "cs": "ubytování"
+    },
+    {
+      "fr": "une colocation",
+      "cs": "spolubydlení"
+    }
+  ],
+  "photo": {
+    "file": "File:Cite Internationale Universitaire de Paris, 4 June 2015.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cite_Internationale_Universitaire_de_Paris%2C_4_June_2015.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Cite_Internationale_Universitaire_de_Paris,_4_June_2015.jpg",
+    "author": "Tom Hilton",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "desc": "Cite Internationale Universitaire de Paris.",
+    "width": 4928,
+    "height": 3264
+  },
+  "sources": [
+    "https://www.ciup.fr/en/",
+    "https://www.campusfrance.org/en",
+    "https://www.dzs.cz/",
+    "https://www.ifp.cz/cz/kurzy-a-zkousky/zkousky/diplomy-delf-a-dalf/",
+    "https://erasmus-plus.ec.europa.eu/",
+    "https://www.republiquetcheque.campusfrance.org/"
+  ]
+}

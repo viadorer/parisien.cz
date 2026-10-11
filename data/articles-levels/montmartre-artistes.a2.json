@@ -1,0 +1,76 @@
+{
+ "base": "montmartre-artistes",
+ "level": "A2",
+ "slug": "montmartre-artistes-a2",
+ "category": "paris",
+ "published_at": "2026-09-18T08:00:00Z",
+ "author": "Rédaction parisien.cz",
+ "title_fr": "Montmartre : des vignes aux ateliers d'artistes",
+ "title_cs": "Montmartre: od vinic k ateliérům umělců",
+ "excerpt_fr": "Comment un village de vignes est devenu la colline des peintres.",
+ "excerpt_cs": "Jak se vinařská vesnice stala kopcem malířů.",
+ "body_fr": "En 1904, un jeune Espagnol arrive à Montmartre. Il s'appelle Pablo Picasso et il n'est pas encore célèbre. Il habite dans un vieil immeuble en bois, le **Bateau-Lavoir**, au 13 bis place Émile-Goudeau.\n\n## Une colline de vignes et de moulins\n\nMontmartre est une colline dans le 18e arrondissement. Pendant longtemps, c'est un village avec des vignes et des moulins. Il devient une partie de Paris en 1860.\n\nAu sommet, il y a la basilique du **Sacré-Cœur**. Le 16 juin 1875, on pose la première pierre. L'architecte est Paul Abadie. La consécration a lieu le 16 octobre 1919, après la guerre.\n\n## Les artistes\n\nLes loyers sont bas, il y a beaucoup de cabarets et la vue est belle. Alors, les artistes arrivent. Le Moulin Rouge ouvre en 1889, et Toulouse-Lautrec fait des affiches pour lui. Renoir loue un atelier rue Cortot en 1876. Il y peint *Le Bal du moulin de la Galette*. Maurice Utrillo peint les rues de la butte.\n\nPicasso habite au Bateau-Lavoir de 1904 à 1909. En 1907, il y montre *Les Demoiselles d'Avignon*. Souvent, on considère ce tableau comme le début du cubisme. En 1970, un incendie détruit presque tout l'immeuble : il ne reste que la façade. On le reconstruit en 1978.\n\n## La vigne de Montmartre\n\nRue des Saules, il y a le **Clos Montmartre**, une petite vigne. La Ville de Paris la replante en 1933. Chaque année, en octobre, il y a la fête des vendanges. À côté, le **musée de Montmartre** parle de Renoir, de Suzanne Valadon et d'Utrillo.\n\n## Conseils\n\nVenez tôt le matin, parce qu'il y a beaucoup de touristes. Marchez dans les petites rues. Mettez de bonnes chaussures : ça monte ! Pour les horaires, regardez le site du [musée de Montmartre](https://museedemontmartre.fr).",
+ "body_cs": "V roce 1904 přichází na Montmartre mladý Španěl. Jmenuje se Pablo Picasso a ještě není slavný. Bydlí ve starém dřevěném domě, v **Bateau-Lavoir**, na adrese 13 bis place Émile-Goudeau.\n\n## Kopec vinic a mlýnů\n\nMontmartre je kopec v 18. obvodu. Dlouho je to vesnice s vinicemi a mlýny. Součástí Paříže se stává v roce 1860.\n\nNa vrcholu stojí bazilika **Sacré-Cœur**. Dne 16. června 1875 se klade základní kámen. Architektem je Paul Abadie. Vysvěcení se koná 16. října 1919, po válce.\n\n## Umělci\n\nNájmy jsou nízké, je tu spousta kabaretů a výhled je krásný. Proto sem umělci přicházejí. Moulin Rouge se otevírá v roce 1889 a Toulouse-Lautrec pro něj dělá plakáty. Renoir si v roce 1876 pronajímá ateliér v ulici rue Cortot. Maluje tam *Bal v Moulin de la Galette*. Maurice Utrillo maluje ulice na kopci.\n\nPicasso bydlí v Bateau-Lavoir od roku 1904 do roku 1909. V roce 1907 tam ukazuje *Slečny z Avignonu*. Tento obraz se často považuje za začátek kubismu. V roce 1970 požár zničí skoro celý dům: zůstane jen průčelí. V roce 1978 ho postaví znovu.\n\n## Montmartrská vinice\n\nV ulici rue des Saules je **Clos Montmartre**, malá vinice. Město Paříž ji znovu vysadilo v roce 1933. Každý rok v říjnu se tu koná slavnost vinobraní. Hned vedle **Musée de Montmartre** vypráví o Renoirovi, Suzanne Valadon a Utrillovi.\n\n## Rady\n\nPřijďte brzy ráno, protože je tu hodně turistů. Procházejte se malými uličkami. Vezměte si pohodlnou obuv: je to do kopce! Otevírací dobu najdete na webu [musea Montmartre](https://museedemontmartre.fr).",
+ "glossary": [
+  {
+   "fr": "l'immeuble (m.)",
+   "cs": "činžovní dům, budova"
+  },
+  {
+   "fr": "la colline",
+   "cs": "kopec"
+  },
+  {
+   "fr": "le sommet",
+   "cs": "vrchol"
+  },
+  {
+   "fr": "le loyer",
+   "cs": "nájem"
+  },
+  {
+   "fr": "l'atelier (m.)",
+   "cs": "ateliér"
+  },
+  {
+   "fr": "l'affiche (f.)",
+   "cs": "plakát"
+  },
+  {
+   "fr": "le tableau",
+   "cs": "obraz"
+  },
+  {
+   "fr": "l'incendie (m.)",
+   "cs": "požár"
+  },
+  {
+   "fr": "la vendange",
+   "cs": "vinobraní"
+  },
+  {
+   "fr": "la façade",
+   "cs": "průčelí"
+  }
+ ],
+ "photo": {
+  "file": "File:Butte Montmartre, Place du Tertre, Paris.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Butte_Montmartre%2C_Place_du_Tertre%2C_Paris.jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:Butte_Montmartre,_Place_du_Tertre,_Paris.jpg",
+  "author": "Britchi Mirela",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "desc": "Butte Montmartre, Place du Tertre, Paris, France",
+  "width": 3648,
+  "height": 2736
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Montmartre",
+  "https://fr.wikipedia.org/wiki/Basilique_du_Sacré-Cœur_de_Montmartre",
+  "https://fr.wikipedia.org/wiki/Bateau-Lavoir",
+  "https://fr.wikipedia.org/wiki/Clos_Montmartre",
+  "https://fr.wikipedia.org/wiki/Musée_de_Montmartre",
+  "https://museedemontmartre.fr",
+  "https://www.paris.fr"
+ ]
+}

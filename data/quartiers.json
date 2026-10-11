@@ -48,6 +48,37 @@
       "https://fr.wikipedia.org/wiki/Musée_Picasso_(Paris)",
       "https://fr.wikipedia.org/wiki/Marché_des_Enfants-Rouges",
       "https://www.parisjetaime.com"
+    ],
+    "easy": {
+      "fr": "Le Marais est un quartier du centre de Paris. Il garde de belles maisons du XVIIe siècle. Henri IV y construit la place Royale, aujourd'hui la place des Vosges. On y trouve des musées, des galeries et des cafés.",
+      "cs": "Marais je čtvrť v centru Paříže. Zachovala si krásné domy ze 17. století. Jindřich IV. tu postavil Place Royale, dnešní Place des Vosges. Najdete tu muzea, galerie a kavárny."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "l'hôtel particulier (m.)",
+        "cs": "městský palác"
+      },
+      {
+        "fr": "la porte",
+        "cs": "vrata, dveře"
+      },
+      {
+        "fr": "la rue étroite",
+        "cs": "úzká ulice"
+      },
+      {
+        "fr": "la galerie",
+        "cs": "galerie"
+      },
+      {
+        "fr": "fréquenté",
+        "cs": "rušný, navštěvovaný"
+      },
+      {
+        "fr": "le marais",
+        "cs": "bažina"
+      }
     ]
   },
   {
@@ -100,6 +131,37 @@
       "https://fr.wikipedia.org/wiki/Arènes_de_Lutèce",
       "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)",
       "https://fr.wikipedia.org/wiki/Rue_Mouffetard"
+    ],
+    "easy": {
+      "fr": "Le Quartier latin est autour de la Sorbonne et du Panthéon. Son nom vient du latin : au Moyen Âge, on enseigne dans cette langue. On y voit des arènes romaines et des églises gothiques. Il y a beaucoup de librairies.",
+      "cs": "Latinská čtvrť leží kolem Sorbonny a Panthéonu. Její jméno pochází z latiny: ve středověku se v této řeči učilo. Uvidíte tu římské arény a gotické kostely. Je tu mnoho knihkupectví."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la librairie",
+        "cs": "knihkupectví"
+      },
+      {
+        "fr": "l'université (f.)",
+        "cs": "univerzita"
+      },
+      {
+        "fr": "les arènes (f. pl.)",
+        "cs": "aréna, amfiteátr"
+      },
+      {
+        "fr": "les thermes (m. pl.)",
+        "cs": "římské lázně"
+      },
+      {
+        "fr": "enseigner",
+        "cs": "učit"
+      },
+      {
+        "fr": "le Moyen Âge",
+        "cs": "středověk"
+      }
     ]
   },
   {
@@ -151,6 +213,37 @@
       "https://fr.wikipedia.org/wiki/Café_Procope",
       "https://en.wikipedia.org/wiki/Les_Deux_Magots",
       "https://www.parisjetaime.com"
+    ],
+    "easy": {
+      "fr": "Saint-Germain-des-Prés commence avec une abbaye, au VIe siècle. Il reste l'église, une des plus anciennes de Paris. Au XXe siècle, Sartre va au Café de Flore. Aujourd'hui, il y a des galeries d'art et des librairies.",
+      "cs": "Saint-Germain-des-Prés vzniklo kolem opatství v 6. století. Zůstal kostel, jeden z nejstarších v Paříži. Ve 20. století chodil Sartre do Café de Flore. Dnes jsou tu umělecké galerie a knihkupectví."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "l'abbaye (f.)",
+        "cs": "opatství"
+      },
+      {
+        "fr": "l'église (f.)",
+        "cs": "kostel"
+      },
+      {
+        "fr": "l'écrivain (m.)",
+        "cs": "spisovatel"
+      },
+      {
+        "fr": "la maison d'édition",
+        "cs": "nakladatelství"
+      },
+      {
+        "fr": "la ruelle",
+        "cs": "ulička"
+      },
+      {
+        "fr": "la rive gauche",
+        "cs": "levý břeh"
+      }
     ]
   },
   {
@@ -202,6 +295,37 @@
       "https://fr.wikipedia.org/wiki/Musée_de_Montmartre",
       "https://www.sacre-coeur-montmartre.com",
       "https://www.parisjetaime.com"
+    ],
+    "easy": {
+      "fr": "Jusqu'en 1860, Montmartre est un village à part. On y voit encore des rues en pente et une petite vigne. Des artistes comme Picasso viennent ici. Il y a beaucoup de touristes près du Sacré-Cœur.",
+      "cs": "Do roku 1860 byl Montmartre samostatnou vesnicí. Dodnes tu uvidíte svažité ulice a malou vinici. Přicházejí sem umělci jako Picasso. U Sacré-Cœur je mnoho turistů."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la butte",
+        "cs": "pahorek"
+      },
+      {
+        "fr": "l'escalier (m.)",
+        "cs": "schody"
+      },
+      {
+        "fr": "la vigne",
+        "cs": "vinice"
+      },
+      {
+        "fr": "la rue en pente",
+        "cs": "svažitá ulice"
+      },
+      {
+        "fr": "tranquille",
+        "cs": "klidný"
+      },
+      {
+        "fr": "l'oiseau (m.)",
+        "cs": "pták"
+      }
     ]
   },
   {
@@ -252,6 +376,37 @@
       "https://fr.wikipedia.org/wiki/Parc_de_Belleville",
       "https://fr.wikipedia.org/wiki/Parc_des_Buttes-Chaumont",
       "https://fr.wikipedia.org/wiki/Cimetière_du_Père-Lachaise"
+    ],
+    "easy": {
+      "fr": "Belleville est sur une colline de 108 mètres. De là, on voit Paris. Le village rejoint Paris en 1860. Aujourd'hui, c'est un quartier populaire. Il y a des restaurants de nombreuses origines. Les murs sont couverts de street art.",
+      "cs": "Belleville leží na kopci vysokém 108 metrů. Odtud je vidět Paříž. Vesnice byla připojena k Paříži roku 1860. Dnes je to lidová čtvrť. Jsou tu restaurace nejrůznějšího původu. Zdi jsou pokryté street artem."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la colline",
+        "cs": "kopec"
+      },
+      {
+        "fr": "populaire",
+        "cs": "lidový, obyčejný"
+      },
+      {
+        "fr": "le commerçant",
+        "cs": "obchodník"
+      },
+      {
+        "fr": "l'origine (f.)",
+        "cs": "původ"
+      },
+      {
+        "fr": "le mur",
+        "cs": "zeď"
+      },
+      {
+        "fr": "le panorama",
+        "cs": "výhled"
+      }
     ]
   },
   {
@@ -301,6 +456,37 @@
       "https://fr.wikipedia.org/wiki/Canal_Saint-Martin",
       "https://fr.wikipedia.org/wiki/Place_de_la_République_(Paris)",
       "https://www.parisjetaime.com"
+    ],
+    "easy": {
+      "fr": "Le canal Saint-Martin va de la République à la Villette. Les quais ont des arbres. On y voit des joggeurs. Parfois, un bateau passe une écluse. Le quartier est jeune.",
+      "cs": "Canal Saint-Martin vede od Place de la République k Villette. Na nábřeží rostou stromy. Vidíte tu běžce. Občas loď projíždí plavební komorou. Čtvrť je mladá."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "le quai",
+        "cs": "nábřeží"
+      },
+      {
+        "fr": "l'écluse (f.)",
+        "cs": "plavební komora"
+      },
+      {
+        "fr": "le bateau",
+        "cs": "loď"
+      },
+      {
+        "fr": "le joggeur",
+        "cs": "běžec"
+      },
+      {
+        "fr": "pique-niquer",
+        "cs": "dělat piknik"
+      },
+      {
+        "fr": "le platane",
+        "cs": "platan"
+      }
     ]
   },
   {
@@ -352,6 +538,37 @@
       "https://fr.wikipedia.org/wiki/Cimetière_du_Montparnasse",
       "https://en.wikipedia.org/wiki/La_Coupole_(Paris)",
       "https://fr.wikipedia.org/wiki/Catacombes_de_Paris"
+    ],
+    "easy": {
+      "fr": "Au début du XXe siècle, Montparnasse est le quartier des artistes. Il y a des peintres, des écrivains et des musiciens. La tour Montparnasse fait 209 mètres. On l'inaugure en 1973. De là-haut, on voit la tour Eiffel.",
+      "cs": "Na začátku 20. století je Montparnasse čtvrtí umělců. Žijí tu malíři, spisovatelé a hudebníci. Věž Montparnasse je vysoká 209 metrů. Otevřela se roku 1973. Shora je vidět Eiffelova věž."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la tour",
+        "cs": "věž"
+      },
+      {
+        "fr": "le peintre",
+        "cs": "malíř"
+      },
+      {
+        "fr": "la brasserie",
+        "cs": "brasserie (hostinec)"
+      },
+      {
+        "fr": "la crêperie",
+        "cs": "palačinkárna"
+      },
+      {
+        "fr": "le cimetière",
+        "cs": "hřbitov"
+      },
+      {
+        "fr": "le décor",
+        "cs": "výzdoba"
+      }
     ]
   },
   {
@@ -402,6 +619,37 @@
       "https://fr.wikipedia.org/wiki/Puits_artésien_de_la_Butte-aux-Cailles",
       "https://fr.wikipedia.org/wiki/Butte-aux-Cailles",
       "https://www.parisjetaime.com"
+    ],
+    "easy": {
+      "fr": "La Butte-aux-Cailles est une petite colline dans le 13e arrondissement. Ses rues sont étroites et ses maisons sont basses. C'est comme un village. Il y a une piscine en briques rouges. On la construit entre 1922 et 1924.",
+      "cs": "Butte-aux-Cailles je malý kopec ve 13. obvodu. Ulice jsou úzké a domy nízké. Je to jako vesnice. Stojí tu bazén z červených cihel. Postavili ho v letech 1922 až 1924."
+    },
+    "level": "B2",
+    "easyGlossary": [
+      {
+        "fr": "la colline",
+        "cs": "kopec"
+      },
+      {
+        "fr": "la piscine",
+        "cs": "bazén"
+      },
+      {
+        "fr": "la brique",
+        "cs": "cihla"
+      },
+      {
+        "fr": "le bistrot",
+        "cs": "bistro"
+      },
+      {
+        "fr": "l'habitant (m.)",
+        "cs": "obyvatel"
+      },
+      {
+        "fr": "la fontaine",
+        "cs": "fontána"
+      }
     ]
   }
 ]
