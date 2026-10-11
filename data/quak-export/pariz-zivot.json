@@ -1,0 +1,804 @@
+[
+[
+"p",
+"snídaně v ceně",
+"le petit-déjeuner compris",
+"breakfast included",
+"A1",
+{
+"ex": [
+"Hledáme hotel, kde je snídaně v ceně.",
+"Nous cherchons un hôtel avec le petit-déjeuner compris.",
+"We are looking for a hotel with breakfast included."
+]
+}
+],
+[
+"w",
+"klíčová karta (k pokoji)",
+"le badge",
+"key card",
+"A1",
+{
+"g": "m",
+"ex": [
+"Badge od pokoje nefunguje.",
+"Le badge de la chambre ne marche pas.",
+"The key card for the room doesn't work."
+]
+}
+],
+[
+"w",
+"patrová postel",
+"le lit superposé",
+"bunk bed",
+"A1",
+{
+"g": "m",
+"ex": [
+"V hostelu spím na patrové posteli.",
+"À l'auberge, je dors dans un lit superposé.",
+"At the hostel, I sleep in a bunk bed."
+]
+}
+],
+[
+"p",
+"Mohu si nechat zavazadla?",
+"Je peux laisser mes bagages ?",
+"Can I leave my luggage?",
+"A1",
+{
+"ex": [
+"Mohu si tu nechat zavazadla do večera?",
+"Je peux laisser mes bagages ici jusqu'au soir ?",
+"Can I leave my luggage here until the evening?"
+]
+}
+],
+[
+"p",
+"Mohu vám pomoci?",
+"Je peux vous aider ?",
+"Can I help you?",
+"A1"
+],
+[
+"p",
+"Je tu někdo, kdo mluví anglicky?",
+"Y a-t-il quelqu'un qui parle anglais ?",
+"Does anyone speak English?",
+"A1"
+],
+[
+"p",
+"Mohu platit kartou?",
+"Je peux payer par carte ?",
+"Can I pay by card?",
+"A1"
+],
+[
+"p",
+"Je rozbité.",
+"C'est cassé.",
+"It's broken.",
+"A1"
+],
+[
+"p",
+"Dobrý den, paní!",
+"Bonjour, madame !",
+"Hello, madam!",
+"A1",
+{
+"ex": [
+"Dobrý den, paní! Mohu se na něco zeptat?",
+"Bonjour, madame ! Je peux poser une question ?",
+"Hello, madam! Can I ask a question?"
+],
+"note": "Do obchodu se vstupuje s pozdravem Bonjour ; bez něj je to nezdvořilé. Pán: Bonjour, monsieur !"
+}
+],
+[
+"p",
+"Chtěl(a) bych poslat dopis.",
+"Je voudrais envoyer une lettre.",
+"I'd like to send a letter.",
+"A1"
+],
+[
+"p",
+"Je tu problém.",
+"Il y a un problème.",
+"There is a problem.",
+"A1",
+{
+"ex": [
+"Promiňte, v pokoji je problém.",
+"Excusez-moi, il y a un problème dans la chambre.",
+"Excuse me, there is a problem in the room."
+]
+}
+],
+[
+"w",
+"skříňka (uzamykatelná)",
+"le casier",
+"locker",
+"A2",
+{
+"g": "m",
+"ex": [
+"Zavazadla dám do skříňky.",
+"Je mets mes affaires dans le casier.",
+"I put my things in the locker."
+]
+}
+],
+[
+"w",
+"kód ke vchodu",
+"le digicode",
+"entry code",
+"A2",
+{
+"g": "m",
+"ex": [
+"Kód ke vchodu je na papíru.",
+"Le digicode est sur la feuille.",
+"The entry code is on the sheet."
+]
+}
+],
+[
+"w",
+"domovní zvonek s mluvítkem",
+"l'interphone",
+"entryphone",
+"A2",
+{
+"g": "m",
+"ex": [
+"Zazvoňte na interfon.",
+"Sonnez à l'interphone.",
+"Ring the entryphone."
+]
+}
+],
+[
+"p",
+"Bolí mě v krku.",
+"J'ai mal à la gorge.",
+"I have a sore throat.",
+"A2"
+],
+[
+"p",
+"Chtěl(a) bych se objednat k lékaři.",
+"Je voudrais prendre rendez-vous chez le médecin.",
+"I'd like to make an appointment with the doctor.",
+"A2"
+],
+[
+"p",
+"bez předpisu",
+"sans ordonnance",
+"without a prescription",
+"A2",
+{
+"ex": [
+"Tento lék je bez předpisu.",
+"Ce médicament est sans ordonnance.",
+"This medicine is available without a prescription."
+]
+}
+],
+[
+"w",
+"krabička (léků)",
+"la boîte",
+"pack",
+"A2",
+{
+"g": "f",
+"ex": [
+"Potřebuji jednu krabičku aspirinu.",
+"J'ai besoin d'une boîte d'aspirine.",
+"I need a pack of aspirin."
+],
+"note": "Také „krabice, škatule“. Une boîte de médicaments."
+}
+],
+[
+"w",
+"hasiči",
+"les sapeurs-pompiers",
+"fire brigade",
+"A2",
+{
+"g": "m",
+"ex": [
+"Hasiči přijeli za pět minut.",
+"Les sapeurs-pompiers sont arrivés en cinq minutes.",
+"The fire brigade arrived within five minutes."
+],
+"note": "Tísňová linka: 18."
+}
+],
+[
+"p",
+"Zavolejte záchranku, číslo 15!",
+"Appelez le SAMU, le 15 !",
+"Call an ambulance, 15!",
+"A2",
+{
+"note": "15 = SAMU (lékařská záchranná služba), 17 = policie, 18 = hasiči, 112 = evropské tísňové číslo."
+}
+],
+[
+"p",
+"Volám číslo 17.",
+"J'appelle le 17.",
+"I'm calling 17.",
+"A2",
+{
+"note": "17 = Police secours (policie)."
+}
+],
+[
+"p",
+"Volám číslo 112.",
+"J'appelle le 112.",
+"I'm calling 112.",
+"A2",
+{
+"note": "112 = evropské tísňové číslo, funguje v celé EU."
+}
+],
+[
+"p",
+"Chtěl(a) bych poslat balík do Česka.",
+"Je voudrais envoyer un colis en Tchéquie.",
+"I'd like to send a parcel to the Czech Republic.",
+"A2"
+],
+[
+"w",
+"číslo účtu (IBAN)",
+"l'IBAN",
+"IBAN",
+"A2",
+{
+"g": "m",
+"ex": [
+"Pošlete mi svůj IBAN, prosím.",
+"Envoyez-moi votre IBAN, s'il vous plaît.",
+"Send me your IBAN, please."
+],
+"note": "Francouzsky také le RIB (relevé d'identité bancaire = potvrzení s číslem účtu)."
+}
+],
+[
+"w",
+"PIN kód",
+"le code PIN",
+"PIN",
+"A2",
+{
+"g": "m",
+"ex": [
+"Zadejte svůj PIN kód.",
+"Tapez votre code PIN.",
+"Enter your PIN."
+],
+"note": "Hovorově le code secret."
+}
+],
+[
+"w",
+"tarif (mobilní)",
+"le forfait mobile",
+"mobile plan",
+"A2",
+{
+"g": "m",
+"ex": [
+"Hledám levný mobilní tarif.",
+"Je cherche un forfait mobile pas cher.",
+"I'm looking for a cheap mobile plan."
+]
+}
+],
+[
+"p",
+"Ztratil(a) jsem peněženku.",
+"J'ai perdu mon portefeuille.",
+"I've lost my wallet.",
+"A2"
+],
+[
+"p",
+"Už jste obsloužen(a)?",
+"Vous êtes servi(e) ?",
+"Are you being served?",
+"A2",
+{
+"note": "Typická otázka prodavače."
+}
+],
+[
+"p",
+"Mám pouze velkou bankovku.",
+"Je n'ai qu'un gros billet.",
+"I only have a large note.",
+"A2",
+{
+"note": "Britsky „note“, americky „bill“."
+}
+],
+[
+"p",
+"Máte drobné?",
+"Vous avez de la monnaie ?",
+"Do you have change?",
+"A2"
+],
+[
+"p",
+"hledat ubytování",
+"chercher un logement",
+"to look for accommodation",
+"A2",
+{
+"ex": [
+"Hledám ubytování na rok.",
+"Je cherche un logement pour un an.",
+"I'm looking for accommodation for a year."
+]
+}
+],
+[
+"w",
+"univerzitní knihovna",
+"la bibliothèque universitaire",
+"university library",
+"A2",
+{
+"g": "f",
+"ex": [
+"Studuji v univerzitní knihovně.",
+"J'étudie à la bibliothèque universitaire.",
+"I study in the university library."
+],
+"note": "Zkratka: la BU."
+}
+],
+[
+"w",
+"posluchárna",
+"l'amphi",
+"lecture theatre",
+"A2",
+{
+"g": "m",
+"ex": [
+"Přednáška je v posluchárně B.",
+"Le cours est dans l'amphi B.",
+"The lecture is in lecture theatre B."
+],
+"note": "Plně l'amphithéâtre."
+}
+],
+[
+"w",
+"zahraniční student",
+"l'étudiant étranger",
+"international student",
+"A2",
+{
+"g": "m",
+"ex": [
+"Jsem zahraniční student v Paříži.",
+"Je suis étudiant étranger à Paris.",
+"I'm an international student in Paris."
+],
+"note": "Ženský tvar: l'étudiante étrangère."
+}
+],
+[
+"w",
+"Erasmus",
+"Erasmus",
+"Erasmus",
+"A2",
+{
+"ex": [
+"Příští rok jedu na Erasmus.",
+"L'année prochaine, je pars en Erasmus.",
+"Next year I'm going on Erasmus."
+],
+"note": "Ve francouzštině se říká partir en Erasmus."
+}
+],
+[
+"p",
+"Děkuji za pomoc.",
+"Merci pour votre aide.",
+"Thank you for your help.",
+"A2",
+{
+"note": "Formální (vous). Neformálně: Merci pour ton aide."
+}
+],
+[
+"w",
+"vedlejší účinky",
+"les effets secondaires",
+"side effects",
+"B1",
+{
+"g": "m",
+"ex": [
+"Jaké jsou vedlejší účinky?",
+"Quels sont les effets secondaires ?",
+"What are the side effects?"
+],
+"note": "Většinou množné číslo."
+}
+],
+[
+"w",
+"karta zdravotního pojištění (Vitale)",
+"la carte Vitale",
+"Vitale health card",
+"B1",
+{
+"g": "f",
+"ex": [
+"Kartu Vitale ukazujeme u lékaře.",
+"On présente la carte Vitale chez le médecin.",
+"You show the Vitale card at the doctor's."
+],
+"note": "Karta francouzského veřejného zdravotního pojištění (Assurance maladie, dříve sécurité sociale). Píše se la carte Vitale."
+}
+],
+[
+"w",
+"doplňkové pojištění",
+"la mutuelle",
+"top-up health insurance",
+"B1",
+{
+"g": "f",
+"ex": [
+"Studenti často mají mutuelle.",
+"Les étudiants ont souvent une mutuelle.",
+"Students often have top-up health insurance."
+],
+"note": "Zkráceně z mutuelle santé; kryje část nákladů, které nehradí veřejné pojištění."
+}
+],
+[
+"w",
+"frankovat",
+"affranchir",
+"to put postage on",
+"B1",
+{
+"ex": [
+"Musím tu zásilku ofrankovat.",
+"Je dois affranchir cet envoi.",
+"I have to put postage on this item."
+]
+}
+],
+[
+"w",
+"výdejní místo",
+"le point relais",
+"pick-up point",
+"B1",
+{
+"g": "m",
+"ex": [
+"Balík je na výdejním místě.",
+"Le colis est au point relais.",
+"The parcel is at the pick-up point."
+]
+}
+],
+[
+"w",
+"bankovní poplatky",
+"les frais bancaires",
+"bank charges",
+"B1",
+{
+"g": "m",
+"ex": [
+"Tato banka nemá žádné bankovní poplatky.",
+"Cette banque n'a pas de frais bancaires.",
+"This bank has no bank charges."
+]
+}
+],
+[
+"p",
+"Chci zablokovat kartu.",
+"Je voudrais bloquer ma carte.",
+"I'd like to block my card.",
+"B1"
+],
+[
+"w",
+"kauce (nájemní)",
+"le dépôt de garantie",
+"deposit",
+"B1",
+{
+"g": "m",
+"ex": [
+"Kauce se vrací na konci nájmu.",
+"Le dépôt de garantie est rendu à la fin du bail.",
+"The deposit is returned at the end of the lease."
+],
+"note": "Hovorově také la caution (původně ručení)."
+}
+],
+[
+"w",
+"vykání",
+"le vouvoiement",
+"formal address",
+"B1",
+{
+"g": "m",
+"ex": [
+"Vykání je v obchodě běžné.",
+"Le vouvoiement est courant dans un magasin.",
+"Formal address is common in a shop."
+]
+}
+],
+[
+"p",
+"Zabouchl(a) jsem si dveře a jsem venku.",
+"Je me suis enfermé(e) dehors.",
+"I'm locked out.",
+"B1",
+{
+"note": "Také J'ai perdu mes clés (Ztratil(a) jsem klíče)."
+}
+],
+[
+"w",
+"ručitel",
+"le garant",
+"guarantor",
+"B1",
+{
+"g": "m",
+"ex": [
+"Pronajímatel chce ručitele.",
+"Le propriétaire demande un garant.",
+"The landlord asks for a guarantor."
+],
+"note": "Ženský tvar: la garante."
+}
+],
+[
+"w",
+"pojištění bytu",
+"l'assurance habitation",
+"home insurance",
+"B1",
+{
+"g": "f",
+"ex": [
+"Pojištění bytu je povinné.",
+"L'assurance habitation est obligatoire.",
+"Home insurance is compulsory."
+]
+}
+],
+[
+"w",
+"potvrzení o studiu",
+"le certificat de scolarité",
+"proof of enrolment",
+"B1",
+{
+"g": "m",
+"ex": [
+"Potřebuji potvrzení o studiu.",
+"J'ai besoin d'un certificat de scolarité.",
+"I need proof of enrolment."
+]
+}
+],
+[
+"w",
+"studijní oddělení",
+"la scolarité",
+"student registry",
+"B1",
+{
+"g": "f",
+"ex": [
+"Studijní oddělení je v přízemí.",
+"La scolarité est au rez-de-chaussée.",
+"The student registry is on the ground floor."
+],
+"note": "Plně le service de la scolarité (studijní/administrativní oddělení univerzity)."
+}
+],
+[
+"w",
+"přihláška (na školu)",
+"le dossier de candidature",
+"application",
+"B1",
+{
+"g": "m",
+"ex": [
+"Musím odevzdat přihlášku do dubna.",
+"Je dois déposer mon dossier de candidature avant avril.",
+"I must submit my application before April."
+]
+}
+],
+[
+"w",
+"poplatky za zápis",
+"les frais d'inscription",
+"enrolment fees",
+"B1",
+{
+"g": "m",
+"ex": [
+"Zeptám se na poplatky za zápis.",
+"Je me renseigne sur les frais d'inscription.",
+"I'm enquiring about enrolment fees."
+]
+}
+],
+[
+"w",
+"výměnný pobyt",
+"l'échange universitaire",
+"exchange programme",
+"B1",
+{
+"g": "m",
+"ex": [
+"Chci absolvovat výměnný pobyt.",
+"Je veux faire un échange universitaire.",
+"I want to go on an exchange programme."
+]
+}
+],
+[
+"w",
+"zkouška DELF",
+"le DELF",
+"DELF exam",
+"B1",
+{
+"g": "m",
+"ex": [
+"V červnu skládám zkoušku DELF.",
+"En juin, je passe le DELF.",
+"In June I'm taking the DELF."
+],
+"note": "DELF = úrovně A1–B2, DALF = C1–C2. Vydává francouzské ministerstvo školství."
+}
+],
+[
+"w",
+"Campus France (agentura pro zahraniční studenty)",
+"Campus France",
+"Campus France",
+"B1",
+{
+"ex": [
+"Studenti mimo EU podávají přihlášku přes Campus France.",
+"Les étudiants hors UE déposent leur dossier via Campus France.",
+"Non-EU students submit their application via Campus France."
+],
+"note": "Státní agentura pro zahraniční studenty ve Francii. Občané EU (včetně Česka) ji obvykle nepotřebují."
+}
+],
+[
+"w",
+"Crous (správa kolejí a menz)",
+"le Crous",
+"Crous",
+"B1",
+{
+"g": "m",
+"ex": [
+"Pokoj na koleji spravuje Crous.",
+"Le Crous gère les chambres en résidence.",
+"The Crous manages the halls of residence."
+],
+"note": "Správa studentského bydlení a menz (Centre régional des œuvres universitaires et scolaires). Vyslovuje se [kʁus]."
+}
+],
+[
+"w",
+"avízo o nedoručení",
+"l'avis de passage",
+"missed-delivery notice",
+"B2",
+{
+"g": "m",
+"ex": [
+"V poštovní schránce bylo avízo o nedoručení.",
+"Il y avait un avis de passage dans la boîte aux lettres.",
+"There was a missed-delivery notice in the letterbox."
+]
+}
+],
+[
+"w",
+"výpovědní lhůta",
+"le préavis",
+"notice",
+"B2",
+{
+"g": "m",
+"ex": [
+"Výpovědní lhůta je jeden měsíc.",
+"Le préavis est d'un mois.",
+"The notice period is one month."
+]
+}
+],
+[
+"w",
+"potvrzení o placení nájmu",
+"la quittance de loyer",
+"rent receipt",
+"B2",
+{
+"g": "f",
+"ex": [
+"Žádám o potvrzení o placení nájmu.",
+"Je demande une quittance de loyer.",
+"I'm asking for a rent receipt."
+]
+}
+],
+[
+"w",
+"výpis známek",
+"le relevé de notes",
+"transcript",
+"B2",
+{
+"g": "m",
+"ex": [
+"Pošlu vám výpis známek.",
+"Je vous envoie mon relevé de notes.",
+"I'll send you my transcript."
+]
+}
+],
+[
+"w",
+"zkouška DALF",
+"le DALF",
+"DALF exam",
+"B2",
+{
+"g": "m",
+"ex": [
+"DALF je zkouška pro pokročilé.",
+"Le DALF est un examen pour les niveaux avancés.",
+"The DALF is an exam for advanced levels."
+],
+"note": "Úrovně C1 a C2."
+}
+]
+]

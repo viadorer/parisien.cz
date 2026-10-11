@@ -1,0 +1,843 @@
+[
+[
+"w",
+"espresso",
+"l'expresso",
+"espresso",
+"A1",
+{
+"g": "m",
+"ex": [
+"Dám si espresso a sklenici vody.",
+"Je prends un expresso et un verre d'eau.",
+"I'll have an espresso and a glass of water."
+],
+"note": "V kavárně stačí říct „un café“, dostanete espresso."
+}
+],
+[
+"w",
+"káva s mlékem (café crème)",
+"le café crème",
+"café crème",
+"A1",
+{
+"g": "m",
+"ex": [
+"Ke snídani si dávám café crème.",
+"Au petit-déjeuner, je prends un café crème.",
+"For breakfast I have a café crème."
+],
+"note": "Espresso s horkým mlékem; zkráceně „un crème“."
+}
+],
+[
+"w",
+"horká čokoláda",
+"le chocolat chaud",
+"hot chocolate",
+"A1",
+{
+"g": "m",
+"ex": [
+"Děti chtějí horkou čokoládu se šlehačkou.",
+"Les enfants veulent un chocolat chaud avec de la chantilly.",
+"The children want a hot chocolate with whipped cream."
+]
+}
+],
+[
+"w",
+"croissant s čokoládou",
+"le pain au chocolat",
+"pain au chocolat",
+"A1",
+{
+"g": "m",
+"ex": [
+"Dám si pain au chocolat a čaj.",
+"Je prends un pain au chocolat et un thé.",
+"I'll have a pain au chocolat and a tea."
+],
+"note": "Na jihozápadě Francie se říká „chocolatine“."
+}
+],
+[
+"p",
+"Kávu s mlékem a croissant, prosím.",
+"Un café crème et un croissant, s'il vous plaît.",
+"A café crème and a croissant, please.",
+"A1"
+],
+[
+"p",
+"Jednu bagetu „tradition“, prosím.",
+"Une baguette tradition, s'il vous plaît.",
+"One 'tradition' baguette, please.",
+"A1",
+{
+"note": "„Tradition“ je označení bagety tradiční receptury; chutná lépe než běžná „baguette“."
+}
+],
+[
+"w",
+"koláč, tarta",
+"la tarte",
+"tart",
+"A1",
+{
+"g": "f",
+"ex": [
+"Babička peče jablečnou tartu.",
+"Ma grand-mère fait une tarte aux pommes.",
+"My grandmother makes an apple tart."
+],
+"note": "Slaná varianta se jí také: tarte salée."
+}
+],
+[
+"p",
+"Jeden kousek tarty, prosím.",
+"Une part de tarte, s'il vous plaît.",
+"A slice of tart, please.",
+"A1"
+],
+[
+"w",
+"croque-monsieur (opečený sendvič se šunkou a sýrem)",
+"le croque-monsieur",
+"croque-monsieur",
+"A1",
+{
+"g": "m",
+"ex": [
+"Na obědě jsem měl croque-monsieur se salátem.",
+"À midi, j'ai pris un croque-monsieur avec une salade.",
+"At lunch I had a croque-monsieur with a salad."
+]
+}
+],
+[
+"w",
+"bageta se šunkou a máslem",
+"le jambon-beurre",
+"ham-and-butter baguette",
+"A1",
+{
+"g": "m",
+"ex": [
+"K obědu bych si dal bagetu se šunkou a máslem.",
+"Je voudrais un jambon-beurre pour le déjeuner.",
+"I'd like a ham-and-butter baguette for lunch."
+],
+"note": "Klasický sendvič v bagetě."
+}
+],
+[
+"w",
+"tenká palačinka",
+"la crêpe",
+"crêpe",
+"A1",
+{
+"g": "f",
+"ex": [
+"Ke svačině jím crêpe s cukrem.",
+"Au goûter, je mange une crêpe au sucre.",
+"As a snack, I eat a crêpe with sugar."
+]
+}
+],
+[
+"w",
+"aperitiv (neformální)",
+"l'apéro",
+"pre-dinner drinks",
+"A1",
+{
+"g": "m",
+"ex": [
+"Přijďte k nám na aperitiv v sedm.",
+"Venez chez nous pour l'apéro à sept heures.",
+"Come to ours for pre-dinner drinks at seven."
+],
+"note": "Familiární zkratka od l'apéritif. Obvykle i s něčím k zakousnutí."
+}
+],
+[
+"p",
+"Dáme si aperitiv?",
+"On prend l'apéro ?",
+"Shall we have a drink before dinner?",
+"A1"
+],
+[
+"p",
+"S cukrem, nebo bez?",
+"Avec ou sans sucre ?",
+"With or without sugar?",
+"A1"
+],
+[
+"w",
+"červené víno",
+"le vin rouge",
+"red wine",
+"A1",
+{
+"g": "m",
+"ex": [
+"Ke steaku si dáme sklenici červeného vína.",
+"Avec le steak, on prend un verre de vin rouge.",
+"With the steak, we'll have a glass of red wine."
+]
+}
+],
+[
+"w",
+"bílé víno",
+"le vin blanc",
+"white wine",
+"A1",
+{
+"g": "m",
+"ex": [
+"Bílé víno se hodí k rybě.",
+"Le vin blanc se marie bien avec le poisson.",
+"White wine goes well with fish."
+]
+}
+],
+[
+"p",
+"To je všechno, děkuji.",
+"C'est tout, merci.",
+"That's all, thank you.",
+"A1"
+],
+[
+"w",
+"menu za pevnou cenu (dvě jídla ze tří)",
+"la formule",
+"set menu",
+"A2",
+{
+"g": "f",
+"ex": [
+"Dnes si dám menu: hlavní jídlo a dezert.",
+"Aujourd'hui, je prends la formule plat et dessert.",
+"Today I'll have the set menu: main course and dessert."
+],
+"note": "Obvykle entrée + plat nebo plat + dessert za jednu cenu."
+}
+],
+[
+"p",
+"Co byste doporučil?",
+"Qu'est-ce que vous recommandez ?",
+"What do you recommend?",
+"A2"
+],
+[
+"p",
+"Můžeme platit kartou?",
+"On peut payer par carte ?",
+"Can we pay by card?",
+"A1"
+],
+[
+"p",
+"Dám si jídlo dne.",
+"Je prendrai le plat du jour.",
+"I'll have the dish of the day.",
+"A2"
+],
+[
+"w",
+"džbánek (vína)",
+"le pichet",
+"jug",
+"A2",
+{
+"g": "m",
+"ex": [
+"Dáme si džbánek červeného vína.",
+"On prend un pichet de vin rouge.",
+"We'll have a jug of red wine."
+]
+}
+],
+[
+"p",
+"Chtěla bych dobře upečenou bagetu, prosím.",
+"Je voudrais une baguette bien cuite, s'il vous plaît.",
+"I'd like a well-baked baguette, please.",
+"A2"
+],
+[
+"p",
+"Nechte si drobné.",
+"Gardez la monnaie.",
+"Keep the change.",
+"A2"
+],
+[
+"p",
+"Můžeme si sednout na terase?",
+"Est-ce qu'on peut s'asseoir en terrasse ?",
+"Can we sit on the terrace?",
+"A2"
+],
+[
+"p",
+"Můžu ochutnat?",
+"Je peux goûter ?",
+"Can I try some?",
+"A2"
+],
+[
+"w",
+"sladké pečivo (croissanty, brioška…)",
+"la viennoiserie",
+"pastry",
+"A2",
+{
+"g": "f",
+"ex": [
+"Ke snídani máme kávu a viennoiserie.",
+"Au petit-déjeuner, on prend du café et une viennoiserie.",
+"For breakfast we have coffee and a pastry."
+],
+"note": "Ve výloze pekárny: viennoiseries = sladké pečivo z kynutého či listového těsta."
+}
+],
+[
+"w",
+"jablečná taštička",
+"le chausson aux pommes",
+"apple turnover",
+"A2",
+{
+"g": "m",
+"ex": [
+"Koupím nám jednu jablečnou taštičku.",
+"Je vais acheter un chausson aux pommes.",
+"I'll buy us an apple turnover."
+]
+}
+],
+[
+"w",
+"venkovský chléb",
+"le pain de campagne",
+"country loaf",
+"A2",
+{
+"g": "m",
+"ex": [
+"K sýru nejlépe sedí venkovský chléb.",
+"Avec le fromage, le pain de campagne est parfait.",
+"With cheese, a country loaf is perfect."
+]
+}
+],
+[
+"w",
+"quiche",
+"la quiche",
+"quiche",
+"A1",
+{
+"g": "f",
+"ex": [
+"K obědu jsme si dali quiche a salát.",
+"Au déjeuner, on a pris une quiche et une salade.",
+"For lunch we had a quiche and a salad."
+]
+}
+],
+[
+"w",
+"cibulačka",
+"la soupe à l'oignon",
+"onion soup",
+"A1",
+{
+"g": "f",
+"ex": [
+"V zimě si rád dám cibulačku.",
+"En hiver, j'aime prendre une soupe à l'oignon.",
+"In winter I like to have an onion soup."
+]
+}
+],
+[
+"w",
+"malé točené pivo (0,25 l)",
+"le demi",
+"small draught beer",
+"A2",
+{
+"g": "m",
+"ex": [
+"Pro mě malé točené pivo, prosím.",
+"Pour moi, un demi, s'il vous plaît.",
+"A small draught beer for me, please."
+],
+"note": "Demi = čtvrtlitrové točené pivo (asi půl pinty)."
+}
+],
+[
+"w",
+"růžové víno",
+"le rosé",
+"rosé",
+"A2",
+{
+"g": "m",
+"ex": [
+"V létě pijeme na terase růžové víno.",
+"En été, on boit du rosé en terrasse.",
+"In summer we drink rosé on the terrace."
+]
+}
+],
+[
+"w",
+"přiťuknout si",
+"trinquer",
+"to clink glasses",
+"A2",
+{
+"ex": [
+"Přiťukneme si na vaše zdraví!",
+"Trinquons à votre santé !",
+"Let's clink glasses to your health!"
+]
+}
+],
+[
+"w",
+"uzeniny a lahůdky (charcuterie)",
+"la charcuterie",
+"charcuterie",
+"A2",
+{
+"g": "f",
+"ex": [
+"K aperitivu jsme dostali talíř uzenin.",
+"Pour l'apéro, on nous a servi une assiette de charcuterie.",
+"With drinks we were served a plate of charcuterie."
+]
+}
+],
+[
+"w",
+"prodloužené espresso",
+"le café allongé",
+"long espresso",
+"A2",
+{
+"g": "m",
+"ex": [
+"Prodloužené espresso, prosím, s trochou mléka.",
+"Un café allongé, s'il vous plaît, avec un peu de lait.",
+"A long espresso, please, with a little milk."
+],
+"note": "Espresso s větším množstvím vody."
+}
+],
+[
+"w",
+"espresso s kapkou mléka",
+"le noisette",
+"noisette",
+"A2",
+{
+"g": "m",
+"ex": [
+"Ráno si dávám noisette.",
+"Le matin, je prends un noisette.",
+"In the morning I have a noisette."
+],
+"note": "Název podle barvy lískového oříšku; „un noisette“ i „une noisette“ (káva), ale „la noisette“ = oříšek."
+}
+],
+[
+"w",
+"krytý trh",
+"le marché couvert",
+"covered market",
+"A2",
+{
+"g": "m",
+"ex": [
+"V dešti chodíme na krytý trh.",
+"Quand il pleut, on va au marché couvert.",
+"When it rains we go to the covered market."
+]
+}
+],
+[
+"p",
+"na kila",
+"au kilo",
+"by the kilo",
+"A2",
+{
+"ex": [
+"Brambory se tu prodávají na kila.",
+"Ici, les pommes de terre se vendent au kilo.",
+"Here the potatoes are sold by the kilo."
+]
+}
+],
+[
+"w",
+"zralý",
+"mûr",
+"ripe",
+"A2",
+{
+"ex": [
+"Tyhle broskve jsou krásně zralé.",
+"Ces pêches sont bien mûres.",
+"These peaches are nice and ripe."
+],
+"note": "Ženský tvar: mûre."
+}
+],
+[
+"w",
+"nasekat, nadrobno nakrájet",
+"hacher",
+"to chop",
+"A2",
+{
+"ex": [
+"Nasekejte cibuli a česnek nadrobno.",
+"Hachez l'oignon et l'ail très finement.",
+"Chop the onion and garlic very finely."
+]
+}
+],
+[
+"w",
+"nastrouhat",
+"râper",
+"to grate",
+"A2",
+{
+"ex": [
+"Nastrouhej sýr na těstoviny.",
+"Râpe le fromage pour les pâtes.",
+"Grate the cheese for the pasta."
+]
+}
+],
+[
+"w",
+"zvážit",
+"peser",
+"to weigh",
+"A2",
+{
+"ex": [
+"Můžete mi zvážit ty třešně?",
+"Vous pouvez me peser ces cerises ?",
+"Could you weigh these cherries for me?"
+],
+"note": "Změna: je pèse, nous pesons."
+}
+],
+[
+"w",
+"rozpustit",
+"faire fondre",
+"to melt",
+"A2",
+{
+"ex": [
+"Na pánvi rozpusťte kousek másla.",
+"Faites fondre un morceau de beurre dans la poêle.",
+"Melt a knob of butter in the pan."
+]
+}
+],
+[
+"w",
+"someliér",
+"le sommelier",
+"sommelier",
+"B1",
+{
+"g": "m",
+"ex": [
+"Someliér nám doporučil skvělé víno.",
+"Le sommelier nous a conseillé un excellent vin.",
+"The sommelier recommended an excellent wine to us."
+],
+"note": "Ženský tvar: la sommelière."
+}
+],
+[
+"w",
+"káva s malými dezerty",
+"le café gourmand",
+"café gourmand",
+"B1",
+{
+"g": "m",
+"ex": [
+"Na konec si dáme café gourmand.",
+"Pour finir, on prend un café gourmand.",
+"To finish, we'll have a café gourmand."
+],
+"note": "Espresso s malými dezerty na jednom talíři."
+}
+],
+[
+"w",
+"krémový dezert s karamelovou krustou",
+"la crème brûlée",
+"crème brûlée",
+"B1",
+{
+"g": "f",
+"ex": [
+"Vanilková crème brûlée byla výborná.",
+"La crème brûlée à la vanille était délicieuse.",
+"The vanilla crème brûlée was delicious."
+]
+}
+],
+[
+"w",
+"hovězí na víně (boeuf bourguignon)",
+"le bœuf bourguignon",
+"beef bourguignon",
+"B1",
+{
+"g": "m",
+"ex": [
+"Bœuf bourguignon se vaří pomalu několik hodin.",
+"Le bœuf bourguignon cuit lentement pendant des heures.",
+"Beef bourguignon cooks slowly for hours."
+]
+}
+],
+[
+"w",
+"hlemýžď (jedlý)",
+"l'escargot",
+"snail",
+"B1",
+{
+"g": "m",
+"ex": [
+"Šnečky s česnekovým máslem jsem ochutnal poprvé.",
+"J'ai goûté des escargots au beurre d'ail pour la première fois.",
+"I tried snails in garlic butter for the first time."
+],
+"note": "Zde: pokrm, nejčastěji s česnekovým máslem."
+}
+],
+[
+"w",
+"gastronomie",
+"la gastronomie",
+"gastronomy",
+"B1",
+{
+"g": "f",
+"ex": [
+"Francouzská gastronomie patří k nehmotnému dědictví UNESCO.",
+"La gastronomie française fait partie du patrimoine immatériel de l'UNESCO.",
+"French gastronomy is part of UNESCO's intangible heritage."
+],
+"note": "UNESCO zapsalo roku 2010 „gastronomický pokrm Francouzů“."
+}
+],
+[
+"w",
+"stravenka",
+"le titre-restaurant",
+"luncheon voucher",
+"B1",
+{
+"g": "m",
+"ex": [
+"Obědvám a platím stravenkou.",
+"Je paie le repas avec un titre-restaurant.",
+"I pay for lunch with a luncheon voucher."
+],
+"note": "Hovorově „ticket resto“ (podle značky Ticket Restaurant)."
+}
+],
+[
+"p",
+"To jsem si neobjednal.",
+"Ce n'est pas ce que j'ai commandé.",
+"That's not what I ordered.",
+"B1"
+],
+[
+"w",
+"dát do trouby",
+"enfourner",
+"to put in the oven",
+"B1",
+{
+"ex": [
+"Dejte do trouby na sto osmdesát stupňů.",
+"Enfournez à cent quatre-vingts degrés.",
+"Put in the oven at one hundred and eighty degrees."
+],
+"note": "Doslova: dát do pece (four)."
+}
+],
+[
+"w",
+"nechat odležet (těsto)",
+"laisser reposer",
+"to leave to rest",
+"B1",
+{
+"ex": [
+"Nechte hodinu odležet a pak rozválejte.",
+"Laissez reposer une heure, puis étalez.",
+"Leave to rest for an hour, then roll out."
+]
+}
+],
+[
+"w",
+"šlehat, vyšlehat",
+"fouetter",
+"to whisk",
+"B1",
+{
+"ex": [
+"Vyšlehejte bílky do tuhého sněhu.",
+"Fouettez les blancs d'œufs en neige ferme.",
+"Whisk the egg whites until stiff."
+]
+}
+],
+[
+"w",
+"kir (bílé víno s likérem z černého rybízu)",
+"le kir",
+"kir",
+"B1",
+{
+"g": "m",
+"ex": [
+"V bistru si dávám sklenku kiru.",
+"Au bistrot, je prends un verre de kir.",
+"At the bistro I have a glass of kir."
+]
+}
+],
+[
+"w",
+"ovocný (o víně)",
+"fruité",
+"fruity",
+"B1",
+{
+"ex": [
+"Toto víno je lehké a ovocné.",
+"Ce vin est léger et fruité.",
+"This wine is light and fruity."
+],
+"note": "Ženský tvar: fruitée."
+}
+],
+[
+"w",
+"obchodník s vínem",
+"le caviste",
+"wine merchant",
+"B2",
+{
+"g": "m",
+"ex": [
+"Poradí vám obchodník s vínem na rohu.",
+"Le caviste du coin va vous conseiller.",
+"The wine merchant on the corner will advise you."
+],
+"note": "Ženský tvar: la caviste."
+}
+],
+[
+"w",
+"odrůda révy",
+"le cépage",
+"grape variety",
+"B2",
+{
+"g": "m",
+"ex": [
+"Tohle víno je z odrůdy merlot.",
+"Ce vin est fait avec le cépage merlot.",
+"This wine is made from the merlot grape variety."
+]
+}
+],
+[
+"w",
+"trhový stánek",
+"l'étal",
+"market stall",
+"B2",
+{
+"g": "m",
+"ex": [
+"Na stánku je spousta čerstvé zeleniny.",
+"Sur l'étal, il y a beaucoup de légumes frais.",
+"On the market stall there are lots of fresh vegetables."
+],
+"note": "Množné číslo: les étals."
+}
+],
+[
+"w",
+"posypat",
+"saupoudrer",
+"to sprinkle",
+"B2",
+{
+"ex": [
+"Dort posypte moučkovým cukrem.",
+"Saupoudrez le gâteau de sucre glace.",
+"Sprinkle the cake with icing sugar."
+]
+}
+],
+[
+"w",
+"degustační menu",
+"le menu dégustation",
+"tasting menu",
+"B2",
+{
+"g": "m",
+"ex": [
+"Rádi si dáme degustační menu.",
+"Nous prendrons le menu dégustation.",
+"We'll have the tasting menu."
+]
+}
+],
+[
+"p",
+"chtít všechno najednou",
+"avoir le beurre et l'argent du beurre",
+"to want to have your cake and eat it",
+"B2",
+{
+"note": "Doslova: mít máslo i peníze za máslo."
+}
+]
+]
