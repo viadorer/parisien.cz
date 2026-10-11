@@ -81,5 +81,107 @@
     "https://www.culture.gouv.fr/actualites/special-notre-dame-de-paris-4-6-le-jour-ou-la-cathedrale-a-retrouve-sa-fleche",
     "https://dioceseparis.fr/guillaume-bardet-artiste-choisi.html",
     "https://www.notredamedeparis.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Comment l'auteur nuance-t-il le rôle de Victor Hugo ?",
+        "cs": "Jak autor zjemňuje roli Victora Huga?"
+      },
+      "options": {
+        "fr": [
+          "Il affirme que Hugo a financé les travaux",
+          "Il nie toute influence du roman",
+          "Il lui reconnaît un rôle réel sans lui attribuer toute la restauration",
+          "Il compare Hugo à Viollet-le-Duc"
+        ],
+        "cs": [
+          "Tvrdí, že Hugo financoval práce",
+          "Popírá jakýkoli vliv románu",
+          "Uznává mu skutečnou roli, aniž by mu přičítal celou obnovu",
+          "Srovnává Huga s Viollet-le-Ducem"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Prêtons-lui ce qui lui revient sans lui attribuer l'ensemble de la restauration à venir. »",
+        "cs": "„Prêtons-lui ce qui lui revient sans lui attribuer l'ensemble de la restauration à venir.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que suggère l'expression « miracle diplomatique » à propos des quatre entreprises ?",
+        "cs": "Co naznačuje výraz „miracle diplomatique“ u čtyř firem?"
+      },
+      "options": {
+        "fr": [
+          "Que la coopération de rivales est très rare dans le bâtiment",
+          "Que l'État a imposé un traité",
+          "Que les entreprises étaient étrangères",
+          "Que le chantier a été arrêté par un conflit"
+        ],
+        "cs": [
+          "Že spolupráce soupeřů je ve stavebnictví velmi vzácná",
+          "Že stát vnutil smlouvu",
+          "Že firmy byly zahraniční",
+          "Že stavbu zastavil spor"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Quatre entreprises « d'ordinaire rivales » s'associent, ce qui « relève presque du miracle diplomatique ».",
+        "cs": "Čtyři firmy „d'ordinaire rivales“ se spojily, což „relève presque du miracle diplomatique“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que dit, selon l'auteur, le bouquet de mimosa sur les métiers du bâtiment ?",
+        "cs": "Co podle autora kytice mimózy říká o stavitelských řemeslech?"
+      },
+      "options": {
+        "fr": [
+          "Qu'ils méprisent les traditions",
+          "Qu'ils manquent de moyens modernes",
+          "Qu'ils dépendent des fleuristes",
+          "Qu'ils gardent de la superstition, de l'élégance et de la mémoire"
+        ],
+        "cs": [
+          "Že pohrdají tradicemi",
+          "Že jim chybí moderní prostředky",
+          "Že závisí na květinářích",
+          "Že si uchovávají pověrčivost, eleganci a paměť"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« voilà qui en dit long sur ce que les métiers gardent de superstition, d'élégance et de mémoire ».",
+        "cs": "„voilà qui en dit long sur ce que les métiers gardent de superstition, d'élégance et de mémoire“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie « sanctuariser le bâti » dans le passage sur le bronze ?",
+        "cs": "Co znamená „sanctuariser le bâti“ v pasáži o bronzu?"
+      },
+      "options": {
+        "fr": [
+          "Transformer l'édifice en musée",
+          "Protéger la construction en la restituant telle qu'on l'a connue",
+          "Interdire l'entrée aux visiteurs",
+          "Remplacer la pierre par du bronze"
+        ],
+        "cs": [
+          "Proměnit stavbu v muzeum",
+          "Chránit stavbu tím, že se vrátí do známé podoby",
+          "Zakázat vstup návštěvníkům",
+          "Nahradit kámen bronzem"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« sanctuariser le bâti, que l'on veut rendre tel qu'on l'a connu », tandis que le présent signe les objets du culte.",
+        "cs": "„sanctuariser le bâti, que l'on veut rendre tel qu'on l'a connu“, zatímco přítomnost podepisuje liturgické předměty."
+      }
+    }
   ]
 }

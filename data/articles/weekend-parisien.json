@@ -30,5 +30,107 @@
   "https://www.parisinfo.com"
  ],
  "level": "B2",
- "base": "weekend-parisien"
+ "base": "weekend-parisien",
+ "questions": [
+  {
+   "q": {
+    "fr": "Dans l'introduction, que signifie « grignoter » ?",
+    "cs": "Co v úvodu znamená „grignoter“?"
+   },
+   "options": {
+    "fr": [
+     "Boire lentement",
+     "Manger de petites choses",
+     "Cuisiner",
+     "Réserver une table"
+    ],
+    "cs": [
+     "Pomalu pít",
+     "Mlsat drobnosti",
+     "Vařit",
+     "Rezervovat stůl"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Les gens s'assoient avec une bouteille et « quelque chose à grignoter », sans carte.",
+    "cs": "Lidé sedí s lahví a „něčím k zakousnutí“, bez jídelníčku."
+   }
+  },
+  {
+   "q": {
+    "fr": "Comment l'article explique-t-il le nom du marché des Enfants-Rouges ?",
+    "cs": "Jak článek vysvětluje jméno trhu Enfants-Rouges?"
+   },
+   "options": {
+    "fr": [
+     "Par les fruits rouges vendus au marché",
+     "Par le nom de son fondateur",
+     "Par la couleur des halles",
+     "Par un orphelinat voisin où les enfants portaient du rouge"
+    ],
+    "cs": [
+     "Červeným ovocem, které se na trhu prodává",
+     "Jménem jeho zakladatele",
+     "Barvou tržnice",
+     "Sousedním sirotčincem, kde děti nosily červenou"
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "Son nom vient d'un orphelinat voisin où les enfants portaient du rouge.",
+    "cs": "Jméno pochází ze sousedního sirotčince, kde děti nosily červenou."
+   }
+  },
+  {
+   "q": {
+    "fr": "Quelle attitude l'article recommande-t-il pour éviter les pièges à touristes ?",
+    "cs": "Jaký postoj článek doporučuje, aby se člověk vyhnul turistickým pastem?"
+   },
+   "options": {
+    "fr": [
+     "S'éloigner des grands monuments et préférer les cartes courtes et le plat du jour",
+     "Choisir les menus à photos en plusieurs langues",
+     "Réserver très tôt",
+     "Manger face aux monuments"
+    ],
+    "cs": [
+     "Odejít od velkých památek a dát přednost krátkým jídelníčkům a plat du jour",
+     "Vybírat menu s fotkami ve více jazycích",
+     "Rezervovat s velkým předstihem",
+     "Jíst naproti památkám"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Évitez les restaurants face aux grands monuments ; préférez les cartes courtes.",
+    "cs": "Vyhněte se restauracím naproti velkým památkám; dejte přednost krátkým jídelníčkům."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que peut-on déduire du passage sur le dimanche ?",
+    "cs": "Co lze vyvodit z pasáže o neděli?"
+   },
+   "options": {
+    "fr": [
+     "Tout est ouvert le dimanche.",
+     "Aligre n'ouvre que le lundi.",
+     "Il vaut mieux vérifier les horaires, car beaucoup de boutiques sont fermées.",
+     "Les bouquinistes sont fermés le dimanche."
+    ],
+    "cs": [
+     "V neděli je všechno otevřené.",
+     "Aligre otevírá jen v pondělí.",
+     "Je lepší ověřit otevírací dobu, protože mnoho obchodů je zavřených.",
+     "Bouquinisté jsou v neděli zavřeni."
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Beaucoup de petites boutiques sont fermées ; les horaires varient, vérifiez avant de partir.",
+    "cs": "Mnoho malých obchodů je zavřených; hodiny se liší, ověřte je předem."
+   }
+  }
+ ]
 }

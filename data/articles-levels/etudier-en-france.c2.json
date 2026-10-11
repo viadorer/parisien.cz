@@ -87,5 +87,101 @@
     "https://www.ifp.cz/cz/kurzy-a-zkousky/zkousky/diplomy-delf-a-dalf/",
     "https://erasmus-plus.ec.europa.eu/",
     "https://www.republiquetcheque.campusfrance.org/"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que suggère l'expression « la belle mécanique grince un peu » à propos d'Erasmus+ ?",
+        "cs": "Co naznačuje obrat „krásný stroj trochu skřípe“ ve vztahu k Erasmu+?"
+      },
+      "options": {
+        "fr": [
+          "Que le programme est en voie de disparition",
+          "Que le principe séduisant se complique dans les modalités concrètes",
+          "Que la sélection est trop rapide"
+        ],
+        "cs": [
+          "Že program zaniká",
+          "Že lákavý princip se v praktických podrobnostech komplikuje",
+          "Že výběr je příliš rychlý"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section Erasmus+ : « Dès que l'on passe aux modalités » – durée, bourse et critères varient d'une université à l'autre.",
+        "cs": "Oddíl Erasmus+: „jakmile se přejde k podmínkám“ – délka, stipendium a kritéria se liší."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que souligne l'auteur par la formule « un diplôme qui ne vous réclamera aucun renouvellement » ?",
+        "cs": "Co autor zdůrazňuje obratem „diplom, který po vás nebude chtít žádné obnovení“?"
+      },
+      "options": {
+        "fr": [
+          "Que l'examen est gratuit",
+          "Que le DELF est plus facile que le DALF",
+          "Que le diplôme est un acquis permanent, sans renouvellement"
+        ],
+        "cs": [
+          "Že zkouška je zdarma",
+          "Že DELF je snazší než DALF",
+          "Že diplom je trvalý výdobytek bez obnovování"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section DELF et DALF : les diplômes « n'expirent jamais » ; on les décroche une fois.",
+        "cs": "Oddíl o DELF a DALF: diplomy „nikdy nevyprší“, získají se jednou."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'implique la phrase « Qui ne trouverait pas sa chambre à la Cité n'est pas pour autant à la rue » ?",
+        "cs": "Co vyplývá z věty „Kdo by nenašel pokoj v městečku, není kvůli tomu ještě na ulici“?"
+      },
+      "options": {
+        "fr": [
+          "Qu'il existe d'autres solutions de logement",
+          "Que la Cité garantit une chambre à chacun",
+          "Que le logement est gratuit pour les étudiants"
+        ],
+        "cs": [
+          "Že existují jiná řešení ubytování",
+          "Že městečko zaručuje pokoj každému",
+          "Že ubytování je pro studenty zdarma"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Où poser ses valises » : résidences universitaires, colocations et chambres chez l'habitant existent aussi.",
+        "cs": "Oddíl o ubytování: existují také univerzitní koleje, spolubydlení a pokoje u soukromníků."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle conclusion le texte tire-t-il sur Erasmus+ ?",
+        "cs": "Jaký závěr text o Erasmu+ vyvozuje?"
+      },
+      "options": {
+        "fr": [
+          "C'est surtout une occasion de voyager",
+          "C'est un programme réservé aux doctorants",
+          "C'est un programme académique, avec contrat d'études et crédits, non une longue escapade",
+          "C'est un programme qui remplace le DELF"
+        ],
+        "cs": [
+          "Je to hlavně příležitost k cestování",
+          "Je to program jen pro doktorandy",
+          "Je to akademický program se studijní smlouvou a kredity, ne dlouhý útěk",
+          "Je to program, který nahrazuje DELF"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Quatre légendes tenaces » : « un programme académique, doté d'un contrat d'études et de crédits à valider, et non une longue escapade ».",
+        "cs": "Oddíl o legendách: „akademický program se studijní smlouvou a kredity, ne dlouhý útěk“."
+      }
+    }
   ]
 }

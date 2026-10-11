@@ -94,5 +94,101 @@
     "https://www.service-public.gouv.fr/particuliers/actualites/A16577?lang=en",
     "https://mzv.gov.cz/paris/fr/service_consulaire/formalites_d_entree/formalite_d_enree.html",
     "https://www.iledefrance.fr/toutes-les-actualites/la-ligne-14-prolongee-met-laeroport-dorly-25-minutes-du-centre-de-paris"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que signifie, dans le texte, « je me garderai de vendre la peau de l'ours » ?",
+        "cs": "Co v textu znamená „vyvaruji se prodávání medvědí kůže“?"
+      },
+      "options": {
+        "fr": [
+          "Que l'auteur refuse de voyager de nuit",
+          "Que l'auteur évite de présenter comme acquis ce qu'il n'a pas vérifié",
+          "Que l'auteur déconseille d'acheter un billet de train"
+        ],
+        "cs": [
+          "Že autor odmítá cestovat v noci",
+          "Že se autor vyhýbá tomu, aby jako jisté podával to, co neověřil",
+          "Že autor nedoporučuje kupovat jízdenku na vlak"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section sur European Sleeper : « faute d'avoir pu vérifier un horaire concret ».",
+        "cs": "Oddíl o European Sleeper: „protože jsem nemohl ověřit konkrétní jízdní řád“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire la formule « la vitesse des trains compte moins que la patience des quais » ?",
+        "cs": "Co znamená formulace „rychlost vlaků počítá méně než trpělivost na nástupištích“?"
+      },
+      "options": {
+        "fr": [
+          "Que les trains allemands sont plus lents que les français",
+          "Que les quais des gares sont toujours bondés",
+          "Que la durée du trajet dépend surtout des attentes lors des correspondances"
+        ],
+        "cs": [
+          "Že německé vlaky jsou pomalejší než francouzské",
+          "Že nástupiště jsou vždy přeplněná",
+          "Že délka cesty závisí hlavně na čekání při přestupech"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Sur les rails » : le voyage « se découpe en chapitres » ; la fourchette de 10 h 30 à 13 h le montre.",
+        "cs": "Oddíl o kolejích: cesta se „dělí na kapitoly“; rozptyl 10 h 30 až 13 h to ukazuje."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle est l'attitude de l'auteur envers les chiffres d'Impact CO₂ ?",
+        "cs": "Jaký je postoj autora k číslům z nástroje Impact CO₂?"
+      },
+      "options": {
+        "fr": [
+          "Il les juge utiles comme ordres de grandeur, mais non transposables tels quels à Prague–Paris",
+          "Il les juge exacts pour tout voyage en Europe",
+          "Il les rejette entièrement comme trompeurs"
+        ],
+        "cs": [
+          "Považuje je za užitečná jako řád velikosti, ale nepřenositelná beze změny na cestu Praha–Paříž",
+          "Považuje je za přesná pro každou cestu v Evropě",
+          "Zcela je odmítá jako zavádějící"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section CO₂ : valeurs établies pour la France ; « un ordre de grandeur, et non un chiffre au gramme près ».",
+        "cs": "Oddíl o CO₂: hodnoty platí pro Francii; jde o „řád velikosti, ne číslo na gram přesně“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que suggère l'auteur avec la phrase « La poésie du voyage, on le sait, se nourrit d'intendance » ?",
+        "cs": "Co autor naznačuje větou „poezie cestování, jak známo, se živí organizací a zásobováním“?"
+      },
+      "options": {
+        "fr": [
+          "Que les voyages scolaires n'ont rien de poétique",
+          "Que l'organisation tue le plaisir de voyager",
+          "Que les groupes doivent éviter de planifier",
+          "Que la réussite d'un voyage de groupe repose sur une organisation minutieuse"
+        ],
+        "cs": [
+          "Že školní výlety nemají s poezií nic společného",
+          "Že organizace zabíjí radost z cestování",
+          "Že by se skupiny neměly plánovat",
+          "Že úspěch skupinové cesty stojí na pečlivé organizaci"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section sur le groupe scolaire : cette phrase introduit la liste de principes pratiques (réserver tôt, garder une marge…).",
+        "cs": "Oddíl o školní skupině: věta uvádí seznam praktických zásad (rezervovat včas, mít rezervu…)."
+      }
+    }
   ]
 }

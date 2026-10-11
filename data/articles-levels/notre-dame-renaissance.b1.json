@@ -77,5 +77,107 @@
     "https://www.culture.gouv.fr/actualites/special-notre-dame-de-paris-4-6-le-jour-ou-la-cathedrale-a-retrouve-sa-fleche",
     "https://dioceseparis.fr/guillaume-bardet-artiste-choisi.html",
     "https://www.notredamedeparis.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que dit le texte sur le roman de Victor Hugo ?",
+        "cs": "Co text říká o románu Victora Huga?"
+      },
+      "options": {
+        "fr": [
+          "Il n'a pas tout causé, mais il a aidé à sauver la cathédrale",
+          "Il a payé la restauration",
+          "Il a décidé de la reconstruction après 2019",
+          "Il a détruit la cathédrale"
+        ],
+        "cs": [
+          "Nebyl příčinou všeho, ale pomohl katedrálu zachránit",
+          "Zaplatil restaurování",
+          "Rozhodl o obnově po roce 2019",
+          "Zničil katedrálu"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Le roman « n'est pas à l'origine de toute la restauration, mais il a contribué à faire de la cathédrale une cause nationale ».",
+        "cs": "Román „není původem celé obnovy, ale přispěl k tomu, že se katedrála stala národní věcí“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qui a en grande partie résisté à l'incendie ?",
+        "cs": "Co vydrželo požár z velké části?"
+      },
+      "options": {
+        "fr": [
+          "Les toitures",
+          "Les voûtes de pierre",
+          "La flèche",
+          "Les charpentes"
+        ],
+        "cs": [
+          "Střechy",
+          "Kamenné klenby",
+          "Střela (věžice)",
+          "Krovy"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Les voûtes de pierre ont en grande partie résisté. »",
+        "cs": "„Kamenné klenby z velké části odolaly.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "En quoi ont été refaites les charpentes ?",
+        "cs": "Z čeho byly krovy znovu postaveny?"
+      },
+      "options": {
+        "fr": [
+          "En béton",
+          "En métal",
+          "En bois massif",
+          "En plomb"
+        ],
+        "cs": [
+          "Z betonu",
+          "Z kovu",
+          "Z masivního dřeva",
+          "Z olova"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Les charpentes ont été refaites en bois massif, comme au Moyen Âge. »",
+        "cs": "„Krovy byly znovu postaveny z masivního dřeva jako ve středověku.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie « mobilier liturgique » dans le texte ?",
+        "cs": "Co v textu znamená „mobilier liturgique“?"
+      },
+      "options": {
+        "fr": [
+          "Les objets utilisés pendant la messe",
+          "Les bancs des visiteurs",
+          "Les arcs-boutants",
+          "Les cloches de la tour"
+        ],
+        "cs": [
+          "Předměty používané při mši",
+          "Lavice pro návštěvníky",
+          "Opěrné oblouky",
+          "Zvony ve věži"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Le texte explique : « c'est-à-dire les objets utilisés pendant la messe ».",
+        "cs": "Text vysvětluje: „c'est-à-dire les objets utilisés pendant la messe“."
+      }
+    }
   ]
 }

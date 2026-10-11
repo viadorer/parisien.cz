@@ -70,5 +70,101 @@
     "https://www.service-public.gouv.fr/particuliers/actualites/A16577?lang=en",
     "https://mzv.gov.cz/paris/fr/service_consulaire/formalites_d_entree/formalite_d_enree.html",
     "https://www.iledefrance.fr/toutes-les-actualites/la-ligne-14-prolongee-met-laeroport-dorly-25-minutes-du-centre-de-paris"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Y a-t-il un train direct Prague–Paris ?",
+        "cs": "Je přímý vlak Praha–Paříž?"
+      },
+      "options": {
+        "fr": [
+          "Oui, tous les jours",
+          "Non, l'auteur n'en a pas trouvé en 2026",
+          "Oui, mais seulement la nuit"
+        ],
+        "cs": [
+          "Ano, každý den",
+          "Ne, autor žádný v roce 2026 nenašel",
+          "Ano, ale jen v noci"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Première phrase : « Il n'y a pas de train direct ».",
+        "cs": "První věta: „Není přímý vlak“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Combien de temps dure le vol ?",
+        "cs": "Jak dlouho trvá let?"
+      },
+      "options": {
+        "fr": [
+          "Environ 13 heures",
+          "Environ 3 heures",
+          "Environ 1 h 50"
+        ],
+        "cs": [
+          "Zhruba 13 hodin",
+          "Zhruba 3 hodiny",
+          "Zhruba 1 h 50"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Le vol dure environ 1 h 50. »",
+        "cs": "„Let trvá zhruba 1 h 50.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Où l'autocar arrive-t-il à Paris ?",
+        "cs": "Kde autobus v Paříži končí?"
+      },
+      "options": {
+        "fr": [
+          "Au quai de Bercy",
+          "À la Gare du Nord",
+          "À l'aéroport d'Orly"
+        ],
+        "cs": [
+          "U nábřeží Bercy",
+          "Na Gare du Nord",
+          "Na letišti Orly"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Il arrive au quai de Bercy. »",
+        "cs": "„Přijíždí k nábřeží Bercy.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qui suffit à un Tchèque pour entrer en France ?",
+        "cs": "Co stačí Čechovi pro cestu do Francie?"
+      },
+      "options": {
+        "fr": [
+          "Un visa",
+          "Un permis de conduire",
+          "Un billet retour",
+          "La carte d'identité"
+        ],
+        "cs": [
+          "Vízum",
+          "Řidičský průkaz",
+          "Zpáteční jízdenka",
+          "Občanský průkaz"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Dernière phrase : « la carte d'identité suffit en France ».",
+        "cs": "Poslední věta: ve Francii stačí občanský průkaz."
+      }
+    }
   ]
 }

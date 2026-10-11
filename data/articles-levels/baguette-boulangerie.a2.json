@@ -70,5 +70,99 @@
     "https://en.wikipedia.org/wiki/August_Zang",
     "https://cdn.paris.fr/presse/2024/04/18/4598f4f32bf1ca6309938184e159d047.pdf",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que dit la légende sur Napoléon ?",
+        "cs": "Co říká legenda o Napoleonovi?"
+      },
+      "options": {
+        "fr": [
+          "Il aurait inventé la baguette pour ses soldats.",
+          "Il a ouvert une boulangerie viennoise à Paris.",
+          "Il a créé le concours de la meilleure baguette."
+        ],
+        "cs": [
+          "Prý vymyslel bagetu pro své vojáky.",
+          "Otevřel v Paříži vídeňskou pekárnu.",
+          "Založil soutěž o nejlepší bagetu."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Une histoire pas très claire » : c'est seulement une légende.",
+        "cs": "Oddíl o historii: je to jen legenda."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qu'August Zang a fait, selon le texte ?",
+        "cs": "Co podle textu udělal August Zang?"
+      },
+      "options": {
+        "fr": [
+          "Il a inventé la forme de la baguette.",
+          "Il a rendu populaire le four à vapeur.",
+          "Il a écrit le décret de 1993."
+        ],
+        "cs": [
+          "Vynalezl tvar bagety.",
+          "Zpopularizoval parní pec.",
+          "Napsal dekret z roku 1993."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Il a rendu populaire le four à vapeur ; on ne sait pas s'il a créé la forme.",
+        "cs": "Zpopularizoval parní pec; není jisté, zda vytvořil tvar."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que protège l'UNESCO ?",
+        "cs": "Co chrání UNESCO?"
+      },
+      "options": {
+        "fr": [
+          "Le produit lui-même.",
+          "Le prix des baguettes.",
+          "Le geste du boulanger et l'habitude de tous les jours."
+        ],
+        "cs": [
+          "Samotný výrobek.",
+          "Cenu baget.",
+          "Pekařův um a každodenní zvyk."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « L'UNESCO » : le geste du boulanger et l'habitude, pas le produit lui-même.",
+        "cs": "Oddíl o UNESCO: gesto pekaře a zvyk, ne samotný výrobek."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que reçoit le gagnant du concours de la Ville de Paris ?",
+        "cs": "Co dostane vítěz soutěže města Paříže?"
+      },
+      "options": {
+        "fr": [
+          "Un prix et il fournit la baguette à l'Élysée pendant un an.",
+          "Une boulangerie à Paris.",
+          "Un diplôme de l'UNESCO."
+        ],
+        "cs": [
+          "Cenu a rok dodává bagetu do Elysejského paláce.",
+          "Pekárnu v Paříži.",
+          "Diplom od UNESCO."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « L'UNESCO et le concours » : le gagnant reçoit un prix et fournit l'Élysée un an.",
+        "cs": "Oddíl o soutěži: vítěz dostane cenu a rok dodává bagetu do Elysejského paláce."
+      }
+    }
   ]
 }

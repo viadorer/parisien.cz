@@ -86,5 +86,101 @@
     "https://www.service-public.gouv.fr/particuliers/actualites/A16577?lang=en",
     "https://mzv.gov.cz/paris/fr/service_consulaire/formalites_d_entree/formalite_d_enree.html",
     "https://www.iledefrance.fr/toutes-les-actualites/la-ligne-14-prolongee-met-laeroport-dorly-25-minutes-du-centre-de-paris"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi l'auteur conseille-t-il de vérifier le programme des vols auprès des compagnies ?",
+        "cs": "Proč autor radí ověřit letový řád u společností?"
+      },
+      "options": {
+        "fr": [
+          "Les compagnies ne publient aucun horaire",
+          "Les vols changent selon la saison et les comparateurs ne sont pas toujours d'accord",
+          "Les vols directs vont bientôt disparaître"
+        ],
+        "cs": [
+          "Společnosti žádný řád nezveřejňují",
+          "Lety se mění podle sezony a srovnávače se ne vždy shodují",
+          "Přímé lety brzy zaniknou"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « En avion » : les vols changent d'une saison à l'autre et les comparateurs divergent.",
+        "cs": "Oddíl o letadle: lety se mění podle sezony a srovnávače se rozcházejí."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que dit le texte sur la ligne 14 du métro ?",
+        "cs": "Co text říká o lince 14 metra?"
+      },
+      "options": {
+        "fr": [
+          "Elle dessert l'aéroport CDG en 45 minutes",
+          "Elle ne va pas encore jusqu'à l'aéroport",
+          "Elle va jusqu'à Orly depuis le 24 juin 2024 et met environ 25 minutes jusqu'à Châtelet"
+        ],
+        "cs": [
+          "Obsluhuje letiště CDG za 45 minut",
+          "K letišti zatím nevede",
+          "Od 24. června 2024 vede až k letišti Orly a do Châtelet jede zhruba 25 minut"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« la ligne 14 du métro, qui va jusqu'à l'aéroport depuis le 24 juin 2024, met environ 25 minutes pour arriver à Châtelet ».",
+        "cs": "Citát z oddílu o letadle: linka 14 jede k letišti od 24. 6. 2024 a do Châtelet trvá zhruba 25 minut."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle combinaison est possible « en principe » avec European Sleeper ?",
+        "cs": "Jaká kombinace je „v zásadě“ možná s European Sleeper?"
+      },
+      "options": {
+        "fr": [
+          "Un train de nuit Prague–Bruxelles, puis un train à grande vitesse Bruxelles–Paris",
+          "Un train de nuit direct Prague–Paris",
+          "Un autocar Prague–Berlin, puis un train de nuit Berlin–Paris"
+        ],
+        "cs": [
+          "Noční vlak Praha–Brusel a poté vysokorychlostní vlak Brusel–Paříž",
+          "Přímý noční vlak Praha–Paříž",
+          "Autobus Praha–Berlín a noční vlak Berlín–Paříž"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section sur le train : la même compagnie relie Bruxelles à Prague, puis on prend un train à grande vitesse vers Paris.",
+        "cs": "Oddíl o vlaku: stejná společnost spojuje Brusel s Prahou, pak následuje rychlovlak do Paříže."
+      }
+    },
+    {
+      "q": {
+        "fr": "Selon l'Agence européenne pour l'environnement, quels modes de transport sont les moins efficaces ?",
+        "cs": "Které dopravní prostředky jsou podle Evropské agentury pro životní prostředí nejméně efektivní?"
+      },
+      "options": {
+        "fr": [
+          "Le train et l'autocar",
+          "L'autocar et l'avion",
+          "Le train et la voiture",
+          "L'avion et la voiture"
+        ],
+        "cs": [
+          "Vlak a autobus",
+          "Autobus a letadlo",
+          "Vlak a auto",
+          "Letadlo a auto"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section CO₂ : « L'avion et la voiture sont les moins efficaces. »",
+        "cs": "Oddíl o CO₂: letadlo a auto jsou nejméně efektivní."
+      }
+    }
   ]
 }

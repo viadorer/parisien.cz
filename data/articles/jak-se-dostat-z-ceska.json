@@ -36,5 +36,101 @@
   "https://www.iledefrance.fr/toutes-les-actualites/la-ligne-14-prolongee-met-laeroport-dorly-25-minutes-du-centre-de-paris"
  ],
  "level": "B2",
- "base": "jak-se-dostat-z-ceska"
+ "base": "jak-se-dostat-z-ceska",
+ "questions": [
+  {
+   "q": {
+    "fr": "Combien de temps dure le vol Prague–Paris, selon l'article ?",
+    "cs": "Jak dlouho podle článku trvá let Praha–Paříž?"
+   },
+   "options": {
+    "fr": [
+     "Environ 1 h 10",
+     "Environ 1 h 50",
+     "Environ 3 h 40"
+    ],
+    "cs": [
+     "Zhruba 1 h 10",
+     "Zhruba 1 h 50",
+     "Zhruba 3 h 40"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Section « En avion » : « Le vol dure environ 1 h 50 ». Les 3 h 40 concernent Francfort–Paris en train.",
+    "cs": "Oddíl o letadle: let trvá zhruba 1 h 50. Údaj 3 h 40 se týká vlaku Frankfurt–Paříž."
+   }
+  },
+  {
+   "q": {
+    "fr": "Pourquoi l'auteur ne présente-t-il pas la combinaison train de nuit Prague–Bruxelles + TGV comme une solution sûre ?",
+    "cs": "Proč autor nepředkládá kombinaci noční vlak Praha–Brusel + TGV jako jistou variantu?"
+   },
+   "options": {
+    "fr": [
+     "Parce que European Sleeper ne relie pas Bruxelles à Prague",
+     "Parce que ce train est beaucoup trop cher",
+     "Parce qu'il n'a pas pu vérifier d'horaire concret"
+    ],
+    "cs": [
+     "Protože European Sleeper nespojuje Brusel s Prahou",
+     "Protože je tento vlak mnohem příliš drahý",
+     "Protože nemohl ověřit konkrétní jízdní řád"
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Section sur le train : « je n'ai pas pu vérifier un horaire concret, donc regardez-le vous-même ».",
+    "cs": "Oddíl o vlaku: „nemohl jsem ověřit konkrétní jízdní řád, podívejte se na něj sami“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que veut dire l'auteur quand il écrit que les valeurs d'Impact CO₂ « servent à comparer, pas à calculer précisément un trajet Prague–Paris » ?",
+    "cs": "Co autor myslí větou, že hodnoty z nástroje Impact CO₂ „slouží k porovnání, ne k přesnému výpočtu cesty Praha–Paříž“?"
+   },
+   "options": {
+    "fr": [
+     "Ce sont des ordres de grandeur calculés pour la France, utiles pour comparer les modes",
+     "Ce sont des chiffres exacts pour la République tchèque",
+     "Elles ne concernent que l'avion"
+    ],
+    "cs": [
+     "Jsou to řádové hodnoty spočítané pro Francii, vhodné k porovnání způsobů dopravy",
+     "Jsou to přesná čísla pro Českou republiku",
+     "Týkají se jen letadla"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Section CO₂ : valeurs calculées pour la France, où l'électricité est peu carbonée ; un voyage via l'Allemagne et la Tchéquie donnerait d'autres chiffres.",
+    "cs": "Oddíl o CO₂: hodnoty jsou spočítané pro Francii s málo uhlíkovou elektřinou; cesta přes Německo a Česko by dala jiná čísla."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que couvre la carte européenne d'assurance maladie, d'après l'article ?",
+    "cs": "Co podle článku kryje evropský průkaz zdravotního pojištění?"
+   },
+   "options": {
+    "fr": [
+     "Le rapatriement sanitaire",
+     "Les soins dans une clinique privée",
+     "Les frais d'annulation du voyage",
+     "Les soins médicalement nécessaires dans le système public"
+    ],
+    "cs": [
+     "Zdravotní repatriaci",
+     "Péči v soukromé klinice",
+     "Poplatky za zrušení cesty",
+     "Zdravotně nutnou péči ve veřejném systému"
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "« Pour y aller » : elle couvre les soins médicalement nécessaires du système public, mais ni le rapatriement ni les soins privés.",
+    "cs": "Praktické info: kryje nutnou péči ve veřejném systému, ale ne repatriaci ani soukromou péči."
+   }
+  }
+ ]
 }

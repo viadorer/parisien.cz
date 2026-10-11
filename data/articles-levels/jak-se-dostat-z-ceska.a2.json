@@ -78,5 +78,101 @@
     "https://www.service-public.gouv.fr/particuliers/actualites/A16577?lang=en",
     "https://mzv.gov.cz/paris/fr/service_consulaire/formalites_d_entree/formalite_d_enree.html",
     "https://www.iledefrance.fr/toutes-les-actualites/la-ligne-14-prolongee-met-laeroport-dorly-25-minutes-du-centre-de-paris"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Quelle compagnie vole vers Orly ?",
+        "cs": "Která společnost létá do Orly?"
+      },
+      "options": {
+        "fr": [
+          "Air France",
+          "Smartwings",
+          "Transavia"
+        ],
+        "cs": [
+          "Air France",
+          "Smartwings",
+          "Transavia"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « En avion » : Air France et Smartwings vont à CDG, Transavia à Orly.",
+        "cs": "Oddíl o letadle: Air France a Smartwings létají do CDG, Transavia do Orly."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que se passe-t-il si on prend deux billets séparés et qu'on rate la correspondance ?",
+        "cs": "Co se stane, když si koupíte dvě oddělené jízdenky a zmeškáte přípoj?"
+      },
+      "options": {
+        "fr": [
+          "Ce n'est pas couvert",
+          "Le deuxième billet est remboursé",
+          "La compagnie offre un hôtel"
+        ],
+        "cs": [
+          "Není to kryto",
+          "Druhá jízdenka se vrátí",
+          "Společnost nabídne hotel"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « En train » : « une correspondance ratée n'est pas couverte ».",
+        "cs": "Oddíl o vlaku: zmeškaný přípoj není kryt."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel moyen de transport pollue le moins ?",
+        "cs": "Který dopravní prostředek zatěžuje prostředí nejméně?"
+      },
+      "options": {
+        "fr": [
+          "L'avion",
+          "Le train",
+          "L'autocar"
+        ],
+        "cs": [
+          "Letadlo",
+          "Vlak",
+          "Autobus"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Et pour le climat ? » : « Le train pollue le moins. L'avion pollue le plus. »",
+        "cs": "Oddíl o klimatu: vlak znečišťuje nejméně, letadlo nejvíce."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi l'auteur dit-il de vérifier soi-même le train de nuit par Bruxelles ?",
+        "cs": "Proč autor říká, ať si noční vlak přes Brusel každý ověří sám?"
+      },
+      "options": {
+        "fr": [
+          "Ce train n'existe plus",
+          "Ce train est interdit aux groupes",
+          "Ce train va seulement à Berlin",
+          "Il n'a pas pu vérifier un horaire précis"
+        ],
+        "cs": [
+          "Ten vlak už neexistuje",
+          "Vlak je zakázaný pro skupiny",
+          "Vlak jede jen do Berlína",
+          "Nemohl ověřit přesný jízdní řád"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« Mais je n'ai pas pu vérifier un horaire précis. Regardez-le vous-même. »",
+        "cs": "„Nemohl jsem ověřit přesný jízdní řád. Podívejte se sami.“"
+      }
+    }
   ]
 }

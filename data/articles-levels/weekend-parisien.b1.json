@@ -80,5 +80,105 @@
     "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
     "https://www.paris.fr",
     "https://www.parisinfo.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que signifie « l'apéro » dans le texte ?",
+        "cs": "Co v textu znamená „apéro“?"
+      },
+      "options": {
+        "fr": [
+          "Un dîner au restaurant",
+          "Un petit-déjeuner debout",
+          "Un verre et de petites choses à grignoter avant le dîner"
+        ],
+        "cs": [
+          "Večeře v restauraci",
+          "Snídaně vestoje",
+          "Sklenka a drobné pochutiny před večeří"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "L'apéritif, c'est un verre et de petites choses à grignoter avant le dîner, pas un repas.",
+        "cs": "Apéritif je sklenka a drobné pochutiny před večeří, ne jídlo."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que conseille le texte pour le marché d'Aligre ?",
+        "cs": "Co text radí k trhu Aligre?"
+      },
+      "options": {
+        "fr": [
+          "Y aller tôt, avec un sac",
+          "Y aller le lundi",
+          "Y aller le soir après le dîner",
+          "Réserver une table"
+        ],
+        "cs": [
+          "Přijít brzy a s taškou",
+          "Přijít v pondělí",
+          "Přijít večer po večeři",
+          "Rezervovat stůl"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Allez-y tôt, avant la foule, avec un sac.",
+        "cs": "Jděte tam brzy, před davem, s taškou."
+      }
+    },
+    {
+      "q": {
+        "fr": "Laquelle de ces informations sur les Buttes-Chaumont est correcte ?",
+        "cs": "Která z těchto informací o Buttes-Chaumont je správná?"
+      },
+      "options": {
+        "fr": [
+          "Il a ouvert au XVIIIe siècle.",
+          "Haussmann l'a dessiné lui-même.",
+          "Le temple de la Sibylle est l'œuvre d'Eiffel.",
+          "Le parc occupe une ancienne colline où l'on avait exploité du gypse et de la pierre."
+        ],
+        "cs": [
+          "Otevřel se v 18. století.",
+          "Nakreslil ho sám Haussmann.",
+          "Chrám Sibyly je dílem Eiffela.",
+          "Park leží na bývalém kopci, kde se těžil sádrovec a kámen."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Le parc a ouvert en 1867 sur une ancienne colline ; Alphand l'a dessiné, Davioud a conçu le temple.",
+        "cs": "Park se otevřel roku 1867 na bývalém kopci; nakreslil ho Alphand, chrám navrhl Davioud."
+      }
+    },
+    {
+      "q": {
+        "fr": "Depuis quand les Rives de la Seine sont-elles inscrites à l'UNESCO ?",
+        "cs": "Odkdy jsou nábřeží Seiny na seznamu UNESCO?"
+      },
+      "options": {
+        "fr": [
+          "Depuis 1859",
+          "Depuis 1991",
+          "Depuis 1825",
+          "Depuis 1867"
+        ],
+        "cs": [
+          "Od roku 1859",
+          "Od roku 1991",
+          "Od roku 1825",
+          "Od roku 1867"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Les Rives de la Seine sont inscrites à l'UNESCO depuis 1991.",
+        "cs": "Nábřeží Seiny jsou v UNESCO od roku 1991."
+      }
+    }
   ]
 }

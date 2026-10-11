@@ -1,0 +1,107 @@
+{
+  "id": "montmartre-artistes",
+  "level": "B1",
+  "title": {
+    "fr": "Montmartre des artistes",
+    "cs": "Montmartre umělců"
+  },
+  "intro": {
+    "fr": "Au début du XXe siècle, Montmartre était un village d'ateliers où vivaient peintres et poètes. Cette promenade monte la butte en suivant leurs traces : un atelier célèbre, un musée installé dans leurs anciennes maisons, une vigne, une place pleine de portraitistes. Elle se termine en descendant vers le Moulin Rouge.",
+    "cs": "Na počátku 20. století byl Montmartre vesnicí ateliérů, kde žili malíři a básníci. Tato procházka vede na kopec po jejich stopách: slavný ateliér, muzeum v jejich bývalých domech, vinice, náměstí plné portrétistů. Končí sestupem k Moulin Rouge."
+  },
+  "easy": {
+    "fr": "Montmartre est une colline où vivaient beaucoup d'artistes. Vous marchez dans ses petites rues. Vous voyez des ateliers, une vigne et une grande église blanche.",
+    "cs": "Montmartre je kopec, kde žilo mnoho umělců. Půjdete jeho úzkými uličkami. Uvidíte ateliéry, vinici a velký bílý kostel."
+  },
+  "duration": {
+    "fr": "environ une demi-journée",
+    "cs": "zhruba půl dne"
+  },
+  "stops": [
+    {
+      "query": "Place des Abbesses, Paris",
+      "name": {
+        "fr": "Place des Abbesses",
+        "cs": "Place des Abbesses"
+      },
+      "note": {
+        "fr": "Commencez ici. L'entrée du métro, signée Hector Guimard, garde sa verrière Art nouveau, une des deux seules conservées à Paris.",
+        "cs": "Začněte tady. Vstup do metra od Hectora Guimarda si zachoval secesní prosklenou stříšku, jednu ze dvou dochovaných v Paříži."
+      }
+    },
+    {
+      "query": "Bateau-Lavoir, 13 place Émile-Goudeau, Paris",
+      "name": {
+        "fr": "Le Bateau-Lavoir",
+        "cs": "Bateau-Lavoir"
+      },
+      "note": {
+        "fr": "Montez par la rue Ravignan jusqu'à la place Émile-Goudeau. Picasso a eu son atelier dans cet immeuble à partir de 1904. Le bâtiment a brûlé en 1970 et a été reconstruit en 1978 ; on y trouve encore des ateliers d'artistes.",
+        "cs": "Vystupte ulicí rue Ravignan na náměstí Émile-Goudeau. Picasso tu měl od roku 1904 ateliér. Dům v roce 1970 vyhořel a v roce 1978 byl znovu postaven; dodnes v něm sídlí ateliéry umělců."
+      }
+    },
+    {
+      "query": "Musée de Montmartre, 12 rue Cortot, Paris",
+      "name": {
+        "fr": "Musée de Montmartre",
+        "cs": "Musée de Montmartre"
+      },
+      "note": {
+        "fr": "Dans ces maisons ont travaillé Renoir, puis Suzanne Valadon, son fils Maurice Utrillo et André Utter. Les jardins, nommés d'après Renoir, ont été recréés d'après des peintures de l'époque.",
+        "cs": "V těchto domech pracoval Renoir a později Suzanne Valadon se synem Mauricem Utrillem a s André Utterem. Zahrady pojmenované po Renoirovi byly znovu vytvořeny podle dobových obrazů."
+      }
+    },
+    {
+      "query": "Clos Montmartre, rue des Saules, Paris",
+      "name": {
+        "fr": "Le Clos Montmartre",
+        "cs": "Clos Montmartre"
+      },
+      "note": {
+        "fr": "Au coin de la rue des Saules et de la rue Saint-Vincent, la vigne a été replantée en 1933. Elle est presque toujours fermée : on la regarde à travers la grille ou depuis les jardins du musée.",
+        "cs": "Na rohu ulic rue des Saules a rue Saint-Vincent byla vinice znovu vysazena v roce 1933. Bývá téměř vždy zavřená: dívá se na ni přes plot nebo ze zahrad muzea."
+      }
+    },
+    {
+      "query": "Place du Tertre, Paris",
+      "name": {
+        "fr": "Place du Tertre",
+        "cs": "Place du Tertre"
+      },
+      "note": {
+        "fr": "Montez vers le cœur du vieux village. Ici, des peintres et des portraitistes exposent en plein air, entre les terrasses de restaurants. On peut simplement regarder travailler les artistes.",
+        "cs": "Vystoupejte do srdce staré vesnice. Pod širým nebem tu mezi restauračními terasami vystavují malíři a portrétisté. Stačí se dívat, jak umělci pracují."
+      }
+    },
+    {
+      "ref": "places:sacre-coeur-montmartre",
+      "note": {
+        "fr": "La basilique est toute proche. Regardez la façade, puis le panorama sur Paris depuis les marches.",
+        "cs": "Bazilika je hned vedle. Prohlédněte si průčelí a pak panorama Paříže ze schodů."
+      }
+    },
+    {
+      "query": "Moulin Rouge, 82 boulevard de Clichy, Paris",
+      "name": {
+        "fr": "Le Moulin Rouge",
+        "cs": "Moulin Rouge"
+      },
+      "note": {
+        "fr": "Descendez la butte jusqu'au boulevard de Clichy. Le cabaret ouvert en 1889 se voit de l'extérieur avec son célèbre moulin rouge sur le toit.",
+        "cs": "Sejděte z kopce na bulvár de Clichy. Kabaret otevřený v roce 1889 poznáte zvenku podle slavného červeného mlýna na střeše."
+      }
+    }
+  ],
+  "tip": {
+    "fr": "Les rues de la butte sont en pente et parfois en escaliers : portez de bonnes chaussures. Pour la vigne, sachez qu'elle ouvre seulement lors d'événements comme la Fête des vendanges, en octobre.",
+    "cs": "Ulice na kopci jsou strmé a místy schodovité, vezměte si pohodlnou obuv. K vinici se hodí vědět, že se otevírá jen při akcích jako Slavnosti vinobraní (Fête des vendanges) v říjnu."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bateau-Lavoir",
+    "https://museedemontmartre.fr/en/musee-jardins/",
+    "https://fr.wikipedia.org/wiki/Fête_des_vendanges_de_Montmartre",
+    "https://www.ratp.fr/en/discover/heritage/history-abbesses-station",
+    "https://en.wikipedia.org/wiki/Moulin_Rouge",
+    "https://www.moulinrouge.fr"
+  ]
+}

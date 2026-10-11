@@ -30,5 +30,107 @@
   "https://www.paris.fr"
  ],
  "level": "B2",
- "base": "montmartre-artistes"
+ "base": "montmartre-artistes",
+ "questions": [
+  {
+   "q": {
+    "fr": "Selon le texte, d'où viendrait le surnom « Bateau-Lavoir » ?",
+    "cs": "Odkud podle textu pochází přezdívka „Bateau-Lavoir“?"
+   },
+   "options": {
+    "fr": [
+     "Du nom d'un bateau amarré sur la Seine",
+     "D'un ancien lavoir public voisin",
+     "De l'allure des couloirs, comparés à des ponts de bateau, et d'une plaisanterie sur le « lavoir »",
+     "D'une chanson de Picasso"
+    ],
+    "cs": [
+     "Z jména lodi kotvící na Seině",
+     "Z bývalé veřejné prádelny v sousedství",
+     "Z podoby chodeb, připomínajících lodní paluby, a z vtipu o „prádelně“",
+     "Z jedné Picassovy písně"
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Section « Les années d'artistes » : le surnom « viendrait » de l'allure des couloirs et d'une plaisanterie attribuée à Max Jacob (vingt-cinq locataires, un seul robinet).",
+    "cs": "Část „Roky umělců“: přezdívka prý pochází z podoby chodeb a z vtipu přisuzovaného Maxi Jacobovi (pětadvacet nájemníků, jeden kohoutek)."
+   }
+  },
+  {
+   "q": {
+    "fr": "Pourquoi le texte dit-il qu'il est difficile de fixer la « fin » de la construction du Sacré-Cœur ?",
+    "cs": "Proč text říká, že je těžké určit „dokončení“ stavby Sacré-Cœur?"
+   },
+   "options": {
+    "fr": [
+     "Parce que les plans de Paul Abadie ont été perdus",
+     "Parce que le clocher (1912), la façade (1914) et la consécration (1919) datent d'années différentes",
+     "Parce que la basilique n'est toujours pas terminée",
+     "Parce que les archives de la Commune ont brûlé"
+    ],
+    "cs": [
+     "Protože plány Paula Abadieho byly ztraceny",
+     "Protože zvonice (1912), průčelí (1914) a vysvěcení (1919) spadají do různých let",
+     "Protože bazilika dosud není dokončena",
+     "Protože archivy Komuny shořely"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Section sur la colline : « Cela dépend de ce qu'on appelle fin » ; clocher 1912, façade 1914, consécration 1919.",
+    "cs": "Část o kopci: záleží, co se rozumí dokončením; zvonice 1912, průčelí 1914, vysvěcení 1919."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que dit le texte du lien entre le Sacré-Cœur et la Commune de Paris ?",
+    "cs": "Co text říká o souvislosti mezi Sacré-Cœur a Pařížskou komunou?"
+   },
+   "options": {
+    "fr": [
+     "La basilique a été construite pour la Commune, comme le prouve une inscription",
+     "La Commune a financé la basilique",
+     "La basilique a été détruite pendant la Commune",
+     "Les historiens en discutent : l'idée d'« expier » l'insurrection s'est installée peu à peu, mais l'édifice ne l'affirme pas"
+    ],
+    "cs": [
+     "Bazilika byla postavena pro Komunu, jak dokazuje nápis",
+     "Komuna bazilice financovala",
+     "Bazilika byla za Komuny zničena",
+     "Historici o tom diskutují: představa „odčinění“ povstání se vžila postupně, ale stavba to netvrdí"
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "« Les historiens en discutent… rien dans l'édifice ne l'affirme. »",
+    "cs": "„Historici o tom diskutují… nic na budově to netvrdí.“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Comment le texte conseille-t-il de découvrir le Clos Montmartre ?",
+    "cs": "Jak text radí poznat Clos Montmartre?"
+   },
+   "options": {
+    "fr": [
+     "Le regarder par la grille ou profiter de la fête des vendanges",
+     "Se promener librement entre les ceps",
+     "Y goûter du vin chaque jour",
+     "Le visiter avec le musée de Montmartre"
+    ],
+    "cs": [
+     "Dívat se na ni přes mříž nebo využít slavnost vinobraní",
+     "Volně se procházet mezi keři",
+     "Každý den tam ochutnávat víno",
+     "Prohlédnout si ji spolu s Musée de Montmartre"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Section « Vigne, vendanges et musée » : « On ne visite pas la vigne comme un parc : on la regarde par la grille, ou on profite de la fête. »",
+    "cs": "Část „Vinice, sklizeň a muzeum“: vinice není park, dívá se na ni přes mříž, nebo se využije slavnost."
+   }
+  }
+ ]
 }

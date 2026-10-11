@@ -88,5 +88,107 @@
     "https://fr.wikipedia.org/wiki/Musée_de_Montmartre",
     "https://museedemontmartre.fr",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Selon le texte, en quoi le statut de Montmartre avant 1860 aide-t-il à comprendre son essor artistique ?",
+        "cs": "Čím podle textu pomáhá postavení Montmartru před rokem 1860 pochopit jeho umělecký rozkvět?"
+      },
+      "options": {
+        "fr": [
+          "Le village était riche et finançait les artistes",
+          "Le gypse de son sous-sol attirait les peintres",
+          "Il était proche du centre tout en échappant à ses usages",
+          "Il était relié au centre par un funiculaire"
+        ],
+        "cs": [
+          "Vesnice byla bohatá a umělce financovala",
+          "Sádrovec v podloží lákal malíře",
+          "Byl blízko centra, a přitom unikal jeho zvyklostem",
+          "S centrem ho spojovala lanovka"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Une colline de vignes… » : ce statut de faubourg, « proche du centre et suffisamment éloigné pour échapper à ses usages », explique en partie ce qui suivra.",
+        "cs": "Část „Kopec vinic…“: postavení předměstí, blízkého centru a dost vzdáleného, aby se vymanilo z jeho zvyklostí, částečně vysvětluje, co přišlo potom."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle position le texte adopte-t-il sur l'idée d'une basilique bâtie pour « expier » la Commune ?",
+        "cs": "Jaký postoj zaujímá text k představě baziliky postavené k „odčinění“ Komuny?"
+      },
+      "options": {
+        "fr": [
+          "Une prudence : l'idée s'est imposée peu à peu, mais les historiens en débattent et l'édifice ne l'affirme pas",
+          "Il la confirme en citant l'inscription de la façade",
+          "Il la rejette comme une invention récente de l'Assemblée nationale",
+          "Il la considère comme l'unique explication de la construction"
+        ],
+        "cs": [
+          "Opatrný: představa se vžila postupně, ale historici o ní diskutují a stavba ji netvrdí",
+          "Potvrzuje ji citací nápisu na průčelí",
+          "Odmítá ji jako nedávný výmysl Národního shromáždění",
+          "Pokládá ji za jediné vysvětlení stavby"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Le Sacré-Cœur, ou les nuances d'une basilique » : « il convient de rester prudent… rien dans l'édifice lui-même ne l'affirme ».",
+        "cs": "Část „Sacré-Cœur aneb nuance jedné baziliky“: je třeba opatrnosti, samotná stavba nic takového netvrdí."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie la phrase « la légende a survécu à la matière » à propos du Bateau-Lavoir ?",
+        "cs": "Co znamená věta „legenda přežila hmotu“ v souvislosti s Bateau-Lavoir?"
+      },
+      "options": {
+        "fr": [
+          "Les artistes ont quitté l'immeuble avant l'incendie",
+          "Le bois a mieux résisté que le béton",
+          "La légende de Picasso est fausse",
+          "L'immeuble a brûlé et a été refait en béton, mais sa réputation est restée intacte"
+        ],
+        "cs": [
+          "Umělci dům opustili před požárem",
+          "Dřevo odolalo lépe než beton",
+          "Legenda o Picassovi je nepravdivá",
+          "Dům vyhořel a byl obnoven z betonu, ale jeho pověst zůstala nedotčena"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section « Les années d'artistes » : incendie en 1970 (seule la façade reste), reconstruction à l'identique mais en béton en 1978.",
+        "cs": "Část „Roky umělců“: požár 1970 (zůstalo jen průčelí), obnova podle původní podoby, ale z betonu, 1978."
+      }
+    },
+    {
+      "q": {
+        "fr": "Selon l'auteur, qu'est-ce qui explique cette concentration de talents à Montmartre ?",
+        "cs": "Čím autor vysvětluje tuto koncentraci talentů na Montmartru?"
+      },
+      "options": {
+        "fr": [
+          "Le hasard des rencontres dans les cabarets",
+          "Des loyers modestes qui permettaient de travailler sur place, de se côtoyer et de s'influencer",
+          "Le soutien financier de la Ville de Paris",
+          "La proximité du Sacré-Cœur"
+        ],
+        "cs": [
+          "Náhoda setkání v kabaretech",
+          "Nízké nájmy, které dovolovaly pracovat na místě, potkávat se a ovlivňovat",
+          "Finanční podpora města Paříže",
+          "Blízkost Sacré-Cœur"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Avant-dernier paragraphe de la section sur les artistes : cela tient « moins du hasard que d'une économie très simple, celle des loyers modestes ».",
+        "cs": "Poslední odstavec části o umělcích: je to „méně dílem náhody než velmi jednoduché ekonomiky, totiž nízkých nájmů“."
+      }
+    }
   ]
 }

@@ -78,5 +78,99 @@
     "https://en.wikipedia.org/wiki/August_Zang",
     "https://cdn.paris.fr/presse/2024/04/18/4598f4f32bf1ca6309938184e159d047.pdf",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que suggère la formule « le consensus, ici, se cuisait à four chaud » ?",
+        "cs": "Co naznačuje formulace „le consensus, ici, se cuisait à four chaud“?"
+      },
+      "options": {
+        "fr": [
+          "L'accord sur la baguette semble aussi naturel que sa cuisson, sans débat.",
+          "Le débat sur la baguette est très violent.",
+          "Les boulangers cuisent la baguette sans consulter personne."
+        ],
+        "cs": [
+          "Shoda o bagetě působí stejně přirozeně jako její pečení, bez debaty.",
+          "Debata o bagetě je velmi prudká.",
+          "Pekaři pečou bagetu, aniž by se s kýmkoli radili."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "La phrase précède : une des rares choses sur lesquelles on tombe d'accord « sans même avoir à en discuter ».",
+        "cs": "Věta předchází: jedna z mála věcí, na nichž se shodnou, „aniž by o tom museli diskutovat“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire l'auteur par « belle comme tout ce qui n'a pas besoin de preuves » à propos de la légende de Napoléon ?",
+        "cs": "Co autor myslí slovy „belle comme tout ce qui n'a pas besoin de preuves“ o legendě o Napoleonovi?"
+      },
+      "options": {
+        "fr": [
+          "Elle est prouvée par les archives.",
+          "Elle a été inventée par les historiens.",
+          "Son charme tient à ce qu'elle n'est pas démontrée, et la preuve lui est indifférente."
+        ],
+        "cs": [
+          "Je doložena archivy.",
+          "Vymysleli ji historici.",
+          "Její půvab spočívá v tom, že není doložena, a důkazy jí nechybějí."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Le texte précise que l'Histoire n'a jamais confirmé cette anecdote : c'est une légende.",
+        "cs": "Text uvádí, že Dějiny tuto anekdotu nikdy nepotvrdily: je to legenda."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie « on a couronné une main » dans la section sur l'UNESCO ?",
+        "cs": "Co znamená „on a couronné une main“ v oddílu o UNESCO?"
+      },
+      "options": {
+        "fr": [
+          "L'UNESCO a récompensé un boulanger précis.",
+          "On honore le geste et le savoir-faire humains, pas l'objet.",
+          "Le pain a été classé monument historique."
+        ],
+        "cs": [
+          "UNESCO odměnilo jednoho konkrétního pekaře.",
+          "Oceňuje se lidské gesto a um, ne předmět.",
+          "Chléb byl prohlášen za historickou památku."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« L'organisation ne protège pas un produit, mais un savoir-faire et une pratique sociale. »",
+        "cs": "Text: organizace nechrání výrobek, ale dovednost a společenskou praxi."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que sous-entend l'auteur en disant que la gloire du lauréat « se compte en saisons plutôt qu'en siècles » ?",
+        "cs": "Co autor naznačuje, když říká, že sláva vítěze „se compte en saisons plutôt qu'en siècles“?"
+      },
+      "options": {
+        "fr": [
+          "Que le titre reste acquis pour des siècles.",
+          "Que le concours a lieu chaque saison.",
+          "Que le titre est éphémère, valable un an."
+        ],
+        "cs": [
+          "Že titul zůstává platný po staletí.",
+          "Že soutěž se koná každou sezonu.",
+          "Že titul je pomíjivý, platí jeden rok."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Le lauréat est fournisseur de l'Élysée seulement « pour un an ».",
+        "cs": "Vítěz je dodavatelem Elysejského paláce jen „na rok“."
+      }
+    }
   ]
 }

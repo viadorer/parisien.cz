@@ -93,5 +93,107 @@
     "https://www.centrepompidou.fr/fr/recherche/oeuvres?terms=Kupka",
     "https://monumentum.fr/monument-historique/pa00088439/paris-5e-arrondissement-hotel-au-fond-du-jardin",
     "https://emuseum.mfah.org/objects/57251/model-posing-in-muchas-studio-rue-du-val-de-grace-paris"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Comment comprendre « le hasard a sonné, certes, mais il n'a frappé qu'à la porte d'un homme qui avait fait ses classes » ?",
+        "cs": "Jak rozumět větě „le hasard a sonné, certes, mais il n'a frappé qu'à la porte d'un homme qui avait fait ses classes“?"
+      },
+      "options": {
+        "fr": [
+          "La chance n'a profité qu'à quelqu'un qui s'y était préparé.",
+          "Mucha a refusé d'abord la commande.",
+          "Sarah Bernhardt a rendu visite à Mucha en personne.",
+          "Le succès de Mucha est entièrement dû au hasard."
+        ],
+        "cs": [
+          "Štěstí prospělo jen někomu, kdo byl připraven.",
+          "Mucha zakázku nejdřív odmítl.",
+          "Sarah Bernhardtová Muchu osobně navštívila.",
+          "Muchův úspěch je zcela dílem náhody."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Le hasard n'a frappé qu'à la porte d'un homme « qui avait fait ses classes » : la chance suppose la préparation.",
+        "cs": "Náhoda zaklepala jen u někoho, „qui avait fait ses classes“: štěstí předpokládá přípravu."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel est le ton de « curieux itinéraire pour un souvenir parisien » à propos de la photographie de l'atelier ?",
+        "cs": "Jaký je tón věty „curieux itinéraire pour un souvenir parisien“ o fotografii ateliéru?"
+      },
+      "options": {
+        "fr": [
+          "Un reproche adressé au musée de Houston.",
+          "Une critique du manque de protection du bâtiment.",
+          "Un étonnement amusé : la photo d'un lieu parisien est conservée aux États-Unis.",
+          "Une preuve que l'atelier est ouvert au public."
+        ],
+        "cs": [
+          "Výtka muzeu v Houstonu.",
+          "Kritika nedostatečné ochrany budovy.",
+          "Pobavené překvapení: snímek pařížského místa je uložen ve Spojených státech.",
+          "Důkaz, že ateliér je přístupný veřejnosti."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "La photographie « dort au Museum of Fine Arts de Houston » : l'adjectif « curieux » exprime un léger étonnement ironique.",
+        "cs": "Fotografie „dort au Museum of Fine Arts de Houston“: přídavné jméno „curieux“ vyjadřuje mírně ironické podivení."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que suggère l'image de la porte qu'on « rouvre longtemps après le départ de l'invité » à propos de la nationalité de Kundera ?",
+        "cs": "Co naznačuje obraz dveří, které se „znovu otevřou dlouho po odchodu hosta“, pokud jde o Kunderovo občanství?"
+      },
+      "options": {
+        "fr": [
+          "Un geste spontané et immédiat de la République tchèque.",
+          "Un geste tardif, qui arrive bien après l'exil.",
+          "Une décision que Kundera a lui-même demandée.",
+          "Une rupture définitive entre Kundera et son pays."
+        ],
+        "cs": [
+          "Spontánní a okamžitý čin České republiky.",
+          "Pozdní gesto, které přichází dlouho po exilu.",
+          "Rozhodnutí, o které sám Kundera požádal.",
+          "Definitivní rozchod Kundery s jeho zemí."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "La nationalité est rendue en 2019, longtemps après la déchéance de 1979 : le geste est tardif.",
+        "cs": "Občanství mu bylo vráceno v roce 2019, dlouho po odebrání v roce 1979: gesto je pozdní."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie la conclusion sur le « double emploi dont peu de capitales peuvent se prévaloir » ?",
+        "cs": "Co znamená závěr o „dvojí funkci, kterou se může pochlubit málokteré hlavní město“?"
+      },
+      "options": {
+        "fr": [
+          "Paris a deux adresses pour le Centre tchèque.",
+          "La plaque a été posée deux fois.",
+          "Les artistes ont quitté Paris deux fois.",
+          "Paris a été à la fois une vitrine pour les artistes et un abri pour des projets politiques."
+        ],
+        "cs": [
+          "Paříž má pro České centrum dvě adresy.",
+          "Pamětní deska byla odhalena dvakrát.",
+          "Umělci Paříž opustili dvakrát.",
+          "Paříž byla zároveň výkladní skříní pro umělce a útočištěm pro politické projekty."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« …la ville aura donc été tour à tour vitrine pour les artistes et abri pour les projets politiques. »",
+        "cs": "„…la ville aura donc été tour à tour vitrine pour les artistes et abri pour les projets politiques.“"
+      }
+    }
   ]
 }

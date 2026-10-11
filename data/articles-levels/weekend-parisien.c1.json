@@ -89,5 +89,107 @@
     "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
     "https://www.paris.fr",
     "https://www.parisinfo.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que veut dire l'expression « un canal né de la soif » ?",
+        "cs": "Co znamená výraz „kanál zrozený ze žízně“?"
+      },
+      "options": {
+        "fr": [
+          "Le canal a été construit pour les amateurs d'apéritif.",
+          "Le canal servait à irriguer des vignes.",
+          "Le canal a été creusé par des ouvriers assoiffés.",
+          "Le canal devait remédier au manque d'eau potable de Paris."
+        ],
+        "cs": [
+          "Kanál byl postaven pro milovníky aperitivu.",
+          "Kanál sloužil k zavlažování vinic.",
+          "Kanál vykopali žíznivě dělníci.",
+          "Kanál měl řešit nedostatek pitné vody v Paříži."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Il n'a pas été creusé pour les amateurs d'apéritif : Bonaparte voulait remédier au manque d'eau potable.",
+        "cs": "Nebyl vykopán pro milovníky aperitivu: Bonaparte chtěl řešit nedostatek pitné vody."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que précise le texte sur le décor du canal dans l'*Hôtel du Nord* ?",
+        "cs": "Co text uvádí o kulisách kanálu ve filmu *Hôtel du Nord*?"
+      },
+      "options": {
+        "fr": [
+          "Le film a été tourné sur place, sur le quai.",
+          "Il a été reconstitué en studio à Billancourt par Alexandre Trauner.",
+          "Il a été dessiné par Haussmann.",
+          "Il date du roman de 1929."
+        ],
+        "cs": [
+          "Film se natáčel na místě, na nábřeží.",
+          "Byly zrekonstruovány ve studiu v Billancourtu Alexandrem Traunerem.",
+          "Nakreslil ho Haussmann.",
+          "Pochází z románu z roku 1929."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Le décor du canal fut reconstitué en studio à Billancourt par Alexandre Trauner.",
+        "cs": "Kulisy kanálu postavil ve studiu v Billancourtu Alexandre Trauner."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que suggère le titre « la revanche d'une décharge » ?",
+        "cs": "Co naznačuje titulek „pomsta skládky“?"
+      },
+      "options": {
+        "fr": [
+          "Le parc a toujours été un jardin d'agrément.",
+          "Haussmann a dessiné seul le parc.",
+          "Un site de gibet, de voirie et de carrière est devenu un parc dont rien ne trahit le passé.",
+          "Le nom « Chauve-Mont » vient d'un roi chauve."
+        ],
+        "cs": [
+          "Park byl odjakživa okrasnou zahradou.",
+          "Park navrhl Haussmann sám.",
+          "Místo šibenice, kafilérky a lomu se stalo parkem, který nic z minulosti neprozradí.",
+          "Jméno „Chauve-Mont“ pochází od plešatého krále."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Rien ne laisse deviner ce qu'il fut : gibet de Montfaucon, voirie, carrière.",
+        "cs": "Nic neprozrazuje, čím býval: šibenice v Montfauconu, kafilérka, lom."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que laisse entendre la mention de la Commune libre d'Aligre ?",
+        "cs": "Co naznačuje zmínka o Commune libre d'Aligre?"
+      },
+      "options": {
+        "fr": [
+          "Le quartier, longtemps populaire, garde une vie associative et une identité propre.",
+          "Un régime politique indépendant gouverne le marché.",
+          "Le marché est réservé aux membres de l'association.",
+          "Le marché est devenu un musée sans vie."
+        ],
+        "cs": [
+          "Čtvrť, dlouho lidová, si uchovává spolkový život a vlastní identitu.",
+          "Trh řídí nezávislý politický režim.",
+          "Trh je vyhrazen členům sdružení.",
+          "Trh se stal mrtvým muzeem."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Un quartier longtemps populaire, que l'association de la Commune libre d'Aligre anime encore.",
+        "cs": "Dlouho lidová čtvrť, kterou sdružení Commune libre d'Aligre dodnes oživuje."
+      }
+    }
   ]
 }

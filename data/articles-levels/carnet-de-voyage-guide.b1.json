@@ -76,5 +76,107 @@
     "https://creativecommons.org/licenses/by-sa/4.0/deed.cs",
     "https://commons.wikimedia.org/wiki/Commons:Licensing",
     "https://fr.wikipedia.org/wiki/Imparfait"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi une phrase tchèque peut-elle devenir maladroite en français ?",
+        "cs": "Proč česká věta může být ve francouzštině neobratná?"
+      },
+      "options": {
+        "fr": [
+          "Parce que le tchèque a moins de mots.",
+          "Parce qu'on la copie telle quelle, sans la reformuler.",
+          "Parce que le traducteur automatique est trop rapide.",
+          "Parce que les phrases tchèques sont trop courtes."
+        ],
+        "cs": [
+          "Protože čeština má méně slov.",
+          "Protože ji člověk zkopíruje tak, jak je, bez přeformulování.",
+          "Protože automatický překladač je příliš rychlý.",
+          "Protože české věty jsou příliš krátké."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Écrire en deux langues » : elle devient maladroite « si on la copie telle quelle ».",
+        "cs": "Oddíl „Psaní ve dvou jazycích“: působí neobratně, když ji jen okopírujete."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire « Mieux vaut une phrase en moins qu'une erreur en plus » ?",
+        "cs": "Co znamená věta „Raději o větu méně než o chybu víc“?"
+      },
+      "options": {
+        "fr": [
+          "Il vaut mieux écrire moins que publier une information fausse.",
+          "Il faut toujours écrire des phrases très courtes.",
+          "Il faut ajouter une erreur dans chaque texte.",
+          "Il est interdit d'écrire plus de dix phrases."
+        ],
+        "cs": [
+          "Je lepší napsat méně než zveřejnit nepravdivou informaci.",
+          "Je třeba psát vždy velmi krátké věty.",
+          "Do každého textu je třeba přidat chybu.",
+          "Je zakázáno psát víc než deset vět."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "La phrase suit le conseil de vérifier les faits sur un site officiel.",
+        "cs": "Věta následuje po radě ověřovat fakta na oficiálním webu."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle est la différence entre le passé composé et l'imparfait ?",
+        "cs": "Jaký je rozdíl mezi passé composé a imparfait?"
+      },
+      "options": {
+        "fr": [
+          "Le passé composé décrit les habitudes ; l'imparfait donne les événements.",
+          "Les deux temps ont exactement le même emploi.",
+          "Le passé composé est réservé aux textes courts.",
+          "Le passé composé donne les actions terminées ; l'imparfait donne le décor et les habitudes."
+        ],
+        "cs": [
+          "Passé composé popisuje zvyky; imparfait události.",
+          "Oba časy se používají úplně stejně.",
+          "Passé composé je vyhrazeno krátkým textům.",
+          "Passé composé vyjadřuje dokončené děje; imparfait kulisy a zvyky."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section « Raconter en français » : événement (passé composé) / décor, habitude, description (imparfait).",
+        "cs": "Oddíl „Vyprávění ve francouzštině“: událost (passé composé) / kulisy, zvyk, popis (imparfait)."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que faut-il faire si quelqu'un est reconnaissable dans le texte ou sur une photo ?",
+        "cs": "Co je třeba udělat, když je ve vašem textu nebo na fotce někdo rozpoznatelný?"
+      },
+      "options": {
+        "fr": [
+          "Mettre son nom en gras.",
+          "Demander son accord.",
+          "Rien, si la photo est belle.",
+          "Envoyer la photo sans texte."
+        ],
+        "cs": [
+          "Dát jeho jméno tučně.",
+          "Zeptat se na souhlas.",
+          "Nic, pokud je fotka hezká.",
+          "Poslat fotku bez textu."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« si quelqu'un est reconnaissable […], demandez son accord »",
+        "cs": "Je-li někdo rozpoznatelný, zeptejte se na jeho souhlas."
+      }
+    }
   ]
 }

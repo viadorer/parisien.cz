@@ -9,6 +9,12 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const culture = rd('culture.json'), food = rd('food.json');
 const groups = [['museums', rd('museums.json')], ['places', rd('places.json')], ['quartiers', rd('quartiers.json')],
   ['cafes', food.cafes], ['markets', food.markets], ['stage', culture.stage], ['literature', culture.literature], ['cinema', culture.cinema]];
+import { readdirSync } from 'node:fs';
+const routeStops = [];
+if (existsSync(`${ROOT}data/itineraries`)) for (const f of readdirSync(`${ROOT}data/itineraries`).filter((x) => x.endsWith('.json'))) {
+  const r = JSON.parse(readFileSync(`${ROOT}data/itineraries/${f}`, 'utf8'));
+  (r.stops || []).forEach((st, i) => { if (!st.ref && st.query) routeStops.push({ key: `route:${r.id}:${i}`, query: st.query }); });
+}
 const BBOX = { lat: [48.78, 48.95], lon: [2.2, 2.5] };   // Paříž a těsné okolí
 const EXTRA = { versailles: 'Château de Versailles' };
 for (const [g, arr] of groups) for (const it of arr || []) {
@@ -32,6 +38,21 @@ for (const [g, arr] of groups) for (const it of arr || []) {
     out[key] = { lat: +lat.toFixed(5), lon: +lon.toFixed(5), src: 'osm', ...(inside ? {} : { check: true }), found: j[0].display_name.slice(0, 80) };
   } else out[key] = { check: true, missing: true };
   console.log(key, out[key].check ? 'CHECK' : 'ok', out[key].found || '');
+  await sleep(1100);
+}
+for (const rs of routeStops) {
+  if (out[rs.key]?.lat) continue;
+  let j = [];
+  for (let a = 0; a < 4; a++) {
+    const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=${encodeURIComponent(rs.query)}`, { headers: { 'User-Agent': 'parisien.cz-school-project/1.0 (info@parisien.cz)' } });
+    if (r.ok) { j = await r.json(); break; }
+    await sleep(5000 * (a + 1));
+  }
+  if (j[0]) {
+    const lat = +j[0].lat, lon = +j[0].lon, inside = lat > BBOX.lat[0] && lat < BBOX.lat[1] && lon > BBOX.lon[0] && lon < BBOX.lon[1];
+    out[rs.key] = { lat: +lat.toFixed(5), lon: +lon.toFixed(5), src: 'osm', ...(inside ? {} : { check: true }), found: j[0].display_name.slice(0, 80) };
+  } else out[rs.key] = { check: true, missing: true };
+  console.log(rs.key, rs.query, '->', out[rs.key].check ? 'CHECK' : 'ok', out[rs.key].found || '');
   await sleep(1100);
 }
 writeFileSync(`${ROOT}data/coords.json`, JSON.stringify(out, null, 1));

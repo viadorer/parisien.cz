@@ -1,0 +1,253 @@
+{
+  "id": "restaurant-reservation-telephone",
+  "level": "A2",
+  "title": {
+    "fr": "Une réservation par téléphone",
+    "cs": "Telefonická rezervace stolu"
+  },
+  "scene": {
+    "fr": "Une femme téléphone à un restaurant de quartier pour réserver une table.",
+    "cs": "Žena telefonuje do čtvrtní restaurace a rezervuje stůl."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le serveur",
+        "cs": "Číšník"
+      },
+      "fr": "Restaurant Le Petit Zinc, bonjour !",
+      "cs": "Restaurace Le Petit Zinc, dobrý den!"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'appelante",
+        "cs": "Volající"
+      },
+      "fr": "Bonjour monsieur. Je voudrais réserver une table pour samedi soir, s'il vous plaît.",
+      "cs": "Dobrý den, pane. Chtěla bych rezervovat stůl na sobotu večer, prosím."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le serveur",
+        "cs": "Číšník"
+      },
+      "fr": "Oui, pour combien de personnes ?",
+      "cs": "Ano, pro kolik osob?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'appelante",
+        "cs": "Volající"
+      },
+      "fr": "Pour quatre personnes.",
+      "cs": "Pro čtyři osoby."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le serveur",
+        "cs": "Číšník"
+      },
+      "fr": "Et à quelle heure ?",
+      "cs": "A na kolik hodin?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'appelante",
+        "cs": "Volající"
+      },
+      "fr": "Vers vingt heures, si c'est possible.",
+      "cs": "Asi na osmou, jestli je to možné."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le serveur",
+        "cs": "Číšník"
+      },
+      "fr": "Un instant, je regarde… Oui, c'est possible. Je peux avoir votre nom ?",
+      "cs": "Okamžik, podívám se… Ano, to jde. Mohu poprosit o vaše jméno?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'appelante",
+        "cs": "Volající"
+      },
+      "fr": "Je m'appelle Dvořáková. Je vous l'épelle : D, V, O, R, A, K, O, V, A.",
+      "cs": "Jmenuji se Dvořáková. Hláskuji: D, V, O, R, A, K, O, V, A."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le serveur",
+        "cs": "Číšník"
+      },
+      "fr": "Très bien. Et un numéro de téléphone, pour la réservation ?",
+      "cs": "Dobře. A telefonní číslo k rezervaci?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'appelante",
+        "cs": "Volající"
+      },
+      "fr": "Oui, c'est le 06 12 34 56 78.",
+      "cs": "Ano, je to 06 12 34 56 78."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le serveur",
+        "cs": "Číšník"
+      },
+      "fr": "Merci. Vous préférez la salle ou la terrasse ?",
+      "cs": "Děkuji. Chcete raději sál, nebo terasu?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'appelante",
+        "cs": "Volající"
+      },
+      "fr": "La salle, s'il vous plaît. Il fait un peu frais le soir.",
+      "cs": "Sál, prosím. Večer je trochu chladno."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le serveur",
+        "cs": "Číšník"
+      },
+      "fr": "Pas de problème. C'est noté : samedi, vingt heures, quatre personnes.",
+      "cs": "Poznamenáno: sobota, 20 hodin, čtyři osoby."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'appelante",
+        "cs": "Volající"
+      },
+      "fr": "Merci beaucoup, à samedi !",
+      "cs": "Moc děkuji, na viděnou v sobotu!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "réserver une table",
+      "cs": "rezervovat stůl"
+    },
+    {
+      "fr": "une réservation",
+      "cs": "rezervace"
+    },
+    {
+      "fr": "pour combien de personnes ?",
+      "cs": "pro kolik osob?"
+    },
+    {
+      "fr": "vers vingt heures",
+      "cs": "kolem osmé večer (20 h)"
+    },
+    {
+      "fr": "Un instant.",
+      "cs": "Okamžik."
+    },
+    {
+      "fr": "le numéro de téléphone",
+      "cs": "telefonní číslo"
+    },
+    {
+      "fr": "la salle",
+      "cs": "sál (vnitřní prostor restaurace)"
+    },
+    {
+      "fr": "la terrasse",
+      "cs": "terasa"
+    },
+    {
+      "fr": "C'est noté.",
+      "cs": "Poznamenáno."
+    }
+  ],
+  "tip": {
+    "fr": "À l'oral, on dit aussi bien « huit heures du soir » que « vingt heures » (20 h). Le format sur 24 heures est très courant pour les horaires et les réservations.",
+    "cs": "V mluvené řeči se říká „huit heures du soir“ stejně jako „vingt heures“ (20 h). Zápis na 24 hodin je velmi běžný u rozvrhů a rezervací."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Pour quel jour la femme réserve-t-elle ?",
+        "cs": "Na který den žena rezervuje?"
+      },
+      "options": {
+        "fr": [
+          "Vendredi soir",
+          "Samedi soir",
+          "Dimanche midi"
+        ],
+        "cs": [
+          "Pátek večer",
+          "Sobotu večer",
+          "Neděli v poledne"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Elle dit : « pour samedi soir ».",
+        "cs": "Říká: „pour samedi soir“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Combien de personnes viennent dîner ?",
+        "cs": "Kolik osob přijde na večeři?"
+      },
+      "options": {
+        "fr": [
+          "Deux",
+          "Trois",
+          "Quatre"
+        ],
+        "cs": [
+          "Dvě",
+          "Tři",
+          "Čtyři"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Pour quatre personnes ».",
+        "cs": "„Pour quatre personnes“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi choisit-elle la salle ?",
+        "cs": "Proč si vybere sál?"
+      },
+      "options": {
+        "fr": [
+          "La terrasse est complète.",
+          "Le soir, il fait un peu frais.",
+          "Elle aime la musique."
+        ],
+        "cs": [
+          "Terasa je obsazená.",
+          "Večer je trochu chladno.",
+          "Má ráda hudbu."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Elle dit : « Il fait un peu frais le soir ».",
+        "cs": "Říká: „Il fait un peu frais le soir“."
+      }
+    }
+  ]
+}

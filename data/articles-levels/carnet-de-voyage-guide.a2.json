@@ -68,5 +68,103 @@
     "https://creativecommons.org/licenses/by-sa/4.0/deed.cs",
     "https://commons.wikimedia.org/wiki/Commons:Licensing",
     "https://fr.wikipedia.org/wiki/Imparfait"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Qu'est-ce qu'il faut pour écrire un carnet de voyage ?",
+        "cs": "Co je potřeba k napsání cestopisu?"
+      },
+      "options": {
+        "fr": [
+          "Un bon regard et des détails précis.",
+          "Être un écrivain connu.",
+          "Un appareil photo professionnel.",
+          "Un long séjour à Paris."
+        ],
+        "cs": [
+          "Dobré oko a přesné detaily.",
+          "Být známým spisovatelem.",
+          "Profesionální fotoaparát.",
+          "Dlouhý pobyt v Paříži."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Vous n'avez pas besoin d'être écrivain. Il faut un bon regard et des détails précis. »",
+        "cs": "„Nemusíte být spisovatel. Potřebujete dobré oko a přesné detaily.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que donne-t-on à la place des prix et des horaires ?",
+        "cs": "Co se uvádí místo cen a otevíracích dob?"
+      },
+      "options": {
+        "fr": [
+          "Le site officiel.",
+          "Le numéro de téléphone du guide.",
+          "Le nom du restaurant."
+        ],
+        "cs": [
+          "Oficiální web.",
+          "Telefonní číslo průvodce.",
+          "Název restaurace."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Conseil pratique : « N'écrivez pas les prix ni les horaires, mais donnez le site officiel. »",
+        "cs": "Praktická rada: nepište ceny ani doby, ale uveďte oficiální web."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment écrit-on la deuxième version du texte ?",
+        "cs": "Jak se píše druhá verze textu?"
+      },
+      "options": {
+        "fr": [
+          "Avec d'autres mots, sans traduire mot à mot.",
+          "Avec une machine, sans relecture.",
+          "En copiant la première version."
+        ],
+        "cs": [
+          "Jinými slovy, bez překladu slovo za slovem.",
+          "Strojem, bez kontroly.",
+          "Zkopírováním první verze."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Deux langues » : « Écrivez la deuxième version avec d'autres mots. Ne traduisez pas mot à mot. »",
+        "cs": "Oddíl „Dva jazyky“: druhou verzi napište jinými slovy, nepřekládejte slovo za slovem."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel temps donne les événements ?",
+        "cs": "Který čas vyjadřuje události?"
+      },
+      "options": {
+        "fr": [
+          "L'imparfait.",
+          "Le présent.",
+          "Le passé composé.",
+          "Le futur."
+        ],
+        "cs": [
+          "Imparfait.",
+          "Přítomný čas.",
+          "Passé composé.",
+          "Budoucí čas."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« Le passé composé donne les événements. »",
+        "cs": "„Passé composé vyjadřuje události.“"
+      }
+    }
   ]
 }

@@ -89,5 +89,107 @@
     "https://en.wikipedia.org/wiki/The_Arcades_Project",
     "https://www.routard.com/fr/guide/france/ile-de-france/paris/2eme-arrondissement/les-passages",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que suggère l'image des passants « collés au mur comme des timbres à l'enveloppe » ?",
+        "cs": "Co naznačuje obraz chodců „přilepených ke zdem jako známky na obálce“?"
+      },
+      "options": {
+        "fr": [
+          "Qu'ils lisaient des affiches collées sur les murs",
+          "Qu'ils attendaient le courrier devant la poste",
+          "Qu'ils étaient serrés contre le mur pour éviter les voitures et la boue",
+          "Qu'ils posaient pour des peintres"
+        ],
+        "cs": [
+          "Že četli plakáty nalepené na zdech",
+          "Že čekali na poštu před poštovním úřadem",
+          "Že byli přitisknutí ke zdi, aby se vyhnuli kočárům a blátu",
+          "Že pózovali malířům"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Introduction : la boue projetée par les voitures à cheval oblige les passants à se coller au mur.",
+        "cs": "Úvod: bláto rozstřikované kočáry nutí chodce tisknout se ke zdi."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire l'auteur en écrivant que la ville « vient d'inventer l'antichambre du grand magasin » ?",
+        "cs": "Co autor míní větou, že město „právě vynalezlo předsíň obchodního domu“?"
+      },
+      "options": {
+        "fr": [
+          "Les passages annoncent déjà le grand magasin et le plaisir de regarder les vitrines",
+          "Les passages ont été construits à l'intérieur de grands magasins",
+          "Les grands magasins ont remplacé les passages en 1831",
+          "Les passages servaient de salles d'attente"
+        ],
+        "cs": [
+          "Pasáže už předznamenávají obchodní dům a potěšení z prohlížení výloh",
+          "Pasáže byly postaveny uvnitř obchodních domů",
+          "Obchodní domy nahradily pasáže roku 1831",
+          "Pasáže sloužily jako čekárny"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Introduction : on entre pour s'abriter, on reste par plaisir ; le promeneur « invente le lèche-vitrines ».",
+        "cs": "Úvod: člověk vstoupí kvůli úkrytu, zůstane z potěšení; chodec „vynalezl okukování výloh“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi, selon l'auteur, l'inachèvement du livre de Benjamin lui donne-t-il « un air de vérité » ?",
+        "cs": "Proč podle autora dodává nedokončenost Benjaminově knize „na pravdivosti“?"
+      },
+      "options": {
+        "fr": [
+          "Parce que Benjamin est mort avant d'avoir relu son manuscrit",
+          "Parce que les éditeurs ont refusé de le terminer",
+          "Parce que Bataille y a ajouté ses propres notes",
+          "Parce que son sujet, un inventaire inépuisable, ne se laisse pas clore"
+        ],
+        "cs": [
+          "Protože Benjamin zemřel dřív, než si rukopis přečetl",
+          "Protože vydavatelé odmítli knihu dokončit",
+          "Protože do ní Bataille přidal své poznámky",
+          "Protože její téma, nevyčerpatelný soupis, nelze uzavřít"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section « Le philosophe et la vitrine » : « comment terminer un ouvrage dont le sujet est l'inventaire inépuisable ? »",
+        "cs": "Část „Filozof a výloha“: jak uzavřít dílo, jehož tématem je nevyčerpatelný soupis?"
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand l'auteur dit que « une vingtaine » a l'avantage de « n'engager personne », que veut-il dire ?",
+        "cs": "Co autor míní, když říká, že „kolem dvaceti“ má tu přednost, že „nikoho k ničemu nezavazuje“?"
+      },
+      "options": {
+        "fr": [
+          "Que personne n'est responsable de la disparition des passages",
+          "Que l'expression est assez vague pour ne contredire aucune des listes",
+          "Que les guides interdisent de donner un chiffre précis",
+          "Que les passages n'appartiennent à personne"
+        ],
+        "cs": [
+          "Že nikdo neodpovídá za zánik pasáží",
+          "Že je výraz dost vágní, aby žádnému ze seznamů neodporoval",
+          "Že průvodci zakazují uvádět přesné číslo",
+          "Že pasáže nepatří nikomu"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Les rescapées » : chaque liste « trace sa frontière à sa guise », donc l'expression vague convient à toutes.",
+        "cs": "Část „Zachránění“: každý seznam vede hranici po svém, vágní formulace tedy vyhoví všem."
+      }
+    }
   ]
 }

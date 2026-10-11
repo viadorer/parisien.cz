@@ -1,0 +1,216 @@
+{
+  "id": "metro-ticket",
+  "level": "A1",
+  "title": {
+    "fr": "Au guichet du métro",
+    "cs": "U přepážky metra"
+  },
+  "scene": {
+    "fr": "Un voyageur demande un ticket et la bonne ligne pour aller au Louvre.",
+    "cs": "Cestující žádá o jízdenku a ptá se, kterou linkou se dostane k Louvru."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le voyageur",
+        "cs": "Cestující"
+      },
+      "fr": "Bonjour madame. Un ticket, s'il vous plaît.",
+      "cs": "Dobrý den, paní. Jednu jízdenku, prosím."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'employée",
+        "cs": "Zaměstnankyně"
+      },
+      "fr": "Bonjour. Pour une personne ?",
+      "cs": "Dobrý den. Pro jednu osobu?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le voyageur",
+        "cs": "Cestující"
+      },
+      "fr": "Oui, pour une personne.",
+      "cs": "Ano, pro jednu osobu."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'employée",
+        "cs": "Zaměstnankyně"
+      },
+      "fr": "Voilà votre ticket.",
+      "cs": "Tady je vaše jízdenka."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le voyageur",
+        "cs": "Cestující"
+      },
+      "fr": "Merci. Je vais au Louvre.",
+      "cs": "Děkuji. Jedu k Louvru."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le voyageur",
+        "cs": "Cestující"
+      },
+      "fr": "Quelle ligne, s'il vous plaît ?",
+      "cs": "Kterou linkou, prosím?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'employée",
+        "cs": "Zaměstnankyně"
+      },
+      "fr": "Prenez la ligne 1.",
+      "cs": "Jeďte linkou 1."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'employée",
+        "cs": "Zaměstnankyně"
+      },
+      "fr": "Descendez à Palais Royal.",
+      "cs": "Vystupte na stanici Palais Royal."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le voyageur",
+        "cs": "Cestující"
+      },
+      "fr": "Direction La Défense ?",
+      "cs": "Směr La Défense?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'employée",
+        "cs": "Zaměstnankyně"
+      },
+      "fr": "Oui, c'est ça. Bonne visite !",
+      "cs": "Ano, přesně tak. Příjemnou prohlídku!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "le métro",
+      "cs": "metro"
+    },
+    {
+      "fr": "le ticket",
+      "cs": "jízdenka"
+    },
+    {
+      "fr": "la ligne",
+      "cs": "linka"
+    },
+    {
+      "fr": "la direction",
+      "cs": "směr (podle konečné stanice)"
+    },
+    {
+      "fr": "prendre",
+      "cs": "jet (dopravním prostředkem), vzít si"
+    },
+    {
+      "fr": "descendre",
+      "cs": "vystoupit"
+    },
+    {
+      "fr": "une personne",
+      "cs": "jedna osoba"
+    },
+    {
+      "fr": "Bonne visite !",
+      "cs": "Příjemnou prohlídku!"
+    }
+  ],
+  "tip": {
+    "fr": "Dans le métro de Paris, on indique le sens avec le nom de la dernière station. Sur la ligne 1, il y a deux directions : La Défense et Château de Vincennes.",
+    "cs": "V pařížském metru se směr jízdy udává názvem konečné stanice. Na lince 1 jsou dva směry: La Défense a Château de Vincennes."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Où va le voyageur ?",
+        "cs": "Kam cestující jede?"
+      },
+      "options": {
+        "fr": [
+          "À la tour Eiffel",
+          "Au Louvre",
+          "À Montmartre"
+        ],
+        "cs": [
+          "K Eiffelově věži",
+          "K Louvru",
+          "Na Montmartre"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Il dit : « Je vais au Louvre ».",
+        "cs": "Říká: „Je vais au Louvre“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle ligne doit-il prendre ?",
+        "cs": "Kterou linku má použít?"
+      },
+      "options": {
+        "fr": [
+          "La ligne 4",
+          "La ligne 14",
+          "La ligne 1"
+        ],
+        "cs": [
+          "Linku 4",
+          "Linku 14",
+          "Linku 1"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "L'employée dit : « Prenez la ligne 1 ».",
+        "cs": "Zaměstnankyně říká: „Prenez la ligne 1“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Où doit-il descendre ?",
+        "cs": "Kde má vystoupit?"
+      },
+      "options": {
+        "fr": [
+          "À Palais Royal",
+          "À La Défense",
+          "À Châtelet"
+        ],
+        "cs": [
+          "Na Palais Royal",
+          "Na La Défense",
+          "Na Châtelet"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Descendez à Palais Royal ».",
+        "cs": "„Descendez à Palais Royal“."
+      }
+    }
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Ligne_1_du_m%C3%A9tro_de_Paris"
+  ]
+}

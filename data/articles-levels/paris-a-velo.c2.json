@@ -82,5 +82,99 @@
     "https://en.wikipedia.org/wiki/Coul%C3%A9e_verte_Ren%C3%A9-Dumont",
     "https://www.paris.fr/equipements/coulee-verte-rene-dumont-1772",
     "https://www.velib-metropole.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que suggère l'expression « curiosité dominicale » à propos du vélo avant 2015 ?",
+        "cs": "Co naznačuje výraz „curiosité dominicale“ o kole před rokem 2015?"
+      },
+      "options": {
+        "fr": [
+          "Qu'il était interdit le dimanche.",
+          "Qu'il était vu comme un loisir marginal, pas comme un vrai moyen de transport.",
+          "Qu'il était déjà le mode de transport principal."
+        ],
+        "cs": [
+          "Že bylo v neděli zakázáno.",
+          "Že bylo vnímáno jako okrajová zábava, ne skutečný dopravní prostředek.",
+          "Že už bylo hlavním dopravním prostředkem."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Le vélo est passé de « curiosité » à mode de déplacement qui compte.",
+        "cs": "Kolo přešlo z „kuriozity“ na dopravní prostředek, který se počítá."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie « un chiffre sans date ni source n'est qu'un slogan » ?",
+        "cs": "Co znamená „un chiffre sans date ni source n'est qu'un slogan“?"
+      },
+      "options": {
+        "fr": [
+          "Sans repères vérifiables, un chiffre n'informe pas, il sert seulement à convaincre.",
+          "Les slogans sont toujours exacts.",
+          "Les chiffres de Paris.fr sont des slogans."
+        ],
+        "cs": [
+          "Bez ověřitelných opor číslo neinformuje, jen přesvědčuje.",
+          "Slogany jsou vždy přesné.",
+          "Čísla z Paris.fr jsou slogany."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "L'auteur ajoute : avec date et source, le chiffre devient une information.",
+        "cs": "Autor dodává: s datem a zdrojem se číslo stává informací."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire la comparaison « des photographies et non des portraits » ?",
+        "cs": "Co znamená přirovnání „des photographies et non des portraits“?"
+      },
+      "options": {
+        "fr": [
+          "Ces chiffres montrent un instant précis et changent vite.",
+          "Ces chiffres sont illustrés par des photos.",
+          "Ces chiffres décrivent le caractère des Parisiens."
+        ],
+        "cs": [
+          "Tato čísla zachycují jeden okamžik a rychle se mění.",
+          "Tato čísla jsou doplněna fotografiemi.",
+          "Tato čísla popisují povahu Pařížanů."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "La phrase suivante : le site officiel donne la situation du moment.",
+        "cs": "Další věta: oficiální web uvádí aktuální situaci."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie « l'urgence, ici, a fait école » ?",
+        "cs": "Co znamená „l'urgence, ici, a fait école“?"
+      },
+      "options": {
+        "fr": [
+          "L'urgence a fermé des écoles.",
+          "Les coronapistes ont été supprimées.",
+          "Une mesure d'urgence est devenue un modèle durable."
+        ],
+        "cs": [
+          "Nouze zavřela školy.",
+          "Coronapistes byly zrušeny.",
+          "Nouzové opatření se stalo trvalým vzorem."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Contexte : la plupart des pistes provisoires ont été conservées.",
+        "cs": "Kontext: většina provizorních pruhů byla ponechána."
+      }
+    }
   ]
 }

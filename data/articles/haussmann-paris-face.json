@@ -26,5 +26,107 @@
   "https://www.paris.fr"
  ],
  "level": "B2",
- "base": "haussmann-paris-face"
+ "base": "haussmann-paris-face",
+ "questions": [
+  {
+   "q": {
+    "fr": "Que signifie l'idée que l'unité des toits parisiens « n'a rien de naturel » ?",
+    "cs": "Co znamená myšlenka, že jednota pařížských střech „nevznikla sama od sebe“?"
+   },
+   "options": {
+    "fr": [
+     "Elle vient de la pierre que l'on trouve autour de Paris.",
+     "Elle date du Moyen Âge.",
+     "Elle est le résultat d'un projet politique mené entre 1853 et 1870.",
+     "Elle est due au hasard des constructions."
+    ],
+    "cs": [
+     "Pochází z kamene, který se nachází kolem Paříže.",
+     "Pochází ze středověku.",
+     "Je výsledkem politického projektu z let 1853 až 1870.",
+     "Je dílem náhody při stavbách."
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Dans l'introduction : « Elle est le résultat d'un projet politique mené entre 1853 et 1870. »",
+    "cs": "V úvodu: „Je výsledkem politického projektu z let 1853 až 1870.“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Selon l'article, qu'est-ce qui donne aux rues cette silhouette régulière ?",
+    "cs": "Podle článku, co dává ulicím tuto pravidelnou siluetu?"
+   },
+   "options": {
+    "fr": [
+     "Le décret de 1859 sur la hauteur des façades par rapport à la largeur des rues.",
+     "Le choix d'un seul architecte pour tout Paris.",
+     "La création des 20 arrondissements en 1860.",
+     "Les balcons en fer forgé au cinquième étage."
+    ],
+    "cs": [
+     "Nařízení z roku 1859 o výšce průčelí vzhledem k šířce ulic.",
+     "Výběr jediného architekta pro celou Paříž.",
+     "Vznik 20 obvodů v roce 1860.",
+     "Železné balkony v pátém patře."
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Section « Ce qui a été construit » : le décret de 1859 permet des façades jusqu'à 20 mètres sur les rues de plus de 20 mètres.",
+    "cs": "Oddíl „Co se postavilo“: nařízení z roku 1859 dovoluje průčelí až 20 metrů v ulicích širších než 20 metrů."
+   }
+  },
+  {
+   "q": {
+    "fr": "Dans le texte, que désigne l'expression « étage noble » ?",
+    "cs": "Co v textu označuje výraz „étage noble“?"
+   },
+   "options": {
+    "fr": [
+     "Le rez-de-chaussée occupé par les commerces.",
+     "L'étage sous le toit où logeaient les domestiques.",
+     "Le dernier étage, avec la plus belle vue.",
+     "Le deuxième étage, avec les plus hauts plafonds et un balcon filant."
+    ],
+    "cs": [
+     "Přízemí s obchody.",
+     "Patro pod střechou, kde bydlelo služebnictvo.",
+     "Poslední patro s nejkrásnějším výhledem.",
+     "Druhé patro s nejvyššími stropy a pásovým balkonem."
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "Section « Comment reconnaître un immeuble haussmannien » : le deuxième étage, dit « étage noble », a les plus hauts plafonds et un balcon filant.",
+    "cs": "Oddíl „Jak poznat haussmannovský dům“: druhé patro, tzv. „étage noble“, má nejvyšší stropy a pásový balkon."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que pense l'article des critiques adressées à l'uniformité de Paris ?",
+    "cs": "Jak článek hodnotí kritiku jednotvárnosti Paříže?"
+   },
+   "options": {
+    "fr": [
+     "Elle est injustifiée, car tous les Parisiens aiment la ville.",
+     "Les deux regards, celui qui critique et celui qui admire la cohérence, sont légitimes.",
+     "Elle a disparu après la chute du préfet en 1870.",
+     "Elle ne concerne que les architectes d'aujourd'hui."
+    ],
+    "cs": [
+     "Je neopodstatněná, protože všichni Pařížané město milují.",
+     "Oba pohledy, kritický i obdivný vůči soudržnosti, jsou oprávněné.",
+     "Zmizela po pádu prefekta v roce 1870.",
+     "Týká se jen dnešních architektů."
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Section « Et aujourd'hui ? » : « Les deux regards sont légitimes » ; les critiques « n'ont pas disparu ».",
+    "cs": "Oddíl „A dnes?“: „Oba pohledy jsou oprávněné“; kritika „nezmizela“."
+   }
+  }
+ ]
 }

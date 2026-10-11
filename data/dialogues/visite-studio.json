@@ -1,0 +1,278 @@
+{
+  "id": "visite-studio",
+  "level": "B1",
+  "title": {
+    "fr": "La visite d'un studio",
+    "cs": "Prohlídka malého bytu"
+  },
+  "scene": {
+    "fr": "Une étudiante visite un petit studio meublé avec le propriétaire. Elle pose des questions avant de décider.",
+    "cs": "Studentka si s majitelem prohlíží malý zařízený byt. Než se rozhodne, klade otázky."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "L'étudiante",
+        "cs": "Studentka"
+      },
+      "fr": "Bonjour monsieur, merci de me recevoir. Je suis Camille, nous avons échangé par message.",
+      "cs": "Dobrý den, děkuji, že mě přijímáte. Jsem Camille, psali jsme si."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le propriétaire",
+        "cs": "Majitel"
+      },
+      "fr": "Bonjour Camille, enchanté. Entrez, je vous fais visiter. Alors, voici la pièce principale, avec le coin cuisine.",
+      "cs": "Dobrý den, Camille, těší mě. Pojďte dál, provedu vás. Tak tady je hlavní místnost s kuchyňským koutem."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "L'étudiante",
+        "cs": "Studentka"
+      },
+      "fr": "Il est plus lumineux que je ne pensais. La fenêtre donne sur quoi ?",
+      "cs": "Je světlejší, než jsem čekala. Kam se z okna vidí?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le propriétaire",
+        "cs": "Majitel"
+      },
+      "fr": "Sur la cour intérieure, donc c'est très calme. Vous ne verrez pas la rue, mais vous ne l'entendrez pas non plus.",
+      "cs": "Na vnitroblok, takže je tu velmi klid. Ulici neuvidíte, ale ani neuslyšíte."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "L'étudiante",
+        "cs": "Studentka"
+      },
+      "fr": "C'est un avantage ! Est-ce que les meubles sont compris ? Je vois un lit, un bureau et une armoire.",
+      "cs": "To je výhoda! Je nábytek v ceně? Vidím postel, psací stůl a skříň."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le propriétaire",
+        "cs": "Majitel"
+      },
+      "fr": "Oui, tout est compris, y compris la bouilloire et le micro-ondes. Il y a aussi un petit frigo sous le plan de travail.",
+      "cs": "Ano, všechno je v ceně, včetně rychlovarné konvice a mikrovlnky. Pod pracovní deskou je i malá lednička."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "L'étudiante",
+        "cs": "Studentka"
+      },
+      "fr": "Et la salle de bains ? Je peux la voir ?",
+      "cs": "A koupelna? Mohu se podívat?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le propriétaire",
+        "cs": "Majitel"
+      },
+      "fr": "Bien sûr, c'est derrière cette porte. Il y a une douche et des toilettes. Le chauffe-eau est neuf.",
+      "cs": "Samozřejmě, je za těmito dveřmi. Je tu sprcha a toaleta. Ohřívač vody je nový."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "L'étudiante",
+        "cs": "Studentka"
+      },
+      "fr": "Parfait. Une question importante : les charges sont comprises dans le loyer, ou je les paie à part ?",
+      "cs": "Skvělé. Důležitá otázka: jsou poplatky za služby zahrnuty v nájmu, nebo je platím zvlášť?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le propriétaire",
+        "cs": "Majitel"
+      },
+      "fr": "Ça dépend des charges. Je vous donne le détail par écrit, c'est plus clair. L'électricité, par exemple, se règle à part.",
+      "cs": "Záleží na druhu poplatků. Dám vám rozpis písemně, bude to přehlednější. Elektřina se například platí zvlášť."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "L'étudiante",
+        "cs": "Studentka"
+      },
+      "fr": "D'accord. Et pour le dossier, quels documents me faut-il ? Je suis étudiante étrangère.",
+      "cs": "Dobře. A jaké dokumenty potřebuji k žádosti? Jsem zahraniční studentka."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le propriétaire",
+        "cs": "Majitel"
+      },
+      "fr": "Une pièce d'identité, un justificatif d'inscription à l'université, et en général un garant. Ça peut être un parent.",
+      "cs": "Doklad totožnosti, potvrzení o zápisu na univerzitu a obvykle ručitele. Může to být rodič."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "L'étudiante",
+        "cs": "Studentka"
+      },
+      "fr": "Mes parents habitent à l'étranger. Est-ce que ça pose un problème ?",
+      "cs": "Moji rodiče bydlí v zahraničí. Je to problém?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le propriétaire",
+        "cs": "Majitel"
+      },
+      "fr": "Pas forcément, mais il faudra vérifier les papiers. Je vous conseille de relire le contrat avec soin avant de signer.",
+      "cs": "Ne nutně, ale doklady bude třeba ověřit. Doporučuji vám smlouvu před podpisem pozorně přečíst."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "L'étudiante",
+        "cs": "Studentka"
+      },
+      "fr": "Je comprends. Est-ce que je peux revenir une deuxième fois, en fin de journée, pour voir la lumière ?",
+      "cs": "Rozumím. Mohla bych přijít ještě podruhé, k večeru, abych viděla světlo?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le propriétaire",
+        "cs": "Majitel"
+      },
+      "fr": "Oui, bien sûr. Réfléchissez tranquillement et dites-moi quand vous êtes prête.",
+      "cs": "Ano, samozřejmě. V klidu si to promyslete a dejte mi vědět, až budete připravená."
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "le studio",
+      "cs": "garsonka, jednopokojový byt"
+    },
+    {
+      "fr": "meublé, meublée",
+      "cs": "zařízený (nábytkem)"
+    },
+    {
+      "fr": "la cour intérieure",
+      "cs": "vnitroblok, dvůr"
+    },
+    {
+      "fr": "le coin cuisine",
+      "cs": "kuchyňský kout"
+    },
+    {
+      "fr": "le loyer",
+      "cs": "nájem"
+    },
+    {
+      "fr": "les charges (f. pl.)",
+      "cs": "poplatky za služby"
+    },
+    {
+      "fr": "le garant",
+      "cs": "ručitel"
+    },
+    {
+      "fr": "le justificatif",
+      "cs": "doklad, potvrzení"
+    },
+    {
+      "fr": "le contrat",
+      "cs": "smlouva"
+    },
+    {
+      "fr": "lumineux, lumineuse",
+      "cs": "světlý"
+    }
+  ],
+  "tip": {
+    "fr": "Avant de louer, demandez toujours le détail des charges et lisez le contrat en entier. Pour des conseils sur le logement étudiant, consultez le site officiel du Crous de Paris.",
+    "cs": "Před pronájmem se vždy ptejte na rozpis poplatků a smlouvu si přečtěte celou. Rady k bydlení pro studenty najdete na oficiálním webu pařížského Crous."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Sur quoi donne la fenêtre du studio ?",
+        "cs": "Kam má okno bytu výhled?"
+      },
+      "options": {
+        "fr": [
+          "Sur la rue",
+          "Sur la cour intérieure",
+          "Sur un parc"
+        ],
+        "cs": [
+          "Na ulici",
+          "Na vnitroblok",
+          "Na park"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Le propriétaire répond : « Sur la cour intérieure, donc c'est très calme. »",
+        "cs": "Majitel odpovídá: na vnitroblok, takže je tu klid."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que dit le propriétaire à propos de l'électricité ?",
+        "cs": "Co říká majitel o elektřině?"
+      },
+      "options": {
+        "fr": [
+          "Elle est comprise dans le loyer.",
+          "Elle n'existe pas dans le studio.",
+          "Elle se paie à part."
+        ],
+        "cs": [
+          "Je zahrnuta v nájmu.",
+          "V bytě není.",
+          "Platí se zvlášť."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Il dit que l'électricité se règle à part.",
+        "cs": "Říká, že elektřina se platí zvlášť."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut faire Camille avant de décider ?",
+        "cs": "Co chce Camille udělat, než se rozhodne?"
+      },
+      "options": {
+        "fr": [
+          "Revenir une deuxième fois en fin de journée",
+          "Signer le contrat tout de suite",
+          "Visiter un autre studio le même jour"
+        ],
+        "cs": [
+          "Přijít podruhé k večeru",
+          "Hned podepsat smlouvu",
+          "Prohlédnout si téhož dne jiný byt"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Elle demande à revenir en fin de journée pour voir la lumière.",
+        "cs": "Žádá o druhou návštěvu k večeru, aby viděla světlo."
+      }
+    }
+  ],
+  "sources": [
+    "https://www.crous-paris.fr/"
+  ]
+}

@@ -78,5 +78,105 @@
     "https://apprendre.tv5monde.com/fr",
     "https://francaisfacile.rfi.fr/fr/",
     "https://www.ifp.cz/"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Selon le texte, qu'est-ce qui compte souvent plus que l'accent ?",
+        "cs": "Co podle textu často znamená víc než přízvuk?"
+      },
+      "options": {
+        "fr": [
+          "La politesse",
+          "La grammaire",
+          "Le vocabulaire",
+          "La rapidité"
+        ],
+        "cs": [
+          "Zdvořilost",
+          "Gramatika",
+          "Slovní zásoba",
+          "Rychlost řeči"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Dans l'introduction : la politesse « compte souvent plus que votre accent ».",
+        "cs": "V úvodu: zdvořilost „často znamená víc než váš přízvuk“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Avec qui utilise-t-on « vous » ?",
+        "cs": "S kým se používá „vous“ (vykání)?"
+      },
+      "options": {
+        "fr": [
+          "Seulement avec les amis et la famille",
+          "Seulement avec les enfants",
+          "Avec les inconnus, les serveurs et les personnes plus âgées"
+        ],
+        "cs": [
+          "Jen s přáteli a rodinou",
+          "Jen s dětmi",
+          "S cizími lidmi, číšníky a staršími lidmi"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Avec les inconnus, les serveurs et les personnes plus âgées, on utilise « vous ».",
+        "cs": "S neznámými, číšníky a staršími lidmi se vyká."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qu'un « noisette » ?",
+        "cs": "Co je „noisette“?"
+      },
+      "options": {
+        "fr": [
+          "Un café plus long",
+          "Un café avec un peu de lait",
+          "Un café au lait",
+          "Un petit expresso noir"
+        ],
+        "cs": [
+          "Prodloužená káva",
+          "Káva s trochou mléka",
+          "Káva s mlékem (café au lait)",
+          "Malé černé espresso"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Un noisette a un peu de lait.",
+        "cs": "Noisette má trochu mléka."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi un serveur peut-il répondre en anglais ?",
+        "cs": "Proč může číšník odpovědět anglicky?"
+      },
+      "options": {
+        "fr": [
+          "Il se moque de vous.",
+          "Il ne parle pas français.",
+          "Le français est interdit.",
+          "Il veut aller plus vite ou vous faire plaisir."
+        ],
+        "cs": [
+          "Dělá si z vás legraci.",
+          "Nemluví francouzsky.",
+          "Francouzština je zakázaná.",
+          "Chce to urychlit nebo vám udělat radost."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Ce n'est presque jamais une moquerie : le personnel veut aller plus vite ou vous faire plaisir.",
+        "cs": "Skoro nikdy to není posměch: personál chce být rychlejší nebo vám udělat radost."
+      }
+    }
   ]
 }

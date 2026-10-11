@@ -78,5 +78,99 @@
     "https://en.wikipedia.org/wiki/August_Zang",
     "https://cdn.paris.fr/presse/2024/04/18/4598f4f32bf1ca6309938184e159d047.pdf",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Quel paradoxe le premier paragraphe met-il en évidence ?",
+        "cs": "Jaký paradox zdůrazňuje první odstavec?"
+      },
+      "options": {
+        "fr": [
+          "Un consensus général repose sur un objet dont l'origine reste obscure.",
+          "Les Français mangent peu de pain malgré les statistiques.",
+          "La baguette divise les Français comme la politique."
+        ],
+        "cs": [
+          "Obecná shoda spočívá na předmětu, jehož původ zůstává nejasný.",
+          "Francouzi jedí málo chleba navzdory statistikám.",
+          "Bageta Francouze rozděluje jako politika."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Fin du paragraphe : le consensus repose sur un objet à l'origine « singulièrement obscure ».",
+        "cs": "Konec odstavce: shoda spočívá na předmětu s „pozoruhodně nejasným“ původem."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment l'auteur interprète-t-il la nuance de l'inscription à l'UNESCO ?",
+        "cs": "Jak autor vykládá odstín zápisu do UNESCO?"
+      },
+      "options": {
+        "fr": [
+          "Elle prouve que la recette de la baguette est désormais figée.",
+          "Elle réserve le titre de baguette aux boulangers primés.",
+          "Elle fait de la distinction une reconnaissance collective plutôt qu'un label commercial."
+        ],
+        "cs": [
+          "Dokazuje, že recept na bagetu je nyní zafixovaný.",
+          "Vyhrazuje označení bagety oceněným pekařům.",
+          "Činí z ocenění spíš společné uznání než obchodní značku."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Dernier paragraphe de la section : on a reçu la distinction comme une reconnaissance collective, non comme un label.",
+        "cs": "Poslední odstavec oddílu: ocenění bylo přijato jako společné uznání, ne jako značka."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que souligne l'auteur en parlant du « paradoxe » du décret de 1993 ?",
+        "cs": "Co autor zdůrazňuje, když mluví o „paradoxu“ dekretu z roku 1993?"
+      },
+      "options": {
+        "fr": [
+          "Le décret a fait disparaître les baguettes industrielles.",
+          "Le décret est resté ignoré des consommateurs.",
+          "Il a fallu un texte réglementaire pour protéger ce qui semblait évident."
+        ],
+        "cs": [
+          "Dekret způsobil zmizení průmyslových baget.",
+          "Dekret zůstal spotřebitelům neznámý.",
+          "K ochraně toho, co se zdálo samozřejmé, bylo zapotřebí předpisu."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Il a fallu un texte réglementaire pour protéger ce que l'on croyait relever de l'évidence. »",
+        "cs": "Text: bylo zapotřebí předpisu k ochraně toho, co se zdálo samozřejmé."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que rappellent, selon l'auteur, les changements du règlement du concours ?",
+        "cs": "Co podle autora připomínají změny pravidel soutěže?"
+      },
+      "options": {
+        "fr": [
+          "Que le jury n'est pas équitable.",
+          "Que l'excellence se définit par rapport à une époque.",
+          "Que les boulangers refusent toute règle."
+        ],
+        "cs": [
+          "Že porota není spravedlivá.",
+          "Že dokonalost se vymezuje vzhledem k určité době.",
+          "Že pekaři odmítají jakákoli pravidla."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Ces ajustements rappellent que l'excellence se définit toujours par rapport à une époque. »",
+        "cs": "Text: tyto úpravy připomínají, že dokonalost se vždy vymezuje vzhledem k době."
+      }
+    }
   ]
 }

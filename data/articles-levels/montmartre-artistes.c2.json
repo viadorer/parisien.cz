@@ -84,5 +84,107 @@
     "https://fr.wikipedia.org/wiki/Musée_de_Montmartre",
     "https://museedemontmartre.fr",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que suggère l'auteur en disant que la colline était « plus connue pour son vin que pour ses colères » avant 1871 ?",
+        "cs": "Co autor naznačuje, když říká, že kopec byl před rokem 1871 „známější vínem než hněvem“?"
+      },
+      "options": {
+        "fr": [
+          "Qu'elle n'avait pas encore de rôle politique notable",
+          "Que la Commune a interdit la production de vin",
+          "Que les vignerons s'étaient révoltés avant 1871",
+          "Que le vin de Montmartre était déjà célèbre dans le monde entier"
+        ],
+        "cs": [
+          "Že dosud neměla významnou politickou roli",
+          "Že Komuna zakázala výrobu vína",
+          "Že se vinaři vzbouřili už před rokem 1871",
+          "Že víno z Montmartru bylo už tehdy světoznámé"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Des ceps, des meules et du plâtre » : en 1871, l'insurrection fait entrer la colline dans l'histoire « par la porte des événements ».",
+        "cs": "Část „Révy, mlýnské kameny a sádra“: roku 1871 povstání uvedlo kopec do dějin „dveřmi událostí“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire l'auteur par « une évidence que nul n'a jamais signée » à propos de la légende de l'expiation ?",
+        "cs": "Co autor míní slovy „samozřejmost, kterou nikdo nikdy nepodepsal“ o legendě odčinění?"
+      },
+      "options": {
+        "fr": [
+          "Que Paul Abadie a refusé de signer les plans",
+          "Que l'Assemblée nationale a voté la loi sans signature",
+          "Que tout le monde l'admet sans que personne l'ait jamais établie officiellement",
+          "Que les historiens ont signé un accord à ce sujet"
+        ],
+        "cs": [
+          "Že Paul Abadie odmítl podepsat plány",
+          "Že Národní shromáždění schválilo zákon bez podpisu",
+          "Že to všichni přijímají, aniž to kdy někdo oficiálně doložil",
+          "Že historici o tom podepsali dohodu"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Une basilique et ses malentendus » : la légende s'est installée peu à peu ; les historiens en discutent et « rien dans la pierre ne la confirme ».",
+        "cs": "Část „Bazilika a její nedorozumění“: pověst se usadila pozvolna; historici o ní diskutují a „v kameni ji nic nepotvrzuje“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Selon l'auteur, qu'est-ce qui faisait du voisinage au Bateau-Lavoir « une école permanente » ?",
+        "cs": "Čím podle autora dělalo sousedství v Bateau-Lavoir „stálou školu“?"
+      },
+      "options": {
+        "fr": [
+          "La présence d'une école d'art dans l'immeuble",
+          "Les cours que donnait Picasso",
+          "Les expositions organisées par Max Jacob",
+          "La possibilité de regarder travailler l'autre, de le contredire et de lui emprunter quelque chose"
+        ],
+        "cs": [
+          "Přítomnost umělecké školy v domě",
+          "Hodiny, které vedl Picasso",
+          "Výstavy pořádané Maxem Jacobem",
+          "Možnost dívat se druhému pod ruce, odporovat mu a něco si od něj půjčit"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section sur les années d'artistes : la modicité des loyers rapprochait les artistes ; chacun pouvait « regarder travailler l'autre, le contredire et finir par lui emprunter quelque chose ».",
+        "cs": "Část o letech umělců: nízké nájmy sbližovaly umělce; každý se mohl dívat druhému pod ruce, odporovat mu a něco si od něj půjčit."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle conclusion l'auteur propose-t-il pour aimer Montmartre aujourd'hui ?",
+        "cs": "Jaký závěr autor navrhuje pro to, jak mít dnes Montmartre rád?"
+      },
+      "options": {
+        "fr": [
+          "Éviter la colline et rester dans le centre de Paris",
+          "Accepter qu'il soit à la fois carte postale et quartier où l'on vit, et choisir celui qu'on veut rencontrer",
+          "Ne visiter que la place du Tertre pour voir les portraitistes",
+          "Se concentrer uniquement sur l'histoire de l'art"
+        ],
+        "cs": [
+          "Vyhnout se kopci a zůstat v centru Paříže",
+          "Přijmout, že je zároveň pohlednicí i čtvrtí, kde se žije, a vybrat si, kterou tvář chceme potkat",
+          "Navštívit jen Place du Tertre kvůli portrétistům",
+          "Soustředit se výhradně na dějiny umění"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Paragraphe final avant les conseils pratiques : Montmartre est « une carte postale… et un quartier où l'on vit », à choisir selon l'heure.",
+        "cs": "Závěrečný odstavec před praktickými radami: Montmartre je „pohlednice… a čtvrť, kde se žije“, podle hodiny si lze vybrat."
+      }
+    }
   ]
 }

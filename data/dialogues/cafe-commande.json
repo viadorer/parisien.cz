@@ -1,0 +1,213 @@
+{
+  "id": "cafe-commande",
+  "level": "A1",
+  "title": {
+    "fr": "Au café",
+    "cs": "V kavárně"
+  },
+  "scene": {
+    "fr": "Un client commande une boisson et un croissant à la terrasse d'un café.",
+    "cs": "Zákazník si na terase kavárny objednává pití a croissant."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Bonjour monsieur. Vous désirez ?",
+      "cs": "Dobrý den, pane. Co si dáte?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Un café, s'il vous plaît.",
+      "cs": "Kávu, prosím."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Un café noir ? Ou un café crème ?",
+      "cs": "Černou kávu? Nebo kávu s mlékem?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Un café crème. Et un croissant.",
+      "cs": "Kávu s mlékem. A croissant."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Très bien. C'est tout ?",
+      "cs": "Dobře. To je všechno?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Oui. Et un verre d'eau, s'il vous plaît ?",
+      "cs": "Ano. A sklenici vody, prosím."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Bien sûr. Voilà votre café.",
+      "cs": "Samozřejmě. Tady je vaše káva."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Merci. L'addition, s'il vous plaît.",
+      "cs": "Děkuji. Účet, prosím."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Tout de suite, monsieur.",
+      "cs": "Hned, pane."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Merci beaucoup. Bonne journée !",
+      "cs": "Mockrát děkuji. Hezký den!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "le café",
+      "cs": "kavárna; káva"
+    },
+    {
+      "fr": "le café crème",
+      "cs": "káva s mlékem"
+    },
+    {
+      "fr": "le verre d'eau",
+      "cs": "sklenice vody"
+    },
+    {
+      "fr": "l'addition (f.)",
+      "cs": "účet"
+    },
+    {
+      "fr": "la terrasse",
+      "cs": "terasa"
+    },
+    {
+      "fr": "Vous désirez ?",
+      "cs": "Co si dáte?"
+    },
+    {
+      "fr": "tout de suite",
+      "cs": "hned"
+    },
+    {
+      "fr": "bien sûr",
+      "cs": "samozřejmě"
+    }
+  ],
+  "tip": {
+    "fr": "Dans un café français, « un café » désigne un petit café noir, serré, comme un espresso. Pour un café avec du lait chaud, on commande un « café crème ».",
+    "cs": "Ve francouzské kavárně znamená „un café“ malou silnou černou kávu, tedy espresso. Kávu s horkým mlékem si objednáte jako „café crème“."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Quelle boisson commande le client ?",
+        "cs": "Jaký nápoj si zákazník objedná?"
+      },
+      "options": {
+        "fr": [
+          "Un café noir",
+          "Un café crème",
+          "Un thé"
+        ],
+        "cs": [
+          "Černou kávu",
+          "Kávu s mlékem",
+          "Čaj"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Il répond : « Un café crème ».",
+        "cs": "Odpoví: „Un café crème“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut-il avec son café ?",
+        "cs": "Co chce ke kávě?"
+      },
+      "options": {
+        "fr": [
+          "Un sandwich",
+          "Un croissant",
+          "Un gâteau"
+        ],
+        "cs": [
+          "Sendvič",
+          "Croissant",
+          "Dort"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Il dit : « Et un croissant ».",
+        "cs": "Říká: „Et un croissant“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que demande-t-il à la fin ?",
+        "cs": "Co chce na konci?"
+      },
+      "options": {
+        "fr": [
+          "Un autre café",
+          "Du sucre",
+          "L'addition"
+        ],
+        "cs": [
+          "Další kávu",
+          "Cukr",
+          "Účet"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« L'addition, s'il vous plaît ».",
+        "cs": "„L'addition, s'il vous plaît“."
+      }
+    }
+  ]
+}

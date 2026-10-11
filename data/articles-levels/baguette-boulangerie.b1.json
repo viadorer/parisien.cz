@@ -78,5 +78,99 @@
     "https://en.wikipedia.org/wiki/August_Zang",
     "https://cdn.paris.fr/presse/2024/04/18/4598f4f32bf1ca6309938184e159d047.pdf",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que dit le texte sur la loi de 1919-1920 ?",
+        "cs": "Co říká text o zákonu z let 1919–1920?"
+      },
+      "options": {
+        "fr": [
+          "Elle a fixé le prix de la baguette.",
+          "Elle a interdit la baguette de tradition.",
+          "C'est une explication possible de la forme fine, pas une certitude."
+        ],
+        "cs": [
+          "Stanovila cenu bagety.",
+          "Zakázala bagetu „de tradition“.",
+          "Je to možné vysvětlení tenkého tvaru, ne jistota."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« C'est une explication possible, pas une certitude. »",
+        "cs": "Text: je to možné vysvětlení, ne jistota."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qui caractérise une baguette « de tradition » ?",
+        "cs": "Čím se vyznačuje bageta „de tradition“?"
+      },
+      "options": {
+        "fr": [
+          "Elle est faite sur place, avec peu d'ingrédients et sans pâte surgelée.",
+          "Elle est fabriquée en usine et surgelée.",
+          "Elle est toujours plus longue qu'une baguette classique."
+        ],
+        "cs": [
+          "Peče se na místě, z mála surovin a bez mraženého těsta.",
+          "Vyrábí se v továrně a mrazí se.",
+          "Je vždy delší než klasická bageta."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section sur le décret de 1993 : fabriquée sur place, sans pâte surgelée ni additifs.",
+        "cs": "Oddíl o dekretu z roku 1993: vyrábí se na místě, bez mraženého těsta a přísad."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que protège l'UNESCO en 2022 ?",
+        "cs": "Co chrání UNESCO v roce 2022?"
+      },
+      "options": {
+        "fr": [
+          "Seulement les boulangeries primées.",
+          "Le savoir-faire et la pratique sociale autour de la baguette.",
+          "Le produit et sa recette exacte."
+        ],
+        "cs": [
+          "Jen oceněné pekárny.",
+          "Know-how a společenskou praxi kolem bagety.",
+          "Výrobek a jeho přesný recept."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Elle ne protège donc pas un produit, mais un savoir-faire et une pratique sociale. »",
+        "cs": "Text: nechrání výrobek, ale řemeslný um a společenskou praxi."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi faut-il vérifier le règlement de l'année avant de citer un chiffre du concours ?",
+        "cs": "Proč je třeba před citováním čísla ze soutěže ověřit pravidla daného roku?"
+      },
+      "options": {
+        "fr": [
+          "Parce que le concours n'a lieu qu'en 2024.",
+          "Parce que les critères changent d'une édition à l'autre.",
+          "Parce que la Ville cache les règles."
+        ],
+        "cs": [
+          "Protože soutěž se koná jen v roce 2024.",
+          "Protože se kritéria v jednotlivých ročnících mění.",
+          "Protože město pravidla tají."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Jusqu'en 2018, les baguettes devaient mesurer 55 à 65 cm ; en 2024, 50 à 55 cm.",
+        "cs": "Do roku 2018 měly bagety 55–65 cm, v roce 2024 už 50–55 cm."
+      }
+    }
   ]
 }

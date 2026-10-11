@@ -391,5 +391,88 @@
   "lat": 48.8707,
   "lon": 2.3301,
   "src": "manual"
+ },
+ "route:montmartre-artistes:0": {
+  "lat": 48.8844,
+  "lon": 2.33839,
+  "src": "osm",
+  "found": "Place des Abbesses, Quartier de Clignancourt, Paris 18e Arrondissement, Paris, Î"
+ },
+ "route:montmartre-artistes:1": {
+  "lat": 48.88471,
+  "lon": 2.33811,
+  "src": "manual"
+ },
+ "route:montmartre-artistes:2": {
+  "lat": 48.88805,
+  "lon": 2.34063,
+  "src": "osm",
+  "found": "Musée de Montmartre, 12, Rue Cortot, Quartier de Clignancourt, Paris 18e Arrondi"
+ },
+ "route:montmartre-artistes:3": {
+  "lat": 48.88819,
+  "lon": 2.33983,
+  "src": "osm",
+  "found": "Clos Montmartre, Rue des Saules, Quartier de Clignancourt, Paris 18e Arrondissem"
+ },
+ "route:montmartre-artistes:4": {
+  "lat": 48.88653,
+  "lon": 2.3408,
+  "src": "osm",
+  "found": "Place du Tertre, Quartier de Clignancourt, Paris 18e Arrondissement, Paris, Île-"
+ },
+ "route:montmartre-artistes:6": {
+  "lat": 48.88411,
+  "lon": 2.33236,
+  "src": "osm",
+  "found": "Moulin Rouge, 82, Boulevard de Clichy, Quartier des Grandes-Carrières, Paris 18e"
+ },
+ "route:paris-en-une-journee:2": {
+  "lat": 48.86557,
+  "lon": 2.32122,
+  "src": "osm",
+  "found": "Place de la Concorde, Quartier des Champs-Élysées, Paris 8e Arrondissement, Pari"
+ },
+ "route:paris-gourmand-marches:4": {
+  "lat": 48.86525,
+  "lon": 2.34682,
+  "src": "osm",
+  "found": "Stohrer, 51, Rue Montorgueil, Quartier du Mail, Paris 2e Arrondissement, Paris, "
+ },
+ "route:paris-impressionniste:0": {
+  "lat": 48.87704,
+  "lon": 2.32507,
+  "src": "osm",
+  "found": "Gare Saint-Lazare, 11, Cour de Rome, Quartier de l'Europe, Paris 8e Arrondisseme"
+ },
+ "route:paris-impressionniste:1": {
+  "lat": 48.86357,
+  "lon": 2.32696,
+  "src": "osm",
+  "found": "Jardin des Tuileries, 113, Paris, Île-de-France, France métropolitaine, 75001, F"
+ },
+ "route:passages-et-canal:1": {
+  "lat": 48.86673,
+  "lon": 2.33976,
+  "src": "osm",
+  "found": "Galerie Vivienne, Vivienne, Paris 2e Arrondissement, Paris, Île-de-France, Franc"
+ },
+ "route:passages-et-canal:2": {
+  "lat": 48.87095,
+  "lon": 2.34166,
+  "src": "osm",
+  "found": "Passage des Panoramas, Vivienne, Paris 2e Arrondissement, Paris, Île-de-France, "
+ },
+ "route:passages-et-canal:3": {
+  "lat": 48.87223,
+  "lon": 2.34207,
+  "src": "osm",
+  "found": "Passage Jouffroy, Quartier du Faubourg-Montmartre, Paris 9e Arrondissement, Pari"
+ },
+ "route:passages-et-canal:4": {
+  "lat": 48.87348,
+  "lon": 2.34232,
+  "src": "osm",
+  "found": "Passage Verdeau, Quartier du Faubourg-Montmartre, Paris 9e Arrondissement, Paris"
  }
 }

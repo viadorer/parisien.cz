@@ -80,5 +80,107 @@
     "https://fr.wikipedia.org/wiki/Musée_de_Montmartre",
     "https://museedemontmartre.fr",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi les artistes viennent-ils à Montmartre ?",
+        "cs": "Proč umělci přicházejí na Montmartre?"
+      },
+      "options": {
+        "fr": [
+          "Parce que la Ville de Paris leur offre des ateliers",
+          "Parce que les loyers sont bas, les cabarets nombreux et la vue belle",
+          "Parce que le Sacré-Cœur est terminé",
+          "Parce que la Commune de Paris les invite"
+        ],
+        "cs": [
+          "Protože jim město Paříž nabízí ateliéry",
+          "Protože nájmy jsou nízké, kabaretů mnoho a výhled krásný",
+          "Protože je Sacré-Cœur dokončeno",
+          "Protože je zve Pařížská komuna"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Les années d'artistes » : « Les loyers sont bas, les cabarets sont nombreux et la vue est belle : les artistes arrivent. »",
+        "cs": "Část „Roky umělců“: nájmy jsou nízké, kabaretů je mnoho a výhled krásný, umělci přicházejí."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi la consécration du Sacré-Cœur n'a-t-elle lieu qu'en 1919 ?",
+        "cs": "Proč se vysvěcení Sacré-Cœur koná až roku 1919?"
+      },
+      "options": {
+        "fr": [
+          "Parce que Paul Abadie est mort",
+          "Parce que la façade n'était pas finie",
+          "Parce que la Commune a détruit le clocher",
+          "Parce que la guerre a retardé la cérémonie"
+        ],
+        "cs": [
+          "Protože Paul Abadie zemřel",
+          "Protože průčelí nebylo hotové",
+          "Protože Komuna zničila zvonici",
+          "Protože válka obřad zdržela"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« À cause de la guerre, la consécration n'a lieu que le 16 octobre 1919. » La façade est finie en 1914.",
+        "cs": "„Kvůli válce se vysvěcení koná až 16. října 1919.“ Průčelí je hotové v roce 1914."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que reste-t-il du Bateau-Lavoir après l'incendie de 1970 ?",
+        "cs": "Co zůstalo z Bateau-Lavoir po požáru roku 1970?"
+      },
+      "options": {
+        "fr": [
+          "Seulement la façade ; l'immeuble est reconstruit en 1978",
+          "Rien du tout",
+          "Seulement le toit",
+          "Tout l'immeuble, sauf les ateliers"
+        ],
+        "cs": [
+          "Jen průčelí; dům je znovu postaven v roce 1978",
+          "Vůbec nic",
+          "Jen střecha",
+          "Celý dům kromě ateliérů"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Les années d'artistes » : « un incendie ne laisse que la façade. L'immeuble est reconstruit en 1978. »",
+        "cs": "Část „Roky umělců“: požár nechá stát jen průčelí, dům je znovu postaven v roce 1978."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment peut-on voir le Clos Montmartre ?",
+        "cs": "Jak se lze na Clos Montmartre podívat?"
+      },
+      "options": {
+        "fr": [
+          "En se promenant entre les ceps",
+          "En achetant un billet au musée",
+          "De l'extérieur, à travers la grille",
+          "En montant sur le funiculaire"
+        ],
+        "cs": [
+          "Procházkou mezi keři",
+          "Koupí vstupenky v muzeu",
+          "Zvenku, skrz mříž",
+          "Jízdou lanovkou"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « La vigne et le musée » : « On ne visite pas la vigne : on la regarde par la grille. »",
+        "cs": "Část „Vinice a muzeum“: vinici nelze navštívit, dívá se na ni skrz mříž."
+      }
+    }
   ]
 }

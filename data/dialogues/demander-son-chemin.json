@@ -1,0 +1,234 @@
+{
+  "id": "demander-son-chemin",
+  "level": "A2",
+  "title": {
+    "fr": "Pour aller à Notre-Dame",
+    "cs": "Jak se dostat k Notre-Dame"
+  },
+  "scene": {
+    "fr": "Devant l'Hôtel de Ville, une touriste demande son chemin à un passant.",
+    "cs": "Před radnicí se turistka ptá kolemjdoucího na cestu."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "La touriste",
+        "cs": "Turistka"
+      },
+      "fr": "Excusez-moi, monsieur. Vous pouvez m'aider ?",
+      "cs": "Promiňte, pane. Můžete mi pomoci?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Un passant",
+        "cs": "Kolemjdoucí"
+      },
+      "fr": "Oui, bien sûr. Qu'est-ce que vous cherchez ?",
+      "cs": "Ano, samozřejmě. Co hledáte?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La touriste",
+        "cs": "Turistka"
+      },
+      "fr": "Je cherche la cathédrale Notre-Dame. C'est loin d'ici ?",
+      "cs": "Hledám katedrálu Notre-Dame. Je to odtud daleko?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Un passant",
+        "cs": "Kolemjdoucí"
+      },
+      "fr": "Non, pas du tout. Vous y allez à pied en dix minutes environ.",
+      "cs": "Ne, vůbec. Pěšky tam dojdete asi za deset minut."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La touriste",
+        "cs": "Turistka"
+      },
+      "fr": "Très bien. Je dois aller tout droit ?",
+      "cs": "Dobře. Mám jít rovně?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Un passant",
+        "cs": "Kolemjdoucí"
+      },
+      "fr": "Oui. Vous marchez jusqu'à la Seine, puis vous traversez le pont d'Arcole.",
+      "cs": "Ano. Dojdete k Seině a pak přejdete most Pont d'Arcole."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La touriste",
+        "cs": "Turistka"
+      },
+      "fr": "Le pont d'Arcole… D'accord. Et après le pont ?",
+      "cs": "Pont d'Arcole… Dobře. A co za mostem?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Un passant",
+        "cs": "Kolemjdoucí"
+      },
+      "fr": "Après le pont, vous êtes sur l'île de la Cité. La cathédrale est juste là, vous la voyez tout de suite.",
+      "cs": "Za mostem jste na ostrově Île de la Cité. Katedrála je hned tam, uvidíte ji okamžitě."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La touriste",
+        "cs": "Turistka"
+      },
+      "fr": "Et il y a une station de métro près de la cathédrale ?",
+      "cs": "A je u katedrály nějaká stanice metra?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Un passant",
+        "cs": "Kolemjdoucí"
+      },
+      "fr": "Oui, mais il vaut mieux marcher. La promenade au bord de l'eau est très agréable.",
+      "cs": "Ano, ale radši jděte pěšky. Procházka podél vody je velmi příjemná."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La touriste",
+        "cs": "Turistka"
+      },
+      "fr": "Merci beaucoup pour votre aide !",
+      "cs": "Moc vám děkuji za pomoc!"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Un passant",
+        "cs": "Kolemjdoucí"
+      },
+      "fr": "Je vous en prie. Bonne visite !",
+      "cs": "Není zač. Příjemnou prohlídku!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "demander son chemin",
+      "cs": "zeptat se na cestu"
+    },
+    {
+      "fr": "tout droit",
+      "cs": "rovně"
+    },
+    {
+      "fr": "à pied",
+      "cs": "pěšky"
+    },
+    {
+      "fr": "traverser",
+      "cs": "přejít (most, ulici)"
+    },
+    {
+      "fr": "le pont",
+      "cs": "most"
+    },
+    {
+      "fr": "une île",
+      "cs": "ostrov"
+    },
+    {
+      "fr": "loin / près de",
+      "cs": "daleko / blízko"
+    },
+    {
+      "fr": "Je vous en prie.",
+      "cs": "Není zač. / Prosím."
+    }
+  ],
+  "tip": {
+    "fr": "Sur le parvis de Notre-Dame, une plaque marque le « point zéro des routes de France » : c'est à partir de là qu'on mesure les distances entre Paris et les autres villes du pays.",
+    "cs": "Na předprostoru před Notre-Dame je deska označující „point zéro des routes de France“, tedy nultý bod francouzských silnic: od něj se měří vzdálenosti mezi Paříží a ostatními městy v zemi."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Où est la touriste au début ?",
+        "cs": "Kde je turistka na začátku?"
+      },
+      "options": {
+        "fr": [
+          "Devant l'Hôtel de Ville",
+          "Devant le Louvre",
+          "Sur l'île de la Cité"
+        ],
+        "cs": [
+          "Před radnicí",
+          "Před Louvrem",
+          "Na ostrově Île de la Cité"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "La scène se passe devant l'Hôtel de Ville.",
+        "cs": "Scéna se odehrává před radnicí (Hôtel de Ville)."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel pont doit-elle traverser ?",
+        "cs": "Který most má přejít?"
+      },
+      "options": {
+        "fr": [
+          "Le Pont Neuf",
+          "Le pont d'Arcole",
+          "Le pont des Arts"
+        ],
+        "cs": [
+          "Pont Neuf",
+          "Pont d'Arcole",
+          "Pont des Arts"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Le passant dit : « vous traversez le pont d'Arcole ».",
+        "cs": "Kolemjdoucí říká: „vous traversez le pont d'Arcole“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que conseille le passant ?",
+        "cs": "Co kolemjdoucí radí?"
+      },
+      "options": {
+        "fr": [
+          "Prendre un taxi",
+          "Prendre le métro",
+          "Marcher"
+        ],
+        "cs": [
+          "Vzít taxi",
+          "Jet metrem",
+          "Jít pěšky"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Il dit : « il vaut mieux marcher ».",
+        "cs": "Říká: „il vaut mieux marcher“."
+      }
+    }
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Point_z%C3%A9ro_des_routes_de_France"
+  ]
+}

@@ -64,5 +64,99 @@
     "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
     "https://www.paris.fr",
     "https://www.parisinfo.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Où va-t-on le vendredi soir ?",
+        "cs": "Kam se chodí v pátek večer?"
+      },
+      "options": {
+        "fr": [
+          "Au parc des Buttes-Chaumont",
+          "Au canal Saint-Martin",
+          "Au marché d'Aligre"
+        ],
+        "cs": [
+          "Do parku Buttes-Chaumont",
+          "Ke kanálu Saint-Martin",
+          "Na trh Aligre"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Le vendredi soir, on va au canal Saint-Martin.",
+        "cs": "V pátek večer se jde ke kanálu Saint-Martin."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qu'on prend à la boulangerie ?",
+        "cs": "Co si dáte v pekárně?"
+      },
+      "options": {
+        "fr": [
+          "Une glace",
+          "Un livre",
+          "Un croissant"
+        ],
+        "cs": [
+          "Zmrzlinu",
+          "Knihu",
+          "Croissant"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Puis on prend un croissant à la boulangerie.",
+        "cs": "Pak si v pekárně dáme croissant."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que vendent les bouquinistes ?",
+        "cs": "Co prodávají bouquinisté?"
+      },
+      "options": {
+        "fr": [
+          "De vieux livres",
+          "Des fruits",
+          "Des fleurs"
+        ],
+        "cs": [
+          "Staré knihy",
+          "Ovoce",
+          "Květiny"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Ils vendent de vieux livres dans des boîtes vertes.",
+        "cs": "Prodávají staré knihy v zelených bednách."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel jour le marché d'Aligre est-il fermé ?",
+        "cs": "Který den je trh Aligre zavřený?"
+      },
+      "options": {
+        "fr": [
+          "Le samedi",
+          "Le lundi",
+          "Le dimanche"
+        ],
+        "cs": [
+          "V sobotu",
+          "V pondělí",
+          "V neděli"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Le lundi, le marché d'Aligre est fermé.",
+        "cs": "V pondělí je trh Aligre zavřený."
+      }
+    }
   ]
 }

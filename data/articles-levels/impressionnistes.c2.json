@@ -91,5 +91,107 @@
     "https://www.musee-orangerie.fr",
     "https://www.marmottan.fr",
     "https://www.fondation-monet.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que sous-entend le titre « Quand l'insulte fait carrière » ?",
+        "cs": "Co naznačuje nadpis „Když se urážka stane kariérou“?"
+      },
+      "options": {
+        "fr": [
+          "Que le critique Leroy a fait carrière grâce à cet article.",
+          "Que les insultes font vendre davantage de tableaux.",
+          "Que les impressionnistes ont renié leur nom.",
+          "Qu'un sobriquet hostile peut devenir, avec le temps, une enseigne et même un titre de gloire."
+        ],
+        "cs": [
+          "Že kritik Leroy díky článku udělal kariéru.",
+          "Že urážky pomáhají prodávat víc obrazů.",
+          "Že se impresionisté svého jména zřekli.",
+          "Že nepřátelská přezdívka se časem může stát vývěsním štítem a dokonce čestným titulem."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Le texte parle d'un sobriquet « lancé comme une pierre » qui devient « une enseigne, voire un titre de gloire ».",
+        "cs": "Text mluví o přezdívce „vržené jako kámen“, z níž se stal vývěsní štít a čestný titul."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi l'auteur affirme-t-il que la « vraie insolence » tenait moins au pinceau qu'à l'accrochage ?",
+        "cs": "Proč autor tvrdí, že skutečná troufalost spočívala méně v pracovním postupu než ve vystavování?"
+      },
+      "options": {
+        "fr": [
+          "Parce qu'en organisant seuls leur exposition, ils ont tourné le dos à l'institution qui distribuait les réputations.",
+          "Parce que leurs tableaux étaient accrochés de manière désordonnée.",
+          "Parce que les critiques n'ont pas remarqué leur technique.",
+          "Parce qu'ils ont exposé loin du centre de Paris."
+        ],
+        "cs": [
+          "Protože tím, že si výstavu uspořádali sami, otočili zády instituci, která rozdělovala renomé.",
+          "Protože jejich obrazy byly pověšeny chaoticky.",
+          "Protože si kritici jejich techniky nevšimli.",
+          "Protože vystavovali daleko od centra Paříže."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Faire bande à part » : sans solliciter le Salon, « en plein Paris, sous l'œil des critiques ».",
+        "cs": "Oddíl „Jít vlastní cestou“: bez žádosti o přízeň Salonu, uprostřed Paříže, před zraky kritiků."
+      }
+    },
+    {
+      "q": {
+        "fr": "À quoi sert, selon le texte, l'« expérience de la comparaison » à Orsay ?",
+        "cs": "K čemu podle textu slouží „srovnávání“ v Musée d'Orsay?"
+      },
+      "options": {
+        "fr": [
+          "À décider quel peintre est le meilleur du groupe.",
+          "À retrouver les tableaux exposés en 1874.",
+          "À finir par reconnaître la main de chaque peintre, preuve qu'ils ne formaient pas une école uniforme.",
+          "À éviter de lire les cartels."
+        ],
+        "cs": [
+          "K rozhodnutí, který malíř ve skupině je nejlepší.",
+          "K nalezení obrazů vystavených v roce 1874.",
+          "K tomu, aby člověk začal poznávat ruku jednotlivých malířů, což dokazuje, že netvořili jednotnou školu.",
+          "K tomu, aby nemusel číst cedulky."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Monet, Renoir, Degas et Morisot sont opposés ; l'œil finit par deviner la main de chacun, « cartel ou non ».",
+        "cs": "Monet, Renoir, Degas a Morisotová jsou postaveni proti sobě; oko začne hádat ruku každého, s cedulkou či bez."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire la formule « le moment ne manque pas de sel — ni d'émotion » ?",
+        "cs": "Co znamená obrat „ten okamžik nepostrádá šmrnc, ani dojetí“ (fr. « ne manque pas de sel — ni d'émotion »)?"
+      },
+      "options": {
+        "fr": [
+          "Que le tableau est triste et sans humour.",
+          "Que devant le tableau volé, le visiteur ressent à la fois de l'ironie et de l'émotion.",
+          "Que le moment est ennuyeux mais instructif.",
+          "Que le musée sert un repas près du tableau."
+        ],
+        "cs": [
+          "Že obraz je smutný a bez humoru.",
+          "Že před ukradeným obrazem návštěvník cítí zároveň ironii i dojetí.",
+          "Že okamžik je nudný, ale poučný.",
+          "Že muzeum u obrazu podává jídlo."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Jour 2 » : après le récit du vol, l'ironie (« l'ironie saute aux yeux ») se mêle à l'émotion.",
+        "cs": "Oddíl „Den 2“: po vyprávění o krádeži se ironie mísí s dojetím."
+      }
+    }
   ]
 }

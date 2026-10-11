@@ -18,6 +18,14 @@ const culture = rd('culture.json', {});
 const learn = rd('learn.json', {});
 const gallery = rd('gallery.json', []);
 const coords = rd('coords.json', {});
+const LVL = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const readDir = (d) => (existsSync(`${ROOT}${d}`)
+  ? readdirSync(`${ROOT}${d}`).filter((f) => f.endsWith('.json')).flatMap((f) => { const j = JSON.parse(readFileSync(`${ROOT}${d}/${f}`, 'utf8')); return Array.isArray(j) ? j : [j]; })
+  : []);
+const byLevel = (a, b) => LVL.indexOf(a.level) - LVL.indexOf(b.level) || String(a.id).localeCompare(String(b.id));
+const dialogues = readDir('data/dialogues').sort(byLevel);
+const expressions = (() => { const seen = new Set(); return readDir('data/expressions').sort(byLevel).filter((e) => { const k = e.fr.toLowerCase(); if (seen.has(e.id) || seen.has(k)) return false; seen.add(e.id); seen.add(k); return true; }); })();
+const itineraries = readDir('data/itineraries');
 
 // ---------- místní kopie fotek (scripts/mirror-photos.mjs) ----------
 const photoId = (file) => createHash('sha1').update(file).digest('hex').slice(0, 10);
@@ -38,7 +46,7 @@ const levelArticles = existsSync(`${ROOT}data/articles-levels`)
 const allArticles = [...articles, ...levelArticles];
 const seed = allArticles.map((a) => ({
   slug: a.slug, category: a.category || 'paris', author: a.author || 'Rédaction parisien.cz', published_at: a.published_at,
-  level: a.level || '', base_slug: a.base || a.slug, glossary: JSON.stringify(a.glossary || []),
+  level: a.level || '', base_slug: a.base || a.slug, glossary: JSON.stringify(a.glossary || []), questions: JSON.stringify(a.questions || []),
   title_fr: a.title_fr || '', title_cs: a.title_cs || '', excerpt_fr: a.excerpt_fr || '', excerpt_cs: a.excerpt_cs || '',
   body_fr: a.body_fr || '', body_cs: a.body_cs || '',
   cover_url: a.photo?.url ? (hasLocal(a.photo.file) ? `/images/photos/${photoId(a.photo.file)}.jpg` : a.photo.url.replace(/width=\d+/, `width=${std(960)}`)) : '', cover_credit: a.photo ? `${a.photo.author} · ${a.photo.license}` : '', cover_credit_url: a.photo?.page || '',
@@ -55,6 +63,9 @@ const link = (url, label) => (url ? `<a class="read-more" href="${esc(url)}" tar
 const dual = (easyHtml, fullHtml) => (easyHtml ? `<div class="lvl-full">${fullHtml}</div><div class="lvl-easy">${easyHtml}</div>` : fullHtml);
 const easyBlock = (x, lang) => (x.easy ? `<p>${esc(pick(x.easy, lang))}</p>${x.easyGlossary?.length ? `<p class="easy-glossary"><b>${lang === 'cs' ? 'Slovíčka' : 'Vocabulaire'} :</b> ${x.easyGlossary.map((g) => `<span lang="fr">${esc(g.fr)}</span> = ${esc(g.cs)}`).join(' · ')}</p>` : ''}` : '');
 const levelNote = (lang, extra = '') => `<p class="level-note lvl-easy">${lang === 'cs' ? 'Zobrazuje se zjednodušený text pro vaši úroveň. Úroveň změníte v nabídce nahoře.' : 'Texte simplifié affiché pour votre niveau. Changez de niveau dans le menu en haut.'}${extra}</p>`;
+const spk = (fr) => `<button type="button" class="speak-btn" data-speak="${esc(fr)}" aria-label="Écouter / Poslechnout" title="Écouter / Poslechnout" hidden>🔊</button>`;
+const addBtn = (fr, cs) => `<button type="button" class="add-card" data-fr="${esc(fr)}" data-cs="${esc(cs)}" aria-label="Carnet / Sešit" title="Mon carnet / Můj sešit">＋</button>`;
+const lvlTag = (l) => (l ? `<span class="tag lvl lvl-${esc(l)}">${esc(l)}</span>` : '');
 const allPhotos = [];
 const collect = (obj) => {
   if (!obj || typeof obj !== 'object') return;
@@ -76,6 +87,8 @@ pages['/'] = (lang) => {
     ['/evenements', L('Agenda', 'Kalendář akcí'), L('Concerts, expos, spectacles : en direct', 'Koncerty, výstavy, představení: živě'), sitePhotos.notredame],
     ['/gastronomie', L('Gastronomie', 'Gastronomie'), L('Pain, pâtisseries, cafés, marchés', 'Pečivo, dezerty, kavárny, trhy'), ph(food.pastries?.find(ph)) || sitePhotos.toits],
     ['/apprendre', L('Apprendre', 'Učit se'), L('Vocabulaire, faux amis, quiz', 'Slovíčka, falešní přátelé, kvíz'), sitePhotos.montmartre],
+    ['/dialogues', L('Dialogues A1–C1', 'Dialogy A1–C1'), L('Écoutez et répétez : situations de la vie à Paris', 'Poslouchejte a opakujte: situace z pařížského života'), sitePhotos.toits],
+    ['/itineraires', L('Itinéraires', 'Trasy'), L('Six parcours à pied, avec carte', 'Šest pěších tras s mapou'), ph(places.find((p) => p.id === 'pont-neuf')) || sitePhotos.notredame],
     ['/voyages', L('Voyages', 'Cestování'), L('Récits, conseils, idées d’escapades', 'Příběhy, rady, tipy na výlety'), ph(places.find((p) => p.id?.includes('versailles'))) || ph(places[0])],
   ];
   const body = `
@@ -112,6 +125,8 @@ ${sec('dark', `<h2>${esc(L('À l’affiche cette semaine', 'Tento týden v Pař�
 
 ${sec('', `<h2>${esc(L('Explorer', 'Prozkoumat'))}</h2>
 <div class="tiles">${tiles.map(([href, t, d, p]) => `<a class="tile" href="/${lang}${href}">${p ? `<img src="${esc(p.url.replace(/width=\d+/, 'width=700'))}" alt="" loading="lazy">` : ''}<span class="tile-text"><strong>${esc(t)}</strong><small>${esc(d)}</small></span></a>`).join('')}</div>`, 'explorer')}
+
+${sec('', `<div id="expr-day" aria-live="polite"></div>`, 'expression-du-jour')}
 
 ${sec('grey', `<h2>${esc(L('Derniers articles', 'Nejnovější články'))}</h2>
 <div id="home-posts" class="cards-grid" data-limit="3" data-lang="${lang}" aria-live="polite"></div>
@@ -263,7 +278,7 @@ pages['/apprendre'] = (lang) => {
     title: L('Apprendre le français – parisien.cz', 'Učíme se francouzsky – parisien.cz'),
     description: L('Vocabulaire par thème, faux amis français–tchèque, conseils de prononciation et quiz sur Paris.', 'Slovíčka podle témat, falešní přátelé francouzština–čeština, rady k výslovnosti a kvíz o Paříži.'),
     body: head(lang, 'learn', L('Apprendre le français', 'Učíme se francouzsky'), L('Vocabulaire utile, pièges à éviter et un petit quiz.', 'Užitečná slovíčka, pasti, kterým se vyhnout, a malý kvíz.'))
-      + sec('', `<h2>${esc(L('Vocabulaire par thème', 'Slovíčka podle témat'))}</h2><p id="learn-level-note" class="level-note" aria-live="polite"></p><div class="accordion">${themes.map((t, i) => `<details${i === 0 ? ' open' : ''}><summary>${esc(pick(t.title, lang))}</summary><table class="vocab"><thead><tr><th>${esc(L('Français', 'Francouzsky'))}</th><th>${esc(L('Tchèque', 'Česky'))}</th></tr></thead><tbody>${(t.items || []).map((it) => `<tr data-lvl="${esc(it.level || 'B1')}"><td lang="fr">${esc(it.fr)}${it.level ? `<span class="item-lvl">${esc(it.level)}</span>` : ''}${it.note ? `<small>${esc(pick(it.note, lang))}</small>` : ''}</td><td lang="cs">${esc(it.cs)}</td></tr>`).join('')}</tbody></table></details>`).join('')}</div>`, 'vocabulaire')
+      + sec('', `<h2>${esc(L('Vocabulaire par thème', 'Slovíčka podle témat'))}</h2><p id="learn-level-note" class="level-note" aria-live="polite"></p><div class="accordion">${themes.map((t, i) => `<details${i === 0 ? ' open' : ''}><summary>${esc(pick(t.title, lang))}</summary><table class="vocab"><thead><tr><th>${esc(L('Français', 'Francouzsky'))}</th><th>${esc(L('Tchèque', 'Česky'))}</th></tr></thead><tbody>${(t.items || []).map((it) => `<tr data-lvl="${esc(it.level || 'B1')}"><td lang="fr">${esc(it.fr)} ${spk(it.fr)}${addBtn(it.fr, it.cs)}${it.level ? `<span class="item-lvl">${esc(it.level)}</span>` : ''}${it.note ? `<small>${esc(pick(it.note, lang))}</small>` : ''}</td><td lang="cs">${esc(it.cs)}</td></tr>`).join('')}</tbody></table></details>`).join('')}</div>`, 'vocabulaire')
       + sec('grey', `<h2>${esc(L('Faux amis français–tchèque', 'Falešní přátelé francouzština–čeština'))}</h2><p class="lead">${esc(L('Des mots qui se ressemblent… mais qui ne veulent pas dire la même chose.', 'Slova, která se podobají… ale neznamenají totéž.'))}</p>
 <div class="cards-grid small">${(learn.fauxAmis || []).map((f) => `<article class="card" data-lvl="${esc(f.level || 'B1')}"><div class="card-body"><h3 lang="fr">${esc(f.fr)}</h3><p><strong>FR :</strong> ${esc(pick(f.frMeaning, lang))}</p><p><strong>CS :</strong> „${esc(f.csLooks)}“ = ${esc(pick(f.csMeaning, lang) || f.csMeaning?.cs || '')}</p>${f.example ? `<p class="tip"><em>${esc(f.example.fr)}</em><br>${esc(f.example.cs)}</p>` : ''}</div></article>`).join('')}</div>`, 'faux-amis')
       + sec('', `<h2>${esc(L('Conseils', 'Rady'))}</h2>${learn.tips ? li(learn.tips[lang]) : ''}`, 'conseils')
@@ -342,6 +357,14 @@ pages['/carte'] = (lang) => {
   }
   const liveTypes = [['velib', L('Vélib’ (en direct)', 'Vélib’ (živě)'), '#1c7a3d'], ['fountains', L('Fontaines à boire', 'Pítné fontány'), '#1e90ff'], ['cool', L('Fraîcheur (brumisateurs, piscines…)', 'Osvěžení (mlžítka, bazény…)'), '#17a2b8'], ['swim', L('Baignade en Seine', 'Koupání v Seině'), '#0057b8']];
   const liveChips = liveTypes.map(([k, label, color]) => `<button class="chip map-chip" data-layer="${k}" data-live="1" aria-pressed="false"><i style="background:${color}"></i>${esc(label)}</button>`).join('');
+  const routes = itineraries.map((r) => ({
+    id: r.id, title: pick(r.title, lang),
+    stops: (r.stops || []).map((st, i) => {
+      const c = st.ref ? coords[st.ref] : coords[`route:${r.id}:${i}`];
+      return c?.lat && !c.check ? { n: stopName(st, lang), lat: c.lat, lon: c.lon, d: pick(st.note, lang) } : null;
+    }).filter(Boolean),
+  })).filter((r) => r.stops.length >= 2);
+  const routeSelect = routes.length ? `<label class="route-pick">${esc(L('Itinéraire', 'Trasa'))} <select id="route-select"><option value="">—</option>${routes.map((r) => `<option value="${esc(r.id)}">${esc(r.title)}</option>`).join('')}</select></label>` : '';
   const chips = Object.entries(types).map(([k, [label, color]]) => `<button class="chip map-chip" data-layer="${k}" aria-pressed="true"><i style="background:${color}"></i>${esc(label)}</button>`).join('')
     + liveChips + `<button class="chip map-chip" data-layer="events" aria-pressed="false"><i style="background:#000;border:2px solid #fff;box-shadow:0 0 0 1px #000"></i>${esc(L('Événements de la semaine', 'Akce tento týden'))}</button>`;
   return {
@@ -350,11 +373,12 @@ pages['/carte'] = (lang) => {
     head: `<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""><script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>`,
     body: head(lang, 'carte', L('Carte interactive', 'Interaktivní mapa'), L('Tous les lieux du site, plus l’agenda de la semaine. Cliquez sur un point pour lire la fiche.', 'Všechna místa z webu a kalendář tohoto týdne. Kliknutím na bod otevřete podrobnosti.'))
       + sec('', `<div class="map-tools"><div class="filters" id="map-filters" role="group" aria-label="${esc(L('Couches', 'Vrstvy'))}">${chips}</div>
-<label class="map-search"><span class="sr">${esc(L('Chercher un lieu', 'Hledat místo'))}</span><input type="search" id="map-q" placeholder="${esc(L('Chercher un lieu…', 'Hledat místo…'))}"></label></div>
+${routeSelect}<label class="map-search"><span class="sr">${esc(L('Chercher un lieu', 'Hledat místo'))}</span><input type="search" id="map-q" placeholder="${esc(L('Chercher un lieu…', 'Hledat místo…'))}"></label></div>
+<ol id="route-list" class="stops route-list" hidden></ol>
 <div id="map" class="map" role="application" aria-label="${esc(L('Carte de Paris', 'Mapa Paříže'))}"></div>
 <p class="note">${esc(L('Fond de carte : © contributeurs OpenStreetMap. Événements, Vélib’, fontaines, brumisateurs, piscines et sites de baignade : Ville de Paris (opendata.paris.fr, ODbL). Disponibilité Vélib’ mise à jour chaque minute.', 'Podkladová mapa: © přispěvatelé OpenStreetMap. Akce, Vélib’, fontány, mlžítka, bazény a místa ke koupání: Ville de Paris (opendata.paris.fr, ODbL). Dostupnost Vélib’ se aktualizuje každou minutu.'))}</p>
 <noscript><p>${esc(L('La carte nécessite JavaScript.', 'Mapa vyžaduje JavaScript.'))}</p></noscript>
-<script type="application/json" id="map-data">${JSON.stringify({ types: Object.fromEntries(Object.entries(types).map(([k, v]) => [k, { label: v[0], color: v[1] }])), points }).replace(/</g, '\\u003c')}</script>`),
+<script type="application/json" id="map-data">${JSON.stringify({ types: Object.fromEntries(Object.entries(types).map(([k, v]) => [k, { label: v[0], color: v[1] }])), points, routes }).replace(/</g, '\\u003c')}</script>`),
   };
 };
 
@@ -375,6 +399,93 @@ pages['/compte'] = (lang) => {
 <li>${esc(L('Vous pouvez supprimer votre compte à tout moment depuis cette page : vos brouillons sont effacés, vos articles publiés restent sous votre pseudonyme (demandez-nous leur retrait si vous le souhaitez).', 'Účet můžete kdykoli smazat na této stránce: koncepty se smažou, zveřejněné články zůstanou pod přezdívkou (o jejich stažení nás můžete požádat).'))}</li>
 <li>${esc(L('Mineurs : l’inscription se fait par l’école, avec l’accord des responsables légaux. N’indiquez jamais de données personnelles d’autres personnes (noms complets, adresses, numéros de téléphone) dans vos textes et n’utilisez que vos propres photos.', 'Nezletilí: registraci zajišťuje škola se souhlasem zákonných zástupců. V textech nikdy neuvádějte osobní údaje jiných osob (celá jména, adresy, telefony) a používejte jen vlastní fotografie.'))}</li>
 </ul></aside>`),
+  };
+};
+
+// ======================= DIALOGY =======================
+pages['/dialogues'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  const one = (d) => `<details class="dlg" data-lvl="${esc(d.level)}" id="${esc(d.id)}" data-show-trans="${lang === 'cs' ? '1' : '0'}">
+<summary>${lvlTag(d.level)} <strong>${esc(pick(d.title, lang))}</strong><small>${esc(pick(d.scene, lang))}</small></summary>
+<div class="dlg-body">
+<p class="dlg-controls"><button type="button" class="chip" data-dlg-play hidden>▶ ${esc(L('Écouter le dialogue', 'Poslechnout dialog'))}</button> <button type="button" class="chip" data-dlg-trans aria-pressed="${lang === 'cs'}">${esc(L('Traduction', 'Překlad'))}</button></p>
+<div class="dlg-lines">${(d.lines || []).map((ln) => `<p class="dlg-line who-${esc(ln.who || 'A')}"><b>${esc(pick(ln.role, lang))}</b> <span class="fr" lang="fr">${esc(ln.fr)}</span> ${spk(ln.fr)}<span class="tr">${esc(ln.cs)}</span></p>`).join('')}</div>
+${d.vocab?.length ? `<h4>${esc(L('Vocabulaire', 'Slovíčka'))}</h4><p class="chips">${d.vocab.map((v) => `<span class="chip static"><b lang="fr">${esc(v.fr)}</b> · ${esc(v.cs)} ${spk(v.fr)}${addBtn(v.fr, v.cs)}</span>`).join('')}</p>` : ''}
+${d.tip ? `<p class="tip"><strong>${esc(L('À savoir', 'Dobré vědět'))} :</strong> ${esc(pick(d.tip, lang))}</p>` : ''}
+${d.quiz?.length ? `<div class="mini-quiz" data-lang="${lang}"></div><script type="application/json" class="quiz-json">${JSON.stringify(d.quiz).replace(/</g, '\\u003c')}</script>` : ''}
+</div></details>`;
+  return {
+    title: L('Dialogues en français (A1–C1) – parisien.cz', 'Dialogy ve francouzštině (A1–C1) – parisien.cz'),
+    description: L('Dialogues de la vie à Paris avec audio, traduction, vocabulaire et quiz, du niveau A1 au C1.', 'Dialogy z pařížského života se zvukem, překladem, slovíčky a kvízem od A1 po C1.'),
+    body: head(lang, 'dialogues', L('Dialogues', 'Dialogy'), L('Écoutez, lisez, comprenez : des situations de la vie à Paris, du niveau A1 au C1.', 'Poslouchejte, čtěte, rozumějte: situace z pařížského života od úrovně A1 po C1.'))
+      + sec('', `<p id="learn-level-note" class="level-note" aria-live="polite"></p><p class="note">${esc(L('Le bouton 🔊 utilise la voix française de votre navigateur. Cliquez sur ＋ pour ajouter un mot à votre carnet.', 'Tlačítko 🔊 používá francouzský hlas vašeho prohlížeče. Kliknutím na ＋ přidáte slovo do sešitu.'))}</p><div class="dlg-list">${dialogues.map(one).join('')}</div>`),
+  };
+};
+
+// ======================= VÝRAZY =======================
+pages['/expressions'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  const types = { idiome: L('Idiomes', 'Idiomy'), verlan: 'Verlan', argot: L('Argot', 'Slang'), politesse: L('Politesse', 'Zdvořilost'), parisien: L('Parisien', 'Pařížské'), proverbe: L('Proverbes', 'Přísloví') };
+  const present = Object.keys(types).filter((t) => expressions.some((e) => e.type === t));
+  const card = (e) => `<article class="card expr" id="expr-${esc(e.id)}" data-lvl="${esc(e.level)}" data-type="${esc(e.type)}" data-search="${esc((e.fr + ' ' + pick(e.meaning, 'fr') + ' ' + pick(e.meaning, 'cs') + ' ' + (e.cs || '')).toLowerCase())}"><div class="card-body">
+<div class="post-meta">${lvlTag(e.level)} <span class="tag">${esc(types[e.type] || e.type)}</span> <span class="tag">${esc(e.register || '')}</span></div>
+<h3 lang="fr">${esc(e.fr)} ${spk(e.fr)}${addBtn(e.fr, e.cs || pick(e.meaning, 'cs'))}</h3>
+<p>${esc(pick(e.meaning, lang))}</p>${e.cs && lang === 'cs' ? `<p><strong>CS :</strong> ${esc(e.cs)}</p>` : ''}
+<p class="tip"><em lang="fr">${esc(e.example?.fr || '')}</em> ${e.example?.fr ? spk(e.example.fr) : ''}<br>${esc(e.example?.cs || '')}</p>
+${e.note ? `<p class="note">${esc(pick(e.note, lang))}</p>` : ''}</div></article>`;
+  return {
+    title: L('Expressions et argot (A1–C2) – parisien.cz', 'Výrazy a hovorová francouzština (A1–C2) – parisien.cz'),
+    description: L('Idiomes, verlan, argot courant et formules de politesse expliqués avec exemples, audio et niveau CECR.', 'Idiomy, verlan, běžný slang a zdvořilostní formule s příklady, zvukem a úrovní CEFR.'),
+    body: head(lang, 'expressions', L('Expressions & argot', 'Výrazy a hovorová řeč'), L('Les mots et les tournures que l’on entend vraiment à Paris.', 'Slova a obraty, které se v Paříži opravdu slyší.'))
+      + sec('', `<p id="learn-level-note" class="level-note" aria-live="polite"></p>
+<div class="filters" id="expr-filters"><button class="chip" data-type="" aria-pressed="true">${esc(L('Tout', 'Vše'))}</button>${present.map((t) => `<button class="chip" data-type="${t}" aria-pressed="false">${esc(types[t])}</button>`).join('')}<label class="expr-search"><span class="sr">${esc(L('Chercher', 'Hledat'))}</span><input type="search" id="expr-q" placeholder="${esc(L('Chercher une expression…', 'Hledat výraz…'))}"></label></div>
+<div class="cards-grid small" id="expr-list">${expressions.map(card).join('')}</div>
+<p class="note">${esc(L('Le registre est indiqué : « familier » = entre amis, à éviter dans un contexte formel.', 'Je uveden rejstřík: „familier“ = mezi přáteli, ve formálním kontextu se vyhněte.'))}</p>`),
+  };
+};
+
+// ======================= TRASY =======================
+const stopName = (st, lang) => {
+  if (st.name) return pick(st.name, lang);
+  const [g, id] = String(st.ref || '').split(':');
+  const src = { places, museums, quartiers }[g] || (g === 'cafes' ? food.cafes : g === 'markets' ? food.markets : g === 'stage' ? culture.stage : g === 'literature' ? culture.literature : g === 'cinema' ? culture.cinema : []);
+  const f = (src || []).find((x) => x.id === id);
+  return f ? pick(f.name, lang) : id || '';
+};
+pages['/itineraires'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  const card = (r) => `<article class="card itin" id="${esc(r.id)}"><div class="card-body">
+<div class="post-meta">${lvlTag(r.level || 'B1')} <span class="tag">${esc(pick(r.duration, lang))}</span></div>
+<h3>${esc(pick(r.title, lang))}</h3>
+${dual(r.easy ? `<p>${esc(pick(r.easy, lang))}</p>` : '', `<p>${esc(pick(r.intro, lang))}</p>`)}
+<ol class="stops">${(r.stops || []).map((st) => `<li><strong>${esc(stopName(st, lang))}</strong> — ${esc(pick(st.note, lang))}</li>`).join('')}</ol>
+${r.tip ? `<p class="tip"><strong>${esc(L('Conseil', 'Tip'))} :</strong> ${esc(pick(r.tip, lang))}</p>` : ''}
+<a class="read-more" href="/${lang}/carte?route=${esc(r.id)}">${esc(L('Voir l’itinéraire sur la carte →', 'Zobrazit trasu na mapě →'))}</a></div></article>`;
+  return {
+    title: L('Itinéraires à pied dans Paris – parisien.cz', 'Pěší trasy po Paříži – parisien.cz'),
+    description: L('Six itinéraires thématiques à pied : Rive gauche littéraire, impressionnistes, passages, Montmartre, marchés.', 'Šest tematických pěších tras: literární levý břeh, impresionisté, pasáže, Montmartre, trhy.'),
+    body: head(lang, 'itin', L('Itinéraires', 'Trasy'), L('Des parcours à pied, avec carte. Vérifiez les horaires avant de partir.', 'Pěší trasy s mapou. Před cestou ověřte otevírací doby.'))
+      + sec('', levelNote(lang) + `<div class="cards-grid wide">${itineraries.map(card).join('')}</div>`),
+  };
+};
+
+// ======================= HLEDÁNÍ A SEŠIT =======================
+pages['/recherche'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  return {
+    title: L('Rechercher – parisien.cz', 'Hledat – parisien.cz'),
+    description: L('Recherche dans tout le site : articles, lieux, musées, expressions.', 'Hledání na celém webu: články, místa, muzea, výrazy.'),
+    body: head(lang, 'search', L('Rechercher', 'Hledat'), '')
+      + sec('', `<form id="search-form" role="search" data-lang="${lang}"><label class="sr" for="site-search">${esc(L('Rechercher', 'Hledat'))}</label><input type="search" id="site-search" autocomplete="off" placeholder="${esc(L('Tour Eiffel, baguette, avoir le cafard…', 'Eiffelovka, bageta, avoir le cafard…'))}"></form><p id="search-count" class="muted" aria-live="polite"></p><ul id="search-results" class="search-results"></ul>`),
+  };
+};
+pages['/carnet'] = (lang) => {
+  const L = (fr, cs) => (lang === 'cs' ? cs : fr);
+  return {
+    title: L('Mon carnet de mots – parisien.cz', 'Můj sešit slovíček – parisien.cz'),
+    description: L('Gardez les mots qui vous intéressent et révisez-les avec des cartes mémoire.', 'Ukládejte si zajímavá slova a opakujte je pomocí kartiček.'),
+    body: head(lang, 'deck', L('Mon carnet de mots', 'Můj sešit slovíček'), L('Vos mots restent dans votre navigateur : rien n’est envoyé sur Internet.', 'Slova zůstávají ve vašem prohlížeči: nic se neodesílá na internet.'))
+      + sec('', `<div id="deck" data-lang="${lang}"></div>`),
   };
 };
 
@@ -416,6 +527,7 @@ for (const d of [museums, places, quartiers, food, recipes, culture, gallery, si
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 const urls = [];
+const sidx = { fr: [], cs: [] };
 for (const lang of ['fr', 'cs']) {
   for (const [path, fn] of Object.entries(pages)) {
     const p = fn(lang);
@@ -424,8 +536,27 @@ for (const lang of ['fr', 'cs']) {
     mkdirSync(file.replace(/\/[^/]+$/, ''), { recursive: true });
     writeFileSync(file, html);
     urls.push(`/${lang}${path === '/' ? '' : path}`);
+    sidx[lang].push({ t: p.title.replace(/ – parisien\.cz$/, ''), u: `/${lang}${path === '/' ? '' : path}`, d: p.description, k: lang === 'cs' ? 'Stránka' : 'Page', x: p.description });
   }
 }
+// vyhledávací index (entity)
+const trunc = (t, n) => String(t || '').replace(/\s+/g, ' ').slice(0, n);
+for (const lang of ['fr', 'cs']) {
+  const K = lang === 'cs' ? { art: 'Článek', place: 'Místo', museum: 'Muzeum', quartier: 'Čtvrť', cafe: 'Kavárna', market: 'Trh', stage: 'Scéna', lit: 'Literatura', cinema: 'Kino', expr: 'Výraz', dlg: 'Dialog', itin: 'Trasa' }
+    : { art: 'Article', place: 'Lieu', museum: 'Musée', quartier: 'Quartier', cafe: 'Café', market: 'Marché', stage: 'Scène', lit: 'Littérature', cinema: 'Cinéma', expr: 'Expression', dlg: 'Dialogue', itin: 'Itinéraire' };
+  for (const a of articles) sidx[lang].push({ t: pick({ fr: a.title_fr, cs: a.title_cs }, lang), u: `/${lang}/article/${a.slug}`, d: trunc(pick({ fr: a.excerpt_fr, cs: a.excerpt_cs }, lang), 160), k: K.art, x: trunc(pick({ fr: a.excerpt_fr, cs: a.excerpt_cs }, lang) + ' ' + pick({ fr: a.body_fr, cs: a.body_cs }, lang), 1200) });
+  const ent = (arr, path, k, textOf) => { for (const it of arr || []) sidx[lang].push({ t: pick(it.name, lang), u: `/${lang}${path}#${it.id}`, d: trunc(textOf(it), 150), k, x: trunc(textOf(it), 400) }); };
+  ent(places, '/paris', K.place, (i) => pick(i.intro, lang)); ent(quartiers, '/paris', K.quartier, (i) => pick(i.intro, lang));
+  ent(museums, '/musees', K.museum, (i) => pick(i.intro, lang));
+  ent(food.cafes, '/gastronomie', K.cafe, (i) => pick(i.text, lang)); ent(food.markets, '/gastronomie', K.market, (i) => pick(i.text, lang));
+  ent(culture.stage, '/culture', K.stage, (i) => pick(i.text, lang)); ent(culture.literature, '/culture', K.lit, (i) => pick(i.text, lang)); ent(culture.cinema, '/culture', K.cinema, (i) => pick(i.text, lang));
+  for (const e of expressions) sidx[lang].push({ t: e.fr, u: `/${lang}/expressions#expr-${e.id}`, d: pick(e.meaning, lang), k: K.expr, x: `${pick(e.meaning, 'fr')} ${pick(e.meaning, 'cs')} ${e.cs || ''}` });
+  for (const d of dialogues) sidx[lang].push({ t: pick(d.title, lang), u: `/${lang}/dialogues#${d.id}`, d: pick(d.scene, lang), k: K.dlg, x: (d.lines || []).slice(0, 4).map((l) => l.fr).join(' ') });
+  for (const r of itineraries) sidx[lang].push({ t: pick(r.title, lang), u: `/${lang}/itineraires#${r.id}`, d: trunc(pick(r.intro, lang), 150), k: K.itin, x: (r.stops || []).map((st) => stopName(st, lang)).join(' ') });
+  writeFileSync(`${OUT}/search-index-${lang}.json`, JSON.stringify(sidx[lang]));
+}
+mkdirSync(`${OUT}/data`, { recursive: true });
+writeFileSync(`${OUT}/data/expressions.json`, JSON.stringify(expressions.map((e) => ({ id: e.id, fr: e.fr, level: e.level, meaning: e.meaning, example: e.example }))));
 // kořen: výběr jazyka
 writeFileSync(`${OUT}/index.html`, `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>parisien.cz</title><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="alternate" hreflang="fr" href="${SITE}/fr"><link rel="alternate" hreflang="cs" href="${SITE}/cs"><link rel="alternate" hreflang="x-default" href="${SITE}/fr">

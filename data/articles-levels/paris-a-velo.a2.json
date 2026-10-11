@@ -74,5 +74,99 @@
     "https://en.wikipedia.org/wiki/Coul%C3%A9e_verte_Ren%C3%A9-Dumont",
     "https://www.paris.fr/equipements/coulee-verte-rene-dumont-1772",
     "https://www.velib-metropole.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Quand a commencé Vélib' ?",
+        "cs": "Kdy začal Vélib'?"
+      },
+      "options": {
+        "fr": [
+          "Le 15 juillet 2007.",
+          "Le 1er janvier 2018.",
+          "En 2022."
+        ],
+        "cs": [
+          "15. července 2007.",
+          "1. ledna 2018.",
+          "V roce 2022."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Vélib' et les règles » : il a commencé le 15 juillet 2007.",
+        "cs": "Oddíl „Vélib' a pravidla“: začal 15. července 2007."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qu'un sas vélo ?",
+        "cs": "Co je „sas vélo“?"
+      },
+      "options": {
+        "fr": [
+          "Un parking pour les voitures.",
+          "Une zone devant le feu, réservée aux vélos.",
+          "Un petit magasin de vélos."
+        ],
+        "cs": [
+          "Parkoviště pro auta.",
+          "Zóna před semaforem vyhrazená kolům.",
+          "Malý obchod s koly."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Le sas vélo est une zone devant le feu, réservée aux vélos. »",
+        "cs": "Text: sas vélo je zóna před semaforem vyhrazená pro kola."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment faut-il attacher le vélo ?",
+        "cs": "Jak je třeba kolo zamknout?"
+      },
+      "options": {
+        "fr": [
+          "Le cadre et une roue, avec un bon antivol.",
+          "Seulement le guidon.",
+          "On ne l'attache pas."
+        ],
+        "cs": [
+          "Rám a jedno kolo dobrým zámkem.",
+          "Jen řídítka.",
+          "Nezamyká se."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Sécurité » : attachez le cadre et une roue ; les vols sont fréquents.",
+        "cs": "Oddíl „Bezpečnost“: rám a jedno kolo; krádeže jsou časté."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que dit le texte sur la Coulée verte René-Dumont ?",
+        "cs": "Co říká text o Coulée verte René-Dumont?"
+      },
+      "options": {
+        "fr": [
+          "Les vélos y sont toujours interdits.",
+          "Elle a ouvert en 1825.",
+          "Les règles pour les vélos ne sont pas claires ; il faut vérifier."
+        ],
+        "cs": [
+          "Kola tam jsou vždy zakázána.",
+          "Otevřena byla v roce 1825.",
+          "Pravidla pro kola nejsou jasná; je třeba je ověřit."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Dans la liste des itinéraires : règles pas claires, vérifiez sur Paris.fr.",
+        "cs": "V seznamu tras: pravidla nejsou jasná, ověřte na Paris.fr."
+      }
+    }
   ]
 }

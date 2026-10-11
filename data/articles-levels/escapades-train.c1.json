@@ -89,5 +89,107 @@
     "https://www.sncf-connect.com",
     "https://www.iledefrance-mobilites.fr",
     "https://www.transilien.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que veut dire l'auteur par « la facilité apparente du train cache parfois des correspondances moins évidentes qu'il n'y paraît » ?",
+        "cs": "Co chce autor říct větou „la facilité apparente du train cache parfois des correspondances moins évidentes qu'il n'y paraît“?"
+      },
+      "options": {
+        "fr": [
+          "Les trains sont toujours en retard.",
+          "Le voyage en train semble simple, mais demande parfois plus d'organisation.",
+          "Il vaut mieux voyager en voiture.",
+          "Les correspondances sont toujours directes."
+        ],
+        "cs": [
+          "Vlaky mají vždy zpoždění.",
+          "Cestování vlakem se zdá snadné, ale někdy vyžaduje víc plánování.",
+          "Je lepší cestovat autem.",
+          "Přípoje jsou vždy přímé."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Dans l'introduction : il faut savoir « de quelle gare partir, combien de temps prévoir et à quels pièges se préparer ».",
+        "cs": "V úvodu: je třeba vědět, „de quelle gare partir, combien de temps prévoir et à quels pièges se préparer“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi Fontainebleau « obéit à une autre logique, moins immédiate » que Versailles ?",
+        "cs": "Proč Fontainebleau „obéit à une autre logique, moins immédiate“ než Versailles?"
+      },
+      "options": {
+        "fr": [
+          "Son château est plus petit.",
+          "Le trajet dure beaucoup plus longtemps.",
+          "Le château est fermé en semaine.",
+          "La gare est loin du château, et il faut prendre un bus dont la ligne est à vérifier."
+        ],
+        "cs": [
+          "Jeho zámek je menší.",
+          "Cesta trvá mnohem déle.",
+          "Zámek je ve všední dny zavřený.",
+          "Nádraží je daleko od zámku a je třeba jet autobusem, jehož linku je nutné ověřit."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« Le piège est ailleurs, car la gare se trouve à plusieurs kilomètres du château, et c'est un bus local qui assure la liaison. »",
+        "cs": "„Le piège est ailleurs, car la gare se trouve à plusieurs kilomètres du château, et c'est un bus local qui assure la liaison.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie « ce qui en dit long sur l'évolution de son projet » à propos du musée des Impressionnismes ?",
+        "cs": "Co znamená „ce qui en dit long sur l'évolution de son projet“ o muzeu impresionismů?"
+      },
+      "options": {
+        "fr": [
+          "Le changement de nom reflète une réorientation du musée.",
+          "Le musée a doublé sa surface.",
+          "Le musée a perdu ses visiteurs.",
+          "Le nom a été imposé par la Fondation Monet."
+        ],
+        "cs": [
+          "Změna názvu odráží novou orientaci muzea.",
+          "Muzeum zdvojnásobilo plochu.",
+          "Muzeum ztratilo návštěvníky.",
+          "Název vnutila Nadace Monet."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Ouvert en 1992 comme musée d'art américain, il a changé de nom en 2009 et « retrace l'histoire du mouvement ».",
+        "cs": "Otevřeno v roce 1992 jako muzeum amerického umění, v roce 2009 změnilo název a „retrace l'histoire du mouvement“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi Chantilly est-elle « la sortie la plus rapide, mais pas la plus simple » ?",
+        "cs": "Proč je Chantilly „nejrychlejší, ale ne nejjednodušší výlet“?"
+      },
+      "options": {
+        "fr": [
+          "Le trajet en TER est très long.",
+          "Le château est difficile à trouver dans la forêt.",
+          "La gare est hors de la zone tarifaire, donc le titre de transport demande vérification.",
+          "Il n'y a pas de train le week-end."
+        ],
+        "cs": [
+          "Cesta TER je velmi dlouhá.",
+          "Zámek je v lese těžké najít.",
+          "Nádraží leží mimo tarifní zónu, takže je třeba zkontrolovat jízdenku.",
+          "O víkendu nejede žádný vlak."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "La rapidité (vingt minutes) est tempérée par la réserve : la gare est « hors de la zone tarifaire d'Île-de-France ».",
+        "cs": "Rychlost (dvacet minut) kazí výhrada: nádraží je „hors de la zone tarifaire d'Île-de-France“."
+      }
+    }
   ]
 }

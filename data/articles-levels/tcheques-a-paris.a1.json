@@ -69,5 +69,99 @@
     "https://www.centrepompidou.fr/fr/recherche/oeuvres?terms=Kupka",
     "https://monumentum.fr/monument-historique/pa00088439/paris-5e-arrondissement-hotel-au-fond-du-jardin",
     "https://emuseum.mfah.org/objects/57251/model-posing-in-muchas-studio-rue-du-val-de-grace-paris"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pour qui Mucha dessine-t-il l'affiche ?",
+        "cs": "Pro koho Mucha kreslí plakát?"
+      },
+      "options": {
+        "fr": [
+          "Pour Kupka",
+          "Pour Sarah Bernhardt",
+          "Pour Martinů"
+        ],
+        "cs": [
+          "Pro Kupku",
+          "Pro Sarah Bernhardtovou",
+          "Pro Martinů"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Elle est pour Sarah Bernhardt. »",
+        "cs": "„Elle est pour Sarah Bernhardt.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Où vit Kupka ?",
+        "cs": "Kde žije Kupka?"
+      },
+      "options": {
+        "fr": [
+          "À Puteaux",
+          "À Prague",
+          "À Rouen"
+        ],
+        "cs": [
+          "V Puteaux",
+          "V Praze",
+          "V Rouenu"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« František Kupka vit à Puteaux. »",
+        "cs": "„František Kupka vit à Puteaux.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand Kundera devient-il français ?",
+        "cs": "Kdy se Kundera stane Francouzem?"
+      },
+      "options": {
+        "fr": [
+          "En 1975",
+          "En 1923",
+          "En 1981"
+        ],
+        "cs": [
+          "V roce 1975",
+          "V roce 1923",
+          "V roce 1981"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Il devient français en 1981. »",
+        "cs": "„Il devient français en 1981.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Dans quel arrondissement est le Centre tchèque ?",
+        "cs": "Ve kterém obvodu je České centrum?"
+      },
+      "options": {
+        "fr": [
+          "Dans le 5e",
+          "Dans le 6e",
+          "Dans le 18e"
+        ],
+        "cs": [
+          "V 5.",
+          "V 6.",
+          "V 18."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« …au 18, rue Bonaparte, dans le 6e. »",
+        "cs": "„…au 18, rue Bonaparte, dans le 6e.“"
+      }
+    }
   ]
 }

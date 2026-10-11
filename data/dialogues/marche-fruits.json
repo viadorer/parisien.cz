@@ -1,0 +1,267 @@
+{
+  "id": "marche-fruits",
+  "level": "A2",
+  "title": {
+    "fr": "Au marché",
+    "cs": "Na trhu"
+  },
+  "scene": {
+    "fr": "Un samedi matin, Inès achète des fruits et des légumes chez un marchand.",
+    "cs": "V sobotu ráno kupuje Inès ovoce a zeleninu u prodavače na trhu."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Bonjour, monsieur. Vous avez des pêches ?",
+      "cs": "Dobrý den, pane. Máte broskve?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le marchand",
+        "cs": "Prodavač"
+      },
+      "fr": "Bonjour, madame. Oui, elles viennent d'arriver. Elles sont très mûres, vous allez vous régaler.",
+      "cs": "Dobrý den, paní. Ano, právě dorazily. Jsou moc zralé, budou vám chutnat."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Je peux goûter, s'il vous plaît ?",
+      "cs": "Mohu ochutnat, prosím?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le marchand",
+        "cs": "Prodavač"
+      },
+      "fr": "Bien sûr, tenez. Alors, comment vous les trouvez ?",
+      "cs": "Jistě, tady. Tak jak vám chutnají?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Elles sont délicieuses ! Je voudrais un kilo de pêches, alors.",
+      "cs": "Jsou výborné! Tak si dám kilo broskví."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le marchand",
+        "cs": "Prodavač"
+      },
+      "fr": "Voilà. Et avec ça ? Des fraises ? Elles sont de saison.",
+      "cs": "Prosím. A k tomu? Jahody? Jsou v sezoně."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Non, merci. Mais je prends une barquette de cerises et un melon.",
+      "cs": "Ne, děkuji. Ale vezmu si misku třešní a meloun."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le marchand",
+        "cs": "Prodavač"
+      },
+      "fr": "Le melon, vous le mangez aujourd'hui ou demain ?",
+      "cs": "Meloun budete jíst dnes, nebo zítra?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Plutôt demain, pour le dîner.",
+      "cs": "Spíš zítra, k večeři."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le marchand",
+        "cs": "Prodavač"
+      },
+      "fr": "Alors je vous donne celui-ci. Il sera parfait demain soir.",
+      "cs": "Tak vám dám tento. Zítra večer bude akorát."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Merci. Vous avez aussi des tomates ? Il m'en faut cinq ou six.",
+      "cs": "Děkuji. Máte i rajčata? Potřebuji pět nebo šest."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le marchand",
+        "cs": "Prodavač"
+      },
+      "fr": "Oui, elles sont au kilo. Je vous en mets six, ça va ?",
+      "cs": "Ano, prodávají se na kila. Dám vám šest, stačí?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Parfait. Ça fait combien en tout ?",
+      "cs": "Výborně. Kolik to dělá dohromady?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le marchand",
+        "cs": "Prodavač"
+      },
+      "fr": "Je vous fais le total. Vous payez par carte ou en espèces ?",
+      "cs": "Hned to sečtu. Platíte kartou, nebo hotově?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Par carte, c'est possible ? Merci, bonne journée !",
+      "cs": "Kartou, to jde? Děkuji, hezký den!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "la pêche",
+      "cs": "broskev"
+    },
+    {
+      "fr": "la fraise",
+      "cs": "jahoda"
+    },
+    {
+      "fr": "la cerise",
+      "cs": "třešeň"
+    },
+    {
+      "fr": "le melon",
+      "cs": "meloun"
+    },
+    {
+      "fr": "mûr, mûre",
+      "cs": "zralý"
+    },
+    {
+      "fr": "goûter",
+      "cs": "ochutnat"
+    },
+    {
+      "fr": "une barquette",
+      "cs": "miska, vanička"
+    },
+    {
+      "fr": "de saison",
+      "cs": "sezonní, v sezoně"
+    },
+    {
+      "fr": "au kilo",
+      "cs": "na kila"
+    },
+    {
+      "fr": "en espèces",
+      "cs": "v hotovosti"
+    }
+  ],
+  "tip": {
+    "fr": "Sur un marché parisien, il est normal de demander à goûter avant d'acheter, surtout les fruits. Sur beaucoup d'étals, on ne touche pas aux produits : c'est le marchand qui sert.",
+    "cs": "Na pařížském trhu je běžné požádat o ochutnání, než něco koupíte, zvlášť u ovoce. U mnoha stánků se zboží nebere do ruky samo: obsluhuje prodavač."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Que veut goûter la cliente ?",
+        "cs": "Co chce zákaznice ochutnat?"
+      },
+      "options": {
+        "fr": [
+          "Les pêches",
+          "Les fraises",
+          "Le melon"
+        ],
+        "cs": [
+          "Broskve",
+          "Jahody",
+          "Meloun"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Elle demande : « Je peux goûter ? » après avoir parlé des pêches.",
+        "cs": "Ptá se, zda může ochutnat, hned po rozhovoru o broskvích."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand la cliente mange-t-elle le melon ?",
+        "cs": "Kdy bude zákaznice jíst meloun?"
+      },
+      "options": {
+        "fr": [
+          "Aujourd'hui, au déjeuner",
+          "Demain soir",
+          "Samedi matin"
+        ],
+        "cs": [
+          "Dnes k obědu",
+          "Zítra večer",
+          "V sobotu ráno"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Elle répond : « Plutôt demain, pour le dîner. »",
+        "cs": "Odpovídá: spíš zítra, k večeři."
+      }
+    },
+    {
+      "q": {
+        "fr": "Combien de tomates le marchand lui met-il ?",
+        "cs": "Kolik rajčat jí prodavač dá?"
+      },
+      "options": {
+        "fr": [
+          "Quatre",
+          "Cinq",
+          "Six"
+        ],
+        "cs": [
+          "Čtyři",
+          "Pět",
+          "Šest"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Il dit : « Je vous en mets six. »",
+        "cs": "Říká: dám vám jich šest."
+      }
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,97 @@
+{
+  "id": "passages-et-canal",
+  "level": "B1",
+  "title": {
+    "fr": "Passages couverts et canal Saint-Martin",
+    "cs": "Pasáže a Canal Saint-Martin"
+  },
+  "intro": {
+    "fr": "Cette promenade traverse la rive droite en deux temps. D'abord, on marche à l'abri dans des passages couverts du XIXe siècle, avec leurs boutiques, leurs salons de thé et leurs sols en mosaïque. Ensuite, on rejoint le canal Saint-Martin, ses passerelles et ses écluses.",
+    "cs": "Procházka se na pravém břehu dělí na dvě části. Nejdřív půjdete v závětří krytých pasáží z 19. století s obchůdky, čajovnami a mozaikovými podlahami. Pak dojdete ke kanálu Saint-Martin s jeho lávkami a zdymadly."
+  },
+  "easy": {
+    "fr": "On commence par des galeries couvertes avec des boutiques anciennes. Ensuite, on marche au bord d'un canal avec de petits ponts. C'est une promenade calme, même quand il pleut.",
+    "cs": "Začnete v krytých pasážích se starými obchůdky. Pak půjdete podél kanálu s malými mosty. Je to klidná procházka i za deště."
+  },
+  "duration": {
+    "fr": "environ une demi-journée",
+    "cs": "zhruba půl dne"
+  },
+  "stops": [
+    {
+      "ref": "places:palais-royal",
+      "note": {
+        "fr": "Commencez dans les jardins du Palais-Royal, puis sortez par les galeries vers la rue des Petits-Champs.",
+        "cs": "Začněte v zahradách Palais-Royal a poté vyjděte arkádami směrem k rue des Petits-Champs."
+      }
+    },
+    {
+      "query": "Galerie Vivienne, Paris",
+      "name": {
+        "fr": "Galerie Vivienne",
+        "cs": "Galerie Vivienne"
+      },
+      "note": {
+        "fr": "Ouverte en 1823, c'est l'un des passages les mieux conservés. Regardez le sol en mosaïque et la verrière.",
+        "cs": "Pasáž otevřená v roce 1823 patří k nejlépe zachovaným. Všimněte si mozaikové podlahy a prosklené střechy."
+      }
+    },
+    {
+      "query": "Passage des Panoramas, Paris",
+      "name": {
+        "fr": "Passage des Panoramas",
+        "cs": "Passage des Panoramas"
+      },
+      "note": {
+        "fr": "C'est l'un des plus anciens passages de Paris, ouvert vers 1800. Beaucoup de petits restaurants et de boutiques de collectionneurs s'y succèdent.",
+        "cs": "Je to jedna z nejstarších pařížských pasáží, otevřená kolem roku 1800. Střídají se tu malé restaurace a obchody pro sběratele."
+      }
+    },
+    {
+      "query": "Passage Jouffroy, Paris",
+      "name": {
+        "fr": "Passage Jouffroy",
+        "cs": "Passage Jouffroy"
+      },
+      "note": {
+        "fr": "Traversez le boulevard Montmartre : ce passage de 1845 est connu pour ses libraires, ses boutiques de curiosités et son salon de thé.",
+        "cs": "Přejděte přes boulevard Montmartre: pasáž z roku 1845 je známá knihkupci, obchody s kuriozitami a čajovnou."
+      }
+    },
+    {
+      "query": "Passage Verdeau, Paris",
+      "name": {
+        "fr": "Passage Verdeau",
+        "cs": "Passage Verdeau"
+      },
+      "note": {
+        "fr": "Le passage Verdeau, de 1847, prolonge le passage Jouffroy de l'autre côté de la rue de la Grange-Batelière. On y trouve des brocanteurs, des galeries de photos et des cartes postales anciennes.",
+        "cs": "Passage Verdeau z roku 1847 navazuje na Passage Jouffroy na druhé straně ulice rue de la Grange-Batelière. Najdete tu starožitnictví, fotogalerie a staré pohlednice."
+      }
+    },
+    {
+      "ref": "places:canal-saint-martin",
+      "note": {
+        "fr": "Rejoignez le canal, inauguré en 1825. Observez les passerelles en fer, les écluses et les terrasses du quai de Valmy.",
+        "cs": "Dojděte ke kanálu, slavnostně otevřenému v roce 1825. Prohlédněte si železné lávky, zdymadla a terasy na quai de Valmy."
+      }
+    },
+    {
+      "ref": "quartiers:canal-saint-martin-republique",
+      "note": {
+        "fr": "Finissez dans le quartier du canal, où l'on peut s'asseoir au bord de l'eau ou continuer vers la place de la République.",
+        "cs": "Skončete ve čtvrti kolem kanálu, kde si můžete sednout u vody nebo pokračovat k náměstí République."
+      }
+    }
+  ],
+  "tip": {
+    "fr": "La plupart des passages ferment le soir et certains le dimanche : vérifiez les horaires avant de partir. Pour le canal, le plus agréable est de marcher le long de l'eau.",
+    "cs": "Většina pasáží večer zavírá a některé i v neděli, takže si před cestou ověřte otevírací dobu. U kanálu je nejpříjemnější jít podél vody."
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Passages_couverts_de_Paris",
+    "https://fr.wikipedia.org/wiki/Canal_Saint-Martin",
+    "https://fr.wikipedia.org/wiki/Galerie_Vivienne",
+    "https://www.paris.fr/"
+  ]
+}

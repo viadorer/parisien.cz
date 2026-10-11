@@ -84,5 +84,107 @@
     "https://creativecommons.org/licenses/by-sa/4.0/deed.cs",
     "https://commons.wikimedia.org/wiki/Commons:Licensing",
     "https://fr.wikipedia.org/wiki/Imparfait"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi l'auteur encourage-t-il à raconter « ce qui a mal tourné » ?",
+        "cs": "Proč autor vybízí k vyprávění o tom, „co se nepovedlo“?"
+      },
+      "options": {
+        "fr": [
+          "Parce que les lecteurs aiment critiquer les voyageurs.",
+          "Parce qu'un incident est souvent un meilleur point de départ qu'une journée parfaite, et que ce qui compte est ce que vous avez remarqué.",
+          "Parce que les voyages parfaits n'existent pas dans les guides.",
+          "Parce que la rédaction ne publie que les récits négatifs."
+        ],
+        "cs": [
+          "Protože čtenáři rádi kritizují cestovatele.",
+          "Protože nepovedená příhoda bývá lepším východiskem než dokonalý den a záleží na tom, čeho jste si všimli.",
+          "Protože dokonalé cesty v průvodcích neexistují.",
+          "Protože redakce zveřejňuje jen negativní příběhy."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Le voyage ordinaire a droit de cité » : un train en retard vaut « souvent un meilleur point de départ qu'une journée parfaite ».",
+        "cs": "Oddíl „I obyčejná cesta má své právo“: zpožděný vlak bývá lepším východiskem než dokonalý den."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que reproche implicitement l'auteur à la phrase « Il y a eu des problèmes » ?",
+        "cs": "Co autor nepřímo vytýká větě „Byly potíže“?"
+      },
+      "options": {
+        "fr": [
+          "Son vocabulaire trop précis.",
+          "Son emploi du mauvais temps.",
+          "Son vague : elle ne dit rien, sinon que l'auteur n'a pas voulu choisir.",
+          "Sa longueur excessive."
+        ],
+        "cs": [
+          "Příliš přesnou slovní zásobu.",
+          "Použití špatného času.",
+          "Její vágnost: neříká nic, snad jen to, že se autor nechtěl rozhodnout.",
+          "Přílišnou délku."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Le texte parle d'une phrase qui « ne dit rien, sinon que l'auteur n'a pas voulu choisir ».",
+        "cs": "Text mluví o větě, která „neříká nic, snad jen to, že se autor nechtěl rozhodnout“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle fonction le texte attribue-t-il au plus-que-parfait ?",
+        "cs": "Jakou funkci text přisuzuje plus-que-parfait?"
+      },
+      "options": {
+        "fr": [
+          "Remonter en arrière sans que le lecteur perde le fil.",
+          "Accélérer l'action avec des phrases brèves.",
+          "Décrire les habitudes quotidiennes.",
+          "Terminer le récit sur une image."
+        ],
+        "cs": [
+          "Vrátit se v čase, aniž čtenář ztratí nit.",
+          "Urychlit děj krátkými větami.",
+          "Popisovat každodenní zvyky.",
+          "Ukončit vyprávění obrazem."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Le temps du récit » : il permet de « remonter en arrière sans perdre le lecteur ».",
+        "cs": "Oddíl „Čas vyprávění“: umožňuje vrátit se v čase, aniž čtenář ztratí nit."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle méthode le texte propose-t-il pour écrire la seconde version ?",
+        "cs": "Jakou metodu text navrhuje pro napsání druhé verze?"
+      },
+      "options": {
+        "fr": [
+          "La rédiger le même jour, mot à mot.",
+          "La laisser reposer un jour, puis raconter l'histoire comme à un ami qui n'a pas lu l'original.",
+          "La confier à un traducteur automatique, puis la raccourcir.",
+          "La demander à un lecteur anglophone."
+        ],
+        "cs": [
+          "Napsat ji týž den, slovo za slovem.",
+          "Nechat první verzi odležet a pak vyprávět příběh příteli, který originál nečetl.",
+          "Svěřit ji automatickému překladači a pak zkrátit.",
+          "Požádat anglicky mluvícího čtenáře."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Écrire en deux langues » : laisser reposer la première version un jour, puis raconter à un ami.",
+        "cs": "Oddíl „Psát ve dvou jazycích“: nechat první verzi den odležet a pak vyprávět příteli."
+      }
+    }
   ]
 }

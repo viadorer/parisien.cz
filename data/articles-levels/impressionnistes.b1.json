@@ -83,5 +83,107 @@
     "https://www.musee-orangerie.fr",
     "https://www.marmottan.fr",
     "https://www.fondation-monet.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi les tableaux choquent-ils le public en 1874 ?",
+        "cs": "Proč obrazy v roce 1874 pobuřují publikum?"
+      },
+      "options": {
+        "fr": [
+          "Ils sont beaucoup trop grands pour l'atelier de Nadar.",
+          "Ils représentent seulement des scènes religieuses.",
+          "Ils montrent des touches visibles, des sujets ordinaires et une lumière saisie sur le vif.",
+          "Ils sont peints par des artistes très âgés."
+        ],
+        "cs": [
+          "Jsou příliš velké pro Nadarův ateliér.",
+          "Zobrazují jen náboženské scény.",
+          "Ukazují viditelné tahy štětce, obyčejné náměty a světlo zachycené na místě.",
+          "Namalovali je velmi staří umělci."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Un nom né d'une moquerie » : touches visibles, vie ordinaire, lumière sur le vif.",
+        "cs": "Oddíl „Jméno zrozené z posměchu“: viditelné tahy, obyčejný život, světlo na místě."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce que les peintres font de nouveau pour leur exposition ?",
+        "cs": "Co malíři při své výstavě dělají jinak než dosud?"
+      },
+      "options": {
+        "fr": [
+          "Ils l'organisent eux-mêmes, sans passer par le Salon officiel.",
+          "Ils la font dans un musée d'État.",
+          "Ils demandent à Louis Leroy de choisir les tableaux.",
+          "Ils vendent leurs tableaux dans la rue."
+        ],
+        "cs": [
+          "Organizují ji sami, bez oficiálního Salonu.",
+          "Pořádají ji ve státním muzeu.",
+          "Žádají Louise Leroye, aby vybral obrazy.",
+          "Prodávají své obrazy na ulici."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« les peintres organisent eux-mêmes leur exposition, sans passer par le Salon officiel »",
+        "cs": "Malíři organizují výstavu sami, bez oficiálního Salonu."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi le moment devant Impression, soleil levant est-il « émouvant » ?",
+        "cs": "Proč je chvíle před obrazem Dojem, vycházející slunce „dojemná“?"
+      },
+      "options": {
+        "fr": [
+          "Parce que le tableau est immense et très coloré.",
+          "Parce qu'on voit la petite toile après avoir lu l'histoire de 1874.",
+          "Parce que Monet est présent dans la salle.",
+          "Parce que le tableau est gratuit."
+        ],
+        "cs": [
+          "Protože obraz je obrovský a velmi barevný.",
+          "Protože člověk vidí malé plátno po přečtení příběhu z roku 1874.",
+          "Protože Monet je v sále přítomen.",
+          "Protože obraz je zdarma."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Jour 2 » : « Voir cette petite toile, après avoir lu l'histoire de 1874, est un moment émouvant. »",
+        "cs": "Oddíl „Den 2“: spatřit to malé plátno po přečtení příběhu z roku 1874 je dojemné."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que conseille le texte si le temps manque au musée d'Orsay ?",
+        "cs": "Co text radí, když v Musée d'Orsay chybí čas?"
+      },
+      "options": {
+        "fr": [
+          "Revenir le lendemain avec un autre billet.",
+          "Voir seulement le hall de l'ancienne gare.",
+          "Visiter le musée en courant.",
+          "Choisir deux ou trois salles."
+        ],
+        "cs": [
+          "Vrátit se druhý den s jinou vstupenkou.",
+          "Podívat se jen do haly bývalého nádraží.",
+          "Projít muzeum rychlým během.",
+          "Vybrat si dva nebo tři sály."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« Si le temps manque, ne cherchez pas à tout voir : choisissez deux ou trois salles. »",
+        "cs": "„Když nemáte čas, nesnažte se vidět všechno: vyberte si dva nebo tři sály.“"
+      }
+    }
   ]
 }

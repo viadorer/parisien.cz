@@ -35,5 +35,107 @@
   "https://emuseum.mfah.org/objects/57251/model-posing-in-muchas-studio-rue-du-val-de-grace-paris"
  ],
  "level": "B2",
- "base": "tcheques-a-paris"
+ "base": "tcheques-a-paris",
+ "questions": [
+  {
+   "q": {
+    "fr": "Comment Sarah Bernhardt obtient-elle sa nouvelle affiche pour Gismonda ?",
+    "cs": "Jak Sarah Bernhardtová získá nový plakát ke Gismondě?"
+   },
+   "options": {
+    "fr": [
+     "Elle dessine l'affiche elle-même.",
+     "Elle l'achète dans un atelier de la rue du Val-de-Grâce.",
+     "La commande est confiée à Mucha.",
+     "Elle la fait faire à l'Académie Julian."
+    ],
+    "cs": [
+     "Nakreslí plakát sama.",
+     "Koupí ho v ateliéru v rue du Val-de-Grâce.",
+     "Zakázka připadne Muchovi.",
+     "Nechá ho vytvořit na Académie Julian."
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "« La commande échoit à Mucha » (section sur Mucha).",
+    "cs": "„La commande échoit à Mucha“ (oddíl o Muchovi)."
+   }
+  },
+  {
+   "q": {
+    "fr": "Quelle conclusion tire-t-on de la phrase sur l'atelier de la rue du Val-de-Grâce ?",
+    "cs": "Co lze vyvodit z věty o ateliéru v rue du Val-de-Grâce?"
+   },
+   "options": {
+    "fr": [
+     "Le bâtiment est en ruine.",
+     "Le bâtiment a été détruit en 1972.",
+     "Le bâtiment est un musée.",
+     "Un bâtiment peut être protégé sans être ouvert au public."
+    ],
+    "cs": [
+     "Budova je v ruinách.",
+     "Budova byla zbořena v roce 1972.",
+     "Budova je muzeum.",
+     "Budova může být památkově chráněná, aniž je přístupná veřejnosti."
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "Il est « privé et ne se visite pas, mais … protégé au titre des monuments historiques depuis 1972 ».",
+    "cs": "Je „privé et ne se visite pas, mais … protégé au titre des monuments historiques depuis 1972“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que dit le texte du tableau Amorpha, Fugue à deux couleurs ?",
+    "cs": "Co text říká o obrazu Amorpha, Fugue à deux couleurs?"
+   },
+   "options": {
+    "fr": [
+     "C'est un jalon de la peinture abstraite, conservé à la Galerie nationale de Prague.",
+     "Il a été peint à Puteaux en 1957 et se trouve au Centre Pompidou.",
+     "C'est une affiche de Mucha conservée à Houston.",
+     "Il marque le retour de Kupka au réalisme."
+    ],
+    "cs": [
+     "Je mezníkem abstraktního malířství a je uložen v Národní galerii v Praze.",
+     "Vznikl v Puteaux v roce 1957 a visí v Centre Pompidou.",
+     "Je to Muchův plakát uložený v Houstonu.",
+     "Znamená Kupkův návrat k realismu."
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "« …l'un des jalons de la peinture abstraite ; il est aujourd'hui conservé à la Galerie nationale de Prague. »",
+    "cs": "„…l'un des jalons de la peinture abstraite ; il est aujourd'hui conservé à la Galerie nationale de Prague.“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Quelle est la situation de Kundera au sujet de la nationalité tchèque ?",
+    "cs": "Jaká je situace Kundery, pokud jde o české občanství?"
+   },
+   "options": {
+    "fr": [
+     "Il l'a toujours gardée.",
+     "Il l'a perdue en 1979 et ne l'a jamais retrouvée.",
+     "Il l'a perdue en 1979 ; la République tchèque la lui a rendue en 2019.",
+     "Il y a renoncé en 1981, puis l'a reprise en 1975."
+    ],
+    "cs": [
+     "Vždy si ho ponechal.",
+     "V roce 1979 o něj přišel a nikdy ho nezískal zpět.",
+     "V roce 1979 o něj přišel a Česká republika mu ho vrátila v roce 2019.",
+     "V roce 1981 se ho vzdal a v roce 1975 ho znovu získal."
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Il perd sa nationalité tchécoslovaque en 1979 ; « La République tchèque lui a rendu la nationalité en 2019 ».",
+    "cs": "„Il perd sa nationalité tchécoslovaque en 1979“ ; „La République tchèque lui a rendu la nationalité en 2019“."
+   }
+  }
+ ]
 }

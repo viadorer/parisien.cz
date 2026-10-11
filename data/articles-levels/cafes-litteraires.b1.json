@@ -77,5 +77,107 @@
     "https://cafedeflore.fr",
     "https://www.lesdeuxmagots.fr",
     "https://www.procope.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi des écrivains travaillaient-ils dans les cafés ?",
+        "cs": "Proč spisovatelé pracovali v kavárnách?"
+      },
+      "options": {
+        "fr": [
+          "Les cafés offraient des boissons gratuites",
+          "Les bibliothèques étaient fermées",
+          "On y trouvait de la chaleur, du monde et on pouvait y rester longtemps",
+          "Les éditeurs y avaient leurs bureaux"
+        ],
+        "cs": [
+          "Kavárny nabízely nápoje zdarma",
+          "Knihovny byly zavřené",
+          "Bylo tam teplo, lidé a dalo se zůstat dlouho",
+          "Nakladatelé tam měli kanceláře"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« on y trouvait de la chaleur en hiver, du monde, et un garçon qui laissait rester des heures ».",
+        "cs": "„on y trouvait de la chaleur en hiver, du monde, et un garçon qui laissait rester des heures“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment le texte présente-t-il l'histoire de l'Encyclopédie au Procope ?",
+        "cs": "Jak text představuje příběh o Encyklopedii v Procope?"
+      },
+      "options": {
+        "fr": [
+          "Comme une belle histoire plus que comme un fait",
+          "Comme un fait prouvé",
+          "Comme une invention de Diderot",
+          "Comme une erreur de date"
+        ],
+        "cs": [
+          "Spíš jako hezký příběh než jako fakt",
+          "Jako prokázaný fakt",
+          "Jako Diderotův výmysl",
+          "Jako chybu v datu"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Les historiens y voient « plutôt une belle histoire ».",
+        "cs": "Historici v tom vidí „plutôt une belle histoire“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi des amis créent-ils le Prix des Deux Magots en 1933 ?",
+        "cs": "Proč přátelé v roce 1933 založili Prix des Deux Magots?"
+      },
+      "options": {
+        "fr": [
+          "Ils veulent honorer Sartre",
+          "Ils n'ont pas le droit de voter",
+          "Ils ont perdu le Prix de Flore",
+          "Ils trouvent le Goncourt trop académique"
+        ],
+        "cs": [
+          "Chtějí ocenit Sartra",
+          "Nesmějí hlasovat",
+          "Prohráli Prix de Flore",
+          "Mají Goncourt za příliš akademickou"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Ils « trouvent le prix Goncourt trop académique et créent leur propre prix ».",
+        "cs": "Považují Goncourtovu cenu za příliš akademickou a vytvoří vlastní."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que faut-il retenir des souvenirs de Hemingway, selon le texte ?",
+        "cs": "Co si podle textu máme zapamatovat o Hemingwayových vzpomínkách?"
+      },
+      "options": {
+        "fr": [
+          "Ils sont un reportage exact",
+          "Ce sont des souvenirs reconstruits, pas un reportage",
+          "Ils ont été écrits avant 1920",
+          "Ils parlent seulement du Procope"
+        ],
+        "cs": [
+          "Jsou přesnou reportáží",
+          "Jsou to rekonstruované vzpomínky, ne reportáž",
+          "Byly napsány před rokem 1920",
+          "Mluví jen o Procope"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Lisez-les pour l'ambiance, mais ce sont des souvenirs reconstruits, pas un reportage. »",
+        "cs": "„Lisez-les pour l'ambiance, mais ce sont des souvenirs reconstruits, pas un reportage.“"
+      }
+    }
   ]
 }

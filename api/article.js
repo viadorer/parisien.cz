@@ -1,6 +1,6 @@
 // Server-side vykreslený článek (SEO + náhledy při sdílení).  /fr/article/:slug a /cs/article/:slug  → /api/article?lang=&slug=
 import { layout, esc, pick, figure, SITE } from '../lib/layout.js';
-import { toHtml } from '../lib/markup.js';
+import { toHtml, plain } from '../lib/markup.js';
 import { getPost, getPosts, getVersions } from '../lib/posts.js';
 
 const CAT = {
@@ -8,8 +8,8 @@ const CAT = {
   cs: { paris: 'Paříž', voyage: 'Cestování', langue: 'Jazyk' },
 };
 const T = {
-  fr: { level: 'Niveau de lecture', levelNote: 'Même article, écrit pour chaque niveau CECR.', glossary: 'Vocabulaire', back: '← Tous les articles', sources: 'Sources', by: 'Par', notrans: 'Cet article n’est pas encore traduit en français ; voici la version tchèque.', more: 'À lire aussi', nf: 'Article introuvable', nfp: 'Cet article n’existe pas ou n’est plus publié.' },
-  cs: { level: 'Úroveň čtení', levelNote: 'Stejný článek napsaný pro každou úroveň CEFR.', glossary: 'Slovíčka', back: '← Všechny články', sources: 'Zdroje', by: 'Autor', notrans: 'Tento článek zatím nemá český překlad, zobrazuje se francouzská verze.', more: 'Přečtěte si také', nf: 'Článek nenalezen', nfp: 'Tento článek neexistuje nebo už není zveřejněný.' },
+  fr: { listen: 'Écouter l’article', stopL: 'Arrêter', speed: 'Vitesse', comp: 'Compréhension', level: 'Niveau de lecture', levelNote: 'Même article, écrit pour chaque niveau CECR.', glossary: 'Vocabulaire', back: '← Tous les articles', sources: 'Sources', by: 'Par', notrans: 'Cet article n’est pas encore traduit en français ; voici la version tchèque.', more: 'À lire aussi', nf: 'Article introuvable', nfp: 'Cet article n’existe pas ou n’est plus publié.' },
+  cs: { listen: 'Poslechnout francouzsky', stopL: 'Zastavit', speed: 'Rychlost', comp: 'Porozumění textu', level: 'Úroveň čtení', levelNote: 'Stejný článek napsaný pro každou úroveň CEFR.', glossary: 'Slovíčka', back: '← Všechny články', sources: 'Zdroje', by: 'Autor', notrans: 'Tento článek zatím nemá český překlad, zobrazuje se francouzská verze.', more: 'Přečtěte si také', nf: 'Článek nenalezen', nfp: 'Tento článek neexistuje nebo už není zveřejněný.' },
 };
 const fmt = (iso, lang) => new Date(iso).toLocaleDateString(lang === 'cs' ? 'cs-CZ' : 'fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
 
@@ -33,7 +33,10 @@ export default async function handler(req, res) {
     const related = (await getPosts({ cat: post.category, limit: 24 })).filter((p) => p.slug === p.base && p.base !== post.base).slice(0, 3);
     const versions = await getVersions(post.base);
     const switcher = versions.length > 1 ? `<nav class="level-switch" aria-label="${esc(t.level)}"><span>${esc(t.level)} :</span>${versions.map((v) => `<a href="/${lang}/article/${esc(v.slug)}" data-level="${esc(v.level)}"${v.slug === slug ? ' aria-current="page"' : ''}>${esc(v.level || '?')}</a>`).join('')}<small>${esc(t.levelNote)}</small></nav>` : '';
-    const glossary = post.glossary?.length ? `<aside class="glossary"><h2>${esc(t.glossary)}</h2><ul>${post.glossary.map((g) => `<li><b lang="fr">${esc(g.fr)}</b> · ${esc(g.cs)}</li>`).join('')}</ul></aside>` : '';
+    const frText = plain(post.body.fr).slice(0, 14000);
+    const listen = frText ? `<div class="listen-bar" data-listen hidden><button type="button" data-act="play">▶ ${esc(t.listen)}</button><button type="button" data-act="stop" aria-label="${esc(t.stopL)}">■</button><label>${esc(t.speed)} <select data-speed><option value="0.75">0,75×</option><option value="0.9" selected>0,9×</option><option value="1">1×</option></select></label><script type="application/json" id="fr-text">${JSON.stringify(frText).replace(/</g, '\\u003c')}</script></div>` : '';
+    const comp = post.questions?.length ? `<section class="comprehension"><h2>${esc(t.comp)}</h2><div id="cq" data-lang="${lang}"></div><script type="application/json" id="cq-data">${JSON.stringify(post.questions).replace(/</g, '\\u003c')}</script></section>` : '';
+    const glossary = post.glossary?.length ? `<aside class="glossary"><h2>${esc(t.glossary)}</h2><ul>${post.glossary.map((g) => `<li><b lang="fr">${esc(g.fr)}</b> · ${esc(g.cs)} <button type="button" class="speak-btn" data-speak="${esc(g.fr)}" aria-label="Écouter" hidden>🔊</button><button type="button" class="add-card" data-fr="${esc(g.fr)}" data-cs="${esc(g.cs)}" aria-label="Carnet">＋</button></li>`).join('')}</ul></aside>` : '';
 
     const html = layout({
       lang, path: `/article/${slug}`, title: `${title} – parisien.cz`, description: pick(post.excerpt, lang),
@@ -45,10 +48,12 @@ export default async function handler(req, res) {
   <div class="post-meta"><span class="tag">${esc(CAT[lang][post.category] || post.category)}</span>${post.level ? ` <span class="tag lvl lvl-${esc(post.level)}">${esc(post.level)}</span>` : ''} <time datetime="${esc(post.date)}">${esc(fmt(post.date, lang))}</time>${post.author ? ` · ${esc(t.by)} ${esc(post.author)}` : ''}</div>
   <h1>${esc(title)}</h1>
   ${switcher}
+  ${listen}
   ${post.cover ? `<figure class="photo article-cover"><img src="${esc(post.cover)}" alt=""><figcaption class="credit">${post.coverCredit ? `<a href="${esc(post.coverCredit.url || '#')}" target="_blank" rel="noopener">© ${esc(post.coverCredit.text)}</a>` : ''}</figcaption></figure>` : ''}
   ${missing ? `<p class="note">${esc(t.notrans)}</p>` : ''}
   <div class="article-body">${toHtml(body)}</div>
   ${glossary}
+  ${comp}
   ${post.sources.length ? `<aside class="sources"><h2>${esc(t.sources)}</h2><ul>${post.sources.map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s.replace(/^https:\/\/(www\.)?/, '').slice(0, 80))}</a></li>`).join('')}</ul></aside>` : ''}
   ${related.length ? `<section class="related"><h2>${esc(t.more)}</h2><div class="blog-posts">${related.map((p) => `<article class="blog-post"><div class="post-date">${esc(fmt(p.date, lang))}</div><h3><a href="/${lang}/article/${esc(p.slug)}">${esc(pick(p.title, lang))}</a></h3></article>`).join('')}</div></section>` : ''}
 </article>`,

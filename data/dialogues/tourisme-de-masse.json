@@ -1,0 +1,276 @@
+{
+  "id": "tourisme-de-masse",
+  "level": "C1",
+  "title": {
+    "fr": "Trop de monde devant les monuments ?",
+    "cs": "Příliš mnoho lidí u památek?"
+  },
+  "scene": {
+    "fr": "Une guide-conférencière et un habitant du Marais débattent de la fréquentation touristique des grands sites parisiens.",
+    "cs": "Průvodkyně a obyvatel čtvrti Marais diskutují o návštěvnosti velkých pařížských památek."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "Sophie, guide",
+        "cs": "Sophie, průvodkyně"
+      },
+      "fr": "Je ne peux pas dire que le tourisme me gêne : il fait vivre mon métier. Mais je reconnais que, devant certains monuments, on ne voit plus qu'une mer de perches à selfie.",
+      "cs": "Nemohu říct, že mi turismus vadí: živí mou profesi. Ale uznávám, že před některými památkami člověk vidí už jen moře selfie tyčí."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Antoine, habitant",
+        "cs": "Antoine, obyvatel"
+      },
+      "fr": "Moi, je le vis au quotidien. Certains matins, mon trottoir est bloqué par des groupes, et les commerces de proximité cèdent la place à des boutiques de souvenirs.",
+      "cs": "Já to zažívám každý den. Některá rána je můj chodník zablokovaný skupinami a obchody v sousedství ustupují prodejnám suvenýrů."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Sophie, guide",
+        "cs": "Sophie, průvodkyně"
+      },
+      "fr": "C'est un phénomène réel, mais il faut le nuancer : la concentration touche surtout quelques sites très célèbres, pendant quelques créneaux horaires. À côté, des lieux magnifiques restent presque vides.",
+      "cs": "Je to skutečný jev, ale je třeba ho zpřesnit: koncentrace se týká hlavně několika velmi slavných míst a určitých hodin. Vedle toho zůstávají nádherná místa téměř prázdná."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Antoine, habitant",
+        "cs": "Antoine, obyvatel"
+      },
+      "fr": "Justement, pourquoi ne pas mieux répartir les flux ? Si l'on promouvait davantage les quartiers périphériques, on soulagerait le centre.",
+      "cs": "Právě. Proč vlastně nerozložit toky návštěvníků lépe? Kdyby se víc propagovaly okrajové čtvrti, odlehčilo by se centru."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Sophie, guide",
+        "cs": "Sophie, průvodkyně"
+      },
+      "fr": "L'idée est séduisante, mais on ne force pas les visiteurs. Quelqu'un qui vient pour quelques jours veut voir les incontournables, c'est humain. À nous de lui proposer autre chose en complément.",
+      "cs": "Myšlenka je lákavá, ale návštěvníky nelze nutit. Kdo přijede na pár dní, chce vidět to nejslavnější, je to lidské. Naším úkolem je nabídnout mu k tomu něco dalšího."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Antoine, habitant",
+        "cs": "Antoine, obyvatel"
+      },
+      "fr": "Soit. Mais il y a aussi la question de la préservation. Des millions de pas sur les mêmes dalles, ça use les lieux, et l'entretien a un coût.",
+      "cs": "Budiž. Ale je tu také otázka ochrany. Miliony kroků po stejných dlaždicích ta místa opotřebovávají a údržba něco stojí."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Sophie, guide",
+        "cs": "Sophie, průvodkyně"
+      },
+      "fr": "Là, je te suis. Mais n'oublions pas que la fréquentation finance aussi la restauration de ces monuments. Sans visiteurs, certains chantiers seraient bien plus difficiles à mener.",
+      "cs": "V tom s tebou souhlasím. Ale nezapomínejme, že návštěvnost také pomáhá financovat obnovu těchto památek. Bez návštěvníků by některé práce byly mnohem obtížnější."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Antoine, habitant",
+        "cs": "Antoine, obyvatel"
+      },
+      "fr": "Je ne dis pas le contraire. Ce que je regrette, c'est que l'expérience devienne standardisée : on photographie, on coche, on passe au suivant, sans vraiment regarder.",
+      "cs": "Neříkám opak. Co mi vadí, je, že se zážitek standardizuje: vyfotí se, odškrtne, jde se dál a nikdo se pořádně nedívá."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Sophie, guide",
+        "cs": "Sophie, průvodkyně"
+      },
+      "fr": "Je l'observe aussi, et c'est pour ça que je préfère les petits groupes et les récits précis. Quand on explique un détail, les gens s'arrêtent, ils lèvent la tête.",
+      "cs": "Také to pozoruji, a proto dávám přednost malým skupinám a přesnému vyprávění. Když se vysvětlí nějaký detail, lidé se zastaví a zvednou hlavu."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Antoine, habitant",
+        "cs": "Antoine, obyvatel"
+      },
+      "fr": "Admettons. Mais il faudrait aussi des règles pour les locations de courte durée : quand un immeuble entier se vide de ses voisins, le quartier perd son âme.",
+      "cs": "Řekněme. Ale chtělo by to i pravidla pro krátkodobé pronájmy: když se celý dům vyprázdní od sousedů, čtvrť ztrácí duši."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Sophie, guide",
+        "cs": "Sophie, průvodkyně"
+      },
+      "fr": "C'est un sujet distinct, mais lié. La Ville a d'ailleurs adopté des mesures en la matière ; leur efficacité fait encore débat.",
+      "cs": "To je odlišné téma, ale souvisí s ním. Město ostatně v této věci přijalo opatření; jejich účinnost je dosud předmětem diskusí."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Antoine, habitant",
+        "cs": "Antoine, obyvatel"
+      },
+      "fr": "Tout cela me donne l'impression qu'on gère à court terme un problème de long terme. Il faudrait un vrai projet, pas des rustines.",
+      "cs": "Mám z toho všeho dojem, že se dlouhodobý problém řeší krátkodobými opatřeními. Chtělo by to skutečný záměr, ne záplaty."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Sophie, guide",
+        "cs": "Sophie, průvodkyně"
+      },
+      "fr": "Je ne suis pas contre. À condition qu'on y associe les habitants, les professionnels du tourisme et les gestionnaires des sites, et pas seulement les institutions.",
+      "cs": "Nejsem proti. Za podmínky, že se zapojí obyvatelé, odborníci z cestovního ruchu i správci památek, a ne jen instituce."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Antoine, habitant",
+        "cs": "Antoine, obyvatel"
+      },
+      "fr": "Là-dessus, nous sommes d'accord. Et pour ma part, je me contenterais déjà que les visiteurs disent bonjour en entrant dans une boulangerie.",
+      "cs": "V tom se shodneme. A já bych se pro začátek spokojil s tím, kdyby návštěvníci pozdravili, když vejdou do pekárny."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Sophie, guide",
+        "cs": "Sophie, průvodkyně"
+      },
+      "fr": "Ça, je veux bien le leur rappeler à chaque visite ! Souvent, un geste simple change le regard que l'on porte les uns sur les autres.",
+      "cs": "To jim ráda při každé prohlídce připomenu! Jednoduché gesto často změní to, jak se na sebe díváme."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Antoine, habitant",
+        "cs": "Antoine, obyvatel"
+      },
+      "fr": "Alors voilà un début de compromis : mieux répartir, mieux expliquer, mieux respecter.",
+      "cs": "Tak tady je začátek kompromisu: lépe rozdělit, lépe vysvětlit, víc respektovat."
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "la fréquentation",
+      "cs": "návštěvnost"
+    },
+    {
+      "fr": "un flux",
+      "cs": "proud, tok (lidí)"
+    },
+    {
+      "fr": "les incontournables",
+      "cs": "to, co se nesmí minout"
+    },
+    {
+      "fr": "nuancer",
+      "cs": "zpřesnit, zjemnit"
+    },
+    {
+      "fr": "un commerce de proximité",
+      "cs": "obchod v sousedství"
+    },
+    {
+      "fr": "standardisé(e)",
+      "cs": "standardizovaný"
+    },
+    {
+      "fr": "une rustine",
+      "cs": "záplata, polovičaté řešení"
+    },
+    {
+      "fr": "cocher",
+      "cs": "odškrtnout"
+    },
+    {
+      "fr": "une location de courte durée",
+      "cs": "krátkodobý pronájem"
+    },
+    {
+      "fr": "à condition que",
+      "cs": "za podmínky, že"
+    }
+  ],
+  "tip": {
+    "fr": "Pour éviter la foule, on peut visiter les grands sites tôt le matin ou hors saison, et découvrir en complément des lieux moins connus. Les horaires et les modalités de réservation sont à consulter sur les sites officiels.",
+    "cs": "Aby se člověk vyhnul davům, může velké památky navštívit brzy ráno nebo mimo sezonu a jako doplněk objevovat méně známá místa. Hodiny a podmínky rezervace najdete na oficiálních webech."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Quel est le reproche principal d'Antoine ?",
+        "cs": "Jaká je Antoinova hlavní výtka?"
+      },
+      "options": {
+        "fr": [
+          "Le tourisme fait monter les prix de l'essence.",
+          "L'expérience devient standardisée et le quartier change.",
+          "Les guides sont mal formés."
+        ],
+        "cs": [
+          "Turismus zvedá ceny benzínu.",
+          "Zážitek se standardizuje a čtvrť se mění.",
+          "Průvodci jsou špatně vyškoleni."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Il parle de boutiques de souvenirs et d'une expérience standardisée.",
+        "cs": "Mluví o obchodech se suvenýry a standardizovaném zážitku."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel argument Sophie oppose-t-elle à Antoine sur l'entretien des monuments ?",
+        "cs": "Jaký argument staví Sophie proti Antoinovi ohledně údržby památek?"
+      },
+      "options": {
+        "fr": [
+          "Les monuments n'ont pas besoin d'entretien.",
+          "Seul l'État paie les travaux.",
+          "La fréquentation contribue aussi au financement de la restauration."
+        ],
+        "cs": [
+          "Památky údržbu nepotřebují.",
+          "Práce platí jen stát.",
+          "Návštěvnost také přispívá k financování obnovy."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Elle dit que la fréquentation finance aussi la restauration.",
+        "cs": "Říká, že návštěvnost pomáhá financovat obnovu."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel compromis ressort de la conversation ?",
+        "cs": "Jaký kompromis z rozhovoru vyplývá?"
+      },
+      "options": {
+        "fr": [
+          "Mieux répartir, mieux expliquer, mieux respecter.",
+          "Interdire les groupes.",
+          "Fermer les monuments un jour par semaine."
+        ],
+        "cs": [
+          "Lépe rozdělit, lépe vysvětlit, víc respektovat.",
+          "Zakázat skupiny.",
+          "Zavřít památky jeden den v týdnu."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Antoine résume : mieux répartir, mieux expliquer, mieux respecter.",
+        "cs": "Antoine shrnuje: lépe rozdělit, lépe vysvětlit, víc respektovat."
+      }
+    }
+  ],
+  "sources": []
+}

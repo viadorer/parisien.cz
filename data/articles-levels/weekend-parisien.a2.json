@@ -72,5 +72,101 @@
     "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
     "https://www.paris.fr",
     "https://www.parisinfo.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Qu'est-ce que l'apéro ?",
+        "cs": "Co je „apéro“?"
+      },
+      "options": {
+        "fr": [
+          "Un verre et de petites choses à manger avant le dîner",
+          "Un repas complet",
+          "Un petit-déjeuner"
+        ],
+        "cs": [
+          "Sklenka a drobné občerstvení před večeří",
+          "Plnohodnotné jídlo",
+          "Snídaně"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "L'apéro, c'est un verre et de petites choses à manger. Ce n'est pas un repas.",
+        "cs": "Apéro je sklenka a drobné občerstvení. Není to jídlo."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel marché est ouvert tous les matins sauf le lundi ?",
+        "cs": "Který trh je otevřený každé ráno kromě pondělí?"
+      },
+      "options": {
+        "fr": [
+          "Le marché des Enfants-Rouges",
+          "Le marché d'Aligre",
+          "Le marché des bouquinistes"
+        ],
+        "cs": [
+          "Trh Enfants-Rouges",
+          "Trh Aligre",
+          "Trh bouquinistů"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Le marché d'Aligre est ouvert tous les matins sauf le lundi.",
+        "cs": "Trh Aligre je otevřený každé ráno kromě pondělí."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'y a-t-il au parc des Buttes-Chaumont ?",
+        "cs": "Co je v parku Buttes-Chaumont?"
+      },
+      "options": {
+        "fr": [
+          "Une rivière et un château",
+          "Un grand marché couvert",
+          "Une plage et un port",
+          "Un lac, une grotte avec une cascade et une île avec un petit temple"
+        ],
+        "cs": [
+          "Řeka a zámek",
+          "Velká krytá tržnice",
+          "Pláž a přístav",
+          "Jezero, jeskyně s vodopádem a ostrov s malým chrámem"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Il y a un lac, une grotte avec une cascade et une île avec un petit temple.",
+        "cs": "Je tam jezero, jeskyně s vodopádem a ostrov s malým chrámem."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel conseil évite les pièges à touristes ?",
+        "cs": "Jaká rada pomůže vyhnout se turistickým pastem?"
+      },
+      "options": {
+        "fr": [
+          "Manger en face des grands monuments",
+          "Ne jamais dire « Bonjour »",
+          "Choisir le plat du jour écrit à la main"
+        ],
+        "cs": [
+          "Jíst naproti velkým památkám",
+          "Nikdy neříkat „Bonjour“",
+          "Vybrat denní nabídku napsanou rukou"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Choisissez le plat du jour écrit à la main.",
+        "cs": "Vyberte si plat dne napsaný rukou."
+      }
+    }
   ]
 }

@@ -1,0 +1,265 @@
+{
+  "id": "choisir-un-weekend",
+  "level": "B2",
+  "title": {
+    "fr": "Que faire ce week-end ?",
+    "cs": "Co podniknout o víkendu?"
+  },
+  "scene": {
+    "fr": "Deux amis parisiens hésitent entre plusieurs idées pour le week-end.",
+    "cs": "Dva pařížští přátelé váhají mezi několika nápady na víkend."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "Camille",
+        "cs": "Camille"
+      },
+      "fr": "Alors, on décide quoi pour ce week-end ? J'ai envie de bouger, mais pas d'y passer trois heures dans les transports.",
+      "cs": "Tak co děláme o víkendu? Mám chuť se vypravit někam, ale ne trávit tři hodiny cestou."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Malik",
+        "cs": "Malik"
+      },
+      "fr": "Moi, je pensais à une journée à Versailles. Le temps est annoncé beau, ce serait dommage de rester enfermés.",
+      "cs": "Já myslel na den ve Versailles. Má být hezky, byla by škoda zůstat zavření."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Camille",
+        "cs": "Camille"
+      },
+      "fr": "Versailles un samedi ? Il y aura un monde fou ! Je préférerais éviter les files d'attente, quitte à choisir un lieu moins connu.",
+      "cs": "Versailles v sobotu? Budou tam davy! Raději bych se vyhnula frontám, i kdyby to mělo být méně známé místo."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Malik",
+        "cs": "Malik"
+      },
+      "fr": "Tu n'as pas tort. Et si on y allait plutôt dimanche matin, dès l'ouverture ? On aurait peut-être les jardins presque pour nous.",
+      "cs": "V tom máš pravdu. A co kdybychom jeli radši v neděli ráno, hned po otevření? Zahrady bychom možná měli skoro jen pro sebe."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Camille",
+        "cs": "Camille"
+      },
+      "fr": "Possible, mais je ne suis pas sûre de me lever aussi tôt un dimanche. Que dirais-tu du canal Saint-Martin et d'un tour du côté de Belleville ?",
+      "cs": "Možné, ale nejsem si jistá, že v neděli vstanu tak brzy. Co říkáš na kanál Saint-Martin a procházku po Belleville?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Malik",
+        "cs": "Malik"
+      },
+      "fr": "Ça me tente, et on pourrait déjeuner dans le coin. Le seul problème, c'est qu'on y va tout le temps. J'aimerais découvrir autre chose.",
+      "cs": "To mě láká a mohli bychom tam poblíž poobědvat. Jediný problém je, že tam chodíme pořád. Rád bych objevil něco nového."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Camille",
+        "cs": "Camille"
+      },
+      "fr": "D'accord. Alors pourquoi pas un musée qu'on ne connaît pas ? Le musée Carnavalet a rouvert, il paraît que la visite vaut le détour.",
+      "cs": "Dobře. Tak proč ne muzeum, které neznáme? Musée Carnavalet se znovu otevřelo, prý stojí návštěva za to."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Malik",
+        "cs": "Malik"
+      },
+      "fr": "Bonne idée, surtout si le temps tourne. Mais s'il fait beau, ce serait dommage de passer l'après-midi à l'intérieur.",
+      "cs": "Dobrý nápad, hlavně kdyby se počasí zhoršilo. Ale pokud bude hezky, bylo by škoda strávit odpoledne uvnitř."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Camille",
+        "cs": "Camille"
+      },
+      "fr": "On peut combiner : musée le matin, puis promenade jusqu'à la place des Vosges et pique-nique dans le square.",
+      "cs": "Můžeme to spojit: ráno muzeum, pak procházka na place des Vosges a piknik ve skvéru."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Malik",
+        "cs": "Malik"
+      },
+      "fr": "Ça me va ! Par contre, il faudra vérifier sur le site s'il faut réserver un créneau, sinon on risque d'attendre dehors.",
+      "cs": "Mně to vyhovuje! Jen bude potřeba na webu zjistit, jestli se má rezervovat čas vstupu, jinak hrozí, že budeme čekat venku."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Camille",
+        "cs": "Camille"
+      },
+      "fr": "Je m'en occupe ce soir. Et Versailles, on le garde pour un jour de semaine, quand on sera en congé.",
+      "cs": "Zařídím to dnes večer. A Versailles si necháme na všední den, až budeme mít volno."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Malik",
+        "cs": "Malik"
+      },
+      "fr": "Marché conclu. Tu proposes un horaire pour demain ou on se laisse un peu de marge ?",
+      "cs": "Platí. Navrhneš čas na zítřek, nebo si necháme trochu rezervu?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Camille",
+        "cs": "Camille"
+      },
+      "fr": "Disons dix heures devant l'entrée. Si l'un de nous est en retard, on se préviendra par message.",
+      "cs": "Řekněme v deset před vchodem. Kdyby se jeden z nás zpozdil, dáme si vědět zprávou."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Malik",
+        "cs": "Malik"
+      },
+      "fr": "Parfait. Apporte de quoi grignoter, je m'occupe des boissons.",
+      "cs": "Skvěle. Přines něco k zakousnutí, o pití se postarám já."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Camille",
+        "cs": "Camille"
+      },
+      "fr": "Entendu. Et si la pluie s'invite, on improvisera !",
+      "cs": "Domluveno. A kdyby se přihlásil déšť, budeme improvizovat!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "hésiter entre",
+      "cs": "váhat mezi"
+    },
+    {
+      "fr": "une file d'attente",
+      "cs": "fronta"
+    },
+    {
+      "fr": "quitte à",
+      "cs": "i kdyby to mělo znamenat"
+    },
+    {
+      "fr": "valoir le détour",
+      "cs": "stát za zacházku"
+    },
+    {
+      "fr": "un créneau",
+      "cs": "časový úsek, termín"
+    },
+    {
+      "fr": "combiner",
+      "cs": "spojit, zkombinovat"
+    },
+    {
+      "fr": "une marge",
+      "cs": "rezerva"
+    },
+    {
+      "fr": "grignoter",
+      "cs": "něco si zobnout"
+    },
+    {
+      "fr": "tourner (le temps)",
+      "cs": "zhoršit se (o počasí)"
+    }
+  ],
+  "tip": {
+    "fr": "Pour les musées et monuments très fréquentés, mieux vaut consulter le site officiel avant de partir : certains demandent de réserver un créneau d'entrée.",
+    "cs": "U hodně navštěvovaných muzeí a památek se vyplatí před odchodem nahlédnout na oficiální web: některé vyžadují rezervaci času vstupu."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Pourquoi Camille n'aime-t-elle pas l'idée de Versailles le samedi ?",
+        "cs": "Proč se Camille nelíbí nápad jet v sobotu do Versailles?"
+      },
+      "options": {
+        "fr": [
+          "Elle craint la foule et les files d'attente.",
+          "Elle n'aime pas les jardins.",
+          "Le trajet est trop cher."
+        ],
+        "cs": [
+          "Obává se davů a front.",
+          "Nemá ráda zahrady.",
+          "Cesta je příliš drahá."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Elle dit qu'il y aura un monde fou et qu'elle veut éviter les files.",
+        "cs": "Říká, že tam budou davy a chce se vyhnout frontám."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel est finalement le plan retenu ?",
+        "cs": "Jaký plán nakonec zvítězí?"
+      },
+      "options": {
+        "fr": [
+          "Une journée entière à Versailles.",
+          "Un musée le matin, puis promenade et pique-nique.",
+          "Une longue balade le long du canal."
+        ],
+        "cs": [
+          "Celý den ve Versailles.",
+          "Ráno muzeum, pak procházka a piknik.",
+          "Dlouhá procházka podél kanálu."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Ils combinent musée Carnavalet et place des Vosges.",
+        "cs": "Spojí Musée Carnavalet a place des Vosges."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que décident-ils pour Versailles ?",
+        "cs": "Co se rozhodnou ohledně Versailles?"
+      },
+      "options": {
+        "fr": [
+          "Y aller dimanche.",
+          "Y renoncer définitivement.",
+          "Le garder pour un jour de semaine."
+        ],
+        "cs": [
+          "Jet tam v neděli.",
+          "Definitivně to vzdát.",
+          "Nechat si to na všední den."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Camille propose de garder Versailles pour un jour de congé en semaine.",
+        "cs": "Camille navrhuje nechat Versailles na volný všední den."
+      }
+    }
+  ],
+  "sources": [
+    "https://www.museecarnavalet.paris.fr/"
+  ]
+}

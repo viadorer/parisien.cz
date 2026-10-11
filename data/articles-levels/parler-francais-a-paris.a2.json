@@ -70,5 +70,101 @@
     "https://apprendre.tv5monde.com/fr",
     "https://francaisfacile.rfi.fr/fr/",
     "https://www.ifp.cz/"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi la vendeuse ne répond pas ?",
+        "cs": "Proč prodavačka neodpovídá?"
+      },
+      "options": {
+        "fr": [
+          "Il n'y a plus de baguettes.",
+          "Le client parle anglais.",
+          "Le client a oublié de dire « Bonjour »."
+        ],
+        "cs": [
+          "Už nejsou bagety.",
+          "Zákazník mluví anglicky.",
+          "Zákazník zapomněl říct „Bonjour“."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Vous avez oublié un petit mot : « Bonjour ».",
+        "cs": "Zapomněl jste malé slovo: „Bonjour“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire « un café » à Paris ?",
+        "cs": "Co v Paříži znamená „un café“?"
+      },
+      "options": {
+        "fr": [
+          "Un grand café avec du lait",
+          "Un petit café noir",
+          "Un thé chaud"
+        ],
+        "cs": [
+          "Velká káva s mlékem",
+          "Malé černé kafe",
+          "Horký čaj"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Un café » est un petit café noir.",
+        "cs": "„Un café“ je malé černé kafe."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qu'on peut demander au restaurant sans payer ?",
+        "cs": "O co můžete v restauraci požádat zdarma?"
+      },
+      "options": {
+        "fr": [
+          "Une carafe d'eau",
+          "Un dessert",
+          "Une formule"
+        ],
+        "cs": [
+          "Karafu vody",
+          "Zákusek",
+          "Menu (formule)"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Vous pouvez demander une carafe d'eau. L'eau du robinet ne coûte rien.",
+        "cs": "Můžete chtít karafu vody. Voda z kohoutku nestojí nic."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi le serveur n'apporte pas toujours la note tout seul ?",
+        "cs": "Proč číšník nenosí účet vždy sám od sebe?"
+      },
+      "options": {
+        "fr": [
+          "Il oublie les clients.",
+          "L'addition est gratuite.",
+          "Il n'aime pas les touristes.",
+          "Il ne veut pas presser les clients."
+        ],
+        "cs": [
+          "Na zákazníky zapomíná.",
+          "Účet je zdarma.",
+          "Nemá rád turisty.",
+          "Nechce zákazníky popohánět."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Ce n'est pas impoli. Il ne veut pas presser les clients.",
+        "cs": "Není to neslušné. Nechce zákazníky popohánět."
+      }
+    }
   ]
 }

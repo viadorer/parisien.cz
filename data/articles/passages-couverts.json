@@ -31,5 +31,107 @@
   "https://www.paris.fr"
  ],
  "level": "B2",
- "base": "passages-couverts"
+ "base": "passages-couverts",
+ "questions": [
+  {
+   "q": {
+    "fr": "Qui a fait installer les rotondes du passage des Panoramas, et dans quel but ?",
+    "cs": "Kdo nechal zřídit rotundy v Passage des Panoramas a za jakým účelem?"
+   },
+   "options": {
+    "fr": [
+     "Robert Fulton, pour financer ses essais de sous-marin",
+     "James William Thayer, pour montrer des panoramas aux touristes",
+     "Un notaire, pour concurrencer la galerie Vivienne",
+     "Walter Benjamin, pour y installer sa bibliothèque"
+    ],
+    "cs": [
+     "Robert Fulton, aby zaplatil pokusy s ponorkou",
+     "James William Thayer, aby ukazoval panoramata turistům",
+     "Notář, aby konkuroval Galerie Vivienne",
+     "Walter Benjamin, aby tam umístil svou knihovnu"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Dans la section « Un premier passage en 1799 » : Fulton les a fait installer pour financer ses essais de sous-marin ; Thayer a lancé la galerie ensuite.",
+    "cs": "V části „První pasáž z roku 1799“: Fulton je nechal zřídit, aby financoval pokusy s ponorkou; galerii pak rozjel Thayer."
+   }
+  },
+  {
+   "q": {
+    "fr": "Pourquoi la plupart des passages ont-ils été détruits ?",
+    "cs": "Proč byla většina pasáží zbořena?"
+   },
+   "options": {
+    "fr": [
+     "Un grand incendie les a ravagés en 1831",
+     "Les rotondes se sont effondrées",
+     "Les grands boulevards et les percées haussmanniennes ont détourné les promeneurs",
+     "La Révolution a interdit le commerce de luxe"
+    ],
+    "cs": [
+     "Zničil je velký požár roku 1831",
+     "Zřítily se rotundy",
+     "Velké bulváry a Haussmannovy průrazy odlákaly chodce",
+     "Revoluce zakázala obchod s luxusním zbožím"
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Fin de la section sur le premier passage : « les grands boulevards et les percées haussmanniennes ont détourné les promeneurs ».",
+    "cs": "Konec části o první pasáži: velké bulváry a Haussmannovy průrazy odlákaly chodce."
+   }
+  },
+  {
+   "q": {
+    "fr": "Pourquoi le texte conseille-t-il de retenir simplement « une vingtaine » de passages ?",
+    "cs": "Proč text radí zapamatovat si prostě „kolem dvaceti“ pasáží?"
+   },
+   "options": {
+    "fr": [
+     "Parce que les passages ferment les uns après les autres",
+     "Parce que les sources ne donnent pas le même total, les listes variant",
+     "Parce que seuls vingt passages sont ouverts au public",
+     "Parce que le chiffre exact est un secret d'État"
+    ],
+    "cs": [
+     "Protože pasáže jedna po druhé zavírají",
+     "Protože zdroje neuvádějí stejný počet, seznamy se liší",
+     "Protože pro veřejnost je otevřeno jen dvacet pasáží",
+     "Protože přesný počet je státní tajemství"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Section « Ce qu'il en reste » : « les listes varient ».",
+    "cs": "Část „Co z nich zbylo“: seznamy se liší."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que dit le texte du livre de Walter Benjamin sur les passages ?",
+    "cs": "Co text říká o knize Waltera Benjamina o pasážích?"
+   },
+   "options": {
+    "fr": [
+     "Il a été publié en allemand dès 1940",
+     "Il décrit uniquement la galerie Vivienne",
+     "Il est indispensable pour visiter les passages",
+     "Il est resté inachevé, et l'édition allemande n'a paru qu'en 1982"
+    ],
+    "cs": [
+     "Vyšla německy už roku 1940",
+     "Popisuje jen Galerie Vivienne",
+     "Je nezbytná pro návštěvu pasáží",
+     "Zůstala nedokončená a německé vydání vyšlo až roku 1982"
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "Section sur Walter Benjamin : l'ouvrage est resté inachevé ; l'édition allemande n'a paru qu'en 1982. Le texte ajoute qu'il n'est pas nécessaire de le lire.",
+    "cs": "Část o Walteru Benjaminovi: dílo zůstalo nedokončené, německé vydání vyšlo až roku 1982. Číst ho podle textu není nutné."
+   }
+  }
+ ]
 }

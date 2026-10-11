@@ -85,5 +85,107 @@
     "https://cafedeflore.fr",
     "https://www.lesdeuxmagots.fr",
     "https://www.procope.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que sous-entend « que l'on photographie plus volontiers qu'on n'y écrit » ?",
+        "cs": "Co naznačuje „que l'on photographie plus volontiers qu'on n'y écrit“?"
+      },
+      "options": {
+        "fr": [
+          "Que les écrivains y prennent des photos",
+          "Que l'écriture y est interdite",
+          "Que les terrasses sont trop sombres",
+          "Que ces cafés attirent aujourd'hui plus les touristes que les écrivains"
+        ],
+        "cs": [
+          "Že tam spisovatelé fotografují",
+          "Že psaní je tam zakázáno",
+          "Že terasy jsou příliš tmavé",
+          "Že tyto kavárny dnes přitahují víc turisty než spisovatele"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Phrase d'introduction : les terrasses sont devenues « des monuments que l'on photographie plus volontiers qu'on n'y écrit ».",
+        "cs": "Úvodní věta: terasy se staly „monuments que l'on photographie plus volontiers qu'on n'y écrit“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi la légende de l'Encyclopédie circule-t-elle volontiers, selon l'auteur ?",
+        "cs": "Proč se podle autora legenda o Encyklopedii ráda šíří?"
+      },
+      "options": {
+        "fr": [
+          "Les historiens l'ont prouvée",
+          "La maison a tout intérêt à la laisser circuler",
+          "Diderot l'a racontée lui-même",
+          "Elle figure sur la carte du restaurant"
+        ],
+        "cs": [
+          "Historici ji dokázali",
+          "Podnik má všechny důvody nechat ji kolovat",
+          "Vyprávěl ji sám Diderot",
+          "Je uvedena v jídelním lístku"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Récit embelli, « de ceux que la maison a tout intérêt à laisser circuler ».",
+        "cs": "Zkrášlený příběh, „de ceux que la maison a tout intérêt à laisser circuler“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que désigne la « retoucheuse habile » à propos des souvenirs de Hemingway ?",
+        "cs": "Co označuje „retoucheuse habile“ (obratná retušérka) u Hemingwayových vzpomínek?"
+      },
+      "options": {
+        "fr": [
+          "La mémoire, qui embellit et déforme",
+          "Le traducteur français",
+          "L'éditeur posthume",
+          "Une photographe de Montparnasse"
+        ],
+        "cs": [
+          "Paměť, která zkrášluje a deformuje",
+          "Francouzský překladatel",
+          "Posmrtný editor",
+          "Fotografka z Montparnassu"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Le Paris décrit « doit autant à la mémoire, cette retoucheuse habile, qu'à l'exactitude ».",
+        "cs": "Popsaná Paříž „doit autant à la mémoire, cette retoucheuse habile, qu'à l'exactitude“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment l'auteur présente-t-il la création du Prix des Deux Magots ?",
+        "cs": "Jak autor představuje vznik Prix des Deux Magots?"
+      },
+      "options": {
+        "fr": [
+          "Comme une opération commerciale du café",
+          "Comme une imitation du Prix de Flore",
+          "Comme une dissidence littéraire réglée autour d'une table plutôt que par un manifeste",
+          "Comme une réponse à la guerre"
+        ],
+        "cs": [
+          "Jako obchodní operaci kavárny",
+          "Jako nápodobu Prix de Flore",
+          "Jako literární disent řešený u stolu spíše než manifestem",
+          "Jako odpověď na válku"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« tout le charme de la dissidence littéraire, celle qui se règle autour d'une table plutôt que dans un manifeste ».",
+        "cs": "„tout le charme de la dissidence littéraire, celle qui se règle autour d'une table plutôt que dans un manifeste“."
+      }
+    }
   ]
 }

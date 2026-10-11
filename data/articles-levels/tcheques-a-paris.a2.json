@@ -77,5 +77,99 @@
     "https://www.centrepompidou.fr/fr/recherche/oeuvres?terms=Kupka",
     "https://monumentum.fr/monument-historique/pa00088439/paris-5e-arrondissement-hotel-au-fond-du-jardin",
     "https://emuseum.mfah.org/objects/57251/model-posing-in-muchas-studio-rue-du-val-de-grace-paris"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi ne peut-on pas visiter la maison de Mucha, rue du Val-de-Grâce ?",
+        "cs": "Proč nelze navštívit Muchův dům v rue du Val-de-Grâce?"
+      },
+      "options": {
+        "fr": [
+          "Elle est fermée depuis 1910.",
+          "Elle est trop petite.",
+          "Elle est privée."
+        ],
+        "cs": [
+          "Je zavřená od roku 1910.",
+          "Je příliš malá.",
+          "Je soukromá."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« La maison est privée. On ne peut pas la visiter. »",
+        "cs": "„La maison est privée. On ne peut pas la visiter.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Où Kupka habite-t-il jusqu'à sa mort ?",
+        "cs": "Kde Kupka bydlí až do smrti?"
+      },
+      "options": {
+        "fr": [
+          "À Prague",
+          "À Puteaux",
+          "À Rennes"
+        ],
+        "cs": [
+          "V Praze",
+          "V Puteaux",
+          "V Rennes"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Vers 1906, il habite à Puteaux… Il y reste jusqu'à sa mort. »",
+        "cs": "„Vers 1906, il habite à Puteaux… Il y reste jusqu'à sa mort.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Qui rejoint le groupe surréaliste d'André Breton ?",
+        "cs": "Kdo vstoupí do surrealistické skupiny André Bretona?"
+      },
+      "options": {
+        "fr": [
+          "Toyen",
+          "Kundera",
+          "Martinů"
+        ],
+        "cs": [
+          "Toyen",
+          "Kundera",
+          "Martinů"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« La peintre Toyen… rejoint le groupe surréaliste d'André Breton. »",
+        "cs": "„La peintre Toyen… rejoint le groupe surréaliste d'André Breton.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que rappelle la plaque du Centre tchèque ?",
+        "cs": "Co připomíná pamětní deska u Českého centra?"
+      },
+      "options": {
+        "fr": [
+          "Mucha y a eu son atelier.",
+          "Kundera y a habité.",
+          "En 1916, le Conseil national tchèque s'est installé dans la cour."
+        ],
+        "cs": [
+          "Měl tam ateliér Mucha.",
+          "Bydlel tam Kundera.",
+          "V roce 1916 se na nádvoří usídlila Česká národní rada."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« En 1916, le Conseil national tchèque s'installe dans la cour… Une plaque le rappelle. »",
+        "cs": "„En 1916, le Conseil national tchèque s'installe dans la cour… Une plaque le rappelle.“"
+      }
+    }
   ]
 }

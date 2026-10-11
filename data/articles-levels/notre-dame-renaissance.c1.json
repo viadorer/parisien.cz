@@ -85,5 +85,107 @@
     "https://www.culture.gouv.fr/actualites/special-notre-dame-de-paris-4-6-le-jour-ou-la-cathedrale-a-retrouve-sa-fleche",
     "https://dioceseparis.fr/guillaume-bardet-artiste-choisi.html",
     "https://www.notredamedeparis.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Quelle idée l'auteur veut-il d'abord corriger ?",
+        "cs": "Jakou představu chce autor nejprve opravit?"
+      },
+      "options": {
+        "fr": [
+          "Celle d'une cathédrale trop récente",
+          "Celle d'un monument immuable, jamais retouché",
+          "Celle d'un incendie sans conséquences",
+          "Celle d'un chantier trop lent"
+        ],
+        "cs": [
+          "Představu příliš nové katedrály",
+          "Představu nezměnitelné památky, nikdy neupravované",
+          "Představu požáru bez následků",
+          "Představu příliš pomalé stavby"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Il faut « se défaire d'une idée tenace, celle d'un monument immuable ».",
+        "cs": "Je třeba „se défaire d'une idée tenace, celle d'un monument immuable“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Où se situe « l'ironie » évoquée à propos de la flèche ?",
+        "cs": "V čem spočívá „ironie“ zmíněná u střely?"
+      },
+      "options": {
+        "fr": [
+          "La flèche détruite en 2019 n'était pas médiévale mais du XIXe siècle",
+          "La flèche a été détruite deux fois",
+          "La flèche avait été construite par Hugo",
+          "La flèche était la seule partie en pierre"
+        ],
+        "cs": [
+          "Zničená střela nebyla středověká, ale z 19. století",
+          "Střela byla zničena dvakrát",
+          "Střelu postavil Hugo",
+          "Střela byla jedinou kamennou částí"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« la flèche qui brûle en 2019 n'est pas médiévale, c'est celle du XIXe siècle ».",
+        "cs": "„la flèche qui brûle en 2019 n'est pas médiévale, c'est celle du XIXe siècle“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi la fidélité aux matériaux d'origine « n'allait pas de soi » ?",
+        "cs": "Proč nebyla věrnost původním materiálům „samozřejmá“?"
+      },
+      "options": {
+        "fr": [
+          "Le bois manquait en France",
+          "Le plomb était interdit",
+          "Le métal ou le béton étaient techniquement possibles",
+          "Les dons étaient insuffisants"
+        ],
+        "cs": [
+          "Ve Francii chybělo dřevo",
+          "Olovo bylo zakázáno",
+          "Kov nebo beton byly technicky možné",
+          "Dary nestačily"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« il aurait été techniquement concevable de recourir au métal ou au béton ».",
+        "cs": "„il aurait été techniquement concevable de recourir au métal ou au béton“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que montre la distinction entre le bâti et le mobilier liturgique ?",
+        "cs": "Co ukazuje rozlišení mezi stavbou a liturgickým mobiliářem?"
+      },
+      "options": {
+        "fr": [
+          "Que le mobilier était trop abîmé",
+          "Que le bronze est moins cher que la pierre",
+          "Que Bardet s'oppose à Villeneuve",
+          "Que le bâti est restitué fidèlement, tandis que chaque époque signe les objets du culte"
+        ],
+        "cs": [
+          "Že mobiliář byl příliš poškozen",
+          "Že bronz je levnější než kámen",
+          "Že Bardet je proti Villeneuvovi",
+          "Že stavba je obnovena věrně, zatímco každá doba podepisuje liturgické předměty"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« le bâti ... restitué avec la plus grande fidélité ; ... les objets du culte, que l'on crée pour le présent ».",
+        "cs": "„le bâti … restitué avec la plus grande fidélité ; … les objets du culte, que l'on crée pour le présent“."
+      }
+    }
   ]
 }

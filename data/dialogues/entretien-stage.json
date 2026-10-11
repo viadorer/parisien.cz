@@ -1,0 +1,272 @@
+{
+  "id": "entretien-stage",
+  "level": "B2",
+  "title": {
+    "fr": "Un entretien de stage",
+    "cs": "Pohovor na stáž"
+  },
+  "scene": {
+    "fr": "Une candidate passe un entretien pour un stage dans une agence de communication à Paris. On se vouvoie.",
+    "cs": "Uchazečka je na pohovoru na stáž v pařížské komunikační agentuře. Vyká se."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "La responsable",
+        "cs": "Vedoucí"
+      },
+      "fr": "Bonjour, madame Novák, merci d'être venue. Installez-vous, je vous en prie. Vous avez trouvé facilement ?",
+      "cs": "Dobrý den, paní Nováková, děkuji, že jste přišla. Posaďte se, prosím. Našla jste nás snadno?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La candidate",
+        "cs": "Uchazečka"
+      },
+      "fr": "Bonjour, madame. Oui, merci, le trajet en métro était très simple. Je suis heureuse de vous rencontrer.",
+      "cs": "Dobrý den, paní. Ano, děkuji, cesta metrem byla velmi jednoduchá. Těší mě, že vás poznávám."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La responsable",
+        "cs": "Vedoucí"
+      },
+      "fr": "Votre CV indique que vous étudiez la communication à Prague. Qu'est-ce qui vous a donné envie de faire un stage à Paris ?",
+      "cs": "V životopise uvádíte, že studujete komunikaci v Praze. Co vás přivedlo k myšlence absolvovat stáž v Paříži?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La candidate",
+        "cs": "Uchazečka"
+      },
+      "fr": "J'aimerais travailler dans un environnement francophone pour perfectionner mon français, et votre agence travaille sur des campagnes culturelles qui m'intéressent beaucoup.",
+      "cs": "Chtěla bych pracovat ve frankofonním prostředí, abych si zdokonalila francouzštinu, a vaše agentura připravuje kulturní kampaně, které mě velmi zajímají."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La responsable",
+        "cs": "Vedoucí"
+      },
+      "fr": "Très bien. Avez-vous déjà eu une expérience professionnelle, même brève ?",
+      "cs": "Výborně. Máte už nějakou pracovní zkušenost, i krátkou?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La candidate",
+        "cs": "Uchazečka"
+      },
+      "fr": "Oui, j'ai géré les réseaux sociaux d'une association étudiante pendant un an. J'y ai appris à planifier des publications et à analyser les retours du public.",
+      "cs": "Ano, rok jsem spravovala sociální sítě studentského spolku. Naučila jsem se plánovat příspěvky a vyhodnocovat ohlas publika."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La responsable",
+        "cs": "Vedoucí"
+      },
+      "fr": "Intéressant. Et comment réagissez-vous quand un projet prend du retard ?",
+      "cs": "Zajímavé. A jak reagujete, když se projekt zpozdí?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La candidate",
+        "cs": "Uchazečka"
+      },
+      "fr": "J'essaie d'abord d'identifier la cause, puis d'en parler rapidement avec l'équipe. Je préfère signaler un problème tôt plutôt que d'attendre la dernière minute.",
+      "cs": "Nejdřív se snažím zjistit příčinu a pak o tom rychle mluvím s týmem. Raději upozorním na problém včas, než abych čekala na poslední chvíli."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La responsable",
+        "cs": "Vedoucí"
+      },
+      "fr": "C'est une bonne attitude. Quelles sont, selon vous, vos principales qualités et, à l'inverse, un point à améliorer ?",
+      "cs": "To je dobrý přístup. Jaké jsou podle vás vaše hlavní přednosti a naopak co byste měla zlepšit?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La candidate",
+        "cs": "Uchazečka"
+      },
+      "fr": "Je suis rigoureuse et curieuse. En revanche, j'ai parfois tendance à trop peaufiner mes textes ; je travaille à fixer des limites de temps.",
+      "cs": "Jsem důsledná a zvídavá. Naopak mám někdy sklon texty příliš dolaďovat; pracuji na tom, abych si stanovila časové limity."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La responsable",
+        "cs": "Vedoucí"
+      },
+      "fr": "Votre niveau de français est déjà solide. Seriez-vous à l'aise pour rédiger un communiqué en français ?",
+      "cs": "Vaše francouzština je už teď na dobré úrovni. Cítila byste se při psaní tiskové zprávy ve francouzštině dost jistě?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La candidate",
+        "cs": "Uchazečka"
+      },
+      "fr": "Oui, à condition qu'un collègue relise mon texte au début. Je pense que cela me ferait beaucoup progresser.",
+      "cs": "Ano, pokud by mi text zpočátku přečetl některý z kolegů. Myslím, že by mě to hodně posunulo."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La responsable",
+        "cs": "Vedoucí"
+      },
+      "fr": "C'est tout à fait normal. Avez-vous des questions à me poser sur le stage ?",
+      "cs": "To je naprosto přirozené. Máte na mě nějaké otázky ohledně stáže?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La candidate",
+        "cs": "Uchazečka"
+      },
+      "fr": "Oui. Pourriez-vous m'expliquer quelles missions seraient confiées à un stagiaire et comment il serait encadré ?",
+      "cs": "Ano. Mohla byste mi vysvětlit, jaké úkoly by se stážistovi svěřovaly a jak by byl veden?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La responsable",
+        "cs": "Vedoucí"
+      },
+      "fr": "Volontiers. Vous seriez rattachée à une chef de projet, qui vous suivrait chaque semaine. Nous reviendrons vers vous d'ici une dizaine de jours.",
+      "cs": "Ráda. Byla byste přidělena k projektové manažerce, která by s vámi každý týden probírala práci. Ozveme se vám zhruba do deseti dní."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La candidate",
+        "cs": "Uchazečka"
+      },
+      "fr": "Je vous remercie pour votre temps et votre accueil. Au revoir, madame, et bonne journée.",
+      "cs": "Děkuji vám za váš čas a za přijetí. Na shledanou, paní, a hezký den."
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "un entretien",
+      "cs": "pohovor"
+    },
+    {
+      "fr": "un stage / un stagiaire",
+      "cs": "stáž / stážista"
+    },
+    {
+      "fr": "prendre du retard",
+      "cs": "zpozdit se (o projektu)"
+    },
+    {
+      "fr": "rigoureux, rigoureuse",
+      "cs": "důsledný"
+    },
+    {
+      "fr": "peaufiner",
+      "cs": "vyleštit, doladit"
+    },
+    {
+      "fr": "un communiqué",
+      "cs": "tisková zpráva"
+    },
+    {
+      "fr": "encadrer",
+      "cs": "vést, dohlížet na"
+    },
+    {
+      "fr": "rattaché(e) à",
+      "cs": "přidělen(a) k"
+    },
+    {
+      "fr": "revenir vers quelqu'un",
+      "cs": "ozvat se někomu"
+    }
+  ],
+  "tip": {
+    "fr": "En entretien, on vouvoie son interlocuteur et on termine en le remerciant de son temps : c'est une convention de politesse très répandue en France.",
+    "cs": "U pohovoru se druhé straně vyká a na závěr se děkuje za čas: ve Francii jde o velmi rozšířenou konvenci slušného chování."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Pourquoi la candidate veut-elle faire son stage à Paris ?",
+        "cs": "Proč chce uchazečka stáž v Paříži?"
+      },
+      "options": {
+        "fr": [
+          "Pour perfectionner son français et travailler sur des campagnes culturelles.",
+          "Pour gagner beaucoup d'argent.",
+          "Parce que ses parents y habitent."
+        ],
+        "cs": [
+          "Aby zdokonalila francouzštinu a pracovala na kulturních kampaních.",
+          "Aby vydělala hodně peněz.",
+          "Protože tam bydlí její rodiče."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Elle parle d'un environnement francophone et de campagnes culturelles.",
+        "cs": "Mluví o frankofonním prostředí a kulturních kampaních."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel défaut la candidate mentionne-t-elle ?",
+        "cs": "Jakou slabinu uchazečka zmiňuje?"
+      },
+      "options": {
+        "fr": [
+          "Elle est souvent en retard.",
+          "Elle a tendance à trop retravailler ses textes.",
+          "Elle n'aime pas le travail en équipe."
+        ],
+        "cs": [
+          "Často chodí pozdě.",
+          "Má sklon své texty příliš přepracovávat.",
+          "Nemá ráda týmovou práci."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Elle dit qu'elle a tendance à trop peaufiner ses textes.",
+        "cs": "Říká, že má sklon texty příliš dolaďovat."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qui suivrait la stagiaire au quotidien ?",
+        "cs": "Kdo by stážistku vedl?"
+      },
+      "options": {
+        "fr": [
+          "Un collègue au hasard.",
+          "La directrice générale.",
+          "Une cheffe de projet."
+        ],
+        "cs": [
+          "Náhodný kolega.",
+          "Generální ředitelka.",
+          "Projektová manažerka."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "La responsable dit qu'elle serait rattachée à une chef de projet.",
+        "cs": "Vedoucí říká, že by byla přidělena k projektové manažerce."
+      }
+    }
+  ],
+  "sources": []
+}

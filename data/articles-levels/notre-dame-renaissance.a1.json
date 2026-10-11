@@ -61,5 +61,99 @@
     "https://www.culture.gouv.fr/actualites/special-notre-dame-de-paris-4-6-le-jour-ou-la-cathedrale-a-retrouve-sa-fleche",
     "https://dioceseparis.fr/guillaume-bardet-artiste-choisi.html",
     "https://www.notredamedeparis.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Qu'est-ce que le feu détruit en 2019 ?",
+        "cs": "Co zničí požár v roce 2019?"
+      },
+      "options": {
+        "fr": [
+          "La flèche",
+          "La porte",
+          "Le pont"
+        ],
+        "cs": [
+          "Věž (střelu)",
+          "Bránu",
+          "Most"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Le feu détruit la flèche. »",
+        "cs": "„Oheň zničí střelu (věžici).“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Qui écrit un roman sur Notre-Dame en 1831 ?",
+        "cs": "Kdo napíše v roce 1831 román o Notre-Dame?"
+      },
+      "options": {
+        "fr": [
+          "Napoléon",
+          "Victor Hugo",
+          "Voltaire"
+        ],
+        "cs": [
+          "Napoleon",
+          "Victor Hugo",
+          "Voltaire"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« En 1831, Victor Hugo écrit un roman. »",
+        "cs": "„V roce 1831 napíše Victor Hugo román.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand la cathédrale ouvre-t-elle de nouveau ?",
+        "cs": "Kdy se katedrála znovu otevře?"
+      },
+      "options": {
+        "fr": [
+          "En décembre 2024",
+          "En avril 2019",
+          "En 1163"
+        ],
+        "cs": [
+          "V prosinci 2024",
+          "V dubnu 2019",
+          "V roce 1163"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« ... en décembre 2024, la cathédrale ouvre de nouveau. »",
+        "cs": "„… v prosinci 2024 se katedrála znovu otevře.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment est l'entrée dans la cathédrale ?",
+        "cs": "Jaký je vstup do katedrály?"
+      },
+      "options": {
+        "fr": [
+          "Elle est chère",
+          "Elle est fermée",
+          "Elle est gratuite"
+        ],
+        "cs": [
+          "Je drahý",
+          "Je zavřený",
+          "Je zdarma"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« L'entrée est gratuite. »",
+        "cs": "„Vstup je zdarma.“"
+      }
+    }
   ]
 }

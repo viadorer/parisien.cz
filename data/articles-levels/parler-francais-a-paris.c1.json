@@ -96,5 +96,107 @@
     "https://fr.wikipedia.org/wiki/Loi_Toubon",
     "https://fr.wikipedia.org/wiki/Vouvoiement",
     "https://www.dictionnaire-academie.fr/9e_edition"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Selon l'ouverture, pourquoi la phrase du client est-elle accueillie par le silence ?",
+        "cs": "Proč je podle úvodu zákazníkova věta přijata tichem?"
+      },
+      "options": {
+        "fr": [
+          "Elle contient une faute de grammaire.",
+          "Elle est irréprochable, mais il lui manque le « Bonjour » qui règle la relation.",
+          "L'accent du client est trop fort.",
+          "Elle est trop polie pour une boulangerie."
+        ],
+        "cs": [
+          "Obsahuje gramatickou chybu.",
+          "Je bezchybná, ale chybí jí „Bonjour“, které nastaví vztah.",
+          "Zákazníkův přízvuk je příliš silný.",
+          "Je na pekárnu příliš zdvořilá."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Votre phrase est irréprochable » ; il lui manque deux syllabes.",
+        "cs": "„Votre phrase est irréprochable“ – chybí jí dvě slabiky."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que suggère l'image du « sas » pour le mot « bonjour » ?",
+        "cs": "Co naznačuje obraz „sas“ (průchozí komora) pro slovo „bonjour“?"
+      },
+      "options": {
+        "fr": [
+          "Une barrière volontairement hostile aux étrangers",
+          "Un mot de liaison purement grammatical",
+          "Un rituel réservé aux grands magasins",
+          "Un seuil à franchir avant la requête, qui rend les personnes à nouveau « visibles »"
+        ],
+        "cs": [
+          "Záměrnou bariéru nepřátelskou k cizincům",
+          "Čistě gramatické spojovací slovo",
+          "Rituál vyhrazený velkým obchodním domům",
+          "Práh, který je třeba překročit před žádostí a který lidi zase učiní „viditelnými“"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Une fois la formule prononcée, le commerçant redevient quelqu'un, et vous aussi.",
+        "cs": "Jakmile formule zazní, obchodník je zase někdo – a vy také."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi le refus emprunte-t-il des détours (« On verra », « Ce n'est pas évident ») ?",
+        "cs": "Proč odmítnutí chodí oklikou („On verra“, „Ce n'est pas évident“)?"
+      },
+      "options": {
+        "fr": [
+          "Ce sont des atténuateurs qui permettent à l'autre de ne pas perdre la face.",
+          "Les locuteurs veulent tromper leur interlocuteur par hypocrisie.",
+          "Le français ne possède pas le mot « non ».",
+          "Ils expriment toujours une vraie hésitation."
+        ],
+        "cs": [
+          "Jsou to zmírňující výrazy, které druhému umožní nepřijít o tvář.",
+          "Mluvčí chtějí z pokrytectví oklamat protějšek.",
+          "Francouzština slovo „non“ nemá.",
+          "Vždy vyjadřují skutečné váhání."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Ces formules ne sont pas hypocrites : elles laissent à l'interlocuteur la possibilité de ne pas perdre la face.",
+        "cs": "Tyto formule nejsou pokrytecké: nechávají druhému možnost neztratit tvář."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que dit l'article du passage entre « vous » et « tu » ?",
+        "cs": "Co článek říká o přechodu mezi „vous“ a „tu“?"
+      },
+      "options": {
+        "fr": [
+          "Le tutoiement a disparu depuis la Révolution.",
+          "Tutoyer un inconnu est devenu la norme.",
+          "Passer du « vous » au « tu » est courant, l'inverse est rare : dans le doute, on vouvoie.",
+          "Les entreprises imposent le « vous » depuis les années 2000."
+        ],
+        "cs": [
+          "Tykání zmizelo od Revoluce.",
+          "Tykat neznámému se stalo normou.",
+          "Přechod od „vous“ k „tu“ je běžný, opačný vzácný: při pochybnostech se vyká.",
+          "Firmy od roku 2000 nařizují vykání."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Le passage du « vous » au « tu » est courant, l'inverse demeure rare.",
+        "cs": "Přechod od „vous“ k „tu“ je běžný, opačný zůstává vzácný."
+      }
+    }
   ]
 }

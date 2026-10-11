@@ -84,5 +84,107 @@
     "https://creativecommons.org/licenses/by-sa/4.0/deed.cs",
     "https://commons.wikimedia.org/wiki/Commons:Licensing",
     "https://fr.wikipedia.org/wiki/Imparfait"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que suggère la phrase d'ouverture « Le récit de voyage commence rarement à l'arrivée » ?",
+        "cs": "Co naznačuje úvodní věta „Cestopis málokdy začíná příjezdem“?"
+      },
+      "options": {
+        "fr": [
+          "Que le voyageur doit écrire avant de partir.",
+          "Que le récit naît dans l'entre-deux, avant le départ, sur le seuil entre chez soi et ailleurs.",
+          "Que les récits les plus intéressants se passent à l'étranger.",
+          "Que l'arrivée est toujours décevante."
+        ],
+        "cs": [
+          "Že cestovatel má psát před odjezdem.",
+          "Že příběh se rodí v meziprostoru před odjezdem, na hranici mezi domovem a jinde.",
+          "Že nejzajímavější příběhy se odehrávají v cizině.",
+          "Že příjezd je vždy zklamáním."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Le paragraphe parle de « cette lisière » : « ces minutes élastiques où l'on n'est déjà plus chez soi sans être encore ailleurs ».",
+        "cs": "Odstavec mluví o „hranici“ a „gumových minutách“, kdy už nejste doma a ještě nejste jinde."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie « l'imprévu est la monnaie du récit » ?",
+        "cs": "Co znamená „nečekané je měnou vyprávění“?"
+      },
+      "options": {
+        "fr": [
+          "Que ce qui sort du programme donne sa valeur à l'histoire.",
+          "Que les voyageurs doivent payer pour raconter leurs imprévus.",
+          "Que les récits se vendent mieux quand ils sont courts.",
+          "Que les imprévus coûtent cher aux voyageurs."
+        ],
+        "cs": [
+          "Že to, co vybočí z programu, dává příběhu hodnotu.",
+          "Že cestovatelé musí platit za vyprávění nečekaných událostí.",
+          "Že se příběhy lépe prodávají, když jsou krátké.",
+          "Že nečekané události stojí cestovatele hodně peněz."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Éloge du voyage sans panache » : un train en retard « vaut souvent mieux qu'un itinéraire sans accroc ».",
+        "cs": "Oddíl „Chvála cesty bez parády“: zpožděný vlak stojí často za víc než itinerář bez zádrhele."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que désigne la métaphore des « deux horloges » dans la section grammaticale ?",
+        "cs": "Co označuje metafora „dvojích hodin“ v gramatické části?"
+      },
+      "options": {
+        "fr": [
+          "L'heure de départ et l'heure d'arrivée.",
+          "Les deux versions successives de l'article.",
+          "Deux rythmes du récit : le passé composé qui fait avancer, l'imparfait qui installe le décor.",
+          "Les deux langues du texte."
+        ],
+        "cs": [
+          "Čas odjezdu a čas příjezdu.",
+          "Dvě po sobě jdoucí verze článku.",
+          "Dva rytmy vyprávění: passé composé, které posouvá děj, a imparfait, které staví kulisy.",
+          "Dva jazyky textu."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Le texte explique : le passé composé « fait marcher l'histoire », l'imparfait « plante le décor ».",
+        "cs": "Text vysvětluje: passé composé žene příběh kupředu, imparfait staví kulisy."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'illustre l'image de la phrase tchèque qui « devient en français un meuble bancal » ?",
+        "cs": "Co ilustruje obraz české věty, která se ve francouzštině mění v „šchlampatý kus nábytku“ (fr. « un meuble bancal »)?"
+      },
+      "options": {
+        "fr": [
+          "Que le tchèque est une langue difficile à traduire.",
+          "Qu'une phrase calquée perd sa grâce dans l'autre langue.",
+          "Que le mobilier tchèque est célèbre en France.",
+          "Qu'il faut apprendre le vocabulaire des meubles."
+        ],
+        "cs": [
+          "Že čeština je jazyk obtížný na překlad.",
+          "Že věta doslovně přenesená ztrácí v druhém jazyce půvab.",
+          "Že české nábytkářství je ve Francii proslulé.",
+          "Že je třeba učit se slovíčka o nábytku."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Deux langues, une seule voix » : la phrase décalquée devient maladroite, et « le contraire est vrai aussi ».",
+        "cs": "Oddíl „Dva jazyky, jeden hlas“: doslovně přenesená věta působí neobratně, a platí to i obráceně."
+      }
+    }
   ]
 }

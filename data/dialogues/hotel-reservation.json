@@ -1,0 +1,235 @@
+{
+  "id": "hotel-reservation",
+  "level": "A2",
+  "title": {
+    "fr": "L'arrivée à l'hôtel",
+    "cs": "Příjezd do hotelu"
+  },
+  "scene": {
+    "fr": "Un client arrive à la réception d'un petit hôtel parisien. Il a réservé une chambre.",
+    "cs": "Host přijíždí na recepci malého pařížského hotelu. Má rezervovaný pokoj."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "La réceptionniste",
+        "cs": "Recepční"
+      },
+      "fr": "Bonsoir monsieur, bienvenue à l'hôtel. Je peux vous aider ?",
+      "cs": "Dobrý večer, pane, vítejte v hotelu. Mohu vám pomoci?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Host"
+      },
+      "fr": "Bonsoir. J'ai réservé une chambre pour deux nuits, au nom de Novák.",
+      "cs": "Dobrý večer. Mám rezervovaný pokoj na dvě noci na jméno Novák."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La réceptionniste",
+        "cs": "Recepční"
+      },
+      "fr": "Pouvez-vous épeler votre nom, s'il vous plaît ?",
+      "cs": "Můžete hláskovat své jméno, prosím?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Host"
+      },
+      "fr": "Oui : N, O, V, A, K, avec un accent sur le A.",
+      "cs": "Ano: N, O, V, A, K, s čárkou nad A."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La réceptionniste",
+        "cs": "Recepční"
+      },
+      "fr": "Merci, je l'ai trouvé. Une chambre double avec salle de bains, c'est bien ça ?",
+      "cs": "Děkuji, našla jsem to. Dvoulůžkový pokoj s koupelnou, správně?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Host"
+      },
+      "fr": "Oui, c'est ça. Est-ce que le petit-déjeuner est compris ?",
+      "cs": "Ano, správně. Je snídaně v ceně?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La réceptionniste",
+        "cs": "Recepční"
+      },
+      "fr": "Oui, il est compris. On le sert de sept heures à dix heures, au rez-de-chaussée.",
+      "cs": "Ano, je v ceně. Podává se od sedmi do deseti hodin v přízemí."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Host"
+      },
+      "fr": "Parfait. Est-ce qu'il y a le wifi dans la chambre ?",
+      "cs": "Skvělé. Je v pokoji wifi?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La réceptionniste",
+        "cs": "Recepční"
+      },
+      "fr": "Oui, le code est écrit sur cette carte. Voici votre clé : chambre 24, au deuxième étage.",
+      "cs": "Ano, kód je napsaný na téhle kartě. Tady je váš klíč: pokoj 24, ve druhém patře."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Host"
+      },
+      "fr": "Il y a un ascenseur ?",
+      "cs": "Je tam výtah?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La réceptionniste",
+        "cs": "Recepční"
+      },
+      "fr": "Oui, il est à droite, au fond du couloir.",
+      "cs": "Ano, je vpravo na konci chodby."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le client",
+        "cs": "Host"
+      },
+      "fr": "Merci beaucoup. Bonne soirée !",
+      "cs": "Moc děkuji. Hezký večer!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "la réception",
+      "cs": "recepce"
+    },
+    {
+      "fr": "réserver une chambre",
+      "cs": "rezervovat pokoj"
+    },
+    {
+      "fr": "une nuit",
+      "cs": "noc"
+    },
+    {
+      "fr": "épeler",
+      "cs": "hláskovat"
+    },
+    {
+      "fr": "le petit-déjeuner",
+      "cs": "snídaně"
+    },
+    {
+      "fr": "compris",
+      "cs": "zahrnutý, v ceně"
+    },
+    {
+      "fr": "la clé",
+      "cs": "klíč"
+    },
+    {
+      "fr": "un ascenseur",
+      "cs": "výtah"
+    },
+    {
+      "fr": "le rez-de-chaussée",
+      "cs": "přízemí"
+    }
+  ],
+  "tip": {
+    "fr": "En France, le « rez-de-chaussée » est le niveau de la rue. Le « premier étage » est donc l'étage au-dessus : la chambre 24, au deuxième étage, est deux niveaux au-dessus de l'entrée.",
+    "cs": "Ve Francii je „rez-de-chaussée“ přízemí na úrovni ulice. „Premier étage“ je tedy patro nad ním: pokoj 24 ve druhém patře je o dvě úrovně nad vchodem."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Pour combien de nuits le client a-t-il réservé ?",
+        "cs": "Na kolik nocí má host rezervaci?"
+      },
+      "options": {
+        "fr": [
+          "Une nuit",
+          "Deux nuits",
+          "Trois nuits"
+        ],
+        "cs": [
+          "Jednu noc",
+          "Dvě noci",
+          "Tři noci"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Il dit : « pour deux nuits ».",
+        "cs": "Říká: „pour deux nuits“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Où sert-on le petit-déjeuner ?",
+        "cs": "Kde se podává snídaně?"
+      },
+      "options": {
+        "fr": [
+          "Dans la chambre",
+          "Au deuxième étage",
+          "Au rez-de-chaussée"
+        ],
+        "cs": [
+          "V pokoji",
+          "Ve druhém patře",
+          "V přízemí"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "La réceptionniste dit : « au rez-de-chaussée ».",
+        "cs": "Recepční říká: „au rez-de-chaussée“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel est le numéro de la chambre ?",
+        "cs": "Jaké je číslo pokoje?"
+      },
+      "options": {
+        "fr": [
+          "24",
+          "42",
+          "14"
+        ],
+        "cs": [
+          "24",
+          "42",
+          "14"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« chambre 24, au deuxième étage ».",
+        "cs": "„chambre 24, au deuxième étage“."
+      }
+    }
+  ]
+}

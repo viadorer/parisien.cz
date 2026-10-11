@@ -69,5 +69,99 @@
     "https://www.culture.gouv.fr/actualites/special-notre-dame-de-paris-4-6-le-jour-ou-la-cathedrale-a-retrouve-sa-fleche",
     "https://dioceseparis.fr/guillaume-bardet-artiste-choisi.html",
     "https://www.notredamedeparis.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Qui est sacré à Notre-Dame en décembre 1804 ?",
+        "cs": "Kdo je v Notre-Dame korunován v prosinci 1804?"
+      },
+      "options": {
+        "fr": [
+          "Louis XIV",
+          "Napoléon",
+          "Victor Hugo"
+        ],
+        "cs": [
+          "Ludvík XIV.",
+          "Napoleon",
+          "Victor Hugo"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Napoléon y est sacré en décembre 1804. »",
+        "cs": "„Napoleon je tam korunován v prosinci 1804.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Qui dessine la flèche qui brûle en 2019 ?",
+        "cs": "Kdo nakreslil střelu, která v roce 2019 shořela?"
+      },
+      "options": {
+        "fr": [
+          "Viollet-le-Duc",
+          "Maurice de Sully",
+          "Guillaume Bardet"
+        ],
+        "cs": [
+          "Viollet-le-Duc",
+          "Maurice de Sully",
+          "Guillaume Bardet"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Viollet-le-Duc « dessine une nouvelle flèche. C'est cette flèche qui brûle en 2019. »",
+        "cs": "Viollet-le-Duc „dessine une nouvelle flèche“ a právě ta v roce 2019 shoří."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment veut-on refaire la cathédrale ?",
+        "cs": "Jak chce se katedrála obnovit?"
+      },
+      "options": {
+        "fr": [
+          "Avec du métal moderne",
+          "Comme avant, avec les mêmes matériaux",
+          "Plus grande qu'avant"
+        ],
+        "cs": [
+          "Z moderního kovu",
+          "Jako dřív, ze stejných materiálů",
+          "Větší než dřív"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« On décide de refaire la cathédrale comme avant, avec les mêmes matériaux. »",
+        "cs": "„Rozhodne se katedrálu obnovit jako dřív, ze stejných materiálů.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qui est en bronze, et qui l'a fait ?",
+        "cs": "Co je z bronzu a kdo to vytvořil?"
+      },
+      "options": {
+        "fr": [
+          "Les cloches, par Viollet-le-Duc",
+          "Le toit, par Philippe Villeneuve",
+          "L'autel et d'autres objets de la messe, par Guillaume Bardet"
+        ],
+        "cs": [
+          "Zvony, od Viollet-le-Duca",
+          "Střecha, od Philippa Villeneuva",
+          "Oltář a další předměty mše, od Guillauma Bardeta"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« l'autel et plusieurs objets de la messe sont en bronze ... Guillaume Bardet. »",
+        "cs": "„oltář a několik předmětů mše jsou z bronzu … Guillaume Bardet.“"
+      }
+    }
   ]
 }

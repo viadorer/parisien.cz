@@ -1,0 +1,270 @@
+{
+  "id": "langue-et-politesse",
+  "level": "C1",
+  "title": {
+    "fr": "Tu ou vous ?",
+    "cs": "Tykat, nebo vykat?"
+  },
+  "scene": {
+    "fr": "Deux amies, une Française et une étudiante tchèque, discutent autour d'un café du tutoiement, du vouvoiement et de la politesse.",
+    "cs": "Dvě kamarádky, Francouzka a česká studentka, probírají u kávy tykání, vykání a zdvořilost."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "Léa",
+        "cs": "Léa"
+      },
+      "fr": "Alors, comment s'est passé ton premier jour au stage ? Tu avais l'air un peu perplexe hier soir.",
+      "cs": "Tak jak proběhl tvůj první den na stáži? Včera večer jsi vypadala trochu zmateně."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Tereza",
+        "cs": "Tereza"
+      },
+      "fr": "Perplexe, c'est le mot. Mes collègues se tutoient tous, et pourtant je n'ai pas osé tutoyer la directrice. J'ai passé la journée à éviter de dire « tu » ou « vous ».",
+      "cs": "Zmatená, to je přesné slovo. Kolegové si všichni tykají, a přesto jsem si netroufla tykat ředitelce. Celý den jsem se vyhýbala slovu „ty“ i „vy“."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Léa",
+        "cs": "Léa"
+      },
+      "fr": "Ah, le fameux casse-tête ! Dans beaucoup d'entreprises, surtout dans les milieux créatifs ou la tech, le tutoiement est devenu courant, même avec la hiérarchie. Mais ce n'est pas une règle universelle.",
+      "cs": "Ach, ten slavný oříšek! V mnoha firmách, zejména v kreativním prostředí nebo v technologiích, se tykání rozšířilo, i vůči nadřízeným. Není to ale univerzální pravidlo."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Tereza",
+        "cs": "Tereza"
+      },
+      "fr": "Alors comment savoir ? Chez nous aussi, on a le « vous » de politesse, mais le passage de l'un à l'autre se fait plus facilement, il me semble.",
+      "cs": "Tak jak to poznat? U nás také existuje zdvořilostní „vy“, ale přechod od jednoho k druhému se mi zdá snazší."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Léa",
+        "cs": "Léa"
+      },
+      "fr": "En France, c'est souvent la personne la plus âgée ou la plus haut placée qui propose : « On peut se tutoyer ? » Tant qu'on ne te le propose pas, le vouvoiement est la valeur sûre.",
+      "cs": "Ve Francii nabídne tykání většinou starší nebo výše postavený člověk: „Můžeme si tykat?“ Dokud ti to nikdo nenabídne, je vykání nejjistější volba."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Tereza",
+        "cs": "Tereza"
+      },
+      "fr": "Et si je me trompe ? Si je vouvoie quelqu'un qui me tutoie, est-ce que c'est impoli ?",
+      "cs": "A když se zmýlím? Když vykám někomu, kdo mi tyká, je to neslušné?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Léa",
+        "cs": "Léa"
+      },
+      "fr": "Pas impoli, mais cela peut créer une distance. En revanche, tutoyer trop vite quelqu'un qu'on ne connaît pas peut passer pour un manque de respect. L'erreur dans ce sens se pardonne moins aisément.",
+      "cs": "Ne neslušné, ale může to vytvořit odstup. Naopak příliš rychlé tykání někomu, koho neznáš, může působit jako nedostatek respektu. Chyba tímto směrem se odpouští hůř."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Tereza",
+        "cs": "Tereza"
+      },
+      "fr": "Donc en cas de doute, mieux vaut pécher par excès de formalité. Mais la politesse ne se limite pas à ça, non ? J'ai remarqué que tout le monde dit « bonjour » en entrant dans un magasin.",
+      "cs": "Takže v případě pochybností je lepší hřešit přílišnou formálností. Ale zdvořilost se tím nevyčerpává, ne? Všimla jsem si, že každý říká „bonjour“, když vejde do obchodu."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Léa",
+        "cs": "Léa"
+      },
+      "fr": "C'est fondamental. Entrer dans une boutique sans saluer, c'est un peu comme entrer chez quelqu'un sans frapper. On dit aussi « s'il vous plaît » et « merci », même pour un détail.",
+      "cs": "To je zásadní. Vejít do obchodu bez pozdravu je trochu jako vejít k někomu domů bez zaklepání. Říká se také „s'il vous plaît“ a „merci“, i pro maličkost."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Tereza",
+        "cs": "Tereza"
+      },
+      "fr": "Au début, ça m'a paru excessif, mais je comprends mieux maintenant : ce n'est pas de la servilité, c'est une façon de reconnaître l'autre.",
+      "cs": "Zpočátku mi to připadalo přehnané, ale teď to chápu lépe: není to servilnost, je to způsob, jak druhého uznat."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Léa",
+        "cs": "Léa"
+      },
+      "fr": "Exactement. D'ailleurs, le vouvoiement n'est pas qu'une barrière : certains y voient une forme d'élégance, un moyen de garder une certaine pudeur dans les relations.",
+      "cs": "Přesně. Ostatně vykání není jen bariéra: někteří v něm vidí formu elegance, způsob, jak si v kontaktech udržet určitou zdrženlivost."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Tereza",
+        "cs": "Tereza"
+      },
+      "fr": "C'est une façon de voir les choses que je n'avais pas envisagée. On pourrait même dire que le « vous » protège autant qu'il éloigne.",
+      "cs": "To je pohled, který mě nenapadl. Dalo by se říct, že „vous“ chrání stejně, jako vzdaluje."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Léa",
+        "cs": "Léa"
+      },
+      "fr": "Bien dit ! Et il y a une anecdote historique amusante : pendant la Révolution, on a voulu généraliser le tutoiement entre citoyens, au nom de l'égalité. Mais l'usage n'a pas suivi durablement.",
+      "cs": "Dobře řečeno! A je tu zábavná historická příhoda: za Revoluce se chtělo tykání mezi občany zobecnit ve jménu rovnosti. Ale zvyk se dlouhodobě neujal."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Tereza",
+        "cs": "Tereza"
+      },
+      "fr": "Comme quoi la langue résiste aux décrets ! Bon, demain, je tente un « Vous pouvez me dire si vous préférez qu'on se tutoie ? »",
+      "cs": "To jen ukazuje, že jazyk odolává nařízením! Dobrá, zítra zkusím: „Můžete mi říct, jestli byste raději, abychom si tykali?“"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Léa",
+        "cs": "Léa"
+      },
+      "fr": "Excellente formule, polie et franche. Mais avec un peu de chance, ce sera elle qui te le proposera avant même que tu n'aies fini ta phrase.",
+      "cs": "Výborná formulace, zdvořilá a upřímná. Ale s trochou štěstí ti to nabídne ona dřív, než dokončíš větu."
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "tutoyer / vouvoyer",
+      "cs": "tykat / vykat"
+    },
+    {
+      "fr": "un casse-tête",
+      "cs": "hlavolam, oříšek"
+    },
+    {
+      "fr": "perplexe",
+      "cs": "zmatený, v rozpacích"
+    },
+    {
+      "fr": "la valeur sûre",
+      "cs": "jistota, osvědčená volba"
+    },
+    {
+      "fr": "pécher par excès de",
+      "cs": "hřešit přílišnou…"
+    },
+    {
+      "fr": "la servilité",
+      "cs": "servilnost"
+    },
+    {
+      "fr": "la pudeur",
+      "cs": "zdrženlivost, cudnost"
+    },
+    {
+      "fr": "envisager",
+      "cs": "zvažovat, představit si"
+    },
+    {
+      "fr": "franc, franche",
+      "cs": "upřímný"
+    },
+    {
+      "fr": "au nom de",
+      "cs": "ve jménu"
+    }
+  ],
+  "tip": {
+    "fr": "Le latin classique n'employait que le « tu » ; le « vous » de politesse apparaît plus tard, et son origine exacte reste discutée (plusieurs hypothèses évoquent l'Antiquité tardive, entre le IIe et le IVe siècle). Sous la Révolution, le Comité de salut public a décidé, le 31 octobre 1793, de généraliser le tutoiement dans l'administration, mais la Convention n'a pas adopté de décret qui l'aurait rendu obligatoire. Aujourd'hui, la fréquence du « tu » au travail varie selon les secteurs.",
+    "cs": "Klasická latina znala jen „tu“; zdvořilostní „vous“ se objevuje později a jeho přesný původ je předmětem diskusí (několik hypotéz míří do pozdní antiky, mezi 2. a 4. století). Za Revoluce se Výbor pro veřejné blaho 31. října 1793 rozhodl zobecnit tykání ve správě, ale Konvent nepřijal výnos, který by ho učinil povinným. Dnes se četnost tykání v práci podle odvětví liší."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Quel conseil Léa donne-t-elle en cas de doute ?",
+        "cs": "Jakou radu dává Léa v případě pochybností?"
+      },
+      "options": {
+        "fr": [
+          "Tutoyer tout de suite.",
+          "Rester au vouvoiement tant qu'on ne vous propose pas le tutoiement.",
+          "Éviter de parler à la directrice."
+        ],
+        "cs": [
+          "Hned tykat.",
+          "Vykat, dokud vám někdo tykání nenabídne.",
+          "Vyhýbat se rozhovoru s ředitelkou."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Tant qu'on ne te le propose pas, le vouvoiement est la valeur sûre.",
+        "cs": "Dokud ti to nikdo nenabídne, je vykání jistota."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment Tereza voit-elle finalement le « bonjour » dans les magasins ?",
+        "cs": "Jak Tereza nakonec vnímá „bonjour“ v obchodech?"
+      },
+      "options": {
+        "fr": [
+          "Comme une formalité inutile.",
+          "Comme un signe de servilité.",
+          "Comme une façon de reconnaître l'autre."
+        ],
+        "cs": [
+          "Jako zbytečnou formalitu.",
+          "Jako projev servilnosti.",
+          "Jako způsob, jak druhého uznat."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Elle dit que ce n'est pas de la servilité mais une reconnaissance de l'autre.",
+        "cs": "Říká, že to není servilnost, ale uznání druhého."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que montre l'anecdote sur la Révolution ?",
+        "cs": "Co ukazuje příhoda o Revoluci?"
+      },
+      "options": {
+        "fr": [
+          "Qu'un usage de la langue ne se change pas facilement par décision officielle.",
+          "Que le tutoiement a toujours été interdit.",
+          "Que les décrets sont toujours respectés."
+        ],
+        "cs": [
+          "Že zvyk v jazyce se úředním rozhodnutím nemění snadno.",
+          "Že tykání bylo vždy zakázáno.",
+          "Že nařízení se vždy dodržují."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Tereza conclut que la langue résiste aux décrets.",
+        "cs": "Tereza uzavírá, že jazyk odolává nařízením."
+      }
+    }
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Vouvoiement",
+    "https://fr.wikipedia.org/wiki/Tutoiement_et_vouvoiement_en_fran%C3%A7ais"
+  ]
+}

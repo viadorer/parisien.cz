@@ -96,5 +96,107 @@
     "https://fr.wikipedia.org/wiki/Loi_Toubon",
     "https://fr.wikipedia.org/wiki/Vouvoiement",
     "https://www.dictionnaire-academie.fr/9e_edition"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que représente la métaphore du « péage » appliquée au « Bonjour » ?",
+        "cs": "Co představuje metafora „péage“ (mýtné) užitá na „Bonjour“?"
+      },
+      "options": {
+        "fr": [
+          "Une taxe que perçoivent réellement les commerçants",
+          "Une obligation légale",
+          "Un droit d'entrée symbolique à acquitter avant toute demande",
+          "Un test de l'accent de l'étranger"
+        ],
+        "cs": [
+          "Poplatek, který obchodníci skutečně vybírají",
+          "Zákonnou povinnost",
+          "Symbolický vstupní poplatek, který je třeba splnit před jakoukoli žádostí",
+          "Zkoušku cizincova přízvuku"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Tant que ce péage n'est pas acquitté, la demande reste une transaction anonyme.",
+        "cs": "Dokud mýtné není zaplaceno, žádost zůstává anonymní transakcí."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire que « le tutoiement est un cadeau qui ne se reprend pas » ?",
+        "cs": "Co znamená, že „tykání je dar, který se nebere zpět“?"
+      },
+      "options": {
+        "fr": [
+          "Une fois le « tu » accordé, on ne revient presque jamais au « vous » ; d'où la prudence initiale.",
+          "Les commerçants offrent le « tu » gratuitement.",
+          "La loi interdit de revenir au « vous ».",
+          "Il faut toujours offrir un cadeau à son interlocuteur."
+        ],
+        "cs": [
+          "Když je „tu“ nabídnuto, k „vous“ se téměř nevrací; proto počáteční opatrnost.",
+          "Obchodníci nabízejí „tu“ zdarma.",
+          "Zákon zakazuje vrátit se k „vous“.",
+          "Je třeba vždy dát protějšku dárek."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "On passe aisément du « vous » au « tu » et presque jamais du « tu » au « vous ».",
+        "cs": "Snadno se přechází od „vous“ k „tu“, skoro nikdy zpět."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi l'étranger comprend-il mal l'antiphrase ?",
+        "cs": "Proč cizinec antifrázi špatně chápe?"
+      },
+      "options": {
+        "fr": [
+          "Sa grammaire est insuffisante.",
+          "L'Académie française l'interdit.",
+          "Elle repose sur un vocabulaire rare.",
+          "Il connaît les mots, mais pas leur « musique » (intonation, contexte, regard)."
+        ],
+        "cs": [
+          "Jeho gramatika nestačí.",
+          "Francouzská akademie ji zakazuje.",
+          "Spočívá na vzácné slovní zásobě.",
+          "Zná slova, ale ne jejich „hudbu“ (intonaci, kontext, pohled)."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "L'étranger a appris le sens des mots mais non la musique.",
+        "cs": "Cizinec se naučil význam slov, ne hudbu."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel contraste la dernière section met-elle en scène ?",
+        "cs": "Jaký kontrast staví poslední oddíl?"
+      },
+      "options": {
+        "fr": [
+          "La rue applique strictement la loi Toubon.",
+          "Les institutions fixent la langue, mais dans la rue le serveur passe à l'anglais sans malveillance.",
+          "Le serveur répond en anglais pour se moquer.",
+          "L'Académie interdit l'anglais dans les cafés."
+        ],
+        "cs": [
+          "Ulice přísně uplatňuje zákon Toubon.",
+          "Instituce jazyk upevňují, ale na ulici číšník přejde do angličtiny bez zlého úmyslu.",
+          "Číšník odpovídá anglicky, aby se vysmíval.",
+          "Akademie zakazuje angličtinu v kavárnách."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "La rue n'a pas lu le Journal officiel : le serveur ne se moque presque jamais de vous.",
+        "cs": "Ulice nečetla Journal officiel: číšník se vám téměř nikdy neposmívá."
+      }
+    }
   ]
 }

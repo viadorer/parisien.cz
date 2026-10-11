@@ -67,5 +67,99 @@
     "https://www.musee-orangerie.fr",
     "https://www.marmottan.fr",
     "https://www.fondation-monet.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Où est l'exposition de 1874 ?",
+        "cs": "Kde je výstava z roku 1874?"
+      },
+      "options": {
+        "fr": [
+          "Au musée d'Orsay.",
+          "Au 35 boulevard des Capucines.",
+          "À Giverny."
+        ],
+        "cs": [
+          "V Musée d'Orsay.",
+          "Na adrese 35 boulevard des Capucines.",
+          "V Giverny."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Début du texte : « C'est au 35 boulevard des Capucines. »",
+        "cs": "Začátek textu: výstava je na adrese 35 boulevard des Capucines."
+      }
+    },
+    {
+      "q": {
+        "fr": "Combien d'artistes montrent leurs œuvres ?",
+        "cs": "Kolik umělců ukazuje svá díla?"
+      },
+      "options": {
+        "fr": [
+          "Cent soixante-cinq.",
+          "Quatre-vingts.",
+          "Trente."
+        ],
+        "cs": [
+          "Sto šedesát pět.",
+          "Osmdesát.",
+          "Třicet."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Trente artistes montrent 165 œuvres. »",
+        "cs": "„Třicet umělců ukazuje 165 děl.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce que le musée d'Orsay était avant ?",
+        "cs": "Čím bylo Musée d'Orsay dříve?"
+      },
+      "options": {
+        "fr": [
+          "Une gare.",
+          "Une école.",
+          "Un hôpital."
+        ],
+        "cs": [
+          "Nádražím.",
+          "Školou.",
+          "Nemocnicí."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Le musée d'Orsay est une ancienne gare. »",
+        "cs": "„Musée d'Orsay je bývalé nádraží.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Où est le tableau Impression, soleil levant ?",
+        "cs": "Kde je obraz Dojem, vycházející slunce?"
+      },
+      "options": {
+        "fr": [
+          "À l'Orangerie.",
+          "Au musée Marmottan Monet.",
+          "À Giverny."
+        ],
+        "cs": [
+          "V Orangerie.",
+          "V Musée Marmottan Monet.",
+          "V Giverny."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Au musée Marmottan Monet, il y a le tableau Impression, soleil levant. »",
+        "cs": "„V Musée Marmottan Monet je obraz Dojem, vycházející slunce.“"
+      }
+    }
   ]
 }

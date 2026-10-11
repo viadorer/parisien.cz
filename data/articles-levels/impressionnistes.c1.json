@@ -91,5 +91,107 @@
     "https://www.musee-orangerie.fr",
     "https://www.marmottan.fr",
     "https://www.fondation-monet.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que laisse entendre l'expression « Un baptême par la moquerie » à propos du nom du mouvement ?",
+        "cs": "Co naznačuje nadpis „Křest posměchem“ o jménu hnutí?"
+      },
+      "options": {
+        "fr": [
+          "Que les artistes ont choisi ce nom pour se moquer du public.",
+          "Que le nom a été donné par Nadar lors de l'ouverture.",
+          "Que le nom a été forgé par un adversaire, sans l'accord des artistes, et s'est pourtant imposé.",
+          "Que le nom a disparu après la critique de Leroy."
+        ],
+        "cs": [
+          "Že umělci zvolili toto jméno, aby se vysmáli publiku.",
+          "Že jméno dal Nadar při zahájení.",
+          "Že jméno vymyslel odpůrce bez souhlasu umělců a přesto se prosadilo.",
+          "Že jméno po Leroyově kritice zaniklo."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Louis Leroy forge le mot ; l'histoire de l'art « regorge de ces appellations que l'on doit à des adversaires ».",
+        "cs": "Louis Leroy slovo vymyslel; dějiny umění jsou plné pojmenování, která vděčí za vznik odpůrcům."
+      }
+    },
+    {
+      "q": {
+        "fr": "Selon l'auteur, pourquoi la manière d'exposer était-elle un geste plus fort que la manière de peindre ?",
+        "cs": "Proč byl podle autora způsob vystavování silnějším gestem než způsob malby?"
+      },
+      "options": {
+        "fr": [
+          "Parce qu'elle contournait l'institution qui décidait de ce qu'on avait le droit de montrer.",
+          "Parce que les tableaux étaient accrochés plus haut que d'habitude.",
+          "Parce que les artistes refusaient de vendre leurs œuvres.",
+          "Parce que le Salon avait invité les artistes à s'exposer."
+        ],
+        "cs": [
+          "Protože obcházel instituci, která rozhodovala o tom, co se smí ukázat.",
+          "Protože obrazy byly pověšeny výš než obvykle.",
+          "Protože umělci odmítali své práce prodávat.",
+          "Protože Salon umělce k vystavování pozval."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Une rupture avant d'être un style » : ils se passaient de l'institution qui décidait de ce qu'on pouvait montrer.",
+        "cs": "Oddíl „Nejdřív zlom, teprve potom styl“: obešli instituci, která rozhodovala o tom, co se smí ukázat."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que cherche à montrer le passage sur Degas et Berthe Morisot ?",
+        "cs": "Co má ukázat pasáž o Degasovi a Berthe Morisotové?"
+      },
+      "options": {
+        "fr": [
+          "Que Degas était le chef reconnu du groupe.",
+          "Que Morisot a quitté le groupe après 1874.",
+          "Que tous les membres peignaient en plein air.",
+          "Qu'une doctrine commune ne les unissait pas et que le mouvement était varié."
+        ],
+        "cs": [
+          "Že Degas byl uznávaným vůdcem skupiny.",
+          "Že Morisotová skupinu po roce 1874 opustila.",
+          "Že všichni členové malovali v plenéru.",
+          "Že je nespojovala společná nauka a že hnutí bylo rozmanité."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Le texte écrit qu'il serait « trompeur de les croire unis par une doctrine » ; ils partagent une question, pas un style.",
+        "cs": "Text uvádí, že by bylo zavádějící myslet si, že je spojovala nauka; sdílejí otázku, ne styl."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle ironie l'auteur relève-t-il devant Impression, soleil levant ?",
+        "cs": "Jakou ironii autor zdůrazňuje před obrazem Dojem, vycházející slunce?"
+      },
+      "options": {
+        "fr": [
+          "Le plus petit tableau de la collection est devenu le plus cher du monde.",
+          "L'œuvre qu'on avait voulu tourner en dérision en 1874 a fini par mériter un braquage.",
+          "Le tableau a été retrouvé dans le musée même où il avait été volé.",
+          "Monet avait peint le tableau pour se moquer des critiques."
+        ],
+        "cs": [
+          "Nejmenší obraz sbírky se stal nejdražším na světě.",
+          "Dílo, které se roku 1874 chtělo zesměšnit, nakonec zasloužilo ozbrojenou loupež.",
+          "Obraz byl nalezen v témže muzeu, odkud byl ukraden.",
+          "Monet obraz namaloval, aby se vysmál kritikům."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Jour 2 » : « l'œuvre que l'on avait voulu tourner en dérision en 1874 a fini par mériter un braquage ».",
+        "cs": "Oddíl „Den 2“: dílo, které se roku 1874 chtělo zesměšnit, nakonec zasloužilo loupež."
+      }
+    }
   ]
 }

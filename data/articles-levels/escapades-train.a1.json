@@ -73,5 +73,99 @@
     "https://www.sncf-connect.com",
     "https://www.iledefrance-mobilites.fr",
     "https://www.transilien.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Quel train prend-on pour Versailles ?",
+        "cs": "Jakým vlakem se jede do Versailles?"
+      },
+      "options": {
+        "fr": [
+          "Le RER C",
+          "La ligne R",
+          "Le TER du Nord"
+        ],
+        "cs": [
+          "RER C",
+          "Linkou R",
+          "TER z Gare du Nord"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Pour Versailles, on prend le RER C. »",
+        "cs": "„Pour Versailles, on prend le RER C.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Où habite Claude Monet en 1883 ?",
+        "cs": "Kde bydlí Claude Monet v roce 1883?"
+      },
+      "options": {
+        "fr": [
+          "À Chantilly",
+          "À Provins",
+          "À Giverny"
+        ],
+        "cs": [
+          "V Chantilly",
+          "V Provins",
+          "V Giverny"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Claude Monet habite à Giverny en 1883. »",
+        "cs": "„Claude Monet habite à Giverny en 1883.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "De quelle gare part le train pour Chantilly ?",
+        "cs": "Z jakého nádraží odjíždí vlak do Chantilly?"
+      },
+      "options": {
+        "fr": [
+          "De la gare de Lyon",
+          "De la gare du Nord",
+          "De la gare Saint-Lazare"
+        ],
+        "cs": [
+          "Z Gare de Lyon",
+          "Z Gare du Nord",
+          "Z Gare Saint-Lazare"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Chantilly est à vingt minutes. Le train part de la gare du Nord. »",
+        "cs": "„Chantilly est à vingt minutes. Le train part de la gare du Nord.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Où Van Gogh meurt-il en 1890 ?",
+        "cs": "Kde v roce 1890 umírá van Gogh?"
+      },
+      "options": {
+        "fr": [
+          "À Provins",
+          "À Rouen",
+          "À Auvers-sur-Oise"
+        ],
+        "cs": [
+          "V Provins",
+          "V Rouenu",
+          "V Auvers-sur-Oise"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Van Gogh meurt à Auvers-sur-Oise en 1890. »",
+        "cs": "„Van Gogh meurt à Auvers-sur-Oise en 1890.“"
+      }
+    }
   ]
 }

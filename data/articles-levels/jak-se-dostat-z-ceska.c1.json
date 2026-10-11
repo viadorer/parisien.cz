@@ -90,5 +90,101 @@
     "https://www.service-public.gouv.fr/particuliers/actualites/A16577?lang=en",
     "https://mzv.gov.cz/paris/fr/service_consulaire/formalites_d_entree/formalite_d_enree.html",
     "https://www.iledefrance.fr/toutes-les-actualites/la-ligne-14-prolongee-met-laeroport-dorly-25-minutes-du-centre-de-paris"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "D'après l'introduction, qu'est-ce qui structure la réflexion de l'auteur ?",
+        "cs": "Co podle úvodu určuje strukturu autorových úvah?"
+      },
+      "options": {
+        "fr": [
+          "Une statistique sur les émissions de CO₂",
+          "La concurrence entre les compagnies aériennes",
+          "L'absence de train direct, qui oblige à arbitrer entre plusieurs compromis"
+        ],
+        "cs": [
+          "Statistika emisí CO₂",
+          "Konkurence mezi leteckými společnostmi",
+          "Absence přímého vlaku, která nutí volit mezi několika kompromisy"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Introduction : « c'est cette absence, plus qu'aucune statistique, qui structure toute la réflexion ».",
+        "cs": "Úvod: „právě tato absence, více než jakákoli statistika, strukturuje celou úvahu“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que révèle, selon l'auteur, l'écart de durée du voyage en train (de dix heures et demie à plus de treize) ?",
+        "cs": "Co podle autora prozrazuje rozptyl délky cesty vlakem (od deseti a půl do více než třinácti hodin)?"
+      },
+      "options": {
+        "fr": [
+          "Que la durée dépend moins de la vitesse des trains que de la qualité des correspondances",
+          "Que les trains allemands sont très lents",
+          "Que les billets séparés sont plus rapides"
+        ],
+        "cs": [
+          "Že délka závisí méně na rychlosti vlaků než na kvalitě přípojů",
+          "Že německé vlaky jsou velmi pomalé",
+          "Že oddělené jízdenky jsou rychlejší"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Le train » : l'écart « traduit ce qui fait la fragilité de cette option » : la qualité des correspondances.",
+        "cs": "Oddíl o vlaku: rozptyl „vypovídá o křehkosti této varianty“ – o kvalitě přípojů."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment l'auteur présente-t-il la lenteur de l'autocar ?",
+        "cs": "Jak autor líčí pomalost autobusu?"
+      },
+      "options": {
+        "fr": [
+          "Comme un défaut qui disqualifie cette option",
+          "Comme un avantage écologique décisif",
+          "Comme un secret réservé aux voyageurs expérimentés",
+          "Comme un arbitrage : on évite les correspondances, mais on accepte le temps long"
+        ],
+        "cs": [
+          "Jako vadu, která tuto variantu vylučuje",
+          "Jako rozhodující ekologickou výhodu",
+          "Jako tajemství zkušených cestovatelů",
+          "Jako kompromis: vyhnete se přestupům, ale přijmete dlouhou cestu"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section « L'autocar » : « c'est un arbitrage, non une faiblesse ».",
+        "cs": "Oddíl o autobusu: „je to kompromis, ne slabina“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que laisse entendre l'arrêt des Nightjet Paris–Vienne et Paris–Berlin ?",
+        "cs": "Co naznačuje zrušení spojů Nightjet Paříž–Vídeň a Paříž–Berlín?"
+      },
+      "options": {
+        "fr": [
+          "Que les trains de nuit sont techniquement dépassés",
+          "Que la viabilité de ces liaisons dépend en partie de choix budgétaires",
+          "Que les voyageurs ont déserté les trains de nuit"
+        ],
+        "cs": [
+          "Že noční vlaky jsou technicky přežité",
+          "Že životaschopnost těchto spojů závisí zčásti na rozpočtových rozhodnutích",
+          "Že cestující noční vlaky opustili"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Les trains de nuit » : arrêt « après la fin du soutien financier de l'État français ».",
+        "cs": "Oddíl o nočních vlacích: ukončení „po skončení finanční podpory francouzského státu“."
+      }
+    }
   ]
 }

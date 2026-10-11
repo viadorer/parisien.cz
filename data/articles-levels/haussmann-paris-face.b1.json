@@ -1,80 +1,182 @@
 {
-  "base": "haussmann-paris-face",
-  "level": "B1",
-  "slug": "haussmann-paris-face-b1",
-  "category": "paris",
-  "published_at": "2026-09-12T08:00:00Z",
-  "author": "Rédaction parisien.cz",
-  "title_fr": "Pourquoi Paris ressemble à Paris : l'héritage de Haussmann",
-  "title_cs": "Proč Paříž vypadá, jak vypadá: odkaz barona Haussmanna",
-  "excerpt_fr": "Entre 1853 et 1870, le préfet Haussmann transforme Paris. Voici ce qui a été construit, ce qui a été perdu et comment reconnaître ses immeubles.",
-  "excerpt_cs": "V letech 1853 až 1870 prefekt Haussmann přestavěl Paříž. Co se postavilo, co se ztratilo a jak poznat jeho domy.",
-  "body_fr": "Montez sur une colline de Montmartre et regardez les toits : une mer de zinc gris, des fenêtres alignées, des immeubles de pierre claire qui se suivent sur des kilomètres. Cette unité n'est pas naturelle. Elle vient d'un projet politique mené entre 1853 et 1870.\n\n## Un préfet, un empereur, une ville malade\n\nEn juin 1853, Napoléon III nomme Georges Eugène Haussmann préfet de la Seine. Sa mission tient en trois verbes : aérer, unifier, embellir. Le Paris de cette époque est encore médiéval : les ruelles sont étroites, les quartiers sont surpeuplés, l'eau est de mauvaise qualité et le choléra revient régulièrement. Les historiens rappellent aussi que les grandes avenues facilitent le maintien de l'ordre.\n\nHaussmann reste préfet jusqu'au début de 1870. En 1860, la ville annexe les communes voisines et passe de 12 à 20 arrondissements. C'est l'organisation que nous connaissons encore aujourd'hui.\n\n## Ce qui a été construit\n\nLes chiffres sont impressionnants. Entre 1852 et 1870, environ 20 000 maisons sont démolies et plus de 40 000 immeubles sont construits. Les nouvelles rues ont souvent 20 à 30 mètres de large. Un décret de 1859 permet des façades de 20 mètres de haut dans les rues larges, ce qui donne cette silhouette régulière.\n\nSous la chaussée, l'ingénieur Eugène Belgrand organise l'eau : plus de 340 kilomètres d'égouts sont créés entre 1854 et 1870. Au-dessus, on aménage des parcs : le bois de Boulogne, le bois de Vincennes, les Buttes-Chaumont, Montsouris et le parc Monceau. On plante aussi des dizaines de milliers d'arbres le long des rues. Paris devient une ville où l'on aime se promener.\n\n## Ce qui a été perdu\n\nLe prix est élevé. L'île de la Cité perd une grande partie de son tissu médiéval. Les loyers montent, et les familles modestes partent vers la périphérie. La spéculation immobilière enrichit quelques personnes : Émile Zola en parle dans son roman *La Curée*.\n\nLa ville emprunte aussi beaucoup d'argent. En 1870, sa dette atteint environ 1,5 milliard de francs. En 1867, Jules Ferry publie un pamphlet satirique, *Les Comptes fantastiques d'Haussmann*. Cette polémique précède en partie la chute du préfet.\n\n## Comment reconnaître un immeuble haussmannien\n\nVoici quelques repères que vous pouvez vérifier dans la rue :\n\n- la façade est en pierre calcaire et elle est alignée sur la rue ;\n- le rez-de-chaussée est souvent occupé par des commerces ;\n- le deuxième étage, appelé « étage noble », a les plus hauts plafonds et un long balcon en fer forgé ;\n- un autre long balcon se trouve souvent au cinquième étage ;\n- le toit est couvert de zinc ;\n- sous le toit, il y avait les anciennes chambres de bonne.\n\nAprès 1870, les architectes gardent la hauteur et l'alignement, mais ils ajoutent plus de décor. On parle alors d'immeubles « post-haussmanniens ».\n\n## Et aujourd'hui ?\n\nPour les étudiants, cet héritage est très concret. Les grands appartements avec parquet, moulures et cheminées sont recherchés, donc chers. Les chambres de bonne sont devenues de petits studios loués à des étudiants : il n'y a pas d'ascenseur et le plafond est bas, mais l'adresse est souvent bonne. Ce vocabulaire (parquet, moulures, étage, ascenseur) apparaît dans les annonces que vous lirez en France.\n\nBeaucoup de Parisiens trouvent la ville trop uniforme. D'autres admirent cette cohérence, rare dans une capitale.\n\n## Pour y aller\n\nMarchez du boulevard Haussmann vers l'Opéra Garnier, ou le long du boulevard Saint-Michel. Regardez les balcons et les coins arrondis. Pour en savoir plus, consultez le site de la [Cité de l'architecture](https://www.citedelarchitecture.fr) et le site de la Ville de Paris, [paris.fr](https://www.paris.fr).",
-  "body_cs": "Vyjděte na kopec Montmartru a podívejte se na střechy: moře šedého zinku, okna v řadách, domy ze světlého kamene, které se táhnou kilometry. Tahle jednota není přirozená. Vznikla z politického projektu z let 1853 až 1870.\n\n## Prefekt, císař a nemocné město\n\nV červnu 1853 jmenoval Napoleon III. Georgese Eugèna Haussmanna prefektem departementu Seine. Jeho úkol se vejde do tří sloves: provětrat, sjednotit, zkrášlit. Tehdejší Paříž byla ještě středověká: uličky byly úzké, čtvrti přelidněné, voda špatná a cholera se pravidelně vracela. Historici také připomínají, že velké třídy usnadňovaly udržování pořádku.\n\nHaussmann zůstal prefektem do začátku roku 1870. V roce 1860 město připojilo sousední obce a z 12 obvodů se stalo 20. Tak je Paříž uspořádaná dodnes.\n\n## Co se postavilo\n\nČísla jsou působivá. V letech 1852 až 1870 se zbouralo asi 20 000 domů a postavilo se víc než 40 000 činžáků. Nové ulice měly často 20 až 30 metrů na šířku. Nařízení z roku 1859 dovolovalo průčelí vysoká 20 metrů v širokých ulicích, a odtud ta pravidelná silueta.\n\nPod dlažbou řídil vodu inženýr Eugène Belgrand: v letech 1854 až 1870 vzniklo přes 340 kilometrů kanalizace. Nad zemí přibyly parky: Boulogneský a Vincennský lesík, Buttes-Chaumont, Montsouris a park Monceau. Podél ulic se zasadily desítky tisíc stromů. Z Paříže se stalo město, kde se rádo chodí na procházku.\n\n## Co se ztratilo\n\nCena byla vysoká. Ostrov Cité přišel o velkou část středověké zástavby. Nájmy stouply a chudší rodiny odcházely na okraj. Spekulace s nemovitostmi obohatila několik lidí: Émile Zola o ní píše v románu *La Curée*.\n\nMěsto si také hodně půjčovalo. V roce 1870 dosáhl jeho dluh asi 1,5 miliardy franků. V roce 1867 vydal Jules Ferry satirický pamflet *Les Comptes fantastiques d'Haussmann*. Tahle polemika částečně předcházela prefektovu pádu.\n\n## Jak poznat haussmannovský dům\n\nTady je pár znaků, které si můžete ověřit na ulici:\n\n- průčelí je z vápence a je zarovnané s ulicí,\n- v přízemí bývají obchody,\n- druhé patro, tzv. „étage noble“, má nejvyšší stropy a dlouhý balkon z kovaného železa,\n- další dlouhý balkon bývá v pátém patře,\n- střecha je pokrytá zinkem,\n- pod střechou bývaly pokojíky pro služebnictvo (chambres de bonne).\n\nPo roce 1870 architekti ponechali výšku i zarovnání, ale přidali víc výzdoby. Mluví se pak o „post-haussmannovských“ domech.\n\n## A dnes?\n\nPro studenty je ten odkaz velmi konkrétní. Velké byty s parketami, štuky a krby jsou žádané, a tedy drahé. Pokojíky pod střechou se změnily na malá studia pronajímaná studentům: nejsou tam výtahy a strop je nízký, ale adresa bývá dobrá. Tuhle slovní zásobu (parquet, moulures, étage, ascenseur) najdete v inzerátech, které budete ve Francii číst.\n\nMnoho Pařížanů považuje město za příliš jednotvárné. Jiní obdivují tu soudržnost, vzácnou u hlavních měst.\n\n## Praktické info\n\nProjděte se od bulváru Haussmann k Opeře Garnier nebo po bulváru Saint-Michel. Všímejte si balkonů a zaoblených rohů. Víc se dozvíte na webu [Cité de l'architecture](https://www.citedelarchitecture.fr) a na stránkách města Paříže, [paris.fr](https://www.paris.fr).",
-  "glossary": [
-    {
-      "fr": "le préfet",
-      "cs": "prefekt"
-    },
-    {
-      "fr": "aérer",
-      "cs": "provětrat"
-    },
-    {
-      "fr": "surpeuplé",
-      "cs": "přelidněný"
-    },
-    {
-      "fr": "les égouts (m.)",
-      "cs": "kanalizace"
-    },
-    {
-      "fr": "la chaussée",
-      "cs": "vozovka, dlažba"
-    },
-    {
-      "fr": "le loyer",
-      "cs": "nájem"
-    },
-    {
-      "fr": "la dette",
-      "cs": "dluh"
-    },
-    {
-      "fr": "un pamphlet",
-      "cs": "pamflet"
-    },
-    {
-      "fr": "la façade",
-      "cs": "průčelí"
-    },
-    {
-      "fr": "le balcon en fer forgé",
-      "cs": "balkon z kovaného železa"
-    },
-    {
-      "fr": "la chambre de bonne",
-      "cs": "pokojík pod střechou (původně pro služebnictvo)"
-    },
-    {
-      "fr": "les moulures (f.)",
-      "cs": "štukové lišty"
-    }
-  ],
-  "photo": {
-    "file": "File:135 Boulevard Haussmann, Paris (01).jpg",
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/135_Boulevard_Haussmann%2C_Paris_(01).jpg?width=1200",
-    "page": "https://commons.wikimedia.org/wiki/File:135_Boulevard_Haussmann,_Paris_(01).jpg",
-    "author": "Neoclassicism Enthusiast",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ "base": "haussmann-paris-face",
+ "level": "B1",
+ "slug": "haussmann-paris-face-b1",
+ "category": "paris",
+ "published_at": "2026-09-12T08:00:00Z",
+ "author": "Rédaction parisien.cz",
+ "title_fr": "Pourquoi Paris ressemble à Paris : l'héritage de Haussmann",
+ "title_cs": "Proč Paříž vypadá, jak vypadá: odkaz barona Haussmanna",
+ "excerpt_fr": "Entre 1853 et 1870, le préfet Haussmann transforme Paris. Voici ce qui a été construit, ce qui a été perdu et comment reconnaître ses immeubles.",
+ "excerpt_cs": "V letech 1853 až 1870 prefekt Haussmann přestavěl Paříž. Co se postavilo, co se ztratilo a jak poznat jeho domy.",
+ "body_fr": "Montez sur une colline de Montmartre et regardez les toits : une mer de zinc gris, des fenêtres alignées, des immeubles de pierre claire qui se suivent sur des kilomètres. Cette unité n'est pas naturelle. Elle vient d'un projet politique mené entre 1853 et 1870.\n\n## Un préfet, un empereur, une ville malade\n\nEn juin 1853, Napoléon III nomme Georges Eugène Haussmann préfet de la Seine. Sa mission tient en trois verbes : aérer, unifier, embellir. Le Paris de cette époque est encore médiéval : les ruelles sont étroites, les quartiers sont surpeuplés, l'eau est de mauvaise qualité et le choléra revient régulièrement. Les historiens rappellent aussi que les grandes avenues facilitent le maintien de l'ordre.\n\nHaussmann reste préfet jusqu'au début de 1870. En 1860, la ville annexe les communes voisines et passe de 12 à 20 arrondissements. C'est l'organisation que nous connaissons encore aujourd'hui.\n\n## Ce qui a été construit\n\nLes chiffres sont impressionnants. Entre 1852 et 1870, environ 20 000 maisons sont démolies et plus de 40 000 immeubles sont construits. Les nouvelles rues ont souvent 20 à 30 mètres de large. Un décret de 1859 permet des façades de 20 mètres de haut dans les rues larges, ce qui donne cette silhouette régulière.\n\nSous la chaussée, l'ingénieur Eugène Belgrand organise l'eau : plus de 340 kilomètres d'égouts sont créés entre 1854 et 1870. Au-dessus, on aménage des parcs : le bois de Boulogne, le bois de Vincennes, les Buttes-Chaumont, Montsouris et le parc Monceau. On plante aussi des dizaines de milliers d'arbres le long des rues. Paris devient une ville où l'on aime se promener.\n\n## Ce qui a été perdu\n\nLe prix est élevé. L'île de la Cité perd une grande partie de son tissu médiéval. Les loyers montent, et les familles modestes partent vers la périphérie. La spéculation immobilière enrichit quelques personnes : Émile Zola en parle dans son roman *La Curée*.\n\nLa ville emprunte aussi beaucoup d'argent. En 1870, sa dette atteint environ 1,5 milliard de francs. En 1867, Jules Ferry publie un pamphlet satirique, *Les Comptes fantastiques d'Haussmann*. Cette polémique précède en partie la chute du préfet.\n\n## Comment reconnaître un immeuble haussmannien\n\nVoici quelques repères que vous pouvez vérifier dans la rue :\n\n- la façade est en pierre calcaire et elle est alignée sur la rue ;\n- le rez-de-chaussée est souvent occupé par des commerces ;\n- le deuxième étage, appelé « étage noble », a les plus hauts plafonds et un long balcon en fer forgé ;\n- un autre long balcon se trouve souvent au cinquième étage ;\n- le toit est couvert de zinc ;\n- sous le toit, il y avait les anciennes chambres de bonne.\n\nAprès 1870, les architectes gardent la hauteur et l'alignement, mais ils ajoutent plus de décor. On parle alors d'immeubles « post-haussmanniens ».\n\n## Et aujourd'hui ?\n\nPour les étudiants, cet héritage est très concret. Les grands appartements avec parquet, moulures et cheminées sont recherchés, donc chers. Les chambres de bonne sont devenues de petits studios loués à des étudiants : il n'y a pas d'ascenseur et le plafond est bas, mais l'adresse est souvent bonne. Ce vocabulaire (parquet, moulures, étage, ascenseur) apparaît dans les annonces que vous lirez en France.\n\nBeaucoup de Parisiens trouvent la ville trop uniforme. D'autres admirent cette cohérence, rare dans une capitale.\n\n## Pour y aller\n\nMarchez du boulevard Haussmann vers l'Opéra Garnier, ou le long du boulevard Saint-Michel. Regardez les balcons et les coins arrondis. Pour en savoir plus, consultez le site de la [Cité de l'architecture](https://www.citedelarchitecture.fr) et le site de la Ville de Paris, [paris.fr](https://www.paris.fr).",
+ "body_cs": "Vyjděte na kopec Montmartru a podívejte se na střechy: moře šedého zinku, okna v řadách, domy ze světlého kamene, které se táhnou kilometry. Tahle jednota není přirozená. Vznikla z politického projektu z let 1853 až 1870.\n\n## Prefekt, císař a nemocné město\n\nV červnu 1853 jmenoval Napoleon III. Georgese Eugèna Haussmanna prefektem departementu Seine. Jeho úkol se vejde do tří sloves: provětrat, sjednotit, zkrášlit. Tehdejší Paříž byla ještě středověká: uličky byly úzké, čtvrti přelidněné, voda špatná a cholera se pravidelně vracela. Historici také připomínají, že velké třídy usnadňovaly udržování pořádku.\n\nHaussmann zůstal prefektem do začátku roku 1870. V roce 1860 město připojilo sousední obce a z 12 obvodů se stalo 20. Tak je Paříž uspořádaná dodnes.\n\n## Co se postavilo\n\nČísla jsou působivá. V letech 1852 až 1870 se zbouralo asi 20 000 domů a postavilo se víc než 40 000 činžáků. Nové ulice měly často 20 až 30 metrů na šířku. Nařízení z roku 1859 dovolovalo průčelí vysoká 20 metrů v širokých ulicích, a odtud ta pravidelná silueta.\n\nPod dlažbou řídil vodu inženýr Eugène Belgrand: v letech 1854 až 1870 vzniklo přes 340 kilometrů kanalizace. Nad zemí přibyly parky: Boulogneský a Vincennský lesík, Buttes-Chaumont, Montsouris a park Monceau. Podél ulic se zasadily desítky tisíc stromů. Z Paříže se stalo město, kde se rádo chodí na procházku.\n\n## Co se ztratilo\n\nCena byla vysoká. Ostrov Cité přišel o velkou část středověké zástavby. Nájmy stouply a chudší rodiny odcházely na okraj. Spekulace s nemovitostmi obohatila několik lidí: Émile Zola o ní píše v románu *La Curée*.\n\nMěsto si také hodně půjčovalo. V roce 1870 dosáhl jeho dluh asi 1,5 miliardy franků. V roce 1867 vydal Jules Ferry satirický pamflet *Les Comptes fantastiques d'Haussmann*. Tahle polemika částečně předcházela prefektovu pádu.\n\n## Jak poznat haussmannovský dům\n\nTady je pár znaků, které si můžete ověřit na ulici:\n\n- průčelí je z vápence a je zarovnané s ulicí,\n- v přízemí bývají obchody,\n- druhé patro, tzv. „étage noble“, má nejvyšší stropy a dlouhý balkon z kovaného železa,\n- další dlouhý balkon bývá v pátém patře,\n- střecha je pokrytá zinkem,\n- pod střechou bývaly pokojíky pro služebnictvo (chambres de bonne).\n\nPo roce 1870 architekti ponechali výšku i zarovnání, ale přidali víc výzdoby. Mluví se pak o „post-haussmannovských“ domech.\n\n## A dnes?\n\nPro studenty je ten odkaz velmi konkrétní. Velké byty s parketami, štuky a krby jsou žádané, a tedy drahé. Pokojíky pod střechou se změnily na malá studia pronajímaná studentům: nejsou tam výtahy a strop je nízký, ale adresa bývá dobrá. Tuhle slovní zásobu (parquet, moulures, étage, ascenseur) najdete v inzerátech, které budete ve Francii číst.\n\nMnoho Pařížanů považuje město za příliš jednotvárné. Jiní obdivují tu soudržnost, vzácnou u hlavních měst.\n\n## Praktické info\n\nProjděte se od bulváru Haussmann k Opeře Garnier nebo po bulváru Saint-Michel. Všímejte si balkonů a zaoblených rohů. Víc se dozvíte na webu [Cité de l'architecture](https://www.citedelarchitecture.fr) a na stránkách města Paříže, [paris.fr](https://www.paris.fr).",
+ "glossary": [
+  {
+   "fr": "le préfet",
+   "cs": "prefekt"
   },
-  "sources": [
-    "https://fr.wikipedia.org/wiki/Transformations_de_Paris_sous_le_Second_Empire",
-    "https://fr.wikipedia.org/wiki/Immeuble_haussmannien",
-    "https://www.citedelarchitecture.fr/sites/default/files/documents/2021-04/bricolarchi_immeuble_haussmannien_v2.pdf",
-    "https://www.pariszigzag.fr/?p=225074",
-    "https://www.citedelarchitecture.fr",
-    "https://www.paris.fr"
-  ]
+  {
+   "fr": "aérer",
+   "cs": "provětrat"
+  },
+  {
+   "fr": "surpeuplé",
+   "cs": "přelidněný"
+  },
+  {
+   "fr": "les égouts (m.)",
+   "cs": "kanalizace"
+  },
+  {
+   "fr": "la chaussée",
+   "cs": "vozovka, dlažba"
+  },
+  {
+   "fr": "le loyer",
+   "cs": "nájem"
+  },
+  {
+   "fr": "la dette",
+   "cs": "dluh"
+  },
+  {
+   "fr": "un pamphlet",
+   "cs": "pamflet"
+  },
+  {
+   "fr": "la façade",
+   "cs": "průčelí"
+  },
+  {
+   "fr": "le balcon en fer forgé",
+   "cs": "balkon z kovaného železa"
+  },
+  {
+   "fr": "la chambre de bonne",
+   "cs": "pokojík pod střechou (původně pro služebnictvo)"
+  },
+  {
+   "fr": "les moulures (f.)",
+   "cs": "štukové lišty"
+  }
+ ],
+ "photo": {
+  "file": "File:135 Boulevard Haussmann, Paris (01).jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/135_Boulevard_Haussmann%2C_Paris_(01).jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:135_Boulevard_Haussmann,_Paris_(01).jpg",
+  "author": "Neoclassicism Enthusiast",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Transformations_de_Paris_sous_le_Second_Empire",
+  "https://fr.wikipedia.org/wiki/Immeuble_haussmannien",
+  "https://www.citedelarchitecture.fr/sites/default/files/documents/2021-04/bricolarchi_immeuble_haussmannien_v2.pdf",
+  "https://www.pariszigzag.fr/?p=225074",
+  "https://www.citedelarchitecture.fr",
+  "https://www.paris.fr"
+ ],
+ "questions": [
+  {
+   "q": {
+    "fr": "Selon les historiens, pourquoi les grandes avenues sont-elles aussi utiles ?",
+    "cs": "Proč jsou podle historiků velké třídy také užitečné?"
+   },
+   "options": {
+    "fr": [
+     "Elles facilitent le maintien de l'ordre.",
+     "Elles permettent de construire des parcs.",
+     "Elles font baisser les loyers.",
+     "Elles remplacent les égouts."
+    ],
+    "cs": [
+     "Usnadňují udržování pořádku.",
+     "Umožňují stavět parky.",
+     "Snižují nájmy.",
+     "Nahrazují kanalizaci."
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Section « Un préfet, un empereur… » : « les grandes avenues facilitent le maintien de l'ordre ».",
+    "cs": "Oddíl „Prefekt, císař…“: „velké třídy usnadňovaly udržování pořádku“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que permet le décret de 1859 ?",
+    "cs": "Co umožňuje nařízení z roku 1859?"
+   },
+   "options": {
+    "fr": [
+     "Démolir 20 000 maisons.",
+     "Construire des façades de 20 mètres dans les rues larges.",
+     "Passer de 12 à 20 arrondissements.",
+     "Planter des arbres le long des rues."
+    ],
+    "cs": [
+     "Zbourat 20 000 domů.",
+     "Stavět průčelí vysoká 20 metrů v širokých ulicích.",
+     "Přejít z 12 na 20 obvodů.",
+     "Vysadit stromy podél ulic."
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Section « Ce qui a été construit » : le décret permet des façades de 20 mètres dans les rues larges.",
+    "cs": "Oddíl „Co se postavilo“: nařízení dovoluje průčelí vysoká 20 metrů v širokých ulicích."
+   }
+  },
+  {
+   "q": {
+    "fr": "De quoi parle le roman *La Curée* d'Émile Zola, d'après le texte ?",
+    "cs": "Čím se podle textu zabývá Zolův román *La Curée*?"
+   },
+   "options": {
+    "fr": [
+     "De la vie des étudiants dans les chambres de bonne.",
+     "De l'histoire de l'île de la Cité.",
+     "De la spéculation immobilière qui enrichit quelques personnes.",
+     "De la chute de Napoléon III."
+    ],
+    "cs": [
+     "Životem studentů v pokojících pro služebnictvo.",
+     "Dějinami ostrova Cité.",
+     "Spekulací s nemovitostmi, která obohatila několik lidí.",
+     "Pádem Napoleona III."
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Section « Ce qui a été perdu » : « La spéculation immobilière enrichit quelques personnes : Émile Zola en parle dans son roman *La Curée*. »",
+    "cs": "Oddíl „Co se ztratilo“: „Spekulace s nemovitostmi obohatila několik lidí: Émile Zola o ní píše v románu *La Curée*.“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Qu'est-ce qui est vrai pour les chambres de bonne aujourd'hui ?",
+    "cs": "Co platí dnes o pokojících pro služebnictvo (chambres de bonne)?"
+   },
+   "options": {
+    "fr": [
+     "Elles sont très chères et ont un ascenseur.",
+     "Elles sont fermées au public.",
+     "Elles sont occupées par les commerces.",
+     "Ce sont de petits studios pour étudiants, sans ascenseur, avec un plafond bas."
+    ],
+    "cs": [
+     "Jsou velmi drahé a mají výtah.",
+     "Jsou veřejnosti uzavřené.",
+     "Jsou obsazené obchody.",
+     "Jsou to malá studia pro studenty, bez výtahu a s nízkým stropem."
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "Section « Et aujourd'hui ? » : petits studios loués à des étudiants, sans ascenseur, plafond bas, bonne adresse.",
+    "cs": "Oddíl „A dnes?“: malá studia pronajímaná studentům, bez výtahu, nízký strop, dobrá adresa."
+   }
+  }
+ ]
 }

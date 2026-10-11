@@ -62,5 +62,99 @@
     "https://en.wikipedia.org/wiki/August_Zang",
     "https://cdn.paris.fr/presse/2024/04/18/4598f4f32bf1ca6309938184e159d047.pdf",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Combien de personnes vont chaque jour à la boulangerie ?",
+        "cs": "Kolik lidí jde každý den do pekárny?"
+      },
+      "options": {
+        "fr": [
+          "Environ six millions.",
+          "Environ douze millions.",
+          "Plus de six milliards."
+        ],
+        "cs": [
+          "Asi šest milionů.",
+          "Asi dvanáct milionů.",
+          "Více než šest miliard."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Premier paragraphe : « environ douze millions de personnes vont à la boulangerie ».",
+        "cs": "První odstavec: do pekárny jde asi dvanáct milionů lidí."
+      }
+    },
+    {
+      "q": {
+        "fr": "Où le boulanger fait-il la baguette « tradition » ?",
+        "cs": "Kde pekař peče bagetu „tradition“?"
+      },
+      "options": {
+        "fr": [
+          "Sur place.",
+          "Dans une grande usine.",
+          "Chez les clients."
+        ],
+        "cs": [
+          "Na místě.",
+          "Ve velké továrně.",
+          "U zákazníků."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « La baguette tradition » : le boulanger la fait sur place.",
+        "cs": "Oddíl o bagetě „tradition“: pekař ji peče na místě."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que protège l'UNESCO en 2022 ?",
+        "cs": "Co chrání UNESCO v roce 2022?"
+      },
+      "options": {
+        "fr": [
+          "Le prix de la baguette.",
+          "Toutes les boulangeries de Paris.",
+          "Le savoir-faire du boulanger et la culture de la baguette."
+        ],
+        "cs": [
+          "Cenu bagety.",
+          "Všechny pařížské pekárny.",
+          "Pekařovo řemeslné know-how a kulturu bagety."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Une baguette célèbre » : l'UNESCO protège le savoir-faire et la culture.",
+        "cs": "Oddíl „Slavná bageta“: UNESCO chrání know-how pekaře a kulturu bagety."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand mange-t-on une bonne baguette ?",
+        "cs": "Kdy se jí dobrá bageta?"
+      },
+      "options": {
+        "fr": [
+          "Une semaine plus tard.",
+          "Le jour même.",
+          "Seulement le soir."
+        ],
+        "cs": [
+          "O týden později.",
+          "V ten samý den.",
+          "Jen večer."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Dernier paragraphe : on la mange le jour même.",
+        "cs": "Poslední odstavec: jí se v ten samý den."
+      }
+    }
   ]
 }

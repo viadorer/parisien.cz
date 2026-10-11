@@ -1,0 +1,267 @@
+{
+  "id": "objets-trouves",
+  "level": "B1",
+  "title": {
+    "fr": "Un sac oublié dans le métro",
+    "cs": "Taška zapomenutá v metru"
+  },
+  "scene": {
+    "fr": "Une voyageuse a oublié son sac dans une rame de métro et s'adresse à un agent à la station.",
+    "cs": "Cestující zapomněla tašku v soupravě metra a obrací se na zaměstnance ve stanici."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "La voyageuse",
+        "cs": "Cestující"
+      },
+      "fr": "Excusez-moi, monsieur, j'ai un problème. J'ai oublié mon sac dans le métro il y a vingt minutes.",
+      "cs": "Promiňte, pane, mám problém. Před dvaceti minutami jsem zapomněla tašku v metru."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent",
+        "cs": "Zaměstnanec"
+      },
+      "fr": "Ne vous inquiétez pas, on va voir ce qu'on peut faire. Dans quelle direction alliez-vous ?",
+      "cs": "Nebojte se, uvidíme, co se dá dělat. Kterým směrem jste jela?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La voyageuse",
+        "cs": "Cestující"
+      },
+      "fr": "Je venais de la gare du Nord et je suis descendue ici. Le métro continuait vers le sud.",
+      "cs": "Jela jsem od Gare du Nord a vystoupila tady. Metro pokračovalo na jih."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent",
+        "cs": "Zaměstnanec"
+      },
+      "fr": "D'accord. Pouvez-vous me décrire votre sac ?",
+      "cs": "Dobře. Můžete mi tu tašku popsat?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La voyageuse",
+        "cs": "Cestující"
+      },
+      "fr": "C'est un sac à dos bleu foncé, avec une petite poche devant. Il y a une bouteille d'eau accrochée sur le côté.",
+      "cs": "Je to tmavomodrý batoh s malou kapsou vpředu. Na boku je připevněná láhev na vodu."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent",
+        "cs": "Zaměstnanec"
+      },
+      "fr": "Et qu'est-ce qu'il y a dedans, à peu près ?",
+      "cs": "A co v něm zhruba je?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La voyageuse",
+        "cs": "Cestující"
+      },
+      "fr": "Mon ordinateur portable, un chargeur, et surtout mon passeport. Je dois prendre le train demain matin !",
+      "cs": "Můj notebook, nabíječka a hlavně pas. Zítra ráno musím jet vlakem!"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent",
+        "cs": "Zaměstnanec"
+      },
+      "fr": "Je comprends que ce soit stressant. Avez-vous remarqué dans quelle voiture vous étiez assise ?",
+      "cs": "Chápu, že je to stresující. Všimla jste si, ve kterém voze jste seděla?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La voyageuse",
+        "cs": "Cestující"
+      },
+      "fr": "Je crois que c'était vers le milieu de la rame. Je ne suis pas sûre, j'étais pressée.",
+      "cs": "Myslím, že někde uprostřed soupravy. Nejsem si jistá, spěchala jsem."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent",
+        "cs": "Zaměstnanec"
+      },
+      "fr": "Je vais appeler mes collègues au terminus. Si quelqu'un le retrouve, on vous préviendra. Laissez-moi votre nom et un numéro de téléphone.",
+      "cs": "Zavolám kolegům na konečné. Pokud ji někdo najde, dáme vám vědět. Nechte mi své jméno a telefonní číslo."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La voyageuse",
+        "cs": "Cestující"
+      },
+      "fr": "Voilà mon numéro. Mais si vous ne le retrouvez pas aujourd'hui, que dois-je faire ?",
+      "cs": "Tady je moje číslo. Ale pokud ji dnes nenajdete, co mám dělat?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent",
+        "cs": "Zaměstnanec"
+      },
+      "fr": "Il faudra faire une déclaration de perte. Vous pouvez la faire en ligne ou auprès du service des objets trouvés.",
+      "cs": "Bude nutné podat hlášení o ztrátě. Můžete to udělat online nebo u oddělení ztrát a nálezů."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La voyageuse",
+        "cs": "Cestující"
+      },
+      "fr": "Et pour mon passeport, vous pensez que c'est grave ?",
+      "cs": "A s pasem, myslíte, že je to vážné?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent",
+        "cs": "Zaměstnanec"
+      },
+      "fr": "Il faut aussi prévenir votre consulat ou votre ambassade, au cas où. Gardez votre déclaration de perte, elle pourra vous servir.",
+      "cs": "Pro jistotu je třeba informovat také váš konzulát nebo velvyslanectví. Hlášení o ztrátě si uschovejte, může se vám hodit."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La voyageuse",
+        "cs": "Cestující"
+      },
+      "fr": "D'accord, je vais le faire tout de suite. Merci beaucoup pour votre aide.",
+      "cs": "Dobře, hned to udělám. Moc děkuji za pomoc."
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "oublier",
+      "cs": "zapomenout"
+    },
+    {
+      "fr": "la rame",
+      "cs": "souprava (metra)"
+    },
+    {
+      "fr": "le sac à dos",
+      "cs": "batoh"
+    },
+    {
+      "fr": "la poche",
+      "cs": "kapsa"
+    },
+    {
+      "fr": "le terminus",
+      "cs": "konečná stanice"
+    },
+    {
+      "fr": "les objets trouvés (m. pl.)",
+      "cs": "ztráty a nálezy"
+    },
+    {
+      "fr": "la déclaration de perte",
+      "cs": "hlášení o ztrátě"
+    },
+    {
+      "fr": "retrouver",
+      "cs": "najít (ztracené)"
+    },
+    {
+      "fr": "prévenir",
+      "cs": "uvědomit, informovat"
+    },
+    {
+      "fr": "l'ambassade (f.)",
+      "cs": "velvyslanectví"
+    }
+  ],
+  "tip": {
+    "fr": "Si vous perdez un objet dans les transports, signalez-le le plus vite possible : plus on attend, plus il est difficile de le retrouver. Pour les démarches officielles, consultez les sites de la RATP, de la SNCF, d'Île-de-France Mobilités ou de la préfecture de police.",
+    "cs": "Pokud něco ztratíte v dopravě, nahlaste to co nejdříve: čím déle se čeká, tím hůř se věc hledá. K oficiálním postupům se podívejte na weby RATP, SNCF, Île-de-France Mobilités nebo pařížské policejní prefektury."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Qu'est-ce que la voyageuse a perdu ?",
+        "cs": "Co cestující ztratila?"
+      },
+      "options": {
+        "fr": [
+          "Une valise grise",
+          "Un sac à main rouge",
+          "Un sac à dos bleu foncé"
+        ],
+        "cs": [
+          "Šedý kufr",
+          "Červenou kabelku",
+          "Tmavomodrý batoh"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Elle décrit « un sac à dos bleu foncé ».",
+        "cs": "Popisuje „tmavomodrý batoh“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi est-elle particulièrement inquiète ?",
+        "cs": "Proč má zvlášť velké obavy?"
+      },
+      "options": {
+        "fr": [
+          "Elle a perdu son téléphone.",
+          "Son passeport est dans le sac et elle part en train demain.",
+          "Elle n'a plus d'argent pour rentrer."
+        ],
+        "cs": [
+          "Ztratila telefon.",
+          "V tašce má pas a zítra odjíždí vlakem.",
+          "Nemá už peníze na cestu zpět."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Elle dit que son passeport est dedans et qu'elle prend le train demain matin.",
+        "cs": "Říká, že má uvnitř pas a zítra ráno jede vlakem."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que va faire l'agent tout de suite ?",
+        "cs": "Co udělá zaměstnanec hned?"
+      },
+      "options": {
+        "fr": [
+          "Il va appeler ses collègues au terminus.",
+          "Il va chercher le sac lui-même dans le métro.",
+          "Il va envoyer la voyageuse au consulat."
+        ],
+        "cs": [
+          "Zavolá kolegům na konečnou.",
+          "Půjde tašku hledat sám do metra.",
+          "Pošle cestující na konzulát."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Il dit : « Je vais appeler mes collègues au terminus. »",
+        "cs": "Říká: zavolám kolegům na konečné."
+      }
+    }
+  ],
+  "sources": []
+}

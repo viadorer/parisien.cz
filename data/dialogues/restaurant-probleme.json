@@ -1,0 +1,258 @@
+{
+  "id": "restaurant-probleme",
+  "level": "B1",
+  "title": {
+    "fr": "Une réclamation polie",
+    "cs": "Zdvořilá reklamace"
+  },
+  "scene": {
+    "fr": "Dans un restaurant, un client explique poliment à la serveuse que son plat n'est pas ce qu'il a commandé.",
+    "cs": "V restauraci zákazník zdvořile vysvětluje servírce, že jídlo není to, které si objednal."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Excusez-moi, madame, est-ce que je pourrais vous parler un instant ?",
+      "cs": "Promiňte, paní, mohl bych s vámi na chvilku mluvit?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Bien sûr, monsieur. Quelque chose ne va pas ?",
+      "cs": "Jistě, pane. Něco není v pořádku?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Je suis désolé de vous déranger, mais j'ai commandé le poisson du jour, et on m'a apporté du poulet.",
+      "cs": "Omlouvám se, že vás ruším, ale objednal jsem si rybu dne a přinesli mi kuře."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Ah, vraiment ? Je suis désolée, il a dû y avoir une erreur en cuisine. Je vérifie tout de suite.",
+      "cs": "Opravdu? Moc se omlouvám, v kuchyni musela nastat chyba. Hned to zjistím."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Merci. Le poulet a l'air bon, mais j'avais très envie de poisson.",
+      "cs": "Děkuji. Kuře vypadá dobře, ale měl jsem velkou chuť na ryby."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Je comprends parfaitement. Je vais voir s'il en reste. Vous voulez bien patienter quelques minutes ?",
+      "cs": "Naprosto chápu. Podívám se, jestli ještě nějaká zbyla. Počkáte prosím pár minut?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Oui, bien sûr. Mais mon amie a presque fini son plat, ce serait dommage de manger chacun à son tour.",
+      "cs": "Ano, samozřejmě. Ale kamarádka už skoro dojedla, bylo by škoda jíst každý jindy."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Vous avez raison. Écoutez, je vous propose de garder le poulet pour vous, et le poisson arrivera dès qu'il sera prêt.",
+      "cs": "Máte pravdu. Poslouchejte, navrhuji, abyste si kuře nechal, a ryba přijde, jakmile bude hotová."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Ce serait gentil. Par contre, je ne voudrais pas payer deux plats.",
+      "cs": "To by bylo milé. Nechtěl bych ale platit za dvě jídla."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Bien entendu. Le poulet ne sera pas facturé, c'est une erreur de notre part.",
+      "cs": "Samozřejmě. Kuře se účtovat nebude, je to naše chyba."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "C'est très aimable, merci. Il y a autre chose : la carafe d'eau n'est pas encore arrivée.",
+      "cs": "To je od vás velmi milé, děkuji. Ještě jedna věc: karafa s vodou ještě nepřišla."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "Oh, pardon, je l'apporte immédiatement. Avec des glaçons ?",
+      "cs": "Ach, pardon, přinesu ji okamžitě. S ledem?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le client",
+        "cs": "Zákazník"
+      },
+      "fr": "Sans glaçons, s'il vous plaît. Merci de votre patience.",
+      "cs": "Bez ledu, prosím. Děkuji za trpělivost."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "La serveuse",
+        "cs": "Servírka"
+      },
+      "fr": "C'est moi qui vous remercie de votre compréhension. Bon appétit, messieurs-dames !",
+      "cs": "To já děkuji vám za pochopení. Dobrou chuť vám oběma!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "une réclamation",
+      "cs": "reklamace, stížnost"
+    },
+    {
+      "fr": "le plat",
+      "cs": "jídlo, chod"
+    },
+    {
+      "fr": "le poisson du jour",
+      "cs": "ryba dne"
+    },
+    {
+      "fr": "une erreur",
+      "cs": "chyba"
+    },
+    {
+      "fr": "patienter",
+      "cs": "vyčkat, mít strpení"
+    },
+    {
+      "fr": "facturer",
+      "cs": "účtovat"
+    },
+    {
+      "fr": "la carafe d'eau",
+      "cs": "karafa s vodou"
+    },
+    {
+      "fr": "les glaçons (m. pl.)",
+      "cs": "kostky ledu"
+    },
+    {
+      "fr": "déranger",
+      "cs": "rušit"
+    },
+    {
+      "fr": "Bon appétit !",
+      "cs": "Dobrou chuť!"
+    }
+  ],
+  "tip": {
+    "fr": "En France, on se plaint poliment : on commence par « excusez-moi » ou « je suis désolé de vous déranger », puis on décrit le problème sans accuser personne. Le conditionnel (« je voudrais », « ce serait ») adoucit la demande.",
+    "cs": "Ve Francii se stěžuje zdvořile: začíná se slovy „excusez-moi“ nebo „je suis désolé de vous déranger“ a problém se popíše, aniž by se někdo obviňoval. Podmiňovací způsob („je voudrais“, „ce serait“) žádost zjemňuje."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Quel est le problème du client ?",
+        "cs": "V čem je problém zákazníka?"
+      },
+      "options": {
+        "fr": [
+          "Son plat est froid.",
+          "On lui a apporté du poulet au lieu du poisson.",
+          "Il attend son plat depuis une heure."
+        ],
+        "cs": [
+          "Jídlo je studené.",
+          "Přinesli mu kuře místo ryby.",
+          "Čeká na jídlo už hodinu."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Il dit qu'il a commandé le poisson du jour et qu'on lui a apporté du poulet.",
+        "cs": "Říká, že si objednal rybu dne a přinesli mu kuře."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que propose la serveuse ?",
+        "cs": "Co servírka navrhuje?"
+      },
+      "options": {
+        "fr": [
+          "De garder le poulet et d'attendre le poisson",
+          "De rembourser le repas de l'amie",
+          "De fermer la cuisine"
+        ],
+        "cs": [
+          "Nechat si kuře a počkat na rybu",
+          "Vrátit peníze za jídlo kamarádky",
+          "Zavřít kuchyni"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Elle propose de garder le poulet pendant que le poisson arrive.",
+        "cs": "Navrhuje nechat si kuře, zatímco ryba přijde."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que va-t-elle apporter tout de suite ?",
+        "cs": "Co hned přinese?"
+      },
+      "options": {
+        "fr": [
+          "Le dessert",
+          "Le menu",
+          "La carafe d'eau"
+        ],
+        "cs": [
+          "Dezert",
+          "Jídelní lístek",
+          "Karafa s vodou"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Elle dit : « Je l'apporte immédiatement », à propos de la carafe d'eau.",
+        "cs": "O karafě s vodou říká, že ji přinese okamžitě."
+      }
+    }
+  ],
+  "sources": []
+}

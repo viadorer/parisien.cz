@@ -1,67 +1,161 @@
 {
-  "base": "seine-ponts",
-  "level": "A1",
-  "slug": "seine-ponts-a1",
-  "category": "paris",
-  "published_at": "2026-09-24T08:00:00Z",
-  "author": "Rédaction parisien.cz",
-  "title_fr": "La Seine et ses ponts",
-  "title_cs": "Seina a její mosty",
-  "excerpt_fr": "La Seine passe au centre de Paris. Voici deux ponts, les bouquinistes et la baignade.",
-  "excerpt_cs": "Seina protéká středem Paříže. Dva mosty, bouquinisté a koupání.",
-  "body_fr": "Paris a un fleuve. Il s'appelle la Seine. Il passe au centre de la ville. Il y a beaucoup de ponts sur la Seine.\n\n## Les ponts\n\nLe Pont Neuf est le plus vieux pont de Paris. Il est fini en 1607. Son nom veut dire « pont nouveau ». C'est drôle, non ?\n\nLe Pont Alexandre III est de 1900. Il est très joli. Il a des statues dorées et beaucoup de lampes.\n\n## Sur la Seine\n\nSur les quais, il y a des bouquinistes. Ils vendent des livres anciens dans des boîtes vertes. En 2024, les Jeux olympiques commencent sur la Seine. Depuis 2025, on peut nager à trois endroits en été. Mais pas ailleurs !\n\nPlus d'informations sur [paris.fr](https://www.paris.fr).",
-  "body_cs": "Paříž má řeku. Jmenuje se Seina. Teče středem města. Na Seině je mnoho mostů.\n\n## Mosty\n\nPont Neuf je nejstarší most v Paříži. Je dokončen v roce 1607. Jeho jméno znamená „nový most“. To je legrační, ne?\n\nPont Alexandre III pochází z roku 1900. Je velmi hezký. Má zlacené sochy a spoustu lamp.\n\n## Na Seině\n\nNa nábřežích jsou bouquinisté. Prodávají staré knihy v zelených boxech. V roce 2024 začínají olympijské hry na Seině. Od roku 2025 se dá v létě plavat na třech místech. Ale jinde ne!\n\nVíc informací najdete na [paris.fr](https://www.paris.fr).",
-  "glossary": [
-    {
-      "fr": "un fleuve",
-      "cs": "velká řeka"
-    },
-    {
-      "fr": "un pont",
-      "cs": "most"
-    },
-    {
-      "fr": "le quai",
-      "cs": "nábřeží"
-    },
-    {
-      "fr": "un bouquiniste",
-      "cs": "prodejce starých knih na nábřeží"
-    },
-    {
-      "fr": "ancien",
-      "cs": "starý"
-    },
-    {
-      "fr": "doré",
-      "cs": "zlacený"
-    },
-    {
-      "fr": "nager",
-      "cs": "plavat"
-    },
-    {
-      "fr": "un endroit",
-      "cs": "místo"
-    }
-  ],
-  "photo": {
-    "file": "File:Paris, Pont Neuf -- 2014 -- 1425.jpg",
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%2C_Pont_Neuf_--_2014_--_1425.jpg?width=1200",
-    "page": "https://commons.wikimedia.org/wiki/File:Paris,_Pont_Neuf_--_2014_--_1425.jpg",
-    "author": "Dietmar Rabich",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ "base": "seine-ponts",
+ "level": "A1",
+ "slug": "seine-ponts-a1",
+ "category": "paris",
+ "published_at": "2026-09-24T08:00:00Z",
+ "author": "Rédaction parisien.cz",
+ "title_fr": "La Seine et ses ponts",
+ "title_cs": "Seina a její mosty",
+ "excerpt_fr": "La Seine passe au centre de Paris. Voici deux ponts, les bouquinistes et la baignade.",
+ "excerpt_cs": "Seina protéká středem Paříže. Dva mosty, bouquinisté a koupání.",
+ "body_fr": "Paris a un fleuve. Il s'appelle la Seine. Il passe au centre de la ville. Il y a beaucoup de ponts sur la Seine.\n\n## Les ponts\n\nLe Pont Neuf est le plus vieux pont de Paris. Il est fini en 1607. Son nom veut dire « pont nouveau ». C'est drôle, non ?\n\nLe Pont Alexandre III est de 1900. Il est très joli. Il a des statues dorées et beaucoup de lampes.\n\n## Sur la Seine\n\nSur les quais, il y a des bouquinistes. Ils vendent des livres anciens dans des boîtes vertes. En 2024, les Jeux olympiques commencent sur la Seine. Depuis 2025, on peut nager à trois endroits en été. Mais pas ailleurs !\n\nPlus d'informations sur [paris.fr](https://www.paris.fr).",
+ "body_cs": "Paříž má řeku. Jmenuje se Seina. Teče středem města. Na Seině je mnoho mostů.\n\n## Mosty\n\nPont Neuf je nejstarší most v Paříži. Je dokončen v roce 1607. Jeho jméno znamená „nový most“. To je legrační, ne?\n\nPont Alexandre III pochází z roku 1900. Je velmi hezký. Má zlacené sochy a spoustu lamp.\n\n## Na Seině\n\nNa nábřežích jsou bouquinisté. Prodávají staré knihy v zelených boxech. V roce 2024 začínají olympijské hry na Seině. Od roku 2025 se dá v létě plavat na třech místech. Ale jinde ne!\n\nVíc informací najdete na [paris.fr](https://www.paris.fr).",
+ "glossary": [
+  {
+   "fr": "un fleuve",
+   "cs": "velká řeka"
   },
-  "sources": [
-    "https://fr.wikipedia.org/wiki/Paris,_rives_de_la_Seine",
-    "https://fr.wikipedia.org/wiki/Pont_Neuf",
-    "https://fr.wikipedia.org/wiki/Pont_Alexandre-III",
-    "https://fr.wikipedia.org/wiki/Pont_des_Arts",
-    "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
-    "https://fr.wikipedia.org/wiki/Cérémonie_d'ouverture_des_Jeux_olympiques_d'été_de_2024",
-    "https://www.paris.fr/pages/la-seine-s-ouvre-a-la-baignade-les-trois-sites-devoiles-31078",
-    "https://www.timeout.fr/paris/actualites/on-connait-les-sites-ou-lon-pourra-se-baigner-dans-la-seine-en-2025-071023",
-    "https://parisjetaime.com"
-  ]
+  {
+   "fr": "un pont",
+   "cs": "most"
+  },
+  {
+   "fr": "le quai",
+   "cs": "nábřeží"
+  },
+  {
+   "fr": "un bouquiniste",
+   "cs": "prodejce starých knih na nábřeží"
+  },
+  {
+   "fr": "ancien",
+   "cs": "starý"
+  },
+  {
+   "fr": "doré",
+   "cs": "zlacený"
+  },
+  {
+   "fr": "nager",
+   "cs": "plavat"
+  },
+  {
+   "fr": "un endroit",
+   "cs": "místo"
+  }
+ ],
+ "photo": {
+  "file": "File:Paris, Pont Neuf -- 2014 -- 1425.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%2C_Pont_Neuf_--_2014_--_1425.jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:Paris,_Pont_Neuf_--_2014_--_1425.jpg",
+  "author": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Paris,_rives_de_la_Seine",
+  "https://fr.wikipedia.org/wiki/Pont_Neuf",
+  "https://fr.wikipedia.org/wiki/Pont_Alexandre-III",
+  "https://fr.wikipedia.org/wiki/Pont_des_Arts",
+  "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
+  "https://fr.wikipedia.org/wiki/Cérémonie_d'ouverture_des_Jeux_olympiques_d'été_de_2024",
+  "https://www.paris.fr/pages/la-seine-s-ouvre-a-la-baignade-les-trois-sites-devoiles-31078",
+  "https://www.timeout.fr/paris/actualites/on-connait-les-sites-ou-lon-pourra-se-baigner-dans-la-seine-en-2025-071023",
+  "https://parisjetaime.com"
+ ],
+ "questions": [
+  {
+   "q": {
+    "fr": "Comment s'appelle le fleuve de Paris ?",
+    "cs": "Jak se jmenuje řeka v Paříži?"
+   },
+   "options": {
+    "fr": [
+     "La Loire",
+     "La Seine",
+     "Le Rhône"
+    ],
+    "cs": [
+     "Loira",
+     "Seina",
+     "Rhôna"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "« Il s'appelle la Seine. »",
+    "cs": "„Jmenuje se Seina.“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Quel est le plus vieux pont de Paris ?",
+    "cs": "Který most je v Paříži nejstarší?"
+   },
+   "options": {
+    "fr": [
+     "Le Pont Neuf",
+     "Le Pont Alexandre III",
+     "Le Pont des Arts"
+    ],
+    "cs": [
+     "Pont Neuf",
+     "Pont Alexandre III",
+     "Pont des Arts"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "« Le Pont Neuf est le plus vieux pont de Paris. »",
+    "cs": "„Pont Neuf je nejstarší most v Paříži.“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Qu'est-ce que les bouquinistes vendent ?",
+    "cs": "Co prodávají bouquinisté?"
+   },
+   "options": {
+    "fr": [
+     "Du pain",
+     "Des fleurs",
+     "Des livres anciens"
+    ],
+    "cs": [
+     "Chléb",
+     "Květiny",
+     "Staré knihy"
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "« Ils vendent des livres anciens dans des boîtes vertes. »",
+    "cs": "„Prodávají staré knihy v zelených boxech.“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Depuis quand peut-on nager à trois endroits en été ?",
+    "cs": "Od kdy se dá v létě plavat na třech místech?"
+   },
+   "options": {
+    "fr": [
+     "Depuis 2025",
+     "Depuis 1607",
+     "Depuis 1900"
+    ],
+    "cs": [
+     "Od roku 2025",
+     "Od roku 1607",
+     "Od roku 1900"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "« Depuis 2025, on peut nager à trois endroits en été. »",
+    "cs": "„Od roku 2025 se dá v létě plavat na třech místech.“"
+   }
+  }
+ ]
 }

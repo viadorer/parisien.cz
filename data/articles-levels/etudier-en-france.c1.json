@@ -83,5 +83,101 @@
     "https://www.ifp.cz/cz/kurzy-a-zkousky/zkousky/diplomy-delf-a-dalf/",
     "https://erasmus-plus.ec.europa.eu/",
     "https://www.republiquetcheque.campusfrance.org/"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que veut dire l'auteur en écrivant que la Cité « n'en est qu'une étape » ?",
+        "cs": "Co autor myslí tím, že městečko „je jen jednou etapou“?"
+      },
+      "options": {
+        "fr": [
+          "Qu'il faut éviter d'y habiter",
+          "Qu'elle est obligatoire pour tout étudiant tchèque",
+          "Qu'elle ne constitue pas la porte d'entrée du système, mais un moment du parcours"
+        ],
+        "cs": [
+          "Že je lepší tam nebydlet",
+          "Že je povinná pro každého českého studenta",
+          "Že není vstupní branou do systému, ale jen jednou zastávkou na cestě"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Introduction : l'adresse mérite d'être connue, « encore faut-il se garder d'y voir la porte d'entrée du système ».",
+        "cs": "Úvod: adresa stojí za povšimnutí, ale nemá se v ní vidět „vstupní brána do systému“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que implique le fait que ce soient les établissements qui déposent les candidatures Eiffel ?",
+        "cs": "Co znamená skutečnost, že přihlášky Eiffel podávají instituce?"
+      },
+      "options": {
+        "fr": [
+          "Qu'il faut d'abord convaincre une institution d'accueil",
+          "Que les étudiants n'ont aucun rôle dans la bourse",
+          "Que la bourse est réservée aux licences"
+        ],
+        "cs": [
+          "Že je nejprve třeba přesvědčit hostitelskou instituci",
+          "Že studenti nemají se stipendiem nic společného",
+          "Že stipendium je jen pro bakaláře"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Les bourses » : « la démarche consiste d'abord à convaincre une institution d'accueil ».",
+        "cs": "Oddíl o stipendiích: postup spočívá „nejprve v přesvědčení hostitelské instituce“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi l'auteur dit-il que la validité à vie du DELF et du DALF « change la perspective » ?",
+        "cs": "Proč autor říká, že doživotní platnost DELF a DALF „mění perspektivu“?"
+      },
+      "options": {
+        "fr": [
+          "Parce que l'examen devient plus facile avec l'âge",
+          "Parce que les universités n'exigent plus de justificatif",
+          "Parce que le diplôme remplace le visa",
+          "Parce que c'est un acquis durable, et non un examen à repasser à chaque candidature"
+        ],
+        "cs": [
+          "Protože zkouška je s věkem snazší",
+          "Protože univerzity už doklad nevyžadují",
+          "Protože diplom nahrazuje vízum",
+          "Protože jde o trvalý výdobytek, ne zkoušku opakovanou při každé přihlášce"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section DELF et DALF : « il ne s'agit pas d'un examen à repasser à chaque candidature, mais d'un acquis durable ».",
+        "cs": "Oddíl o DELF a DALF: nejde o zkoušku opakovanou při každé přihlášce, ale o trvalý výdobytek."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle attitude l'auteur recommande-t-il pour le logement ?",
+        "cs": "Jaký přístup k ubytování autor doporučuje?"
+      },
+      "options": {
+        "fr": [
+          "Viser exclusivement la Cité, prestigieuse",
+          "Comparer plusieurs pistes plutôt que tout miser sur la Cité",
+          "Attendre d'être arrivé en France pour chercher"
+        ],
+        "cs": [
+          "Usilovat výhradně o prestižní městečko",
+          "Porovnat několik možností, místo aby se vše vsadilo na městečko",
+          "Počkat s hledáním, až dorazíte do Francie"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Se loger » : « L'essentiel est de comparer plusieurs pistes plutôt que de tout miser sur une seule ».",
+        "cs": "Oddíl o ubytování: hlavní je porovnat více možností, ne vsadit vše na jednu."
+      }
+    }
   ]
 }

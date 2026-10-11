@@ -1,0 +1,266 @@
+{
+  "id": "velo-ou-metro",
+  "level": "B2",
+  "title": {
+    "fr": "Vélo ou métro ?",
+    "cs": "Kolo, nebo metro?"
+  },
+  "scene": {
+    "fr": "Deux collègues discutent de la meilleure façon de se déplacer à Paris au quotidien.",
+    "cs": "Dva kolegové diskutují o nejlepším způsobu, jak se v Paříži každodenně pohybovat."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "Inès",
+        "cs": "Inès"
+      },
+      "fr": "Tu es encore venu en métro ce matin ? Moi, j'ai pris le vélo, et je suis arrivée plus vite que si j'avais attendu la ligne 9.",
+      "cs": "Ty jsi dnes ráno zase přijel metrem? Já jela na kole a byla jsem tu dřív, než kdybych čekala na devítku."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Théo",
+        "cs": "Théo"
+      },
+      "fr": "Plus vite, peut-être, mais moi, je préfère arriver sans avoir transpiré. Et puis, la circulation à vélo me stresse un peu.",
+      "cs": "Možná rychleji, ale já raději přijdu, aniž bych se zpotil. A navíc mě provoz na kole trochu stresuje."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Inès",
+        "cs": "Inès"
+      },
+      "fr": "Il y a de plus en plus de pistes cyclables, pourtant. Sur certains trajets, on est tranquille et on voit la ville, au lieu de rester sous terre.",
+      "cs": "Cyklostezek je ale čím dál víc. Na některých trasách je klid a člověk vidí město, místo aby seděl pod zemí."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Théo",
+        "cs": "Théo"
+      },
+      "fr": "C'est vrai que le métro est parfois bondé aux heures de pointe, et qu'une panne peut gâcher toute la matinée. Mais quand il pleut, j'avoue que je suis content d'être à l'abri.",
+      "cs": "Je pravda, že metro bývá ve špičce přeplněné a porucha může zkazit celé ráno. Ale když prší, přiznám se, že jsem rád v suchu."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Inès",
+        "cs": "Inès"
+      },
+      "fr": "La pluie, ça se gère avec une bonne veste. Ce qui m'inquiète davantage, c'est le vol : on m'a déjà volé une selle, et on conseille de ne jamais laisser son vélo longtemps dehors.",
+      "cs": "S deštěm se dá vyrovnat dobrou bundou. Víc mě trápí krádeže: jednou mi už ukradli sedlo a doporučuje se nenechávat kolo dlouho venku."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Théo",
+        "cs": "Théo"
+      },
+      "fr": "Voilà, c'est exactement mon problème. Dans mon immeuble, il n'y a pas de local à vélos, donc je devrais le monter dans l'appartement.",
+      "cs": "No právě, to je přesně můj problém. V našem domě není kolárna, takže bych ho musel nosit do bytu."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Inès",
+        "cs": "Inès"
+      },
+      "fr": "Dans ce cas, le vélo en libre-service peut être une solution : pas de souci de vol ni d'entretien. On le prend, on le dépose, c'est fini.",
+      "cs": "V takovém případě může být řešením sdílené kolo: žádné starosti s krádeží ani s údržbou. Vezmeš ho, odložíš a hotovo."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Théo",
+        "cs": "Théo"
+      },
+      "fr": "Ça, ça me tente davantage. Mais je continue de penser que le métro reste imbattable pour les longues distances, surtout quand on traverse tout Paris.",
+      "cs": "To by mě lákalo víc. Ale pořád si myslím, že metro je na delší vzdálenosti nepřekonatelné, zvlášť když se přejíždí celá Paříž."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Inès",
+        "cs": "Inès"
+      },
+      "fr": "Je te l'accorde. Pour aller d'un bout à l'autre de la ville, on gagne du temps. Mais pour les trajets de quelques kilomètres, le vélo est difficile à battre.",
+      "cs": "Souhlasím. Z jednoho konce města na druhý se čas ušetří. Ale na kratší trasy je kolo těžké porazit."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Théo",
+        "cs": "Théo"
+      },
+      "fr": "Et il y a l'aspect santé. Je sais que je devrais bouger davantage, je passe mes journées assis.",
+      "cs": "A je tu zdravotní stránka. Vím, že bych se měl víc hýbat, celé dny sedím."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Inès",
+        "cs": "Inès"
+      },
+      "fr": "Alors essaie une semaine ! Commence par un seul aller-retour, quand il fait beau, et vois comment tu te sens.",
+      "cs": "Tak to zkus na týden! Začni jednou cestou tam a zpátky za pěkného počasí a uvidíš, jak se budeš cítit."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Théo",
+        "cs": "Théo"
+      },
+      "fr": "D'accord, mais à une condition : tu m'indiques un itinéraire tranquille, loin des grands axes.",
+      "cs": "Dobře, ale s jednou podmínkou: ukážeš mi klidnou trasu, mimo hlavní třídy."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Inès",
+        "cs": "Inès"
+      },
+      "fr": "Aucun problème. Et pour les jours de pluie ou de grève, tu gardes ton abonnement de métro, comme ça tu as toujours une solution.",
+      "cs": "Žádný problém. A na deštivé dny nebo stávky si ponechej předplatné na metro, takže budeš mít vždycky řešení."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Théo",
+        "cs": "Théo"
+      },
+      "fr": "Voilà qui me rassure. Le mieux, finalement, c'est peut-être de ne pas choisir un camp et de combiner les deux.",
+      "cs": "To mě uklidňuje. Nejlepší možná nakonec bude nevybírat si tábor a obojí zkombinovat."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Inès",
+        "cs": "Inès"
+      },
+      "fr": "Tu viens de comprendre comment on se déplace à Paris !",
+      "cs": "Právě jsi pochopil, jak se v Paříži cestuje!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "une piste cyclable",
+      "cs": "cyklostezka"
+    },
+    {
+      "fr": "les heures de pointe",
+      "cs": "dopravní špička"
+    },
+    {
+      "fr": "bondé(e)",
+      "cs": "přeplněný"
+    },
+    {
+      "fr": "une panne",
+      "cs": "porucha"
+    },
+    {
+      "fr": "un vol",
+      "cs": "krádež"
+    },
+    {
+      "fr": "un vélo en libre-service",
+      "cs": "sdílené kolo"
+    },
+    {
+      "fr": "imbattable",
+      "cs": "nepřekonatelný"
+    },
+    {
+      "fr": "une grève",
+      "cs": "stávka"
+    },
+    {
+      "fr": "transpirer",
+      "cs": "potit se"
+    }
+  ],
+  "tip": {
+    "fr": "À Paris, beaucoup de gens combinent les modes de transport selon la distance et la météo. Pour les réseaux et les services de vélo, consultez les sites officiels de la Ville de Paris et d'Île-de-France Mobilités.",
+    "cs": "V Paříži hodně lidí kombinuje dopravní prostředky podle vzdálenosti a počasí. Informace o sítích a službách pro kola najdete na oficiálních webech města Paříže a Île-de-France Mobilités."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Quel problème Théo rencontre-t-il pour garder un vélo chez lui ?",
+        "cs": "Jaký problém má Théo s uchováním kola doma?"
+      },
+      "options": {
+        "fr": [
+          "Il n'a pas de lieu sûr pour le ranger.",
+          "Il ne sait pas pédaler.",
+          "Il habite trop loin du travail."
+        ],
+        "cs": [
+          "Nemá bezpečné místo, kam ho uložit.",
+          "Neumí šlapat.",
+          "Bydlí příliš daleko od práce."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Il n'y a pas de local à vélos dans son immeuble.",
+        "cs": "V jeho domě není kolárna."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que propose Inès comme solution contre le vol ?",
+        "cs": "Co Inès navrhuje proti krádežím?"
+      },
+      "options": {
+        "fr": [
+          "Acheter un vélo plus cher.",
+          "Utiliser un vélo en libre-service.",
+          "Laisser le vélo au bureau."
+        ],
+        "cs": [
+          "Koupit dražší kolo.",
+          "Používat sdílené kolo.",
+          "Nechat kolo v kanceláři."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Elle dit que le vélo en libre-service évite le vol et l'entretien.",
+        "cs": "Říká, že sdílené kolo odstraňuje krádeže i údržbu."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle conclusion tirent-ils ?",
+        "cs": "Jaký je jejich závěr?"
+      },
+      "options": {
+        "fr": [
+          "Le métro est toujours meilleur.",
+          "Le vélo est toujours meilleur.",
+          "Il vaut mieux combiner les deux."
+        ],
+        "cs": [
+          "Metro je vždy lepší.",
+          "Kolo je vždy lepší.",
+          "Nejlepší je obojí kombinovat."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Théo conclut qu'il vaut mieux combiner les deux.",
+        "cs": "Théo uzavírá, že je lepší obojí zkombinovat."
+      }
+    }
+  ],
+  "sources": [
+    "https://www.paris.fr/",
+    "https://www.iledefrance-mobilites.fr/"
+  ]
+}

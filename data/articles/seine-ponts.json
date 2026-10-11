@@ -29,5 +29,107 @@
   "https://parisjetaime.com"
  ],
  "level": "B2",
- "base": "seine-ponts"
+ "base": "seine-ponts",
+ "questions": [
+  {
+   "q": {
+    "fr": "Pourquoi la cérémonie d'ouverture de 2024 est-elle historique ?",
+    "cs": "Proč je zahajovací ceremoniál z roku 2024 historický?"
+   },
+   "options": {
+    "fr": [
+     "C'est la première fois qu'une ville accueille les Jeux deux fois.",
+     "C'est la première fois que la cérémonie d'ouverture d'été n'a pas lieu dans un stade.",
+     "C'est la première fois que 206 délégations participent.",
+     "C'est la première fois qu'elle se déroule le soir."
+    ],
+    "cs": [
+     "Poprvé město hostí hry dvakrát.",
+     "Poprvé se letní zahajovací ceremoniál nekoná na stadionu.",
+     "Poprvé se účastní 206 delegací.",
+     "Poprvé probíhá večer."
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Introduction : « pour la première fois dans l'histoire des Jeux olympiques d'été, la cérémonie d'ouverture n'a pas eu lieu dans un stade ».",
+    "cs": "Úvod: „poprvé v dějinách letních olympijských her se neodehrál zahajovací ceremoniál na stadionu“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Pourquoi le nom « Pont Neuf » est-il paradoxal ?",
+    "cs": "Proč je název „Pont Neuf“ paradoxní?"
+   },
+   "options": {
+    "fr": [
+     "Parce que le pont est très court.",
+     "Parce que le pont a été détruit en 1792.",
+     "Parce que le pont est en métal.",
+     "Parce que « neuf » désigne le plus ancien pont encore debout de Paris."
+    ],
+    "cs": [
+     "Protože je most velmi krátký.",
+     "Protože byl most zničen v roce 1792.",
+     "Protože je most z kovu.",
+     "Protože „neuf“ (nový) označuje nejstarší stojící most v Paříži."
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "Titre de la section : le plus vieux, et pas le plus « neuf » ; « le plus ancien pont encore debout à Paris ».",
+    "cs": "Nadpis oddílu: nejstarší, i když se jmenuje „nový“; „nejstarší stojící most v Paříži“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Pourquoi le pont des Arts actuel date-t-il de 1984 ?",
+    "cs": "Proč dnešní Pont des Arts pochází z roku 1984?"
+   },
+   "options": {
+    "fr": [
+     "L'ancien pont s'est effondré en partie après un choc avec une péniche en 1979.",
+     "L'ancien pont a été supprimé à cause des cadenas.",
+     "L'ancien pont a été déplacé pour les Jeux olympiques.",
+     "L'ancien pont a brûlé pendant la Révolution."
+    ],
+    "cs": [
+     "Starý most se částečně zřítil po nárazu říční nákladní lodi v roce 1979.",
+     "Starý most byl odstraněn kvůli zámkům.",
+     "Starý most byl přesunut kvůli olympijským hrám.",
+     "Starý most vyhořel za Revoluce."
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Section « Pont des Arts et bouquinistes » : il « s'effondre en partie après un choc avec une péniche en 1979 », puis le pont actuel ouvre en 1984.",
+    "cs": "Oddíl „Pont des Arts a bouquinisté“: „částečně se zřítil po nárazu nákladní lodi roku 1979“, dnešní most se otevřel roku 1984."
+   }
+  },
+  {
+   "q": {
+    "fr": "Dans la phrase « la pluie a rendu l'eau impropre à certains jours », que veut dire « impropre » ?",
+    "cs": "Co znamená „impropre“ ve větě „la pluie a rendu l'eau impropre à certains jours“?"
+   },
+   "options": {
+    "fr": [
+     "Trop froide pour nager.",
+     "Trop profonde pour les bateaux.",
+     "Pas assez propre pour la baignade.",
+     "Interdite aux touristes."
+    ],
+    "cs": [
+     "Příliš studená na plavání.",
+     "Příliš hluboká pro lodě.",
+     "Nedostatečně čistá ke koupání.",
+     "Zakázaná turistům."
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Section « Se baigner dans la Seine ? » : la qualité de l'eau est contrôlée et l'accès fermé quand elle est jugée mauvaise.",
+    "cs": "Oddíl „Koupání v Seině?“: kvalita vody se kontroluje a přístup se zavře, když je shledána špatnou."
+   }
+  }
+ ]
 }

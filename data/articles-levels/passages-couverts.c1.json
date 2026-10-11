@@ -89,5 +89,107 @@
     "https://en.wikipedia.org/wiki/The_Arcades_Project",
     "https://www.routard.com/fr/guide/france/ile-de-france/paris/2eme-arrondissement/les-passages",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que suggère l'auteur avec la formule « le divertissement s'est évanoui tandis que le prétexte est devenu une adresse » ?",
+        "cs": "Co naznačuje autor formulí „zábava se vytratila, záminka se stala adresou“?"
+      },
+      "options": {
+        "fr": [
+          "Le passage a été rebaptisé après la démolition des rotondes",
+          "Le nom du passage rappelle encore une attraction qui n'existe plus",
+          "Les panoramas ont attiré plus de visiteurs que la galerie elle-même",
+          "Le passage a changé d'adresse en 1831"
+        ],
+        "cs": [
+          "Pasáž byla po zbourání rotund přejmenována",
+          "Jméno pasáže dodnes připomíná atrakci, která už neexistuje",
+          "Panoramata přilákala víc návštěvníků než samotná galerie",
+          "Pasáž se roku 1831 přestěhovala na jinou adresu"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section sur les rotondes de Fulton : les rotondes disparaissent en 1831, mais le passage leur survit et garde le nom des Panoramas.",
+        "cs": "Část o prvním passage: rotundy zmizely roku 1831, ale pasáž je přežila a nese jméno Panoramas."
+      }
+    },
+    {
+      "q": {
+        "fr": "Selon le texte, pourquoi l'abri des passages a-t-il « perdu sa raison d'être » ?",
+        "cs": "Proč podle textu úkryt pasáží „ztratil smysl“?"
+      },
+      "options": {
+        "fr": [
+          "Parce que la pluie a presque disparu de Paris",
+          "Parce que les boutiques ont quitté les galeries",
+          "Parce que les verrières se sont effondrées",
+          "Parce que les boulevards offraient trottoirs larges et devantures à l'air libre"
+        ],
+        "cs": [
+          "Protože v Paříži téměř přestalo pršet",
+          "Protože obchody z galerií odešly",
+          "Protože se skleněné střechy zřítily",
+          "Protože bulváry nabízely široké chodníky a výlohy pod širým nebem"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section « Les raisons d'un engouement » : boulevards et percées haussmanniennes ont offert « des trottoirs larges et des devantures à l'air libre ».",
+        "cs": "Část „Důvody nadšení“: bulváry a Haussmannovy průrazy nabídly široké chodníky a výlohy pod širým nebem."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que laisse entendre l'auteur à propos du caractère inachevé du livre de Benjamin ?",
+        "cs": "Co autor naznačuje o nedokončenosti Benjaminovy knihy?"
+      },
+      "options": {
+        "fr": [
+          "Qu'il convient à un livre sur des lieux de collection et de déambulation",
+          "Que Benjamin manquait de talent",
+          "Que le manuscrit a été détruit par Bataille",
+          "Que l'édition de 1982 l'a enfin terminé"
+        ],
+        "cs": [
+          "Že se hodí ke knize o místech sbírání a toulání",
+          "Že Benjaminovi chybělo nadání",
+          "Že rukopis zničil Bataille",
+          "Že ji vydání z roku 1982 konečně dokončilo"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section sur Benjamin : l'inachèvement « n'a rien d'absurde » pour un livre consacré à des lieux de collection et de déambulation.",
+        "cs": "Část o Benjaminovi: nedokončenost „nepůsobí nijak nelogicky“ u knihy o místech sbírání a toulání."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle attitude l'auteur adopte-t-il face au nombre de passages qui subsistent ?",
+        "cs": "Jaký postoj zaujímá autor k počtu dochovaných pasáží?"
+      },
+      "options": {
+        "fr": [
+          "Il affirme avec certitude qu'il en reste vingt",
+          "Il refuse de donner le moindre chiffre",
+          "Il reste prudent, car les sources divergent, et s'en tient à une estimation",
+          "Il préfère le chiffre le plus élevé des guides"
+        ],
+        "cs": [
+          "S jistotou tvrdí, že jich zbývá dvacet",
+          "Odmítá uvést jakékoli číslo",
+          "Zůstává opatrný, protože se zdroje rozcházejí, a drží se odhadu",
+          "Dává přednost nejvyššímu číslu z průvodců"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Ce qu'il en reste » : « Les sources divergent sur le total… mieux vaut donc s'en tenir à une vingtaine ».",
+        "cs": "Část „Co z nich zbylo“: zdroje se v počtu rozcházejí, rozumnější je držet se „kolem dvaceti“."
+      }
+    }
   ]
 }

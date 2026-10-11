@@ -39,5 +39,107 @@
   "https://www.transilien.com"
  ],
  "level": "B2",
- "base": "escapades-train"
+ "base": "escapades-train",
+ "questions": [
+  {
+   "q": {
+    "fr": "Que montre l'image du RER C qui « s'arrête en impasse » à Versailles ?",
+    "cs": "Co ukazuje obraz RER C, který ve Versailles „končí ve slepé koleji“?"
+   },
+   "options": {
+    "fr": [
+     "Les trains d'Île-de-France sont souvent en retard.",
+     "Il faut une voiture pour visiter la région.",
+     "Versailles est la seule destination possible en train.",
+     "En moins d'une heure, sans voiture, on passe du métro à un tout autre univers."
+    ],
+    "cs": [
+     "Vlaky v Île-de-France mívají zpoždění.",
+     "K návštěvě regionu je třeba auto.",
+     "Versailles je jediný cíl dosažitelný vlakem.",
+     "Za méně než hodinu a bez auta se z metra dostaneme do úplně jiného světa."
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "Le terminus est « un bon résumé de l'Île-de-France » : un palais, un jardin ou une ville médiévale en moins d'une heure.",
+    "cs": "Konečná je „un bon résumé de l'Île-de-France“: palác, zahrada nebo středověké město za méně než hodinu."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que révèle la remarque « les sources que j'ai consultées ne sont pas d'accord sur le numéro » ?",
+    "cs": "Co prozrazuje poznámka „les sources que j'ai consultées ne sont pas d'accord sur le numéro“?"
+   },
+   "options": {
+    "fr": [
+     "L'auteur signale une information incertaine et invite à vérifier.",
+     "L'auteur ne s'est jamais rendu à Fontainebleau.",
+     "Les bus de Fontainebleau n'ont pas de numéro.",
+     "L'article est écrit sans aucune source."
+    ],
+    "cs": [
+     "Autor upozorňuje na nejistou informaci a vyzývá k ověření.",
+     "Autor ve Fontainebleau nikdy nebyl.",
+     "Autobusy ve Fontainebleau nemají čísla.",
+     "Článek je napsán bez jakýchkoli zdrojů."
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Les sources se contredisent, d'où le conseil de vérifier « sur place ou dans l'application ».",
+    "cs": "Zdroje si odporují, proto rada ověřit „sur place ou dans l'application“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que laisse entendre le texte sur le musée des Impressionnismes Giverny (« ouvert en 1992 comme musée d'art américain, … changé de nom en 2009 ») ?",
+    "cs": "Co text naznačuje o muzeu Musée des Impressionnismes Giverny („otevřeno v roce 1992 jako muzeum amerického umění, … v roce 2009 změnilo název“)?"
+   },
+   "options": {
+    "fr": [
+     "Il a fermé en 2009.",
+     "Il présente toujours uniquement de l'art américain.",
+     "Sa vocation a évolué : il présente aujourd'hui l'histoire de l'impressionnisme.",
+     "Il appartient à la Fondation Claude Monet."
+    ],
+    "cs": [
+     "V roce 2009 zavřelo.",
+     "Stále představuje výhradně americké umění.",
+     "Jeho zaměření se vyvinulo: dnes představuje dějiny impresionismu.",
+     "Patří Nadaci Clauda Moneta."
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Il a ouvert comme musée d'art américain, puis changé de nom ; il « présente l'histoire de ce mouvement ».",
+    "cs": "Otevřelo jako muzeum amerického umění, poté změnilo název; „présente l'histoire de ce mouvement“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Quel avantage le TER a-t-il sur le RER D pour aller à Chantilly ?",
+    "cs": "Jakou výhodu má TER oproti RER D při cestě do Chantilly?"
+   },
+   "options": {
+    "fr": [
+     "Il est moins cher.",
+     "Il est beaucoup plus rapide (environ vingt minutes contre 45 à 50).",
+     "Il s'arrête devant le château.",
+     "Il circule dans la zone Navigo."
+    ],
+    "cs": [
+     "Je levnější.",
+     "Je mnohem rychlejší (asi dvacet minut oproti 45 až 50).",
+     "Staví přímo před zámkem.",
+     "Jezdí v zóně Navigo."
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "TER : « une vingtaine de minutes » ; RER D : « environ 45 à 50 minutes ».",
+    "cs": "TER: „une vingtaine de minutes“; RER D: „environ 45 à 50 minutes“."
+   }
+  }
+ ]
 }

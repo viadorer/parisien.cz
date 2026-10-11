@@ -71,5 +71,101 @@
     "https://www.ifp.cz/cz/kurzy-a-zkousky/zkousky/diplomy-delf-a-dalf/",
     "https://erasmus-plus.ec.europa.eu/",
     "https://www.republiquetcheque.campusfrance.org/"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Combien de maisons y a-t-il à la Cité internationale universitaire ?",
+        "cs": "Kolik domů je v Mezinárodním univerzitním městečku?"
+      },
+      "options": {
+        "fr": [
+          "47",
+          "12",
+          "150"
+        ],
+        "cs": [
+          "47",
+          "12",
+          "150"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Début du texte : « Il y a 47 maisons qui représentent des pays ou des écoles. »",
+        "cs": "Začátek textu: „Je tam 47 domů, které zastupují země nebo školy.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que doit faire d'abord un étudiant tchèque qui veut partir avec Erasmus+ ?",
+        "cs": "Co má udělat český student nejdřív, chce-li vyjet s Erasmem+?"
+      },
+      "options": {
+        "fr": [
+          "Écrire à la Cité internationale universitaire",
+          "Passer le DALF",
+          "Aller au bureau des relations internationales de sa faculté"
+        ],
+        "cs": [
+          "Napsat do Mezinárodního univerzitního městečka",
+          "Složit DALF",
+          "Zajít na oddělení zahraničních vztahů své fakulty"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section Erasmus+ : « Allez d'abord au bureau des relations internationales de votre faculté ».",
+        "cs": "Oddíl Erasmus+: „Jděte nejdřív na oddělení zahraničních vztahů své fakulty“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce que le DZS ?",
+        "cs": "Co je DZS?"
+      },
+      "options": {
+        "fr": [
+          "Une université française",
+          "L'agence tchèque pour les programmes de coopération éducative",
+          "Un examen de français"
+        ],
+        "cs": [
+          "Francouzská univerzita",
+          "Česká agentura pro programy vzdělávací spolupráce",
+          "Zkouška z francouzštiny"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section Erasmus+ : « le Dům zahraniční spolupráce (DZS), l'agence tchèque pour ces programmes ».",
+        "cs": "Oddíl Erasmus+: DZS je česká agentura pro tyto programy."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que dit le texte sur le prix des études ?",
+        "cs": "Co text říká o ceně studia?"
+      },
+      "options": {
+        "fr": [
+          "Elles sont gratuites partout",
+          "Erasmus+ les paie toujours",
+          "Elles sont moins chères qu'en Tchéquie",
+          "Il y a des frais d'inscription"
+        ],
+        "cs": [
+          "Je zdarma všude",
+          "Erasmus+ je vždy platí",
+          "Je levnější než v Česku",
+          "Existují zápisné a poplatky za zápis"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section « Quelques idées fausses » : « Les études sont gratuites. » Non : il y a des frais d'inscription.",
+        "cs": "Oddíl o mylných představách: studium zdarma není pravda, existují poplatky za zápis."
+      }
+    }
   ]
 }

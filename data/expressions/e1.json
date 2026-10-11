@@ -1,0 +1,686 @@
+[
+ {
+  "id": "ca-va",
+  "fr": "ça va ?",
+  "type": "politesse",
+  "register": "familier",
+  "level": "A1",
+  "meaning": {
+   "fr": "Question pour s'informer de la santé ou de l'humeur de quelqu'un ; on répond « ça va » ou « ça va bien ».",
+   "cs": "Otázka na to, jak se někdo má; odpovídá se „ça va“ nebo „ça va bien“."
+  },
+  "cs": "jak se máš? / jak to jde?",
+  "example": {
+   "fr": "Salut Léo, ça va ? – Oui, ça va bien, merci !",
+   "cs": "Ahoj Léo, jak se máš? – Dobře, díky!"
+  },
+  "audio": true
+ },
+ {
+  "id": "pas-de-souci",
+  "fr": "pas de souci",
+  "type": "politesse",
+  "register": "familier",
+  "level": "A1",
+  "meaning": {
+   "fr": "Il n'y a pas de problème ; c'est d'accord.",
+   "cs": "Žádný problém; v pořádku."
+  },
+  "cs": "žádný problém",
+  "example": {
+   "fr": "Je vais arriver avec cinq minutes de retard. – Pas de souci !",
+   "cs": "Přijdu s pětiminutovým zpožděním. – Žádný problém!"
+  },
+  "audio": true
+ },
+ {
+  "id": "a-tout-a-l-heure",
+  "fr": "à tout à l'heure",
+  "type": "politesse",
+  "register": "courant",
+  "level": "A1",
+  "meaning": {
+   "fr": "Formule pour dire au revoir à quelqu'un qu'on va revoir le même jour.",
+   "cs": "Rozloučení s někým, koho zase uvidíme ještě týž den."
+  },
+  "cs": "tak zatím / na viděnou později",
+  "example": {
+   "fr": "Je vais à la boulangerie. À tout à l'heure !",
+   "cs": "Jdu do pekárny. Tak zatím!"
+  },
+  "audio": true
+ },
+ {
+  "id": "bon-appetit",
+  "fr": "bon appétit",
+  "type": "politesse",
+  "register": "courant",
+  "level": "A1",
+  "meaning": {
+   "fr": "Souhait que l'on dit à quelqu'un qui va manger.",
+   "cs": "Přání, které se říká tomu, kdo se chystá jíst."
+  },
+  "cs": "dobrou chuť",
+  "example": {
+   "fr": "Voilà votre croque-monsieur. Bon appétit !",
+   "cs": "Tady je váš croque-monsieur. Dobrou chuť!"
+  },
+  "audio": true
+ },
+ {
+  "id": "je-vous-en-prie",
+  "fr": "je vous en prie",
+  "type": "politesse",
+  "register": "soutenu",
+  "level": "A1",
+  "meaning": {
+   "fr": "Formule de politesse en réponse à « merci » ; on l'emploie aussi pour inviter quelqu'un à entrer ou à passer.",
+   "cs": "Zdvořilá odpověď na „merci“; používá se i jako pozvání vstoupit nebo projít."
+  },
+  "cs": "není zač / prosím (račte)",
+  "example": {
+   "fr": "Merci beaucoup, madame. – Je vous en prie.",
+   "cs": "Mockrát děkuji, paní. – Není zač."
+  },
+  "audio": true
+ },
+ {
+  "id": "enchante",
+  "fr": "enchanté / enchantée",
+  "type": "politesse",
+  "register": "courant",
+  "level": "A1",
+  "meaning": {
+   "fr": "Formule de politesse quand on rencontre quelqu'un pour la première fois.",
+   "cs": "Zdvořilostní formule při prvním setkání s někým."
+  },
+  "cs": "těší mě",
+  "example": {
+   "fr": "Je m'appelle Tom. – Enchantée, moi, c'est Inès.",
+   "cs": "Jmenuji se Tom. – Těší mě, já jsem Inès."
+  },
+  "audio": true
+ },
+ {
+  "id": "a-bientot",
+  "fr": "à bientôt",
+  "type": "politesse",
+  "register": "courant",
+  "level": "A1",
+  "meaning": {
+   "fr": "Formule d'au revoir quand on pense se revoir dans peu de temps.",
+   "cs": "Rozloučení, když očekáváme brzké shledání."
+  },
+  "cs": "brzy na shledanou",
+  "example": {
+   "fr": "Merci pour la visite. À bientôt !",
+   "cs": "Díky za návštěvu. Brzy na shledanou!"
+  },
+  "audio": true
+ },
+ {
+  "id": "bonne-journee",
+  "fr": "bonne journée",
+  "type": "politesse",
+  "register": "courant",
+  "level": "A1",
+  "meaning": {
+   "fr": "Souhait que l'on dit en quittant quelqu'un pendant la journée.",
+   "cs": "Přání, které se říká při loučení během dne."
+  },
+  "cs": "hezký den",
+  "example": {
+   "fr": "Voilà votre café. Bonne journée !",
+   "cs": "Tady je vaše kafe. Hezký den!"
+  },
+  "audio": true
+ },
+ {
+  "id": "excusez-moi",
+  "fr": "excusez-moi",
+  "type": "politesse",
+  "register": "courant",
+  "level": "A1",
+  "meaning": {
+   "fr": "Formule polie pour attirer l'attention de quelqu'un ou s'excuser d'un petit dérangement.",
+   "cs": "Zdvořilá formule k upoutání pozornosti nebo omluvě za drobné vyrušení."
+  },
+  "cs": "promiňte / s dovolením",
+  "example": {
+   "fr": "Excusez-moi, où est la station de métro ?",
+   "cs": "Promiňte, kde je stanice metra?"
+  },
+  "audio": true
+ },
+ {
+  "id": "de-rien",
+  "fr": "de rien",
+  "type": "politesse",
+  "register": "courant",
+  "level": "A1",
+  "meaning": {
+   "fr": "Réponse à « merci » ; on dit que ce n'est pas important.",
+   "cs": "Odpověď na „merci“; říkáme, že to nestojí za řeč."
+  },
+  "cs": "není zač",
+  "example": {
+   "fr": "Merci pour ton aide ! – De rien !",
+   "cs": "Díky za pomoc! – Není zač!"
+  },
+  "audio": true
+ },
+ {
+  "id": "un-petit-noir",
+  "fr": "un petit noir",
+  "type": "parisien",
+  "register": "familier",
+  "level": "A2",
+  "meaning": {
+   "fr": "Une petite tasse de café noir, proche de l'expresso.",
+   "cs": "Malý šálek černé kávy, blízká espressu."
+  },
+  "cs": "espresso",
+  "example": {
+   "fr": "Un petit noir et un verre d'eau, s'il vous plaît.",
+   "cs": "Espresso a sklenici vody, prosím."
+  },
+  "audio": true
+ },
+ {
+  "id": "un-creme",
+  "fr": "un crème",
+  "type": "parisien",
+  "register": "courant",
+  "level": "A2",
+  "meaning": {
+   "fr": "Un café crème : un café avec un peu de crème ou de mousse de lait.",
+   "cs": "Káva s trochou smetany nebo mléčné pěny (café crème)."
+  },
+  "cs": "káva s mlékem",
+  "example": {
+   "fr": "Pour moi, ce sera un crème et un croissant.",
+   "cs": "Pro mě bude káva s mlékem a croissant."
+  },
+  "audio": true
+ },
+ {
+  "id": "un-demi",
+  "fr": "un demi",
+  "type": "parisien",
+  "register": "courant",
+  "level": "A2",
+  "meaning": {
+   "fr": "Un verre de bière d'environ 25 centilitres, la moitié d'une pinte.",
+   "cs": "Sklenice piva o objemu asi 25 centilitrů, polovina pinty."
+  },
+  "cs": "malé pivo (0,25 l)",
+  "example": {
+   "fr": "On prend deux demis en terrasse ?",
+   "cs": "Dáme si dvě malá piva na terase?"
+  },
+  "audio": true
+ },
+ {
+  "id": "laisser-un-pourboire",
+  "fr": "laisser un pourboire",
+  "type": "parisien",
+  "register": "courant",
+  "level": "A2",
+  "meaning": {
+   "fr": "Donner une petite somme d'argent en plus à un serveur pour le remercier.",
+   "cs": "Dát číšníkovi navíc malou částku jako poděkování."
+  },
+  "cs": "nechat spropitné",
+  "example": {
+   "fr": "Le service est compris, mais je laisse un petit pourboire.",
+   "cs": "Obsluha je v ceně, ale nechám malé spropitné."
+  },
+  "audio": true
+ },
+ {
+  "id": "le-plat-du-jour",
+  "fr": "le plat du jour",
+  "type": "parisien",
+  "register": "courant",
+  "level": "A2",
+  "meaning": {
+   "fr": "Le plat qui change chaque jour dans certains restaurants.",
+   "cs": "Jídlo, které se v některých restauracích každý den mění."
+  },
+  "cs": "denní menu / jídlo dne",
+  "example": {
+   "fr": "Quel est le plat du jour ? – Du poulet rôti.",
+   "cs": "Jaké máte dnes jídlo dne? – Pečené kuře."
+  },
+  "audio": true
+ },
+ {
+  "id": "faire-la-queue",
+  "fr": "faire la queue",
+  "type": "parisien",
+  "register": "courant",
+  "level": "A2",
+  "meaning": {
+   "fr": "Attendre son tour en ligne avant d'être servi.",
+   "cs": "Čekat ve frontě, až na nás přijde řada."
+  },
+  "cs": "stát ve frontě",
+  "example": {
+   "fr": "Il faut faire la queue pour entrer au musée.",
+   "cs": "Do muzea se musí stát ve frontě."
+  },
+  "audio": true
+ },
+ {
+  "id": "heure-de-pointe",
+  "fr": "l'heure de pointe",
+  "type": "parisien",
+  "register": "courant",
+  "level": "A2",
+  "meaning": {
+   "fr": "La période de la journée où il y a le plus de monde et de circulation.",
+   "cs": "Část dne, kdy je nejvíc lidí a dopravy."
+  },
+  "cs": "dopravní špička",
+  "example": {
+   "fr": "Le métro est bondé à l'heure de pointe.",
+   "cs": "V době dopravní špičky je metro přeplněné."
+  },
+  "audio": true
+ },
+ {
+  "id": "l-addition",
+  "fr": "l'addition, s'il vous plaît",
+  "type": "politesse",
+  "register": "courant",
+  "level": "A2",
+  "meaning": {
+   "fr": "Phrase pour demander la note au café ou au restaurant.",
+   "cs": "Věta, kterou žádáme o účet v kavárně nebo restauraci."
+  },
+  "cs": "účet, prosím",
+  "example": {
+   "fr": "Excusez-moi, l'addition, s'il vous plaît.",
+   "cs": "Promiňte, účet, prosím."
+  },
+  "audio": true
+ },
+ {
+  "id": "une-correspondance",
+  "fr": "une correspondance",
+  "type": "parisien",
+  "register": "courant",
+  "level": "A2",
+  "meaning": {
+   "fr": "Le passage d'une ligne de métro ou de train à une autre ; on change de ligne dans une station.",
+   "cs": "Přestup z jedné linky metra na druhou; ve stanici měníme linku."
+  },
+  "cs": "přestup",
+  "example": {
+   "fr": "Il y a une correspondance avec la ligne 1 à Châtelet.",
+   "cs": "Na stanici Châtelet je přestup na linku 1."
+  },
+  "audio": true
+ },
+ {
+  "id": "valider-son-ticket",
+  "fr": "valider son ticket",
+  "type": "parisien",
+  "register": "courant",
+  "level": "A2",
+  "meaning": {
+   "fr": "Passer son titre de transport devant le lecteur pour entrer dans le métro.",
+   "cs": "Přiložit jízdenku ke čtečce, abychom mohli vstoupit do metra."
+  },
+  "cs": "označit jízdenku / projít turniketem",
+  "example": {
+   "fr": "N'oublie pas de valider ton ticket avant de monter.",
+   "cs": "Nezapomeň si před nástupem označit jízdenku."
+  },
+  "audio": true
+ },
+ {
+  "id": "etre-a-la-bourre",
+  "fr": "être à la bourre",
+  "type": "argot",
+  "register": "familier",
+  "level": "A2",
+  "meaning": {
+   "fr": "Être en retard ou pressé par le temps.",
+   "cs": "Být pozdě, spěchat."
+  },
+  "cs": "být pozdě / spěchat",
+  "example": {
+   "fr": "Vite, je suis à la bourre, mon train part dans dix minutes !",
+   "cs": "Rychle, spěchám, vlak mi jede za deset minut!"
+  },
+  "audio": true,
+  "note": "Selon le Wiktionnaire, l'expression vient d'une locution occitane signifiant « être en retard » ; elle servait d'abord à marquer le score dans certains jeux de cartes.",
+  "source": "https://fr.wiktionary.org/wiki/à_la_bourre"
+ },
+ {
+  "id": "il-pleut-des-cordes",
+  "fr": "il pleut des cordes",
+  "type": "idiome",
+  "register": "familier",
+  "level": "A2",
+  "meaning": {
+   "fr": "Il pleut très fort (« pleuvoir des cordes »).",
+   "cs": "Silně prší."
+  },
+  "cs": "leje jako z konve",
+  "example": {
+   "fr": "Prends ton parapluie, il pleut des cordes !",
+   "cs": "Vezmi si deštník, leje jako z konve!"
+  },
+  "audio": true
+ },
+ {
+  "id": "il-fait-frisquet",
+  "fr": "il fait frisquet",
+  "type": "parisien",
+  "register": "familier",
+  "level": "A2",
+  "meaning": {
+   "fr": "Il fait un peu froid, surtout le matin ou le soir.",
+   "cs": "Je docela chladno, zvlášť ráno nebo večer."
+  },
+  "cs": "je chladno",
+  "example": {
+   "fr": "Ce matin, il fait frisquet : mets ton manteau.",
+   "cs": "Dnes ráno je chladno, vezmi si kabát."
+  },
+  "audio": true
+ },
+ {
+  "id": "un-temps-de-chien",
+  "fr": "un temps de chien",
+  "type": "idiome",
+  "register": "familier",
+  "level": "A2",
+  "meaning": {
+   "fr": "Un très mauvais temps, désagréable.",
+   "cs": "Velmi špatné, nepříjemné počasí."
+  },
+  "cs": "psí počasí",
+  "example": {
+   "fr": "Aujourd'hui, il fait un temps de chien : restons à la maison.",
+   "cs": "Dnes je psí počasí, zůstaňme doma."
+  },
+  "audio": true
+ },
+ {
+  "id": "ca-marche",
+  "fr": "ça marche",
+  "type": "idiome",
+  "register": "familier",
+  "level": "A2",
+  "meaning": {
+   "fr": "D'accord, c'est entendu ; on accepte une proposition.",
+   "cs": "Platí, domluveno; souhlas s návrhem."
+  },
+  "cs": "platí / domluveno",
+  "example": {
+   "fr": "On se retrouve à huit heures ? – Ça marche !",
+   "cs": "Sejdeme se v osm? – Platí!"
+  },
+  "audio": true
+ },
+ {
+  "id": "ca-te-dit",
+  "fr": "ça te dit ?",
+  "type": "idiome",
+  "register": "familier",
+  "level": "A2",
+  "meaning": {
+   "fr": "Question pour savoir si une idée plaît ou tente quelqu'un (« dire » = plaire, tenter).",
+   "cs": "Otázka, jestli se někomu něco líbí nebo na to má chuť."
+  },
+  "cs": "máš chuť? / co říkáš?",
+  "example": {
+   "fr": "Il y a un bon café près d'ici. Ça te dit ?",
+   "cs": "Poblíž je dobrá kavárna. Máš chuť zajít?"
+  },
+  "audio": true
+ },
+ {
+  "id": "c-est-sympa",
+  "fr": "c'est sympa",
+  "type": "idiome",
+  "register": "familier",
+  "level": "A2",
+  "meaning": {
+   "fr": "C'est agréable, plaisant ; on aime bien.",
+   "cs": "Je to příjemné, milé; líbí se nám to."
+  },
+  "cs": "je to fajn / hezké",
+  "example": {
+   "fr": "Ce petit restaurant est vraiment sympa.",
+   "cs": "Ta malá restaurace je opravdu fajn."
+  },
+  "audio": true
+ },
+ {
+  "id": "tant-pis",
+  "fr": "tant pis",
+  "type": "idiome",
+  "register": "courant",
+  "level": "A2",
+  "meaning": {
+   "fr": "Expression de résignation : c'est dommage, mais on l'accepte.",
+   "cs": "Výraz rezignace: je to škoda, ale přijímáme to."
+  },
+  "cs": "nevadí / škoda",
+  "example": {
+   "fr": "Il n'y a plus de tarte ? Tant pis, je prends un gâteau.",
+   "cs": "Žádný koláč už není? Nevadí, vezmu si dort."
+  },
+  "audio": true
+ },
+ {
+  "id": "avoir-un-petit-creux",
+  "fr": "avoir un petit creux",
+  "type": "idiome",
+  "register": "familier",
+  "level": "A2",
+  "meaning": {
+   "fr": "Avoir légèrement faim.",
+   "cs": "Mít trochu hlad."
+  },
+  "cs": "mít trochu hlad",
+  "example": {
+   "fr": "J'ai un petit creux : on achète une crêpe ?",
+   "cs": "Mám malý hlad. Koupíme si palačinku?"
+  },
+  "audio": true
+ },
+ {
+  "id": "c-est-pas-donne",
+  "fr": "c'est pas donné",
+  "type": "idiome",
+  "register": "familier",
+  "level": "A2",
+  "meaning": {
+   "fr": "C'est assez cher.",
+   "cs": "Je to dost drahé."
+  },
+  "cs": "není to zrovna levné",
+  "example": {
+   "fr": "Ce restaurant près de la tour Eiffel, c'est pas donné.",
+   "cs": "Ta restaurace u Eiffelovy věže není zrovna levná."
+  },
+  "audio": true
+ },
+ {
+  "id": "meuf",
+  "fr": "meuf",
+  "type": "verlan",
+  "register": "familier",
+  "level": "B1",
+  "meaning": {
+   "fr": "Femme, fille (verlan de « femme ») ; employé surtout à l'oral.",
+   "cs": "Žena, holka (verlan ze slova „femme“); používá se hlavně v mluvené řeči."
+  },
+  "cs": "holka / ženská",
+  "example": {
+   "fr": "Une meuf de ma classe m'a dit qu'elle arrivait en retard.",
+   "cs": "Jedna holka z mé třídy mi řekla, že přijde pozdě."
+  },
+  "audio": true
+ },
+ {
+  "id": "relou",
+  "fr": "relou",
+  "type": "verlan",
+  "register": "familier",
+  "level": "B1",
+  "meaning": {
+   "fr": "Pénible, agaçant (verlan de « lourd »).",
+   "cs": "Protivný, otravný (verlan ze slova „lourd“)."
+  },
+  "cs": "protivný / otravný",
+  "example": {
+   "fr": "Il y a du monde dans le métro, c'est relou.",
+   "cs": "V metru je plno, je to otravné."
+  },
+  "audio": true
+ },
+ {
+  "id": "ouf",
+  "fr": "ouf",
+  "type": "verlan",
+  "register": "familier",
+  "level": "B1",
+  "meaning": {
+   "fr": "Fou, incroyable ; peut dire « étonnant » ou « génial » selon le contexte (verlan de « fou »).",
+   "cs": "Šílený, neuvěřitelný; podle kontextu „úžasný“ nebo „bláznivý“ (verlan ze slova „fou“)."
+  },
+  "cs": "šílený / neuvěřitelný",
+  "example": {
+   "fr": "La vue depuis Montmartre, elle est ouf !",
+   "cs": "Výhled z Montmartru je neuvěřitelný!"
+  },
+  "audio": true
+ },
+ {
+  "id": "chelou",
+  "fr": "chelou",
+  "type": "verlan",
+  "register": "familier",
+  "level": "B1",
+  "meaning": {
+   "fr": "Bizarre, étrange (verlan de « louche »).",
+   "cs": "Divný, zvláštní (verlan ze slova „louche“)."
+  },
+  "cs": "divný / zvláštní",
+  "example": {
+   "fr": "Ce mec dans le couloir était un peu chelou.",
+   "cs": "Ten chlap na chodbě byl trochu divný."
+  },
+  "audio": true
+ },
+ {
+  "id": "zen",
+  "fr": "rester zen",
+  "type": "idiome",
+  "register": "familier",
+  "level": "B1",
+  "meaning": {
+   "fr": "Rester calme et imperturbable, même dans une situation stressante.",
+   "cs": "Zůstat klidný a uvolněný i ve stresující situaci."
+  },
+  "cs": "zachovat klid / být v pohodě",
+  "example": {
+   "fr": "Le métro est en panne, mais je reste zen.",
+   "cs": "Metro stojí, ale já zůstávám v klidu."
+  },
+  "audio": true
+ },
+ {
+  "id": "avoir-le-cafard",
+  "fr": "avoir le cafard",
+  "type": "idiome",
+  "register": "familier",
+  "level": "B1",
+  "meaning": {
+   "fr": "Être triste, déprimé, mélancolique.",
+   "cs": "Cítit se smutně, mít splín."
+  },
+  "cs": "mít splín",
+  "example": {
+   "fr": "Quand il pleut tout l'automne, j'ai le cafard.",
+   "cs": "Když celý podzim prší, mám splín."
+  },
+  "audio": true
+ },
+ {
+  "id": "poser-un-lapin",
+  "fr": "poser un lapin",
+  "type": "idiome",
+  "register": "familier",
+  "level": "B1",
+  "meaning": {
+   "fr": "Ne pas venir à un rendez-vous sans prévenir.",
+   "cs": "Nepřijít na schůzku a nedat vědět."
+  },
+  "cs": "nepřijít na schůzku",
+  "example": {
+   "fr": "J'ai attendu une heure : elle m'a posé un lapin.",
+   "cs": "Čekal jsem hodinu a ona na schůzku nepřišla."
+  },
+  "audio": true
+ },
+ {
+  "id": "couter-les-yeux-de-la-tete",
+  "fr": "coûter les yeux de la tête",
+  "type": "idiome",
+  "register": "familier",
+  "level": "B1",
+  "meaning": {
+   "fr": "Être extrêmement cher, revenir à un prix très élevé.",
+   "cs": "Být extrémně drahý."
+  },
+  "cs": "stát majlant",
+  "example": {
+   "fr": "Un appartement à Paris coûte les yeux de la tête.",
+   "cs": "Byt v Paříži stojí majlant."
+  },
+  "audio": true
+ },
+ {
+  "id": "avoir-la-flemme",
+  "fr": "avoir la flemme",
+  "type": "idiome",
+  "register": "familier",
+  "level": "B1",
+  "meaning": {
+   "fr": "Ne pas avoir envie de faire un effort, par paresse.",
+   "cs": "Nechtít se nám vynaložit námahu, z lenosti."
+  },
+  "cs": "být líný / nechtít se mi",
+  "example": {
+   "fr": "J'ai la flemme de sortir sous la pluie.",
+   "cs": "Nechce se mi vycházet v dešti."
+  },
+  "audio": true
+ },
+ {
+  "id": "metro-boulot-dodo",
+  "fr": "métro, boulot, dodo",
+  "type": "parisien",
+  "register": "familier",
+  "level": "B1",
+  "meaning": {
+   "fr": "Slogan qui résume le quotidien routinier des Parisiens, puis des citadins en général : le trajet, le travail, le sommeil.",
+   "cs": "Slogan shrnující stereotypní každodennost Pařížanů a obecně lidí z velkých měst: cesta, práce, spánek."
+  },
+  "cs": "práce, doprava, spánek (stereotypní kolotoč)",
+  "example": {
+   "fr": "Toute la semaine, c'est métro, boulot, dodo.",
+   "cs": "Celý týden je to jen doprava, práce a spánek."
+  },
+  "audio": true,
+  "note": "Selon le Wiktionnaire, l'expression a été inventée en 1968 par Pierre Béarn, à partir d'un vers qu'il avait écrit en 1951.",
+  "source": "https://fr.wiktionary.org/wiki/métro,_boulot,_dodo"
+ }
+]

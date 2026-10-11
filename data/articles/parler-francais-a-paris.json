@@ -28,5 +28,107 @@
   "https://www.ifp.cz/"
  ],
  "level": "B2",
- "base": "parler-francais-a-paris"
+ "base": "parler-francais-a-paris",
+ "questions": [
+  {
+   "q": {
+    "fr": "Dans l'introduction, que signifie « Silence glacial » ?",
+    "cs": "Co v úvodu znamená „Silence glacial“ (ledové ticho)?"
+   },
+   "options": {
+    "fr": [
+     "La boulangerie est mal chauffée.",
+     "La vendeuse n'a pas entendu la commande.",
+     "Il n'y a plus de baguettes.",
+     "La vendeuse réagit froidement, car le client n'a pas salué."
+    ],
+    "cs": [
+     "V pekárně je zima.",
+     "Prodavačka objednávku neslyšela.",
+     "Bagety došly.",
+     "Prodavačka reaguje chladně, protože zákazník nepozdravil."
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "Ce qui manquait, c'est le mot « Bonjour » : la politesse d'entrée décide de l'accueil.",
+    "cs": "Chybělo slovo „Bonjour“: zdvořilost při vstupu rozhoduje o přijetí."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que veut dire « le service est compris » ?",
+    "cs": "Co znamená „le service est compris“?"
+   },
+   "options": {
+    "fr": [
+     "Le prix affiché inclut le service ; le pourboire est facultatif.",
+     "Le serveur doit recevoir un pourboire.",
+     "Le café est offert.",
+     "L'eau est payante."
+    ],
+    "cs": [
+     "Cena na lístku už zahrnuje obsluhu; spropitné je dobrovolné.",
+     "Číšník musí dostat spropitné.",
+     "Káva je zdarma.",
+     "Voda se platí zvlášť."
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Les prix affichés sont ceux que vous payez ; le pourboire est facultatif.",
+    "cs": "Uvedené ceny jsou ty, které platíte; spropitné je dobrovolné."
+   }
+  },
+  {
+   "q": {
+    "fr": "Quel conseil l'article donne-t-il si le personnel répond en anglais ?",
+    "cs": "Jakou radu dává článek, když personál odpovídá anglicky?"
+   },
+   "options": {
+    "fr": [
+     "Passer à l'anglais aussitôt",
+     "Répondre poliment en français, sans s'excuser trois fois",
+     "Quitter le café",
+     "Parler très vite"
+    ],
+    "cs": [
+     "Hned přejít na angličtinu",
+     "Zdvořile odpovědět francouzsky a třikrát se neomlouvat",
+     "Odejít z kavárny",
+     "Mluvit velmi rychle"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Les astuces : parler lentement et répondre poliment en français.",
+    "cs": "Tipy: mluvit pomalu a zdvořile odpovídat francouzsky."
+   }
+  },
+  {
+   "q": {
+    "fr": "Dans l'article, « actuellement » veut dire…",
+    "cs": "V článku „actuellement“ znamená…"
+   },
+   "options": {
+    "fr": [
+     "en réalité",
+     "autrefois",
+     "en ce moment",
+     "bientôt"
+    ],
+    "cs": [
+     "ve skutečnosti",
+     "dříve",
+     "právě teď",
+     "brzy"
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Actuellement veut dire « en ce moment », et non « en réalité ».",
+    "cs": "Actuellement znamená „právě teď“, nikoli „ve skutečnosti“."
+   }
+  }
+ ]
 }

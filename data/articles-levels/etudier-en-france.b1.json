@@ -79,5 +79,101 @@
     "https://www.ifp.cz/cz/kurzy-a-zkousky/zkousky/diplomy-delf-a-dalf/",
     "https://erasmus-plus.ec.europa.eu/",
     "https://www.republiquetcheque.campusfrance.org/"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Qui dépose les candidatures du programme Eiffel ?",
+        "cs": "Kdo podává přihlášky do programu Eiffel?"
+      },
+      "options": {
+        "fr": [
+          "Les étudiants eux-mêmes",
+          "Les établissements français",
+          "Campus France"
+        ],
+        "cs": [
+          "Samotní studenti",
+          "Francouzské instituce",
+          "Campus France"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section Campus France : « Ce sont les établissements français qui déposent les candidatures, et non les étudiants ».",
+        "cs": "Oddíl o Campus France: přihlášky podávají francouzské instituce, ne studenti."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi les démarches portent-elles surtout sur l'inscription, le logement et la santé ?",
+        "cs": "Proč se vyřizování týká hlavně zápisu, ubytování a zdravotního pojištění?"
+      },
+      "options": {
+        "fr": [
+          "Parce qu'un citoyen de l'UE n'a ni visa ni titre de séjour à demander",
+          "Parce que Campus France gère déjà tout le reste",
+          "Parce que le DELF est obligatoire pour tous"
+        ],
+        "cs": [
+          "Protože občan EU nemusí žádat o vízum ani povolení k pobytu",
+          "Protože vše ostatní už řeší Campus France",
+          "Protože DELF je povinný pro všechny"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section Campus France : « il n'y a ni visa ni titre de séjour à demander. Les démarches concernent surtout… »",
+        "cs": "Oddíl o Campus France: není třeba vízum ani povolení k pobytu, proto se řeší hlavně zápis, ubytování a pojištění."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle idée est à l'origine de la Cité internationale universitaire ?",
+        "cs": "Jaká myšlenka stála na počátku Mezinárodního univerzitního městečka?"
+      },
+      "options": {
+        "fr": [
+          "Loger uniquement les étudiants tchèques",
+          "Créer un centre de formation pour les professeurs",
+          "Faire vivre ensemble des étudiants du monde entier, dans un esprit pacifiste"
+        ],
+        "cs": [
+          "Ubytovat pouze české studenty",
+          "Vytvořit vzdělávací centrum pro učitele",
+          "Nechat společně žít studenty z celého světa v pacifistickém duchu"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Se loger » : imaginée dans les années 1920 « dans un esprit pacifiste ».",
+        "cs": "Oddíl o ubytování: vymyšleno ve 20. letech „v pacifistickém duchu“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Au nom de quelle institution les diplômes DELF et DALF sont-ils délivrés ?",
+        "cs": "Jménem jaké instituce se vydávají diplomy DELF a DALF?"
+      },
+      "options": {
+        "fr": [
+          "Campus France",
+          "L'Institut français de Prague",
+          "La Commission européenne",
+          "Le ministère français de l'Éducation nationale"
+        ],
+        "cs": [
+          "Campus France",
+          "Francouzského institutu v Praze",
+          "Evropské komise",
+          "Francouzského ministerstva školství"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section DELF et DALF : « délivrés au nom du ministère français de l'Éducation nationale ».",
+        "cs": "Oddíl o DELF a DALF: vydávají se jménem francouzského ministerstva školství."
+      }
+    }
   ]
 }

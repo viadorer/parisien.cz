@@ -81,5 +81,107 @@
     "https://en.wikipedia.org/wiki/The_Arcades_Project",
     "https://www.routard.com/fr/guide/france/ile-de-france/paris/2eme-arrondissement/les-passages",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi Robert Fulton a-t-il fait installer les rotondes du passage des Panoramas ?",
+        "cs": "Proč Robert Fulton nechal zřídit rotundy v Passage des Panoramas?"
+      },
+      "options": {
+        "fr": [
+          "Pour y vendre des tableaux",
+          "Pour protéger les promeneurs de la pluie",
+          "Pour financer ses essais de sous-marin",
+          "Pour ouvrir un musée de l'invention"
+        ],
+        "cs": [
+          "Aby tam prodával obrazy",
+          "Aby chránil chodce před deštěm",
+          "Aby zaplatil pokusy s ponorkou",
+          "Aby otevřel muzeum vynálezů"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Un premier passage en 1799 » : Fulton les a fait installer « pour financer ses essais de sous-marin ».",
+        "cs": "Část „První pasáž v roce 1799“: Fulton je nechal zřídit, aby zaplatil pokusy s ponorkou."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelles sont les deux raisons du succès des passages à cette époque ?",
+        "cs": "Jaké jsou dvě příčiny úspěchu pasáží v té době?"
+      },
+      "options": {
+        "fr": [
+          "Le commerce de luxe se développe et les techniques du fer et du verre progressent",
+          "La police interdit les voitures et la Seine déborde",
+          "Les touristes arrivent en train et le métro ouvre",
+          "Haussmann construit de grands boulevards et les magasins déménagent"
+        ],
+        "cs": [
+          "Rozvíjí se luxusní obchod a pokračuje technika železa a skla",
+          "Policie zakáže kočáry a Seina se vylévá",
+          "Turisté přijíždějí vlakem a otevírá se metro",
+          "Haussmann staví velké bulváry a obchody se stěhují"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Après la Révolution, le commerce de luxe se développe. De plus, les techniques du fer et du verre permettent de couvrir de longues galeries. »",
+        "cs": "„Po Revoluci se rozvíjí luxusní obchod. Techniky práce se železem a sklem navíc umožňují zastřešit dlouhé galerie.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie la phrase « Les listes varient : retenez simplement une vingtaine » ?",
+        "cs": "Co znamená věta „Seznamy se liší, zapamatujte si prostě asi dvacet“?"
+      },
+      "options": {
+        "fr": [
+          "Il reste exactement vingt passages",
+          "Les passages changent de nom chaque année",
+          "Il faut visiter vingt passages",
+          "Les guides ne donnent pas tous le même nombre exact"
+        ],
+        "cs": [
+          "Zbývá přesně dvacet pasáží",
+          "Pasáže každý rok mění jméno",
+          "Je třeba navštívit dvacet pasáží",
+          "Průvodce neuvádějí všichni stejný přesný počet"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Section « Ce qu'il en reste » : « Selon les guides, il reste une vingtaine… Les listes varient ».",
+        "cs": "Část „Co zbylo“: podle průvodců zbývá asi dvacet, seznamy se liší."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que sait-on du livre de Walter Benjamin sur les passages ?",
+        "cs": "Co se o knize Waltera Benjamina o pasážích dozvídáme?"
+      },
+      "options": {
+        "fr": [
+          "Il a été terminé en 1927 et publié tout de suite",
+          "Il est resté inachevé et l'édition allemande n'a paru qu'en 1982",
+          "Il parle seulement du passage Jouffroy",
+          "Il a été écrit par un architecte français"
+        ],
+        "cs": [
+          "Byla dokončena roku 1927 a hned vydána",
+          "Zůstala nedokončená a německé vydání vyšlo až roku 1982",
+          "Mluví jen o Passage Jouffroy",
+          "Napsal ji francouzský architekt"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section sur Benjamin : « Son livre est resté inachevé. L'édition allemande n'a paru qu'en 1982. »",
+        "cs": "Část o Benjaminovi: kniha zůstala nedokončená, německé vydání vyšlo až roku 1982."
+      }
+    }
   ]
 }

@@ -75,5 +75,101 @@
     "https://www.musee-orangerie.fr",
     "https://www.marmottan.fr",
     "https://www.fondation-monet.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Qui invente le mot « impressionnistes » ?",
+        "cs": "Kdo vymyslí slovo „impresionisté“?"
+      },
+      "options": {
+        "fr": [
+          "Le critique Louis Leroy.",
+          "Le peintre Claude Monet.",
+          "Le photographe Nadar."
+        ],
+        "cs": [
+          "Kritik Louis Leroy.",
+          "Malíř Claude Monet.",
+          "Fotograf Nadar."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section « Un nom pour se moquer » : Louis Leroy invente le mot.",
+        "cs": "Oddíl „Jméno z posměchu“: slovo vymyslí Louis Leroy."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que voit-on au musée de l'Orangerie ?",
+        "cs": "Co uvidíme v Musée de l'Orangerie?"
+      },
+      "options": {
+        "fr": [
+          "Les Nymphéas de Monet, dans deux salles ovales.",
+          "Les tableaux de Van Gogh, dans une ancienne gare.",
+          "Le tableau Impression, soleil levant."
+        ],
+        "cs": [
+          "Monetovy Lekníny ve dvou oválných sálech.",
+          "Obrazy Van Gogha v bývalém nádraží.",
+          "Obraz Dojem, vycházející slunce."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Vous y voyez les Nymphéas de Monet dans deux salles ovales. »",
+        "cs": "„Uvidíte tam Monetovy Lekníny ve dvou oválných sálech.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-il arrivé au tableau Impression, soleil levant ?",
+        "cs": "Co se stalo s obrazem Dojem, vycházející slunce?"
+      },
+      "options": {
+        "fr": [
+          "Il a été volé en 1990 et retrouvé en 1985.",
+          "Il a été volé en 1985 et retrouvé en 1990.",
+          "Il n'a jamais quitté le musée."
+        ],
+        "cs": [
+          "Byl ukraden v roce 1990 a nalezen v roce 1985.",
+          "Byl ukraden v roce 1985 a nalezen v roce 1990.",
+          "Nikdy muzeum neopustil."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Jour 2 » : « Il a été volé en 1985 et retrouvé en 1990. »",
+        "cs": "Oddíl „Den 2“: byl ukraden v roce 1985 a nalezen v roce 1990."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand le jardin de Giverny est-il ouvert ?",
+        "cs": "Kdy je otevřená zahrada v Giverny?"
+      },
+      "options": {
+        "fr": [
+          "Toute l'année.",
+          "Seulement le week-end.",
+          "Seulement le soir.",
+          "Seulement en saison."
+        ],
+        "cs": [
+          "Celý rok.",
+          "Jen o víkendech.",
+          "Jen večer.",
+          "Jen v sezoně."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« Le jardin est ouvert seulement en saison. »",
+        "cs": "„Zahrada je otevřená jen v sezoně.“"
+      }
+    }
   ]
 }

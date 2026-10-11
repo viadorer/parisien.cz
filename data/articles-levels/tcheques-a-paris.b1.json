@@ -85,5 +85,107 @@
     "https://www.centrepompidou.fr/fr/recherche/oeuvres?terms=Kupka",
     "https://monumentum.fr/monument-historique/pa00088439/paris-5e-arrondissement-hotel-au-fond-du-jardin",
     "https://emuseum.mfah.org/objects/57251/model-posing-in-muchas-studio-rue-du-val-de-grace-paris"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi Sarah Bernhardt téléphone-t-elle à l'éditeur Lemercier ?",
+        "cs": "Proč Sarah Bernhardtová telefonuje nakladateli Lemercierovi?"
+      },
+      "options": {
+        "fr": [
+          "Pour acheter un atelier.",
+          "Pour engager Mucha comme acteur.",
+          "Pour organiser l'Exposition universelle.",
+          "Pour obtenir une nouvelle affiche pour Gismonda."
+        ],
+        "cs": [
+          "Aby koupila ateliér.",
+          "Aby angažovala Muchu jako herce.",
+          "Aby uspořádala světovou výstavu.",
+          "Aby získala nový plakát ke Gismondě."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« …elle veut une nouvelle affiche pour Gismonda. »",
+        "cs": "„…elle veut une nouvelle affiche pour Gismonda.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi Mucha quitte-t-il Paris pour Prague en 1910 ?",
+        "cs": "Proč Mucha v roce 1910 odjíždí z Paříže do Prahy?"
+      },
+      "options": {
+        "fr": [
+          "Un mécène américain accepte de financer L'Épopée slave.",
+          "Son atelier est détruit.",
+          "L'Académie Julian ferme ses portes.",
+          "Sarah Bernhardt quitte Paris."
+        ],
+        "cs": [
+          "Americký mecenáš se zavazuje financovat Slovanskou epopej.",
+          "Jeho ateliér je zničen.",
+          "Académie Julian zavírá.",
+          "Sarah Bernhardtová opouští Paříž."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« …un mécène américain, Charles Crane, accepte de payer ce projet, et Mucha quitte Paris pour Prague. »",
+        "cs": "„…un mécène américain, Charles Crane, accepte de payer ce projet, et Mucha quitte Paris pour Prague.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle affirmation sur Kundera est correcte d'après le texte ?",
+        "cs": "Které tvrzení o Kunderovi je podle textu správné?"
+      },
+      "options": {
+        "fr": [
+          "Il meurt à Rennes en 2019.",
+          "Il refuse la nationalité française.",
+          "Il se considère comme un écrivain français.",
+          "Il quitte son pays en 1981."
+        ],
+        "cs": [
+          "Zemře v Rennes v roce 2019.",
+          "Odmítne francouzské občanství.",
+          "Považuje se za francouzského spisovatele.",
+          "Opustí svou zemi v roce 1981."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« …il devient citoyen français en 1981 et se considère comme un écrivain français. »",
+        "cs": "„Il devient citoyen français en 1981 et se considère comme un écrivain français.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi Martinů quitte-t-il Paris en 1940 ?",
+        "cs": "Proč Martinů v roce 1940 opouští Paříž?"
+      },
+      "options": {
+        "fr": [
+          "Il épouse une Française.",
+          "Les troupes allemandes approchent de la ville.",
+          "Il perd sa bourse.",
+          "Il part étudier le jazz."
+        ],
+        "cs": [
+          "Žení se s Francouzkou.",
+          "K městu se blíží německá vojska.",
+          "Přijde o stipendium.",
+          "Odjíždí studovat jazz."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« En 1940, quand les troupes allemandes approchent de Paris, il quitte la ville. »",
+        "cs": "„En 1940, quand les troupes allemandes approchent de Paris, il quitte la ville.“"
+      }
+    }
   ]
 }

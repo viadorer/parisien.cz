@@ -65,5 +65,99 @@
     "https://en.wikipedia.org/wiki/The_Arcades_Project",
     "https://www.routard.com/fr/guide/france/ile-de-france/paris/2eme-arrondissement/les-passages",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Qu'est-ce qu'un passage couvert ?",
+        "cs": "Co je kryté pasáž?"
+      },
+      "options": {
+        "fr": [
+          "Une petite rue avec un toit en verre",
+          "Un grand musée",
+          "Un parc avec des arbres"
+        ],
+        "cs": [
+          "Malá ulička se skleněnou střechou",
+          "Velké muzeum",
+          "Park se stromy"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Début du texte : « petites rues avec un toit en verre ».",
+        "cs": "Začátek textu: malé uličky se skleněnou střechou."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel passage est le plus vieux ?",
+        "cs": "Která pasáž je nejstarší?"
+      },
+      "options": {
+        "fr": [
+          "La galerie Vivienne",
+          "La galerie Colbert",
+          "Le passage des Panoramas"
+        ],
+        "cs": [
+          "Galerie Vivienne",
+          "Galerie Colbert",
+          "Passage des Panoramas"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Le passage des Panoramas est le plus vieux. Il ouvre en 1799. »",
+        "cs": "„Passage des Panoramas je nejstarší. Otevřel se v roce 1799.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Combien de passages y a-t-il aujourd'hui ?",
+        "cs": "Kolik pasáží je dnes?"
+      },
+      "options": {
+        "fr": [
+          "Cinq",
+          "Une vingtaine",
+          "Cent cinquante"
+        ],
+        "cs": [
+          "Pět",
+          "Asi dvacet",
+          "Sto padesát"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Maintenant, il y a une vingtaine de passages. » Le nombre 150 est pour le XIXe siècle.",
+        "cs": "„Dnes je jich asi dvacet.“ Číslo 150 platí pro 19. století."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand y a-t-il peu de monde dans les passages ?",
+        "cs": "Kdy je v pasážích málo lidí?"
+      },
+      "options": {
+        "fr": [
+          "Le matin",
+          "Le soir",
+          "Le week-end"
+        ],
+        "cs": [
+          "Ráno",
+          "Večer",
+          "O víkendu"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Le matin, il y a peu de monde. C'est calme. »",
+        "cs": "„Ráno je tam málo lidí. Je tam klid.“"
+      }
+    }
   ]
 }

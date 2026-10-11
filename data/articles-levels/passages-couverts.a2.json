@@ -73,5 +73,101 @@
     "https://en.wikipedia.org/wiki/The_Arcades_Project",
     "https://www.routard.com/fr/guide/france/ile-de-france/paris/2eme-arrondissement/les-passages",
     "https://www.paris.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi le passage des Panoramas s'appelle-t-il ainsi ?",
+        "cs": "Proč se Passage des Panoramas tak jmenuje?"
+      },
+      "options": {
+        "fr": [
+          "Parce qu'il a une très belle vue sur Paris",
+          "Parce qu'il y avait deux grandes salles rondes avec des panoramas",
+          "Parce que son architecte s'appelait Panorama"
+        ],
+        "cs": [
+          "Protože má krásný výhled na Paříž",
+          "Protože tam byly dva velké kulaté sály s panoramaty",
+          "Protože se architekt jmenoval Panorama"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Le premier passage » : le nom vient de deux grandes salles rondes où l'on montrait des panoramas.",
+        "cs": "Část „První pasáž“: jméno pochází ze dvou velkých kulatých sálů, kde se ukazovala panoramata."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand est l'âge d'or des passages ?",
+        "cs": "Kdy byl zlatý věk pasáží?"
+      },
+      "options": {
+        "fr": [
+          "Entre 1823 et 1847 environ",
+          "En 1831",
+          "Après 1970",
+          "Vers 1800 seulement"
+        ],
+        "cs": [
+          "Zhruba v letech 1823 až 1847",
+          "V roce 1831",
+          "Po roce 1970",
+          "Jen kolem roku 1800"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Entre 1823 et 1847 environ, c'est l'âge d'or. »",
+        "cs": "„Zhruba v letech 1823 až 1847 je zlatý věk.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi a-t-on détruit beaucoup de passages ?",
+        "cs": "Proč se mnoho pasáží zbořilo?"
+      },
+      "options": {
+        "fr": [
+          "Ils étaient trop petits",
+          "Il y avait trop de touristes",
+          "Les grands boulevards ont attiré les promeneurs"
+        ],
+        "cs": [
+          "Byly příliš malé",
+          "Bylo tam příliš mnoho turistů",
+          "Velké bulváry přitáhly chodce"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Ensuite, les grands boulevards attirent les promeneurs, et on détruit beaucoup de passages. »",
+        "cs": "„Potom velké bulváry přitáhnou chodce a mnoho pasáží se zboří.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi faut-il visiter les passages le matin, en semaine ?",
+        "cs": "Proč je dobré navštívit pasáže ráno ve všední den?"
+      },
+      "options": {
+        "fr": [
+          "Parce que les magasins sont fermés",
+          "Parce que les magasins sont ouverts et qu'il y a peu de monde",
+          "Parce que l'entrée est gratuite seulement le matin"
+        ],
+        "cs": [
+          "Protože obchody jsou zavřené",
+          "Protože obchody jsou otevřené a je tam málo lidí",
+          "Protože vstup je zdarma jen ráno"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Dernière section : « Les magasins sont ouverts et il y a peu de monde. »",
+        "cs": "Poslední část: obchody jsou otevřené a je tam málo lidí."
+      }
+    }
   ]
 }

@@ -69,5 +69,99 @@
     "https://cafedeflore.fr",
     "https://www.lesdeuxmagots.fr",
     "https://www.procope.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que dit-on de l'idée de l'Encyclopédie au Procope ?",
+        "cs": "Co se říká o myšlence Encyklopedie v Procope?"
+      },
+      "options": {
+        "fr": [
+          "Elle est née là, c'est certain",
+          "Les historiens ne sont pas sûrs qu'elle soit née là",
+          "Elle est née chez Voltaire"
+        ],
+        "cs": [
+          "Vznikla tam, to je jisté",
+          "Historici si nejsou jisti, že tam vznikla",
+          "Vznikla u Voltaira"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« on dit que l'idée ... est née là, mais les historiens n'en sont pas sûrs ».",
+        "cs": "„on dit que l'idée … est née là, mais les historiens n'en sont pas sûrs“."
+      }
+    },
+    {
+      "q": {
+        "fr": "D'où vient le nom des Deux Magots ?",
+        "cs": "Odkud pochází jméno Les Deux Magots?"
+      },
+      "options": {
+        "fr": [
+          "D'un magasin avec deux statuettes chinoises",
+          "De deux écrivains célèbres",
+          "D'un bal voisin"
+        ],
+        "cs": [
+          "Z obchodu se dvěma čínskými soškami",
+          "Ze dvou slavných spisovatelů",
+          "Ze sousedního tanečního sálu"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Les Deux Magots doivent leur nom à un magasin avec deux statuettes chinoises. »",
+        "cs": "„Les Deux Magots doivent leur nom à un magasin avec deux statuettes chinoises.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Qui est le premier gagnant du Prix des Deux Magots ?",
+        "cs": "Kdo je prvním vítězem Prix des Deux Magots?"
+      },
+      "options": {
+        "fr": [
+          "Jean-Paul Sartre",
+          "Verlaine",
+          "Raymond Queneau"
+        ],
+        "cs": [
+          "Jean-Paul Sartre",
+          "Verlaine",
+          "Raymond Queneau"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Le premier gagnant est Raymond Queneau. »",
+        "cs": "„Le premier gagnant est Raymond Queneau.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire « un café » au comptoir ?",
+        "cs": "Co znamená „un café“ v kavárně?"
+      },
+      "options": {
+        "fr": [
+          "Un grand café au lait",
+          "Un thé",
+          "Un espresso"
+        ],
+        "cs": [
+          "Velká káva s mlékem",
+          "Čaj",
+          "Espresso"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« “Un café”, c'est un espresso. »",
+        "cs": "„Un café“ je espresso."
+      }
+    }
   ]
 }

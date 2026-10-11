@@ -9,6 +9,11 @@ Dvojjazyčný (FR/CS) školní projekt o Paříži a cestování. Statické str�
 - `/admin` – články (FR+CS, kategorie, autor, kredit fotky, zdroje), zprávy a návrhy článků od studentů, nahrávání obrázků do R2.
 - `scripts/commons.mjs` – hledání fotek na Commons s ověřenou licencí (CC0 / PD / CC BY / CC BY-SA).
 
+## Výukový obsah
+- `data/dialogues/*.json` (18 dialogů A1–C1 s audiem, překladem, slovíčky, kvízem), `data/expressions/*.json` (idiomy, verlan, zdvořilost), `data/itineraries/*.json` (6 tras; zastávky = `ref` na existující položky nebo `query` pro zeměpisné určení), otázky k porozumění v poli `questions` každého článku.
+- `scripts/geocode.mjs` doplní souřadnice (OpenStreetMap Nominatim) do `data/coords.json`; `scripts/readability.mjs` je jen orientační kontrola délky vět.
+- Audio je Web Speech API (francouzský hlas v prohlížeči); „Můj sešit“ a výběr úrovně jsou v localStorage, nic se neposílá na server.
+
 ## Studentské účty
 - Registrace jen s **kódem pozvánky** (admin → karta Studenti → Vytvořit; kód platí jednou). Bez e-mailové služby: reset hesla dělá admin („Nové heslo“).
 - Student píše články ve FR/CS (`/fr/compte`, `/cs/compte`), ukládá koncepty a odesílá je ke schválení. Zveřejnit je může jen admin (karta Články → Schválit / Zamítnout s poznámkou).

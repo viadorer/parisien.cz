@@ -1,0 +1,270 @@
+{
+  "id": "haussmann-debat",
+  "level": "C1",
+  "title": {
+    "fr": "Haussmann, bienfaiteur ou fossoyeur ?",
+    "cs": "Haussmann: dobrodinec, nebo hrobař?"
+  },
+  "scene": {
+    "fr": "Une urbaniste et un historien de l'art débattent, en marchant sur un grand boulevard, de l'héritage des transformations de Paris au XIXe siècle.",
+    "cs": "Urbanistka a historik umění diskutují při procházce po velkém bulváru o dědictví přestavby Paříže v 19. století."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, urbaniste",
+        "cs": "Hélène, urbanistka"
+      },
+      "fr": "Regarde cet alignement : mêmes hauteurs, mêmes balcons filants, même pierre claire. On a beau le connaître par cœur, l'effet reste saisissant.",
+      "cs": "Podívej se na tu řadu domů: stejné výšky, stejné průběžné balkony, stejný světlý kámen. I když ji člověk zná nazpaměť, účinek je pořád ohromující."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Paul, historien de l'art",
+        "cs": "Paul, historik umění"
+      },
+      "fr": "Saisissant, certes, mais souvent à sens unique. On loue la cohérence de Paris en oubliant qu'elle s'est payée par des destructions massives : on parle de milliers de maisons rasées entre 1852 et 1870.",
+      "cs": "Ohromující, jistě, ale často jednostranně. Chválíme soudržnost Paříže a zapomínáme, že se platilo masivními demolicemi: mluví se o tisících zbořených domů mezi lety 1852 a 1870."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, urbaniste",
+        "cs": "Hélène, urbanistka"
+      },
+      "fr": "Je ne le conteste pas. Mais le Paris médiéval de l'époque était étouffant : des rues étroites, peu d'air, des épidémies. Haussmann, nommé préfet de la Seine en 1853, n'a pas agi seul, et pas seulement par goût de l'esthétique.",
+      "cs": "To nepopírám. Ale tehdejší středověká Paříž byla dusivá: úzké ulice, málo vzduchu, epidemie. Haussmann, jmenovaný prefektem departementu Seine v roce 1853, nejednal sám a nejen z estetické záliby."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Paul, historien de l'art",
+        "cs": "Paul, historik umění"
+      },
+      "fr": "Bien sûr, l'hygiène, la circulation, l'approvisionnement en eau, tout cela comptait. Mais dire que les boulevards n'avaient qu'une fonction pratique, c'est un peu naïf : certains contemporains y voyaient déjà un outil de maintien de l'ordre.",
+      "cs": "Samozřejmě, hygiena, doprava, zásobování vodou, to všechno hrálo roli. Ale tvrdit, že bulváry měly jen praktickou funkci, je trochu naivní: někteří současníci v nich už tehdy viděli nástroj udržování pořádku."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, urbaniste",
+        "cs": "Hélène, urbanistka"
+      },
+      "fr": "Une intention parmi d'autres, on s'accorde plutôt là-dessus aujourd'hui. Reste que la réglementation de 1859, qui autorisait six étages sur les grandes artères et encadrait la forme des toits, a produit une ville d'une unité rare.",
+      "cs": "Jeden záměr z mnoha, v tom se dnes spíš shodujeme. Přesto předpis z roku 1859, který na hlavních třídách povoloval šest pater a upravoval tvar střech, vytvořil město vzácné jednoty."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Paul, historien de l'art",
+        "cs": "Paul, historik umění"
+      },
+      "fr": "Une unité, oui, mais aussi une certaine monotonie. Charles Garnier lui-même, l'architecte de l'Opéra, dénonçait déjà la monotonie étouffante de ce type d'architecture. Ce n'est pas un reproche d'aujourd'hui.",
+      "cs": "Jednota ano, ale také určitá monotónnost. Sám Charles Garnier, architekt Opery, už tehdy vytýkal tomuto typu architektury dusivou monotónnost. Není to výtka dnešní doby."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, urbaniste",
+        "cs": "Hélène, urbanistka"
+      },
+      "fr": "Tu me donnes un bon argument ! Et pourtant, derrière ces façades, la vie est étonnamment variée : commerces au rez-de-chaussée, bureaux, logements, parfois des ateliers dans les cours.",
+      "cs": "To je dobrý argument! A přesto je za těmi fasádami život překvapivě pestrý: obchody v přízemí, kanceláře, byty, někdy dílny na dvorech."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Paul, historien de l'art",
+        "cs": "Paul, historik umění"
+      },
+      "fr": "Et c'est justement ce qui est remarquable : le dispositif a survécu à ses usages d'origine. Mais n'oublions pas le coût social. Les loyers ont grimpé, et une partie des ouvriers a été repoussée vers la périphérie.",
+      "cs": "A právě to je pozoruhodné: systém přežil své původní využití. Ale nezapomínejme na sociální cenu. Nájmy vzrostly a část dělníků byla vytlačena na periferii."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, urbaniste",
+        "cs": "Hélène, urbanistka"
+      },
+      "fr": "C'est un point que les historiens ont bien documenté. Et le financement même de ces chantiers, par l'emprunt, a suscité de vives critiques à l'époque, notamment sous la plume de Jules Ferry.",
+      "cs": "To je bod, který historici dobře zdokumentovali. A samotné financování těchto staveb půjčkami vyvolalo tehdy ostrou kritiku, zejména z pera Julese Ferryho."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Paul, historien de l'art",
+        "cs": "Paul, historik umění"
+      },
+      "fr": "Exactement. D'où ma méfiance envers le récit du génie visionnaire. Il y avait un empereur, une équipe d'ingénieurs et d'architectes, et un système financier fragile.",
+      "cs": "Přesně. Odtud moje nedůvěra k vyprávění o vizionářském géniovi. Byl tu císař, tým inženýrů a architektů a křehký finanční systém."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, urbaniste",
+        "cs": "Hélène, urbanistka"
+      },
+      "fr": "Je te concède qu'on a tendance à personnaliser. Mais ne tombons pas dans l'excès inverse : sans ces percées, Paris n'aurait peut-être pas pu absorber sa croissance.",
+      "cs": "Připouštím, že máme sklon to personalizovat. Ale nepropadejme opačnému extrému: bez těchto průrazů by Paříž možná nezvládla svůj růst."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Paul, historien de l'art",
+        "cs": "Paul, historik umění"
+      },
+      "fr": "Peut-être. Mais l'argument de la nécessité sert souvent à justifier ce que l'on regrette ensuite. Ce qui me frappe, c'est que ce modèle fascine encore, alors qu'il a coûté cher à beaucoup de Parisiens de l'époque.",
+      "cs": "Možná. Ale argument nutnosti se často používá k ospravedlnění toho, čeho pak litujeme. Zarážející je, že tento model dodnes fascinuje, přestože mnoho tehdejších Pařížanů stál draho."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, urbaniste",
+        "cs": "Hélène, urbanistka"
+      },
+      "fr": "Peut-être parce que les générations suivantes en ont hérité sans en payer le prix. On aime le résultat, on oublie le processus.",
+      "cs": "Možná proto, že další generace to zdědily, aniž by zaplatily cenu. Líbí se nám výsledek, zapomínáme na proces."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Paul, historien de l'art",
+        "cs": "Paul, historik umění"
+      },
+      "fr": "Voilà une formule qui mériterait d'être gravée sur une plaque. Disons que nous sommes d'accord pour ne pas être d'accord sur le bilan.",
+      "cs": "To je formulace, která by si zasloužila pamětní desku. Řekněme, že se shodujeme v tom, že se neshodneme na bilanci."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, urbaniste",
+        "cs": "Hélène, urbanistka"
+      },
+      "fr": "Au moins sur la méthode : un débat vaut mieux qu'une légende. Allons prendre un café, la discussion n'en sera que meilleure.",
+      "cs": "Alespoň na metodě: debata je lepší než legenda. Pojďme na kávu, diskuse bude jen lepší."
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "un alignement",
+      "cs": "řada, zástavba v řadě"
+    },
+    {
+      "fr": "raser",
+      "cs": "srovnat se zemí, zbourat"
+    },
+    {
+      "fr": "une artère",
+      "cs": "hlavní tepna (ulice)"
+    },
+    {
+      "fr": "étouffant(e)",
+      "cs": "dusivý"
+    },
+    {
+      "fr": "à sens unique",
+      "cs": "jednostranný"
+    },
+    {
+      "fr": "avoir beau (+ inf.)",
+      "cs": "marně, i když (ať se člověk snaží, jak chce)"
+    },
+    {
+      "fr": "concéder",
+      "cs": "připustit"
+    },
+    {
+      "fr": "une percée",
+      "cs": "průraz (nová ulice)"
+    },
+    {
+      "fr": "se méfier de",
+      "cs": "nedůvěřovat"
+    },
+    {
+      "fr": "le bilan",
+      "cs": "bilance, shrnutí"
+    }
+  ],
+  "tip": {
+    "fr": "Georges-Eugène Haussmann a été préfet de la Seine de 1853 à 1870. Le décret impérial de 1859 autorisait six étages sur les grandes artères et fixait des règles de hauteur et de toiture (un gabarit sous un angle de 45°). Le bilan des travaux reste débattu : démolitions, hausse des loyers, financement par l'emprunt.",
+    "cs": "Georges-Eugène Haussmann byl prefektem departementu Seine v letech 1853–1870. Císařský výnos z roku 1859 povoloval na hlavních třídách šest pater a stanovil pravidla výšky a střech (obrys pod úhlem 45°). Bilance přestavby je dodnes předmětem sporů: demolice, růst nájmů, financování půjčkami."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Quelle critique Paul formule-t-il à propos de l'architecture haussmannienne ?",
+        "cs": "Jakou kritiku vznáší Paul vůči haussmannovské architektuře?"
+      },
+      "options": {
+        "fr": [
+          "Elle manque de lumière.",
+          "Elle est trop récente.",
+          "Elle peut paraître monotone et froide."
+        ],
+        "cs": [
+          "Chybí jí světlo.",
+          "Je příliš nová.",
+          "Může působit monotónně a chladně."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Il cite le reproche de Garnier : une monotonie étouffante.",
+        "cs": "Cituje Garnierovu výtku dusivé monotónnosti."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire Hélène par « on aime le résultat, on oublie le processus » ?",
+        "cs": "Co Hélène myslí větou „líbí se nám výsledek, zapomínáme na proces“?"
+      },
+      "options": {
+        "fr": [
+          "Les gens admirent la ville sans penser à ce qu'elle a coûté à certains.",
+          "Les travaux ont été terminés trop vite.",
+          "Les architectes ont changé de méthode."
+        ],
+        "cs": [
+          "Lidé obdivují město, aniž myslí na to, kolik to některé stálo.",
+          "Práce byly dokončeny příliš rychle.",
+          "Architekti změnili metodu."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Les générations suivantes ont hérité sans en payer le prix.",
+        "cs": "Další generace dědily bez placení ceny."
+      }
+    },
+    {
+      "q": {
+        "fr": "Sur quoi les deux interlocuteurs finissent-ils par se rejoindre ?",
+        "cs": "V čem se oba nakonec shodnou?"
+      },
+      "options": {
+        "fr": [
+          "Haussmann était un génie isolé.",
+          "Sur le bilan, ils sont d'accord.",
+          "Un débat nuancé vaut mieux qu'une légende."
+        ],
+        "cs": [
+          "Haussmann byl osamělý génius.",
+          "Na bilanci se shodnou.",
+          "Nuancovaná debata je lepší než legenda."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Hélène conclut qu'un débat vaut mieux qu'une légende.",
+        "cs": "Hélène uzavírá, že debata je lepší než legenda."
+      }
+    }
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Transformations_de_Paris_sous_le_Second_Empire",
+    "https://fr.wikipedia.org/wiki/Georges_Eug%C3%A8ne_Haussmann"
+  ]
+}

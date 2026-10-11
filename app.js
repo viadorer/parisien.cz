@@ -281,7 +281,7 @@
     const start = () => {
       if (!window.L || !window.L.map) return setTimeout(start, 100);
       const LF = window.L;
-      const { types, points } = JSON.parse($('#map-data').textContent);
+      const { types, points, routes = [] } = JSON.parse($('#map-data').textContent);
       const map = LF.map(mapEl, { scrollWheelZoom: false, preferCanvas: true }).setView([48.8566, 2.3522], 12);
       LF.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
       map.on('focus', () => map.scrollWheelZoom.enable()); map.on('blur', () => map.scrollWheelZoom.disable());
@@ -344,6 +344,24 @@
         const g = layers[b.dataset.layer];
         if (on) { g.addTo(map); if (b.dataset.layer === 'events') loadEv(); } else map.removeLayer(g);
       }));
+      // trasy
+      const routeSel = $('#route-select'), routeList = $('#route-list');
+      if (routeSel) {
+        let routeLayer = null;
+        const drawRoute = (id) => {
+          if (routeLayer) { map.removeLayer(routeLayer); routeLayer = null; }
+          routeList.hidden = true; routeList.replaceChildren();
+          const r = routes.find((x) => x.id === id); if (!r) return;
+          routeLayer = LF.layerGroup().addTo(map);
+          LF.polyline(r.stops.map((s) => [s.lat, s.lon]), { color: '#b3262e', weight: 4, opacity: 0.8, dashArray: '8 6' }).addTo(routeLayer);
+          r.stops.forEach((s, i) => LF.marker([s.lat, s.lon], { icon: LF.divIcon({ className: 'route-num', html: String(i + 1), iconSize: [26, 26] }) }).bindPopup(popup(`${i + 1}. ${s.n}`, s.d, '', r.title)).addTo(routeLayer));
+          map.fitBounds(LF.latLngBounds(r.stops.map((s) => [s.lat, s.lon])), { padding: [40, 40] });
+          routeList.replaceChildren(...r.stops.map((s) => el('li', {}, el('strong', {}, s.n), s.d ? ` — ${s.d}` : ''))); routeList.hidden = false;
+        };
+        routeSel.addEventListener('change', () => drawRoute(routeSel.value));
+        const pre = new URLSearchParams(location.search).get('route');
+        if (pre && routes.some((x) => x.id === pre)) { routeSel.value = pre; drawRoute(pre); }
+      }
       $('#map-q').addEventListener('input', (e) => {
         const q = e.target.value.trim().toLowerCase();
         for (const { m, p } of markers) {
@@ -388,6 +406,167 @@
     };
     render();
     document.addEventListener('pzlevel', () => { pickQuiz(); render(); });
+  }
+
+  // ---------- audio (Web Speech API, francouzský hlas prohlížeče) ----------
+  const hasTTS = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
+  let frVoice = null, playToken = 0;
+  const showAudio = () => { if (hasTTS && frVoice) $$('.speak-btn[hidden], [data-dlg-play][hidden], [data-listen][hidden]').forEach((b) => { b.hidden = false; }); };
+  if (hasTTS) {
+    const pick = () => { const v = speechSynthesis.getVoices(); frVoice = v.find((x) => /^fr[-_]FR/i.test(x.lang)) || v.find((x) => /^fr/i.test(x.lang)) || null; showAudio(); };
+    pick(); speechSynthesis.addEventListener?.('voiceschanged', pick);
+  }
+  const stopSpeech = () => { playToken++; if (hasTTS) speechSynthesis.cancel(); $$('.is-playing').forEach((b) => b.classList.remove('is-playing')); };
+  const speakQueue = (items, rate, btn) => {
+    if (!hasTTS) return;
+    stopSpeech(); const my = playToken; btn?.classList.add('is-playing');
+    const next = (i) => {
+      if (my !== playToken || i >= items.length) { if (my === playToken) btn?.classList.remove('is-playing'); return; }
+      const u = new SpeechSynthesisUtterance(items[i]); u.lang = 'fr-FR'; if (frVoice) u.voice = frVoice; u.rate = rate; u.onend = () => next(i + 1); u.onerror = () => next(i + 1);
+      speechSynthesis.speak(u);
+    };
+    next(0);
+  };
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('.speak-btn'); if (!b) return;
+    e.preventDefault(); e.stopPropagation(); speakQueue([b.dataset.speak], 0.9, b);
+  });
+  $$('[data-listen]').forEach((bar) => {
+    let items = []; try { items = JSON.parse($('#fr-text', bar).textContent).split(/\n{2,}/).map((x) => x.trim()).filter(Boolean); } catch {}
+    const play = $('[data-act="play"]', bar), speed = $('[data-speed]', bar);
+    play.addEventListener('click', () => { if (play.classList.contains('is-playing')) stopSpeech(); else speakQueue(items, Number(speed.value) || 0.9, play); });
+    $('[data-act="stop"]', bar).addEventListener('click', stopSpeech);
+  });
+  addEventListener('pagehide', stopSpeech);
+
+  // ---------- Můj sešit (localStorage) ----------
+  const DK = 'pz-deck';
+  const deckGet = () => { try { const d = JSON.parse(localStorage.getItem(DK) || '[]'); return Array.isArray(d) ? d : []; } catch { return []; } };
+  const deckSet = (d) => { try { localStorage.setItem(DK, JSON.stringify(d.slice(0, 1000))); } catch {} };
+  const syncAddButtons = () => { const have = new Set(deckGet().map((c) => c.fr)); $$('.add-card').forEach((b) => { const on = have.has(b.dataset.fr); b.setAttribute('aria-pressed', String(on)); b.textContent = on ? '✓' : '＋'; }); };
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('.add-card'); if (!b) return;
+    e.preventDefault(); e.stopPropagation();
+    const d = deckGet(), i = d.findIndex((c) => c.fr === b.dataset.fr);
+    if (i >= 0) d.splice(i, 1); else d.push({ fr: b.dataset.fr, cs: b.dataset.cs, box: 1, due: 0 });
+    deckSet(d); syncAddButtons();
+  });
+  syncAddButtons();
+  const deckEl = $('#deck');
+  if (deckEl) {
+    const DAY = 864e5, GAP = { 1: 0, 2: 1 * DAY, 3: 3 * DAY, 4: 7 * DAY };
+    let mode = 'list';
+    const render = () => {
+      const d = deckGet();
+      if (!d.length) { deckEl.replaceChildren(el('p', {}, L('Votre carnet est vide. Cliquez sur ＋ à côté d’un mot (vocabulaire, dialogues, expressions) pour l’ajouter.', 'Sešit je prázdný. Kliknutím na ＋ vedle slova (slovíčka, dialogy, výrazy) ho přidáte.'))); return; }
+      const due = d.filter((c) => (c.due || 0) <= Date.now());
+      const bar = el('div', { class: 'filters' },
+        Object.assign(el('button', { class: 'chip', type: 'button', 'aria-pressed': String(mode === 'list') }, L(`Liste (${d.length})`, `Seznam (${d.length})`)), { onclick: () => { mode = 'list'; render(); } }),
+        Object.assign(el('button', { class: 'chip', type: 'button', 'aria-pressed': String(mode === 'review') }, L(`Réviser (${due.length})`, `Opakovat (${due.length})`)), { onclick: () => { mode = 'review'; render(); } }),
+        Object.assign(el('button', { class: 'chip', type: 'button' }, L('Exporter (CSV)', 'Exportovat (CSV)')), { onclick: () => {
+          const csv = ['francais;cesky', ...d.map((c) => `"${c.fr.replace(/"/g, '""')}";"${c.cs.replace(/"/g, '""')}"`)].join('\n');
+          const a = el('a', { href: URL.createObjectURL(new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' })), download: 'parisien-carnet.csv' }); document.body.append(a); a.click(); a.remove(); } }));
+      if (mode === 'list') {
+        deckEl.replaceChildren(bar, el('table', { class: 'vocab' }, el('thead', {}, el('tr', {}, el('th', {}, L('Français', 'Francouzsky')), el('th', {}, L('Tchèque', 'Česky')), el('th', {}))),
+          el('tbody', {}, ...d.map((c) => el('tr', {}, el('td', { lang: 'fr' }, c.fr, ' ', hasTTS ? el('button', { class: 'speak-btn', type: 'button', 'data-speak': c.fr, 'aria-label': 'Écouter' }, '🔊') : null), el('td', {}, c.cs),
+            el('td', {}, Object.assign(el('button', { class: 'chip', type: 'button' }, L('Retirer', 'Odebrat')), { onclick: () => { deckSet(deckGet().filter((x) => x.fr !== c.fr)); render(); } })))))),
+          el('p', {}, Object.assign(el('button', { class: 'show-all', type: 'button' }, L('Vider le carnet', 'Vymazat sešit')), { onclick: () => { if (confirm(L('Vider tout le carnet ?', 'Opravdu vymazat celý sešit?'))) { deckSet([]); render(); } } })));
+        return;
+      }
+      if (!due.length) { deckEl.replaceChildren(bar, el('p', { class: 'quiz-score' }, L('Bravo ! Rien à réviser pour le moment.', 'Výborně! Teď není co opakovat.'))); return; }
+      const c = due[0]; let flipped = false;
+      const card = el('div', { class: 'flash' }), body = el('div', { class: 'flash-face', lang: 'fr' }, c.fr);
+      const actions = el('div', { class: 'acct-actions' });
+      const draw = () => {
+        body.textContent = flipped ? c.cs : c.fr; body.lang = flipped ? 'cs' : 'fr';
+        actions.replaceChildren(...(flipped ? [
+          Object.assign(el('button', { class: 'btn-primary', type: 'button' }, L('Je savais', 'Věděl(a) jsem')), { onclick: () => grade(true) }),
+          Object.assign(el('button', { class: 'btn-primary light-on-dark', type: 'button' }, L('À revoir', 'Znovu')), { onclick: () => grade(false) })] : [
+          Object.assign(el('button', { class: 'btn-primary', type: 'button' }, L('Voir la réponse', 'Zobrazit odpověď')), { onclick: () => { flipped = true; draw(); } }),
+          hasTTS ? Object.assign(el('button', { class: 'chip', type: 'button' }, '🔊'), { onclick: () => speakQueue([c.fr], 0.9) }) : null]));
+      };
+      const grade = (ok) => { const d2 = deckGet(), t = d2.find((x) => x.fr === c.fr); if (t) { t.box = ok ? Math.min(4, (t.box || 1) + 1) : 1; t.due = Date.now() + GAP[t.box]; deckSet(d2); } render(); };
+      card.append(body); draw(); deckEl.replaceChildren(bar, card, actions);
+    };
+    render();
+  }
+
+  // ---------- obecný kvíz (porozumění, dialogy) ----------
+  const mountQuiz = (box, questions, startLang) => {
+    let ql = startLang, i = 0, score = 0;
+    const pk = (o) => (o && (o[ql] || o.fr || o.cs)) || '';
+    const opts = (q) => (q.options[ql] && q.options[ql].length ? q.options[ql] : q.options.fr || q.options.cs || []);
+    const draw = () => {
+      const langBtn = Object.assign(el('button', { class: 'chip', type: 'button' }, ql === 'fr' ? 'FR → CS' : 'CS → FR'), { onclick: () => { ql = ql === 'fr' ? 'cs' : 'fr'; draw(); } });
+      if (i >= questions.length) { box.replaceChildren(el('p', { class: 'quiz-score' }, L(`Résultat : ${score} / ${questions.length}`, `Výsledek: ${score} / ${questions.length}`)), Object.assign(el('button', { class: 'chip', type: 'button' }, L('Recommencer', 'Znovu')), { onclick: () => { i = 0; score = 0; draw(); } })); return; }
+      const q = questions[i], fb = el('p', { class: 'quiz-fb', role: 'status' });
+      const next = el('button', { class: 'chip', type: 'button', hidden: true }, i + 1 < questions.length ? L('Question suivante', 'Další otázka') : L('Résultat', 'Výsledek'));
+      next.addEventListener('click', () => { i++; draw(); });
+      const list = el('div', { class: 'quiz-opts' }, ...opts(q).map((o, k) => {
+        const b = el('button', { type: 'button', class: 'quiz-opt' }, o);
+        b.addEventListener('click', () => {
+          $$('.quiz-opt', list).forEach((x, n) => { x.disabled = true; if (n === q.answer) x.classList.add('ok'); });
+          if (k === q.answer) score++; else b.classList.add('ko');
+          fb.textContent = (k === q.answer ? L('Bravo ! ', 'Správně! ') : L('Pas tout à fait. ', 'Ne tak docela. ')) + pk(q.explain); next.hidden = false;
+        });
+        return b;
+      }));
+      box.replaceChildren(el('div', { class: 'quiz-top' }, el('span', { class: 'quiz-n' }, `${i + 1} / ${questions.length}`), langBtn), el('h4', { class: 'quiz-q' }, pk(q.q)), list, fb, next);
+    };
+    draw();
+  };
+  const cq = $('#cq');
+  if (cq) { try { mountQuiz(cq, JSON.parse($('#cq-data').textContent), cq.dataset.lang === 'cs' ? 'fr' : 'fr'); } catch {} }
+  $$('.dlg').forEach((d) => {
+    const mq = $('.mini-quiz', d); let mounted = false;
+    d.addEventListener('toggle', () => { if (d.open && mq && !mounted) { mounted = true; try { mountQuiz(mq, JSON.parse($('.quiz-json', d).textContent), 'fr'); } catch {} } });
+    $('[data-dlg-trans]', d)?.addEventListener('click', (e) => { const on = d.dataset.showTrans !== '1'; d.dataset.showTrans = on ? '1' : '0'; e.currentTarget.setAttribute('aria-pressed', String(on)); });
+    $('[data-dlg-play]', d)?.addEventListener('click', (e) => { const b = e.currentTarget; if (b.classList.contains('is-playing')) stopSpeech(); else speakQueue($$('.dlg-line .fr', d).map((x) => x.textContent), 0.9, b); });
+  });
+
+  // ---------- výrazy: filtr typ + hledání ----------
+  const exprList = $('#expr-list');
+  if (exprList) {
+    let type = '', q = '';
+    const norm = (t) => t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    const apply = () => $$('.expr', exprList).forEach((c) => { c.classList.toggle('expr-hidden', Boolean((type && c.dataset.type !== type) || (q && !norm(c.dataset.search).includes(q)))); });
+    $$('#expr-filters .chip').forEach((b) => b.addEventListener('click', () => { type = b.dataset.type; $$('#expr-filters .chip').forEach((x) => x.setAttribute('aria-pressed', String(x === b))); apply(); }));
+    $('#expr-q')?.addEventListener('input', (e) => { q = norm(e.target.value.trim()); apply(); });
+  }
+
+  // ---------- hledání na webu ----------
+  const sf = $('#search-form');
+  if (sf) {
+    const input = $('#site-search'), out = $('#search-results'), cnt = $('#search-count');
+    let index = null;
+    const norm = (t) => String(t).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    const run = () => {
+      const terms = norm(input.value).split(/\s+/).filter((t) => t.length > 1);
+      if (!index || !terms.length) { out.replaceChildren(); cnt.textContent = ''; return; }
+      const scored = index.map((e) => { const t = norm(e.t), x = norm(e.x || ''); let s = 0; for (const w of terms) { if (t.includes(w)) s += 5; else if (x.includes(w)) s += 1; else return null; } return { e, s }; }).filter(Boolean).sort((a, b) => b.s - a.s).slice(0, 40);
+      cnt.textContent = L(`${scored.length} résultat(s)`, `Nalezeno: ${scored.length}`);
+      out.replaceChildren(...scored.map(({ e }) => el('li', {}, el('a', { href: e.u }, e.t), ' ', el('span', { class: 'tag' }, e.k), e.d ? el('p', {}, e.d) : null)));
+    };
+    fetch(`/search-index-${lang}.json`).then((r) => r.json()).then((d) => { index = d; run(); }).catch(() => { cnt.textContent = L('Index indisponible.', 'Index není dostupný.'); });
+    input.addEventListener('input', run); sf.addEventListener('submit', (e) => e.preventDefault());
+    const qs = new URLSearchParams(location.search).get('q'); if (qs) input.value = qs; input.focus();
+  }
+
+  // ---------- výraz dne (úvodní stránka) ----------
+  const exprDay = $('#expr-day');
+  if (exprDay) {
+    fetch('/data/expressions.json').then((r) => r.json()).then((all) => {
+      const w = lvGet(); const pool = all.filter((e) => !w || LV.indexOf(e.level) <= LV.indexOf(w));
+      const list = pool.length ? pool : all; if (!list.length) return;
+      const day = Math.floor(Date.now() / 864e5), e = list[day % list.length];
+      exprDay.replaceChildren(el('div', { class: 'expr-day' },
+        el('span', { class: 'kicker-small' }, L('Expression du jour', 'Výraz dne')), ' ', el('span', { class: `tag lvl lvl-${e.level}` }, e.level),
+        el('h3', { lang: 'fr' }, e.fr, ' ', hasTTS ? el('button', { class: 'speak-btn', type: 'button', 'data-speak': e.fr, 'aria-label': 'Écouter' }, '🔊') : null),
+        el('p', {}, (e.meaning && (e.meaning[lang] || e.meaning.fr)) || ''),
+        e.example ? el('p', { class: 'tip' }, el('em', { lang: 'fr' }, e.example.fr), el('br'), e.example.cs) : null,
+        el('a', { class: 'read-more', href: `/${lang}/expressions` }, L('Toutes les expressions →', 'Všechny výrazy →'))));
+      showAudio();
+    }).catch(() => {});
   }
 
   // ---------- formulář ----------

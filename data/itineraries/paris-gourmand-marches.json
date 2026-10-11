@@ -1,0 +1,86 @@
+{
+  "id": "paris-gourmand-marches",
+  "level": "B1",
+  "title": {
+    "fr": "Paris gourmand : marchés, pâtisseries et salons de thé",
+    "cs": "Labužnická Paříž: trhy, cukrárny a čajové salony"
+  },
+  "intro": {
+    "fr": "Pour comprendre la cuisine parisienne, il faut regarder où l'on fait ses courses. Cet itinéraire passe par trois marchés, une place royale, la plus ancienne pâtisserie de la ville et un salon de thé de la Belle Époque. Vous allez surtout goûter, regarder et écouter les vendeurs.",
+    "cs": "Chcete-li pochopit pařížskou kuchyni, podívejte se, kde se nakupuje. Tato trasa vede přes tři trhy, královské náměstí, nejstarší cukrárnu ve městě a čajový salon z belle époque. Hlavně budete ochutnávat, pozorovat a poslouchat prodavače."
+  },
+  "easy": {
+    "fr": "Cet itinéraire visite des marchés et des pâtisseries. Vous goûtez du fromage, du pain et des gâteaux. Vous finissez dans un joli salon de thé.",
+    "cs": "Tato trasa vede přes trhy a cukrárny. Ochutnáte sýr, chleba a dorty. Skončíte v hezkém čajovém salonu."
+  },
+  "duration": {
+    "fr": "environ une demi-journée",
+    "cs": "zhruba půl dne"
+  },
+  "stops": [
+    {
+      "ref": "markets:aligre",
+      "note": {
+        "fr": "Commencez dans le 12e. La rue d'Aligre accueille un marché en plein air, et la halle Beauvau date de 1779. Écoutez les marchands annoncer leurs produits.",
+        "cs": "Začněte ve 12. obvodu. V ulici rue d'Aligre je venkovní trh a hala Beauvau pochází z roku 1779. Poslouchejte, jak prodavači vyvolávají své zboží."
+      }
+    },
+    {
+      "ref": "markets:bastille",
+      "note": {
+        "fr": "Marchez vers le boulevard Richard-Lenoir. Ce grand marché ne tient que certains jours, vérifiez-les avant de partir. Fromages, poissons et légumes de saison s'y côtoient.",
+        "cs": "Dojděte k bulváru Richard-Lenoir. Tento velký trh se koná jen v určité dny, zkontrolujte je před odchodem. Sýry, ryby a sezonní zelenina tu stojí vedle sebe."
+      }
+    },
+    {
+      "ref": "places:place-des-vosges",
+      "note": {
+        "fr": "Continuez vers la place des Vosges, inaugurée en 1612. Sous les arcades, faites une pause avec ce que vous avez acheté au marché.",
+        "cs": "Pokračujte na place des Vosges, slavnostně otevřené roku 1612. Pod podloubím si odpočiňte s tím, co jste na trhu nakoupili."
+      }
+    },
+    {
+      "ref": "markets:enfants-rouges",
+      "note": {
+        "fr": "Dans le Marais, entrez dans le plus ancien marché couvert de Paris. On y mange sur place des plats de cuisines très variées.",
+        "cs": "V Marais vstupte do nejstaršího krytého trhu v Paříži. Jídla z velmi různých kuchyní se tu jedí přímo na místě."
+      }
+    },
+    {
+      "query": "Stohrer, 51 rue Montorgueil, Paris",
+      "name": {
+        "fr": "Stohrer",
+        "cs": "Stohrer"
+      },
+      "note": {
+        "fr": "Rue Montorgueil, on est devant la plus ancienne pâtisserie de Paris, ouverte en 1730 par Nicolas Stohrer, ancien pâtissier de la reine Marie Leszczyńska. Regardez la vitrine et le décor.",
+        "cs": "V ulici rue Montorgueil stojíte před nejstarší pařížskou cukrárnou, kterou v roce 1730 otevřel Nicolas Stohrer, bývalý cukrář královny Marie Leszczyńské. Prohlédněte si výlohu a výzdobu."
+      }
+    },
+    {
+      "ref": "places:palais-royal",
+      "note": {
+        "fr": "Descendez vers le jardin du Palais-Royal. C'est un endroit calme pour manger un gâteau et regarder les galeries.",
+        "cs": "Vydejte se do zahrady Palais-Royal. Je to klidné místo, kde si můžete dát zákusek a prohlédnout si pasáže."
+      }
+    },
+    {
+      "ref": "cafes:angelina",
+      "note": {
+        "fr": "Terminez rue de Rivoli, dans le salon de thé ouvert en 1903. Il est connu pour son chocolat chaud «  l'Africain  » et son Mont-Blanc.",
+        "cs": "Skončete v ulici rue de Rivoli v čajovém salonu otevřeném roku 1903. Je známý horkou čokoládou „l'Africain“ a dortem Mont-Blanc."
+      }
+    }
+  ],
+  "tip": {
+    "fr": "Les marchés n'ont pas lieu tous les jours : regardez les jours sur paris.fr. Emportez un sac et dites toujours «  Bonjour  » avant de commander.",
+    "cs": "Trhy se nekonají každý den: dny zkontrolujte na paris.fr. Vezměte si tašku a před objednávkou vždy pozdravte „Bonjour“."
+  },
+  "sources": [
+    "https://www.paris.fr/pages/un-petit-tour-au-marche-couvert-des-enfants-rouges-34089",
+    "https://fr.wikipedia.org/wiki/Nicolas_Stohrer",
+    "https://fr.wikipedia.org/wiki/Marché_d%27Aligre",
+    "https://www.paris.fr/lieux/marche-bastille-5477",
+    "https://www.angelina-paris.fr"
+  ]
+}

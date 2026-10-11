@@ -1,0 +1,308 @@
+{
+  "id": "conversation-quartier",
+  "level": "B2",
+  "title": {
+    "fr": "Le quartier a changé",
+    "cs": "Čtvrť se změnila"
+  },
+  "scene": {
+    "fr": "Deux Parisiens qui habitent le même quartier depuis longtemps se croisent dans la rue et parlent de tout ce qui a changé autour d'eux.",
+    "cs": "Dva Pařížané, kteří bydlí ve stejné čtvrti už dlouho, se potkají na ulici a povídají si o všem, co se kolem nich změnilo."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, voisine de longue date",
+        "cs": "Hélène, dlouholetá sousedka"
+      },
+      "fr": "Marc ! Ça fait une éternité ! Tu as vu, l'ancienne quincaillerie est devenue un café de spécialité.",
+      "cs": "Marku! Tak dlouho jsme se neviděli! Všiml sis, že z bývalého železářství je kavárna se specialitami?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Marc, voisin de longue date",
+        "cs": "Marc, dlouholetý soused"
+      },
+      "fr": "Ne m'en parle pas, j'y suis passé hier. Ils servent un café très correct, mais j'avoue que j'ai eu un petit pincement au cœur. Je venais y acheter mes vis depuis vingt ans.",
+      "cs": "Ani mi o tom nemluv, včera jsem tam byl. Kávu mají docela dobrou, ale přiznávám, že mě to trochu zabolelo. Šrouby jsem tam kupoval dvacet let."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, voisine de longue date",
+        "cs": "Hélène, dlouholetá sousedka"
+      },
+      "fr": "Je comprends. Mais d'un autre côté, la rue est bien plus vivante qu'avant, non ? Il y a du monde le soir, ce qui n'était pas le cas quand on est arrivés.",
+      "cs": "Chápu. Ale na druhou stranu je ulice mnohem živější než dřív, ne? Večer tu jsou lidé, což nebylo, když jsme se sem přistěhovali."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Marc, voisin de longue date",
+        "cs": "Marc, dlouholetý soused"
+      },
+      "fr": "Vivante, oui, mais pour qui ? Les commerces de proximité ferment les uns après les autres, et ce sont les loyers qui augmentent, pas les salaires.",
+      "cs": "Živější, ano, ale pro koho? Obchody na rohu zavírají jeden za druhým a rostou nájmy, ne platy."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, voisine de longue date",
+        "cs": "Hélène, dlouholetá sousedka"
+      },
+      "fr": "C'est vrai, mon fils cherche un appartement dans le quartier et il n'a aucune chance. Il devra partir en banlieue, comme beaucoup de jeunes.",
+      "cs": "To je pravda, můj syn hledá byt ve čtvrti a nemá šanci. Bude se muset přestěhovat na předměstí, jako spousta mladých."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Marc, voisin de longue date",
+        "cs": "Marc, dlouholetý soused"
+      },
+      "fr": "Voilà le vrai problème. On dit que le quartier s'embourgeoise, et ce n'est pas qu'une impression. Les familles d'ici sont remplacées par des gens qui ne restent que quelques années.",
+      "cs": "To je ten skutečný problém. Říká se, že se čtvrť gentrifikuje, a není to jen dojem. Místní rodiny nahrazují lidé, kteří tu zůstanou jen pár let."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, voisine de longue date",
+        "cs": "Hélène, dlouholetá sousedka"
+      },
+      "fr": "Sans compter les locations touristiques. Dans mon immeuble, il y a trois appartements qu'on voit à peine habités, juste des valises sur le palier.",
+      "cs": "Nemluvě o turistických pronájmech. V mém domě jsou tři byty, které skoro nikdo neobývá, jen kufry na chodbě."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Marc, voisin de longue date",
+        "cs": "Marc, dlouholetý soused"
+      },
+      "fr": "Pourtant, il faut reconnaître que certaines choses se sont améliorées. Les trottoirs sont plus larges, il y a des pistes cyclables, et on respire mieux.",
+      "cs": "Přesto je třeba uznat, že některé věci se zlepšily. Chodníky jsou širší, jsou tu cyklostezky a líp se tu dýchá."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, voisine de longue date",
+        "cs": "Hélène, dlouholetá sousedka"
+      },
+      "fr": "Là-dessus, je te donne raison. Moi qui ne faisais jamais de vélo, je m'y suis mise l'an dernier, et je ne reviendrais pas en arrière.",
+      "cs": "V tom ti dávám za pravdu. Já, která jsem nikdy nejezdila na kole, jsem s tím loni začala a už bych se nevrátila."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Marc, voisin de longue date",
+        "cs": "Marc, dlouholetý soused"
+      },
+      "fr": "Et le marché, il tient bon, lui. C'est peut-être ce qui nous reste de l'esprit d'autrefois.",
+      "cs": "A trh se drží. To je možná to, co nám zbylo z ducha dřívějška."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, voisine de longue date",
+        "cs": "Hélène, dlouholetá sousedka"
+      },
+      "fr": "Oui, mais regarde : la moitié des étals vend maintenant des produits « bio » pour une clientèle nouvelle. Les anciens clients, eux, se sentent un peu à l'écart.",
+      "cs": "Ano, ale podívej: polovina stánků teď prodává „bio“ zboží pro novou klientelu. Staří zákazníci se cítí trochu stranou."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Marc, voisin de longue date",
+        "cs": "Marc, dlouholetý soused"
+      },
+      "fr": "Je ne sais pas si c'est si simple. L'autre jour, j'ai vu une jeune voisine aider une vieille dame à porter son cabas jusqu'à l'ascenseur. Les gens ne sont pas si différents.",
+      "cs": "Nevím, jestli je to tak jednoduché. Onehdy jsem viděl mladou sousedku, jak pomáhá starší paní odnést nákupní tašku k výtahu. Lidé se zas tak neliší."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, voisine de longue date",
+        "cs": "Hélène, dlouholetá sousedka"
+      },
+      "fr": "Tu as raison, il ne faut pas tomber dans la nostalgie facile. Le quartier n'était pas parfait avant non plus, il y avait des rues qu'on évitait le soir.",
+      "cs": "Máš pravdu, nesmíme propadat laciné nostalgii. Ani dřív nebyla čtvrť dokonalá, byly ulice, kterým jsme se večer vyhýbali."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Marc, voisin de longue date",
+        "cs": "Marc, dlouholetý soused"
+      },
+      "fr": "Exactement. Ce qui m'inquiète, c'est moins le changement que sa vitesse. On n'a pas le temps de s'habituer qu'une autre boutique a déjà disparu.",
+      "cs": "Přesně. Netrápí mě tolik změna jako její rychlost. Nestačíme si zvyknout a další obchod už zmizel."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, voisine de longue date",
+        "cs": "Hélène, dlouholetá sousedka"
+      },
+      "fr": "Alors, il nous reste une solution : continuer à fréquenter les commerces qui nous plaisent, sinon ils ne tiendront pas.",
+      "cs": "Zbývá nám tedy jediné: chodit dál do obchodů, které se nám líbí, jinak nepřežijí."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Marc, voisin de longue date",
+        "cs": "Marc, dlouholetý soused"
+      },
+      "fr": "Marché conclu. Et pour commencer, viens avec moi goûter le café de l'ancienne quincaillerie, histoire de voir si tu te réconcilies avec lui.",
+      "cs": "Platí. A na začátek pojď se mnou ochutnat kávu v bývalém železářství, abychom viděli, jestli se s ní usmíříš."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Hélène, voisine de longue date",
+        "cs": "Hélène, dlouholetá sousedka"
+      },
+      "fr": "Avec plaisir, mais c'est moi qui paie : tu m'as convaincue, c'est la moindre des choses !",
+      "cs": "S radostí, ale platím já: přesvědčil jsi mě, to je to nejmenší!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "une éternité",
+      "cs": "věčnost (« ça fait une éternité » = už je to strašně dlouho)"
+    },
+    {
+      "fr": "la quincaillerie",
+      "cs": "železářství"
+    },
+    {
+      "fr": "un pincement au cœur",
+      "cs": "stisk u srdce, lítost"
+    },
+    {
+      "fr": "le commerce de proximité",
+      "cs": "obchod v okolí, „na rohu“"
+    },
+    {
+      "fr": "s'embourgeoiser",
+      "cs": "stávat se měšťáckým, gentrifikovat se"
+    },
+    {
+      "fr": "le loyer",
+      "cs": "nájem"
+    },
+    {
+      "fr": "le palier",
+      "cs": "odpočívadlo, chodba před bytem"
+    },
+    {
+      "fr": "la piste cyclable",
+      "cs": "cyklostezka"
+    },
+    {
+      "fr": "l'étal (m.)",
+      "cs": "trhový stánek"
+    },
+    {
+      "fr": "être à l'écart",
+      "cs": "být stranou"
+    }
+  ],
+  "tip": {
+    "fr": "Dans un quartier, le café du coin, le marché et les commerçants que l'on salue font partie des petits rituels du quotidien. Quand ces lieux changent, on parle volontiers de « l'âme du quartier ».",
+    "cs": "Ve čtvrti k malým každodenním rituálům patří kavárna na rohu, trh a obchodníci, které zdravíte. Když se tato místa mění, mluví se rádo o „duši čtvrti“."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Quel sentiment Marc éprouve-t-il à propos de l'ancienne quincaillerie ?",
+        "cs": "Jaký pocit má Marc kvůli bývalému železářství?"
+      },
+      "options": {
+        "fr": [
+          "De la colère contre le nouveau propriétaire",
+          "Un peu de regret, même si le café est bon",
+          "De la joie, car il déteste le bricolage"
+        ],
+        "cs": [
+          "Vztek na nového majitele",
+          "Trochu lítosti, i když je káva dobrá",
+          "Radost, protože nesnáší kutilství"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Il dit que le café est correct mais qu'il a eu « un petit pincement au cœur ».",
+        "cs": "Říká, že káva je dobrá, ale že ho to trochu zabolelo."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel problème Hélène et Marc évoquent-ils à propos du logement ?",
+        "cs": "Jaký problém Hélène a Marc zmiňují v souvislosti s bydlením?"
+      },
+      "options": {
+        "fr": [
+          "Les appartements sont trop petits.",
+          "Les voisins font trop de bruit.",
+          "Les loyers augmentent et les jeunes doivent partir."
+        ],
+        "cs": [
+          "Byty jsou příliš malé.",
+          "Sousedé dělají příliš hluku.",
+          "Nájmy rostou a mladí musí odcházet."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Ils parlent des loyers qui augmentent et du fils d'Hélène qui devra partir en banlieue.",
+        "cs": "Mluví o rostoucích nájmech a o Héléninu synovi, který bude muset na předměstí."
+      }
+    },
+    {
+      "q": {
+        "fr": "Selon Marc, que prouve l'exemple de la jeune voisine ?",
+        "cs": "Co podle Marka dokazuje příklad mladé sousedky?"
+      },
+      "options": {
+        "fr": [
+          "Que les gens ne sont pas si différents qu'on le croit",
+          "Que les nouveaux habitants sont tous égoïstes",
+          "Que les personnes âgées vivent seules"
+        ],
+        "cs": [
+          "Že lidé nejsou tak odlišní, jak si myslíme",
+          "Že jsou všichni noví obyvatelé sobečtí",
+          "Že starší lidé žijí sami"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Il conclut lui-même : « Les gens ne sont pas si différents. »",
+        "cs": "Sám uzavírá: lidé se zas tak neliší."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qui inquiète surtout Marc ?",
+        "cs": "Co Marka znepokojuje nejvíc?"
+      },
+      "options": {
+        "fr": [
+          "Le changement lui-même",
+          "Le manque de cafés",
+          "La rapidité du changement"
+        ],
+        "cs": [
+          "Změna samotná",
+          "Nedostatek kaváren",
+          "Rychlost změny"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Il dit : « Ce qui m'inquiète, c'est moins le changement que sa vitesse. »",
+        "cs": "Říká, že ho znepokojuje spíš rychlost než změna samotná."
+      }
+    }
+  ],
+  "sources": []
+}

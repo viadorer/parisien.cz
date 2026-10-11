@@ -97,5 +97,107 @@
     "https://www.sncf-connect.com",
     "https://www.iledefrance-mobilites.fr",
     "https://www.transilien.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Pourquoi l'auteur écrit-il que le RER C s'arrête « comme s'il s'excusait de ne pouvoir aller plus loin » ?",
+        "cs": "Proč autor píše, že RER C končí, „comme s'il s'excusait de ne pouvoir aller plus loin“?"
+      },
+      "options": {
+        "fr": [
+          "Pour signaler une panne du réseau.",
+          "Pour critiquer la SNCF.",
+          "Pour personnifier le terminus avec humour, en soulignant la fin de la ligne.",
+          "Pour expliquer que le château est fermé."
+        ],
+        "cs": [
+          "Aby upozornil na poruchu v síti.",
+          "Aby kritizoval SNCF.",
+          "Aby s humorem zosobnil konečnou a zdůraznil konec trati.",
+          "Aby vysvětlil, že zámek je zavřený."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "L'auteur personnifie le terminus (« des terminus qui ressemblent à des aveux ») : image humoristique, pas un fait.",
+        "cs": "Autor zosobňuje konečnou („des terminus qui ressemblent à des aveux“): humorný obraz, ne fakt."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que laisse entendre l'expression « Fontainebleau, lui, se fait désirer » ?",
+        "cs": "Co naznačuje výraz „Fontainebleau, lui, se fait désirer“?"
+      },
+      "options": {
+        "fr": [
+          "L'accès y est moins immédiat : la gare est loin du château.",
+          "Le château est très populaire.",
+          "Le train pour Fontainebleau est toujours complet.",
+          "Le château ouvre tard le matin."
+        ],
+        "cs": [
+          "Přístup je méně přímý: nádraží je daleko od zámku.",
+          "Zámek je velmi oblíbený.",
+          "Vlak do Fontainebleau je vždy plný.",
+          "Zámek se ráno otevírá pozdě."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "La suite explique : « la gare se tient à plusieurs kilomètres du château, et c'est un bus local qui comble la distance ».",
+        "cs": "Pokračování vysvětluje: „la gare se tient à plusieurs kilomètres du château, et c'est un bus local qui comble la distance“."
+      }
+    },
+    {
+      "q": {
+        "fr": "À quoi renvoie « Un grain de sable, toutefois, vient gripper cette belle mécanique » ?",
+        "cs": "K čemu odkazuje věta „Un grain de sable, toutefois, vient gripper cette belle mécanique“?"
+      },
+      "options": {
+        "fr": [
+          "À une panne du TER.",
+          "À la longueur de la marche dans la forêt.",
+          "À la fermeture du château.",
+          "Au fait que la gare est hors de la zone tarifaire d'Île-de-France."
+        ],
+        "cs": [
+          "K poruše vlaku TER.",
+          "K délce cesty pěšky lesem.",
+          "K uzavření zámku.",
+          "K tomu, že nádraží leží mimo tarifní zónu Île-de-France."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Le « grain de sable » : « la gare se trouve hors de la zone tarifaire d'Île-de-France, si bien qu'un forfait Navigo ne suffit pas toujours ».",
+        "cs": "„Grain de sable“: „la gare se trouve hors de la zone tarifaire d'Île-de-France, si bien qu'un forfait Navigo ne suffit pas toujours“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle leçon la fin de la section sur Rouen et Reims suggère-t-elle ?",
+        "cs": "Jaké ponaučení naznačuje závěr oddílu o Rouenu a Remeši?"
+      },
+      "options": {
+        "fr": [
+          "Il faut tout voir en une seule journée.",
+          "Mieux vaut choisir ce qu'on regarde que tout vouloir voir.",
+          "Il vaut mieux partir tard.",
+          "Ces villes ne méritent pas le voyage."
+        ],
+        "cs": [
+          "V jediném dni je třeba vidět všechno.",
+          "Lepší je vybrat si, na co se podíváme, než chtít vidět vše.",
+          "Je lepší vyrazit pozdě.",
+          "Tato města si cestu nezaslouží."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Ces journées récompensent ceux qui acceptent « de renoncer à tout voir pour mieux regarder ce qu'ils ont choisi ».",
+        "cs": "Tyto dny odmění ty, kdo přijmou „de renoncer à tout voir pour mieux regarder ce qu'ils ont choisi“."
+      }
+    }
   ]
 }

@@ -85,5 +85,107 @@
     "https://cafedeflore.fr",
     "https://www.lesdeuxmagots.fr",
     "https://www.procope.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Quelle démarche l'auteur annonce-t-il dès l'introduction ?",
+        "cs": "Jaký postup autor ohlašuje už v úvodu?"
+      },
+      "options": {
+        "fr": [
+          "Défendre toutes les légendes",
+          "Comparer les prix des cafés",
+          "Séparer l'histoire de la légende",
+          "Classer les cafés par âge"
+        ],
+        "cs": [
+          "Obhajovat všechny legendy",
+          "Srovnávat ceny kaváren",
+          "Oddělit historii od legendy",
+          "Řadit kavárny podle stáří"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« distinguer ... ce qui relève de l'histoire et ce qui tient de la légende ».",
+        "cs": "„distinguer … ce qui relève de l'histoire et ce qui tient de la légende“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi la « nuance » sur le plus vieux café d'Europe a-t-elle son importance ?",
+        "cs": "Proč má „nuance“ o nejstarší kavárně Evropy význam?"
+      },
+      "options": {
+        "fr": [
+          "L'argument publicitaire repose sur une continuité que l'histoire confirme à moitié",
+          "Le Procope est plus récent que le Flore",
+          "Le Procope a changé de nom trois fois",
+          "Le texte veut critiquer le prix des repas"
+        ],
+        "cs": [
+          "Reklamní argument stojí na návaznosti, kterou historie potvrzuje jen napůl",
+          "Procope je mladší než Flore",
+          "Procope třikrát změnil jméno",
+          "Text chce kritizovat ceny jídel"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« l'argument publicitaire repose sur une continuité que l'histoire ne confirme qu'à moitié ».",
+        "cs": "„l'argument publicitaire repose sur une continuité que l'histoire ne confirme qu'à moitié“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que révèle la formule de Sartre sur la fonction du café ?",
+        "cs": "Co odhaluje Sartrova formule o úloze kavárny?"
+      },
+      "options": {
+        "fr": [
+          "Le café était un lieu de passage",
+          "Le café était un prolongement du domicile, voire un bureau partagé",
+          "Le café servait de salle de concert",
+          "Le café était un lieu de repos réservé aux touristes"
+        ],
+        "cs": [
+          "Kavárna byla průchozím místem",
+          "Kavárna byla prodloužením domova, ba i sdílenou kanceláří",
+          "Kavárna sloužila jako koncertní sál",
+          "Kavárna byla místem odpočinku jen pro turisty"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« le café n'était plus un lieu de passage, mais un prolongement du domicile ».",
+        "cs": "„le café n'était plus un lieu de passage, mais un prolongement du domicile“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel statut le texte donne-t-il à l'anecdote de Fitzgerald et du manuscrit de Gatsby ?",
+        "cs": "Jaký status text dává anekdotě o Fitzgeraldovi a rukopisu Gatsbyho?"
+      },
+      "options": {
+        "fr": [
+          "Un fait attesté par Hemingway",
+          "Une invention de l'auteur",
+          "Un épisode daté de 1964",
+          "Une anecdote rapportée, non un fait établi"
+        ],
+        "cs": [
+          "Fakt doložený Hemingwayem",
+          "Autorův výmysl",
+          "Epizoda datovaná do roku 1964",
+          "Převzatá anekdota, ne ověřený fakt"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« il s'agit d'une anecdote rapportée et non d'un fait établi ».",
+        "cs": "„il s'agit d'une anecdote rapportée et non d'un fait établi“."
+      }
+    }
   ]
 }

@@ -60,5 +60,99 @@
     "https://creativecommons.org/licenses/by-sa/4.0/deed.cs",
     "https://commons.wikimedia.org/wiki/Commons:Licensing",
     "https://fr.wikipedia.org/wiki/Imparfait"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que voulez-vous écrire ?",
+        "cs": "Co chcete napsat?"
+      },
+      "options": {
+        "fr": [
+          "Une lettre à un ami.",
+          "Un petit récit de voyage.",
+          "Une recette de cuisine."
+        ],
+        "cs": [
+          "Dopis příteli.",
+          "Krátký cestopis.",
+          "Kuchařský recept."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Première phrase : « Vous voulez écrire un petit récit de voyage ? »",
+        "cs": "První věta: chcete napsat krátký cestopis?"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que donne-t-on à la fin du texte ?",
+        "cs": "Co se dává na konec textu?"
+      },
+      "options": {
+        "fr": [
+          "Un conseil pratique.",
+          "Un prix.",
+          "Une photo d'un autre site."
+        ],
+        "cs": [
+          "Praktickou radu.",
+          "Cenu.",
+          "Fotku z jiného webu."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« À la fin, donnez un conseil pratique. »",
+        "cs": "„Na konec dejte praktickou radu.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Les photos doivent être…",
+        "cs": "Fotky musí být…"
+      },
+      "options": {
+        "fr": [
+          "sur un site officiel.",
+          "à vous.",
+          "à un autre auteur."
+        ],
+        "cs": [
+          "z oficiálního webu.",
+          "vaše.",
+          "od jiného autora."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Vos photos doivent être à vous. »",
+        "cs": "„Fotky musí být vaše.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Qu'est-ce qu'on ne doit pas écrire ?",
+        "cs": "Co se nesmí psát?"
+      },
+      "options": {
+        "fr": [
+          "Les prix et les horaires.",
+          "Les noms des lieux.",
+          "Les dates."
+        ],
+        "cs": [
+          "Ceny a otevírací doby.",
+          "Názvy míst.",
+          "Data."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Les prix et les horaires changent : ne les écrivez pas. »",
+        "cs": "„Ceny a otevírací doby se mění: nepište je.“"
+      }
+    }
   ]
 }

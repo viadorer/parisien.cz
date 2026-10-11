@@ -82,5 +82,99 @@
     "https://en.wikipedia.org/wiki/Coul%C3%A9e_verte_Ren%C3%A9-Dumont",
     "https://www.paris.fr/equipements/coulee-verte-rene-dumont-1772",
     "https://www.velib-metropole.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Quelle nuance l'auteur apporte-t-il aux chiffres d'ouverture ?",
+        "cs": "Jakou výhradu autor k úvodním číslům připojuje?"
+      },
+      "options": {
+        "fr": [
+          "Ils ne concernent que les déplacements des actifs, mais signalent un basculement.",
+          "Ils concernent tous les déplacements de tous les habitants.",
+          "Ils prouvent que la voiture a disparu de Paris."
+        ],
+        "cs": [
+          "Týkají se jen cest ekonomicky aktivních, ale signalizují zlom.",
+          "Týkají se všech cest všech obyvatel.",
+          "Dokazují, že auta z Paříže zmizela."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Le texte admet que les chiffres ne concernent qu'une catégorie, « mais ils n'en signalent pas moins un basculement ».",
+        "cs": "Text připouští, že čísla se týkají jen jedné kategorie, „přesto signalizují zlom“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie « un kilométrage n'a de sens que rapporté à sa définition » ?",
+        "cs": "Co znamená „un kilométrage n'a de sens que rapporté à sa définition“?"
+      },
+      "options": {
+        "fr": [
+          "Qu'un chiffre doit être cité avec sa date, sa source et ce qu'il regroupe.",
+          "Que les kilomètres ne comptent pas.",
+          "Que Paris.fr donne des chiffres faux."
+        ],
+        "cs": [
+          "Že číslo je třeba uvádět s datem, zdrojem a tím, co zahrnuje.",
+          "Že na kilometrech nezáleží.",
+          "Že Paris.fr uvádí nepravdivá čísla."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Le chiffre regroupe pistes, bandes et voies partagées ; l'auteur recommande de le citer avec date et source.",
+        "cs": "Číslo zahrnuje dráhy, pruhy i sdílené ulice; autor doporučuje uvádět datum a zdroj."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle leçon l'auteur tire-t-il des « coronapistes » ?",
+        "cs": "Jaké poučení autor vyvozuje z „coronapistes“?"
+      },
+      "options": {
+        "fr": [
+          "Les mesures d'urgence sont toujours supprimées.",
+          "Les pistes provisoires coûtent trop cher.",
+          "Une mesure d'urgence peut devenir un acquis durable si elle répond à un besoin."
+        ],
+        "cs": [
+          "Nouzová opatření se vždy zruší.",
+          "Provizorní stezky stojí příliš mnoho.",
+          "Nouzové opatření se může stát trvalým přínosem, odpovídá-li na potřebu."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Phrase finale du paragraphe : une mesure d'urgence peut devenir « un acquis durable ».",
+        "cs": "Závěr odstavce: nouzové opatření se může stát „trvalým přínosem“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire l'auteur en affirmant qu'un service public se juge « moins à ses promesses qu'à sa régularité » ?",
+        "cs": "Co chce autor říct tím, že veřejná služba se posuzuje „moins à ses promesses qu'à sa régularité“?"
+      },
+      "options": {
+        "fr": [
+          "Que Vélib' n'a fait aucune promesse.",
+          "Que la fiabilité au quotidien compte plus que les annonces.",
+          "Que les usagers préfèrent les services gratuits."
+        ],
+        "cs": [
+          "Že Vélib' nedal žádné sliby.",
+          "Že každodenní spolehlivost je důležitější než sliby.",
+          "Že uživatelé upřednostňují bezplatné služby."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Phrase placée après le début difficile sous Smovengo, marqué par des dysfonctionnements.",
+        "cs": "Věta následuje po těžkém začátku se Smovengo, poznamenaném poruchami."
+      }
+    }
   ]
 }

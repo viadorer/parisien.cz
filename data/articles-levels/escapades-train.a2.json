@@ -81,5 +81,99 @@
     "https://www.sncf-connect.com",
     "https://www.iledefrance-mobilites.fr",
     "https://www.transilien.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Comment va-t-on de la gare de Fontainebleau au château ?",
+        "cs": "Jak se dostaneme z nádraží ve Fontainebleau k zámku?"
+      },
+      "options": {
+        "fr": [
+          "À pied, cinq cents mètres",
+          "En bus",
+          "En RER C"
+        ],
+        "cs": [
+          "Pěšky, pět set metrů",
+          "Autobusem",
+          "Linkou RER C"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« La gare est loin du château. Il faut prendre un bus. »",
+        "cs": "„La gare est loin du château. Il faut prendre un bus.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi faut-il vérifier son billet pour Chantilly ?",
+        "cs": "Proč je u cesty do Chantilly třeba zkontrolovat jízdenku?"
+      },
+      "options": {
+        "fr": [
+          "Le train part la nuit.",
+          "Le trajet dure trois heures.",
+          "La gare est hors de la zone Île-de-France."
+        ],
+        "cs": [
+          "Vlak jede v noci.",
+          "Cesta trvá tři hodiny.",
+          "Nádraží je mimo zónu Île-de-France."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Cette gare est hors de la zone Île-de-France. Le forfait Navigo ne suffit pas toujours. »",
+        "cs": "„Cette gare est hors de la zone Île-de-France. Le forfait Navigo ne suffit pas toujours.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand visite-t-on en général la maison de Monet ?",
+        "cs": "Kdy se obvykle navštěvuje Monetův dům?"
+      },
+      "options": {
+        "fr": [
+          "De fin mars à fin octobre",
+          "Toute l'année",
+          "Seulement en hiver"
+        ],
+        "cs": [
+          "Od konce března do konce října",
+          "Celý rok",
+          "Jen v zimě"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« …en général de fin mars à fin octobre. »",
+        "cs": "„…en général de fin mars à fin octobre.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand existe-t-il un train direct pour Auvers-sur-Oise ?",
+        "cs": "Kdy jede do Auvers-sur-Oise přímý vlak?"
+      },
+      "options": {
+        "fr": [
+          "Tous les jours",
+          "Les week-ends et jours fériés, d'avril à octobre",
+          "Seulement en hiver"
+        ],
+        "cs": [
+          "Každý den",
+          "O víkendech a svátcích od dubna do října",
+          "Jen v zimě"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Les week-ends et les jours fériés, d'avril à octobre, il existe un train direct. »",
+        "cs": "„Les week-ends et les jours fériés, d'avril à octobre, il existe un train direct.“"
+      }
+    }
   ]
 }

@@ -1,72 +1,166 @@
 {
-  "base": "haussmann-paris-face",
-  "level": "A2",
-  "slug": "haussmann-paris-face-a2",
-  "category": "paris",
-  "published_at": "2026-09-12T08:00:00Z",
-  "author": "Rédaction parisien.cz",
-  "title_fr": "Pourquoi Paris ressemble à Paris : Haussmann",
-  "title_cs": "Proč Paříž vypadá, jak vypadá: Haussmann",
-  "excerpt_fr": "Entre 1853 et 1870, le préfet Haussmann change Paris : grandes rues, parcs, égouts et immeubles en pierre claire.",
-  "excerpt_cs": "Mezi lety 1853 a 1870 prefekt Haussmann změnil Paříž: velké ulice, parky, kanalizace a domy ze světlého kamene.",
-  "body_fr": "Regardez les toits de Paris. Ils sont gris, les fenêtres sont alignées et les immeubles sont en pierre claire. Cette unité n'est pas un hasard. C'est un grand projet de la ville, entre 1853 et 1870.\n\n## Un préfet et un empereur\n\nEn 1853, l'empereur Napoléon III choisit Georges Eugène Haussmann comme préfet de la Seine. À cette époque, Paris est une ville très ancienne. Les rues sont étroites, il y a trop d'habitants et l'eau est mauvaise. Il y a aussi des épidémies de choléra. Haussmann veut aérer, unifier et embellir la ville.\n\n## Ce qui a changé\n\nLes chiffres sont impressionnants. Entre 1852 et 1870, on démolit environ 20 000 maisons. On construit plus de 40 000 immeubles. Les nouvelles rues font souvent 20 à 30 mètres de large.\n\nL'ingénieur Eugène Belgrand crée plus de 340 kilomètres d'égouts. On crée aussi des parcs : les Buttes-Chaumont, Montsouris, le parc Monceau. Paris devient une ville où l'on se promène. En 1860, la ville passe de 12 à 20 arrondissements.\n\n## Le prix à payer\n\nCes travaux coûtent très cher. Beaucoup d'habitants doivent partir. Les loyers montent, et les familles modestes vont vivre à la périphérie. En 1870, la dette de la ville est d'environ 1,5 milliard de francs. Haussmann quitte son poste au début de 1870.\n\n## Reconnaître un immeuble haussmannien\n\nVoici quatre signes :\n\n- la façade est en pierre claire ;\n- au rez-de-chaussée, il y a souvent des commerces ;\n- au deuxième étage, il y a un long balcon en fer ;\n- le toit est en zinc.\n\nSous le toit, il y avait des chambres de bonne. Aujourd'hui, des étudiants habitent souvent dans ces petites chambres.\n\n## Pour y aller\n\nMarchez du boulevard Haussmann jusqu'à l'Opéra Garnier. Regardez les balcons et les toits. Pour en savoir plus, visitez le site de la [Cité de l'architecture](https://www.citedelarchitecture.fr) et le site de la Ville de Paris, [paris.fr](https://www.paris.fr).",
-  "body_cs": "Podívejte se na střechy Paříže. Jsou šedé, okna jsou v řadách a domy jsou ze světlého kamene. Tahle jednota není náhoda. Je to velký projekt města z let 1853 až 1870.\n\n## Prefekt a císař\n\nV roce 1853 vybral císař Napoleon III. Georgese Eugèna Haussmanna za prefekta departementu Seine. Paříž byla tehdy velmi staré město. Ulice byly úzké, bylo tu příliš mnoho obyvatel a voda byla špatná. Byly tu také epidemie cholery. Haussmann chtěl město provětrat, sjednotit a zkrášlit.\n\n## Co se změnilo\n\nČísla jsou působivá. V letech 1852 až 1870 se zbouralo asi 20 000 domů. Postavilo se přes 40 000 činžáků. Nové ulice měly často 20 až 30 metrů na šířku.\n\nInženýr Eugène Belgrand vytvořil přes 340 kilometrů kanalizace. Vznikly také parky: Buttes-Chaumont, Montsouris, park Monceau. Z Paříže se stalo město, ve kterém se chodí na procházky. V roce 1860 město vzrostlo z 12 na 20 obvodů.\n\n## Cena za to\n\nTy práce byly velmi drahé. Mnoho obyvatel muselo odejít. Nájmy rostly a chudší rodiny odcházely bydlet na okraj. V roce 1870 byl dluh města asi 1,5 miliardy franků. Haussmann odešel z funkce na začátku roku 1870.\n\n## Jak poznat haussmannovský dům\n\nTady jsou čtyři znaky:\n\n- průčelí je ze světlého kamene,\n- v přízemí bývají obchody,\n- ve druhém patře je dlouhý železný balkon,\n- střecha je ze zinku.\n\nPod střechou bývaly pokojíky pro služebnictvo (les chambres de bonne). Dnes v těchto malých pokojích často bydlí studenti.\n\n## Praktické info\n\nProjděte se od bulváru Haussmann k Opeře Garnier. Dívejte se na balkony a na střechy. Víc se dozvíte na webu [Cité de l'architecture](https://www.citedelarchitecture.fr) a na stránkách města Paříže, [paris.fr](https://www.paris.fr).",
-  "glossary": [
-    {
-      "fr": "le préfet",
-      "cs": "prefekt"
-    },
-    {
-      "fr": "aérer",
-      "cs": "provětrat"
-    },
-    {
-      "fr": "les égouts (m.)",
-      "cs": "kanalizace"
-    },
-    {
-      "fr": "un immeuble",
-      "cs": "činžovní dům"
-    },
-    {
-      "fr": "la façade",
-      "cs": "průčelí"
-    },
-    {
-      "fr": "le toit",
-      "cs": "střecha"
-    },
-    {
-      "fr": "le zinc",
-      "cs": "zinek"
-    },
-    {
-      "fr": "le loyer",
-      "cs": "nájem"
-    },
-    {
-      "fr": "la dette",
-      "cs": "dluh"
-    },
-    {
-      "fr": "la chambre de bonne",
-      "cs": "pokojík pod střechou (původně pro služebnictvo)"
-    }
-  ],
-  "photo": {
-    "file": "File:135 Boulevard Haussmann, Paris (01).jpg",
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/135_Boulevard_Haussmann%2C_Paris_(01).jpg?width=1200",
-    "page": "https://commons.wikimedia.org/wiki/File:135_Boulevard_Haussmann,_Paris_(01).jpg",
-    "author": "Neoclassicism Enthusiast",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ "base": "haussmann-paris-face",
+ "level": "A2",
+ "slug": "haussmann-paris-face-a2",
+ "category": "paris",
+ "published_at": "2026-09-12T08:00:00Z",
+ "author": "Rédaction parisien.cz",
+ "title_fr": "Pourquoi Paris ressemble à Paris : Haussmann",
+ "title_cs": "Proč Paříž vypadá, jak vypadá: Haussmann",
+ "excerpt_fr": "Entre 1853 et 1870, le préfet Haussmann change Paris : grandes rues, parcs, égouts et immeubles en pierre claire.",
+ "excerpt_cs": "Mezi lety 1853 a 1870 prefekt Haussmann změnil Paříž: velké ulice, parky, kanalizace a domy ze světlého kamene.",
+ "body_fr": "Regardez les toits de Paris. Ils sont gris, les fenêtres sont alignées et les immeubles sont en pierre claire. Cette unité n'est pas un hasard. C'est un grand projet de la ville, entre 1853 et 1870.\n\n## Un préfet et un empereur\n\nEn 1853, l'empereur Napoléon III choisit Georges Eugène Haussmann comme préfet de la Seine. À cette époque, Paris est une ville très ancienne. Les rues sont étroites, il y a trop d'habitants et l'eau est mauvaise. Il y a aussi des épidémies de choléra. Haussmann veut aérer, unifier et embellir la ville.\n\n## Ce qui a changé\n\nLes chiffres sont impressionnants. Entre 1852 et 1870, on démolit environ 20 000 maisons. On construit plus de 40 000 immeubles. Les nouvelles rues font souvent 20 à 30 mètres de large.\n\nL'ingénieur Eugène Belgrand crée plus de 340 kilomètres d'égouts. On crée aussi des parcs : les Buttes-Chaumont, Montsouris, le parc Monceau. Paris devient une ville où l'on se promène. En 1860, la ville passe de 12 à 20 arrondissements.\n\n## Le prix à payer\n\nCes travaux coûtent très cher. Beaucoup d'habitants doivent partir. Les loyers montent, et les familles modestes vont vivre à la périphérie. En 1870, la dette de la ville est d'environ 1,5 milliard de francs. Haussmann quitte son poste au début de 1870.\n\n## Reconnaître un immeuble haussmannien\n\nVoici quatre signes :\n\n- la façade est en pierre claire ;\n- au rez-de-chaussée, il y a souvent des commerces ;\n- au deuxième étage, il y a un long balcon en fer ;\n- le toit est en zinc.\n\nSous le toit, il y avait des chambres de bonne. Aujourd'hui, des étudiants habitent souvent dans ces petites chambres.\n\n## Pour y aller\n\nMarchez du boulevard Haussmann jusqu'à l'Opéra Garnier. Regardez les balcons et les toits. Pour en savoir plus, visitez le site de la [Cité de l'architecture](https://www.citedelarchitecture.fr) et le site de la Ville de Paris, [paris.fr](https://www.paris.fr).",
+ "body_cs": "Podívejte se na střechy Paříže. Jsou šedé, okna jsou v řadách a domy jsou ze světlého kamene. Tahle jednota není náhoda. Je to velký projekt města z let 1853 až 1870.\n\n## Prefekt a císař\n\nV roce 1853 vybral císař Napoleon III. Georgese Eugèna Haussmanna za prefekta departementu Seine. Paříž byla tehdy velmi staré město. Ulice byly úzké, bylo tu příliš mnoho obyvatel a voda byla špatná. Byly tu také epidemie cholery. Haussmann chtěl město provětrat, sjednotit a zkrášlit.\n\n## Co se změnilo\n\nČísla jsou působivá. V letech 1852 až 1870 se zbouralo asi 20 000 domů. Postavilo se přes 40 000 činžáků. Nové ulice měly často 20 až 30 metrů na šířku.\n\nInženýr Eugène Belgrand vytvořil přes 340 kilometrů kanalizace. Vznikly také parky: Buttes-Chaumont, Montsouris, park Monceau. Z Paříže se stalo město, ve kterém se chodí na procházky. V roce 1860 město vzrostlo z 12 na 20 obvodů.\n\n## Cena za to\n\nTy práce byly velmi drahé. Mnoho obyvatel muselo odejít. Nájmy rostly a chudší rodiny odcházely bydlet na okraj. V roce 1870 byl dluh města asi 1,5 miliardy franků. Haussmann odešel z funkce na začátku roku 1870.\n\n## Jak poznat haussmannovský dům\n\nTady jsou čtyři znaky:\n\n- průčelí je ze světlého kamene,\n- v přízemí bývají obchody,\n- ve druhém patře je dlouhý železný balkon,\n- střecha je ze zinku.\n\nPod střechou bývaly pokojíky pro služebnictvo (les chambres de bonne). Dnes v těchto malých pokojích často bydlí studenti.\n\n## Praktické info\n\nProjděte se od bulváru Haussmann k Opeře Garnier. Dívejte se na balkony a na střechy. Víc se dozvíte na webu [Cité de l'architecture](https://www.citedelarchitecture.fr) a na stránkách města Paříže, [paris.fr](https://www.paris.fr).",
+ "glossary": [
+  {
+   "fr": "le préfet",
+   "cs": "prefekt"
   },
-  "sources": [
-    "https://fr.wikipedia.org/wiki/Transformations_de_Paris_sous_le_Second_Empire",
-    "https://fr.wikipedia.org/wiki/Immeuble_haussmannien",
-    "https://www.citedelarchitecture.fr/sites/default/files/documents/2021-04/bricolarchi_immeuble_haussmannien_v2.pdf",
-    "https://www.pariszigzag.fr/?p=225074",
-    "https://www.citedelarchitecture.fr",
-    "https://www.paris.fr"
-  ]
+  {
+   "fr": "aérer",
+   "cs": "provětrat"
+  },
+  {
+   "fr": "les égouts (m.)",
+   "cs": "kanalizace"
+  },
+  {
+   "fr": "un immeuble",
+   "cs": "činžovní dům"
+  },
+  {
+   "fr": "la façade",
+   "cs": "průčelí"
+  },
+  {
+   "fr": "le toit",
+   "cs": "střecha"
+  },
+  {
+   "fr": "le zinc",
+   "cs": "zinek"
+  },
+  {
+   "fr": "le loyer",
+   "cs": "nájem"
+  },
+  {
+   "fr": "la dette",
+   "cs": "dluh"
+  },
+  {
+   "fr": "la chambre de bonne",
+   "cs": "pokojík pod střechou (původně pro služebnictvo)"
+  }
+ ],
+ "photo": {
+  "file": "File:135 Boulevard Haussmann, Paris (01).jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/135_Boulevard_Haussmann%2C_Paris_(01).jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:135_Boulevard_Haussmann,_Paris_(01).jpg",
+  "author": "Neoclassicism Enthusiast",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Transformations_de_Paris_sous_le_Second_Empire",
+  "https://fr.wikipedia.org/wiki/Immeuble_haussmannien",
+  "https://www.citedelarchitecture.fr/sites/default/files/documents/2021-04/bricolarchi_immeuble_haussmannien_v2.pdf",
+  "https://www.pariszigzag.fr/?p=225074",
+  "https://www.citedelarchitecture.fr",
+  "https://www.paris.fr"
+ ],
+ "questions": [
+  {
+   "q": {
+    "fr": "Que fait l'ingénieur Eugène Belgrand ?",
+    "cs": "Co dělá inženýr Eugène Belgrand?"
+   },
+   "options": {
+    "fr": [
+     "Il construit l'Opéra Garnier.",
+     "Il crée des parcs pour les enfants.",
+     "Il crée plus de 340 kilomètres d'égouts."
+    ],
+    "cs": [
+     "Staví Operu Garnier.",
+     "Vytváří parky pro děti.",
+     "Vytvoří přes 340 kilometrů kanalizace."
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Section « Ce qui a changé » : « L'ingénieur Eugène Belgrand crée plus de 340 kilomètres d'égouts. »",
+    "cs": "Oddíl „Co se změnilo“: „Inženýr Eugène Belgrand vytvořil přes 340 kilometrů kanalizace.“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Comment est Paris en 1853 ?",
+    "cs": "Jaká je Paříž v roce 1853?"
+   },
+   "options": {
+    "fr": [
+     "Les rues sont étroites et l'eau est mauvaise.",
+     "Les rues sont larges et il y a beaucoup de parcs.",
+     "Il y a peu d'habitants."
+    ],
+    "cs": [
+     "Ulice jsou úzké a voda je špatná.",
+     "Ulice jsou široké a je tu hodně parků.",
+     "Je tu málo obyvatel."
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Section « Un préfet et un empereur » : rues étroites, trop d'habitants, eau mauvaise, choléra.",
+    "cs": "Oddíl „Prefekt a císař“: úzké ulice, příliš mnoho obyvatel, špatná voda, cholera."
+   }
+  },
+  {
+   "q": {
+    "fr": "Qu'arrive-t-il aux familles modestes ?",
+    "cs": "Co se stane s chudšími rodinami?"
+   },
+   "options": {
+    "fr": [
+     "Elles reçoivent de grands appartements.",
+     "Elles vont vivre à la périphérie.",
+     "Elles quittent la France."
+    ],
+    "cs": [
+     "Dostanou velké byty.",
+     "Odcházejí bydlet na okraj.",
+     "Opouštějí Francii."
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Section « Le prix à payer » : les loyers montent, les familles modestes vont vivre à la périphérie.",
+    "cs": "Oddíl „Cena za to“: nájmy rostou, chudší rodiny odcházejí na okraj."
+   }
+  },
+  {
+   "q": {
+    "fr": "Où est le long balcon en fer ?",
+    "cs": "Kde je dlouhý železný balkon?"
+   },
+   "options": {
+    "fr": [
+     "Au rez-de-chaussée",
+     "Au quatrième étage",
+     "Au deuxième étage"
+    ],
+    "cs": [
+     "V přízemí",
+     "Ve čtvrtém patře",
+     "Ve druhém patře"
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Dans la liste : « au deuxième étage, il y a un long balcon en fer ».",
+    "cs": "V seznamu: „ve druhém patře je dlouhý železný balkon“."
+   }
+  }
+ ]
 }

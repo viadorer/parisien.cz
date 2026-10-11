@@ -85,5 +85,107 @@
     "https://www.centrepompidou.fr/fr/recherche/oeuvres?terms=Kupka",
     "https://monumentum.fr/monument-historique/pa00088439/paris-5e-arrondissement-hotel-au-fond-du-jardin",
     "https://emuseum.mfah.org/objects/57251/model-posing-in-muchas-studio-rue-du-val-de-grace-paris"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que veut dire l'auteur par « On aurait tort d'y voir un pur coup de chance » ?",
+        "cs": "Co chce autor říct větou „On aurait tort d'y voir un pur coup de chance“?"
+      },
+      "options": {
+        "fr": [
+          "Mucha a réussi uniquement grâce à une rencontre fortuite.",
+          "Sarah Bernhardt a choisi Mucha au hasard.",
+          "Le succès de Mucha était prévisible dès 1888.",
+          "Sa formation et son expérience le rendaient capable de saisir l'occasion."
+        ],
+        "cs": [
+          "Mucha uspěl jen díky nahodilému setkání.",
+          "Sarah Bernhardtová vybrala Muchu náhodně.",
+          "Muchův úspěch byl předvídatelný už v roce 1888.",
+          "Jeho vzdělání a zkušenosti mu umožnily šanci využít."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "Le texte ajoute qu'un dessinateur « formé dans deux académies et rompu au travail de commande » était en mesure de saisir l'occasion.",
+        "cs": "Text dodává, že kreslíř „formé dans deux académies et rompu au travail de commande“ byl schopen příležitost využít."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi Paris est-il décrit comme « un tremplin et un point de départ » pour Mucha ?",
+        "cs": "Proč je Paříž pro Muchu označena za „odrazový můstek a výchozí bod“?"
+      },
+      "options": {
+        "fr": [
+          "Il y a conçu son projet, mais l'a réalisé ailleurs, à Prague.",
+          "Il y a peint L'Épopée slave en entier.",
+          "Il n'y est resté que quelques semaines.",
+          "Il y a été oublié après 1900."
+        ],
+        "cs": [
+          "Projekt tam vymyslel, ale uskutečnil ho jinde, v Praze.",
+          "Celou Slovanskou epopej tam namaloval.",
+          "Zůstal tam jen několik týdnů.",
+          "Po roce 1900 na něj tam zapomněli."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« L'idée y a mûri, mais c'est ailleurs qu'elle devait s'accomplir. »",
+        "cs": "„L'idée y a mûri, mais c'est ailleurs qu'elle devait s'accomplir.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle est l'attitude de l'auteur envers la formule « l'abstraction, une invention de banlieue ? »",
+        "cs": "Jaký je postoj autora k formuli „abstrakce, vynález předměstí?“"
+      },
+      "options": {
+        "fr": [
+          "Il la rejette entièrement comme fausse.",
+          "Il l'adopte sans réserve comme un fait établi.",
+          "Il la juge sans intérêt.",
+          "Il la trouve provocante, mais en partie fondée."
+        ],
+        "cs": [
+          "Zcela ji zamítá jako nepravdivou.",
+          "Přijímá ji bez výhrad jako prokázaný fakt.",
+          "Považuje ji za nezajímavou.",
+          "Je podle něj provokativní, ale zčásti oprávněná."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« La formule du titre est volontairement provocante, mais elle contient une part de vérité. »",
+        "cs": "„La formule du titre est volontairement provocante, mais elle contient une part de vérité.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que suggère la phrase sur l'exil de Kundera (« une décision d'appartenance… pas par un simple échange de passeports ») ?",
+        "cs": "Co naznačuje věta o Kunderově exilu („rozhodnutí o sounáležitosti… nevyřeší pouhá výměna pasů“)?"
+      },
+      "options": {
+        "fr": [
+          "Kundera a changé de passeport sans importance pour lui.",
+          "L'appartenance à un pays dépasse le simple statut juridique.",
+          "Un exilé garde toujours sa première nationalité.",
+          "Les institutions tchèques ont soutenu son choix."
+        ],
+        "cs": [
+          "Kundera vyměnil pas, aniž by to pro něj mělo význam.",
+          "Sounáležitost k zemi přesahuje pouhý právní status.",
+          "Exulant si vždy ponechá původní státní občanství.",
+          "České instituce jeho volbu podporovaly."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "L'auteur parle d'une « décision d'appartenance » qui « ne se règle pas par un simple échange de passeports ».",
+        "cs": "Autor mluví o „décision d'appartenance“, která „ne se règle pas par un simple échange de passeports“."
+      }
+    }
   ]
 }

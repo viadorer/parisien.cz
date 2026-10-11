@@ -85,5 +85,107 @@
     "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
     "https://www.paris.fr",
     "https://www.parisinfo.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que sous-entend la phrase « ce ruban d'eau n'a pas été creusé pour qu'on y boive, mais pour qu'on puisse boire à Paris » ?",
+        "cs": "Co naznačuje věta „tento vodní pás nebyl vykopán proto, aby se u něj pilo, ale aby se v Paříži dalo pít“?"
+      },
+      "options": {
+        "fr": [
+          "Le canal visait à fournir de l'eau potable ; l'apéro est un usage postérieur.",
+          "Le canal a été creusé pour des fêtes.",
+          "Le canal a toujours servi de lieu de rendez-vous.",
+          "Les Parisiens ne boivent plus d'eau."
+        ],
+        "cs": [
+          "Kanál měl dodávat pitnou vodu; apéro je pozdější využití.",
+          "Kanál byl vykopán pro oslavy.",
+          "Kanál vždy sloužil jako místo setkávání.",
+          "Pařížané už nepijí vodu."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Bonaparte voulait remédier au manque d'eau potable ; le lieu de rendez-vous est venu après la fin de sa vocation utilitaire.",
+        "cs": "Bonaparte chtěl řešit nedostatek pitné vody; místem setkávání se kanál stal až po skončení užitkové role."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que signifie « le décor […] doit son charme à l'effort qu'il a fallu pour le faire oublier » ?",
+        "cs": "Co znamená „kulisa […] vděčí za své kouzlo úsilí, které bylo nutné, aby se na ně zapomnělo“?"
+      },
+      "options": {
+        "fr": [
+          "Le parc a été abandonné par ses créateurs.",
+          "Le parc a été conçu par une seule personne.",
+          "Le parc paraît naturel alors qu'il résulte d'un énorme chantier.",
+          "Le parc cache un vrai théâtre."
+        ],
+        "cs": [
+          "Park jeho tvůrci opustili.",
+          "Park navrhl jediný člověk.",
+          "Park působí přirozeně, přitom je výsledkem obrovské stavby.",
+          "V parku je ukryté skutečné divadlo."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Plus de mille ouvriers déplacèrent environ un million de mètres cubes.",
+        "cs": "Více než tisíc dělníků přesunulo asi milion metrů krychlových zeminy."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que veut dire l'auteur par « une manière de politesse dont la valeur ne figure sur aucune carte » ?",
+        "cs": "Co chce autor říct slovy „způsob zdvořilosti, jehož hodnota není na žádném jídelníčku“?"
+      },
+      "options": {
+        "fr": [
+          "Le comptoir est gratuit.",
+          "Boire au comptoir est moins cher, mais surtout une façon de se mêler aux habitués.",
+          "Les cartes sont interdites au comptoir.",
+          "Les serveurs préfèrent les clients assis."
+        ],
+        "cs": [
+          "Pult je zdarma.",
+          "Pití u pultu je levnější, ale hlavně způsob, jak se zařadit mezi štamgasty.",
+          "U pultu jsou jídelníčky zakázány.",
+          "Číšníci dávají přednost sedícím hostům."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Un café au comptoir coûte souvent moins cher, et l'on y croise des habitués.",
+        "cs": "Káva u pultu bývá levnější a potkáte tam štamgasty."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle est l'attitude de l'auteur face à l'inscription des bouquinistes à l'inventaire du patrimoine ?",
+        "cs": "Jaký je autorův postoj k zápisu bouquinistů do soupisu dědictví?"
+      },
+      "options": {
+        "fr": [
+          "Il la juge inutile.",
+          "Il y voit un danger pour les libraires.",
+          "Il exige une loi supplémentaire.",
+          "Il y voit, avec un léger sourire, la reconnaissance officielle de la valeur d'un métier."
+        ],
+        "cs": [
+          "Považuje ho za zbytečný.",
+          "Vidí v něm hrozbu pro knihkupce.",
+          "Požaduje další zákon.",
+          "Vidí v něm, s lehkým úsměvem, oficiální uznání hodnoty řemesla."
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« une façon officielle de reconnaître » que vendre des livres d'occasion est précieux.",
+        "cs": "„Oficiální způsob, jak uznat“, že prodej starých knih je cenný."
+      }
+    }
   ]
 }

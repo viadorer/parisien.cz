@@ -62,5 +62,99 @@
     "https://apprendre.tv5monde.com/fr",
     "https://francaisfacile.rfi.fr/fr/",
     "https://www.ifp.cz/"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que dites-vous d'abord dans une boulangerie ?",
+        "cs": "Co řeknete jako první v pekárně?"
+      },
+      "options": {
+        "fr": [
+          "« L'addition »",
+          "« Bonjour »",
+          "« Pardon ? »"
+        ],
+        "cs": [
+          "„L'addition“ (účet)",
+          "„Bonjour“ (dobrý den)",
+          "„Pardon?“ (prosím?)"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Le texte dit : « Vous dites d'abord : Bonjour ».",
+        "cs": "Text říká, že nejdřív řeknete „Bonjour“."
+      }
+    },
+    {
+      "q": {
+        "fr": "À qui dit-on « tu » ?",
+        "cs": "Komu se říká „tu“ (tykání)?"
+      },
+      "options": {
+        "fr": [
+          "Aux amis et à la famille",
+          "Aux inconnus",
+          "Au serveur du café"
+        ],
+        "cs": [
+          "Přátelům a rodině",
+          "Cizím lidem",
+          "Číšníkovi v kavárně"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Le « tu » est pour les amis et la famille.",
+        "cs": "„Tu“ je pro přátele a rodinu."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que dites-vous pour payer au café ?",
+        "cs": "Co řeknete, když chcete v kavárně platit?"
+      },
+      "options": {
+        "fr": [
+          "« Bonsoir, Madame »",
+          "« Je ne comprends pas »",
+          "« L'addition, s'il vous plaît »"
+        ],
+        "cs": [
+          "„Bonsoir, Madame“",
+          "„Je ne comprends pas“",
+          "„L'addition, s'il vous plaît“"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Pour payer, vous dites : « L'addition, s'il vous plaît ».",
+        "cs": "Při placení říkáte „L'addition, s'il vous plaît“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Le pourboire au café, c'est…",
+        "cs": "Spropitné v kavárně…"
+      },
+      "options": {
+        "fr": [
+          "obligatoire",
+          "pas obligatoire",
+          "seulement pour le soir"
+        ],
+        "cs": [
+          "je povinné",
+          "není povinné",
+          "platí jen večer"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Le service est compris. Le pourboire n'est pas obligatoire.",
+        "cs": "Obsluha je v ceně. Spropitné není povinné."
+      }
+    }
   ]
 }

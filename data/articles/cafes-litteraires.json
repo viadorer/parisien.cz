@@ -27,5 +27,107 @@
   "https://www.procope.com"
  ],
  "level": "B2",
- "base": "cafes-litteraires"
+ "base": "cafes-litteraires",
+ "questions": [
+  {
+   "q": {
+    "fr": "Pourquoi le Procope n'est-il pas « le plus vieux café d'Europe encore en activité » ?",
+    "cs": "Proč Procope není „nejstarší dosud fungující kavárnou v Evropě“?"
+   },
+   "options": {
+    "fr": [
+     "Il a fermé pendant la guerre",
+     "C'est un restaurant installé dans un lieu où il y a eu un café",
+     "Il a été fondé après le Flore",
+     "Il n'a jamais servi de café"
+    ],
+    "cs": [
+     "Za války byl zavřený",
+     "Je to restaurace v místě, kde dříve byla kavárna",
+     "Byl založen po Flore",
+     "Nikdy nepodával kávu"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "« c'est un restaurant installé dans un lieu où il y a eu un café ».",
+    "cs": "„c'est un restaurant installé dans un lieu où il y a eu un café“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que montre le conditionnel dans « le mot “surréaliste” aurait été prononcé » ?",
+    "cs": "Co ukazuje podmiňovací způsob ve větě „le mot ‚surréaliste‘ aurait été prononcé“?"
+   },
+   "options": {
+    "fr": [
+     "Que le mot est faux",
+     "Que le Flore a fermé en 1917",
+     "Que Apollinaire l'a nié",
+     "Que le fait n'est pas assuré"
+    ],
+    "cs": [
+     "Že slovo je chybné",
+     "Že Flore se v roce 1917 zavřelo",
+     "Že to Apollinaire popřel",
+     "Že fakt není jistý"
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "Le texte emploie « aurait été » : l'information est rapportée, non confirmée.",
+    "cs": "Text užívá „aurait été“: informace je převzatá, nepotvrzená."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que signifie la phrase de Sartre : ils y étaient « chez eux » ?",
+    "cs": "Co znamená Sartrova věta, že tam byli „chez eux“?"
+   },
+   "options": {
+    "fr": [
+     "Le café servait presque de domicile et de bureau",
+     "Ils possédaient le café",
+     "Ils habitaient au premier étage",
+     "Ils refusaient les autres clients"
+    ],
+    "cs": [
+     "Kavárna sloužila téměř jako domov a kancelář",
+     "Kavárna jim patřila",
+     "Bydleli v prvním patře",
+     "Odmítali ostatní hosty"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Ils y travaillent le matin, discutent l'après-midi et reçoivent le soir.",
+    "cs": "Pracují tam ráno, odpoledne diskutují a večer přijímají hosty."
+   }
+  },
+  {
+   "q": {
+    "fr": "Quel lien existe entre le Flore et la Closerie des Lilas aujourd'hui ?",
+    "cs": "Jaká souvislost dnes existuje mezi Flore a Closerie des Lilas?"
+   },
+   "options": {
+    "fr": [
+     "Ils sont dirigés par Hemingway",
+     "Ils sont dans la même rue",
+     "Ils appartiennent à la même famille",
+     "Ils ont fondé le même prix"
+    ],
+    "cs": [
+     "Řídí je Hemingway",
+     "Jsou ve stejné ulici",
+     "Patří téže rodině",
+     "Založili stejnou cenu"
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "« la famille Siljegovic possède à la fois le Flore et la Closerie ».",
+    "cs": "„la famille Siljegovic possède à la fois le Flore et la Closerie“."
+   }
+  }
+ ]
 }

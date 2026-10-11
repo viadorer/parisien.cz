@@ -63,5 +63,101 @@
     "https://www.ifp.cz/cz/kurzy-a-zkousky/zkousky/diplomy-delf-a-dalf/",
     "https://erasmus-plus.ec.europa.eu/",
     "https://www.republiquetcheque.campusfrance.org/"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Dans quel arrondissement se trouve la Cité internationale universitaire ?",
+        "cs": "V kterém obvodu je Mezinárodní univerzitní městečko?"
+      },
+      "options": {
+        "fr": [
+          "Dans le 5e",
+          "Dans le 14e",
+          "Dans le 16e"
+        ],
+        "cs": [
+          "V 5.",
+          "Ve 14.",
+          "V 16."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« La Cité internationale universitaire est dans le 14e arrondissement. »",
+        "cs": "„Městečko je ve 14. obvodu.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Pour un citoyen de l'UE, qu'est-ce qu'il n'y a pas ?",
+        "cs": "Co pro občana EU není potřeba?"
+      },
+      "options": {
+        "fr": [
+          "De cours de français",
+          "De bureau à Prague",
+          "De visa"
+        ],
+        "cs": [
+          "Kurz francouzštiny",
+          "Kancelář v Praze",
+          "Vízum"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Pour un citoyen de l'UE, il n'y a pas de visa. »",
+        "cs": "„Pro občana EU není vízum.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Le DALF est pour quels niveaux ?",
+        "cs": "Pro jaké úrovně je DALF?"
+      },
+      "options": {
+        "fr": [
+          "C1 et C2",
+          "A1 et A2",
+          "B1 et B2"
+        ],
+        "cs": [
+          "C1 a C2",
+          "A1 a A2",
+          "B1 a B2"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Le DALF est pour C1 et C2. »",
+        "cs": "„DALF je pro C1 a C2.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Où peut-on passer le DELF en Tchéquie, selon le texte ?",
+        "cs": "Kde lze podle textu v Česku složit DELF?"
+      },
+      "options": {
+        "fr": [
+          "À la Cité internationale universitaire",
+          "Au DZS",
+          "Au bureau Campus France de Brno",
+          "À l'Institut français de Prague"
+        ],
+        "cs": [
+          "V Mezinárodním univerzitním městečku",
+          "V DZS",
+          "V kanceláři Campus France v Brně",
+          "Na Francouzském institutu v Praze"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« On peut les passer à l'Institut français de Prague. »",
+        "cs": "„Lze je složit na Francouzském institutu v Praze.“"
+      }
+    }
   ]
 }

@@ -1,75 +1,169 @@
 {
-  "base": "seine-ponts",
-  "level": "A2",
-  "slug": "seine-ponts-a2",
-  "category": "paris",
-  "published_at": "2026-09-24T08:00:00Z",
-  "author": "Rédaction parisien.cz",
-  "title_fr": "La Seine et ses ponts",
-  "title_cs": "Seina a její mosty",
-  "excerpt_fr": "La Seine traverse Paris. Découvrez le Pont Neuf, le pont Alexandre III, les bouquinistes et les nouveaux sites de baignade.",
-  "excerpt_cs": "Seina protéká Paříží. Poznejte Pont Neuf, most Alexandre III., bouquinisty a nová místa ke koupání.",
-  "body_fr": "Le 26 juillet 2024, la cérémonie d'ouverture des Jeux olympiques a lieu sur la Seine. C'est la première fois qu'elle n'est pas dans un stade. Les athlètes passent en bateau, du pont d'Austerlitz au pont d'Iéna. Cela fait environ six kilomètres.\n\n## Les rives de la Seine\n\nDepuis 1991, les rives de la Seine sont au patrimoine mondial de l'UNESCO. On y trouve Notre-Dame, le Louvre et la tour Eiffel. C'est une très belle promenade.\n\n## Le Pont Neuf\n\nLe Pont Neuf est le plus vieux pont de Paris. Les travaux commencent en 1578 et finissent en 1607. Le pont mesure environ 238 mètres. C'est le premier pont de Paris sans maisons, et le premier avec des trottoirs.\n\n## Le pont Alexandre III\n\nCe pont ouvre le 14 avril 1900, pour l'Exposition universelle. Il porte le nom du tsar Alexandre III. Il a une seule arche en acier. Il est aussi très décoré : il y a quatre statues dorées et 32 candélabres en bronze.\n\n## Les bouquinistes\n\nSur les quais, plus de 200 bouquinistes ont des boîtes vertes. Ils vendent des livres anciens, des gravures et des cartes postales. Il y a près de 900 boîtes sur environ trois kilomètres.\n\n## Se baigner dans la Seine ?\n\nPendant un siècle, on ne pouvait pas se baigner dans la Seine à Paris. Depuis l'été 2025, la Ville a ouvert trois sites : Bras Marie, Bercy et Grenelle. C'est gratuit en été. On ferme l'accès quand l'eau est mauvaise. Ailleurs, c'est interdit et dangereux.\n\n## Pour y aller\n\nVous pouvez faire une croisière en bateau ou marcher sur les quais. La promenade est gratuite. Le mieux est de faire les deux. Pour les informations officielles, visitez [paris.fr](https://www.paris.fr) et [parisjetaime.com](https://parisjetaime.com).",
-  "body_cs": "Dne 26. července 2024 se zahajovací ceremoniál olympijských her konal na Seině. Poprvé se neodehrál na stadionu. Sportovci proplouvali na lodích od mostu Austerlitz k mostu Iéna. To je asi šest kilometrů.\n\n## Břehy Seiny\n\nOd roku 1991 jsou břehy Seiny na seznamu světového dědictví UNESCO. Najdete tam Notre-Dame, Louvre a Eiffelovu věž. Je to velmi krásná procházka.\n\n## Pont Neuf\n\nPont Neuf je nejstarší most v Paříži. Stavba začala v roce 1578 a skončila v roce 1607. Most měří asi 238 metrů. Byl to první pařížský most bez domů a první s chodníky.\n\n## Most Alexandre III.\n\nTento most se otevřel 14. dubna 1900 pro světovou výstavu. Nese jméno cara Alexandra III. Má jediný ocelový oblouk. Je také velmi zdobený: má čtyři zlacené sochy a 32 bronzových kandelábrů.\n\n## Bouquinisté\n\nNa nábřežích má více než 200 bouquinistů zelené boxy. Prodávají staré knihy, rytiny a pohlednice. Je tam skoro 900 boxů na zhruba třech kilometrech.\n\n## Koupání v Seině?\n\nCelé století se v Seině v Paříži nesmělo koupat. Od léta 2025 město otevřelo tři místa: Bras Marie, Bercy a Grenelle. V létě je to zdarma. Když je voda špatná, přístup se zavře. Jinde je koupání zakázané a nebezpečné.\n\n## Praktické info\n\nMůžete jet na plavbu lodí, nebo se projít po nábřežích. Procházka je zdarma. Nejlepší je udělat obojí. Oficiální informace najdete na [paris.fr](https://www.paris.fr) a [parisjetaime.com](https://parisjetaime.com).",
-  "glossary": [
-    {
-      "fr": "la cérémonie d'ouverture",
-      "cs": "zahajovací ceremoniál"
-    },
-    {
-      "fr": "un athlète",
-      "cs": "sportovec"
-    },
-    {
-      "fr": "la rive",
-      "cs": "břeh"
-    },
-    {
-      "fr": "le quai",
-      "cs": "nábřeží"
-    },
-    {
-      "fr": "le pont",
-      "cs": "most"
-    },
-    {
-      "fr": "une arche",
-      "cs": "oblouk"
-    },
-    {
-      "fr": "le trottoir",
-      "cs": "chodník"
-    },
-    {
-      "fr": "un bouquiniste",
-      "cs": "prodejce starých knih na nábřeží"
-    },
-    {
-      "fr": "une gravure",
-      "cs": "rytina"
-    },
-    {
-      "fr": "se baigner",
-      "cs": "koupat se"
-    }
-  ],
-  "photo": {
-    "file": "File:Paris, Pont Neuf -- 2014 -- 1425.jpg",
-    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%2C_Pont_Neuf_--_2014_--_1425.jpg?width=1200",
-    "page": "https://commons.wikimedia.org/wiki/File:Paris,_Pont_Neuf_--_2014_--_1425.jpg",
-    "author": "Dietmar Rabich",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ "base": "seine-ponts",
+ "level": "A2",
+ "slug": "seine-ponts-a2",
+ "category": "paris",
+ "published_at": "2026-09-24T08:00:00Z",
+ "author": "Rédaction parisien.cz",
+ "title_fr": "La Seine et ses ponts",
+ "title_cs": "Seina a její mosty",
+ "excerpt_fr": "La Seine traverse Paris. Découvrez le Pont Neuf, le pont Alexandre III, les bouquinistes et les nouveaux sites de baignade.",
+ "excerpt_cs": "Seina protéká Paříží. Poznejte Pont Neuf, most Alexandre III., bouquinisty a nová místa ke koupání.",
+ "body_fr": "Le 26 juillet 2024, la cérémonie d'ouverture des Jeux olympiques a lieu sur la Seine. C'est la première fois qu'elle n'est pas dans un stade. Les athlètes passent en bateau, du pont d'Austerlitz au pont d'Iéna. Cela fait environ six kilomètres.\n\n## Les rives de la Seine\n\nDepuis 1991, les rives de la Seine sont au patrimoine mondial de l'UNESCO. On y trouve Notre-Dame, le Louvre et la tour Eiffel. C'est une très belle promenade.\n\n## Le Pont Neuf\n\nLe Pont Neuf est le plus vieux pont de Paris. Les travaux commencent en 1578 et finissent en 1607. Le pont mesure environ 238 mètres. C'est le premier pont de Paris sans maisons, et le premier avec des trottoirs.\n\n## Le pont Alexandre III\n\nCe pont ouvre le 14 avril 1900, pour l'Exposition universelle. Il porte le nom du tsar Alexandre III. Il a une seule arche en acier. Il est aussi très décoré : il y a quatre statues dorées et 32 candélabres en bronze.\n\n## Les bouquinistes\n\nSur les quais, plus de 200 bouquinistes ont des boîtes vertes. Ils vendent des livres anciens, des gravures et des cartes postales. Il y a près de 900 boîtes sur environ trois kilomètres.\n\n## Se baigner dans la Seine ?\n\nPendant un siècle, on ne pouvait pas se baigner dans la Seine à Paris. Depuis l'été 2025, la Ville a ouvert trois sites : Bras Marie, Bercy et Grenelle. C'est gratuit en été. On ferme l'accès quand l'eau est mauvaise. Ailleurs, c'est interdit et dangereux.\n\n## Pour y aller\n\nVous pouvez faire une croisière en bateau ou marcher sur les quais. La promenade est gratuite. Le mieux est de faire les deux. Pour les informations officielles, visitez [paris.fr](https://www.paris.fr) et [parisjetaime.com](https://parisjetaime.com).",
+ "body_cs": "Dne 26. července 2024 se zahajovací ceremoniál olympijských her konal na Seině. Poprvé se neodehrál na stadionu. Sportovci proplouvali na lodích od mostu Austerlitz k mostu Iéna. To je asi šest kilometrů.\n\n## Břehy Seiny\n\nOd roku 1991 jsou břehy Seiny na seznamu světového dědictví UNESCO. Najdete tam Notre-Dame, Louvre a Eiffelovu věž. Je to velmi krásná procházka.\n\n## Pont Neuf\n\nPont Neuf je nejstarší most v Paříži. Stavba začala v roce 1578 a skončila v roce 1607. Most měří asi 238 metrů. Byl to první pařížský most bez domů a první s chodníky.\n\n## Most Alexandre III.\n\nTento most se otevřel 14. dubna 1900 pro světovou výstavu. Nese jméno cara Alexandra III. Má jediný ocelový oblouk. Je také velmi zdobený: má čtyři zlacené sochy a 32 bronzových kandelábrů.\n\n## Bouquinisté\n\nNa nábřežích má více než 200 bouquinistů zelené boxy. Prodávají staré knihy, rytiny a pohlednice. Je tam skoro 900 boxů na zhruba třech kilometrech.\n\n## Koupání v Seině?\n\nCelé století se v Seině v Paříži nesmělo koupat. Od léta 2025 město otevřelo tři místa: Bras Marie, Bercy a Grenelle. V létě je to zdarma. Když je voda špatná, přístup se zavře. Jinde je koupání zakázané a nebezpečné.\n\n## Praktické info\n\nMůžete jet na plavbu lodí, nebo se projít po nábřežích. Procházka je zdarma. Nejlepší je udělat obojí. Oficiální informace najdete na [paris.fr](https://www.paris.fr) a [parisjetaime.com](https://parisjetaime.com).",
+ "glossary": [
+  {
+   "fr": "la cérémonie d'ouverture",
+   "cs": "zahajovací ceremoniál"
   },
-  "sources": [
-    "https://fr.wikipedia.org/wiki/Paris,_rives_de_la_Seine",
-    "https://fr.wikipedia.org/wiki/Pont_Neuf",
-    "https://fr.wikipedia.org/wiki/Pont_Alexandre-III",
-    "https://fr.wikipedia.org/wiki/Pont_des_Arts",
-    "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
-    "https://fr.wikipedia.org/wiki/Cérémonie_d'ouverture_des_Jeux_olympiques_d'été_de_2024",
-    "https://www.paris.fr/pages/la-seine-s-ouvre-a-la-baignade-les-trois-sites-devoiles-31078",
-    "https://www.timeout.fr/paris/actualites/on-connait-les-sites-ou-lon-pourra-se-baigner-dans-la-seine-en-2025-071023",
-    "https://parisjetaime.com"
-  ]
+  {
+   "fr": "un athlète",
+   "cs": "sportovec"
+  },
+  {
+   "fr": "la rive",
+   "cs": "břeh"
+  },
+  {
+   "fr": "le quai",
+   "cs": "nábřeží"
+  },
+  {
+   "fr": "le pont",
+   "cs": "most"
+  },
+  {
+   "fr": "une arche",
+   "cs": "oblouk"
+  },
+  {
+   "fr": "le trottoir",
+   "cs": "chodník"
+  },
+  {
+   "fr": "un bouquiniste",
+   "cs": "prodejce starých knih na nábřeží"
+  },
+  {
+   "fr": "une gravure",
+   "cs": "rytina"
+  },
+  {
+   "fr": "se baigner",
+   "cs": "koupat se"
+  }
+ ],
+ "photo": {
+  "file": "File:Paris, Pont Neuf -- 2014 -- 1425.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%2C_Pont_Neuf_--_2014_--_1425.jpg?width=1200",
+  "page": "https://commons.wikimedia.org/wiki/File:Paris,_Pont_Neuf_--_2014_--_1425.jpg",
+  "author": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "sources": [
+  "https://fr.wikipedia.org/wiki/Paris,_rives_de_la_Seine",
+  "https://fr.wikipedia.org/wiki/Pont_Neuf",
+  "https://fr.wikipedia.org/wiki/Pont_Alexandre-III",
+  "https://fr.wikipedia.org/wiki/Pont_des_Arts",
+  "https://fr.wikipedia.org/wiki/Bouquinistes_de_Paris",
+  "https://fr.wikipedia.org/wiki/Cérémonie_d'ouverture_des_Jeux_olympiques_d'été_de_2024",
+  "https://www.paris.fr/pages/la-seine-s-ouvre-a-la-baignade-les-trois-sites-devoiles-31078",
+  "https://www.timeout.fr/paris/actualites/on-connait-les-sites-ou-lon-pourra-se-baigner-dans-la-seine-en-2025-071023",
+  "https://parisjetaime.com"
+ ],
+ "questions": [
+  {
+   "q": {
+    "fr": "Où a lieu la cérémonie d'ouverture des Jeux olympiques de 2024 ?",
+    "cs": "Kde se koná zahajovací ceremoniál olympijských her 2024?"
+   },
+   "options": {
+    "fr": [
+     "Dans un stade",
+     "Sur la Seine",
+     "Devant la tour Eiffel"
+    ],
+    "cs": [
+     "Na stadionu",
+     "Na Seině",
+     "Před Eiffelovou věží"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "« la cérémonie d'ouverture des Jeux olympiques a lieu sur la Seine. »",
+    "cs": "„zahajovací ceremoniál olympijských her se koná na Seině.“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Qu'est-ce qui est spécial au Pont Neuf ?",
+    "cs": "Čím je Pont Neuf zvláštní?"
+   },
+   "options": {
+    "fr": [
+     "Il a des maisons dessus.",
+     "Il est le premier pont de Paris sans maisons et le premier avec des trottoirs.",
+     "Il est en acier."
+    ],
+    "cs": [
+     "Stojí na něm domy.",
+     "Je to první pařížský most bez domů a první s chodníky.",
+     "Je z oceli."
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Section « Le Pont Neuf » : « le premier pont de Paris sans maisons, et le premier avec des trottoirs ».",
+    "cs": "Oddíl „Pont Neuf“: „první pařížský most bez domů a první s chodníky“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Combien de statues dorées y a-t-il sur le pont Alexandre III ?",
+    "cs": "Kolik zlacených soch je na mostě Alexandre III?"
+   },
+   "options": {
+    "fr": [
+     "Deux",
+     "Trente-deux",
+     "Quatre"
+    ],
+    "cs": [
+     "Dvě",
+     "Třicet dva",
+     "Čtyři"
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "« il y a quatre statues dorées et 32 candélabres en bronze ».",
+    "cs": "„má čtyři zlacené sochy a 32 bronzových kandelábrů“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que se passe-t-il quand l'eau de la Seine est mauvaise ?",
+    "cs": "Co se stane, když je voda v Seině špatná?"
+   },
+   "options": {
+    "fr": [
+     "On ferme l'accès.",
+     "On change l'eau.",
+     "On ouvre un autre pont."
+    ],
+    "cs": [
+     "Přístup se zavře.",
+     "Voda se vymění.",
+     "Otevře se jiný most."
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "« On ferme l'accès quand l'eau est mauvaise. »",
+    "cs": "„Když je voda špatná, přístup se zavře.“"
+   }
+  }
+ ]
 }

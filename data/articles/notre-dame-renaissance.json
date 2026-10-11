@@ -27,5 +27,107 @@
   "https://www.notredamedeparis.fr"
  ],
  "level": "B2",
- "base": "notre-dame-renaissance"
+ "base": "notre-dame-renaissance",
+ "questions": [
+  {
+   "q": {
+    "fr": "Pourquoi le texte insiste-t-il sur la flèche qui brûle en 2019 ?",
+    "cs": "Proč text zdůrazňuje střelu, která v roce 2019 shořela?"
+   },
+   "options": {
+    "fr": [
+     "Parce qu'elle date de Viollet-le-Duc, pas du Moyen Âge",
+     "Parce qu'elle était la plus ancienne partie",
+     "Parce que Hugo l'avait dessinée",
+     "Parce qu'elle avait été refaite en 1163"
+    ],
+    "cs": [
+     "Protože pochází od Viollet-le-Duca, ne ze středověku",
+     "Protože byla nejstarší částí",
+     "Protože ji nakreslil Hugo",
+     "Protože byla obnovena v roce 1163"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "« C'est cette flèche-là, et non une flèche médiévale, qui brûle en 2019. »",
+    "cs": "„Právě tato střela, a ne středověká, v roce 2019 shořela.“"
+   }
+  },
+  {
+   "q": {
+    "fr": "Dans l'expression « massés sur les quais », que veut dire « massés » ?",
+    "cs": "Co znamená „massés“ ve spojení „massés sur les quais“?"
+   },
+   "options": {
+    "fr": [
+     "Rassemblés en foule",
+     "Allongés",
+     "Cachés",
+     "En train de travailler"
+    ],
+    "cs": [
+     "Shromážděni v davu",
+     "Ležící",
+     "Skrytí",
+     "Pracující"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Phrase d'ouverture : des milliers de Parisiens « massés sur les quais » regardent brûler la flèche.",
+    "cs": "Úvodní věta: tisíce Pařížanů „massés sur les quais“ sleduje hořící střelu."
+   }
+  },
+  {
+   "q": {
+    "fr": "Quelle est l'exception à la reconstruction « à l'identique » ?",
+    "cs": "Jaká je výjimka z obnovy „à l'identique“ (v původní podobě)?"
+   },
+   "options": {
+    "fr": [
+     "La pierre de la façade",
+     "Les charpentes",
+     "Le grand orgue",
+     "Les fonts baptismaux et le reste du mobilier liturgique en bronze"
+    ],
+    "cs": [
+     "Kámen průčelí",
+     "Krovy",
+     "Velké varhany",
+     "Křtitelnice a zbytek liturgického mobiliáře z bronzu"
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "« ... avec une exception notable : le mobilier liturgique. » Il est en bronze, de Guillaume Bardet.",
+    "cs": "„… avec une exception notable : le mobilier liturgique.“ Je z bronzu, od Guillauma Bardeta."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que représente le bouquet de mimosa fixé en janvier 2024 ?",
+    "cs": "Co znamená kytice mimózy připevněná v lednu 2024?"
+   },
+   "options": {
+    "fr": [
+     "Un cadeau des donateurs",
+     "Un geste traditionnel de protection",
+     "Un signe de la fin du chantier",
+     "Un hommage à Victor Hugo"
+    ],
+    "cs": [
+     "Dar od dárců",
+     "Tradiční ochranný zvyk",
+     "Znamení konce stavby",
+     "Pocta Victoru Hugovi"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Il s'agit d'« un geste traditionnel de protection », retiré en mai.",
+    "cs": "Jde o „un geste traditionnel de protection“, odstraněný v květnu."
+   }
+  }
+ ]
 }

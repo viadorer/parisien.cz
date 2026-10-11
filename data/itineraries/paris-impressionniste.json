@@ -1,0 +1,76 @@
+{
+  "id": "paris-impressionniste",
+  "level": "B1",
+  "title": {
+    "fr": "Paris impressionniste",
+    "cs": "Impresionistická Paříž"
+  },
+  "intro": {
+    "fr": "Les impressionnistes ont peint la gare, les jardins, les boulevards et la lumière changeante de Paris. Cette promenade suit leurs traces entre la gare Saint-Lazare et les grands musées. Vous verrez à la fois des lieux qu'ils ont représentés et des salles où leurs tableaux sont exposés.",
+    "cs": "Impresionisté malovali nádraží, zahrady, bulváry i proměnlivé světlo Paříže. Tato procházka sleduje jejich stopy od nádraží Saint-Lazare k velkým muzeím. Uvidíte jak místa, která zobrazovali, tak sály, kde jsou dnes jejich obrazy vystaveny."
+  },
+  "easy": {
+    "fr": "Cette promenade est pour les amateurs de peinture. On commence à une gare, on traverse un jardin et on visite deux musées. Un dernier musée est un peu plus loin.",
+    "cs": "Tato procházka je pro milovníky malby. Začíná u nádraží, vede zahradou a navštívíte dvě muzea. Poslední muzeum je o něco dál."
+  },
+  "duration": {
+    "fr": "environ une journée",
+    "cs": "zhruba celý den"
+  },
+  "stops": [
+    {
+      "query": "Gare Saint-Lazare, Paris",
+      "name": {
+        "fr": "Gare Saint-Lazare",
+        "cs": "Nádraží Saint-Lazare"
+      },
+      "note": {
+        "fr": "Claude Monet a peint ici en 1877 une série de tableaux sur la fumée et la lumière de la gare. Imaginez les trains à vapeur sous la grande verrière.",
+        "cs": "Claude Monet tu v roce 1877 namaloval sérii obrazů o kouři a světle nádraží. Představte si parní vlaky pod velkou prosklenou halou."
+      }
+    },
+    {
+      "query": "Jardin des Tuileries, Paris",
+      "name": {
+        "fr": "Jardin des Tuileries",
+        "cs": "Tuilerijské zahrady"
+      },
+      "note": {
+        "fr": "Traversez le jardin entre les bassins et les allées. C'est une promenade parisienne classique et un bon moment pour regarder la lumière.",
+        "cs": "Projděte zahradou mezi bazény a alejemi. Je to klasická pařížská procházka a dobrá chvíle, abyste si všimli světla."
+      }
+    },
+    {
+      "ref": "museums:orangerie",
+      "note": {
+        "fr": "Au bout du jardin, le musée accueille les grands panneaux des Nymphéas de Monet dans deux salles ovales.",
+        "cs": "Na konci zahrady muzeum ukrývá velké panely Monetových Leknínů ve dvou oválných sálech."
+      }
+    },
+    {
+      "ref": "museums:orsay",
+      "note": {
+        "fr": "Traversez la Seine à pied. Dans cette ancienne gare, vous trouverez une des plus importantes collections impressionnistes du monde.",
+        "cs": "Přejděte Seinu pěšky. V této bývalé nádražní budově najdete jednu z nejvýznamnějších sbírek impresionismu na světě."
+      }
+    },
+    {
+      "ref": "museums:marmottan",
+      "note": {
+        "fr": "Pour finir, prenez le métro vers La Muette. Ce musée du 16e arrondissement possède une importante collection de Monet, dont « Impression, soleil levant ».",
+        "cs": "Nakonec jeďte metrem do stanice La Muette. Toto muzeum v 16. obvodu vlastní velkou sbírku Monetových děl, mezi nimi i „Dojem, vycházející slunce“."
+      }
+    }
+  ],
+  "tip": {
+    "fr": "Le dernier musée est loin des autres : prévoyez-y un autre moment ou une autre journée. Réservez vos billets sur les sites officiels des musées.",
+    "cs": "Poslední muzeum leží daleko od ostatních, takže si na něj vyhraďte jinou chvíli nebo jiný den. Vstupenky rezervujte na oficiálních stránkách muzeí."
+  },
+  "sources": [
+    "https://www.musee-orsay.fr/",
+    "https://www.musee-orangerie.fr/",
+    "https://www.marmottan.fr/",
+    "https://fr.wikipedia.org/wiki/La_Gare_Saint-Lazare",
+    "https://fr.wikipedia.org/wiki/Impression,_soleil_levant"
+  ]
+}

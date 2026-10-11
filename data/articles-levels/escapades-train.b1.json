@@ -89,5 +89,107 @@
     "https://www.sncf-connect.com",
     "https://www.iledefrance-mobilites.fr",
     "https://www.transilien.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que faut-il faire pour aller de la gare de Fontainebleau-Avon au château ?",
+        "cs": "Co je třeba udělat, aby se člověk dostal z nádraží Fontainebleau-Avon k zámku?"
+      },
+      "options": {
+        "fr": [
+          "Marcher 20 à 25 minutes dans la forêt.",
+          "Prendre la navette saisonnière.",
+          "Prendre un bus local et vérifier la ligne.",
+          "Louer un vélo près de la gare."
+        ],
+        "cs": [
+          "Jít 20 až 25 minut lesem.",
+          "Jet sezonním kyvadlovým autobusem.",
+          "Jet místním autobusem a ověřit si linku.",
+          "Půjčit si kolo u nádraží."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "La gare est « à plusieurs kilomètres du château. Un bus local fait la liaison », mais le numéro est à vérifier.",
+        "cs": "Nádraží je „à plusieurs kilomètres du château. Un bus local fait la liaison“, číslo linky je ale třeba ověřit."
+      }
+    },
+    {
+      "q": {
+        "fr": "En quelle année Monet achète-t-il la maison de Giverny ?",
+        "cs": "V kterém roce Monet dům v Giverny koupil?"
+      },
+      "options": {
+        "fr": [
+          "En 1883",
+          "En 1926",
+          "En 2001",
+          "En 1890"
+        ],
+        "cs": [
+          "V roce 1883",
+          "V roce 1926",
+          "V roce 2001",
+          "V roce 1890"
+        ]
+      },
+      "answer": 3,
+      "explain": {
+        "fr": "« Il loue une maison, puis il l'achète en 1890. »",
+        "cs": "„Il loue une maison, puis il l'achète en 1890.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi un forfait Navigo ne suffit-il pas toujours pour Chantilly ?",
+        "cs": "Proč u cesty do Chantilly nemusí stačit permanentka Navigo?"
+      },
+      "options": {
+        "fr": [
+          "La gare est hors de la zone tarifaire d'Île-de-France.",
+          "Le TER est un train de nuit.",
+          "Le château est fermé le week-end.",
+          "Le trajet dure plus d'une heure."
+        ],
+        "cs": [
+          "Nádraží leží mimo tarifní zónu Île-de-France.",
+          "TER je noční vlak.",
+          "Zámek je o víkendu zavřený.",
+          "Cesta trvá více než hodinu."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Cette gare est hors de la zone tarifaire d'Île-de-France, donc un forfait Navigo ne suffit pas toujours. »",
+        "cs": "„Cette gare est hors de la zone tarifaire d'Île-de-France, donc un forfait Navigo ne suffit pas toujours.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment va-t-on à Auvers-sur-Oise en semaine ?",
+        "cs": "Jak se jede do Auvers-sur-Oise ve všední den?"
+      },
+      "options": {
+        "fr": [
+          "Par un train direct depuis la gare de l'Est.",
+          "Il faut changer de train, en général à Pontoise.",
+          "Par une navette depuis Vernon-Giverny.",
+          "Par un TGV INOUI direct."
+        ],
+        "cs": [
+          "Přímým vlakem z Gare de l'Est.",
+          "Je třeba přestoupit, obvykle v Pontoise.",
+          "Kyvadlovým autobusem z Vernon-Giverny.",
+          "Přímým TGV INOUI."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Les autres jours, il faut changer, en général à Pontoise. »",
+        "cs": "„Les autres jours, il faut changer, en général à Pontoise.“"
+      }
+    }
   ]
 }

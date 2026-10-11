@@ -1,0 +1,86 @@
+{
+  "id": "paris-en-une-journee",
+  "level": "B1",
+  "title": {
+    "fr": "Paris en une journée : les grands classiques",
+    "cs": "Paříž za jeden den: velké klasiky"
+  },
+  "intro": {
+    "fr": "Vous visitez Paris pour la première fois et vous n'avez qu'une journée ? Cet itinéraire relie les sites les plus connus dans un ordre logique : on commence à l'ouest avec la tour Eiffel, on remonte la voie triomphale jusqu'au Louvre, puis on termine sur l'île de la Cité. On marche beaucoup, mais le métro aide pour les deux premiers trajets.",
+    "cs": "Poprvé v Paříži a k dispozici jen jediný den? Tahle trasa spojuje nejznámější místa v rozumném pořadí: začíná na západě u Eiffelovy věže, pokračuje po slavné ose až k Louvru a končí na ostrově Cité. Chodit se bude hodně, ale první přesuny usnadní metro."
+  },
+  "easy": {
+    "fr": "Vous avez un seul jour à Paris. Vous voyez la tour Eiffel, l'Arc de Triomphe et le Louvre. Puis vous finissez sur l'île de la Cité, près de la Seine.",
+    "cs": "Máte v Paříži jen jeden den. Uvidíte Eiffelovu věž, Vítězný oblouk a Louvre. Pak skončíte na ostrově Cité u Seiny."
+  },
+  "duration": {
+    "fr": "une journée entière",
+    "cs": "celý den"
+  },
+  "stops": [
+    {
+      "ref": "places:tour-eiffel",
+      "note": {
+        "fr": "Commencez par la tour construite pour l'Exposition universelle de 1889. Pour la photo classique, allez sur l'esplanade du Trocadéro, de l'autre côté de la Seine.",
+        "cs": "Začněte věží postavenou pro světovou výstavu v roce 1889. Klasický snímek pořídíte z esplanády Trocadéro na druhém břehu Seiny."
+      }
+    },
+    {
+      "ref": "places:arc-de-triomphe",
+      "note": {
+        "fr": "Depuis le Trocadéro, prenez le métro jusqu'à la place de l'Étoile. Regardez les douze avenues qui partent du monument, puis les sculptures de ses piliers.",
+        "cs": "Z Trocadéra jeďte metrem na náměstí Étoile. Podívejte se na dvanáct bulvárů, které se od oblouku rozbíhají, a pak na sochařskou výzdobu jeho pilířů."
+      }
+    },
+    {
+      "query": "Place de la Concorde, Paris",
+      "name": {
+        "fr": "Place de la Concorde",
+        "cs": "Place de la Concorde"
+      },
+      "note": {
+        "fr": "Descendez l'avenue des Champs-Élysées jusqu'à la grande place. Au centre se dresse l'obélisque de Louxor, érigé ici en 1836 : il a plus de 3 000 ans.",
+        "cs": "Sejděte po Champs-Élysées na velké náměstí. Uprostřed stojí luxorský obelisk, postavený tu v roce 1836, který je starý přes 3000 let."
+      }
+    },
+    {
+      "ref": "museums:louvre",
+      "note": {
+        "fr": "Traversez le jardin des Tuileries jusqu'au Louvre. Même sans entrer, la cour Napoléon et la pyramide de verre valent le détour.",
+        "cs": "Projděte zahradou Tuileries až k Louvru. I bez vstupu stojí za pohled nádvoří Napoleon a skleněná pyramida."
+      }
+    },
+    {
+      "ref": "places:pont-neuf",
+      "note": {
+        "fr": "Longez la Seine jusqu'à la pointe de l'île de la Cité. Le Pont Neuf, terminé en 1607, est le plus ancien pont de Paris encore debout.",
+        "cs": "Podél Seiny dojděte k západnímu cípu ostrova Cité. Pont Neuf, dokončený v roce 1607, je nejstarší dosud stojící most v Paříži."
+      }
+    },
+    {
+      "ref": "places:sainte-chapelle",
+      "note": {
+        "fr": "Remontez l'île à pied. La Sainte-Chapelle cache dans le palais de la Cité une chapelle haute entièrement éclairée par des vitraux.",
+        "cs": "Pěšky se vydejte po ostrově dál. Ve starém paláci na Cité se ukrývá Sainte-Chapelle, jejíž horní kaple je celá prosvětlená vitrážemi."
+      }
+    },
+    {
+      "ref": "places:notre-dame",
+      "note": {
+        "fr": "Terminez devant la cathédrale, qui a rouvert en décembre 2024 après l'incendie de 2019. Regardez la façade et faites le tour par les quais.",
+        "cs": "Skončete před katedrálou, která se po požáru v roce 2019 znovu otevřela v prosinci 2024. Prohlédněte si průčelí a obejděte ji po nábřeží."
+      }
+    }
+  ],
+  "tip": {
+    "fr": "Ne cherchez pas à tout visiter à l'intérieur : choisissez un ou deux sites à visiter et réservez-les à l'avance sur les sites officiels. Le reste se découvre très bien de l'extérieur.",
+    "cs": "Nesnažte se všechno navštívit uvnitř: vyberte si jedno či dvě místa a rezervujte je předem na oficiálních webech. Zbytek se dá skvěle poznat i zvenku."
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Obélisque_de_Louxor",
+    "https://www.culture.gouv.fr/presse/dossiers-de-presse/restauration-de-l-obelisque-de-louxor",
+    "https://en.wikipedia.org/wiki/Pont_Neuf",
+    "https://fr.wikipedia.org/wiki/Réouverture_de_Notre-Dame_de_Paris",
+    "https://www.paris.fr/pages/cinq-ans-apres-notre-dame-de-paris-s-apprete-a-rouvrir-ses-portes-29209"
+  ]
+}

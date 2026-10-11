@@ -1,0 +1,263 @@
+{
+  "id": "musee-billets",
+  "level": "B1",
+  "title": {
+    "fr": "À la caisse du musée",
+    "cs": "U pokladny muzea"
+  },
+  "scene": {
+    "fr": "Deux amis arrivent à la caisse d'un musée. L'un d'eux est étudiant et demande s'il a droit à un tarif réduit.",
+    "cs": "Dva přátelé přijdou k pokladně muzea. Jeden z nich je student a ptá se, zda má nárok na slevu."
+  },
+  "lines": [
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le visiteur",
+        "cs": "Návštěvník"
+      },
+      "fr": "Bonjour, nous voudrions deux billets pour l'exposition permanente, s'il vous plaît.",
+      "cs": "Dobrý den, chtěli bychom dvě vstupenky na stálou expozici, prosím."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent d'accueil",
+        "cs": "Pracovník pokladny"
+      },
+      "fr": "Bonjour. Pour deux adultes ?",
+      "cs": "Dobrý den. Pro dva dospělé?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le visiteur",
+        "cs": "Návštěvník"
+      },
+      "fr": "En fait, moi, je suis étudiant. Est-ce qu'il y a un tarif réduit pour les étudiants ?",
+      "cs": "Vlastně já jsem student. Existuje pro studenty zvýhodněné vstupné?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent d'accueil",
+        "cs": "Pracovník pokladny"
+      },
+      "fr": "Cela dépend de votre situation. Vous étudiez en France ou à l'étranger ?",
+      "cs": "Záleží na vaší situaci. Studujete ve Francii, nebo v zahraničí?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le visiteur",
+        "cs": "Návštěvník"
+      },
+      "fr": "J'étudie en République tchèque, mais je suis à Paris pour une semaine.",
+      "cs": "Studuji v České republice, ale v Paříži jsem na týden."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent d'accueil",
+        "cs": "Pracovník pokladny"
+      },
+      "fr": "D'accord. Avez-vous une carte d'étudiant en cours de validité ?",
+      "cs": "Dobře. Máte platný studentský průkaz?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le visiteur",
+        "cs": "Návštěvník"
+      },
+      "fr": "Oui, la voici. Elle est en tchèque, mais il y a ma photo et la date de validité.",
+      "cs": "Ano, tady je. Je v češtině, ale je na ní moje fotka a datum platnosti."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent d'accueil",
+        "cs": "Pracovník pokladny"
+      },
+      "fr": "Merci. Je regarde... Oui, la photo et la date sont bien visibles. Ça devrait convenir.",
+      "cs": "Děkuji. Podívám se... Ano, fotka i datum jsou dobře vidět. Mělo by to stačit."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le visiteur",
+        "cs": "Návštěvník"
+      },
+      "fr": "Parfait. Et mon ami a vingt-huit ans. Il n'a droit à aucune réduction, je suppose ?",
+      "cs": "Skvělé. A můj přítel má dvacet osm let. Na žádnou slevu nemá nárok, předpokládám?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent d'accueil",
+        "cs": "Pracovník pokladny"
+      },
+      "fr": "Non, il paiera le tarif normal, sauf s'il a une autre carte, par exemple un pass culturel.",
+      "cs": "Ne, zaplatí běžné vstupné, pokud nemá nějakou jinou kartu, třeba kulturní permanentku."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le visiteur",
+        "cs": "Návštěvník"
+      },
+      "fr": "Non, rien d'autre. Est-ce qu'il y a un audioguide, ou une application gratuite pour la visite ?",
+      "cs": "Ne, nic jiného. Je k dispozici audioprůvodce, nebo bezplatná aplikace k prohlídce?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent d'accueil",
+        "cs": "Pracovník pokladny"
+      },
+      "fr": "Il y a une application, que vous pouvez télécharger avec le wifi du musée. Les audioguides se louent à l'accueil, à gauche.",
+      "cs": "Je tu aplikace, kterou si můžete stáhnout přes wifi muzea. Audioprůvodce se půjčují u recepce, nalevo."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le visiteur",
+        "cs": "Návštěvník"
+      },
+      "fr": "Très bien. Et si nous sortons déjeuner puis revenons, est-ce que le billet reste valable ?",
+      "cs": "Výborně. A když půjdeme na oběd a pak se vrátíme, zůstane vstupenka platná?"
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "L'agent d'accueil",
+        "cs": "Pracovník pokladny"
+      },
+      "fr": "Non, le billet est valable pour une seule entrée, le jour même. Ne le perdez pas, on le contrôle à l'entrée des salles.",
+      "cs": "Ne, vstupenka platí na jeden vstup, jen v daný den. Neztraťte ji, kontroluje se při vstupu do sálů."
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "Le visiteur",
+        "cs": "Návštěvník"
+      },
+      "fr": "Compris, merci beaucoup. Nous allons plutôt déjeuner avant la visite !",
+      "cs": "Rozumím, moc děkuji. Půjdeme raději na oběd před prohlídkou!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "le tarif réduit",
+      "cs": "snížené vstupné"
+    },
+    {
+      "fr": "la carte d'étudiant",
+      "cs": "studentský průkaz"
+    },
+    {
+      "fr": "en cours de validité",
+      "cs": "platný"
+    },
+    {
+      "fr": "un audioguide",
+      "cs": "audioprůvodce"
+    },
+    {
+      "fr": "l'exposition permanente (f.)",
+      "cs": "stálá expozice"
+    },
+    {
+      "fr": "valable",
+      "cs": "platný"
+    },
+    {
+      "fr": "l'accueil (m.)",
+      "cs": "recepce, informace"
+    },
+    {
+      "fr": "louer",
+      "cs": "půjčit si (za poplatek)"
+    },
+    {
+      "fr": "avoir droit à",
+      "cs": "mít nárok na"
+    }
+  ],
+  "tip": {
+    "fr": "Les conditions pour les tarifs réduits ou la gratuité changent d'un musée à l'autre et selon l'âge, le pays d'études ou de résidence. Avant d'y aller, regardez la page des tarifs sur le site officiel du musée et emportez un justificatif.",
+    "cs": "Podmínky slev nebo vstupu zdarma se liší podle muzea a také podle věku, země studia nebo bydliště. Před návštěvou si projděte stránku s vstupným na oficiálním webu muzea a vezměte si doklad."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Pourquoi le visiteur demande-t-il un tarif réduit ?",
+        "cs": "Proč se návštěvník ptá na zvýhodněné vstupné?"
+      },
+      "options": {
+        "fr": [
+          "Il est étudiant.",
+          "Il a plus de soixante ans.",
+          "Il visite le musée avec sa famille."
+        ],
+        "cs": [
+          "Je student.",
+          "Je mu přes šedesát.",
+          "Navštěvuje muzeum s rodinou."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Il dit : « Moi, je suis étudiant. »",
+        "cs": "Říká: „Já jsem student.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Quel document l'agent demande-t-il ?",
+        "cs": "Jaký doklad pracovník požaduje?"
+      },
+      "options": {
+        "fr": [
+          "Un passeport",
+          "Une carte d'étudiant en cours de validité",
+          "Un certificat de résidence à Paris"
+        ],
+        "cs": [
+          "Cestovní pas",
+          "Platný studentský průkaz",
+          "Potvrzení o bydlišti v Paříži"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "L'agent demande : « Avez-vous une carte d'étudiant en cours de validité ? »",
+        "cs": "Pracovník se ptá na platný studentský průkaz."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que peut-on faire avec le billet ?",
+        "cs": "Co lze se vstupenkou dělat?"
+      },
+      "options": {
+        "fr": [
+          "Sortir déjeuner et revenir le lendemain",
+          "Sortir déjeuner et revenir le même jour",
+          "Entrer une seule fois, le jour même"
+        ],
+        "cs": [
+          "Jít na oběd a vrátit se druhý den",
+          "Jít na oběd a vrátit se téhož dne",
+          "Vstoupit jen jednou, téhož dne"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "L'agent explique que le billet est valable pour une seule entrée, le jour même.",
+        "cs": "Pracovník vysvětluje, že vstupenka platí na jeden vstup, jen v daný den."
+      }
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,74 @@
+{
+  "id": "rive-gauche-litteraire",
+  "level": "B1",
+  "title": {
+    "fr": "La rive gauche littéraire",
+    "cs": "Literární levý břeh"
+  },
+  "intro": {
+    "fr": "Sur la rive gauche, les écrivains ont laissé des traces partout : dans les librairies, les cafés, les jardins et sous la coupole d'un monument. Cette promenade va de la Seine au Quartier latin, puis vers Saint-Germain-des-Prés. Vous passerez par des lieux où l'on lit, où l'on écrit et où l'on se souvient des grands auteurs.",
+    "cs": "Na levém břehu po sobě spisovatelé zanechali stopy na každém kroku: v knihkupectvích, kavárnách, zahradách i pod kupolí jednoho pomníku. Procházka vede od Seiny přes Latinskou čtvrť až do Saint-Germain-des-Prés. Zastavíte se tam, kde se čte, píše a vzpomíná na velké autory."
+  },
+  "easy": {
+    "fr": "C'est une promenade pour les amoureux des livres. On voit une librairie, un grand monument, un jardin et des cafés célèbres. On finit au bord de la Seine, chez les bouquinistes.",
+    "cs": "Je to procházka pro milovníky knih. Uvidíte knihkupectví, velký pomník, zahradu a slavné kavárny. Končí se na nábřeží Seiny u bukinistů."
+  },
+  "duration": {
+    "fr": "environ une demi-journée",
+    "cs": "zhruba půl dne"
+  },
+  "stops": [
+    {
+      "ref": "literature:shakespeare-and-company",
+      "note": {
+        "fr": "Commencez par cette librairie anglophone, près de Notre-Dame. Elle est installée à cet endroit depuis 1951 et on peut y feuilleter des livres en toute tranquillité.",
+        "cs": "Začněte u tohoto anglofonního knihkupectví poblíž Notre-Dame. Sídlí tu od roku 1951 a můžete si tu v klidu listovat knihami."
+      }
+    },
+    {
+      "ref": "places:pantheon",
+      "note": {
+        "fr": "Montez par la rue Saint-Jacques jusqu'au Panthéon, où reposent notamment Victor Hugo, Émile Zola et Alexandre Dumas.",
+        "cs": "Po rue Saint-Jacques vystoupejte k Panthéonu, kde jsou pohřbeni mimo jiné Victor Hugo, Émile Zola a Alexandre Dumas."
+      }
+    },
+    {
+      "ref": "places:jardin-du-luxembourg",
+      "note": {
+        "fr": "Reposez-vous dans le jardin, entre les chaises vertes et les statues. Beaucoup d'étudiants du quartier viennent y lire.",
+        "cs": "Odpočiňte si v zahradě mezi zelenými židlemi a sochami. Čte tu mnoho studentů z okolí."
+      }
+    },
+    {
+      "ref": "cafes:le-procope",
+      "note": {
+        "fr": "Rue de l'Ancienne Comédie, regardez la façade du Procope. Ce café a ouvert en 1686 et il est souvent présenté comme le plus ancien de Paris.",
+        "cs": "V ulici rue de l'Ancienne Comédie si prohlédněte průčelí Procope. Kavárna otevřela v roce 1686 a často se uvádí jako nejstarší v Paříži."
+      }
+    },
+    {
+      "ref": "literature:flore-deux-magots",
+      "note": {
+        "fr": "À Saint-Germain-des-Prés, deux cafés voisins sont liés à la vie intellectuelle du XXe siècle, notamment à Jean-Paul Sartre et à Simone de Beauvoir.",
+        "cs": "V Saint-Germain-des-Prés stojí vedle sebe dvě kavárny spojené s intelektuálním životem 20. století, zejména s Jeanem-Paulem Sartrem a Simone de Beauvoirovou."
+      }
+    },
+    {
+      "ref": "literature:bouquinistes",
+      "note": {
+        "fr": "Descendez vers la Seine et finissez chez les bouquinistes : leurs boîtes vertes sont installées sur les quais, avec de vieux livres, des gravures et des cartes postales.",
+        "cs": "Sejděte k Seině a skončete u bukinistů: jejich zelené bedny stojí na nábřežích a nabízejí staré knihy, rytiny i pohlednice."
+      }
+    }
+  ],
+  "tip": {
+    "fr": "Emportez un livre ou un carnet. Le matin, les cafés de Saint-Germain sont plus calmes, et les bouquinistes ouvrent selon la météo.",
+    "cs": "Vezměte si knihu nebo zápisník. Dopoledne bývá v kavárnách v Saint-Germain klidněji a bukinisté otevírají podle počasí."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)",
+    "https://fr.wikipedia.org/wiki/Caf%C3%A9_Procope",
+    "https://fr.wikipedia.org/wiki/Panth%C3%A9on_(Paris)",
+    "https://fr.wikipedia.org/wiki/Bouquiniste"
+  ]
+}

@@ -66,5 +66,99 @@
     "https://en.wikipedia.org/wiki/Coul%C3%A9e_verte_Ren%C3%A9-Dumont",
     "https://www.paris.fr/equipements/coulee-verte-rene-dumont-1772",
     "https://www.velib-metropole.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Comment vont au travail plus de 10 % des Parisiens qui travaillent ?",
+        "cs": "Jak jezdí do práce více než 10 % pracujících Pařížanů?"
+      },
+      "options": {
+        "fr": [
+          "En voiture.",
+          "À pied.",
+          "À vélo."
+        ],
+        "cs": [
+          "Autem.",
+          "Pěšky.",
+          "Na kole."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Début du texte : beaucoup de gens vont au travail à vélo, plus de 10 %.",
+        "cs": "Začátek textu: hodně lidí jezdí do práce na kole, více než 10 %."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que fait-on avec Vélib' ?",
+        "cs": "Co se dělá s Vélib'?"
+      },
+      "options": {
+        "fr": [
+          "On achète un vélo pour toujours.",
+          "On prend un vélo à une station et on le rend à une autre.",
+          "On répare son vélo."
+        ],
+        "cs": [
+          "Koupí se kolo navždy.",
+          "Vezme se kolo na jedné stanici a vrátí na jiné.",
+          "Opravuje se vlastní kolo."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Le vélo en ville » : vélos en libre-service, d'une station à l'autre.",
+        "cs": "Oddíl „Kolo ve městě“: sdílená kola, z jedné stanice na jinou."
+      }
+    },
+    {
+      "q": {
+        "fr": "Qui doit porter un casque ?",
+        "cs": "Kdo musí mít helmu?"
+      },
+      "options": {
+        "fr": [
+          "Les enfants de moins de 12 ans.",
+          "Tous les adultes.",
+          "Personne."
+        ],
+        "cs": [
+          "Děti do 12 let.",
+          "Všichni dospělí.",
+          "Nikdo."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Règle 1 : le casque est obligatoire pour les enfants de moins de 12 ans.",
+        "cs": "První pravidlo: helma je povinná pro děti do 12 let."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi la Seine est-elle un bon endroit pour rouler ?",
+        "cs": "Proč je Seina dobré místo pro jízdu?"
+      },
+      "options": {
+        "fr": [
+          "Il n'y a personne.",
+          "C'est plat.",
+          "Il y a beaucoup de montées."
+        ],
+        "cs": [
+          "Nikdo tam není.",
+          "Je tam rovina.",
+          "Je tam hodně kopců."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Section « Où rouler ? » : « C'est plat. »",
+        "cs": "Oddíl „Kde jezdit?“: „Je to rovina.“"
+      }
+    }
   ]
 }

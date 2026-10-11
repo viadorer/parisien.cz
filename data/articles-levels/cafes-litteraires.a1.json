@@ -61,5 +61,99 @@
     "https://cafedeflore.fr",
     "https://www.lesdeuxmagots.fr",
     "https://www.procope.com"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Qui travaille dans les cafés à Paris ?",
+        "cs": "Kdo pracuje v pařížských kavárnách?"
+      },
+      "options": {
+        "fr": [
+          "Des écrivains",
+          "Des boulangers",
+          "Des médecins"
+        ],
+        "cs": [
+          "Spisovatelé",
+          "Pekaři",
+          "Lékaři"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« À Paris, des écrivains travaillent dans les cafés. »",
+        "cs": "„V Paříži pracují spisovatelé v kavárnách.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand le Procope ouvre-t-il ?",
+        "cs": "Kdy se otevře Procope?"
+      },
+      "options": {
+        "fr": [
+          "En 1886",
+          "En 1686",
+          "En 1968"
+        ],
+        "cs": [
+          "V roce 1886",
+          "V roce 1686",
+          "V roce 1968"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Il ouvre en 1686. »",
+        "cs": "„Otevře se v roce 1686.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Qui travaille au Café de Flore ?",
+        "cs": "Kdo pracuje v Café de Flore?"
+      },
+      "options": {
+        "fr": [
+          "Hemingway et Fitzgerald",
+          "Voltaire et Diderot",
+          "Sartre et Simone de Beauvoir"
+        ],
+        "cs": [
+          "Hemingway a Fitzgerald",
+          "Voltaire a Diderot",
+          "Sartre a Simone de Beauvoir"
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "« Sartre et Simone de Beauvoir travaillent au Flore. »",
+        "cs": "„Sartre a Simone de Beauvoir pracují ve Flore.“"
+      }
+    },
+    {
+      "q": {
+        "fr": "Que dit-on pour demander l'addition ?",
+        "cs": "Co se řekne, když chcete účet?"
+      },
+      "options": {
+        "fr": [
+          "« Bonjour ! »",
+          "« L'addition, s'il vous plaît »",
+          "« Un café ! »"
+        ],
+        "cs": [
+          "„Bonjour!“",
+          "„L'addition, s'il vous plaît“",
+          "„Un café!“"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "« Pour l'addition, dites : “L'addition, s'il vous plaît”. »",
+        "cs": "„Pour l'addition, dites : L'addition, s'il vous plaît.“"
+      }
+    }
   ]
 }

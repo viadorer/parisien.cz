@@ -1,0 +1,216 @@
+{
+  "id": "boulangerie-baguette",
+  "level": "A1",
+  "title": {
+    "fr": "À la boulangerie",
+    "cs": "V pekárně"
+  },
+  "scene": {
+    "fr": "Une cliente achète du pain et un croissant.",
+    "cs": "Zákaznice kupuje chléb a croissant."
+  },
+  "lines": [
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le boulanger",
+        "cs": "Pekař"
+      },
+      "fr": "Bonjour madame !",
+      "cs": "Dobrý den, paní!"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Bonjour. Une baguette, s'il vous plaît.",
+      "cs": "Dobrý den. Jednu bagetu, prosím."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le boulanger",
+        "cs": "Pekař"
+      },
+      "fr": "Normale ou de tradition ?",
+      "cs": "Obyčejnou, nebo tradiční?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "De tradition, s'il vous plaît.",
+      "cs": "Tradiční, prosím."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le boulanger",
+        "cs": "Pekař"
+      },
+      "fr": "Voilà. Et avec ça ?",
+      "cs": "Tady máte. A k tomu něco?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Je voudrais aussi un croissant.",
+      "cs": "Chtěla bych ještě croissant."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le boulanger",
+        "cs": "Pekař"
+      },
+      "fr": "Un croissant. C'est tout ?",
+      "cs": "Jeden croissant. To je všechno?"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Oui, c'est tout. Merci.",
+      "cs": "Ano, to je všechno. Děkuji."
+    },
+    {
+      "who": "B",
+      "role": {
+        "fr": "Le boulanger",
+        "cs": "Pekař"
+      },
+      "fr": "Bonne journée, madame !",
+      "cs": "Hezký den, paní!"
+    },
+    {
+      "who": "A",
+      "role": {
+        "fr": "La cliente",
+        "cs": "Zákaznice"
+      },
+      "fr": "Merci, vous aussi. Au revoir !",
+      "cs": "Děkuji, vám také. Na shledanou!"
+    }
+  ],
+  "vocab": [
+    {
+      "fr": "la boulangerie",
+      "cs": "pekárna"
+    },
+    {
+      "fr": "la baguette",
+      "cs": "bageta"
+    },
+    {
+      "fr": "le croissant",
+      "cs": "croissant"
+    },
+    {
+      "fr": "s'il vous plaît",
+      "cs": "prosím (při žádosti)"
+    },
+    {
+      "fr": "Et avec ça ?",
+      "cs": "A k tomu něco? (otázka prodavače)"
+    },
+    {
+      "fr": "C'est tout ?",
+      "cs": "To je všechno?"
+    },
+    {
+      "fr": "Bonne journée !",
+      "cs": "Hezký den!"
+    },
+    {
+      "fr": "aussi",
+      "cs": "také"
+    }
+  ],
+  "tip": {
+    "fr": "En France, on dit toujours « Bonjour » en entrant dans un petit commerce. La « baguette de tradition française » est une appellation encadrée par la loi : elle se fait sans additifs.",
+    "cs": "Ve Francii se v malém obchodě při vstupu vždy zdraví „Bonjour“. „Baguette de tradition française“ je označení upravené zákonem: peče se bez přídatných látek."
+  },
+  "quiz": [
+    {
+      "q": {
+        "fr": "Que demande la cliente d'abord ?",
+        "cs": "Co si zákaznice nejdřív objedná?"
+      },
+      "options": {
+        "fr": [
+          "Un croissant",
+          "Une baguette",
+          "Un gâteau"
+        ],
+        "cs": [
+          "Croissant",
+          "Bagetu",
+          "Dort"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Elle dit : « Une baguette, s'il vous plaît ».",
+        "cs": "Říká: „Une baguette, s'il vous plaît“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quelle baguette choisit-elle ?",
+        "cs": "Jakou bagetu si vybere?"
+      },
+      "options": {
+        "fr": [
+          "La baguette normale",
+          "La baguette de tradition",
+          "Elle ne choisit pas"
+        ],
+        "cs": [
+          "Obyčejnou",
+          "Tradiční",
+          "Nevybírá"
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "Elle répond : « De tradition ».",
+        "cs": "Odpoví: „De tradition“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que prend-elle en plus ?",
+        "cs": "Co si ještě vezme?"
+      },
+      "options": {
+        "fr": [
+          "Un croissant",
+          "Du pain de campagne",
+          "Rien"
+        ],
+        "cs": [
+          "Croissant",
+          "Selský chléb",
+          "Nic"
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "« Je voudrais aussi un croissant ».",
+        "cs": "„Je voudrais aussi un croissant“."
+      }
+    }
+  ],
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Baguette_de_pain"
+  ]
+}

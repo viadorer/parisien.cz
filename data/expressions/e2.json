@@ -1,0 +1,682 @@
+[
+  {
+    "id": "avoir-la-peche",
+    "fr": "avoir la pêche",
+    "type": "idiome",
+    "register": "familier",
+    "level": "B1",
+    "meaning": {
+      "fr": "Être en pleine forme, plein d'énergie.",
+      "cs": "Být v plné formě, plný energie."
+    },
+    "cs": "mít energii na rozdávání (česky též: být ve formě)",
+    "example": {
+      "fr": "Après deux cafés et une bonne nuit, j'ai la pêche !",
+      "cs": "Po dvou kávách a dobře prospané noci jsem plný energie!"
+    },
+    "audio": true
+  },
+  {
+    "id": "etre-fauche-comme-les-bles",
+    "fr": "être fauché comme les blés",
+    "type": "idiome",
+    "register": "familier",
+    "level": "B1",
+    "meaning": {
+      "fr": "Ne plus avoir d'argent du tout.",
+      "cs": "Nemít vůbec žádné peníze."
+    },
+    "cs": "být švorc",
+    "example": {
+      "fr": "Je suis fauché comme les blés : je ne peux pas sortir ce week-end.",
+      "cs": "Jsem švorc, tenhle víkend nemůžu nikam jít."
+    },
+    "audio": true
+  },
+  {
+    "id": "raconter-des-salades",
+    "fr": "raconter des salades",
+    "type": "idiome",
+    "register": "familier",
+    "level": "B1",
+    "meaning": {
+      "fr": "Raconter des histoires inventées ou peu crédibles.",
+      "cs": "Vyprávět výmysly nebo nevěrohodné historky."
+    },
+    "cs": "vykládat pohádky (též: básnit)",
+    "example": {
+      "fr": "Ne l'écoute pas, il raconte des salades.",
+      "cs": "Neposlouchej ho, vypráví pohádky."
+    },
+    "audio": true
+  },
+  {
+    "id": "mettre-du-beurre-dans-les-epinards",
+    "fr": "mettre du beurre dans les épinards",
+    "type": "idiome",
+    "register": "courant",
+    "level": "B1",
+    "meaning": {
+      "fr": "Améliorer sa situation financière, gagner un peu plus d'argent.",
+      "cs": "Zlepšit si finanční situaci, trochu si přivydělat."
+    },
+    "cs": "přilepšit si (k příjmu)",
+    "example": {
+      "fr": "Elle donne des cours de français le soir pour mettre du beurre dans les épinards.",
+      "cs": "Večer dává hodiny francouzštiny, aby si přilepšila."
+    },
+    "audio": true
+  },
+  {
+    "id": "ce-nest-pas-la-mer-a-boire",
+    "fr": "ce n'est pas la mer à boire",
+    "type": "idiome",
+    "register": "courant",
+    "level": "B1",
+    "meaning": {
+      "fr": "Ce n'est pas si difficile qu'on le croit.",
+      "cs": "Není to tak těžké, jak se zdá."
+    },
+    "cs": "to není žádná věda (též: však to nebude nic hrozného)",
+    "example": {
+      "fr": "Remplir ce formulaire, ce n'est pas la mer à boire.",
+      "cs": "Vyplnit tenhle formulář není žádná věda."
+    },
+    "audio": true
+  },
+  {
+    "id": "etre-dans-les-choux",
+    "fr": "être dans les choux",
+    "type": "idiome",
+    "register": "familier",
+    "level": "B1",
+    "meaning": {
+      "fr": "Échouer, ou se trouver dans une situation difficile.",
+      "cs": "Neuspět nebo být v nepříjemné situaci."
+    },
+    "cs": "být v loji (též: být v háji — hovorově)",
+    "example": {
+      "fr": "Si le dernier métro est parti, on est dans les choux.",
+      "cs": "Jestli poslední metro odjelo, jsme v loji."
+    },
+    "audio": true,
+    "source": [
+      "https://www.expressio.fr/expressions/etre-dans-les-choux"
+    ]
+  },
+  {
+    "id": "cest-la-fin-des-haricots",
+    "fr": "c'est la fin des haricots",
+    "type": "idiome",
+    "register": "familier",
+    "level": "B1",
+    "meaning": {
+      "fr": "C'est la catastrophe, tout est perdu.",
+      "cs": "Je konec, je všechno ztraceno."
+    },
+    "cs": "je s námi amen (též: je to v pytli)",
+    "example": {
+      "fr": "J'ai oublié mon passeport : c'est la fin des haricots !",
+      "cs": "Zapomněl jsem pas, je s námi amen!"
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/c%E2%80%99est_la_fin_des_haricots"
+    ]
+  },
+  {
+    "id": "avoir-la-banane",
+    "fr": "avoir la banane",
+    "type": "idiome",
+    "register": "familier",
+    "level": "B1",
+    "meaning": {
+      "fr": "Être de bonne humeur, sourire largement.",
+      "cs": "Mít dobrou náladu, široce se usmívat."
+    },
+    "cs": "být v dobré náladě (od úsměvu „jako banán\")",
+    "example": {
+      "fr": "Il a la banane depuis qu'il a réussi son examen.",
+      "cs": "Od té doby, co udělal zkoušku, má dobrou náladu."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/avoir_la_banane"
+    ]
+  },
+  {
+    "id": "paname",
+    "fr": "Paname",
+    "type": "parisien",
+    "register": "familier",
+    "level": "B2",
+    "meaning": {
+      "fr": "Nom familier de Paris.",
+      "cs": "Hovorové jméno Paříže."
+    },
+    "cs": "Paříž (hovorové, familiární označení)",
+    "example": {
+      "fr": "Il est né à Paname et n'a jamais quitté la ville.",
+      "cs": "Narodil se v Paříži a nikdy město neopustil."
+    },
+    "note": {
+      "fr": "Variante familière de Paris, attestée en argot depuis 1903 (forme « Panam' ») ; l'étymologie est incertaine.",
+      "cs": "Familiární označení Paříže doložené v argotu od roku 1903 (tvar « Panam' »); etymologie je nejistá."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/Paname"
+    ]
+  },
+  {
+    "id": "le-periph",
+    "fr": "le périph'",
+    "type": "parisien",
+    "register": "familier",
+    "level": "B2",
+    "meaning": {
+      "fr": "Le boulevard périphérique, la grande route circulaire qui entoure Paris.",
+      "cs": "Bulvár Périphérique, velký okruh kolem Paříže."
+    },
+    "cs": "pařížský okruh (hovorově „périph'“)",
+    "example": {
+      "fr": "Le périph' est bloqué à l'heure de pointe.",
+      "cs": "Okruh je ve špičce ucpaný."
+    },
+    "audio": true
+  },
+  {
+    "id": "rome-ne-sest-pas-faite-en-un-jour",
+    "fr": "Rome ne s'est pas faite en un jour",
+    "type": "proverbe",
+    "register": "courant",
+    "level": "B2",
+    "meaning": {
+      "fr": "Les grandes choses demandent du temps et de la patience.",
+      "cs": "Velké věci vyžadují čas a trpělivost."
+    },
+    "cs": "Řím nebyl postaven za den",
+    "example": {
+      "fr": "Tu veux parler couramment ? Rome ne s'est pas faite en un jour.",
+      "cs": "Chceš mluvit plynule? Řím taky nepostavili za den."
+    },
+    "audio": true
+  },
+  {
+    "id": "avoir-un-chat-dans-la-gorge",
+    "fr": "avoir un chat dans la gorge",
+    "type": "idiome",
+    "register": "courant",
+    "level": "B2",
+    "meaning": {
+      "fr": "Avoir la voix rauque ou enrouée, avoir du mal à parler.",
+      "cs": "Mít chraplavý nebo zastřený hlas, špatně se mluvit."
+    },
+    "cs": "mít v krku žábu (česky se říká: mít chrapot)",
+    "example": {
+      "fr": "Excusez-moi, j'ai un chat dans la gorge.",
+      "cs": "Promiňte, mám chrapot."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/avoir_un_chat_dans_la_gorge"
+    ]
+  },
+  {
+    "id": "avoir-le-beurre-et-largent-du-beurre",
+    "fr": "avoir le beurre et l'argent du beurre",
+    "type": "idiome",
+    "register": "courant",
+    "level": "B2",
+    "meaning": {
+      "fr": "Vouloir profiter de deux avantages incompatibles.",
+      "cs": "Chtít mít dvě výhody, které se navzájem vylučují."
+    },
+    "cs": "chtít mít všechno najednou (též: sedět na dvou židlích)",
+    "example": {
+      "fr": "On ne peut pas travailler peu et gagner beaucoup : on n'a pas le beurre et l'argent du beurre.",
+      "cs": "Nejde málo pracovat a hodně vydělávat, všechno najednou mít nelze."
+    },
+    "audio": true
+  },
+  {
+    "id": "bobo",
+    "fr": "bobo",
+    "type": "parisien",
+    "register": "familier",
+    "level": "B2",
+    "meaning": {
+      "fr": "Personne aisée et cultivée qui allie un mode de vie bourgeois à des valeurs bohèmes ; mot formé de « bourgeois-bohème », souvent un peu ironique.",
+      "cs": "Zámožný a vzdělaný člověk, který spojuje měšťanský životní styl s bohémskými hodnotami; slovo vzniklo z « bourgeois-bohème », často lehce ironicky."
+    },
+    "cs": "městský bohém z lepších poměrů (hovorově „bobo\")",
+    "example": {
+      "fr": "Le canal Saint-Martin est devenu un quartier de bobos.",
+      "cs": "Okolí kanálu Saint-Martin se stalo čtvrtí „bobo\" lidí."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/bobo"
+    ]
+  },
+  {
+    "id": "prendre-un-pot",
+    "fr": "prendre un pot",
+    "type": "idiome",
+    "register": "familier",
+    "level": "B2",
+    "meaning": {
+      "fr": "Boire un verre avec des amis ou des collègues, souvent après le travail.",
+      "cs": "Dát si skleničku s přáteli nebo kolegy, často po práci."
+    },
+    "cs": "zajít na skleničku",
+    "example": {
+      "fr": "On prend un pot en terrasse après le travail ?",
+      "cs": "Zajdeme po práci na skleničku na terasu?"
+    },
+    "audio": true
+  },
+  {
+    "id": "etre-sur-son-trente-et-un",
+    "fr": "être sur son trente et un",
+    "type": "idiome",
+    "register": "courant",
+    "level": "B2",
+    "meaning": {
+      "fr": "Être très bien habillé, avoir mis ses plus beaux vêtements.",
+      "cs": "Být vyšňořený, mít na sobě to nejlepší oblečení."
+    },
+    "cs": "být vyšňořený (jako ze škatulky)",
+    "example": {
+      "fr": "Pour le mariage, tout le monde était sur son trente et un.",
+      "cs": "Na svatbu byli všichni vyšňoření."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/%C3%AAtre_sur_son_trente_et_un"
+    ]
+  },
+  {
+    "id": "ne-pas-etre-dans-son-assiette",
+    "fr": "ne pas être dans son assiette",
+    "type": "idiome",
+    "register": "courant",
+    "level": "B2",
+    "meaning": {
+      "fr": "Ne pas se sentir bien, être un peu malade ou mal à l'aise.",
+      "cs": "Necítit se dobře, být trochu nemocný nebo mít nepříjemný pocit."
+    },
+    "cs": "nebýt ve své kůži",
+    "example": {
+      "fr": "Il n'est pas dans son assiette ce matin : il a mal dormi.",
+      "cs": "Dnes ráno není ve své kůži, špatně spal."
+    },
+    "audio": true
+  },
+  {
+    "id": "pas-de-nouvelles-bonnes-nouvelles",
+    "fr": "pas de nouvelles, bonnes nouvelles",
+    "type": "proverbe",
+    "register": "courant",
+    "level": "B2",
+    "meaning": {
+      "fr": "Si on n'entend rien, c'est probablement que tout va bien.",
+      "cs": "Když se nic neozývá, pravděpodobně je všechno v pořádku."
+    },
+    "cs": "žádná zpráva, dobrá zpráva",
+    "example": {
+      "fr": "Ma sœur n'a pas écrit, mais pas de nouvelles, bonnes nouvelles.",
+      "cs": "Sestra nenapsala, ale žádná zpráva, dobrá zpráva."
+    },
+    "audio": true
+  },
+  {
+    "id": "noyer-le-poisson",
+    "fr": "noyer le poisson",
+    "type": "idiome",
+    "register": "courant",
+    "level": "B2",
+    "meaning": {
+      "fr": "Rendre une question confuse à dessein pour éviter de répondre clairement.",
+      "cs": "Záměrně zmást otázku, aby se nemuselo odpovědět jasně."
+    },
+    "cs": "zamlžovat (věc), vykrucovat se",
+    "example": {
+      "fr": "Le directeur a noyé le poisson pour ne pas parler du budget.",
+      "cs": "Ředitel se vykrucoval, aby nemusel mluvit o rozpočtu."
+    },
+    "audio": true
+  },
+  {
+    "id": "les-petits-ruisseaux-font-les-grandes-rivieres",
+    "fr": "les petits ruisseaux font les grandes rivières",
+    "type": "proverbe",
+    "register": "courant",
+    "level": "B2",
+    "meaning": {
+      "fr": "De petites quantités, additionnées, finissent par former quelque chose d'important.",
+      "cs": "Malá množství se postupně sčítají v něco velkého."
+    },
+    "cs": "z malých potůčků jsou velké řeky (též: kapka po kapce moře)",
+    "example": {
+      "fr": "J'économise un peu chaque mois : les petits ruisseaux font les grandes rivières.",
+      "cs": "Každý měsíc ušetřím trochu, kapka po kapce se sčítá."
+    },
+    "audio": true
+  },
+  {
+    "id": "a-bon-chat-bon-rat",
+    "fr": "à bon chat, bon rat",
+    "type": "proverbe",
+    "register": "courant",
+    "level": "B2",
+    "meaning": {
+      "fr": "Un adversaire habile trouve en face de lui un adversaire aussi habile.",
+      "cs": "Obratný protivník narazí na stejně obratného protivníka."
+    },
+    "cs": "kosa na kámen (doslova: dobré kočce dobrá krysa)",
+    "example": {
+      "fr": "Ils sont aussi rusés l'un que l'autre : à bon chat, bon rat.",
+      "cs": "Jsou oba stejně vychytralí: kosa narazila na kámen."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/%C3%A0_bon_chat,_bon_rat"
+    ]
+  },
+  {
+    "id": "chercher-midi-a-quatorze-heures",
+    "fr": "chercher midi à quatorze heures",
+    "type": "idiome",
+    "register": "courant",
+    "level": "C1",
+    "meaning": {
+      "fr": "Compliquer inutilement les choses, chercher des difficultés là où il n'y en a pas.",
+      "cs": "Zbytečně věci komplikovat, hledat potíže tam, kde nejsou."
+    },
+    "cs": "hledat problém tam, kde není (též: dělat z komára velblouda)",
+    "example": {
+      "fr": "Ce n'est pas si compliqué : ne cherche pas midi à quatorze heures.",
+      "cs": "Není to tak složité, nehledej v tom nic navíc."
+    },
+    "audio": true
+  },
+  {
+    "id": "avoir-maille-a-partir-avec",
+    "fr": "avoir maille à partir avec",
+    "type": "idiome",
+    "register": "soutenu",
+    "level": "C1",
+    "meaning": {
+      "fr": "Avoir un différend ou un conflit avec quelqu'un.",
+      "cs": "Mít s někým spor nebo konflikt."
+    },
+    "cs": "mít s někým na kordy",
+    "example": {
+      "fr": "Le maire a eu maille à partir avec les riverains.",
+      "cs": "Starosta se dostal do sporu s obyvateli okolí."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/avoir_maille_%C3%A0_partir"
+    ]
+  },
+  {
+    "id": "paris-vaut-bien-une-messe",
+    "fr": "Paris vaut bien une messe",
+    "type": "proverbe",
+    "register": "soutenu",
+    "level": "C1",
+    "meaning": {
+      "fr": "Un grand avantage justifie qu'on fasse un sacrifice ou un compromis.",
+      "cs": "Velká výhoda ospravedlňuje oběť nebo kompromis."
+    },
+    "cs": "Paříž stojí za mši",
+    "example": {
+      "fr": "Il a changé de position : Paris vaut bien une messe.",
+      "cs": "Změnil postoj, za takovou odměnu to stálo."
+    },
+    "note": {
+      "fr": "Phrase traditionnellement attribuée à Henri IV, lors de sa conversion au catholicisme en 1593 ; son authenticité est douteuse : elle pourrait venir de Sully, ou n'avoir jamais été prononcée.",
+      "cs": "Věta se tradičně připisuje Jindřichu IV. při jeho přestoupení na katolictví v roce 1593; autorství je sporné: mohla pocházet od Sullyho, nebo ji nikdo nikdy neřekl."
+    },
+    "audio": true,
+    "source": [
+      "https://www.expressio.fr/expressions/paris-vaut-bien-une-messe"
+    ]
+  },
+  {
+    "id": "apres-moi-le-deluge",
+    "fr": "après moi, le déluge",
+    "type": "idiome",
+    "register": "soutenu",
+    "level": "C1",
+    "meaning": {
+      "fr": "Exprimer l'indifférence envers ce qui arrivera après son départ.",
+      "cs": "Vyjádření lhostejnosti k tomu, co přijde po něm."
+    },
+    "cs": "po mně potopa",
+    "example": {
+      "fr": "Il a vidé les caisses sans penser à l'avenir : après moi, le déluge.",
+      "cs": "Vyprázdnil pokladnu bez myšlenky na budoucnost: po mně potopa."
+    },
+    "note": {
+      "fr": "Le mot est attribué à Louis XV ou à Madame de Pompadour (« après nous le déluge », après Rossbach, 1757), mais sans certitude : aucune attestation écrite avant 1789.",
+      "cs": "Výrok se připisuje Ludvíku XV. nebo madame de Pompadour („après nous le déluge“, po bitvě u Rossbachu 1757); autorství je nejisté, písemně není doložen před rokem 1789."
+    },
+    "audio": true,
+    "source": [
+      "https://www.expressio.fr/expressions/apres-moi-le-deluge"
+    ]
+  },
+  {
+    "id": "cest-la-berezina",
+    "fr": "c'est la Bérézina",
+    "type": "idiome",
+    "register": "courant",
+    "level": "C1",
+    "meaning": {
+      "fr": "C'est un désastre, un échec total.",
+      "cs": "Je to katastrofa, naprostý neúspěch."
+    },
+    "cs": "je to naprostá katastrofa (jako Berezina)",
+    "example": {
+      "fr": "Pour notre équipe, ce match a été une vraie Bérézina.",
+      "cs": "Pro náš tým byl ten zápas pravá Berezina."
+    },
+    "note": {
+      "fr": "L'expression renvoie au passage de la Bérézina en novembre 1812, lors de la retraite de l'armée de Napoléon depuis la Russie.",
+      "cs": "Rčení odkazuje na přechod řeky Berezina v roce 1812 při ústupu Napoleonovy armády z Ruska."
+    },
+    "audio": true,
+    "source": [
+      "https://www.expressio.fr/expressions/c-est-la-berezina"
+    ]
+  },
+  {
+    "id": "tenir-le-haut-du-pave",
+    "fr": "tenir le haut du pavé",
+    "type": "idiome",
+    "register": "courant",
+    "level": "C1",
+    "meaning": {
+      "fr": "Occuper la première place, dominer dans un milieu.",
+      "cs": "Zaujímat první místo, dominovat v určitém prostředí."
+    },
+    "cs": "udávat tón (též: mít nejvyšší slovo)",
+    "example": {
+      "fr": "Ces maisons de couture tiennent le haut du pavé depuis des décennies.",
+      "cs": "Tyto módní domy udávají tón už desítky let."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/tenir_le_haut_du_pav%C3%A9"
+    ]
+  },
+  {
+    "id": "faire-flores",
+    "fr": "faire florès",
+    "type": "idiome",
+    "register": "soutenu",
+    "level": "C1",
+    "meaning": {
+      "fr": "Avoir un grand succès, être très à la mode.",
+      "cs": "Mít velký úspěch, být velmi módní."
+    },
+    "cs": "slavit úspěch (též: být na vrcholu)",
+    "example": {
+      "fr": "Les applis de livraison ont fait florès pendant la pandémie.",
+      "cs": "Aplikace pro rozvoz zažily za pandemie obrovský boom."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/faire_flor%C3%A8s"
+    ]
+  },
+  {
+    "id": "a-chaque-jour-suffit-sa-peine",
+    "fr": "à chaque jour suffit sa peine",
+    "type": "proverbe",
+    "register": "soutenu",
+    "level": "C1",
+    "meaning": {
+      "fr": "Il est inutile de s'inquiéter à l'avance des soucis de demain.",
+      "cs": "Nemá smysl se předem trápit starostmi zítřka."
+    },
+    "cs": "každý den má dost svých starostí",
+    "example": {
+      "fr": "Ne pense pas déjà au mois prochain : à chaque jour suffit sa peine.",
+      "cs": "Nemysli už na příští měsíc, každý den má dost svých starostí."
+    },
+    "note": {
+      "fr": "La formule vient de l'Évangile selon Matthieu (6, 34).",
+      "cs": "Formule pochází z Matoušova evangelia (6, 34)."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/%C3%A0_chaque_jour_suffit_sa_peine"
+    ]
+  },
+  {
+    "id": "un-panier-de-crabes",
+    "fr": "un panier de crabes",
+    "type": "idiome",
+    "register": "familier",
+    "level": "C1",
+    "meaning": {
+      "fr": "Un milieu où les gens se critiquent et se nuisent entre eux.",
+      "cs": "Prostředí, kde se lidé navzájem pomlouvají a škodí si."
+    },
+    "cs": "hnízdo (kolegů) plné intrik (též: pěkná sebranka)",
+    "example": {
+      "fr": "Dans ce service, c'est un vrai panier de crabes.",
+      "cs": "Na tom oddělení je to pravé hnízdo intrik."
+    },
+    "audio": true
+  },
+  {
+    "id": "jeter-un-pave-dans-la-mare",
+    "fr": "jeter un pavé dans la mare",
+    "type": "idiome",
+    "register": "courant",
+    "level": "C1",
+    "meaning": {
+      "fr": "Révéler brusquement quelque chose qui provoque la polémique ou le trouble.",
+      "cs": "Náhle vyslovit nebo odhalit něco, co vyvolá polemiku nebo rozruch."
+    },
+    "cs": "hodit do rybníka kámen (způsobit rozruch)",
+    "example": {
+      "fr": "Son livre a jeté un pavé dans la mare du monde de l'édition.",
+      "cs": "Jeho kniha vyvolala v nakladatelském světě pořádný rozruch."
+    },
+    "audio": true
+  },
+  {
+    "id": "battre-en-breche",
+    "fr": "battre en brèche",
+    "type": "idiome",
+    "register": "soutenu",
+    "level": "C2",
+    "meaning": {
+      "fr": "Attaquer vigoureusement une idée, une théorie ou un système pour l'affaiblir.",
+      "cs": "Rázně napadat myšlenku, teorii nebo systém, aby byly oslabeny."
+    },
+    "cs": "podkopávat (názor, teorii)",
+    "example": {
+      "fr": "Cette étude bat en brèche l'idée reçue selon laquelle le télétravail nuit à la productivité.",
+      "cs": "Tato studie podkopává zažitou představu, že práce z domova snižuje produktivitu."
+    },
+    "audio": true
+  },
+  {
+    "id": "faire-pschitt",
+    "fr": "faire pschitt",
+    "type": "idiome",
+    "register": "familier",
+    "level": "C2",
+    "meaning": {
+      "fr": "Se terminer sans résultat, malgré de grandes promesses.",
+      "cs": "Skončit bez výsledku navzdory velkým slibům."
+    },
+    "cs": "vyjít naprázdno (též: skončit fiaskem)",
+    "example": {
+      "fr": "Le plan annoncé en grande pompe a fait pschitt.",
+      "cs": "Plán oznámený s velkou pompou vyšel naprázdno."
+    },
+    "audio": true,
+    "source": [
+      "https://fr.wiktionary.org/wiki/faire_pschitt"
+    ]
+  },
+  {
+    "id": "sonner-le-glas-de",
+    "fr": "sonner le glas de",
+    "type": "idiome",
+    "register": "soutenu",
+    "level": "C2",
+    "meaning": {
+      "fr": "Annoncer la fin, la disparition prochaine de quelque chose.",
+      "cs": "Ohlašovat konec, brzký zánik něčeho."
+    },
+    "cs": "zvonit umíráčkem (něčemu)",
+    "example": {
+      "fr": "Cette décision sonne le glas des petites librairies du quartier.",
+      "cs": "Toto rozhodnutí zvoní umíráčkem malým knihkupectvím ve čtvrti."
+    },
+    "audio": true
+  },
+  {
+    "id": "tirer-a-boulets-rouges-sur",
+    "fr": "tirer à boulets rouges sur",
+    "type": "idiome",
+    "register": "courant",
+    "level": "C2",
+    "meaning": {
+      "fr": "Critiquer très violemment quelqu'un ou quelque chose.",
+      "cs": "Velmi ostře někoho nebo něco kritizovat."
+    },
+    "cs": "pálit ostrými (na někoho), ostře kritizovat",
+    "example": {
+      "fr": "L'opposition a tiré à boulets rouges sur le projet de loi.",
+      "cs": "Opozice ostře zkritizovala návrh zákona."
+    },
+    "audio": true
+  },
+  {
+    "id": "souffler-le-chaud-et-le-froid",
+    "fr": "souffler le chaud et le froid",
+    "type": "idiome",
+    "register": "courant",
+    "level": "C2",
+    "meaning": {
+      "fr": "Alterner promesses et menaces, ou signaux contradictoires, pour déstabiliser ou garder le contrôle.",
+      "cs": "Střídat sliby a výhrůžky nebo protichůdné signály, aby druhého zneklidnil nebo udržel kontrolu."
+    },
+    "cs": "střídat sliby a hrozby (též: jednou hřát, jednou strašit)",
+    "example": {
+      "fr": "Le gouvernement souffle le chaud et le froid sur la réforme des retraites.",
+      "cs": "Vláda o důchodové reformě vysílá protichůdné signály."
+    },
+    "audio": true
+  }
+]

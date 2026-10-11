@@ -82,5 +82,99 @@
     "https://en.wikipedia.org/wiki/Coul%C3%A9e_verte_Ren%C3%A9-Dumont",
     "https://www.paris.fr/equipements/coulee-verte-rene-dumont-1772",
     "https://www.velib-metropole.fr"
+  ],
+  "questions": [
+    {
+      "q": {
+        "fr": "Que montrent les chiffres de 2015 et de 2022 ?",
+        "cs": "Co ukazují čísla z let 2015 a 2022?"
+      },
+      "options": {
+        "fr": [
+          "La voiture a dépassé le vélo.",
+          "Le vélo a dépassé la voiture pour aller au travail.",
+          "Les deux sont restés égaux."
+        ],
+        "cs": [
+          "Auto předehnalo kolo.",
+          "Kolo předehnalo auto při cestě do práce.",
+          "Obojí zůstalo stejné."
+        ]
+      },
+      "answer": 1,
+      "explain": {
+        "fr": "2015 : 4,2 % vélo contre 12,3 % voiture ; 2022 : 10,1 % contre 9 %.",
+        "cs": "2015: 4,2 % kolo proti 12,3 % auto; 2022: 10,1 % proti 9 %."
+      }
+    },
+    {
+      "q": {
+        "fr": "Pourquoi ne peut-on pas comparer 1 607 km aux anciens totaux ?",
+        "cs": "Proč nelze srovnávat 1 607 km se staršími součty?"
+      },
+      "options": {
+        "fr": [
+          "Les méthodes de comptage sont différentes.",
+          "Les anciens totaux étaient inventés.",
+          "Les pistes ont toutes disparu."
+        ],
+        "cs": [
+          "Metody počítání se liší.",
+          "Starší součty byly vymyšlené.",
+          "Všechny stezky zmizely."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Le chiffre « ne se compare pas à d'anciens totaux, car les méthodes de comptage diffèrent ».",
+        "cs": "Číslo „nelze srovnávat se staršími součty, protože se metody počítání liší“."
+      }
+    },
+    {
+      "q": {
+        "fr": "Quand peut-on passer au feu rouge à vélo ?",
+        "cs": "Kdy smí cyklista projet na červenou?"
+      },
+      "options": {
+        "fr": [
+          "Là où un petit panneau le permet, en cédant le passage.",
+          "Toujours, si la rue est vide.",
+          "Jamais, dans aucun cas."
+        ],
+        "cs": [
+          "Kde to malá značka dovoluje, s dáním přednosti.",
+          "Vždy, je-li ulice prázdná.",
+          "Nikdy, v žádném případě."
+        ]
+      },
+      "answer": 0,
+      "explain": {
+        "fr": "Section sur les règles : panneau pour tourner à droite ou aller tout droit ; ailleurs, le feu rouge s'applique.",
+        "cs": "Oddíl o pravidlech: značka pro odbočení vpravo nebo jízdu rovně; jinde platí červená."
+      }
+    },
+    {
+      "q": {
+        "fr": "Que sait-on du canal Saint-Martin ?",
+        "cs": "Co se z textu dozvídáme o kanálu Saint-Martin?"
+      },
+      "options": {
+        "fr": [
+          "Il a ouvert en 1993 et il est entièrement visible.",
+          "Il mesure 4,7 km et part de Bastille.",
+          "Il a ouvert en 1825 et près de la moitié est souterraine."
+        ],
+        "cs": [
+          "Byl otevřen v roce 1993 a je celý viditelný.",
+          "Měří 4,7 km a začíná na Bastille.",
+          "Byl otevřen v roce 1825 a téměř polovina vede pod zemí."
+        ]
+      },
+      "answer": 2,
+      "explain": {
+        "fr": "Section « Trois itinéraires » : ouvert en 1825, environ 4,6 km, près de la moitié souterraine.",
+        "cs": "Oddíl „Tři trasy“: otevřen 1825, asi 4,6 km, téměř polovina pod zemí."
+      }
+    }
   ]
 }

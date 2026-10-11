@@ -29,5 +29,101 @@
   "https://www.republiquetcheque.campusfrance.org/"
  ],
  "level": "B2",
- "base": "etudier-en-france"
+ "base": "etudier-en-france",
+ "questions": [
+  {
+   "q": {
+    "fr": "Pourquoi le premier interlocuteur pour Erasmus+ est-il le bureau des relations internationales de la faculté ?",
+    "cs": "Proč je prvním kontaktem pro Erasmus+ oddělení zahraničních vztahů fakulty?"
+   },
+   "options": {
+    "fr": [
+     "Parce que seul ce bureau délivre les visas",
+     "Parce que les sites généraux sont payants",
+     "Parce que les règles varient d'une université à l'autre"
+    ],
+    "cs": [
+     "Protože jen toto oddělení vydává víza",
+     "Protože obecné weby jsou placené",
+     "Protože pravidla se liší univerzitu od univerzity"
+    ]
+   },
+   "answer": 2,
+   "explain": {
+    "fr": "Section Erasmus+ : durée, bourse et sélection « varient d'une université à l'autre ».",
+    "cs": "Oddíl o Erasmu+: délka, stipendium i výběr se liší univerzitu od univerzity."
+   }
+  },
+  {
+   "q": {
+    "fr": "Comment fonctionne le programme Eiffel ?",
+    "cs": "Jak funguje program Eiffel?"
+   },
+   "options": {
+    "fr": [
+     "Ce sont les établissements français qui déposent les candidatures",
+     "Les étudiants postulent directement sur Campus France",
+     "Les universités tchèques désignent les boursiers"
+    ],
+    "cs": [
+     "Přihlášky podávají francouzské instituce",
+     "Studenti se hlásí přímo přes Campus France",
+     "Stipendisty vybírají české univerzity"
+    ]
+   },
+   "answer": 0,
+   "explain": {
+    "fr": "Section Campus France : « par candidatures déposées par les établissements français, et non par les étudiants ».",
+    "cs": "Oddíl o Campus France: přihlášky podávají francouzské instituce, ne studenti."
+   }
+  },
+  {
+   "q": {
+    "fr": "Que signifie « valables à vie » pour le DELF et le DALF ?",
+    "cs": "Co znamená „platné na celý život“ u DELF a DALF?"
+   },
+   "options": {
+    "fr": [
+     "Ils doivent être renouvelés tous les dix ans",
+     "Ils n'ont pas de date d'expiration",
+     "Ils ne valent que pour une seule université"
+    ],
+    "cs": [
+     "Musí se obnovovat každých deset let",
+     "Nemají datum vypršení platnosti",
+     "Platí jen pro jednu univerzitu"
+    ]
+   },
+   "answer": 1,
+   "explain": {
+    "fr": "Section DELF et DALF : « sans date d'expiration ».",
+    "cs": "Oddíl o DELF a DALF: „bez data vypršení platnosti“."
+   }
+  },
+  {
+   "q": {
+    "fr": "Quel mythe l'article réfute en rappelant le contrat d'études et les crédits à valider ?",
+    "cs": "Jaký mýtus článek vyvrací připomenutím studijní smlouvy a kreditů?"
+   },
+   "options": {
+    "fr": [
+     "« Il faut parler parfaitement français »",
+     "« Les études sont gratuites »",
+     "« Paris, sinon rien »",
+     "« Erasmus, c'est seulement pour faire la fête »"
+    ],
+    "cs": [
+     "„Musí se mluvit dokonale francouzsky“",
+     "„Studium je zdarma“",
+     "„Paříž, nebo nic“",
+     "„Erasmus je jen na party“"
+    ]
+   },
+   "answer": 3,
+   "explain": {
+    "fr": "Section « Quelques mythes » : Erasmus est un programme académique, avec contrat d'études et crédits.",
+    "cs": "Oddíl o mýtech: Erasmus je akademický program se studijní smlouvou a kredity."
+   }
+  }
+ ]
 }
