@@ -1,0 +1,71 @@
+{
+  "base": "impressionnistes",
+  "level": "A1",
+  "slug": "impressionnistes-a1",
+  "category": "paris",
+  "published_at": "2026-09-14T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Les impressionnistes à Paris",
+  "title_cs": "Impresionisté v Paříži",
+  "excerpt_fr": "En 1874, des artistes montrent leurs tableaux à Paris. Voici où voir leurs œuvres.",
+  "excerpt_cs": "V roce 1874 ukazují umělci v Paříži své obrazy. Tady je uvidíte.",
+  "body_fr": "En 1874, il y a une exposition à Paris. C'est au 35 boulevard des Capucines. Trente artistes montrent 165 œuvres. Il y a Claude Monet, Renoir et Berthe Morisot. Un critique écrit un mot : « impressionnistes ». C'est une moquerie, mais le nom reste.\n\n## Que voir à Paris ?\n\nAu musée de l'Orangerie, il y a les *Nymphéas* de Monet. Elles sont dans deux salles ovales. Le musée d'Orsay est une ancienne gare. Il ouvre en 1986. On y voit Monet, Degas, Renoir et Van Gogh.\n\nAu musée Marmottan Monet, il y a le tableau *Impression, soleil levant*. Monet le peint en 1872. Un voleur le prend en 1985. On le retrouve en 1990.\n\n## Hors de Paris\n\nGiverny est un village à 80 kilomètres de Paris. Monet habite là. On visite sa maison et son jardin.\n\nPour les horaires, regardez les sites officiels : [Orsay](https://www.musee-orsay.fr), [Orangerie](https://www.musee-orangerie.fr), [Marmottan](https://www.marmottan.fr) et [Fondation Monet](https://www.fondation-monet.com).",
+  "body_cs": "V roce 1874 se v Paříži koná výstava. Je na adrese 35 boulevard des Capucines. Třicet umělců ukazuje 165 děl. Jsou tam Claude Monet, Renoir a Berthe Morisotová. Jeden kritik napíše slovo „impresionisté“. Je to posměch, ale jméno zůstane.\n\n## Co vidět v Paříži?\n\nV Musée de l'Orangerie jsou Monetovy *Lekníny*. Jsou ve dvou oválných sálech. Musée d'Orsay je bývalé nádraží. Otevře se v roce 1986. Uvidíte tam Moneta, Degase, Renoira a Van Gogha.\n\nV Musée Marmottan Monet je obraz *Dojem, vycházející slunce*. Monet ho namaluje v roce 1872. Zloděj ho v roce 1985 ukradne. V roce 1990 ho najdou.\n\n## Mimo Paříž\n\nGiverny je vesnice 80 kilometrů od Paříže. Monet tam bydlí. Můžete navštívit jeho dům a zahradu.\n\nOtevírací dobu najdete na oficiálních webech: [Orsay](https://www.musee-orsay.fr), [Orangerie](https://www.musee-orangerie.fr), [Marmottan](https://www.marmottan.fr) a [Fondation Monet](https://www.fondation-monet.com).",
+  "glossary": [
+    {
+      "fr": "une exposition",
+      "cs": "výstava"
+    },
+    {
+      "fr": "un critique",
+      "cs": "kritik"
+    },
+    {
+      "fr": "une moquerie",
+      "cs": "posměch"
+    },
+    {
+      "fr": "une œuvre",
+      "cs": "dílo"
+    },
+    {
+      "fr": "un tableau",
+      "cs": "obraz"
+    },
+    {
+      "fr": "un voleur",
+      "cs": "zloděj"
+    },
+    {
+      "fr": "une ancienne gare",
+      "cs": "bývalé nádraží"
+    },
+    {
+      "fr": "un village",
+      "cs": "vesnice"
+    }
+  ],
+  "photo": {
+    "file": "File:Detail nympheas musee de lOrangerie Paris.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_nympheas_musee_de_lOrangerie_Paris.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Detail_nympheas_musee_de_lOrangerie_Paris.jpg",
+    "author": "DocDaysleeper",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Detail of Nympheas, Musée de l'Orangerie, Paris",
+    "width": 4288,
+    "height": 2848
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Première_exposition_impressionniste",
+    "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay",
+    "https://fr.wikipedia.org/wiki/Musée_de_l'Orangerie",
+    "https://en.wikipedia.org/wiki/Mus%C3%A9e_Marmottan_Monet",
+    "https://en.wikipedia.org/wiki/Giverny",
+    "https://en.wikipedia.org/wiki/Auvers-sur-Oise",
+    "https://www.musee-orsay.fr",
+    "https://www.musee-orangerie.fr",
+    "https://www.marmottan.fr",
+    "https://www.fondation-monet.com"
+  ]
+}

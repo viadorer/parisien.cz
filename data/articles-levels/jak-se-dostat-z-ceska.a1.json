@@ -1,0 +1,74 @@
+{
+  "base": "jak-se-dostat-z-ceska",
+  "level": "A1",
+  "slug": "jak-se-dostat-z-ceska-a1",
+  "category": "voyage",
+  "published_at": "2026-10-04T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "De Prague à Paris : avion, train ou autocar ?",
+  "title_cs": "Z Prahy do Paříže: letadlo, vlak, nebo autobus?",
+  "excerpt_fr": "Pas de train direct Prague–Paris. Trois solutions : avion, train ou autocar. Vérifiez les horaires.",
+  "excerpt_cs": "Přímý vlak Praha–Paříž není. Tři řešení: letadlo, vlak nebo autobus. Ověřte si jízdní řády.",
+  "body_fr": "Il n'y a pas de train direct Prague–Paris. Du moins, je n'en ai pas trouvé en 2026. Mais il y a trois solutions.\n\n## Trois solutions\n\nL'avion est rapide. Le vol dure environ 1 h 50. Air France, Transavia et Smartwings volent vers Paris. À Paris, on prend le RER B ou le métro.\n\nLe train est plus long. On change de train en Allemagne. Le voyage dure de 10 h 30 à plus de 13 heures.\n\nL'autocar est direct. Il roule 13 à 14 heures. Il arrive au quai de Bercy.\n\n## Attention\n\nLes horaires changent. Vérifiez toujours l'horaire chez la compagnie. Voir le [site de l'aéroport de Prague](https://www.prg.aero). Je n'ai pas vérifié un horaire précis pour le train de nuit.\n\nPour un Tchèque, la carte d'identité suffit en France.",
+  "body_cs": "Přímý vlak Praha–Paříž není. Alespoň jsem v roce 2026 žádný nenašel. Ale jsou tři řešení.\n\n## Tři řešení\n\nLetadlo je rychlé. Let trvá asi 1 h 50. Do Paříže létají Air France, Transavia a Smartwings. V Paříži se jede RER B nebo metrem.\n\nVlak je delší. V Německu se přestupuje. Cesta trvá od 10 h 30 do více než 13 hodin.\n\nAutobus je přímý. Jede 13 až 14 hodin. Přijede na nábřeží Quai de Bercy.\n\n## Pozor\n\nJízdní řády se mění. Vždy si ověřte spoj u dopravce. Podívejte se na [web pražského letiště](https://www.prg.aero). U nočního vlaku jsem přesný jízdní řád neověřil.\n\nČeský občan potřebuje ve Francii jen občanský průkaz.",
+  "glossary": [
+    {
+      "fr": "l'avion (m.)",
+      "cs": "letadlo"
+    },
+    {
+      "fr": "le vol",
+      "cs": "let"
+    },
+    {
+      "fr": "le train direct",
+      "cs": "přímý vlak"
+    },
+    {
+      "fr": "l'autocar (m.)",
+      "cs": "dálkový autobus"
+    },
+    {
+      "fr": "changer de train",
+      "cs": "přestupovat"
+    },
+    {
+      "fr": "l'horaire (m.)",
+      "cs": "jízdní řád, spoj"
+    },
+    {
+      "fr": "vérifier",
+      "cs": "ověřit"
+    },
+    {
+      "fr": "la carte d'identité",
+      "cs": "občanský průkaz"
+    }
+  ],
+  "photo": {
+    "file": "File:Gare de l'Est Paris 2007 a2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gare_de_l'Est_Paris_2007_a2.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Gare_de_l%27Est_Paris_2007_a2.jpg",
+    "author": "Gryffindor",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "desc": "The Gare de l'Est in Paris",
+    "width": 4884,
+    "height": 1440
+  },
+  "sources": [
+    "https://www.prg.aero",
+    "https://www.planes.cz/en/article/210646/smartwings-schedule-of-regular-flights-from-prague-for-summer-2026",
+    "https://www.eea.europa.eu/publications/rail-and-waterborne-transport/rail-and-waterborne-best/",
+    "https://impactco2.fr/outils/transport",
+    "https://www.railwaypro.com/wp/obb-to-end-nightjet-services-to-paris-in-2025/",
+    "https://www.railjournal.com/regions/europe/european-sleeper-launches-paris-berlin-night-train/",
+    "https://www.europeansleeper.eu/paris",
+    "https://www.seat61.com/international-trains/trains-from-Prague.htm",
+    "https://www.omio.fr/bus/prague/paris",
+    "https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_en.htm",
+    "https://www.service-public.gouv.fr/particuliers/actualites/A16577?lang=en",
+    "https://mzv.gov.cz/paris/fr/service_consulaire/formalites_d_entree/formalite_d_enree.html",
+    "https://www.iledefrance.fr/toutes-les-actualites/la-ligne-14-prolongee-met-laeroport-dorly-25-minutes-du-centre-de-paris"
+  ]
+}

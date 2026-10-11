@@ -1,0 +1,77 @@
+{
+  "base": "escapades-train",
+  "level": "A1",
+  "slug": "escapades-train-a1",
+  "category": "voyage",
+  "published_at": "2026-10-01T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Six sorties en train depuis Paris",
+  "title_cs": "Šest výletů vlakem z Paříže",
+  "excerpt_fr": "Versailles, Giverny, Chantilly : de Paris, on part en train pour une journée.",
+  "excerpt_cs": "Versailles, Giverny, Chantilly: z Paříže se dá vyjet vlakem na jeden den.",
+  "body_fr": "De Paris, on peut partir en train pour une journée. C'est facile et rapide.\n\n## Versailles et Fontainebleau\n\nPour Versailles, on prend le RER C. Le trajet dure environ 40 minutes. Le château est à cinq cents mètres de la gare. Fontainebleau est aussi à environ 40 minutes. On part de la gare de Lyon. La gare est loin du château. On prend un bus.\n\n## Giverny et Chantilly\n\nClaude Monet habite à Giverny en 1883. Sa maison et son jardin sont célèbres. Le train part de la gare Saint-Lazare. Chantilly est à vingt minutes. Le train part de la gare du Nord. Le château est dans la forêt.\n\n## Provins et Auvers-sur-Oise\n\nProvins est une ville du Moyen Âge. Van Gogh meurt à Auvers-sur-Oise en 1890. On peut aussi aller à Rouen et à Reims. Il y a une grande cathédrale dans ces deux villes.\n\nAttention : regardez l'heure du dernier train. Pour les billets, voir [SNCF Connect](https://www.sncf-connect.com).",
+  "body_cs": "Z Paříže se dá odjet vlakem na jeden den. Je to snadné a rychlé.\n\n## Versailles a Fontainebleau\n\nDo Versailles se jede RER C. Cesta trvá asi 40 minut. Zámek je pět set metrů od nádraží. Fontainebleau je také asi 40 minut daleko. Vlak jede z nádraží Gare de Lyon. Nádraží je daleko od zámku. Jede se autobusem.\n\n## Giverny a Chantilly\n\nClaude Monet bydlí v Giverny od roku 1883. Jeho dům a zahrada jsou slavné. Vlak jede z nádraží Saint-Lazare. Chantilly je dvacet minut daleko. Vlak jede z Gare du Nord. Zámek je v lese.\n\n## Provins a Auvers-sur-Oise\n\nProvins je město ze středověku. Van Gogh umírá v Auvers-sur-Oise v roce 1890. Dá se jet také do Rouenu a do Remeše. V obou městech je velká katedrála.\n\nPozor: podívejte se na čas posledního vlaku. Jízdenky najdete na [SNCF Connect](https://www.sncf-connect.com).",
+  "glossary": [
+    {
+      "fr": "le train",
+      "cs": "vlak"
+    },
+    {
+      "fr": "la gare",
+      "cs": "nádraží"
+    },
+    {
+      "fr": "le château",
+      "cs": "zámek"
+    },
+    {
+      "fr": "le trajet",
+      "cs": "cesta, jízda"
+    },
+    {
+      "fr": "la forêt",
+      "cs": "les"
+    },
+    {
+      "fr": "le Moyen Âge",
+      "cs": "středověk"
+    },
+    {
+      "fr": "la cathédrale",
+      "cs": "katedrála"
+    },
+    {
+      "fr": "le billet",
+      "cs": "jízdenka"
+    }
+  ],
+  "photo": {
+    "file": "File:Main Façade, Palace of Versailles, Cour Royale.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main_Fa%C3%A7ade%2C_Palace_of_Versailles%2C_Cour_Royale.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_Fa%C3%A7ade,_Palace_of_Versailles,_Cour_Royale.jpg",
+    "author": "Julian Lupyan",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "desc": "Main façade, Palace of Versailles, cour royale, Versailles, France This building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00087673 . brezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ",
+    "width": 7009,
+    "height": 4649
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Gare_de_Versailles-Ch%C3%A2teau-Rive-Gauche",
+    "https://fr.wikipedia.org/wiki/Gare_de_Vernon_-_Giverny",
+    "https://fr.wikipedia.org/wiki/Giverny",
+    "https://fr.wikipedia.org/wiki/Gare_de_Fontainebleau_-_Avon",
+    "https://fr.wikipedia.org/wiki/Gare_de_Chantilly_-_Gouvieux",
+    "https://fr.wikipedia.org/wiki/Gare_de_Provins",
+    "https://fr.wikipedia.org/wiki/Gare_d%27Auvers-sur-Oise",
+    "https://www.chateauversailles.fr",
+    "https://fondation-monet.com",
+    "https://www.chateaudefontainebleau.fr",
+    "https://www.domainedechantilly.com",
+    "https://provins.net",
+    "https://maisondevangogh.fr",
+    "https://www.sncf-connect.com",
+    "https://www.iledefrance-mobilites.fr",
+    "https://www.transilien.com"
+  ]
+}

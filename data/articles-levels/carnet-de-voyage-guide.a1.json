@@ -1,0 +1,64 @@
+{
+  "base": "carnet-de-voyage-guide",
+  "level": "A1",
+  "slug": "carnet-de-voyage-guide-a1",
+  "category": "voyage",
+  "published_at": "2026-10-05T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Écrire un récit de voyage : quelques conseils",
+  "title_cs": "Jak napsat cestopis: pár rad",
+  "excerpt_fr": "Quelques conseils simples pour écrire un petit récit de voyage.",
+  "excerpt_cs": "Pár jednoduchých rad, jak napsat krátký cestopis.",
+  "body_fr": "Vous voulez écrire un petit récit de voyage ? Voici quelques conseils.\n\n## Cinq conseils simples\n\n- Commencez par une phrase qui donne envie de lire.\n- Racontez un moment précis : un lieu, une heure, une action.\n- Ajoutez un détail : une odeur, un bruit, un objet.\n- Écrivez des phrases courtes. Utilisez « d'abord », « puis », « ensuite ».\n- À la fin, donnez un conseil pratique.\n\n## Avant d'envoyer\n\nÉcrivez vos mots, pas ceux d'un autre site. Vos photos doivent être à vous. Demandez l'accord des personnes sur la photo. Vérifiez les dates et les noms sur un site officiel. Les prix et les horaires changent : ne les écrivez pas.\n\nEnvoyez votre texte avec le [formulaire de contact](https://www.parisien.cz/fr/contact?type=story).",
+  "body_cs": "Chcete napsat krátký cestopis? Tady je pár rad.\n\n## Pět jednoduchých rad\n\n- Začněte větou, která láká ke čtení.\n- Vyprávějte o jednom konkrétním okamžiku: místo, čas, děj.\n- Přidejte detail: vůni, zvuk, předmět.\n- Pište krátké věty. Používejte „d'abord“, „puis“, „ensuite“ (nejdřív, pak, potom).\n- Na konec dejte praktickou radu.\n\n## Před odesláním\n\nPište vlastními slovy, ne slovy z jiného webu. Fotky musí být vaše. Zeptejte se lidí na fotce na souhlas. Datum a jména ověřte na oficiálním webu. Ceny a otevírací doby se mění: nepište je.\n\nText pošlete přes [kontaktní formulář](https://www.parisien.cz/cs/contact?type=story).",
+  "glossary": [
+    {
+      "fr": "un récit de voyage",
+      "cs": "cestopis"
+    },
+    {
+      "fr": "un conseil",
+      "cs": "rada"
+    },
+    {
+      "fr": "un détail",
+      "cs": "detail"
+    },
+    {
+      "fr": "une odeur",
+      "cs": "vůně, zápach"
+    },
+    {
+      "fr": "un bruit",
+      "cs": "zvuk, hluk"
+    },
+    {
+      "fr": "une phrase",
+      "cs": "věta"
+    },
+    {
+      "fr": "court, courte",
+      "cs": "krátký"
+    },
+    {
+      "fr": "un site officiel",
+      "cs": "oficiální web"
+    }
+  ],
+  "photo": {
+    "file": "File:Paris Gare de Lyon hall panorama.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_Gare_de_Lyon_hall_panorama.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_Gare_de_Lyon_hall_panorama.jpg",
+    "author": "Prateek Karandikar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc": "Hall 1 of Gare de Lyon in Paris, France",
+    "width": 7284,
+    "height": 2528
+  },
+  "sources": [
+    "https://creativecommons.org/licenses/by-sa/4.0/deed.cs",
+    "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "https://fr.wikipedia.org/wiki/Imparfait"
+  ]
+}

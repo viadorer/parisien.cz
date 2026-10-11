@@ -1,0 +1,67 @@
+{
+  "base": "etudier-en-france",
+  "level": "A1",
+  "slug": "etudier-en-france-a1",
+  "category": "voyage",
+  "published_at": "2026-10-02T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Étudier en France : par où commencer ?",
+  "title_cs": "Studium ve Francii: jak začít?",
+  "excerpt_fr": "Vous êtes étudiant tchèque et vous voulez étudier en France ? Voici les premiers pas.",
+  "excerpt_cs": "Jste český student a chcete studovat ve Francii? Tady jsou první kroky.",
+  "body_fr": "Vous êtes étudiant tchèque. Vous voulez étudier en France ? C'est possible.\n\n## Les démarches\n\n**Erasmus+** est le chemin le plus simple. Votre université a un accord avec une université française. Parlez au bureau des relations internationales de votre faculté. En Tchéquie, le DZS aide aussi : [dzs.cz](https://www.dzs.cz/).\n\n**Campus France** aide les étudiants. Il y a un site pour la République tchèque, avec des bureaux à Prague et à Brno. Les services sont gratuits. Pour un citoyen de l'UE, il n'y a pas de visa.\n\nBeaucoup d'universités demandent un diplôme de français. Le **DELF** va de A1 à B2. Le **DALF** est pour C1 et C2. Ces diplômes sont valables toute la vie. On peut les passer à l'[Institut français de Prague](https://www.ifp.cz/).\n\n## Le logement à Paris\n\nLa Cité internationale universitaire est dans le 14e arrondissement. Elle a 47 maisons dans un grand parc. Des étudiants de 150 nationalités y habitent. Voir le [site de la Cité](https://www.ciup.fr/en/).",
+  "body_cs": "Jste český student. Chcete studovat ve Francii? Je to možné.\n\n## Postup\n\n**Erasmus+** je nejjednodušší cesta. Vaše univerzita má dohodu s francouzskou univerzitou. Promluvte si se zahraničním oddělením své fakulty. V Česku pomáhá také DZS: [dzs.cz](https://www.dzs.cz/).\n\n**Campus France** pomáhá studentům. Pro Českou republiku je samostatný web s kancelářemi v Praze a v Brně. Služby jsou zdarma. Občan EU nepotřebuje vízum.\n\nMnoho univerzit chce diplom z francouzštiny. **DELF** je pro úrovně A1 až B2. **DALF** je pro C1 a C2. Tyto diplomy platí celý život. Složit je můžete na [Institut français de Prague](https://www.ifp.cz/).\n\n## Ubytování v Paříži\n\nCité internationale universitaire je ve 14. obvodu. Má 47 domů ve velkém parku. Bydlí tam studenti ze 150 národností. Podívejte se na [web Cité](https://www.ciup.fr/en/).",
+  "glossary": [
+    {
+      "fr": "un étudiant",
+      "cs": "student"
+    },
+    {
+      "fr": "une université",
+      "cs": "univerzita, vysoká škola"
+    },
+    {
+      "fr": "une faculté",
+      "cs": "fakulta"
+    },
+    {
+      "fr": "un accord",
+      "cs": "dohoda, smlouva"
+    },
+    {
+      "fr": "un diplôme",
+      "cs": "diplom"
+    },
+    {
+      "fr": "gratuit",
+      "cs": "zdarma"
+    },
+    {
+      "fr": "un logement",
+      "cs": "ubytování, bydlení"
+    },
+    {
+      "fr": "valable",
+      "cs": "platný"
+    }
+  ],
+  "photo": {
+    "file": "File:Cite Internationale Universitaire de Paris, 4 June 2015.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cite_Internationale_Universitaire_de_Paris%2C_4_June_2015.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Cite_Internationale_Universitaire_de_Paris,_4_June_2015.jpg",
+    "author": "Tom Hilton",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "desc": "Cite Internationale Universitaire de Paris.",
+    "width": 4928,
+    "height": 3264
+  },
+  "sources": [
+    "https://www.ciup.fr/en/",
+    "https://www.campusfrance.org/en",
+    "https://www.dzs.cz/",
+    "https://www.ifp.cz/cz/kurzy-a-zkousky/zkousky/diplomy-delf-a-dalf/",
+    "https://erasmus-plus.ec.europa.eu/",
+    "https://www.republiquetcheque.campusfrance.org/"
+  ]
+}

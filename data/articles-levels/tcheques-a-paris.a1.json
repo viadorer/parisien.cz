@@ -1,0 +1,73 @@
+{
+  "base": "tcheques-a-paris",
+  "level": "A1",
+  "slug": "tcheques-a-paris-a1",
+  "category": "voyage",
+  "published_at": "2026-09-28T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Les Tchèques à Paris",
+  "title_cs": "Češi v Paříži",
+  "excerpt_fr": "Mucha, Kupka, Kundera : trois artistes tchèques à Paris, et le Centre tchèque.",
+  "excerpt_cs": "Mucha, Kupka, Kundera: tři čeští umělci v Paříži a České centrum.",
+  "body_fr": "En 1895, un jeune homme dessine une affiche. Elle est pour Sarah Bernhardt. La pièce s'appelle Gismonda.\n\n## Mucha\n\nAlfons Mucha vient de Moravie. Il arrive à Paris en 1888. Il étudie à l'Académie Julian. En 1895, son affiche est sur les murs de Paris. Il devient célèbre.\n\n## Kupka et Kundera\n\nFrantišek Kupka vit à Puteaux. Il peint des tableaux abstraits. Milan Kundera arrive en France en 1975. Il devient français en 1981. Il meurt à Paris en 2023. Le musicien Bohuslav Martinů arrive à Paris en 1923. Il découvre le jazz.\n\n## Le Centre tchèque\n\nLe Centre tchèque est au 18, rue Bonaparte, dans le 6e. Il présente la culture tchèque. Voir le [site du Centre tchèque](https://www.czechcentres.cz/paris).",
+  "body_cs": "V roce 1895 jeden mladý muž nakreslí plakát. Je pro Sarah Bernhardtovou. Hra se jmenuje Gismonda.\n\n## Mucha\n\nAlfons Mucha pochází z Moravy. Do Paříže přijede v roce 1888. Studuje na Académie Julian. V roce 1895 je jeho plakát na zdech Paříže. Stane se slavným.\n\n## Kupka a Kundera\n\nFrantišek Kupka žije v Puteaux. Maluje abstraktní obrazy. Milan Kundera přijede do Francie v roce 1975. V roce 1981 se stane Francouzem. Zemře v Paříži v roce 2023. Hudebník Bohuslav Martinů přijede do Paříže v roce 1923. Poznává jazz.\n\n## České centrum\n\nČeské centrum je na adrese 18, rue Bonaparte, v 6. obvodu. Představuje českou kulturu. Viz [web Českého centra](https://www.czechcentres.cz/paris).",
+  "glossary": [
+    {
+      "fr": "une affiche",
+      "cs": "plakát"
+    },
+    {
+      "fr": "une pièce",
+      "cs": "divadelní hra"
+    },
+    {
+      "fr": "célèbre",
+      "cs": "slavný"
+    },
+    {
+      "fr": "abstrait",
+      "cs": "abstraktní"
+    },
+    {
+      "fr": "un tableau",
+      "cs": "obraz"
+    },
+    {
+      "fr": "peindre",
+      "cs": "malovat"
+    },
+    {
+      "fr": "devenir",
+      "cs": "stát se"
+    },
+    {
+      "fr": "la culture",
+      "cs": "kultura"
+    }
+  ],
+  "photo": {
+    "file": "File:Alphonse Mucha - Poster for Victorien Sardou's Gismonda starring Sarah Bernhardt - Original.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alphonse_Mucha_-_Poster_for_Victorien_Sardou's_Gismonda_starring_Sarah_Bernhardt_-_Original.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Alphonse_Mucha_-_Poster_for_Victorien_Sardou%27s_Gismonda_starring_Sarah_Bernhardt_-_Original.jpg",
+    "author": "Alphonse Mucha",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "desc": "Poster for the première production of Victorien Sardou's Gismonda, starring Sarah Bernhardt, at the Théâtre de la Renaissance in Paris.[1]",
+    "width": 3488,
+    "height": 4794
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Alphonse_Mucha",
+    "https://en.wikipedia.org/wiki/František_Kupka",
+    "https://en.wikipedia.org/wiki/Milan_Kundera",
+    "https://en.wikipedia.org/wiki/Bohuslav_Martin%C5%AF",
+    "https://en.wikipedia.org/wiki/Toyen",
+    "https://en.wikipedia.org/wiki/Karel_%C4%8Capek",
+    "https://mzv.gov.cz/paris/fr/republique_tcheque_france/culture/index.html",
+    "https://mzv.gov.cz/paris/fr/republique_tch_que/commemorations/inauguration_d_une_plaque_commemorant_le.html",
+    "https://www.czechcentres.cz/paris",
+    "https://www.centrepompidou.fr/fr/recherche/oeuvres?terms=Kupka",
+    "https://monumentum.fr/monument-historique/pa00088439/paris-5e-arrondissement-hotel-au-fond-du-jardin",
+    "https://emuseum.mfah.org/objects/57251/model-posing-in-muchas-studio-rue-du-val-de-grace-paris"
+  ]
+}

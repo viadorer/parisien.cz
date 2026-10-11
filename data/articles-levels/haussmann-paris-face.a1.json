@@ -1,0 +1,64 @@
+{
+  "base": "haussmann-paris-face",
+  "level": "A1",
+  "slug": "haussmann-paris-face-a1",
+  "category": "paris",
+  "published_at": "2026-09-12T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "Pourquoi Paris est si régulier",
+  "title_cs": "Proč je Paříž tak pravidelná",
+  "excerpt_fr": "Un homme a changé Paris : Haussmann. Voici les boulevards, les immeubles et les toits.",
+  "excerpt_cs": "Paříž změnil jeden muž: Haussmann. Bulváry, domy a střechy.",
+  "body_fr": "Paris a de grands boulevards. Les immeubles sont en pierre claire. Les toits sont gris. Pourquoi ? Parce qu'un homme a changé la ville.\n\n## Haussmann\n\nIl s'appelle Haussmann. En 1853, l'empereur Napoléon III le choisit. Haussmann travaille pendant dix-sept ans. Il détruit beaucoup de vieilles maisons. Il construit de grandes rues, des parcs et des égouts.\n\n## Les immeubles\n\nLes immeubles ont des balcons en fer. Le toit est en zinc. Sous le toit, il y a des petites chambres. Aujourd'hui, des étudiants habitent là.\n\nPour voir ça, marchez sur le boulevard Haussmann. Regardez en haut ! Plus d'informations sur [paris.fr](https://www.paris.fr).",
+  "body_cs": "Paříž má velké bulváry. Domy jsou ze světlého kamene. Střechy jsou šedé. Proč? Protože jeden muž město změnil.\n\n## Haussmann\n\nJmenuje se Haussmann. V roce 1853 ho císař Napoleon III. vybral. Haussmann pracuje sedmnáct let. Zbourá hodně starých domů. Postaví velké ulice, parky a kanalizaci.\n\n## Domy\n\nDomy mají železné balkony. Střecha je ze zinku. Pod střechou jsou malé pokoje. Dnes tam bydlí studenti.\n\nAbyste to viděli, projděte se po bulváru Haussmann. Dívejte se nahoru! Víc informací najdete na [paris.fr](https://www.paris.fr).",
+  "glossary": [
+    {
+      "fr": "un immeuble",
+      "cs": "činžovní dům"
+    },
+    {
+      "fr": "un boulevard",
+      "cs": "bulvár, široká třída"
+    },
+    {
+      "fr": "le toit",
+      "cs": "střecha"
+    },
+    {
+      "fr": "la pierre",
+      "cs": "kámen"
+    },
+    {
+      "fr": "un balcon",
+      "cs": "balkon"
+    },
+    {
+      "fr": "un égout",
+      "cs": "stoka, kanalizace"
+    },
+    {
+      "fr": "une chambre",
+      "cs": "pokoj"
+    },
+    {
+      "fr": "un étudiant",
+      "cs": "student"
+    }
+  ],
+  "photo": {
+    "file": "File:135 Boulevard Haussmann, Paris (01).jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/135_Boulevard_Haussmann%2C_Paris_(01).jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:135_Boulevard_Haussmann,_Paris_(01).jpg",
+    "author": "Neoclassicism Enthusiast",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Transformations_de_Paris_sous_le_Second_Empire",
+    "https://fr.wikipedia.org/wiki/Immeuble_haussmannien",
+    "https://www.citedelarchitecture.fr/sites/default/files/documents/2021-04/bricolarchi_immeuble_haussmannien_v2.pdf",
+    "https://www.pariszigzag.fr/?p=225074",
+    "https://www.citedelarchitecture.fr",
+    "https://www.paris.fr"
+  ]
+}

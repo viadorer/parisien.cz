@@ -8,8 +8,8 @@ const CAT = {
   cs: { paris: 'Paříž', voyage: 'Cestování', langue: 'Jazyk' },
 };
 const T = {
-  fr: { level: 'Niveau de lecture', levelNote: 'Pour C1/C2 : lisez le texte original (B2+).', glossary: 'Vocabulaire', back: '← Tous les articles', sources: 'Sources', by: 'Par', notrans: 'Cet article n’est pas encore traduit en français ; voici la version tchèque.', more: 'À lire aussi', nf: 'Article introuvable', nfp: 'Cet article n’existe pas ou n’est plus publié.' },
-  cs: { level: 'Úroveň čtení', levelNote: 'Pro C1/C2: čtěte původní text (B2+).', glossary: 'Slovíčka', back: '← Všechny články', sources: 'Zdroje', by: 'Autor', notrans: 'Tento článek zatím nemá český překlad, zobrazuje se francouzská verze.', more: 'Přečtěte si také', nf: 'Článek nenalezen', nfp: 'Tento článek neexistuje nebo už není zveřejněný.' },
+  fr: { level: 'Niveau de lecture', levelNote: 'Même article, écrit pour chaque niveau CECR.', glossary: 'Vocabulaire', back: '← Tous les articles', sources: 'Sources', by: 'Par', notrans: 'Cet article n’est pas encore traduit en français ; voici la version tchèque.', more: 'À lire aussi', nf: 'Article introuvable', nfp: 'Cet article n’existe pas ou n’est plus publié.' },
+  cs: { level: 'Úroveň čtení', levelNote: 'Stejný článek napsaný pro každou úroveň CEFR.', glossary: 'Slovíčka', back: '← Všechny články', sources: 'Zdroje', by: 'Autor', notrans: 'Tento článek zatím nemá český překlad, zobrazuje se francouzská verze.', more: 'Přečtěte si také', nf: 'Článek nenalezen', nfp: 'Tento článek neexistuje nebo už není zveřejněný.' },
 };
 const fmt = (iso, lang) => new Date(iso).toLocaleDateString(lang === 'cs' ? 'cs-CZ' : 'fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
 
@@ -32,7 +32,7 @@ export default async function handler(req, res) {
     const cover = post.cover ? { url: post.cover, author: '', license: '', page: post.coverCredit?.url } : null;
     const related = (await getPosts({ cat: post.category, limit: 24 })).filter((p) => p.slug === p.base && p.base !== post.base).slice(0, 3);
     const versions = await getVersions(post.base);
-    const switcher = versions.length > 1 ? `<nav class="level-switch" aria-label="${esc(t.level)}"><span>${esc(t.level)} :</span>${versions.map((v) => `<a href="/${lang}/article/${esc(v.slug)}" data-level="${esc(v.level)}"${v.slug === slug ? ' aria-current="page"' : ''}>${esc(v.level === 'B2' ? 'B2+' : v.level || '?')}</a>`).join('')}<small>${esc(t.levelNote)}</small></nav>` : '';
+    const switcher = versions.length > 1 ? `<nav class="level-switch" aria-label="${esc(t.level)}"><span>${esc(t.level)} :</span>${versions.map((v) => `<a href="/${lang}/article/${esc(v.slug)}" data-level="${esc(v.level)}"${v.slug === slug ? ' aria-current="page"' : ''}>${esc(v.level || '?')}</a>`).join('')}<small>${esc(t.levelNote)}</small></nav>` : '';
     const glossary = post.glossary?.length ? `<aside class="glossary"><h2>${esc(t.glossary)}</h2><ul>${post.glossary.map((g) => `<li><b lang="fr">${esc(g.fr)}</b> · ${esc(g.cs)}</li>`).join('')}</ul></aside>` : '';
 
     const html = layout({
@@ -42,7 +42,7 @@ export default async function handler(req, res) {
       head: `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Article', headline: title, datePublished: post.date, inLanguage: lang, author: { '@type': 'Organization', name: post.author || 'parisien.cz' }, image: post.cover || undefined, mainEntityOfPage: `${SITE}/${lang}/article/${slug}` }).replace(/</g, '\\u003c')}</script>`,
       body: `<article class="article" data-base="${esc(post.base)}" data-level="${esc(post.level)}">
   <a class="read-more" href="/${lang}/blog">${esc(t.back)}</a>
-  <div class="post-meta"><span class="tag">${esc(CAT[lang][post.category] || post.category)}</span>${post.level ? ` <span class="tag lvl lvl-${esc(post.level)}">${esc(post.level === 'B2' && versions.length > 1 ? 'B2+' : post.level)}</span>` : ''} <time datetime="${esc(post.date)}">${esc(fmt(post.date, lang))}</time>${post.author ? ` · ${esc(t.by)} ${esc(post.author)}` : ''}</div>
+  <div class="post-meta"><span class="tag">${esc(CAT[lang][post.category] || post.category)}</span>${post.level ? ` <span class="tag lvl lvl-${esc(post.level)}">${esc(post.level)}</span>` : ''} <time datetime="${esc(post.date)}">${esc(fmt(post.date, lang))}</time>${post.author ? ` · ${esc(t.by)} ${esc(post.author)}` : ''}</div>
   <h1>${esc(title)}</h1>
   ${switcher}
   ${post.cover ? `<figure class="photo article-cover"><img src="${esc(post.cover)}" alt=""><figcaption class="credit">${post.coverCredit ? `<a href="${esc(post.coverCredit.url || '#')}" target="_blank" rel="noopener">© ${esc(post.coverCredit.text)}</a>` : ''}</figcaption></figure>` : ''}

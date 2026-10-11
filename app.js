@@ -24,7 +24,7 @@
   const LV = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
   const lvGet = () => { try { const v = localStorage.getItem('pz-level'); return LV.includes(v) ? v : ''; } catch { return ''; } };
   const lvSet = (v) => { try { v ? localStorage.setItem('pz-level', v) : localStorage.removeItem('pz-level'); } catch {} };
-  const effLevel = (l) => (l === 'C1' || l === 'C2' ? 'B2' : l);          // pro články: C1/C2 čtou originál (B2+)
+  const effLevel = (l) => l;                                               // každá úroveň má vlastní verzi; chybějící se nahradí nejbližší
   const tierOf = (l) => (l && LV.indexOf(l) <= LV.indexOf('B1') ? 'easy' : 'full');
   const applyTier = () => { document.body.dataset.tier = tierOf(lvGet()); };
   applyTier();
@@ -165,7 +165,7 @@
 
   // ---------- články ----------
   const CAT = { paris: L('Paris', 'Paříž'), voyage: L('Voyages', 'Cestování'), langue: L('Langue', 'Jazyk') };
-  const lvTag = (l, multi) => (l ? el('span', { class: `tag lvl lvl-${l}` }, l === 'B2' && multi ? 'B2+' : l) : null);
+  const lvTag = (l, multi) => (l ? el('span', { class: `tag lvl lvl-${l}` }, l) : null);
   const postCard = (group) => {
     const want = lvGet();
     const p = pickVersion(group, want);
@@ -176,7 +176,7 @@
         el('div', { class: 'post-meta' }, el('span', { class: 'tag' }, CAT[p.category] || p.category), ' ', lvTag(p.level, multi), ' ', el('time', { datetime: p.date }, fmtDay(p.date, { day: 'numeric', month: 'long', year: 'numeric' }))),
         el('h3', {}, pick(p.title)),
         el('p', {}, pick(p.excerpt)),
-        multi ? el('div', { class: 'level-chips', 'aria-label': L('Niveaux disponibles', 'Dostupné úrovně') }, ...group.map((v) => el('a', { href: `/${lang}/article/${encodeURIComponent(v.slug)}`, class: v.slug === p.slug ? 'on' : '', 'data-level': v.level }, v.level === 'B2' ? 'B2+' : v.level))) : null,
+        multi ? el('div', { class: 'level-chips', 'aria-label': L('Niveaux disponibles', 'Dostupné úrovně') }, ...group.map((v) => el('a', { href: `/${lang}/article/${encodeURIComponent(v.slug)}`, class: v.slug === p.slug ? 'on' : '', 'data-level': v.level }, v.level))) : null,
         el('a', { class: 'read-more', href: `/${lang}/article/${encodeURIComponent(p.slug)}` }, L('Lire l’article', 'Číst článek'))));
   };
   const groupPosts = (posts) => {
@@ -220,7 +220,7 @@
       const best = pickVersion(links.map((a) => ({ level: a.dataset.level, a })), want);
       if (best && best.a !== cur) location.replace(best.a.href);
     }
-    links.forEach((a) => a.addEventListener('click', () => { const l = a.dataset.level; if (!(l === 'B2' && (lvGet() === 'C1' || lvGet() === 'C2'))) lvSet(l); applyTier(); }));
+    links.forEach((a) => a.addEventListener('click', () => { lvSet(a.dataset.level); applyTier(); }));
   }
 
   // ---------- galerie + lightbox ----------

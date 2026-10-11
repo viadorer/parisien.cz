@@ -1,0 +1,94 @@
+{
+  "base": "jak-se-dostat-z-ceska",
+  "level": "C1",
+  "slug": "jak-se-dostat-z-ceska-c1",
+  "category": "voyage",
+  "published_at": "2026-10-04T08:00:00Z",
+  "author": "Rédaction parisien.cz",
+  "title_fr": "De Prague à Paris : trois trajets, trois arbitrages",
+  "title_cs": "Z Prahy do Paříže: tři cesty, tři kompromisy",
+  "excerpt_fr": "Aucun train direct Prague–Paris : l'avion, le rail via l'Allemagne et l'autocar obligent à arbitrer entre temps, fiabilité et empreinte carbone.",
+  "excerpt_cs": "Přímý vlak Praha–Paříž není. Letadlo, vlak přes Německo a autobus nutí volit mezi časem, spolehlivostí a stopou CO₂.",
+  "body_fr": "Quiconque tape « Prague–Paris » dans un moteur de recherche ferroviaire s'attend, non sans raison, à voir surgir un train direct entre deux capitales européennes. Or, en 2026, je n'en ai trouvé aucun, et c'est cette absence, plus qu'aucune statistique, qui structure toute la réflexion : relier Prague à Paris suppose de choisir, et chaque option exige un compromis entre le temps, la fiabilité, le confort et l'empreinte carbone. Plusieurs solutions sérieuses existent pourtant : un vol d'un peu moins de deux heures, un trajet en train avec changement en Allemagne, ou un long voyage en autocar. Voici ce que l'on peut affirmer avec certitude, ce qu'il convient de vérifier soi-même et ce qui pèse davantage lorsque l'on voyage avec un groupe scolaire.\n\n## L'avion : la vitesse, sous réserve d'horaires fluctuants\n\nDes vols directs relient l'aéroport de Prague à Paris. D'après les sources consultées, Air France assure la liaison avec Paris-Charles-de-Gaulle (CDG), Transavia avec Orly, et Smartwings dessert également CDG. La durée du vol, d'environ 1 h 50, est sans rival, quoiqu'elle ne constitue qu'une partie du trajet réel. Les fréquences varient d'une saison à l'autre et les comparateurs ne s'accordent pas toujours entre eux ; il serait donc imprudent de bâtir un projet sur un horaire lu au hasard d'une page web, alors qu'il suffit d'interroger les compagnies et de consulter le [site de l'aéroport de Prague](https://www.prg.aero).\n\nReste à rejoindre le centre de Paris, et là, le choix de l'aéroport n'est pas indifférent. Depuis CDG, le RER B dessert Gare du Nord, Châtelet–Les Halles et Saint-Michel en 35 à 45 minutes environ. Depuis Orly, la ligne 14 du métro, prolongée jusqu'à l'aéroport le 24 juin 2024, met environ vingt-cinq minutes pour atteindre Châtelet : une extension récente dont profitent désormais les passagers qui atterrissent au sud de la capitale.\n\n## Le train : l'art de la correspondance\n\nÀ ma connaissance, aucun train direct ne relie les deux villes. Le trajet se décompose en deux étapes au moins, et il passe par l'Allemagne. Un itinéraire classique consiste à prendre un train rapide de Prague vers Munich ou Nuremberg, puis un ICE ou un TGV vers Paris-Est, par exemple via Stuttgart ou Karlsruhe ; on peut aussi passer par Francfort, d'où les trains directs ICE et TGV rejoignent Paris en 3 h 40 environ. Selon les sites de réservation, le voyage complet dure entre dix heures et demie et plus de treize heures, changements compris.\n\nUn tel écart n'a rien d'anodin : il traduit ce qui fait la fragilité de cette option, à savoir que la durée dépend moins de la vitesse des trains que de la qualité des correspondances. Mieux vaut donc prévoir de la marge qu'espérer une ponctualité sans faille, d'autant que, si vous achetez deux billets séparés, une correspondance manquée n'est pas couverte.\n\n## Les trains de nuit : un horizon qui se déplace\n\nLa situation a changé récemment. ÖBB a arrêté ses Nightjet Paris–Vienne et Paris–Berlin le 14 décembre 2025, après la fin du soutien financier de l'État français : la viabilité de ces liaisons dépend manifestement, pour une part, de choix budgétaires. Depuis le 26 mars 2026, l'opérateur European Sleeper propose un train de nuit Paris–Bruxelles–Berlin, trois nuits par semaine selon les informations disponibles, et la même compagnie relie Bruxelles à Prague.\n\nEn principe, on pourrait donc enchaîner un train de nuit Prague–Bruxelles et un train à grande vitesse Bruxelles–Paris. Je n'ai toutefois pas pu vérifier d'horaire concret, de sorte qu'il serait hasardeux de fonder un projet sur cette seule hypothèse avant d'avoir consulté soi-même les horaires. Pour comparer les itinéraires, les sites officiels demeurent le meilleur point de départ : [Deutsche Bahn](https://www.bahn.de), [SNCF Connect](https://www.sncf-connect.com) et [České dráhy](https://www.cd.cz). Le site [Seat61](https://www.seat61.com) est, de surcroît, une référence très utilisée par les voyageurs pour comprendre les itinéraires.\n\n## L'autocar : long, mais direct\n\nDes autocars directs relient Prague et Paris, notamment avec FlixBus, et RegioJet figure aussi dans les comparateurs. Les sites de réservation annoncent une durée d'environ 13 à 14 heures. À Paris, le terminus de FlixBus se trouve au quai de Bercy ; à Prague, selon le départ, on part de Florenc ou d'un autre arrêt, ce qui modifie légèrement la durée. L'autocar épargne les correspondances, mais il impose en contrepartie le temps long : c'est un arbitrage, non une faiblesse. Là encore, l'horaire se vérifie à la date voulue sur le [site de FlixBus](https://www.flixbus.fr).\n\n## Le CO₂ : des ordres de grandeur, non des certitudes\n\nL'Agence européenne pour l'environnement classe le train comme le mode de transport de voyageurs le plus efficace en émissions par passager-kilomètre ; l'autocar est le plus efficace des modes routiers, tandis que l'avion et la voiture sont les moins efficaces. Pour l'aviation, l'Agence ajoute un facteur de 1,7 aux émissions de CO₂ afin de tenir compte des effets autres que le CO₂.\n\nÀ titre d'illustration, l'outil Impact CO₂, élaboré avec l'ADEME, affiche pour 100 km : 0,29 kg de CO₂e pour le TGV, 14,2 kg pour une voiture thermique et 22,5 kg pour un avion sur un court trajet. Ces valeurs sont calculées pour la France, où l'électricité est peu carbonée ; un voyage à travers l'Allemagne et la République tchèque donnerait d'autres chiffres. Elles servent donc à comparer, non à calculer avec précision un trajet Prague–Paris. Pour une estimation de votre propre voyage, utilisez le [calculateur Impact CO₂](https://impactco2.fr).\n\n## Voyager en groupe : l'organisation avant tout\n\n- **Réservez tôt**, surtout pour les trains de nuit et les groupes.\n- **Billets de groupe** : les opérateurs ferroviaires et FlixBus ont des services pour groupes ; renseignez-vous directement auprès d'eux et conservez par écrit les conditions de modification et d'annulation.\n- **Hébergement** : les auberges de jeunesse (réseau Hostelling International) acceptent généralement les groupes ; demandez les conditions directement. Le site [Paris je t'aime](https://parisjetaime.com) recense aussi des adresses.\n- **Prévoyez une marge** : évitez les correspondances serrées lorsque l'on voyage avec plusieurs élèves et leurs valises.\n- **Anticipez les arrivées matinales** : si le groupe arrive tôt, décidez à l'avance où laisser les bagages avant l'heure d'enregistrement.\n\n## Pour y aller / Praktické info\n\n- **Papiers** : Prague et Paris sont dans l'espace Schengen. Pour un citoyen tchèque, une carte d'identité valide suffit en France ; selon le ministère tchèque des Affaires étrangères, les enfants doivent aussi avoir leur propre document. Voir le [site du ministère tchèque](https://mzv.gov.cz).\n- **Santé** : emportez la carte européenne d'assurance maladie (CEAM, EHIC en anglais), délivrée gratuitement par votre assureur. Elle couvre les soins médicalement nécessaires dans le système public pendant un séjour temporaire ; elle ne remplace pas une assurance voyage et ne couvre ni le rapatriement ni les soins privés. Informations officielles sur le [portail de l'UE](https://europa.eu/youreurope).\n- **Horaires et prix** changent : vérifiez-les toujours auprès des opérateurs.",
+  "body_cs": "Kdo zadá do vyhledávače vlaků „Praha–Paříž“, čeká – a nikoli bezdůvodně – přímé spojení mezi dvěma evropskými metropolemi. Jenže v roce 2026 jsem žádné nenašel a právě tato absence, víc než kterákoli statistika, určuje celou úvahu: spojit Prahu s Paříží znamená volit a každá varianta vyžaduje kompromis mezi časem, spolehlivostí, pohodlím a uhlíkovou stopou. Vážných možností je přitom několik: let trvající o něco méně než dvě hodiny, cesta vlakem s přestupem v Německu, nebo dlouhá jízda autobusem. Zde je, co lze tvrdit s jistotou, co je třeba ověřit na vlastní pěst a co víc váží, cestuje-li školní skupina.\n\n## Letadlo: rychlost, ale s proměnlivým rozpisem\n\nMezi pražským letištěm a Paříží létají přímé lety. Podle konzultovaných zdrojů spojení s pařížským letištěm Charlese de Gaulla (CDG) zajišťuje Air France, s Orly Transavia a na CDG létá také Smartwings. Délka letu, zhruba 1 h 50, nemá konkurenci, i když je jen částí skutečné cesty. Frekvence se mění podle sezony a srovnávače se mezi sebou ne vždy shodnou; stavět plán na rozpisu, který jsme náhodou našli na nějaké stránce, by proto bylo nerozumné, když stačí zeptat se dopravců a podívat se na [web pražského letiště](https://www.prg.aero).\n\nZbývá dostat se do centra Paříže a tady na volbě letiště záleží. Z CDG jede RER B na Gare du Nord, Châtelet–Les Halles a Saint-Michel zhruba 35 až 45 minut. Z Orly vede linka metra 14, prodloužená k letišti 24. června 2024, na Châtelet asi 25 minut: je to novinka, z níž dnes těží cestující přistávající na jihu metropole.\n\n## Vlak: umění přestupovat\n\nPokud vím, žádný přímý vlak obě města nespojuje. Cesta se skládá nejméně ze dvou úseků a vede přes Německo. Klasická trasa vede rychlým vlakem z Prahy do Mnichova nebo Norimberku a odtud ICE či TGV do Paříže-Est, například přes Stuttgart nebo Karlsruhe; lze jet i přes Frankfurt, odkud přímé ICE a TGV dojedou do Paříže zhruba za 3 h 40. Podle rezervačních webů trvá celá cesta včetně přestupů od deseti a půl do více než třinácti hodin.\n\nTak velký rozptyl není náhoda: ukazuje, v čem je tato varianta křehká, totiž že doba cesty závisí méně na rychlosti vlaků než na kvalitě přípojů. Raději tedy počítejte s rezervou, než abyste spoléhali na bezchybnou přesnost – tím spíš, že koupíte-li dvě samostatné jízdenky, zmeškaný přípoj nikdo nenahradí.\n\n## Noční vlaky: obzor, který se posouvá\n\nSituace se nedávno změnila. Společnost ÖBB ukončila noční spoje Nightjet Paříž–Vídeň a Paříž–Berlín 14. prosince 2025, poté co francouzský stát přestal poskytovat finanční podporu: životaschopnost těchto linek tedy zjevně závisí zčásti na rozpočtových rozhodnutích. Od 26. března 2026 provozuje dopravce European Sleeper noční vlak Paříž–Brusel–Berlín, podle dostupných informací tři noci v týdnu, a stejná společnost spojuje Brusel s Prahou.\n\nV zásadě by tedy šlo navázat noční vlak Praha–Brusel na vysokorychlostní vlak Brusel–Paříž. Konkrétní jízdní řád jsem však ověřit nemohl, takže by bylo riskantní stavět plán jen na této úvaze, dokud si spoje neprojdete sami. K porovnání tras zůstávají nejlepším východiskem oficiální weby: [Deutsche Bahn](https://www.bahn.de), [SNCF Connect](https://www.sncf-connect.com) a [České dráhy](https://www.cd.cz). Navíc je web [Seat61](https://www.seat61.com) hojně využívaným průvodcem cestovatelů, který pomáhá porozumět trasám.\n\n## Autobus: dlouhý, ale přímý\n\nMezi Prahou a Paříží jezdí přímé autobusy, mimo jiné FlixBus, a ve srovnávačích se objevuje i RegioJet. Rezervační weby uvádějí dobu jízdy zhruba 13 až 14 hodin. V Paříži zastavuje FlixBus na nábřeží Quai de Bercy; v Praze se odjíždí podle spoje z Florence nebo z jiné zastávky, což dobu jízdy mírně mění. Autobus ušetří přestupy, ale na oplátku vyžaduje čas: je to kompromis, ne slabina. Také tady si jízdní řád na požadované datum ověřte na [webu FlixBusu](https://www.flixbus.cz).\n\n## CO₂: řádové odhady, ne jistoty\n\nEvropská agentura pro životní prostředí řadí vlak mezi nejúčinnější druhy osobní dopravy z hlediska emisí na pasažérokilometr; autobus je nejúčinnější ze silničních druhů, zatímco letadlo a osobní auto jsou nejméně účinné. U letectví agentura násobí emise CO₂ faktorem 1,7, aby zohlednila i jiné vlivy než samotné CO₂.\n\nPro ilustraci: nástroj Impact CO₂, vyvinutý ve spolupráci s francouzskou agenturou ADEME, uvádí na 100 km 0,29 kg CO₂e u vlaku TGV, 14,2 kg u auta se spalovacím motorem a 22,5 kg u letu na krátkou vzdálenost. Hodnoty jsou počítané pro Francii, kde je elektřina málo uhlíková; cesta přes Německo a Česko by vyšla jinak. Slouží tedy k porovnání, ne k přesnému výpočtu cesty Praha–Paříž. Odhad vaší cesty si spočítejte v [kalkulačce Impact CO₂](https://impactco2.fr).\n\n## Cestování ve skupině: organizace především\n\n- **Rezervujte s předstihem**, zvlášť noční vlaky a skupiny.\n- **Skupinové jízdenky**: železniční dopravci i FlixBus mají služby pro skupiny; zeptejte se přímo u nich a podmínky změny a storna si ponechte písemně.\n- **Ubytování**: hostely (síť Hostelling International) většinou skupiny přijímají; podmínky zjistěte přímo. Adresy najdete i na [Paris je t'aime](https://parisjetaime.com).\n- **Nechte si rezervu**: nenaplánujte těsné přestupy, cestujete-li s více žáky a jejich kufry.\n- **Počítejte s ranními příjezdy**: dorazí-li skupina brzy, předem rozhodněte, kde nechá zavazadla před časem ubytování.\n\n## Pour y aller / Praktické info\n\n- **Doklady**: Praha i Paříž leží ve Schengenu. Českému občanovi stačí ve Francii platný občanský průkaz; podle českého ministerstva zahraničí musí mít vlastní doklad i děti. Viz [web ministerstva zahraničí](https://mzv.gov.cz).\n- **Zdraví**: vezměte si Evropský průkaz zdravotního pojištění (EHIC), který bezplatně vydává vaše pojišťovna. Kryje zdravotně nutnou péči ve veřejném systému při dočasném pobytu; nenahrazuje cestovní pojištění a nekryje repatriaci ani soukromou péči. Oficiální informace na [portálu EU](https://europa.eu/youreurope).\n- **Jízdní řády a ceny** se mění; vždy je ověřte u dopravců.",
+  "glossary": [
+    {
+      "fr": "s'attendre à",
+      "cs": "očekávat"
+    },
+    {
+      "fr": "l'arbitrage (m.)",
+      "cs": "kompromis, vyvažování"
+    },
+    {
+      "fr": "l'empreinte carbone (f.)",
+      "cs": "uhlíková stopa"
+    },
+    {
+      "fr": "sans rival",
+      "cs": "bezkonkurenční"
+    },
+    {
+      "fr": "ne pas être indifférent",
+      "cs": "nebýt lhostejný, mít význam"
+    },
+    {
+      "fr": "une correspondance manquée",
+      "cs": "zmeškaný přípoj"
+    },
+    {
+      "fr": "l'écart (m.)",
+      "cs": "rozdíl, rozptyl"
+    },
+    {
+      "fr": "sans faille",
+      "cs": "bezchybný, bez selhání"
+    },
+    {
+      "fr": "hasardeux",
+      "cs": "riskantní"
+    },
+    {
+      "fr": "de surcroît",
+      "cs": "navíc"
+    },
+    {
+      "fr": "en contrepartie",
+      "cs": "na oplátku"
+    },
+    {
+      "fr": "à titre d'illustration",
+      "cs": "pro ilustraci"
+    },
+    {
+      "fr": "peu carboné",
+      "cs": "málo uhlíkový"
+    }
+  ],
+  "photo": {
+    "file": "File:Gare de l'Est Paris 2007 a2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gare_de_l'Est_Paris_2007_a2.jpg?width=1200",
+    "page": "https://commons.wikimedia.org/wiki/File:Gare_de_l%27Est_Paris_2007_a2.jpg",
+    "author": "Gryffindor",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "desc": "The Gare de l'Est in Paris",
+    "width": 4884,
+    "height": 1440
+  },
+  "sources": [
+    "https://www.prg.aero",
+    "https://www.planes.cz/en/article/210646/smartwings-schedule-of-regular-flights-from-prague-for-summer-2026",
+    "https://www.eea.europa.eu/publications/rail-and-waterborne-transport/rail-and-waterborne-best/",
+    "https://impactco2.fr/outils/transport",
+    "https://www.railwaypro.com/wp/obb-to-end-nightjet-services-to-paris-in-2025/",
+    "https://www.railjournal.com/regions/europe/european-sleeper-launches-paris-berlin-night-train/",
+    "https://www.europeansleeper.eu/paris",
+    "https://www.seat61.com/international-trains/trains-from-Prague.htm",
+    "https://www.omio.fr/bus/prague/paris",
+    "https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_en.htm",
+    "https://www.service-public.gouv.fr/particuliers/actualites/A16577?lang=en",
+    "https://mzv.gov.cz/paris/fr/service_consulaire/formalites_d_entree/formalite_d_enree.html",
+    "https://www.iledefrance.fr/toutes-les-actualites/la-ligne-14-prolongee-met-laeroport-dorly-25-minutes-du-centre-de-paris"
+  ]
+}
