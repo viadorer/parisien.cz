@@ -166,6 +166,8 @@
     $('#tab-students').hidden = b.dataset.tab !== 'students';
     $('#tab-postcards').hidden = b.dataset.tab !== 'postcards';
     if (b.dataset.tab === 'postcards') await loadPostcards();
+    $('#tab-reports').hidden = b.dataset.tab !== 'reports';
+    if (b.dataset.tab === 'reports') await loadReports();
     if (b.dataset.tab === 'students') await loadStudents();
     if (b.dataset.tab === 'messages') await loadMessages();
     if (b.dataset.tab === 'gallery') await loadGallery();
@@ -183,6 +185,25 @@
         el('div', { class: 'grow' }, el('strong', {}, c.who), ' ', el('span', { class: c.status === 'published' ? 'badge' : 'badge draft' }, ST[c.status] || c.status), el('br'), el('small', {}, `[${c.lang}] ${c.message}`)),
         ...(c.status !== 'published' ? [Object.assign(el('button', { class: 'btn', type: 'button' }, 'Zveřejnit'), { onclick: guard(async () => { await call('postcard-review', { id: c.id, decision: 'publish' }); await loadPostcards(); }) })] : []),
         ...(c.status !== 'rejected' ? [Object.assign(el('button', { class: 'btn danger', type: 'button' }, 'Zamítnout'), { onclick: guard(async () => { await call('postcard-review', { id: c.id, decision: 'reject' }); await loadPostcards(); }) })] : []))));
+  }
+
+  // ---------- hlášení: skrytí / obnovení jedním klikem ----------
+  async function loadReports() {
+    const box = $('#tab-reports');
+    if (!me.db) return box.replaceChildren('Databáze není připojena.');
+    const { reports } = await call('reports-list', {});
+    const KIND = { post: 'Článek', postcard: 'Pohlednice', profile: 'Profil' };
+    const RS = { inappropriate: 'nevhodný obsah', personal: 'osobní údaje', copyright: 'autorská práva', other: 'jiné' };
+    const act = (r, decision, label, cls) => Object.assign(el('button', { class: cls, type: 'button' }, label), { onclick: guard(async () => { await call('report-resolve', { kind: r.kind, target: r.target, decision }); await loadReports(); }) });
+    box.replaceChildren(el('h2', { style: 'margin-top:0' }, `Hlášení (${reports.length})`),
+      reports.length ? '' : el('p', {}, 'Žádná otevřená hlášení.'),
+      ...reports.map((r) => el('div', { class: 'item' },
+        el('div', { class: 'grow' }, el('strong', {}, `${KIND[r.kind] || r.kind}: ${r.title || r.target}`), ' ',
+          el('span', { class: r.state === 'hidden' ? 'badge draft' : 'badge' }, r.gone ? 'smazáno' : r.state === 'hidden' ? 'skryto' : 'viditelné'), el('br'),
+          el('small', {}, `${r.who || ''} · ${r.people}× nahlásilo · ${r.reasons.split(', ').map((x) => RS[x] || x).join(', ')}${r.notes ? ` · ${r.notes}` : ''}`),
+          r.url ? el('span', {}, ' ', el('a', { href: r.url, target: '_blank', rel: 'noopener' }, 'otevřít')) : ''),
+        ...(r.state === 'hidden' ? [act(r, 'restore', 'Obnovit', 'btn')] : [act(r, 'hide', 'Skrýt', 'btn danger'), act(r, 'dismiss', 'Ponechat', 'btn')]),
+        ...(r.state === 'hidden' ? [act(r, 'dismiss', 'Zavřít hlášení', 'btn')] : []))));
   }
 
   // ---------- studenti: pozvánky a účty ----------

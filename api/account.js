@@ -36,7 +36,7 @@ export default async function handler(req, res) {
       if (!inv) { await sleep(600); return send(res, 403, { error: 'code' }, noStore); }
       if ((await sql`SELECT 1 FROM users WHERE email = ${email}`).length) return send(res, 409, { error: 'exists' }, noStore);
       const hash = await hashPassword(b.password);
-      const u = (await sql`INSERT INTO users (email, display_name, pass_hash, note, class_name) VALUES (${email}, ${name}, ${hash}, ${inv.code}, ${str(inv.note, 60)}) RETURNING id`)[0];
+      const u = (await sql`INSERT INTO users (email, display_name, pass_hash, note, class_name, show_profile) VALUES (${email}, ${name}, ${hash}, ${inv.code}, ${str(inv.note, 60)}, FALSE) RETURNING id`)[0];
       await sql`UPDATE users SET public_slug = ${(slugify(name) || 'autor') + '-' + u.id} WHERE id = ${u.id}`;
       const used = await sql`UPDATE invites SET used_by = ${u.id}, used_at = now() WHERE code = ${inv.code} AND used_by IS NULL RETURNING code`;
       if (!used.length) { await sql`DELETE FROM users WHERE id = ${u.id}`; return send(res, 403, { error: 'code' }, noStore); }
@@ -97,7 +97,7 @@ export default async function handler(req, res) {
 
     if (action === 'profile-save') {
       const bio = str(b.bio, 300), sig = str(b.sig, 30);
-      await sql`UPDATE users SET bio = ${bio}, sig_text = ${sig}, show_profile = ${b.showProfile !== false}, show_class = ${Boolean(b.showClass)} WHERE id = ${user.id}`;
+      await sql`UPDATE users SET bio = ${bio}, sig_text = ${sig}, show_profile = ${b.showProfile === true}, show_class = ${Boolean(b.showClass)} WHERE id = ${user.id}`;
       return send(res, 200, { ok: true }, noStore);
     }
     if (action === 'corrections-inbox') {

@@ -24,7 +24,7 @@ export default async function handler(req, res) {
   try {
     if (!hasDb) return notFound();
     await ensureSchema();
-    const u = (await sql`SELECT id, display_name, bio, sig_text, class_name, show_class, created_at FROM users WHERE public_slug = ${slug} AND show_profile AND status = 'active'`)[0];
+    const u = (await sql`SELECT id, display_name, bio, sig_text, class_name, show_class, created_at FROM users WHERE public_slug = ${slug} AND show_profile AND NOT profile_hidden AND status = 'active'`)[0];
     if (!u) return notFound();
     const posts = await getStudentPosts({ userId: u.id, limit: 50 });
     const [{ n }] = await sql`SELECT count(*)::int AS n FROM reactions r JOIN posts p ON p.slug = r.post_slug WHERE p.author_user_id = ${u.id}`;
@@ -37,6 +37,7 @@ export default async function handler(req, res) {
     <p class="muted">${u.show_class && u.class_name ? `${esc(t.class)} ${esc(u.class_name)} · ` : ''}${esc(t.since)} ${esc(since)} · ${posts.length} ${esc(t.posts.toLowerCase())} · ${n} ${lang === 'cs' ? 'reakcí' : 'réactions'}</p></div></header>
   ${u.bio ? `<h2>${esc(t.about)}</h2><p class="profile-bio">${esc(u.bio)}</p>` : ''}
   <div class="signature profile-sig"><div class="sig-name">${esc(sig)}</div></div>
+  <p class="report-line"><button type="button" class="chip" data-report-open data-kind="profile" data-target="${esc(slug)}">${esc(lang === 'cs' ? 'Nahlásit profil' : 'Signaler ce profil')}</button></p>
   <h2>${esc(t.posts)}</h2>
   ${posts.length ? `<div class="blog-posts">${posts.map((p) => `<article class="blog-post"><div class="post-date">${esc(CAT[lang][p.category] || p.category)}${p.level ? ` · ${esc(p.level)}` : ''} · ${esc(new Date(p.date).toLocaleDateString(lang === 'cs' ? 'cs-CZ' : 'fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }))}</div><h3><a href="/${lang}/article/${esc(p.slug)}">${esc(pick(p.title, lang))}</a></h3><div class="post-excerpt"><p>${esc(pick(p.excerpt, lang))}</p></div></article>`).join('')}</div>` : `<p class="muted">${esc(t.none)}</p>`}
 </article>`;

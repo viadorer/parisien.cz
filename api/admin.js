@@ -7,6 +7,7 @@ import { send, readJson, str, slugify } from '../lib/http.js';
 import { hashPassword, newCode } from '../lib/users.js';
 import { randomBytes } from 'node:crypto';
 import { geocodePlace } from '../lib/geocode.js';
+import { hideTarget } from '../lib/moderation.js';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -98,6 +99,31 @@ export default async function handler(req, res) {
         if (g) await sql`UPDATE posts SET lat = ${g.lat}, lon = ${g.lon} WHERE id = ${id}`;
       }
       return rows[0] ? send(res, 200, { ok: true }, noStore) : send(res, 404, { error: 'Článek neexistuje.' }, noStore);
+    }
+    if (action === 'reports-list') {
+      const rows = await sql`SELECT kind, target, count(*)::int AS n, count(DISTINCT reporter)::int AS people, max(created_at) AS last,
+        string_agg(DISTINCT reason, ', ') AS reasons, string_agg(DISTINCT NULLIF(note, ''), ' | ') AS notes
+        FROM reports WHERE status = 'open' GROUP BY kind, target ORDER BY max(created_at) DESC LIMIT 100`;
+      const out = [];
+      for (const r of rows) {
+        let info = {};
+        if (r.kind === 'post') { const p = (await sql`SELECT title_fr, title_cs, author, status FROM posts WHERE slug = ${r.target}`)[0]; info = p ? { title: p.title_fr || p.title_cs, who: p.author, state: p.status, url: `/fr/article/${r.target}` } : { gone: true }; }
+        else if (r.kind === 'postcard') { const p = (await sql`SELECT c.message, c.status, u.display_name FROM postcards c JOIN users u ON u.id = c.user_id WHERE c.id = ${Number(r.target) || 0}`)[0]; info = p ? { title: p.message.slice(0, 120), who: p.display_name, state: p.status, url: '/fr/pohlednice' } : { gone: true }; }
+        else { const p = (await sql`SELECT display_name, profile_hidden FROM users WHERE public_slug = ${r.target}`)[0]; info = p ? { title: p.display_name, who: p.display_name, state: p.profile_hidden ? 'hidden' : 'public', url: `/fr/auteur/${r.target}` } : { gone: true }; }
+        out.push({ ...r, ...info });
+      }
+      return send(res, 200, { reports: out }, noStore);
+    }
+    if (action === 'report-resolve') {
+      const kind = String(body.kind), target = str(body.target, 120);
+      if (body.decision === 'hide') await hideTarget(kind, target, true);
+      if (body.decision === 'restore') await hideTarget(kind, target, false);
+      await sql`UPDATE reports SET status = ${body.decision === 'hide' ? 'actioned' : 'dismissed'} WHERE kind = ${kind} AND target = ${target} AND status = 'open'`;
+      return send(res, 200, { ok: true }, noStore);
+    }
+    if (action === 'hide' || action === 'unhide') {
+      await hideTarget(String(body.kind), str(body.target, 120), action === 'hide');
+      return send(res, 200, { ok: true }, noStore);
     }
     if (action === 'postcards-list') {
       return send(res, 200, { postcards: await sql`SELECT c.id, c.photo_id, c.message, c.lang, c.status, c.created_at, u.display_name AS who FROM postcards c JOIN users u ON u.id = c.user_id ORDER BY (c.status = 'submitted') DESC, c.created_at DESC LIMIT 100` }, noStore);

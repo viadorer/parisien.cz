@@ -152,7 +152,7 @@
           field('pf-sig', L('Signature (affichée sous vos textes)', 'Podpis (zobrazí se pod vašimi texty)'), { a: { maxlength: 30, value: user.sig || user.name, placeholder: user.name } }),
           el('div', { class: 'sig-preview' }, el('span', { class: 'sig-name' }, user.sig || user.name)),
           field('pf-bio', L('À propos de moi (300 caractères max.)', 'O mně (max. 300 znaků)'), { tag: 'textarea', a: { maxlength: 300, rows: 3 } }),
-          el('label', { class: 'acct-check' }, el('input', { type: 'checkbox', id: 'pf-show', ...(user.showProfile ? { checked: '' } : {}) }), ' ', L('Afficher mon profil public (nom ou pseudonyme et mes articles)', 'Zobrazit můj veřejný profil (jméno nebo přezdívka a moje články)')),
+          el('label', { class: 'acct-check' }, el('input', { type: 'checkbox', id: 'pf-show', ...(user.showProfile ? { checked: '' } : {}) }), ' ', L('Afficher mon profil public (nom ou pseudonyme et mes articles). Par défaut, il reste privé.', 'Zobrazit můj veřejný profil (jméno nebo přezdívka a moje články). Ve výchozím stavu je soukromý.')),
           user.className ? el('label', { class: 'acct-check' }, el('input', { type: 'checkbox', id: 'pf-class', ...(user.showClass ? { checked: '' } : {}) }), ' ', L(`Afficher ma classe (${user.className})`, `Zobrazit mou třídu (${user.className})`)) : null,
           el('button', { class: 'chip', type: 'submit' }, L('Enregistrer', 'Uložit')),
           user.slug ? el('a', { class: 'read-more', style: 'margin-left:16px', href: `/${lang}/auteur/${user.slug}`, target: '_blank', rel: 'noopener' }, L('Voir mon profil', 'Zobrazit můj profil')) : null);

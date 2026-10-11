@@ -3,7 +3,9 @@
 //   POST ?action=react | postcard-create | correction-create
 import { sql, hasDb, ensureSchema } from '../lib/db.js';
 import { currentUser } from '../lib/users.js';
-import { send, readJson, str } from '../lib/http.js';
+import { send, readJson, str, clientIp } from '../lib/http.js';
+import { createHash } from 'node:crypto';
+import { hideTarget } from '../lib/moderation.js';
 import { getStudentPosts } from '../lib/posts.js';
 
 const KINDS = ['utile', 'merci', 'inspirant'];
@@ -22,16 +24,16 @@ export default async function handler(req, res) {
       if (action === 'authors') {
         const rows = await sql`SELECT u.public_slug AS slug, u.display_name AS name, u.bio, u.sig_text AS sig, u.class_name, u.show_class, count(p.id)::int AS posts
           FROM users u JOIN posts p ON p.author_user_id = u.id AND p.published
-          WHERE u.show_profile AND u.status = 'active' GROUP BY u.id ORDER BY max(p.published_at) DESC LIMIT 60`;
+          WHERE u.show_profile AND NOT u.profile_hidden AND u.status = 'active' GROUP BY u.id ORDER BY max(p.published_at) DESC LIMIT 60`;
         return send(res, 200, { authors: rows.map((r) => ({ slug: r.slug, name: r.name, sig: r.sig, className: r.show_class ? r.class_name : '', posts: r.posts })) }, short);
       }
       if (action === 'recent') {
         return send(res, 200, { posts: (await getStudentPosts({ limit: 12 })).map((p) => ({ slug: p.slug, title: p.title, excerpt: p.excerpt, level: p.level, category: p.category, author: p.author, authorSlug: p.authorSlug, date: p.date, cover: p.cover, coverCredit: p.coverCredit })) }, short);
       }
       if (action === 'postcards') {
-        const rows = await sql`SELECT c.id, c.photo_id, c.message, c.lang, c.created_at, u.display_name AS name, u.public_slug AS slug, u.show_profile, u.sig_text AS sig
+        const rows = await sql`SELECT c.id, c.photo_id, c.message, c.lang, c.created_at, u.display_name AS name, u.public_slug AS slug, u.show_profile, u.profile_hidden, u.sig_text AS sig
           FROM postcards c JOIN users u ON u.id = c.user_id WHERE c.status = 'published' AND u.status = 'active' ORDER BY c.created_at DESC LIMIT 60`;
-        return send(res, 200, { postcards: rows.map((r) => ({ id: r.id, photo: r.photo_id, message: r.message, lang: r.lang, date: r.created_at, name: r.name, slug: r.show_profile ? r.slug : '', sig: r.sig })) }, short);
+        return send(res, 200, { postcards: rows.map((r) => ({ id: r.id, photo: r.photo_id, message: r.message, lang: r.lang, date: r.created_at, name: r.name, slug: r.show_profile && !r.profile_hidden ? r.slug : '', sig: r.sig })) }, short);
       }
       if (action === 'trips') {
         const rows = await sql`SELECT p.slug, p.place, p.lat, p.lon, p.title_fr, p.title_cs, p.author FROM posts p WHERE p.published AND p.author_user_id IS NOT NULL AND p.lat IS NOT NULL ORDER BY p.published_at DESC LIMIT 200`;
@@ -46,6 +48,29 @@ export default async function handler(req, res) {
         return send(res, 200, { counts, mine, authed: Boolean(u) }, noStore);
       }
       return send(res, 400, { error: 'unknown' }, noStore);
+    }
+
+    // ---------- hlášení závadného obsahu (i bez přihlášení) ----------
+    if (action === 'report' && req.method === 'POST' && String(req.headers['content-type'] || '').includes('application/json')) {
+      const b = await readJson(req);
+      const kind = ['post', 'postcard', 'profile'].includes(b.kind) ? b.kind : null;
+      const reason = ['inappropriate', 'personal', 'copyright', 'other'].includes(b.reason) ? b.reason : null;
+      const target = str(b.target, 120), note = str(b.note, 300);
+      if (!kind || !reason || !target) return send(res, 400, { error: 'invalid' }, noStore);
+      const exists = kind === 'post' ? (await sql`SELECT 1 FROM posts WHERE slug = ${target} AND author_user_id IS NOT NULL`).length
+        : kind === 'postcard' ? (await sql`SELECT 1 FROM postcards WHERE id = ${Number(target) || 0}`).length
+        : (await sql`SELECT 1 FROM users WHERE public_slug = ${target}`).length;
+      if (!exists) return send(res, 404, { error: 'notfound' }, noStore);
+      const user = await currentUser(req);
+      const reporter = user ? `u:${user.id}` : `ip:${createHash('sha256').update(`${clientIp(req)}|${process.env.SESSION_SECRET || 'pz'}`).digest('hex').slice(0, 24)}`;
+      const [{ n }] = await sql`SELECT count(*)::int AS n FROM reports WHERE reporter = ${reporter} AND created_at > now() - interval '1 hour'`;
+      if (n >= 5) return send(res, 429, { error: 'rate' }, noStore);
+      if (!(await sql`SELECT 1 FROM reports WHERE reporter = ${reporter} AND kind = ${kind} AND target = ${target} AND status = 'open'`).length) {
+        await sql`INSERT INTO reports (kind, target, reason, note, reporter) VALUES (${kind}, ${target}, ${reason}, ${note}, ${reporter})`;
+        const [{ k }] = await sql`SELECT count(DISTINCT reporter)::int AS k FROM reports WHERE kind = ${kind} AND target = ${target} AND status = 'open'`;
+        if (k >= 3) await hideTarget(kind, target, true);          // automatické dočasné skrytí do kontroly učitelem
+      }
+      return send(res, 200, { ok: true }, noStore);
     }
 
     // ---------- zápisy (jen přihlášení studenti) ----------

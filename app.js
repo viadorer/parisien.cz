@@ -587,6 +587,30 @@
   const jset = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
   const SK = 'pz-saved', RK = 'pz-read';
 
+  // hlášení závadného obsahu
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-report-open]');
+    if (!btn) return;
+    const old = $('#report-dlg'); if (old) old.remove();
+    const R = [['inappropriate', L('Contenu inapproprié', 'Nevhodný obsah')], ['personal', L('Données personnelles', 'Osobní údaje')], ['copyright', L('Droits d’auteur', 'Autorská práva')], ['other', L('Autre', 'Jiný důvod')]];
+    const sel = el('select', { name: 'reason' }, ...R.map(([v, l]) => el('option', { value: v }, l)));
+    const note = el('input', { name: 'note', maxlength: '300', placeholder: L('Précision (facultatif)', 'Upřesnění (nepovinné)') });
+    const status = el('p', { class: 'acct-status', role: 'status' });
+    const dlg = el('dialog', { id: 'report-dlg', class: 'report-dlg' },
+      el('form', { method: 'dialog' }, el('h3', {}, L('Signaler ce contenu', 'Nahlásit obsah')),
+        el('p', { class: 'note' }, L('Le signalement est anonyme. Trois signalements masquent le contenu jusqu’à vérification par l’enseignant.', 'Nahlášení je anonymní. Po třech hlášeních se obsah skryje do kontroly učitelem.')),
+        el('label', {}, L('Motif', 'Důvod'), sel), el('label', {}, L('Précision', 'Upřesnění'), note), status,
+        el('div', { class: 'report-actions' },
+          Object.assign(el('button', { type: 'button', class: 'chip' }, L('Envoyer', 'Odeslat')), { onclick: async (ev) => {
+            ev.target.disabled = true;
+            try { await cApi('report', { kind: btn.dataset.kind, target: btn.dataset.target, reason: sel.value, note: note.value }); status.textContent = L('Merci, signalement reçu.', 'Děkujeme, hlášení přijato.'); status.className = 'acct-status ok'; setTimeout(() => dlg.close(), 1400); }
+            catch (err) { status.textContent = err.status === 429 ? L('Trop de signalements, réessayez plus tard.', 'Příliš mnoho hlášení, zkuste to později.') : L('Erreur, réessayez.', 'Chyba, zkuste to znovu.'); status.className = 'acct-status err'; ev.target.disabled = false; }
+          } }),
+          Object.assign(el('button', { type: 'button', class: 'chip' }, L('Annuler', 'Zrušit')), { onclick: () => dlg.close() }))));
+    dlg.addEventListener('close', () => dlg.remove());
+    document.body.append(dlg); dlg.showModal();
+  });
+
   // pochvaly
   $$('[data-reactions]').forEach((box) => {
     const slug = box.dataset.slug; let authed = false;
@@ -654,6 +678,7 @@
         el('div', { class: 'stamp' }, ico('mail'), el('span', {}, 'FR')),
         el('div', { class: 'postmark' }, 'PARIS', el('br'), mark),
         el('p', { class: 'pc-msg', lang: pc.lang || 'fr' }, pc.message),
+        pc.id ? el('button', { type: 'button', class: 'pc-report', 'data-report-open': '', 'data-kind': 'postcard', 'data-target': String(pc.id), title: L('Signaler', 'Nahlásit'), 'aria-label': L('Signaler', 'Nahlásit') }, ico('flag')) : null,
         el('p', { class: 'pc-sig' }, pc.slug ? el('a', { href: `/${lang}/auteur/${pc.slug}` }, pc.sig || pc.name) : (pc.sig || pc.name || ''))),
       credit ? el('p', { class: 'pc-credit' }, el('a', { href: credit.p, target: '_blank', rel: 'noopener' }, `© ${credit.c}`)) : null);
   };
