@@ -1239,7 +1239,7 @@ select option { color: #000; }
 .read-more { color: #000; }
 
 /* ---- responsivita ---- */
-@media (max-width: 1100px) {
+@media (max-width: 1360px) {
   header { flex-wrap: wrap; }
   .menu-toggle { display: flex; margin-left: auto; order: 2; }
   .lang { order: 3; }
@@ -1331,7 +1331,8 @@ body[data-tier="easy"] .lvl-full { display: none; }
 .easy-glossary { font-size: 13px; color: #555; margin-top: 8px; }
 .lvl-hidden { display: none !important; }
 .show-all { background: none; border: 0; color: inherit; text-decoration: underline; cursor: pointer; font: 600 13px 'Montserrat', sans-serif; margin: 8px 0; }
-@media (max-width: 1100px) { .level-pick { order: 2; } .glossary ul { columns: 1; } }
+@media (max-width: 1360px) { .level-pick { order: 2; } }
+@media (max-width: 1100px) { .glossary ul { columns: 1; } }
 
 /* ---- audio, sešit, dialogy, výrazy, trasy, hledání ---- */
 .search-link { font-size: 22px; line-height: 1; color: #000; padding: 4px 8px; text-decoration: none; flex: 0 0 auto; }
@@ -1413,3 +1414,20 @@ body[data-tier="easy"] .lvl-full { display: none; }
 .dark .quak-box .chip { color: #fff; background: transparent; border-color: rgba(255,255,255,.6); }
 .quak-tools { margin-top: 18px; display: flex; gap: 10px; flex-wrap: wrap; }
 .quak-link { margin-top: 12px; font-size: 14px; }
+
+/* ---- ikony (SVG) ---- */
+.ico { width: 1.15em; height: 1.15em; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.2em; flex: 0 0 auto; }
+.speak-btn .ico, .add-card .ico { width: 15px; height: 15px; vertical-align: middle; }
+.speak-btn, .add-card { display: inline-flex; align-items: center; justify-content: center; }
+.search-link .ico { width: 22px; height: 22px; vertical-align: middle; }
+.w-icon .ico { width: 1.25em; height: 1.25em; vertical-align: -0.3em; }
+.w-icon { margin-right: 8px; font-size: 16px; }
+nav ul li > button .ico { width: .9em; height: .9em; vertical-align: -0.1em; margin-left: 2px; }
+.listen-bar button .ico, .dlg-controls .ico { margin-right: 4px; vertical-align: -0.25em; }
+.listen-bar button[data-act="stop"] .ico { margin-right: 0; }
+nav ul li > button, nav ul li > a { white-space: nowrap; }
+nav ul li > button { display: inline-flex; align-items: center; gap: 3px; }
+.dlg-line { display: block; position: relative; padding: 8px 0 8px 126px; }
+.dlg-line b { position: absolute; left: 0; top: 12px; width: 112px; }
+.dlg-line .tr { grid-column: auto; margin-top: 2px; }
+@media (max-width: 768px) { .dlg-line { padding-left: 0; } .dlg-line b { position: static; display: block; width: auto; margin-bottom: 2px; } }

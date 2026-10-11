@@ -3,6 +3,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { layout, esc, pick, figure, SITE, stdUrl, std } from '../lib/layout.js';
+import { ico } from '../lib/icons.js';
 import { quakUrl, topicUrl, QUAK_TOPICS, dialogTopic, TOPICS_LIVE } from '../lib/quak.js';
 
 const ROOT = new URL('..', import.meta.url).pathname;
@@ -64,8 +65,8 @@ const link = (url, label) => (url ? `<a class="read-more" href="${esc(url)}" tar
 const dual = (easyHtml, fullHtml) => (easyHtml ? `<div class="lvl-full">${fullHtml}</div><div class="lvl-easy">${easyHtml}</div>` : fullHtml);
 const easyBlock = (x, lang) => (x.easy ? `<p>${esc(pick(x.easy, lang))}</p>${x.easyGlossary?.length ? `<p class="easy-glossary"><b>${lang === 'cs' ? 'Slovíčka' : 'Vocabulaire'} :</b> ${x.easyGlossary.map((g) => `<span lang="fr">${esc(g.fr)}</span> = ${esc(g.cs)}`).join(' · ')}</p>` : ''}` : '');
 const levelNote = (lang, extra = '') => `<p class="level-note lvl-easy">${lang === 'cs' ? 'Zobrazuje se zjednodušený text pro vaši úroveň. Úroveň změníte v nabídce nahoře.' : 'Texte simplifié affiché pour votre niveau. Changez de niveau dans le menu en haut.'}${extra}</p>`;
-const spk = (fr) => `<button type="button" class="speak-btn" data-speak="${esc(fr)}" aria-label="Écouter / Poslechnout" title="Écouter / Poslechnout" hidden>🔊</button>`;
-const addBtn = (fr, cs) => `<button type="button" class="add-card" data-fr="${esc(fr)}" data-cs="${esc(cs)}" aria-label="Carnet / Sešit" title="Mon carnet / Můj sešit">＋</button>`;
+const spk = (fr) => `<button type="button" class="speak-btn" data-speak="${esc(fr)}" aria-label="Écouter / Poslechnout" title="Écouter / Poslechnout" hidden>${ico('speaker')}</button>`;
+const addBtn = (fr, cs) => `<button type="button" class="add-card" data-fr="${esc(fr)}" data-cs="${esc(cs)}" aria-label="Carnet / Sešit" title="Mon carnet / Můj sešit">${ico('plus')}</button>`;
 const lvlTag = (l) => (l ? `<span class="tag lvl lvl-${esc(l)}">${esc(l)}</span>` : '');
 const quakNote = (lang, ids = Object.keys(QUAK_TOPICS), title) => `<aside class="quak-box"><strong>${esc(title || (lang === 'cs' ? 'Procvičte si to v Quaku' : 'À pratiquer dans Quak'))}</strong>
 <p>${esc(lang === 'cs' ? 'Quak je aplikace na slovíčka a fráze s chytrým opakováním (FSRS), výslovností a kurzy. Vyžaduje přihlášení.' : 'Quak est une application de vocabulaire et de phrases avec répétition espacée (FSRS), prononciation et cours. Connexion requise.')}</p>
@@ -415,7 +416,7 @@ pages['/dialogues'] = (lang) => {
   const one = (d) => `<details class="dlg" data-lvl="${esc(d.level)}" id="${esc(d.id)}" data-show-trans="${lang === 'cs' ? '1' : '0'}">
 <summary>${lvlTag(d.level)} <strong>${esc(pick(d.title, lang))}</strong><small>${esc(pick(d.scene, lang))}</small></summary>
 <div class="dlg-body">
-<p class="dlg-controls"><button type="button" class="chip" data-dlg-play hidden>▶ ${esc(L('Écouter le dialogue', 'Poslechnout dialog'))}</button> <button type="button" class="chip" data-dlg-trans aria-pressed="${lang === 'cs'}">${esc(L('Traduction', 'Překlad'))}</button></p>
+<p class="dlg-controls"><button type="button" class="chip" data-dlg-play hidden>${ico('play')} ${esc(L('Écouter le dialogue', 'Poslechnout dialog'))}</button> <button type="button" class="chip" data-dlg-trans aria-pressed="${lang === 'cs'}">${esc(L('Traduction', 'Překlad'))}</button></p>
 <div class="dlg-lines">${(d.lines || []).map((ln) => `<p class="dlg-line who-${esc(ln.who || 'A')}"><b>${esc(pick(ln.role, lang))}</b> <span class="fr" lang="fr">${esc(ln.fr)}</span> ${spk(ln.fr)}<span class="tr">${esc(ln.cs)}</span></p>`).join('')}</div>
 ${d.vocab?.length ? `<h4>${esc(L('Vocabulaire', 'Slovíčka'))}</h4><p class="chips">${d.vocab.map((v) => `<span class="chip static"><b lang="fr">${esc(v.fr)}</b> · ${esc(v.cs)} ${spk(v.fr)}${addBtn(v.fr, v.cs)}</span>`).join('')}</p>` : ''}
 ${d.tip ? `<p class="tip"><strong>${esc(L('À savoir', 'Dobré vědět'))} :</strong> ${esc(pick(d.tip, lang))}</p>` : ''}
@@ -426,7 +427,7 @@ ${d.quiz?.length ? `<div class="mini-quiz" data-lang="${lang}"></div><script typ
     title: L('Dialogues en français (A1–C1) – parisien.cz', 'Dialogy ve francouzštině (A1–C1) – parisien.cz'),
     description: L('Dialogues de la vie à Paris avec audio, traduction, vocabulaire et quiz, du niveau A1 au C1.', 'Dialogy z pařížského života se zvukem, překladem, slovíčky a kvízem od A1 po C1.'),
     body: head(lang, 'dialogues', L('Dialogues', 'Dialogy'), L('Écoutez, lisez, comprenez : des situations de la vie à Paris, du niveau A1 au C1.', 'Poslouchejte, čtěte, rozumějte: situace z pařížského života od úrovně A1 po C1.'))
-      + sec('', `<p id="learn-level-note" class="level-note" aria-live="polite"></p><p class="note">${esc(L('Le bouton 🔊 utilise la voix française de votre navigateur. Cliquez sur ＋ pour ajouter un mot à votre carnet.', 'Tlačítko 🔊 používá francouzský hlas vašeho prohlížeče. Kliknutím na ＋ přidáte slovo do sešitu.'))}</p><div class="dlg-list">${dialogues.map(one).join('')}</div>`),
+      + sec('', `<p id="learn-level-note" class="level-note" aria-live="polite"></p><p class="note">${esc(L('Le bouton d’écoute (haut-parleur) utilise la voix française de votre navigateur. Cliquez sur le bouton « + » pour ajouter un mot à votre carnet.', 'Tlačítko s reproduktorem používá francouzský hlas vašeho prohlížeče. Kliknutím na tlačítko „+“ přidáte slovo do sešitu.'))}</p><div class="dlg-list">${dialogues.map(one).join('')}</div>`),
   };
 };
 

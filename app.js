@@ -12,6 +12,8 @@
     for (const k of kids.flat()) if (k != null && k !== false) n.append(k instanceof Node ? k : document.createTextNode(k));
     return n;
   };
+  const NS = 'http://www.w3.org/2000/svg';
+  const ico = (name, cls = '') => { const sv = document.createElementNS(NS, 'svg'); sv.setAttribute('class', `ico${cls ? ' ' + cls : ''}`); sv.setAttribute('aria-hidden', 'true'); const u = document.createElementNS(NS, 'use'); u.setAttribute('href', `#i-${name}`); sv.append(u); return sv; };
   const safeUrl = (u) => (/^(https:\/\/|\/images\/)/.test(u || '') ? u : '');
   const pick = (o) => (o && (o[lang] || o[lang === 'cs' ? 'fr' : 'cs'])) || '';
   const fmtDay = (iso, opts) => new Date(iso).toLocaleDateString(loc, { timeZone: 'Europe/Paris', ...opts });
@@ -63,16 +65,16 @@
 
   // ---------- počasí a datum v Paříži (Open-Meteo, bez klíče) ----------
   const WMO = (c) => {
-    if (c === 0) return ['☀️', L('ciel dégagé', 'jasno')];
-    if (c <= 2) return ['⛅', L('partiellement nuageux', 'polojasno')];
-    if (c === 3) return ['☁️', L('couvert', 'zataženo')];
-    if (c <= 48) return ['🌫️', L('brouillard', 'mlha')];
-    if (c <= 57) return ['🌦️', L('bruine', 'mrholení')];
-    if (c <= 67) return ['🌧️', L('pluie', 'déšť')];
-    if (c <= 77) return ['❄️', L('neige', 'sníh')];
-    if (c <= 82) return ['🌧️', L('averses', 'přeháňky')];
-    if (c <= 86) return ['🌨️', L('averses de neige', 'sněhové přeháňky')];
-    return ['⛈️', L('orage', 'bouřka')];
+    if (c === 0) return ['sun', L('ciel dégagé', 'jasno')];
+    if (c <= 2) return ['cloudsun', L('partiellement nuageux', 'polojasno')];
+    if (c === 3) return ['cloud', L('couvert', 'zataženo')];
+    if (c <= 48) return ['fog', L('brouillard', 'mlha')];
+    if (c <= 57) return ['rain', L('bruine', 'mrholení')];
+    if (c <= 67) return ['rain', L('pluie', 'déšť')];
+    if (c <= 77) return ['snow', L('neige', 'sníh')];
+    if (c <= 82) return ['rain', L('averses', 'přeháňky')];
+    if (c <= 86) return ['snow', L('averses de neige', 'sněhové přeháňky')];
+    return ['storm', L('orage', 'bouřka')];
   };
   const weather = $('#weather');
   if (weather) {
@@ -85,17 +87,17 @@
     fetch('https://api.open-meteo.com/v1/forecast?latitude=48.8566&longitude=2.3522&current=temperature_2m,weather_code&daily=temperature_2m_max,temperature_2m_min&timezone=Europe%2FParis&forecast_days=1')
       .then((r) => r.json()).then((d) => {
         const [icon, label] = WMO(d.current.weather_code);
-        sW.replaceChildren(el('span', { class: 'w-icon', 'aria-hidden': 'true' }, icon), el('strong', {}, `${Math.round(d.current.temperature_2m)} °C`),
+        sW.replaceChildren(el('span', { class: 'w-icon', 'aria-hidden': 'true' }, ico(icon)), el('strong', {}, `${Math.round(d.current.temperature_2m)} °C`),
           ` ${L('à Paris', 'v Paříži')} · ${label} · ${Math.round(d.daily.temperature_2m_min[0])}°/${Math.round(d.daily.temperature_2m_max[0])}°`);
       }).catch(() => sW.remove());
     fetch('https://air-quality-api.open-meteo.com/v1/air-quality?latitude=48.8566&longitude=2.3522&current=european_aqi')
       .then((r) => r.json()).then((d) => {
         const v = d.current?.european_aqi; if (v == null) throw 0;
         const bands = [[20, L('très bon', 'výborná')], [40, L('bon', 'dobrá')], [60, L('moyen', 'přijatelná')], [80, L('médiocre', 'špatná')], [100, L('mauvais', 'velmi špatná')], [Infinity, L('très mauvais', 'extrémně špatná')]];
-        sA.replaceChildren(el('span', { class: 'w-icon', 'aria-hidden': 'true' }, '🍃'), L('Air : ', 'Ovzduší: '), el('strong', {}, bands.find(([m]) => v <= m)[1]), ` (EAQI ${Math.round(v)})`);
+        sA.replaceChildren(el('span', { class: 'w-icon', 'aria-hidden': 'true' }, ico('leaf')), L('Air : ', 'Ovzduší: '), el('strong', {}, bands.find(([m]) => v <= m)[1]), ` (EAQI ${Math.round(v)})`);
       }).catch(() => sA.remove());
     fetch('/api/live?what=seine').then((r) => r.json()).then(({ data }) => {
-      sS.replaceChildren(el('span', { class: 'w-icon', 'aria-hidden': 'true' }, '🌊'), L('Seine, Austerlitz : ', 'Seina, Austerlitz: '), el('strong', {}, `${num(data.levelM)} m`),
+      sS.replaceChildren(el('span', { class: 'w-icon', 'aria-hidden': 'true' }, ico('wave')), L('Seine, Austerlitz : ', 'Seina, Austerlitz: '), el('strong', {}, `${num(data.levelM)} m`),
         data.deltaM != null ? ` (${data.deltaM >= 0 ? '+' : '−'}${num(Math.abs(data.deltaM))} m / 24 h)` : '');
     }).catch(() => sS.remove());
   }
@@ -443,7 +445,7 @@
   const DK = 'pz-deck';
   const deckGet = () => { try { const d = JSON.parse(localStorage.getItem(DK) || '[]'); return Array.isArray(d) ? d : []; } catch { return []; } };
   const deckSet = (d) => { try { localStorage.setItem(DK, JSON.stringify(d.slice(0, 1000))); } catch {} };
-  const syncAddButtons = () => { const have = new Set(deckGet().map((c) => c.fr)); $$('.add-card').forEach((b) => { const on = have.has(b.dataset.fr); b.setAttribute('aria-pressed', String(on)); b.textContent = on ? '✓' : '＋'; }); };
+  const syncAddButtons = () => { const have = new Set(deckGet().map((c) => c.fr)); $$('.add-card').forEach((b) => { const on = have.has(b.dataset.fr); b.setAttribute('aria-pressed', String(on)); b.replaceChildren(ico(on ? 'check' : 'plus')); }); };
   document.addEventListener('click', (e) => {
     const b = e.target.closest('.add-card'); if (!b) return;
     e.preventDefault(); e.stopPropagation();
@@ -458,7 +460,7 @@
     let mode = 'list';
     const render = () => {
       const d = deckGet();
-      if (!d.length) { deckEl.replaceChildren(el('p', {}, L('Votre carnet est vide. Cliquez sur ＋ à côté d’un mot (vocabulaire, dialogues, expressions) pour l’ajouter.', 'Sešit je prázdný. Kliknutím na ＋ vedle slova (slovíčka, dialogy, výrazy) ho přidáte.'))); return; }
+      if (!d.length) { deckEl.replaceChildren(el('p', {}, L('Votre carnet est vide. Cliquez sur le bouton « + » à côté d’un mot (vocabulaire, dialogues, expressions) pour l’ajouter.', 'Sešit je prázdný. Kliknutím na tlačítko „+“ vedle slova (slovíčka, dialogy, výrazy) ho přidáte.'))); return; }
       const due = d.filter((c) => (c.due || 0) <= Date.now());
       const bar = el('div', { class: 'filters' },
         Object.assign(el('button', { class: 'chip', type: 'button', 'aria-pressed': String(mode === 'list') }, L(`Liste (${d.length})`, `Seznam (${d.length})`)), { onclick: () => { mode = 'list'; render(); } }),
@@ -468,7 +470,7 @@
           const a = el('a', { href: URL.createObjectURL(new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' })), download: 'parisien-carnet.csv' }); document.body.append(a); a.click(); a.remove(); } }));
       if (mode === 'list') {
         deckEl.replaceChildren(bar, el('table', { class: 'vocab' }, el('thead', {}, el('tr', {}, el('th', {}, L('Français', 'Francouzsky')), el('th', {}, L('Tchèque', 'Česky')), el('th', {}))),
-          el('tbody', {}, ...d.map((c) => el('tr', {}, el('td', { lang: 'fr' }, c.fr, ' ', hasTTS ? el('button', { class: 'speak-btn', type: 'button', 'data-speak': c.fr, 'aria-label': 'Écouter' }, '🔊') : null), el('td', {}, c.cs),
+          el('tbody', {}, ...d.map((c) => el('tr', {}, el('td', { lang: 'fr' }, c.fr, ' ', hasTTS ? el('button', { class: 'speak-btn', type: 'button', 'data-speak': c.fr, 'aria-label': 'Écouter' }, ico('speaker')) : null), el('td', {}, c.cs),
             el('td', {}, Object.assign(el('button', { class: 'chip', type: 'button' }, L('Retirer', 'Odebrat')), { onclick: () => { deckSet(deckGet().filter((x) => x.fr !== c.fr)); render(); } })))))),
           el('p', {}, Object.assign(el('button', { class: 'show-all', type: 'button' }, L('Vider le carnet', 'Vymazat sešit')), { onclick: () => { if (confirm(L('Vider tout le carnet ?', 'Opravdu vymazat celý sešit?'))) { deckSet([]); render(); } } })));
         return;
@@ -483,7 +485,7 @@
           Object.assign(el('button', { class: 'btn-primary', type: 'button' }, L('Je savais', 'Věděl(a) jsem')), { onclick: () => grade(true) }),
           Object.assign(el('button', { class: 'btn-primary light-on-dark', type: 'button' }, L('À revoir', 'Znovu')), { onclick: () => grade(false) })] : [
           Object.assign(el('button', { class: 'btn-primary', type: 'button' }, L('Voir la réponse', 'Zobrazit odpověď')), { onclick: () => { flipped = true; draw(); } }),
-          hasTTS ? Object.assign(el('button', { class: 'chip', type: 'button' }, '🔊'), { onclick: () => speakQueue([c.fr], 0.9) }) : null]));
+          hasTTS ? Object.assign(el('button', { class: 'chip', type: 'button', 'aria-label': 'Écouter' }, ico('speaker')), { onclick: () => speakQueue([c.fr], 0.9) }) : null]));
       };
       const grade = (ok) => { const d2 = deckGet(), t = d2.find((x) => x.fr === c.fr); if (t) { t.box = ok ? Math.min(4, (t.box || 1) + 1) : 1; t.due = Date.now() + GAP[t.box]; deckSet(d2); } render(); };
       card.append(body); draw(); deckEl.replaceChildren(bar, card, actions);
@@ -561,7 +563,7 @@
       const day = Math.floor(Date.now() / 864e5), e = list[day % list.length];
       exprDay.replaceChildren(el('div', { class: 'expr-day' },
         el('span', { class: 'kicker-small' }, L('Expression du jour', 'Výraz dne')), ' ', el('span', { class: `tag lvl lvl-${e.level}` }, e.level),
-        el('h3', { lang: 'fr' }, e.fr, ' ', hasTTS ? el('button', { class: 'speak-btn', type: 'button', 'data-speak': e.fr, 'aria-label': 'Écouter' }, '🔊') : null),
+        el('h3', { lang: 'fr' }, e.fr, ' ', hasTTS ? el('button', { class: 'speak-btn', type: 'button', 'data-speak': e.fr, 'aria-label': 'Écouter' }, ico('speaker')) : null),
         el('p', {}, (e.meaning && (e.meaning[lang] || e.meaning.fr)) || ''),
         e.example ? el('p', { class: 'tip' }, el('em', { lang: 'fr' }, e.example.fr), el('br'), e.example.cs) : null,
         el('a', { class: 'read-more', href: `/${lang}/expressions` }, L('Toutes les expressions →', 'Všechny výrazy →'))));

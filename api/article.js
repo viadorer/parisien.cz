@@ -1,6 +1,7 @@
 // Server-side vykreslený článek (SEO + náhledy při sdílení).  /fr/article/:slug a /cs/article/:slug  → /api/article?lang=&slug=
 import { layout, esc, pick, figure, SITE } from '../lib/layout.js';
 import { toHtml, plain } from '../lib/markup.js';
+import { ico } from '../lib/icons.js';
 import { getPost, getPosts, getVersions } from '../lib/posts.js';
 import { topicUrl, articleTopic, QUAK_TOPICS, TOPICS_LIVE } from '../lib/quak.js';
 
@@ -35,9 +36,9 @@ export default async function handler(req, res) {
     const versions = await getVersions(post.base);
     const switcher = versions.length > 1 ? `<nav class="level-switch" aria-label="${esc(t.level)}"><span>${esc(t.level)} :</span>${versions.map((v) => `<a href="/${lang}/article/${esc(v.slug)}" data-level="${esc(v.level)}"${v.slug === slug ? ' aria-current="page"' : ''}>${esc(v.level || '?')}</a>`).join('')}<small>${esc(t.levelNote)}</small></nav>` : '';
     const frText = plain(post.body.fr).slice(0, 14000);
-    const listen = frText ? `<div class="listen-bar" data-listen hidden><button type="button" data-act="play">▶ ${esc(t.listen)}</button><button type="button" data-act="stop" aria-label="${esc(t.stopL)}">■</button><label>${esc(t.speed)} <select data-speed><option value="0.75">0,75×</option><option value="0.9" selected>0,9×</option><option value="1">1×</option></select></label><script type="application/json" id="fr-text">${JSON.stringify(frText).replace(/</g, '\\u003c')}</script></div>` : '';
+    const listen = frText ? `<div class="listen-bar" data-listen hidden><button type="button" data-act="play">${ico('play')} ${esc(t.listen)}</button><button type="button" data-act="stop" aria-label="${esc(t.stopL)}">${ico('stop')}</button><label>${esc(t.speed)} <select data-speed><option value="0.75">0,75×</option><option value="0.9" selected>0,9×</option><option value="1">1×</option></select></label><script type="application/json" id="fr-text">${JSON.stringify(frText).replace(/</g, '\\u003c')}</script></div>` : '';
     const comp = post.questions?.length ? `<section class="comprehension"><h2>${esc(t.comp)}</h2><div id="cq" data-lang="${lang}"></div><script type="application/json" id="cq-data">${JSON.stringify(post.questions).replace(/</g, '\\u003c')}</script></section>` : '';
-    const glossary = post.glossary?.length ? `<aside class="glossary"><h2>${esc(t.glossary)}</h2><ul>${post.glossary.map((g) => `<li><b lang="fr">${esc(g.fr)}</b> · ${esc(g.cs)} <button type="button" class="speak-btn" data-speak="${esc(g.fr)}" aria-label="Écouter" hidden>🔊</button><button type="button" class="add-card" data-fr="${esc(g.fr)}" data-cs="${esc(g.cs)}" aria-label="Carnet">＋</button></li>`).join('')}</ul></aside>` : '';
+    const glossary = post.glossary?.length ? `<aside class="glossary"><h2>${esc(t.glossary)}</h2><ul>${post.glossary.map((g) => `<li><b lang="fr">${esc(g.fr)}</b> · ${esc(g.cs)} <button type="button" class="speak-btn" data-speak="${esc(g.fr)}" aria-label="Écouter" hidden>${ico('speaker')}</button><button type="button" class="add-card" data-fr="${esc(g.fr)}" data-cs="${esc(g.cs)}" aria-label="Carnet">${ico('plus')}</button></li>`).join('')}</ul></aside>` : '';
 
     const html = layout({
       lang, path: `/article/${slug}`, title: `${title} – parisien.cz`, description: pick(post.excerpt, lang),
